@@ -2,7 +2,7 @@
 author-meta:
 - John Doe
 - Jane Roe
-date-meta: '2019-07-11'
+date-meta: '2019-07-14'
 keywords:
 - pediatric cancer
 - brain tumor
@@ -18,10 +18,10 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/75f4e6bf5e32657317198472633595cf013bc21b/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1c57c53f6b0d71fa3f1f66083148bfab297badcc/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@75f4e6b](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/75f4e6bf5e32657317198472633595cf013bc21b)
-on July 11, 2019.
+from [AlexsLemonade/OpenPBTA-manuscript@1c57c53](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/1c57c53f6b0d71fa3f1f66083148bfab297badcc)
+on July 14, 2019.
 </em></small>
 
 ## Authors
@@ -54,6 +54,11 @@ on July 11, 2019.
 ## Abstract {.page_break_before}
 
 
+
+
+## Conclusions
+
+Stub in conclusions section   
 
 
 ## References {.page_break_before}

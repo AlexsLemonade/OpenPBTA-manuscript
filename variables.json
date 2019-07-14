@@ -46,12 +46,12 @@
     "repo_slug": "AlexsLemonade/OpenPBTA-manuscript",
     "repo_owner": "AlexsLemonade",
     "repo_name": "OpenPBTA-manuscript",
-    "commit": "1c57c53f6b0d71fa3f1f66083148bfab297badcc"
+    "commit": "6e1ec82ea509e240e96cac07fcb6e77e8126c564"
   },
   "manuscript_stats": {
     "reference_counts": {
       "total": 0
     },
-    "word_count": 238
+    "word_count": 244
   }
 }

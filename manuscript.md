@@ -2,7 +2,7 @@
 author-meta:
 - John Doe
 - Jane Roe
-date-meta: '2019-07-14'
+date-meta: '2019-07-15'
 keywords:
 - pediatric cancer
 - brain tumor
@@ -18,10 +18,10 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/34b8e1ab138c1e04315996d53acd7fef40060b5d/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/8993eb4e2751aee9f671a9ed4fb5a2de2ca062b5/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@34b8e1a](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/34b8e1ab138c1e04315996d53acd7fef40060b5d)
-on July 14, 2019.
+from [AlexsLemonade/OpenPBTA-manuscript@8993eb4](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/8993eb4e2751aee9f671a9ed4fb5a2de2ca062b5)
+on July 15, 2019.
 </em></small>
 
 ## Authors
@@ -59,6 +59,31 @@ on July 14, 2019.
 ## Introduction
 
 Introduction will go here.
+
+
+## Materials and Methods
+
+### Children's Brain Tumor Tissue Consortium Data
+
+### Pediatric Pacific Neuro-oncology Consortium Data
+
+### Germ Line Single Nucleotide Variant Calling
+
+### Germ Line Copy Number Variant Calling
+
+### Germ Line Structural Variant Calling
+
+### Somatic Single Nucleotide Variant Calling
+
+### Somatic Copy Number Variant Calling
+
+### Somatic Structural Variant Calling
+
+### Gene Expression Abundance Estimation
+
+### RNA Fusion Calling and Prioritization
+
+### Clinical Data Harmonization
 
 
 ## Results

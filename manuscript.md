@@ -18,9 +18,9 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/8569bbf5b13bcba63d63ad8d88ccc98d26acdb6a/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/424d146f2c0df9cb95caff4b2fd4103f05f16661/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@8569bbf](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/8569bbf5b13bcba63d63ad8d88ccc98d26acdb6a)
+from [AlexsLemonade/OpenPBTA-manuscript@424d146](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/424d146f2c0df9cb95caff4b2fd4103f05f16661)
 on July 29, 2019.
 </em></small>
 

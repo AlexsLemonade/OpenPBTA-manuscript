@@ -1,6 +1,7 @@
 # Contribution guidelines for the OpenPBTA-manuscript
 
-Please see [`USAGE.md`](USAGE.md) for information on how to use the Manubot for writing the manuscript. Below you'll find information on the contribution workflow for the OpenPBTA manuscript.
+Please see [`USAGE.md`](USAGE.md) for information on how to use the Manubot for writing the manuscript.
+Below you'll find information on the contribution workflow for the OpenPBTA manuscript.
 
 ## Issues
 

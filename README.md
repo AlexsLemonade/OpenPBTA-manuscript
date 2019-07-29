@@ -10,8 +10,12 @@
 
 <!-- usage note: edit this section. -->
 
-This repository is a template manuscript (a.k.a. rootstock).
-Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.md)) and replace this paragraph with a description of their manuscript.
+This repository is home to the manuscript for the Open Pediatric Brain Tumor Atlas (OpenPBTA), a genomic landscape of over 1,000 pediatric brain tumors.
+The OpenPBTA is collaboratively analyzed (see [OpenPBTA Analysis Repository](https://github.com/AlexsLemonade/OpenPBTA-analysis) and collaboratively written on GitHub using a tool called Manubot (below).
+This project operates on an open contribution model, welcoming contributions from anyone (see [`CONTRIBUTING.md`](CONTRIBUTING.md) and/or the [Deep Review project](https://github.com/greenelab/deep-review) as an example).
+For project discussion and planning see the [Issues](https://github.com/AlexsLemonade/OpenPBTA-manuscript/issues).
+To see incoming contributions, check the open [pull requests](https://github.com/AlexsLemonade/OpenPBTA-manuscript/pulls).
+See the latest version of the manuscript as a [webpage](https://alexslemonade.github.io/OpenPBTA-manuscript/) or download it as a [PDF](https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf).
 
 ## Manubot
 

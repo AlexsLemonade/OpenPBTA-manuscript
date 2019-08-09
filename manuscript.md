@@ -2,7 +2,7 @@
 author-meta:
 - John Doe
 - Jane Roe
-date-meta: '2019-07-29'
+date-meta: '2019-08-09'
 keywords:
 - pediatric cancer
 - brain tumor
@@ -18,10 +18,10 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/424d146f2c0df9cb95caff4b2fd4103f05f16661/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/afc5d1eae9fa19ec930ba74e7401dc30a59f7ab3/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@424d146](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/424d146f2c0df9cb95caff4b2fd4103f05f16661)
-on July 29, 2019.
+from [AlexsLemonade/OpenPBTA-manuscript@afc5d1e](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/afc5d1eae9fa19ec930ba74e7401dc30a59f7ab3)
+on August 9, 2019.
 </em></small>
 
 ## Authors
@@ -67,11 +67,9 @@ Introduction will go here.
 
 ### Pediatric Pacific Neuro-oncology Consortium Data
 
+### DNA Alignment
+
 ### Germ Line Single Nucleotide Variant Calling
-
-### Germ Line Copy Number Variant Calling
-
-### Germ Line Structural Variant Calling
 
 ### Somatic Single Nucleotide Variant Calling
 

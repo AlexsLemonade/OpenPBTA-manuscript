@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="John Doe" />
   <meta name="author" content="Jane Roe" />
-  <meta name="dcterms.date" content="2019-08-19" />
+  <meta name="dcterms.date" content="2019-08-20" />
   <meta name="keywords" content="pediatric cancer, brain tumor, tumor atlas" />
   <title>An Open Pediatric Brain Tumor Atlas</title>
   <style>
@@ -23,7 +23,7 @@
 <header id="title-block-header">
 <h1 class="title">An Open Pediatric Brain Tumor Atlas</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/4bd4f5bbd7663030b55cf9d50800ed1dece4cbfd/">permalink</a>) was automatically generated from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/4bd4f5bbd7663030b55cf9d50800ed1dece4cbfd">AlexsLemonade/OpenPBTA-manuscript@4bd4f5b</a> on August 19, 2019. </em></small></p>
+<p><small><em> This manuscript (<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/69e36ae5602e7c3fb6724f7db74718db5f44ab62/">permalink</a>) was automatically generated from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/69e36ae5602e7c3fb6724f7db74718db5f44ab62">AlexsLemonade/OpenPBTA-manuscript@69e36ae</a> on August 20, 2019. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><p><strong>John Doe</strong><br> <img src="images/orcid.svg" alt="ORCID icon" class="inline_icon" /> <a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX">XXXX-XXXX-XXXX-XXXX</a> · <img src="images/github.svg" alt="GitHub icon" class="inline_icon" /> <a href="https://github.com/johndoe">johndoe</a> · <img src="images/twitter.svg" alt="Twitter icon" class="inline_icon" /> <a href="https://twitter.com/johndoe">johndoe</a><br> <small> Department of Something, University of Whatever · Funded by Grant XXXXXXXX </small></p></li>
@@ -33,8 +33,11 @@
 <h2 id="introduction">Introduction</h2>
 <p>Introduction will go here.</p>
 <h2 id="materials-and-methods">Materials and Methods</h2>
-<h3 id="childrens-brain-tumor-tissue-consortium-data">Children’s Brain Tumor Tissue Consortium Data</h3>
-<h3 id="pediatric-pacific-neuro-oncology-consortium-data">Pediatric Pacific Neuro-oncology Consortium Data</h3>
+<h3 id="biospecimen-collection">Biospecimen collection</h3>
+<p>The Pediatric Brain Tumor Atlas specimens are comprised of samples from Children’s Brain Tumor Tissue Consortium (CBTTC) and the Pediatric Pacific Neuro-oncology Consortium (PNOC). Blood and tumor biospecimens from patients enrolled within the CBTTC were sent to the Children’s Hospital of Philadelphia for RNA and/or DNA extraction. PNOC collected blood and tumor biospecimens from newly-diagnosed DIPG patients as part of the clinical trial <a href="https://clinicaltrials.gov/ct2/show/NCT02274987">PNOC003/NCT02274987</a> <span class="citation" data-cites="BLNV1DbL">[<a href="#ref-BLNV1DbL" role="doc-biblioref">1</a>]</span>.</p>
+<h4 id="nucleic-acids-extraction">Nucleic acids extraction</h4>
+<h4 id="data-generation">Data generation</h4>
+<p>NantHealth Sequencing Center (Culver City, CA) performed whole genome sequencing (WGS) on all paired tumor (~60X) and constitutive (~30X) DNA samples. WGS libraries were 2x150 bp and sequenced on an Illumina X/400. NantHealth Sequencing Center performed ribosomal-depleted whole transcriptome stranded RNA-Seq to an average depth of 100M reads for CBTTC tumor samples. Translational Genomic Research Institute (TGEN; Phoenix, AZ) performed paired tumor (~200X) and constitutive whole exome sequencing (WXS) and poly-A selected RNA-Seq (~200M reads) for PNOC tumor samples. PNOC WXS and RNA-Seq libraries 2x100 bp and sequenced on an Illumina HiSeq 2500.</p>
 <h3 id="dna-alignment">DNA Alignment</h3>
 <h3 id="germ-line-single-nucleotide-variant-calling">Germ Line Single Nucleotide Variant Calling</h3>
 <h3 id="somatic-single-nucleotide-variant-calling">Somatic Single Nucleotide Variant Calling</h3>
@@ -43,9 +46,9 @@
 <h3 id="gene-expression-abundance-estimation">Gene Expression Abundance Estimation</h3>
 <h3 id="rna-fusion-calling-and-prioritization">RNA Fusion Calling and Prioritization</h3>
 <h4 id="gene-fusion-detection">Gene fusion detection</h4>
-<p>We set up <a href="https://github.com/suhrig/arriba/">Arriba v1.1.0</a> and STAR-Fusion 1.5.0 <span class="citation" data-cites="rqYlIiAi">[<a href="#ref-rqYlIiAi" role="doc-biblioref">1</a>]</span> fusion detection tools using CWL on CAVATICA. For both these tools we used aligned BAM and chimeric SAM files from STAR as inputs and GRCh38_gencode_v27 GTF for gene annotation. We ran STAR-Fusion with default parameters and annotated all fusion calls with GRCh38_v27_CTAT_lib_Feb092018.plug-n-play.tar.gz provided in the STAR-fusion release. For Arriba, we used a blacklist file (blacklist_hg38_GRCh38_2018-11-04.tsv.gz) from the Arriba release tarballs to remove recurrent fusion artifacts and transcripts present in healthy tissue. We also provided Arriba with strandedness information or set it to auto-detection for polyA samples.</p>
+<p>We set up <a href="https://github.com/suhrig/arriba/">Arriba v1.1.0</a> and STAR-Fusion 1.5.0 <span class="citation" data-cites="rqYlIiAi">[<a href="#ref-rqYlIiAi" role="doc-biblioref">2</a>]</span> fusion detection tools using CWL on CAVATICA. For both these tools we used aligned BAM and chimeric SAM files from STAR as inputs and GRCh38_gencode_v27 GTF for gene annotation. We ran STAR-Fusion with default parameters and annotated all fusion calls with GRCh38_v27_CTAT_lib_Feb092018.plug-n-play.tar.gz provided in the STAR-fusion release. For Arriba, we used a blacklist file (blacklist_hg38_GRCh38_2018-11-04.tsv.gz) from the Arriba release tarballs to remove recurrent fusion artifacts and transcripts present in healthy tissue. We also provided Arriba with strandedness information or set it to auto-detection for polyA samples.</p>
 <h4 id="fusion-prioritization">Fusion prioritization</h4>
-<p>We built a <a href="https://github.com/d3b-center/fusion_filtering_pipeline">fusion prioritization pipeline</a> to filter and annotate fusions. We considered all inframe and frameshift fusion calls with 1 or more junction reads and fused genes expressed with TPM greater than one to be true calls. If a fusion call had large number of spanning fragment reads compared to junction reads (spanning fragment minus junction read greater than ten) or if either 5` or 3` genes fused to more than five different genes we removed these calls as a potential false positive. We also removed fusions if the 5` or 3` ends were the same gene, and these were tagged as non-canonical splicing or duplication. We used a list of curated fusion calls for each histology to capture each occurrence of the fusion as a putative driver fusion. We prioritized a union of fusion calls as true calls if the fused genes were detected by both callers, the same fusion was recurrent in histology (&gt;2 samples) or the fusion was specific to the broad histology. We annotated putative driver fusions and prioritized fusions lists with kinases, oncogenic, tumor suppressor, transcription factor, fused genes and known TCGA fusions from curated <a href="https://github.com/d3b-center/fusion_filtering_pipeline/tree/master/references">datasheets</a>. We also added chimerDB <span class="citation" data-cites="FLBuvqQe">[<a href="#ref-FLBuvqQe" role="doc-biblioref">2</a>]</span> annotations to both driver and prioritized fusion list.</p>
+<p>We built a <a href="https://github.com/d3b-center/fusion_filtering_pipeline">fusion prioritization pipeline</a> to filter and annotate fusions. We considered all inframe and frameshift fusion calls with 1 or more junction reads and fused genes expressed with TPM greater than one to be true calls. If a fusion call had large number of spanning fragment reads compared to junction reads (spanning fragment minus junction read greater than ten) or if either 5` or 3` genes fused to more than five different genes we removed these calls as a potential false positive. We also removed fusions if the 5` or 3` ends were the same gene, and these were tagged as non-canonical splicing or duplication. We used a list of curated fusion calls for each histology to capture each occurrence of the fusion as a putative driver fusion. We prioritized a union of fusion calls as true calls if the fused genes were detected by both callers, the same fusion was recurrent in histology (&gt;2 samples) or the fusion was specific to the broad histology. We annotated putative driver fusions and prioritized fusions lists with kinases, oncogenic, tumor suppressor, transcription factor, fused genes and known TCGA fusions from curated <a href="https://github.com/d3b-center/fusion_filtering_pipeline/tree/master/references">datasheets</a>. We also added chimerDB <span class="citation" data-cites="FLBuvqQe">[<a href="#ref-FLBuvqQe" role="doc-biblioref">3</a>]</span> annotations to both driver and prioritized fusion list.</p>
 <h3 id="clinical-data-harmonization">Clinical Data Harmonization</h3>
 <h2 id="results">Results</h2>
 <p>Results section stub.</p>
@@ -54,14 +57,20 @@
 <h2 id="references" class="page_break_before">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" role="doc-bibliography">
+<div id="ref-BLNV1DbL">
+<p>1. <strong>A pilot precision medicine trial for children with diffuse intrinsic pontine glioma—PNOC003: A report from the Pacific Pediatric Neuro‐Oncology Consortium</strong><br />
+Sabine Mueller, Payal Jain, Winnie S. Liang, Lindsay Kilburn, Cassie Kline, Nalin Gupta, Eshini Panditharatna, Suresh N. Magge, Bo Zhang, Yuankun Zhu, … Adam C. Resnick<br />
+<em>International Journal of Cancer</em> (2019-04-03) <a href="https://doi.org/gf6pfb">https://doi.org/gf6pfb</a><br />
+DOI: <a href="https://doi.org/10.1002/ijc.32258">10.1002/ijc.32258</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30861105">30861105</a></p>
+</div>
 <div id="ref-rqYlIiAi">
-<p>1. <strong>STAR-Fusion: Fast and Accurate Fusion Transcript Detection from RNA-Seq</strong><br />
+<p>2. <strong>STAR-Fusion: Fast and Accurate Fusion Transcript Detection from RNA-Seq</strong><br />
 Brian J. Haas, Alex Dobin, Nicolas Stransky, Bo Li, Xiao Yang, Timothy Tickle, Asma Bankapur, Carrie Ganote, Thomas G. Doak, Nathalie Pochet, … Aviv Regev<br />
 <em>Cold Spring Harbor Laboratory</em> (2017-03-24) <a href="https://doi.org/gf5pc5">https://doi.org/gf5pc5</a><br />
 DOI: <a href="https://doi.org/10.1101/120295">10.1101/120295</a></p>
 </div>
 <div id="ref-FLBuvqQe">
-<p>2. <strong>OUP accepted manuscript</strong><br />
+<p>3. <strong>OUP accepted manuscript</strong><br />
 Nucleic Acids Research<br />
 (2016) <a href="https://doi.org/gf6bx9">https://doi.org/gf6bx9</a><br />
 DOI: <a href="https://doi.org/10.1093/nar/gkw1083">10.1093/nar/gkw1083</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27899563">27899563</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5210563">PMC5210563</a></p>

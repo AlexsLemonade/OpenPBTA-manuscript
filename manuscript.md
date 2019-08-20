@@ -2,7 +2,7 @@
 author-meta:
 - John Doe
 - Jane Roe
-date-meta: '2019-08-19'
+date-meta: '2019-08-20'
 keywords:
 - pediatric cancer
 - brain tumor
@@ -18,10 +18,10 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/4bd4f5bbd7663030b55cf9d50800ed1dece4cbfd/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/69e36ae5602e7c3fb6724f7db74718db5f44ab62/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@4bd4f5b](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/4bd4f5bbd7663030b55cf9d50800ed1dece4cbfd)
-on August 19, 2019.
+from [AlexsLemonade/OpenPBTA-manuscript@69e36ae](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/69e36ae5602e7c3fb6724f7db74718db5f44ab62)
+on August 20, 2019.
 </em></small>
 
 ## Authors
@@ -63,9 +63,21 @@ Introduction will go here.
 
 ## Materials and Methods
 
-### Children's Brain Tumor Tissue Consortium Data
+### Biospecimen collection
 
-### Pediatric Pacific Neuro-oncology Consortium Data
+The Pediatric Brain Tumor Atlas specimens are comprised of samples from Children's Brain Tumor Tissue Consortium (CBTTC) and the Pediatric Pacific Neuro-oncology Consortium (PNOC). 
+Blood and tumor biospecimens from patients enrolled within the CBTTC were sent to the Children's Hospital of Philadelphia for RNA and/or DNA extraction.
+PNOC collected blood and tumor biospecimens from newly-diagnosed DIPG patients as part of the clinical trial [PNOC003/NCT02274987](https://clinicaltrials.gov/ct2/show/NCT02274987) [@BLNV1DbL]. 
+
+#### Nucleic acids extraction
+
+#### Data generation
+
+NantHealth Sequencing Center (Culver City, CA) performed whole genome sequencing (WGS) on all paired tumor (~60X) and constitutive (~30X) DNA samples.
+WGS libraries were 2x150 bp and sequenced on an Illumina X/400.
+NantHealth Sequencing Center performed ribosomal-depleted whole transcriptome stranded RNA-Seq to an average depth of 100M reads for CBTTC tumor samples.
+Translational Genomic Research Institute (TGEN; Phoenix, AZ) performed paired tumor (~200X) and constitutive whole exome sequencing (WXS) and poly-A selected RNA-Seq (~200M reads) for  PNOC tumor samples. 
+PNOC WXS and RNA-Seq libraries 2x100 bp and sequenced on an Illumina HiSeq 2500.
 
 ### DNA Alignment
 

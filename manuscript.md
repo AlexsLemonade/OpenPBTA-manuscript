@@ -18,9 +18,9 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/170eed268c857e6da3e408b806551ac9af2783ef/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/a14cb09cd9a799a40500c04cfa18a4d93fb0506e/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@170eed2](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/170eed268c857e6da3e408b806551ac9af2783ef)
+from [AlexsLemonade/OpenPBTA-manuscript@a14cb09](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/a14cb09cd9a799a40500c04cfa18a4d93fb0506e)
 on August 22, 2019.
 </em></small>
 
@@ -102,7 +102,8 @@ We filtered outputs from both callers on the "PASS" filter, and annotated using 
 
 ### Somatic Copy Number Variant Calling
 
-We used Control-FREEC [@ZQ0L3o1q; @1F3i4BvCt] v8.7 for copy number variant calls.
+We used Control-FREEC [@ZQ0L3o1q; @1F3i4BvCt] v8.7 and CNVkit [@UTxRcYIQ] v0.9.3 for copy number variant calls. 
+CNVkit was run using default parameters on human genome reference hg38 and using the batch command for tumor-normal pairs rather than a panel of normals.
 
 ### Somatic Structural Variant Calling
 

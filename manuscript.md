@@ -2,7 +2,7 @@
 author-meta:
 - John Doe
 - Jane Roe
-date-meta: '2019-08-20'
+date-meta: '2019-08-22'
 keywords:
 - pediatric cancer
 - brain tumor
@@ -18,10 +18,10 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/69e36ae5602e7c3fb6724f7db74718db5f44ab62/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/2745d918575e82f5f49dced6fa7bd782ec4d750a/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@69e36ae](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/69e36ae5602e7c3fb6724f7db74718db5f44ab62)
-on August 20, 2019.
+from [AlexsLemonade/OpenPBTA-manuscript@2745d91](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/2745d918575e82f5f49dced6fa7bd782ec4d750a)
+on August 22, 2019.
 </em></small>
 
 ## Authors
@@ -79,17 +79,46 @@ NantHealth Sequencing Center performed ribosomal-depleted whole transcriptome st
 Translational Genomic Research Institute (TGEN; Phoenix, AZ) performed paired tumor (~200X) and constitutive whole exome sequencing (WXS) and poly-A selected RNA-Seq (~200M reads) for  PNOC tumor samples. 
 PNOC WXS and RNA-Seq libraries 2x100 bp and sequenced on an Illumina HiSeq 2500.
 
-### DNA Alignment
+### DNA WGS Alignment
+
+We used BWA-MEM [@gmH6YDca] v0.7.17 for alignment of paired-end DNA-seq reads.
+The alignment reference that we used was Homo Sapiens Human Genome (hg) version 38, patch release 12, fasta file obtained from UCSC [@1AWRgvxVu].
+Alignments were futher processed using following the Broad Institute's Best Practices [@EHMzG34o=11165] for processing BAMs in preparation for variant discovery.
+Duplicates were marked using Samblaster[@IzUbOv92] v0.1.24, BAMs merged and sorted using Sambamba [@PcJwlZj3] v0.6.3.
+Lastly, resultant BAMs were processing using Broad's Genome Analysis Tool Kit (GATK) [@RsmkaFIb] v4.0.3.0, BaseRecalibrator submodule.
 
 ### Germ Line Single Nucleotide Variant Calling
 
+### Germ Line Copy Number Variant Calling
+
+### Germ Line Structural Variant Calling
+
 ### Somatic Single Nucleotide Variant Calling
+#### SNV and INDEL calling
+
+We used Strelka2 [@REfkDUtE] v2.9.3 and Mutect2 from GATK v4.1.1.0.
+Strelka2 was run using default parameters on human genome reference hg38, canonical chromosomes only (chr1-22, X,Y,M), as recommended by the author.
+Mutect2 was run following Broad best practices outlined from their Workflow Description Language (WDL) [@E5aTvXmQ].  
+
+#### VCF annotation and MAF creation
+
+We filtered outputs from both callers on the "PASS" filter, and annotated using The ENSEMBL Variant Effect Predictor [@p1f5DxRQ], reference release 93, and created MAFs using MSKCC's vcf2maf [@11Fn5jqUI] v1.6.16.
 
 ### Somatic Copy Number Variant Calling
 
+We used Control-FREEC [@ZQ0L3o1q; @1F3i4BvCt] v8.7 for copy number variant calls.
+
 ### Somatic Structural Variant Calling
 
+We used Manta SV [@kTn1PIj5] v1.4.0 for structural variant (SV) calls.
+SV calling was also limited to regions using in Strelka2.
+
 ### Gene Expression Abundance Estimation
+We used STAR [@tTu8Ds9Z] v2.6.1d to align paired-end RNA-seq reads.
+This output was used for all subsequent RNA analysis. The reference we used was that of ENSEMBL's GENCODE 27 [@9oRUnb2k], "Comprehensive gene annotation."
+We used RSEM [@Dh2n1EV3] v1.3.1 for transcript- and gene-level quantification.
+We also added a second method of quantification using kallisto [@12KZMHMQl] v0.43.1.
+This method differs in that it uses pseudoaligments using fastq reads directly to the aforementioned GENCODE 27 reference.
 
 ### RNA Fusion Calling and Prioritization
 #### Gene fusion detection

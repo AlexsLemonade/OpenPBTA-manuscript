@@ -18,9 +18,9 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/14a1ce1e6435e757077f3b3a020a1c3e57a01445/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/170eed268c857e6da3e408b806551ac9af2783ef/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@14a1ce1](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/14a1ce1e6435e757077f3b3a020a1c3e57a01445)
+from [AlexsLemonade/OpenPBTA-manuscript@170eed2](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/170eed268c857e6da3e408b806551ac9af2783ef)
 on August 22, 2019.
 </em></small>
 
@@ -107,7 +107,9 @@ We used Control-FREEC [@ZQ0L3o1q; @1F3i4BvCt] v8.7 for copy number variant calls
 ### Somatic Structural Variant Calling
 
 We used Manta SV [@kTn1PIj5] v1.4.0 for structural variant (SV) calls.
-SV calling was also limited to regions using in Strelka2.
+Manta SV calling was also limited to regions used in Strelka2.
+We also ran LUMPY SV [@2dosQoAM] v0.2.13 in express mode using default parameters. 
+The hg38 reference used was also limited to canonical chromosome regions.
 
 ### Gene Expression Abundance Estimation
 We used STAR [@tTu8Ds9Z] v2.6.1d to align paired-end RNA-seq reads.

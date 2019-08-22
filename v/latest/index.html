@@ -23,7 +23,7 @@
 <header id="title-block-header">
 <h1 class="title">An Open Pediatric Brain Tumor Atlas</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/14a1ce1e6435e757077f3b3a020a1c3e57a01445/">permalink</a>) was automatically generated from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/14a1ce1e6435e757077f3b3a020a1c3e57a01445">AlexsLemonade/OpenPBTA-manuscript@14a1ce1</a> on August 22, 2019. </em></small></p>
+<p><small><em> This manuscript (<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/170eed268c857e6da3e408b806551ac9af2783ef/">permalink</a>) was automatically generated from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/170eed268c857e6da3e408b806551ac9af2783ef">AlexsLemonade/OpenPBTA-manuscript@170eed2</a> on August 22, 2019. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><p><strong>John Doe</strong><br> <img src="images/orcid.svg" alt="ORCID icon" class="inline_icon" /> <a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX">XXXX-XXXX-XXXX-XXXX</a> · <img src="images/github.svg" alt="GitHub icon" class="inline_icon" /> <a href="https://github.com/johndoe">johndoe</a> · <img src="images/twitter.svg" alt="Twitter icon" class="inline_icon" /> <a href="https://twitter.com/johndoe">johndoe</a><br> <small> Department of Something, University of Whatever · Funded by Grant XXXXXXXX </small></p></li>
@@ -49,14 +49,14 @@
 <h3 id="somatic-copy-number-variant-calling">Somatic Copy Number Variant Calling</h3>
 <p>We used Control-FREEC <span class="citation" data-cites="ZQ0L3o1q 1F3i4BvCt">[<a href="#ref-ZQ0L3o1q" role="doc-biblioref">12</a>,<a href="#ref-1F3i4BvCt" role="doc-biblioref">13</a>]</span> v8.7 for copy number variant calls.</p>
 <h3 id="somatic-structural-variant-calling">Somatic Structural Variant Calling</h3>
-<p>We used Manta SV <span class="citation" data-cites="kTn1PIj5">[<a href="#ref-kTn1PIj5" role="doc-biblioref">14</a>]</span> v1.4.0 for structural variant (SV) calls. SV calling was also limited to regions using in Strelka2.</p>
+<p>We used Manta SV <span class="citation" data-cites="kTn1PIj5">[<a href="#ref-kTn1PIj5" role="doc-biblioref">14</a>]</span> v1.4.0 for structural variant (SV) calls. Manta SV calling was also limited to regions used in Strelka2. We also ran LUMPY SV <span class="citation" data-cites="2dosQoAM">[<a href="#ref-2dosQoAM" role="doc-biblioref">15</a>]</span> v0.2.13 in express mode using default parameters. The hg38 reference used was also limited to canonical chromosome regions.</p>
 <h3 id="gene-expression-abundance-estimation">Gene Expression Abundance Estimation</h3>
-<p>We used STAR <span class="citation" data-cites="tTu8Ds9Z">[<a href="#ref-tTu8Ds9Z" role="doc-biblioref">15</a>]</span> v2.6.1d to align paired-end RNA-seq reads. This output was used for all subsequent RNA analysis. The reference we used was that of ENSEMBL’s GENCODE 27 <span class="citation" data-cites="9oRUnb2k">[<a href="#ref-9oRUnb2k" role="doc-biblioref">16</a>]</span>, “Comprehensive gene annotation.” We used RSEM <span class="citation" data-cites="Dh2n1EV3">[<a href="#ref-Dh2n1EV3" role="doc-biblioref">17</a>]</span> v1.3.1 for transcript- and gene-level quantification. We also added a second method of quantification using kallisto <span class="citation" data-cites="12KZMHMQl">[<a href="#ref-12KZMHMQl" role="doc-biblioref">18</a>]</span> v0.43.1. This method differs in that it uses pseudoaligments using fastq reads directly to the aforementioned GENCODE 27 reference.</p>
+<p>We used STAR <span class="citation" data-cites="tTu8Ds9Z">[<a href="#ref-tTu8Ds9Z" role="doc-biblioref">16</a>]</span> v2.6.1d to align paired-end RNA-seq reads. This output was used for all subsequent RNA analysis. The reference we used was that of ENSEMBL’s GENCODE 27 <span class="citation" data-cites="9oRUnb2k">[<a href="#ref-9oRUnb2k" role="doc-biblioref">17</a>]</span>, “Comprehensive gene annotation.” We used RSEM <span class="citation" data-cites="Dh2n1EV3">[<a href="#ref-Dh2n1EV3" role="doc-biblioref">18</a>]</span> v1.3.1 for transcript- and gene-level quantification. We also added a second method of quantification using kallisto <span class="citation" data-cites="12KZMHMQl">[<a href="#ref-12KZMHMQl" role="doc-biblioref">19</a>]</span> v0.43.1. This method differs in that it uses pseudoaligments using fastq reads directly to the aforementioned GENCODE 27 reference.</p>
 <h3 id="rna-fusion-calling-and-prioritization">RNA Fusion Calling and Prioritization</h3>
 <h4 id="gene-fusion-detection">Gene fusion detection</h4>
-<p>We set up <a href="https://github.com/suhrig/arriba/">Arriba v1.1.0</a> and STAR-Fusion 1.5.0 <span class="citation" data-cites="rqYlIiAi">[<a href="#ref-rqYlIiAi" role="doc-biblioref">19</a>]</span> fusion detection tools using CWL on CAVATICA. For both these tools we used aligned BAM and chimeric SAM files from STAR as inputs and GRCh38_gencode_v27 GTF for gene annotation. We ran STAR-Fusion with default parameters and annotated all fusion calls with GRCh38_v27_CTAT_lib_Feb092018.plug-n-play.tar.gz provided in the STAR-fusion release. For Arriba, we used a blacklist file (blacklist_hg38_GRCh38_2018-11-04.tsv.gz) from the Arriba release tarballs to remove recurrent fusion artifacts and transcripts present in healthy tissue. We also provided Arriba with strandedness information or set it to auto-detection for polyA samples.</p>
+<p>We set up <a href="https://github.com/suhrig/arriba/">Arriba v1.1.0</a> and STAR-Fusion 1.5.0 <span class="citation" data-cites="rqYlIiAi">[<a href="#ref-rqYlIiAi" role="doc-biblioref">20</a>]</span> fusion detection tools using CWL on CAVATICA. For both these tools we used aligned BAM and chimeric SAM files from STAR as inputs and GRCh38_gencode_v27 GTF for gene annotation. We ran STAR-Fusion with default parameters and annotated all fusion calls with GRCh38_v27_CTAT_lib_Feb092018.plug-n-play.tar.gz provided in the STAR-fusion release. For Arriba, we used a blacklist file (blacklist_hg38_GRCh38_2018-11-04.tsv.gz) from the Arriba release tarballs to remove recurrent fusion artifacts and transcripts present in healthy tissue. We also provided Arriba with strandedness information or set it to auto-detection for polyA samples.</p>
 <h4 id="fusion-prioritization">Fusion prioritization</h4>
-<p>We built a <a href="https://github.com/d3b-center/fusion_filtering_pipeline">fusion prioritization pipeline</a> to filter and annotate fusions. We considered all inframe and frameshift fusion calls with 1 or more junction reads and fused genes expressed with TPM greater than one to be true calls. If a fusion call had large number of spanning fragment reads compared to junction reads (spanning fragment minus junction read greater than ten) or if either 5` or 3` genes fused to more than five different genes we removed these calls as a potential false positive. We also removed fusions if the 5` or 3` ends were the same gene, and these were tagged as non-canonical splicing or duplication. We used a list of curated fusion calls for each histology to capture each occurrence of the fusion as a putative driver fusion. We prioritized a union of fusion calls as true calls if the fused genes were detected by both callers, the same fusion was recurrent in histology (&gt;2 samples) or the fusion was specific to the broad histology. We annotated putative driver fusions and prioritized fusions lists with kinases, oncogenic, tumor suppressor, transcription factor, fused genes and known TCGA fusions from curated <a href="https://github.com/d3b-center/fusion_filtering_pipeline/tree/master/references">datasheets</a>. We also added chimerDB <span class="citation" data-cites="FLBuvqQe">[<a href="#ref-FLBuvqQe" role="doc-biblioref">20</a>]</span> annotations to both driver and prioritized fusion list.</p>
+<p>We built a <a href="https://github.com/d3b-center/fusion_filtering_pipeline">fusion prioritization pipeline</a> to filter and annotate fusions. We considered all inframe and frameshift fusion calls with 1 or more junction reads and fused genes expressed with TPM greater than one to be true calls. If a fusion call had large number of spanning fragment reads compared to junction reads (spanning fragment minus junction read greater than ten) or if either 5` or 3` genes fused to more than five different genes we removed these calls as a potential false positive. We also removed fusions if the 5` or 3` ends were the same gene, and these were tagged as non-canonical splicing or duplication. We used a list of curated fusion calls for each histology to capture each occurrence of the fusion as a putative driver fusion. We prioritized a union of fusion calls as true calls if the fused genes were detected by both callers, the same fusion was recurrent in histology (&gt;2 samples) or the fusion was specific to the broad histology. We annotated putative driver fusions and prioritized fusions lists with kinases, oncogenic, tumor suppressor, transcription factor, fused genes and known TCGA fusions from curated <a href="https://github.com/d3b-center/fusion_filtering_pipeline/tree/master/references">datasheets</a>. We also added chimerDB <span class="citation" data-cites="FLBuvqQe">[<a href="#ref-FLBuvqQe" role="doc-biblioref">21</a>]</span> annotations to both driver and prioritized fusion list.</p>
 <h3 id="clinical-data-harmonization">Clinical Data Harmonization</h3>
 <h2 id="results">Results</h2>
 <p>Results section stub.</p>
@@ -137,35 +137,41 @@ Xiaoyu Chen, Ole Schulz-Trieglaff, Richard Shaw, Bret Barnes, Felix Schlesinger,
 <em>Bioinformatics</em> (2015-12-08) <a href="https://doi.org/gf3ggb">https://doi.org/gf3ggb</a><br />
 DOI: <a href="https://doi.org/10.1093/bioinformatics/btv710">10.1093/bioinformatics/btv710</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26647377">26647377</a></p>
 </div>
+<div id="ref-2dosQoAM">
+<p>15. <strong>LUMPY: a probabilistic framework for structural variant discovery</strong><br />
+Ryan M Layer, Colby Chiang, Aaron R Quinlan, Ira M Hall<br />
+<em>Genome Biology</em> (2014) <a href="https://doi.org/gf3ggc">https://doi.org/gf3ggc</a><br />
+DOI: <a href="https://doi.org/10.1186/gb-2014-15-6-r84">10.1186/gb-2014-15-6-r84</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24970577">24970577</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4197822">PMC4197822</a></p>
+</div>
 <div id="ref-tTu8Ds9Z">
-<p>15. <strong>STAR: ultrafast universal RNA-seq aligner</strong><br />
+<p>16. <strong>STAR: ultrafast universal RNA-seq aligner</strong><br />
 Alexander Dobin, Carrie A. Davis, Felix Schlesinger, Jorg Drenkow, Chris Zaleski, Sonali Jha, Philippe Batut, Mark Chaisson, Thomas R. Gingeras<br />
 <em>Bioinformatics</em> (2012-10-25) <a href="https://doi.org/f4h523">https://doi.org/f4h523</a><br />
 DOI: <a href="https://doi.org/10.1093/bioinformatics/bts635">10.1093/bioinformatics/bts635</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23104886">23104886</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3530905">PMC3530905</a></p>
 </div>
 <div id="ref-9oRUnb2k">
-<p>16. <strong>GENCODE - Human Release 27</strong><a href="https://www.gencodegenes.org/human/release_27.html">https://www.gencodegenes.org/human/release_27.html</a></p>
+<p>17. <strong>GENCODE - Human Release 27</strong><a href="https://www.gencodegenes.org/human/release_27.html">https://www.gencodegenes.org/human/release_27.html</a></p>
 </div>
 <div id="ref-Dh2n1EV3">
-<p>17. <strong>RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome</strong><br />
+<p>18. <strong>RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome</strong><br />
 Bo Li, Colin N Dewey<br />
 <em>BMC Bioinformatics</em> (2011-08-04) <a href="https://doi.org/cwg8n5">https://doi.org/cwg8n5</a><br />
 DOI: <a href="https://doi.org/10.1186/1471-2105-12-323">10.1186/1471-2105-12-323</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/21816040">21816040</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3163565">PMC3163565</a></p>
 </div>
 <div id="ref-12KZMHMQl">
-<p>18. <strong>Near-optimal probabilistic RNA-seq quantification</strong><br />
+<p>19. <strong>Near-optimal probabilistic RNA-seq quantification</strong><br />
 Nicolas L Bray, Harold Pimentel, Páll Melsted, Lior Pachter<br />
 <em>Nature Biotechnology</em> (2016-04-04) <a href="https://doi.org/f8nvsp">https://doi.org/f8nvsp</a><br />
 DOI: <a href="https://doi.org/10.1038/nbt.3519">10.1038/nbt.3519</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27043002">27043002</a></p>
 </div>
 <div id="ref-rqYlIiAi">
-<p>19. <strong>STAR-Fusion: Fast and Accurate Fusion Transcript Detection from RNA-Seq</strong><br />
+<p>20. <strong>STAR-Fusion: Fast and Accurate Fusion Transcript Detection from RNA-Seq</strong><br />
 Brian J. Haas, Alex Dobin, Nicolas Stransky, Bo Li, Xiao Yang, Timothy Tickle, Asma Bankapur, Carrie Ganote, Thomas G. Doak, Nathalie Pochet, … Aviv Regev<br />
 <em>Cold Spring Harbor Laboratory</em> (2017-03-24) <a href="https://doi.org/gf5pc5">https://doi.org/gf5pc5</a><br />
 DOI: <a href="https://doi.org/10.1101/120295">10.1101/120295</a></p>
 </div>
 <div id="ref-FLBuvqQe">
-<p>20. <strong>OUP accepted manuscript</strong><br />
+<p>21. <strong>OUP accepted manuscript</strong><br />
 Nucleic Acids Research<br />
 (2016) <a href="https://doi.org/gf6bx9">https://doi.org/gf6bx9</a><br />
 DOI: <a href="https://doi.org/10.1093/nar/gkw1083">10.1093/nar/gkw1083</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27899563">27899563</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5210563">PMC5210563</a></p>

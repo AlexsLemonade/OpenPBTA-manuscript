@@ -18,9 +18,9 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/2745d918575e82f5f49dced6fa7bd782ec4d750a/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/14a1ce1e6435e757077f3b3a020a1c3e57a01445/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@2745d91](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/2745d918575e82f5f49dced6fa7bd782ec4d750a)
+from [AlexsLemonade/OpenPBTA-manuscript@14a1ce1](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/14a1ce1e6435e757077f3b3a020a1c3e57a01445)
 on August 22, 2019.
 </em></small>
 
@@ -88,10 +88,6 @@ Duplicates were marked using Samblaster[@IzUbOv92] v0.1.24, BAMs merged and sort
 Lastly, resultant BAMs were processing using Broad's Genome Analysis Tool Kit (GATK) [@RsmkaFIb] v4.0.3.0, BaseRecalibrator submodule.
 
 ### Germ Line Single Nucleotide Variant Calling
-
-### Germ Line Copy Number Variant Calling
-
-### Germ Line Structural Variant Calling
 
 ### Somatic Single Nucleotide Variant Calling
 #### SNV and INDEL calling

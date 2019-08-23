@@ -2,7 +2,7 @@
 author-meta:
 - John Doe
 - Jane Roe
-date-meta: '2019-08-22'
+date-meta: '2019-08-23'
 keywords:
 - pediatric cancer
 - brain tumor
@@ -18,10 +18,10 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/a14cb09cd9a799a40500c04cfa18a4d93fb0506e/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/d1adc40f314fa076cabd37773cdfc0e0fb7da7a4/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@a14cb09](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/a14cb09cd9a799a40500c04cfa18a4d93fb0506e)
-on August 22, 2019.
+from [AlexsLemonade/OpenPBTA-manuscript@d1adc40](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/d1adc40f314fa076cabd37773cdfc0e0fb7da7a4)
+on August 23, 2019.
 </em></small>
 
 ## Authors
@@ -69,14 +69,23 @@ The Pediatric Brain Tumor Atlas specimens are comprised of samples from Children
 Blood and tumor biospecimens from patients enrolled within the CBTTC were sent to the Children's Hospital of Philadelphia for RNA and/or DNA extraction.
 PNOC collected blood and tumor biospecimens from newly-diagnosed DIPG patients as part of the clinical trial [PNOC003/NCT02274987](https://clinicaltrials.gov/ct2/show/NCT02274987) [@BLNV1DbL]. 
 
-#### Nucleic acids extraction
+#### Nucleic acids extraction and library preparation
+
+##### PNOC samples
+The Translational Genomic Research Institute (TGEN; Phoenix, AZ) performed DNA and RNA extractions on tumor biopsies using a DNA/RNA AllPrep Kit (Qiagen, #80204). 
+All RNA used for library prep had a minimum RIN of 7 but no QC thresholds were implemented for the DNA.
+For library preparation, 500ng of nucleic acids were used as input for RNA-Seq and WXS.
+The RNA prep was performed using the TruSeq RNA Sample Prep Kit (Illumina, #FC-122-1001) and the exome prep was performed using KAPA Library Preparation Kit (Kapa Biosystems, #KK8201) using Agilent's SureSelect Human All Exon V5 backbone with custom probes. 
+These probes include CGH probes that target 44,000 evenly spaced genomic loci to assess copy number changes, as well as probes that tile across tumor suppressor genes and genes involved in common cancer translocations.
+
+##### CBTTC samples
 
 #### Data generation
 
 NantHealth Sequencing Center (Culver City, CA) performed whole genome sequencing (WGS) on all paired tumor (~60X) and constitutive (~30X) DNA samples.
 WGS libraries were 2x150 bp and sequenced on an Illumina X/400.
 NantHealth Sequencing Center performed ribosomal-depleted whole transcriptome stranded RNA-Seq to an average depth of 100M reads for CBTTC tumor samples.
-Translational Genomic Research Institute (TGEN; Phoenix, AZ) performed paired tumor (~200X) and constitutive whole exome sequencing (WXS) and poly-A selected RNA-Seq (~200M reads) for  PNOC tumor samples. 
+The Translational Genomic Research Institute (TGEN; Phoenix, AZ) performed paired tumor (~200X) and constitutive whole exome sequencing (WXS) and poly-A selected RNA-Seq (~200M reads) for  PNOC tumor samples. 
 PNOC WXS and RNA-Seq libraries 2x100 bp and sequenced on an Illumina HiSeq 2500.
 
 ### DNA WGS Alignment

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="John Doe" />
   <meta name="author" content="Jane Roe" />
-  <meta name="dcterms.date" content="2019-08-22" />
+  <meta name="dcterms.date" content="2019-08-23" />
   <meta name="keywords" content="pediatric cancer, brain tumor, tumor atlas" />
   <title>An Open Pediatric Brain Tumor Atlas</title>
   <style>
@@ -23,7 +23,7 @@
 <header id="title-block-header">
 <h1 class="title">An Open Pediatric Brain Tumor Atlas</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/a14cb09cd9a799a40500c04cfa18a4d93fb0506e/">permalink</a>) was automatically generated from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/a14cb09cd9a799a40500c04cfa18a4d93fb0506e">AlexsLemonade/OpenPBTA-manuscript@a14cb09</a> on August 22, 2019. </em></small></p>
+<p><small><em> This manuscript (<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/d1adc40f314fa076cabd37773cdfc0e0fb7da7a4/">permalink</a>) was automatically generated from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/d1adc40f314fa076cabd37773cdfc0e0fb7da7a4">AlexsLemonade/OpenPBTA-manuscript@d1adc40</a> on August 23, 2019. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><p><strong>John Doe</strong><br> <img src="images/orcid.svg" alt="ORCID icon" class="inline_icon" /> <a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX">XXXX-XXXX-XXXX-XXXX</a> · <img src="images/github.svg" alt="GitHub icon" class="inline_icon" /> <a href="https://github.com/johndoe">johndoe</a> · <img src="images/twitter.svg" alt="Twitter icon" class="inline_icon" /> <a href="https://twitter.com/johndoe">johndoe</a><br> <small> Department of Something, University of Whatever · Funded by Grant XXXXXXXX </small></p></li>
@@ -35,9 +35,12 @@
 <h2 id="materials-and-methods">Materials and Methods</h2>
 <h3 id="biospecimen-collection">Biospecimen collection</h3>
 <p>The Pediatric Brain Tumor Atlas specimens are comprised of samples from Children’s Brain Tumor Tissue Consortium (CBTTC) and the Pediatric Pacific Neuro-oncology Consortium (PNOC). Blood and tumor biospecimens from patients enrolled within the CBTTC were sent to the Children’s Hospital of Philadelphia for RNA and/or DNA extraction. PNOC collected blood and tumor biospecimens from newly-diagnosed DIPG patients as part of the clinical trial <a href="https://clinicaltrials.gov/ct2/show/NCT02274987">PNOC003/NCT02274987</a> <span class="citation" data-cites="BLNV1DbL">[<a href="#ref-BLNV1DbL" role="doc-biblioref">1</a>]</span>.</p>
-<h4 id="nucleic-acids-extraction">Nucleic acids extraction</h4>
+<h4 id="nucleic-acids-extraction-and-library-preparation">Nucleic acids extraction and library preparation</h4>
+<h5 id="pnoc-samples">PNOC samples</h5>
+<p>The Translational Genomic Research Institute (TGEN; Phoenix, AZ) performed DNA and RNA extractions on tumor biopsies using a DNA/RNA AllPrep Kit (Qiagen, #80204). All RNA used for library prep had a minimum RIN of 7 but no QC thresholds were implemented for the DNA. For library preparation, 500ng of nucleic acids were used as input for RNA-Seq and WXS. The RNA prep was performed using the TruSeq RNA Sample Prep Kit (Illumina, #FC-122-1001) and the exome prep was performed using KAPA Library Preparation Kit (Kapa Biosystems, #KK8201) using Agilent’s SureSelect Human All Exon V5 backbone with custom probes. These probes include CGH probes that target 44,000 evenly spaced genomic loci to assess copy number changes, as well as probes that tile across tumor suppressor genes and genes involved in common cancer translocations.</p>
+<h5 id="cbttc-samples">CBTTC samples</h5>
 <h4 id="data-generation">Data generation</h4>
-<p>NantHealth Sequencing Center (Culver City, CA) performed whole genome sequencing (WGS) on all paired tumor (~60X) and constitutive (~30X) DNA samples. WGS libraries were 2x150 bp and sequenced on an Illumina X/400. NantHealth Sequencing Center performed ribosomal-depleted whole transcriptome stranded RNA-Seq to an average depth of 100M reads for CBTTC tumor samples. Translational Genomic Research Institute (TGEN; Phoenix, AZ) performed paired tumor (~200X) and constitutive whole exome sequencing (WXS) and poly-A selected RNA-Seq (~200M reads) for PNOC tumor samples. PNOC WXS and RNA-Seq libraries 2x100 bp and sequenced on an Illumina HiSeq 2500.</p>
+<p>NantHealth Sequencing Center (Culver City, CA) performed whole genome sequencing (WGS) on all paired tumor (~60X) and constitutive (~30X) DNA samples. WGS libraries were 2x150 bp and sequenced on an Illumina X/400. NantHealth Sequencing Center performed ribosomal-depleted whole transcriptome stranded RNA-Seq to an average depth of 100M reads for CBTTC tumor samples. The Translational Genomic Research Institute (TGEN; Phoenix, AZ) performed paired tumor (~200X) and constitutive whole exome sequencing (WXS) and poly-A selected RNA-Seq (~200M reads) for PNOC tumor samples. PNOC WXS and RNA-Seq libraries 2x100 bp and sequenced on an Illumina HiSeq 2500.</p>
 <h3 id="dna-wgs-alignment">DNA WGS Alignment</h3>
 <p>We used BWA-MEM <span class="citation" data-cites="gmH6YDca">[<a href="#ref-gmH6YDca" role="doc-biblioref">2</a>]</span> v0.7.17 for alignment of paired-end DNA-seq reads. The alignment reference that we used was Homo Sapiens Human Genome (hg) version 38, patch release 12, fasta file obtained from UCSC <span class="citation" data-cites="1AWRgvxVu">[<a href="#ref-1AWRgvxVu" role="doc-biblioref">3</a>]</span>. Alignments were futher processed using following the Broad Institute’s Best Practices <span class="citation" data-cites="EHMzG34o">[<a href="#ref-EHMzG34o" role="doc-biblioref">4</a>]</span> for processing BAMs in preparation for variant discovery. Duplicates were marked using Samblaster<span class="citation" data-cites="IzUbOv92">[<a href="#ref-IzUbOv92" role="doc-biblioref">5</a>]</span> v0.1.24, BAMs merged and sorted using Sambamba <span class="citation" data-cites="PcJwlZj3">[<a href="#ref-PcJwlZj3" role="doc-biblioref">6</a>]</span> v0.6.3. Lastly, resultant BAMs were processing using Broad’s Genome Analysis Tool Kit (GATK) <span class="citation" data-cites="RsmkaFIb">[<a href="#ref-RsmkaFIb" role="doc-biblioref">7</a>]</span> v4.0.3.0, BaseRecalibrator submodule.</p>
 <h3 id="germ-line-single-nucleotide-variant-calling">Germ Line Single Nucleotide Variant Calling</h3>

@@ -12,6 +12,8 @@ _What GitHub issue does your pull request address?_
 
 #### Pull review checklist
 
+The PR will be considered ready for review when all four items have been checked.
+
 - [ ] All changes to text follow "one sentence per line" [[Manubot instructions](https://github.com/AlexsLemonade/OpenPBTA-manuscript/blob/master/USAGE.md#manubot-markdown)]
 - [ ] All citations follow the [Manubot citation instructions](https://github.com/AlexsLemonade/OpenPBTA-manuscript/blob/master/USAGE.md#citations)
 - [ ] All changes or additions to tables follow the [Manubot table instructions](https://github.com/AlexsLemonade/OpenPBTA-manuscript/blob/master/USAGE.md#tables)

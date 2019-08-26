@@ -2,7 +2,7 @@
 author-meta:
 - John Doe
 - Jane Roe
-date-meta: '2019-08-23'
+date-meta: '2019-08-26'
 keywords:
 - pediatric cancer
 - brain tumor
@@ -18,10 +18,10 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/d1adc40f314fa076cabd37773cdfc0e0fb7da7a4/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/2f5260fa71efc37b421074513173e8714d09c775/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@d1adc40](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/d1adc40f314fa076cabd37773cdfc0e0fb7da7a4)
-on August 23, 2019.
+from [AlexsLemonade/OpenPBTA-manuscript@2f5260f](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/2f5260fa71efc37b421074513173e8714d09c775)
+on August 26, 2019.
 </em></small>
 
 ## Authors
@@ -77,6 +77,7 @@ All RNA used for library prep had a minimum RIN of 7 but no QC thresholds were i
 For library preparation, 500ng of nucleic acids were used as input for RNA-Seq and WXS.
 The RNA prep was performed using the TruSeq RNA Sample Prep Kit (Illumina, #FC-122-1001) and the exome prep was performed using KAPA Library Preparation Kit (Kapa Biosystems, #KK8201) using Agilent's SureSelect Human All Exon V5 backbone with custom probes. 
 These probes include CGH probes that target 44,000 evenly spaced genomic loci to assess copy number changes, as well as probes that tile across tumor suppressor genes and genes involved in common cancer translocations.
+All extractions and library preparations were performed according to manufacturer's instructions.
 
 ##### CBTTC samples
 

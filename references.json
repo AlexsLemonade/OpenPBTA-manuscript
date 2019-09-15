@@ -712,6 +712,133 @@
     "id": "rqYlIiAi"
   },
   {
+    "publisher": "Cold Spring Harbor Laboratory",
+    "abstract": "<jats:title>ABSTRACT</jats:title><jats:sec><jats:title>Background</jats:title><jats:p>Pediatric high grade glioma (pHGG) remains a fatal disease. Increased access to richly annotated biospecimens and patient derived tumor models will accelerate pHGG research and support translation of research discoveries. This work describes the pediatric high grade glioma set of the Children’s Brain Tumor Tissue Consortium (CBTTC) from the first release (October 2018) of the Pediatric Brain Tumor Atlas (PBTA).</jats:p></jats:sec><jats:sec><jats:title>Methods</jats:title><jats:p>pHGG tumors with associated clinical data and imaging were prospectively collected through the CBTTC and analyzed as the Pediatric Brain Tumor Atlas (PBTA) with processed genomic data deposited into PedcBioPortal for broad access and visualization. Matched tumor was cultured to create high grade glioma cell lines analyzed by targeted and WGS and RNA-seq. A tissue microarray (TMA) of primary pHGG tumors was also created.</jats:p></jats:sec><jats:sec><jats:title>Results</jats:title><jats:p>The pHGG set included 87 collection events (73 patients, 60% at diagnosis, median age of 9 yrs, 55% female, 46% hemispheric). Analysis of somatic mutations and copy number alterations of known glioma genes were of expected distribution (36% <jats:italic>H3.3</jats:italic>, 47% <jats:italic>TP53</jats:italic>, 24% <jats:italic>ATRX</jats:italic> and 7% <jats:italic>BRAF</jats:italic> V600E variants). A pHGG TMA (n=77), includes 36 (53%) patient tumors with matched sequencing. At least one established glioma cell line was generated from 23 patients (32%). Unique reagents include those derived from a <jats:italic>H3.3</jats:italic> G34R glioma and from tumors with mismatch repair deficiency.</jats:p></jats:sec><jats:sec><jats:title>Conclusion</jats:title><jats:p>The CBTTC and PBTA have created an openly available integrated resource of over 2,000 tumors, including a rich set of pHGG primary tumors, corresponding cell lines and archival fixed tissue to advance translational research for pHGG.</jats:p></jats:sec><jats:sec><jats:title>IMPORTANCE OF STUDY</jats:title><jats:p>High-grade gliomas (HGG) remain the leading cause of cancer death in children. Since molecularly heterogeneous, preclinical studies of pediatric HGG will be most informative if able to compare across groups. Given their relatively rarity, there are few readily available biospecimens and cellular models to inform preclinical laboratory and genomic translational research. Therefore, the aim of this CBTTC study was to highlight the panel of pediatric HGG cases whose primary tumors have undergone extensive genomic analysis, have clinical data, available imaging and additional biospecimens, including tumor, nucleic acids, cell lines and FFPE tissue on a tissue microarray (TMA).</jats:p></jats:sec>",
+    "DOI": "10.1101/656587",
+    "type": "manuscript",
+    "source": "Crossref",
+    "title": "Pediatric High Grade Glioma Resources From the Children’s Brain Tumor Tissue Consortium (CBTTC) and Pediatric Brain Tumor Atlas (PBTA)",
+    "author": [
+      {
+        "given": "Heba",
+        "family": "Ijaz"
+      },
+      {
+        "given": "Mateusz",
+        "family": "Koptyra"
+      },
+      {
+        "given": "Krutika S.",
+        "family": "Gaonkar"
+      },
+      {
+        "given": "Jo Lynne",
+        "family": "Rokita"
+      },
+      {
+        "given": "Valerie P.",
+        "family": "Baubet"
+      },
+      {
+        "given": "Lamiya",
+        "family": "Tauhid"
+      },
+      {
+        "given": "Yankun",
+        "family": "Zhu"
+      },
+      {
+        "given": "Miguel",
+        "family": "Brown"
+      },
+      {
+        "given": "Gonzalo",
+        "family": "Lopez"
+      },
+      {
+        "given": "Bo",
+        "family": "Zhang"
+      },
+      {
+        "given": "Sharon J.",
+        "family": "Diskin"
+      },
+      {
+        "given": "Zalman",
+        "family": "Vaksman"
+      },
+      {
+        "given": "Jennifer L.",
+        "family": "Mason"
+      },
+      {
+        "given": "Elizabeth",
+        "family": "Appert"
+      },
+      {
+        "given": "Jena",
+        "family": "Lilly"
+      },
+      {
+        "given": "Rishi",
+        "family": "Lulla"
+      },
+      {
+        "given": "Thomas",
+        "family": "De Raedt"
+      },
+      {
+        "given": "Allison P.",
+        "family": "Heath"
+      },
+      {
+        "given": "Alex",
+        "family": "Felmeister"
+      },
+      {
+        "given": "Pichai",
+        "family": "Raman"
+      },
+      {
+        "given": "Javad",
+        "family": "Nazarian"
+      },
+      {
+        "given": "Maria Rita",
+        "family": "Santi"
+      },
+      {
+        "given": "Phillip B.",
+        "family": "Storm"
+      },
+      {
+        "given": "Adam",
+        "family": "Resnick"
+      },
+      {
+        "given": "Angela J.",
+        "family": "Waanders"
+      },
+      {
+        "given": "Kristina A.",
+        "family": "Cole"
+      },
+      {}
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          31
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gf66qt",
+    "note": "This CSL JSON Item was automatically generated by Manubot v0.2.3 using citation-by-identifier.\nstandard_id: doi:10.1101/656587",
+    "id": "v08ocfr0"
+  },
+  {
     "publisher": "Springer Science and Business Media LLC",
     "issue": "1",
     "DOI": "10.1186/1471-2105-12-323",
@@ -904,12 +1031,31 @@
       "date-parts": [
         [
           "2019",
-          8,
-          26
+          9,
+          15
         ]
       ]
     },
     "note": "This CSL JSON Item was automatically generated by Manubot v0.2.3 using citation-by-identifier.\nstandard_id: url:http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/"
+  },
+  {
+    "id": "ME49zC7J",
+    "type": "webpage",
+    "title": "Home",
+    "container-title": "Children's Brain Tumor Tissue Consortium",
+    "abstract": "Bringing together leaders in pediatric brain cancer research through cutting-edge technology to innovate, collaborate and share data",
+    "URL": "https://cbttc.org/",
+    "language": "en-US",
+    "accessed": {
+      "date-parts": [
+        [
+          "2019",
+          9,
+          15
+        ]
+      ]
+    },
+    "note": "This CSL JSON Item was automatically generated by Manubot v0.2.3 using citation-by-identifier.\nstandard_id: url:https://cbttc.org"
   },
   {
     "id": "E5aTvXmQ",
@@ -925,8 +1071,8 @@
       "date-parts": [
         [
           "2019",
-          8,
-          26
+          9,
+          15
         ]
       ]
     },
@@ -934,8 +1080,8 @@
       "date-parts": [
         [
           "2019",
-          8,
-          26
+          9,
+          15
         ]
       ]
     }
@@ -954,8 +1100,8 @@
       "date-parts": [
         [
           "2019",
-          8,
-          20
+          9,
+          10
         ]
       ]
     },
@@ -963,11 +1109,27 @@
       "date-parts": [
         [
           "2019",
-          8,
-          26
+          9,
+          15
         ]
       ]
     }
+  },
+  {
+    "id": "JkpD6jMa",
+    "type": "webpage",
+    "title": "Working Together to Put Kids First",
+    "URL": "https://kidsfirstdrc.org/",
+    "accessed": {
+      "date-parts": [
+        [
+          "2019",
+          9,
+          15
+        ]
+      ]
+    },
+    "note": "This CSL JSON Item was automatically generated by Manubot v0.2.3 using citation-by-identifier.\nstandard_id: url:https://kidsfirstdrc.org"
   },
   {
     "id": "RsmkaFIb",
@@ -979,8 +1141,8 @@
       "date-parts": [
         [
           "2019",
-          8,
-          26
+          9,
+          15
         ]
       ]
     },
@@ -995,8 +1157,8 @@
       "date-parts": [
         [
           "2019",
-          8,
-          26
+          9,
+          15
         ]
       ]
     },
@@ -1011,8 +1173,8 @@
       "date-parts": [
         [
           "2019",
-          8,
-          26
+          9,
+          15
         ]
       ]
     },

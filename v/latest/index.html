@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="John Doe" />
   <meta name="author" content="Jane Roe" />
-  <meta name="dcterms.date" content="2019-09-15" />
+  <meta name="dcterms.date" content="2019-09-16" />
   <meta name="keywords" content="pediatric cancer, brain tumor, tumor atlas" />
   <title>An Open Pediatric Brain Tumor Atlas</title>
   <style>
@@ -23,7 +23,7 @@
 <header id="title-block-header">
 <h1 class="title">An Open Pediatric Brain Tumor Atlas</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1b80ce4b6d4ff15d968cad06f482a0bcac087ac5/">permalink</a>) was automatically generated from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/1b80ce4b6d4ff15d968cad06f482a0bcac087ac5">AlexsLemonade/OpenPBTA-manuscript@1b80ce4</a> on September 15, 2019. </em></small></p>
+<p><small><em> This manuscript (<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/ac9b7cdbbc68949c8e0c032a33d940a784d9f032/">permalink</a>) was automatically generated from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/ac9b7cdbbc68949c8e0c032a33d940a784d9f032">AlexsLemonade/OpenPBTA-manuscript@ac9b7cd</a> on September 16, 2019. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><p><strong>John Doe</strong><br> <img src="images/orcid.svg" alt="ORCID icon" class="inline_icon" /> <a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX">XXXX-XXXX-XXXX-XXXX</a> · <img src="images/github.svg" alt="GitHub icon" class="inline_icon" /> <a href="https://github.com/johndoe">johndoe</a> · <img src="images/twitter.svg" alt="Twitter icon" class="inline_icon" /> <a href="https://twitter.com/johndoe">johndoe</a><br> <small> Department of Something, University of Whatever · Funded by Grant XXXXXXXX </small></p></li>
@@ -67,6 +67,8 @@
 <h4 id="fusion-prioritization">Fusion prioritization</h4>
 <p>We built a <a href="https://github.com/d3b-center/fusion_filtering_pipeline">fusion prioritization pipeline</a> to filter and annotate fusions. We considered all inframe and frameshift fusion calls with 1 or more junction reads and fused genes expressed with TPM greater than one to be true calls. If a fusion call had large number of spanning fragment reads compared to junction reads (spanning fragment minus junction read greater than ten) or if either 5` or 3` genes fused to more than five different genes we removed these calls as a potential false positive. We also removed fusions if the 5` or 3` ends were the same gene, and these were tagged as non-canonical splicing or duplication. We used a list of curated fusion calls for each histology to capture each occurrence of the fusion as a putative driver fusion. We prioritized a union of fusion calls as true calls if the fused genes were detected by both callers, the same fusion was recurrent in histology (&gt;2 samples) or the fusion was specific to the broad histology. We annotated putative driver fusions and prioritized fusions lists with kinases, oncogenic, tumor suppressor, transcription factor, fused genes and known TCGA fusions from curated <a href="https://github.com/d3b-center/fusion_filtering_pipeline/tree/master/references">datasheets</a>. We also added chimerDB <span class="citation" data-cites="FLBuvqQe">[<a href="#ref-FLBuvqQe" role="doc-biblioref">25</a>]</span> annotations to both driver and prioritized fusion list.</p>
 <h3 id="clinical-data-harmonization">Clinical Data Harmonization</h3>
+<h4 id="prediction-of-participants-genetic-sex">Prediction of participants’ genetic sex</h4>
+<p>The clinical metadata provided included a reported gender. We used DNA data, in concert with the reported gender, to predict participant genetic sex so that we could identify sexually dimorphic outcomes. This analysis could also reveal samples that may have been contaminated in certain circumstances. We used the idxstats utility from SAMTOOLS <span class="citation" data-cites="hNfNHk9L">[<a href="#ref-hNfNHk9L" role="doc-biblioref">26</a>]</span> to calculate read lengths, the number of mapped reads, and the corresponding chromosomal location for reads to the X and Y chromosomes. We used the fraction of total normalized X and Y chromosome reads that were attributed to the Y chromosome as a summary statistic. We reviewed this statistic in the context of reported gender and determined that a threshold of less than 0.2 clearly delineated female samples. Fractions greater than 0.4 were predicted to be males. Samples with values in the range [0.2, 0.4] were marked as unknown. We ran this analysis through <a href="https://github.com/d3b-center/sex-determination-tool">CWL</a> on Cavatica. Resulting calls were added to the clinical metadata as <code>germline_sex_estimate</code>.</p>
 <h2 id="results">Results</h2>
 <p>Results section stub.</p>
 <h2 id="conclusions">Conclusions</h2>
@@ -129,7 +131,7 @@ DOI: <a href="https://doi.org/10.1038/s41592-018-0051-x">10.1038/s41592-018-0051
 <div id="ref-E5aTvXmQ">
 <p>12. <strong>Official code repository for GATK versions 4 and up: broadinstitute/gatk</strong><br />
 Broad Institute<br />
-(2019-09-15) <a href="https://github.com/broadinstitute/gatk">https://github.com/broadinstitute/gatk</a></p>
+(2019-09-16) <a href="https://github.com/broadinstitute/gatk">https://github.com/broadinstitute/gatk</a></p>
 </div>
 <div id="ref-p1f5DxRQ">
 <p>13. <strong>The Ensembl Variant Effect Predictor</strong><br />
@@ -204,6 +206,12 @@ DOI: <a href="https://doi.org/10.1101/120295">10.1101/120295</a></p>
 Nucleic Acids Research<br />
 (2016) <a href="https://doi.org/gf6bx9">https://doi.org/gf6bx9</a><br />
 DOI: <a href="https://doi.org/10.1093/nar/gkw1083">10.1093/nar/gkw1083</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27899563">27899563</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5210563">PMC5210563</a></p>
+</div>
+<div id="ref-hNfNHk9L">
+<p>26. <strong>The Sequence Alignment/Map format and SAMtools.</strong><br />
+Heng Li, Bob Handsaker, Alec Wysoker, Tim Fennell, Jue Ruan, Nils Homer, Gabor Marth, Goncalo Abecasis, Richard Durbin, <br />
+<em>Bioinformatics (Oxford, England)</em> (2009-06-08) <a href="https://www.ncbi.nlm.nih.gov/pubmed/19505943">https://www.ncbi.nlm.nih.gov/pubmed/19505943</a><br />
+DOI: <a href="https://doi.org/10.1093/bioinformatics/btp352">10.1093/bioinformatics/btp352</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/19505943">19505943</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2723002">PMC2723002</a></p>
 </div>
 </div>
 <!-- default theme -->

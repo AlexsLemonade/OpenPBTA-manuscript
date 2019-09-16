@@ -2,7 +2,7 @@
 author-meta:
 - John Doe
 - Jane Roe
-date-meta: '2019-09-15'
+date-meta: '2019-09-16'
 keywords:
 - pediatric cancer
 - brain tumor
@@ -18,10 +18,10 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1b80ce4b6d4ff15d968cad06f482a0bcac087ac5/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/ac9b7cdbbc68949c8e0c032a33d940a784d9f032/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@1b80ce4](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/1b80ce4b6d4ff15d968cad06f482a0bcac087ac5)
-on September 15, 2019.
+from [AlexsLemonade/OpenPBTA-manuscript@ac9b7cd](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/ac9b7cdbbc68949c8e0c032a33d940a784d9f032)
+on September 16, 2019.
 </em></small>
 
 ## Authors
@@ -180,6 +180,19 @@ We annotated putative driver fusions and prioritized fusions lists with kinases,
 We also added chimerDB [@FLBuvqQe] annotations to both driver and prioritized fusion list.
 
 ### Clinical Data Harmonization
+
+#### Prediction of participants' genetic sex
+
+The clinical metadata provided included a reported gender.
+We used DNA data, in concert with the reported gender, to predict participant genetic sex so that we could identify sexually dimorphic outcomes.
+This analysis could also reveal samples that may have been contaminated in certain circumstances.
+We used the idxstats utility from SAMTOOLS [@hNfNHk9L] to calculate read lengths, the number of mapped reads, and the corresponding chromosomal location for reads to the X and Y chromosomes.
+We used the fraction of total normalized X and Y chromosome reads that were attributed to the Y chromosome as a summary statistic.
+We reviewed this statistic in the context of reported gender and determined that a threshold of less than 0.2 clearly delineated female samples.
+Fractions greater than 0.4 were predicted to be males.
+Samples with values in the range [0.2, 0.4] were marked as unknown.
+We ran this analysis through [CWL](https://github.com/d3b-center/sex-determination-tool) on Cavatica.
+Resulting calls were added to the clinical metadata as `germline_sex_estimate`.
 
 
 ## Results

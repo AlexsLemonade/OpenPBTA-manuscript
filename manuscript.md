@@ -2,7 +2,7 @@
 author-meta:
 - John Doe
 - Jane Roe
-date-meta: '2019-09-16'
+date-meta: '2019-09-23'
 keywords:
 - pediatric cancer
 - brain tumor
@@ -18,10 +18,10 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/ac9b7cdbbc68949c8e0c032a33d940a784d9f032/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/4e0099da6ebafabe3f33bd825f098b0ac4aee61b/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@ac9b7cd](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/ac9b7cdbbc68949c8e0c032a33d940a784d9f032)
-on September 16, 2019.
+from [AlexsLemonade/OpenPBTA-manuscript@4e0099d](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/4e0099da6ebafabe3f33bd825f098b0ac4aee61b)
+on September 23, 2019.
 </em></small>
 
 ## Authors
@@ -127,14 +127,31 @@ Alignments were futher processed using following the Broad Institute's Best Prac
 Duplicates were marked using Samblaster[@IzUbOv92] v0.1.24, BAMs merged and sorted using Sambamba [@PcJwlZj3] v0.6.3.
 Lastly, resultant BAMs were processing using Broad's Genome Analysis Tool Kit (GATK) [@RsmkaFIb] v4.0.3.0, BaseRecalibrator submodule.
 
-### Germ Line Single Nucleotide Variant Calling
+### Quality Control of Sequencing Data
+
+NGSCheckmate [doi:10.1093/nar/gkx193] was peformed on matched tumor/normal CRAMs to confirm sample matches and remove mis-matched samples from the dataset. 
+CRAM inputs were preprocessed using bcftools to filter and call 20k common SNPs using default parameters[@16tUBMk59] and the resulting VCFs were used to run NGSCheckmate using [this workflow](https://github.com/d3b-center/ngs_checkmate_wf) in the D3b GitHub repository. 
+Per author guidelines, <= 0.61 was used as a correlation coefficient cutoff at sequencing depths >10 to predict mismatched samples.
+For RNA-Seq, read strandedness was determined by running the [`infer_experiment.py` script](http://rseqc.sourceforge.net/#infer-experiment-py) on the first 200k mapped reads.
+If calculated strandedness did not match strandedness information received from the sequencing center, samples were removed from analysis.
+We required at least 60% of RNA-Seq reads mapped to the human reference or samples were removed from analysis.
 
 ### Somatic Single Nucleotide Variant Calling
 #### SNV and INDEL calling
 
-We used Strelka2 [@REfkDUtE] v2.9.3 and Mutect2 from GATK v4.1.1.0.
-Strelka2 was run using default parameters on human genome reference hg38, canonical chromosomes only (chr1-22, X,Y,M), as recommended by the author.
-Mutect2 was run following Broad best practices outlined from their Workflow Description Language (WDL) [@E5aTvXmQ].  
+We used four variant callers to call SNVs and INDELS from targeted DNA panel, WXS, and WGS data: Strelka2, Mutect2, Lancet, and VarDict.
+The same input interval BED files were used for both panel and WXS data.
+Strelka2 [@REfkDUtE] v2.9.3 was run using default parameters on human genome reference hg38, canonical chromosomes only (chr1-22, X,Y,M), as recommended by the authors.
+The final Strelka2 VCF was filtered for PASS variants.
+Mutect2 from GATK v4.1.1.0 was run following Broad best practices outlined from their Workflow Description Language (WDL) [@E5aTvXmQ].
+The final Mutect2 VCF was filtered for PASS variants. 
+Lancet [@V6KdWVYi] v1.0.7 [@dYF6AyBo] was run using default parameters, unless noted below.
+For input intervals to Lancet, a reference BED was created by using only the UTR, exome, and start/stop codon features of the GENCODE 31 reference.  
+Per recommendations by the New York Genome Center, the Lancet input intervals were augmented with PASS variant calls from Strelka2 and Mutect2 as validation.
+VarDictJava [@trQRR8fs] v1.58 [@1GMHnwH5p] was run using the hg38 fasta reference with the same BED intervals used for Mutect2.  
+Parameters and filtering followed BCBIO standards except that variants with a variant allele frequency (VAF) >= 0.05 (instead of >= 0.10) were retained. 
+The 0.05 VAF increased the true positive rate for INDELs and decreased the false positive rate for SNVs when using VarDict in consensus calling. 
+The final VCF was filtered for PASS variants with TYPE=StronglySomatic.
 
 #### VCF annotation and MAF creation
 
@@ -151,6 +168,7 @@ We used Manta SV [@kTn1PIj5] v1.4.0 for structural variant (SV) calls.
 Manta SV calling was also limited to regions used in Strelka2.
 We also ran LUMPY SV [@2dosQoAM] v0.2.13 in express mode using default parameters. 
 The hg38 reference used was also limited to canonical chromosome regions.
+The somatic DNA workflow for SNV, INDEL, copy number, and SV calling can be found in the [KidsFirst Github repository](https://github.com/kids-first/kf-somatic-workflow).
 
 ### Gene Expression Abundance Estimation
 We used STAR [@tTu8Ds9Z] v2.6.1d to align paired-end RNA-seq reads.
@@ -167,6 +185,7 @@ For both these tools we used aligned BAM and chimeric SAM files from STAR as inp
 We ran STAR-Fusion with default parameters and annotated all fusion calls with GRCh38_v27_CTAT_lib_Feb092018.plug-n-play.tar.gz provided in the STAR-fusion release. 
 For Arriba, we used a blacklist file (blacklist_hg38_GRCh38_2018-11-04.tsv.gz) from the Arriba release tarballs to remove recurrent fusion artifacts and transcripts present in healthy tissue.
 We also provided Arriba with strandedness information or set it to auto-detection for polyA samples.
+The RNA expression and fusion workflows can be found in the [KidsFirst GitHub repository](https://github.com/kids-first/kf-rnaseq-workflow).
 
 #### Fusion prioritization
 
@@ -180,6 +199,24 @@ We annotated putative driver fusions and prioritized fusions lists with kinases,
 We also added chimerDB [@FLBuvqQe] annotations to both driver and prioritized fusion list.
 
 ### Clinical Data Harmonization
+
+#### WHO Classification of Disease Types
+
+The `disease_type_old` field in the `pbta-histologies.tsv` file contains the diagnosis denoted from the patient's pathology report.
+The `disease_type_new` field in the `pbta-histologies.tsv` file includes updates to `disease_type_old` and these changes are documented in the `Notes`.
+For instance, any diagnosis denoted as "Other" in `disease_type_old` was modified to capture the pathology report diagnosis in `disease_type_new`. 
+Additionally, `disease_type_old` was modified to `disease_type_new` if the presence of specific molecular alterations defined a biospecimen as having an alternate diagnosis.
+The `broad_histology` denotes the broad 2016 WHO classification [doi:10.1007/s00401-016-1545-1] for each tumor.
+The `short_histology` is an abbreviated version of the `broad_histology`.
+
+#### Molecular Subtyping
+
+The `molecular_subtype` column in the `pbta-histologies.tsv` file contains molecular subtype information derived as described below.
+Medulloblastoma subtypes SHH, MYC, Group 3, and Group 4 were predicted using an [RNA expression classifier](https://github.com/PichaiRaman/MedulloClassifier) on the RSEM FPKM data.
+
+#### Survival
+
+Overall survival was calculated as days since initial diagnosis.
 
 #### Prediction of participants' genetic sex
 

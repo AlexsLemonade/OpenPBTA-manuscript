@@ -2,7 +2,7 @@
 author-meta:
 - John Doe
 - Jane Roe
-date-meta: '2019-09-23'
+date-meta: '2019-09-29'
 keywords:
 - pediatric cancer
 - brain tumor
@@ -18,10 +18,10 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/4e0099da6ebafabe3f33bd825f098b0ac4aee61b/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/dd260411f9ba419847aab61ed7e22d92bbd85375/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@4e0099d](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/4e0099da6ebafabe3f33bd825f098b0ac4aee61b)
-on September 23, 2019.
+from [AlexsLemonade/OpenPBTA-manuscript@dd26041](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/dd260411f9ba419847aab61ed7e22d92bbd85375)
+on September 29, 2019.
 </em></small>
 
 ## Authors
@@ -140,7 +140,8 @@ We required at least 60% of RNA-Seq reads mapped to the human reference or sampl
 #### SNV and INDEL calling
 
 We used four variant callers to call SNVs and INDELS from targeted DNA panel, WXS, and WGS data: Strelka2, Mutect2, Lancet, and VarDict.
-The same input interval BED files were used for both panel and WXS data.
+The same input interval BED files were used for both panel and WXS data and intervals were padded by 100 bp on each side for all variant calling algorithm runs.
+The BED files for WGS were not padded for Mutect2 and Strelka2 runs, were padded by 300 bp on each side for Lancet, and by 100 bp on each side for VarDict.
 Strelka2 [@REfkDUtE] v2.9.3 was run using default parameters on human genome reference hg38, canonical chromosomes only (chr1-22, X,Y,M), as recommended by the authors.
 The final Strelka2 VCF was filtered for PASS variants.
 Mutect2 from GATK v4.1.1.0 was run following Broad best practices outlined from their Workflow Description Language (WDL) [@E5aTvXmQ].

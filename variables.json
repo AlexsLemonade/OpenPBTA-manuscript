@@ -1,5 +1,5 @@
 {
-  "date": "October 2, 2019",
+  "date": "October 23, 2019",
   "authors": [
     {
       "github": "johndoe",
@@ -46,7 +46,7 @@
     "repo_slug": "AlexsLemonade/OpenPBTA-manuscript",
     "repo_owner": "AlexsLemonade",
     "repo_name": "OpenPBTA-manuscript",
-    "commit": "5101ec500b407ffe03d1a8952d796da25f00edb4"
+    "commit": "8760be7282095301426e0fa1f1cb73ffd609edf0"
   },
   "manuscript_stats": {
     "reference_counts": {

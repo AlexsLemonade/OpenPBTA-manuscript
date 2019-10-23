@@ -2,7 +2,7 @@
 author-meta:
 - John Doe
 - Jane Roe
-date-meta: '2019-10-02'
+date-meta: '2019-10-23'
 keywords:
 - pediatric cancer
 - brain tumor
@@ -18,10 +18,10 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/5101ec500b407ffe03d1a8952d796da25f00edb4/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/8760be7282095301426e0fa1f1cb73ffd609edf0/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@5101ec5](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/5101ec500b407ffe03d1a8952d796da25f00edb4)
-on October 2, 2019.
+from [AlexsLemonade/OpenPBTA-manuscript@8760be7](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/8760be7282095301426e0fa1f1cb73ffd609edf0)
+on October 23, 2019.
 </em></small>
 
 ## Authors
@@ -158,7 +158,7 @@ The final VCF was filtered for PASS variants with TYPE=StronglySomatic.
 
 #### VCF annotation and MAF creation
 
-We filtered outputs from both callers on the "PASS" filter, and annotated using The ENSEMBL Variant Effect Predictor [@p1f5DxRQ], reference release 93, and created MAFs using MSKCC's vcf2maf [@11Fn5jqUI] v1.6.16.
+We filtered outputs from both callers on the "PASS" filter, and annotated using The ENSEMBL Variant Effect Predictor [@p1f5DxRQ], reference release 93, and created MAFs using MSKCC's vcf2maf [@11Fn5jqUI] v1.6.17.
 
 ### Somatic Copy Number Variant Calling
 

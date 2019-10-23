@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="John Doe" />
   <meta name="author" content="Jane Roe" />
-  <meta name="dcterms.date" content="2019-10-02" />
+  <meta name="dcterms.date" content="2019-10-23" />
   <meta name="keywords" content="pediatric cancer, brain tumor, tumor atlas" />
   <title>An Open Pediatric Brain Tumor Atlas</title>
   <style>
@@ -23,7 +23,7 @@
 <header id="title-block-header">
 <h1 class="title">An Open Pediatric Brain Tumor Atlas</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/5101ec500b407ffe03d1a8952d796da25f00edb4/">permalink</a>) was automatically generated from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/5101ec500b407ffe03d1a8952d796da25f00edb4">AlexsLemonade/OpenPBTA-manuscript@5101ec5</a> on October 2, 2019. </em></small></p>
+<p><small><em> This manuscript (<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/8760be7282095301426e0fa1f1cb73ffd609edf0/">permalink</a>) was automatically generated from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/8760be7282095301426e0fa1f1cb73ffd609edf0">AlexsLemonade/OpenPBTA-manuscript@8760be7</a> on October 23, 2019. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><p><strong>John Doe</strong><br> <img src="images/orcid.svg" alt="ORCID icon" class="inline_icon" /> <a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX">XXXX-XXXX-XXXX-XXXX</a> · <img src="images/github.svg" alt="GitHub icon" class="inline_icon" /> <a href="https://github.com/johndoe">johndoe</a> · <img src="images/twitter.svg" alt="Twitter icon" class="inline_icon" /> <a href="https://twitter.com/johndoe">johndoe</a><br> <small> Department of Something, University of Whatever · Funded by Grant XXXXXXXX </small></p></li>
@@ -57,7 +57,7 @@
 Per recommendations by the New York Genome Center, the Lancet input intervals were augmented with PASS variant calls from Strelka2 and Mutect2 as validation. VarDictJava <span class="citation" data-cites="trQRR8fs">[<a href="#ref-trQRR8fs" role="doc-biblioref">16</a>]</span> v1.58 <span class="citation" data-cites="1GMHnwH5p">[<a href="#ref-1GMHnwH5p" role="doc-biblioref">17</a>]</span> was run using the hg38 fasta reference with the same BED intervals used for Mutect2.<br />
 Parameters and filtering followed BCBIO standards except that variants with a variant allele frequency (VAF) &gt;= 0.05 (instead of &gt;= 0.10) were retained. The 0.05 VAF increased the true positive rate for INDELs and decreased the false positive rate for SNVs when using VarDict in consensus calling. The final VCF was filtered for PASS variants with TYPE=StronglySomatic.</p>
 <h4 id="vcf-annotation-and-maf-creation">VCF annotation and MAF creation</h4>
-<p>We filtered outputs from both callers on the “PASS” filter, and annotated using The ENSEMBL Variant Effect Predictor <span class="citation" data-cites="p1f5DxRQ">[<a href="#ref-p1f5DxRQ" role="doc-biblioref">18</a>]</span>, reference release 93, and created MAFs using MSKCC’s vcf2maf <span class="citation" data-cites="11Fn5jqUI">[<a href="#ref-11Fn5jqUI" role="doc-biblioref">19</a>]</span> v1.6.16.</p>
+<p>We filtered outputs from both callers on the “PASS” filter, and annotated using The ENSEMBL Variant Effect Predictor <span class="citation" data-cites="p1f5DxRQ">[<a href="#ref-p1f5DxRQ" role="doc-biblioref">18</a>]</span>, reference release 93, and created MAFs using MSKCC’s vcf2maf <span class="citation" data-cites="11Fn5jqUI">[<a href="#ref-11Fn5jqUI" role="doc-biblioref">19</a>]</span> v1.6.17.</p>
 <h3 id="somatic-copy-number-variant-calling">Somatic Copy Number Variant Calling</h3>
 <p>We used Control-FREEC <span class="citation" data-cites="ZQ0L3o1q 1F3i4BvCt">[<a href="#ref-ZQ0L3o1q" role="doc-biblioref">20</a>,<a href="#ref-1F3i4BvCt" role="doc-biblioref">21</a>]</span> v8.7 and CNVkit <span class="citation" data-cites="UTxRcYIQ">[<a href="#ref-UTxRcYIQ" role="doc-biblioref">22</a>]</span> v0.9.3 for copy number variant calls. CNVkit was run using default parameters on human genome reference hg38 and using the batch command for tumor-normal pairs rather than a panel of normals.</p>
 <h3 id="somatic-structural-variant-calling">Somatic Structural Variant Calling</h3>
@@ -145,7 +145,7 @@ DOI: <a href="https://doi.org/10.1038/s41592-018-0051-x">10.1038/s41592-018-0051
 <div id="ref-E5aTvXmQ">
 <p>13. <strong>Official code repository for GATK versions 4 and up: broadinstitute/gatk</strong><br />
 Broad Institute<br />
-(2019-10-02) <a href="https://github.com/broadinstitute/gatk">https://github.com/broadinstitute/gatk</a></p>
+(2019-10-21) <a href="https://github.com/broadinstitute/gatk">https://github.com/broadinstitute/gatk</a></p>
 </div>
 <div id="ref-V6KdWVYi">
 <p>14. <strong>Genome-wide somatic variant calling using localized colored de Bruijn graphs</strong><br />
@@ -167,7 +167,7 @@ DOI: <a href="https://doi.org/10.1093/nar/gkw227">10.1093/nar/gkw227</a> · PMID
 <div id="ref-1GMHnwH5p">
 <p>17. <strong>VarDict Java port. Contribute to AstraZeneca-NGS/VarDictJava development by creating an account on GitHub</strong><br />
 AstraZeneca - NGS Team<br />
-(2019-10-01) <a href="https://github.com/AstraZeneca-NGS/VarDictJava">https://github.com/AstraZeneca-NGS/VarDictJava</a></p>
+(2019-10-11) <a href="https://github.com/AstraZeneca-NGS/VarDictJava">https://github.com/AstraZeneca-NGS/VarDictJava</a></p>
 </div>
 <div id="ref-p1f5DxRQ">
 <p>18. <strong>The Ensembl Variant Effect Predictor</strong><br />
@@ -178,7 +178,7 @@ DOI: <a href="https://doi.org/10.1186/s13059-016-0974-4">10.1186/s13059-016-0974
 <div id="ref-11Fn5jqUI">
 <p>19. <strong>Convert a VCF into a MAF, where each variant is annotated to only one of all possible gene isoforms: mskcc/vcf2maf</strong><br />
 Memorial Sloan Kettering<br />
-(2019-09-30) <a href="https://github.com/mskcc/vcf2maf">https://github.com/mskcc/vcf2maf</a></p>
+(2019-10-18) <a href="https://github.com/mskcc/vcf2maf">https://github.com/mskcc/vcf2maf</a></p>
 </div>
 <div id="ref-ZQ0L3o1q">
 <p>20. <strong>Control-FREEC: a tool for assessing copy number and allelic content using next-generation sequencing data</strong><br />

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="John Doe" />
   <meta name="author" content="Jane Roe" />
-  <meta name="dcterms.date" content="2019-10-23" />
+  <meta name="dcterms.date" content="2019-11-01" />
   <meta name="keywords" content="pediatric cancer, brain tumor, tumor atlas" />
   <title>An Open Pediatric Brain Tumor Atlas</title>
   <style>
@@ -23,7 +23,7 @@
 <header id="title-block-header">
 <h1 class="title">An Open Pediatric Brain Tumor Atlas</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/8760be7282095301426e0fa1f1cb73ffd609edf0/">permalink</a>) was automatically generated from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/8760be7282095301426e0fa1f1cb73ffd609edf0">AlexsLemonade/OpenPBTA-manuscript@8760be7</a> on October 23, 2019. </em></small></p>
+<p><small><em> This manuscript (<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/2a4bcb2cb7b3b0c20dcc1de9154aafb546c12290/">permalink</a>) was automatically generated from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/2a4bcb2cb7b3b0c20dcc1de9154aafb546c12290">AlexsLemonade/OpenPBTA-manuscript@2a4bcb2</a> on November 1, 2019. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><p><strong>John Doe</strong><br> <img src="images/orcid.svg" alt="ORCID icon" class="inline_icon" /> <a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX">XXXX-XXXX-XXXX-XXXX</a> · <img src="images/github.svg" alt="GitHub icon" class="inline_icon" /> <a href="https://github.com/johndoe">johndoe</a> · <img src="images/twitter.svg" alt="Twitter icon" class="inline_icon" /> <a href="https://twitter.com/johndoe">johndoe</a><br> <small> Department of Something, University of Whatever · Funded by Grant XXXXXXXX </small></p></li>
@@ -78,6 +78,8 @@ Parameters and filtering followed BCBIO standards except that variants with a va
 <p>Overall survival was calculated as days since initial diagnosis.</p>
 <h4 id="prediction-of-participants-genetic-sex">Prediction of participants’ genetic sex</h4>
 <p>The clinical metadata provided included a reported gender. We used DNA data, in concert with the reported gender, to predict participant genetic sex so that we could identify sexually dimorphic outcomes. This analysis could also reveal samples that may have been contaminated in certain circumstances. We used the idxstats utility from SAMTOOLS <span class="citation" data-cites="hNfNHk9L">[<a href="#ref-hNfNHk9L" role="doc-biblioref">31</a>]</span> to calculate read lengths, the number of mapped reads, and the corresponding chromosomal location for reads to the X and Y chromosomes. We used the fraction of total normalized X and Y chromosome reads that were attributed to the Y chromosome as a summary statistic. We reviewed this statistic in the context of reported gender and determined that a threshold of less than 0.2 clearly delineated female samples. Fractions greater than 0.4 were predicted to be males. Samples with values in the range [0.2, 0.4] were marked as unknown. We ran this analysis through <a href="https://github.com/d3b-center/sex-determination-tool">CWL</a> on Cavatica. Resulting calls were added to the clinical metadata as <code>germline_sex_estimate</code>.</p>
+<h4 id="selection-of-independent-samples">Selection of independent samples</h4>
+<p>Certain analyses required that we select only a single representative specimen for each individual. In these cases, we prioritized primary tumors and those with whole-genome sequencing available. If this filtering still resulted in multiple specimens, we selected from the remaining set randomly.</p>
 <h2 id="results">Results</h2>
 <p>Results section stub.</p>
 <h2 id="conclusions">Conclusions</h2>
@@ -145,7 +147,7 @@ DOI: <a href="https://doi.org/10.1038/s41592-018-0051-x">10.1038/s41592-018-0051
 <div id="ref-E5aTvXmQ">
 <p>13. <strong>Official code repository for GATK versions 4 and up: broadinstitute/gatk</strong><br />
 Broad Institute<br />
-(2019-10-21) <a href="https://github.com/broadinstitute/gatk">https://github.com/broadinstitute/gatk</a></p>
+(2019-10-31) <a href="https://github.com/broadinstitute/gatk">https://github.com/broadinstitute/gatk</a></p>
 </div>
 <div id="ref-V6KdWVYi">
 <p>14. <strong>Genome-wide somatic variant calling using localized colored de Bruijn graphs</strong><br />
@@ -156,7 +158,7 @@ DOI: <a href="https://doi.org/10.1038/s42003-018-0023-9">10.1038/s42003-018-0023
 <div id="ref-dYF6AyBo">
 <p>15. <strong>Microassembly based somatic variant caller for NGS data: nygenome/lancet</strong><br />
 New York Genome Center<br />
-(2019-09-24) <a href="https://github.com/nygenome/lancet">https://github.com/nygenome/lancet</a></p>
+(2019-10-31) <a href="https://github.com/nygenome/lancet">https://github.com/nygenome/lancet</a></p>
 </div>
 <div id="ref-trQRR8fs">
 <p>16. <strong>VarDict: a novel and versatile variant caller for next-generation sequencing in cancer research</strong><br />
@@ -167,7 +169,7 @@ DOI: <a href="https://doi.org/10.1093/nar/gkw227">10.1093/nar/gkw227</a> · PMID
 <div id="ref-1GMHnwH5p">
 <p>17. <strong>VarDict Java port. Contribute to AstraZeneca-NGS/VarDictJava development by creating an account on GitHub</strong><br />
 AstraZeneca - NGS Team<br />
-(2019-10-11) <a href="https://github.com/AstraZeneca-NGS/VarDictJava">https://github.com/AstraZeneca-NGS/VarDictJava</a></p>
+(2019-10-31) <a href="https://github.com/AstraZeneca-NGS/VarDictJava">https://github.com/AstraZeneca-NGS/VarDictJava</a></p>
 </div>
 <div id="ref-p1f5DxRQ">
 <p>18. <strong>The Ensembl Variant Effect Predictor</strong><br />
@@ -178,7 +180,7 @@ DOI: <a href="https://doi.org/10.1186/s13059-016-0974-4">10.1186/s13059-016-0974
 <div id="ref-11Fn5jqUI">
 <p>19. <strong>Convert a VCF into a MAF, where each variant is annotated to only one of all possible gene isoforms: mskcc/vcf2maf</strong><br />
 Memorial Sloan Kettering<br />
-(2019-10-18) <a href="https://github.com/mskcc/vcf2maf">https://github.com/mskcc/vcf2maf</a></p>
+(2019-10-31) <a href="https://github.com/mskcc/vcf2maf">https://github.com/mskcc/vcf2maf</a></p>
 </div>
 <div id="ref-ZQ0L3o1q">
 <p>20. <strong>Control-FREEC: a tool for assessing copy number and allelic content using next-generation sequencing data</strong><br />

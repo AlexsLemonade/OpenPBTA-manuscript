@@ -2,7 +2,7 @@
 author-meta:
 - John Doe
 - Jane Roe
-date-meta: '2019-10-23'
+date-meta: '2019-11-01'
 keywords:
 - pediatric cancer
 - brain tumor
@@ -18,10 +18,10 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/8760be7282095301426e0fa1f1cb73ffd609edf0/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/2a4bcb2cb7b3b0c20dcc1de9154aafb546c12290/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@8760be7](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/8760be7282095301426e0fa1f1cb73ffd609edf0)
-on October 23, 2019.
+from [AlexsLemonade/OpenPBTA-manuscript@2a4bcb2](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/2a4bcb2cb7b3b0c20dcc1de9154aafb546c12290)
+on November 1, 2019.
 </em></small>
 
 ## Authors
@@ -233,6 +233,12 @@ Fractions greater than 0.4 were predicted to be males.
 Samples with values in the range [0.2, 0.4] were marked as unknown.
 We ran this analysis through [CWL](https://github.com/d3b-center/sex-determination-tool) on Cavatica.
 Resulting calls were added to the clinical metadata as `germline_sex_estimate`.
+
+#### Selection of independent samples
+
+Certain analyses required that we select only a single representative specimen for each individual.
+In these cases, we prioritized primary tumors and those with whole-genome sequencing available.
+If this filtering still resulted in multiple specimens, we selected from the remaining set randomly.
 
 
 ## Results

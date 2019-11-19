@@ -2,7 +2,7 @@
 author-meta:
 - John Doe
 - Jane Roe
-date-meta: '2019-11-01'
+date-meta: '2019-11-19'
 keywords:
 - pediatric cancer
 - brain tumor
@@ -18,10 +18,10 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/2658451a42e6f53d269d9044c53132b967a47862/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/fb656d7705380c2638625ddb7ab8f6f003b4c9a2/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@2658451](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/2658451a42e6f53d269d9044c53132b967a47862)
-on November 1, 2019.
+from [AlexsLemonade/OpenPBTA-manuscript@fb656d7](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/fb656d7705380c2638625ddb7ab8f6f003b4c9a2)
+on November 19, 2019.
 </em></small>
 
 ## Authors
@@ -218,6 +218,46 @@ For instance, any diagnosis denoted as "Other" in `disease_type_old` was modifie
 Additionally, `disease_type_old` was modified to `disease_type_new` if the presence of specific molecular alterations defined a biospecimen as having an alternate diagnosis.
 The `broad_histology` denotes the broad 2016 WHO classification [doi:10.1007/s00401-016-1545-1] for each tumor.
 The `short_histology` is an abbreviated version of the `broad_histology`.
+The `glioma_brain_region` was subtyped into hemispheric, midline, mixed, or other based on specimen location (see table below).
+
+
+| ﻿Metadata | Definition | Possible values |
+|---------------------------|----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| age_at_diagnosis_days | Patient age at diagnosis in days | numeric |
+| age_last_update_days | Patient age at the last clinical event/update in days | numeric |
+| aliquot_id | External aliquot identifier | variable |
+| broad_composition | Broad classification of sample type | cell-line;cyst;non-tumor;tumor |
+| broad_histology | Broad WHO 2016 classification of cancer type | text |
+| cancer_predispositions | Reported cancer predisposition syndromes | text |
+| cohort | Scientific cohort | CBTTC;PNOC |
+| composition | Sample composition | Derived Cell Line;Not Reported;Peripheral Whole Blood;Saliva;Solid Tissue |
+| disease_type_new | Updated and/or integrated molecular diagnosis | text |
+| disease_type_old | Reported patient diagnosis from pathology reports | text |
+| ethnicity | Patient reported ethnicity | text |
+| experimental_strategy | Sequencing strategy | WGS;WXS;RNA-Seq;Panel |
+| germline_sex_estimate | Predicted sex of patient based on germline X and Y ratio calculation (described in methods) | Female;Male;Unknown |
+| glioma_brain_region | Brain region for all tumors classified as LGAT or HGAT | midline (Thalamus|Pons|Spinal Cord|Brain Stem|Midbrain|Hippocampus|Medulla);hemispheric (Lobe|Cerebellum); mixed (mixture of midline and hemispheric regions);other(optic pathway|pituitary|hypothalamus|suprasellar) |
+| Kids_First_Biospecimen_ID | KidsFirst Biopecimen identifier | BS_######## |
+| Kids_First_Participant_ID | KidsFirst patient identifier | PT_######## |
+| molecular_subtype | Molecular subtype defined by WHO 2016 guidelines | text |
+| normal_fraction | Theta2 normal DNA fraction estimate | numeric |
+| Notes | Free text field describing changes from diagnosis_old to diagnosis_new or manner in which molecular_subtype was determined | text |
+| OS_days | Overall survival in days | numeric |
+| OS_status | Overall survival status | DECEASED;LIVING |
+| primary_site | Bodily site(s) from which specimen was derived | text |
+| race | Patient reported race | text |
+| reported_gender | Patient reported gender | text |
+| RNA_library | Type of RNA-Sequencing library preparation | stranded;poly-A |
+| sample_id | External biospecimen identifier | variable |
+| sample_type | Broad sample type | Normal;Tumor |
+| seq_center | Sequencing center | BGI@CHOP Genome Center;Genomic Clinical Core at Sidra Medical and Research Center;NantOmics;TGEN |
+| short_histology | Abbreviated disease_type_new | text |
+| tumor_descriptor | Phase of therapy from which tumor was derived | Initial CNS Tumor;Progressive Progressive Disease Post-Mortem;Recurrence;Second Malignancy;Unavailable |
+| tumor_fraction | Theta2 tumor DNA fraction estimate | numeric |
+| tumor_ploidy | ControlFreeC ploidy | numeric  |
+
+
+Table S1. Clinical metadata collected for OpenPBTA. {#tbl:S1}
 
 #### Molecular Subtyping
 
@@ -226,7 +266,7 @@ Medulloblastoma subtypes SHH, MYC, Group 3, and Group 4 were predicted using an 
 
 #### Survival
 
-Overall survival was calculated as days since initial diagnosis.
+Overall survival, denoted `OS_days`, was calculated as days since initial diagnosis.
 
 #### Prediction of participants' genetic sex
 

@@ -2,7 +2,7 @@
 author-meta:
 - John Doe
 - Jane Roe
-date-meta: '2019-11-19'
+date-meta: '2019-11-20'
 keywords:
 - pediatric cancer
 - brain tumor
@@ -18,10 +18,10 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/fb656d7705380c2638625ddb7ab8f6f003b4c9a2/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/2409c8a017ed7fc755df8bade1dbca04669c9724/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@fb656d7](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/fb656d7705380c2638625ddb7ab8f6f003b4c9a2)
-on November 19, 2019.
+from [AlexsLemonade/OpenPBTA-manuscript@2409c8a](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/2409c8a017ed7fc755df8bade1dbca04669c9724)
+on November 20, 2019.
 </em></small>
 
 ## Authors
@@ -139,8 +139,12 @@ If calculated strandedness did not match strandedness information received from 
 We required at least 60% of RNA-Seq reads mapped to the human reference or samples were removed from analysis.
 
 ### Germline Variant Calling
-#### SNV and INDEL calling
-We used GATK Haplotype caller.
+#### SNV calling for B-allele Frequency (BAF) generation
+Germline haplotype calls were performed following the [GATK Joint Genotyping Workflow](https://software.broadinstitute.org/gatk/best-practices/workflow?id=11145), except the workflow was run on an individual sample basis.
+Using only SNPs, we applied the [GATK generic hard filter suggestions](https://gatkforums.broadinstitute.org/gatk/discussion/2806/howto-apply-hard-filters-to-a-call-set) to the VCF, with an additional requirement of 10 reads minimum depth per SNP.
+This filtered VCF was used as input to ControlFreeC and CNVKit (below) for generation of BAF files. 
+GATK v4.0.12.0 was used for all steps except `VariantFiltration`, which used 3.8.0 because as of GATK 4.0.12.0, this tool was beta and known to be unreliable for this purpose. 
+This single-sample workflow can be found in the [Kids First GitHub repository](https://github.com/kids-first/kf-jointgenotyping-workflow).
 
 ### Somatic Mutation Calling
 #### SNV and INDEL calling
@@ -167,7 +171,7 @@ We filtered outputs from both callers on the "PASS" filter, and annotated using 
 ### Somatic Copy Number Variant Calling
 
 We used Control-FREEC [@ZQ0L3o1q; @1F3i4BvCt] v11.6 and CNVkit [@UTxRcYIQ] v0.9.3 for copy number variant calls. 
-For both algorithms, the `germline_sex_estimate` (described below) was used as input for sample sex and germline variant calls were used as input for B-allele frequency (BAF) estimation. 
+For both algorithms, the `germline_sex_estimate` (described below) was used as input for sample sex and germline variant calls (above) were used as input for BAF estimation. 
 ControlFreeC was run on human genome reference hg38 using the optional parameters of a 0.05 coefficient of variation, ploidy choice of 2-4, and BAF adjustment for tumor-normal pairs.
 Theta2 [@V4PckbrH] used VarDict germline and somatic calls, filtered on PASS and strongly somatic, to infer tumor purity.
 Theta2 purity was added as an optional parameter to CNVkit to adjust copy number calls.

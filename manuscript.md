@@ -2,7 +2,7 @@
 author-meta:
 - John Doe
 - Jane Roe
-date-meta: '2019-11-20'
+date-meta: '2019-11-21'
 keywords:
 - pediatric cancer
 - brain tumor
@@ -18,10 +18,10 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/2409c8a017ed7fc755df8bade1dbca04669c9724/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/df29dc46c1fe0497ae88b72296140a2579e1d3d5/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@2409c8a](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/2409c8a017ed7fc755df8bade1dbca04669c9724)
-on November 20, 2019.
+from [AlexsLemonade/OpenPBTA-manuscript@df29dc4](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/df29dc46c1fe0497ae88b72296140a2579e1d3d5)
+on November 21, 2019.
 </em></small>
 
 ## Authors
@@ -183,11 +183,12 @@ We used Manta SV [@kTn1PIj5] v1.4.0 for structural variant (SV) calls.
 Manta SV calling was also limited to regions used in Strelka2.
 The hg38 reference for SV calling used was limited to canonical chromosome regions.
 The somatic DNA workflow for SNV, INDEL, copy number, and SV calling can be found in the [KidsFirst Github repository](https://github.com/kids-first/kf-somatic-workflow).
+Manta SV output was annotated using [AnnotSV v2.1](https://lbgi.fr/AnnotSV/) [@7Ull5aU5] and the workflow can be found in the [D3b GitHub repository](https://github.com/d3b-center/annotSV/tree/master).
 
 ### Gene Expression Abundance Estimation
 We used STAR [@tTu8Ds9Z] v2.6.1d to align paired-end RNA-seq reads.
 This output was used for all subsequent RNA analysis. The reference we used was that of ENSEMBL's GENCODE 27 [@9oRUnb2k], "Comprehensive gene annotation."
-We used RSEM [@Dh2n1EV3] v1.3.1 for transcript- and gene-level quantification.
+We used RSEM [@Dh2n1EV3] v1.3.1 for both FPKM and TPM transcript- and gene-level quantification.
 We also added a second method of quantification using kallisto [@12KZMHMQl] v0.43.1.
 This method differs in that it uses pseudoaligments using fastq reads directly to the aforementioned GENCODE 27 reference.
 

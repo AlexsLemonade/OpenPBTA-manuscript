@@ -18,9 +18,9 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/df29dc46c1fe0497ae88b72296140a2579e1d3d5/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/e042257e2fedfcd441e9c83f34e583e4c2ae859b/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@df29dc4](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/df29dc46c1fe0497ae88b72296140a2579e1d3d5)
+from [AlexsLemonade/OpenPBTA-manuscript@e042257](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/e042257e2fedfcd441e9c83f34e583e4c2ae859b)
 on November 21, 2019.
 </em></small>
 
@@ -150,19 +150,20 @@ This single-sample workflow can be found in the [Kids First GitHub repository](h
 #### SNV and INDEL calling
 
 We used four variant callers to call SNVs and INDELS from targeted DNA panel, WXS, and WGS data: Strelka2, Mutect2, Lancet, and VarDict.
-The input interval BED files for both panel and WXS data were padded by 100 bp on each side for all variant calling algorithm runs.
-The BED files for WGS were not padded for Mutect2 and Strelka2 runs, were padded by 300 bp on each side for Lancet, and by 100 bp on each side for VarDict.
-Strelka2 [@REfkDUtE] v2.9.3 was run using default parameters on human genome reference hg38, canonical chromosomes only (chr1-22, X,Y,M), as recommended by the authors.
+The input interval BED files for both panel and WXS data provided by the manufacturers were padded by 100 bp on each side during all variant calling algorithm runs.
+For WGS calling, we utilized the non-padded BROAD Institute interval calling list [`wgs_calling_regions.hg38.interval_list`](https://console.cloud.google.com/storage/browser/_details/genomics-public-data/resources/broad/hg38/v0/wgs_calling_regions.hg38.interval_list), comprised of the full genome minus N bases, unless otherwise noted below. 
+Strelka2 [@REfkDUtE] v2.9.3 was run using default parameters for canonical chromosomes (chr1-22, X,Y,M), as recommended by the authors.
 The final Strelka2 VCF was filtered for PASS variants.
 Mutect2 from GATK v4.1.1.0 was run following Broad best practices outlined from their Workflow Description Language (WDL) [@E5aTvXmQ].
 The final Mutect2 VCF was filtered for PASS variants. 
-Lancet [@V6KdWVYi] v1.0.7 [@dYF6AyBo] was run using default parameters, unless noted below.
-For input intervals to Lancet, a reference BED was created by using only the UTR, exome, and start/stop codon features of the GENCODE 31 reference.  
-Per recommendations by the New York Genome Center, the Lancet input intervals were augmented with PASS variant calls from Strelka2 and Mutect2 as validation.
-VarDictJava [@trQRR8fs] v1.58 [@1GMHnwH5p] was run using the hg38 fasta reference with the same BED intervals used for Mutect2.  
-Parameters and filtering followed BCBIO standards except that variants with a variant allele frequency (VAF) >= 0.05 (instead of >= 0.10) were retained. 
+To manage memory issues, VarDictJava [@trQRR8fs] v1.58 [@1GMHnwH5p] was run using 20Kb interval chunks of the input BED, padded by 100 bp on each side, such that if an INDEL occurred in between intervals, it would be captured.
+Parameters and filtering followed [BCBIO standards](https://github.com/bcbio/bcbio-nextgen) except that variants with a variant allele frequency (VAF) >= 0.05 (instead of >= 0.10) were retained. 
 The 0.05 VAF increased the true positive rate for INDELs and decreased the false positive rate for SNVs when using VarDict in consensus calling. 
 The final VCF was filtered for PASS variants with TYPE=StronglySomatic.
+Lancet [@V6KdWVYi] v1.0.7 [@dYF6AyBo] was run using default parameters, unless noted below.
+For input intervals to Lancet, a reference BED was created by using only the UTR, exome, and start/stop codon features of the GENCODE 31 reference, augmented as recommended with PASS variant calls from Strelka2 and Mutect2 [@bKthX7vJ].
+These intervals were then padded by 300 bp on each side during Lancet variant calling.
+Per recommendations by the New York Genome Center [@bKthX7vJ], the Lancet input intervals described above were augmented with PASS variant calls from Strelka2 and Mutect2 as validation.
 
 #### VCF annotation and MAF creation
 

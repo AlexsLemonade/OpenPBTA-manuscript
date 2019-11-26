@@ -2,7 +2,7 @@
 author-meta:
 - John Doe
 - Jane Roe
-date-meta: '2019-11-21'
+date-meta: '2019-11-26'
 keywords:
 - pediatric cancer
 - brain tumor
@@ -18,10 +18,10 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/e042257e2fedfcd441e9c83f34e583e4c2ae859b/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/5f5c17f8dd20cbc5a6568496543de24434913c47/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@e042257](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/e042257e2fedfcd441e9c83f34e583e4c2ae859b)
-on November 21, 2019.
+from [AlexsLemonade/OpenPBTA-manuscript@5f5c17f](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/5f5c17f8dd20cbc5a6568496543de24434913c47)
+on November 26, 2019.
 </em></small>
 
 ## Authors
@@ -131,7 +131,7 @@ Lastly, resultant BAMs were processing using Broad's Genome Analysis Tool Kit (G
 
 ### Quality Control of Sequencing Data
 
-NGSCheckmate [doi:10.1093/nar/gkx193] was peformed on matched tumor/normal CRAMs to confirm sample matches and remove mis-matched samples from the dataset. 
+NGSCheckmate [@A4FXW005] was peformed on matched tumor/normal CRAMs to confirm sample matches and remove mis-matched samples from the dataset. 
 CRAM inputs were preprocessed using bcftools to filter and call 20k common SNPs using default parameters[@16tUBMk59] and the resulting VCFs were used to run NGSCheckmate using [this workflow](https://github.com/d3b-center/ngs_checkmate_wf) in the D3b GitHub repository. 
 Per author guidelines, <= 0.61 was used as a correlation coefficient cutoff at sequencing depths >10 to predict mismatched samples.
 For RNA-Seq, read strandedness was determined by running the [`infer_experiment.py` script](http://rseqc.sourceforge.net/#infer-experiment-py) on the first 200k mapped reads.
@@ -201,18 +201,19 @@ For both these tools we used aligned BAM and chimeric SAM files from STAR as inp
 We ran STAR-Fusion with default parameters and annotated all fusion calls with GRCh38_v27_CTAT_lib_Feb092018.plug-n-play.tar.gz provided in the STAR-fusion release. 
 For Arriba, we used a blacklist file (blacklist_hg38_GRCh38_2018-11-04.tsv.gz) from the Arriba release tarballs to remove recurrent fusion artifacts and transcripts present in healthy tissue.
 We also provided Arriba with strandedness information or set it to auto-detection for polyA samples.
-The RNA expression and fusion workflows can be found in the [KidsFirst GitHub repository](https://github.com/kids-first/kf-rnaseq-workflow).
+We used [FusionAnnotator](https://github.com/FusionAnnotator/FusionAnnotator) on Arriba fusion calls in order to harmonize annotations with those of STAR-Fusion.
+The RNA expression and fusion workflows can be found in the [KidsFirst GitHub repository](https://github.com/kids-first/kf-rnaseq-workflow) and the FusionAnnotator workflow found in the [D3b GitHub repository](https://github.com/d3b-center/FusionAnnotator).
 
 #### Fusion prioritization
 
-We built a [fusion prioritization pipeline](https://github.com/d3b-center/fusion_filtering_pipeline) to filter and annotate fusions.
-We considered all inframe and frameshift fusion calls with 1 or more junction reads and fused genes expressed with TPM greater than one to be true calls.
-If a fusion call had large number of spanning fragment reads compared to junction reads (spanning fragment minus junction read greater than ten) or if either 5\` or 3\` genes fused to more than five different genes we removed these calls as a potential false positive.
-We also removed fusions if the 5\` or 3\` ends were the same gene, and these were tagged as non-canonical splicing or duplication.
-We used a list of curated fusion calls for each histology to capture each occurrence of the fusion as a putative driver fusion.
-We prioritized a union of fusion calls as true calls if the fused genes were detected by both callers, the same fusion was recurrent in histology (>2 samples) or the fusion was specific to the broad histology. 
-We annotated putative driver fusions and prioritized fusions lists with kinases, oncogenic, tumor suppressor, transcription factor, fused genes and known TCGA fusions from curated [datasheets](https://github.com/d3b-center/fusion_filtering_pipeline/tree/master/references).
-We also added chimerDB [@FLBuvqQe] annotations to both driver and prioritized fusion list.
+We performed artifact filtering and additional annotation on fusion calls to prioritize putative oncogenic fusions.
+Briefly, we considered all inframe and frameshift fusion calls with a minimum of 1 junction reads and at least one gene partner expressed (TPM > 1) to be true calls.
+If a fusion call had large number of spanning fragment reads compared to junction reads (spanning fragment minus junction read greater than ten), we removed these calls as potential false positives.
+We prioritized a union of fusion calls as true calls if the fused genes were detected by both callers, the same fusion was recurrent within a `broad_histology` (>2 samples) or the fusion was specific to the `broad_histology`. 
+If either 5' or 3' genes fused to more than five different genes within a sample, we removed these calls as potential false positives.
+We annotated putative driver fusions and prioritized fusions based on partners containing known [kinases](http://kinase.com/human/kinome/tables/Kincat_Hsap.08.02.xls), [oncogenes](http://www.bushmanlab.org/assets/doc/allOnco_Feb2017.tsv), [tumor suppressors](https://bioinfo.uth.edu/TSGene/Human_TSGs.txt?csrt=5027697123997809089), curated transcription factors [@9vS8HBL6], [COSMIC genes](https://cancer.sanger.ac.uk/census), and/or known [TCGA fusions](https://tumorfusions.org/PanCanFusV2/downloads/pancanfus.txt.gz) from curated [references](https://github.com/AlexsLemonade/OpenPBTA-analysis/tree/master/analyses/fusion_filtering/references).
+_MYBL1_ [@jLWV5IWB], _SNCAIP_ [@4wYR62jK], _FOXR2_ [@kfmK8vm], _TTYH1_ [@5ueZBnsJ], and _TERT_ [@ASmwGlFp; @YfG9EVSk; @lWMOs28t; @1B3tdZcAl] were added to the oncogene list and _BCOR_ [@kfmK8vm] and _QKI_ [@1foRpfch] were added to the tumor suppressor gene list based on pediatric cancer literature review.
+The fusion filtering workflow can be found in the [OpenPBTA Analysis repository](https://github.com/AlexsLemonade/OpenPBTA-analysis/tree/master/analyses/fusion_filtering).
 
 ### Clinical Data Harmonization
 

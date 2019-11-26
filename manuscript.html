@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="John Doe" />
   <meta name="author" content="Jane Roe" />
-  <meta name="dcterms.date" content="2019-11-21" />
+  <meta name="dcterms.date" content="2019-11-26" />
   <meta name="keywords" content="pediatric cancer, brain tumor, tumor atlas" />
   <title>An Open Pediatric Brain Tumor Atlas</title>
   <style>
@@ -23,7 +23,7 @@
 <header id="title-block-header">
 <h1 class="title">An Open Pediatric Brain Tumor Atlas</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/e042257e2fedfcd441e9c83f34e583e4c2ae859b/">permalink</a>) was automatically generated from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/e042257e2fedfcd441e9c83f34e583e4c2ae859b">AlexsLemonade/OpenPBTA-manuscript@e042257</a> on November 21, 2019. </em></small></p>
+<p><small><em> This manuscript (<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/5f5c17f8dd20cbc5a6568496543de24434913c47/">permalink</a>) was automatically generated from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/5f5c17f8dd20cbc5a6568496543de24434913c47">AlexsLemonade/OpenPBTA-manuscript@5f5c17f</a> on November 26, 2019. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><p><strong>John Doe</strong><br> <img src="images/orcid.svg" alt="ORCID icon" class="inline_icon" /> <a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX">XXXX-XXXX-XXXX-XXXX</a> · <img src="images/github.svg" alt="GitHub icon" class="inline_icon" /> <a href="https://github.com/johndoe">johndoe</a> · <img src="images/twitter.svg" alt="Twitter icon" class="inline_icon" /> <a href="https://twitter.com/johndoe">johndoe</a><br> <small> Department of Something, University of Whatever · Funded by Grant XXXXXXXX </small></p></li>
@@ -50,26 +50,26 @@
 <h3 id="dna-wgs-alignment">DNA WGS Alignment</h3>
 <p>We used BWA-MEM <span class="citation" data-cites="gmH6YDca">[<a href="#ref-gmH6YDca" role="doc-biblioref">5</a>]</span> v0.7.17 for alignment of paired-end DNA-seq reads. The alignment reference that we used was Homo Sapiens Human Genome (hg) version 38, patch release 12, fasta file obtained from UCSC <span class="citation" data-cites="1AWRgvxVu">[<a href="#ref-1AWRgvxVu" role="doc-biblioref">6</a>]</span>. Alignments were futher processed using following the Broad Institute’s Best Practices <span class="citation" data-cites="EHMzG34o">[<a href="#ref-EHMzG34o" role="doc-biblioref">7</a>]</span> for processing BAMs in preparation for variant discovery. Duplicates were marked using Samblaster<span class="citation" data-cites="IzUbOv92">[<a href="#ref-IzUbOv92" role="doc-biblioref">8</a>]</span> v0.1.24, BAMs merged and sorted using Sambamba <span class="citation" data-cites="PcJwlZj3">[<a href="#ref-PcJwlZj3" role="doc-biblioref">9</a>]</span> v0.6.3. Lastly, resultant BAMs were processing using Broad’s Genome Analysis Tool Kit (GATK) <span class="citation" data-cites="RsmkaFIb">[<a href="#ref-RsmkaFIb" role="doc-biblioref">10</a>]</span> v4.0.3.0, BaseRecalibrator submodule.</p>
 <h3 id="quality-control-of-sequencing-data">Quality Control of Sequencing Data</h3>
-<p>NGSCheckmate [doi:10.1093/nar/gkx193] was peformed on matched tumor/normal CRAMs to confirm sample matches and remove mis-matched samples from the dataset. CRAM inputs were preprocessed using bcftools to filter and call 20k common SNPs using default parameters<span class="citation" data-cites="16tUBMk59">[<a href="#ref-16tUBMk59" role="doc-biblioref">11</a>]</span> and the resulting VCFs were used to run NGSCheckmate using <a href="https://github.com/d3b-center/ngs_checkmate_wf">this workflow</a> in the D3b GitHub repository. Per author guidelines, &lt;= 0.61 was used as a correlation coefficient cutoff at sequencing depths &gt;10 to predict mismatched samples. For RNA-Seq, read strandedness was determined by running the <a href="http://rseqc.sourceforge.net/#infer-experiment-py"><code>infer_experiment.py</code> script</a> on the first 200k mapped reads. If calculated strandedness did not match strandedness information received from the sequencing center, samples were removed from analysis. We required at least 60% of RNA-Seq reads mapped to the human reference or samples were removed from analysis.</p>
+<p>NGSCheckmate <span class="citation" data-cites="A4FXW005">[<a href="#ref-A4FXW005" role="doc-biblioref">11</a>]</span> was peformed on matched tumor/normal CRAMs to confirm sample matches and remove mis-matched samples from the dataset. CRAM inputs were preprocessed using bcftools to filter and call 20k common SNPs using default parameters<span class="citation" data-cites="16tUBMk59">[<a href="#ref-16tUBMk59" role="doc-biblioref">12</a>]</span> and the resulting VCFs were used to run NGSCheckmate using <a href="https://github.com/d3b-center/ngs_checkmate_wf">this workflow</a> in the D3b GitHub repository. Per author guidelines, &lt;= 0.61 was used as a correlation coefficient cutoff at sequencing depths &gt;10 to predict mismatched samples. For RNA-Seq, read strandedness was determined by running the <a href="http://rseqc.sourceforge.net/#infer-experiment-py"><code>infer_experiment.py</code> script</a> on the first 200k mapped reads. If calculated strandedness did not match strandedness information received from the sequencing center, samples were removed from analysis. We required at least 60% of RNA-Seq reads mapped to the human reference or samples were removed from analysis.</p>
 <h3 id="germline-variant-calling">Germline Variant Calling</h3>
 <h4 id="snv-calling-for-b-allele-frequency-baf-generation">SNV calling for B-allele Frequency (BAF) generation</h4>
 <p>Germline haplotype calls were performed following the <a href="https://software.broadinstitute.org/gatk/best-practices/workflow?id=11145">GATK Joint Genotyping Workflow</a>, except the workflow was run on an individual sample basis. Using only SNPs, we applied the <a href="https://gatkforums.broadinstitute.org/gatk/discussion/2806/howto-apply-hard-filters-to-a-call-set">GATK generic hard filter suggestions</a> to the VCF, with an additional requirement of 10 reads minimum depth per SNP. This filtered VCF was used as input to ControlFreeC and CNVKit (below) for generation of BAF files. GATK v4.0.12.0 was used for all steps except <code>VariantFiltration</code>, which used 3.8.0 because as of GATK 4.0.12.0, this tool was beta and known to be unreliable for this purpose. This single-sample workflow can be found in the <a href="https://github.com/kids-first/kf-jointgenotyping-workflow">Kids First GitHub repository</a>.</p>
 <h3 id="somatic-mutation-calling">Somatic Mutation Calling</h3>
 <h4 id="snv-and-indel-calling">SNV and INDEL calling</h4>
-<p>We used four variant callers to call SNVs and INDELS from targeted DNA panel, WXS, and WGS data: Strelka2, Mutect2, Lancet, and VarDict. The input interval BED files for both panel and WXS data provided by the manufacturers were padded by 100 bp on each side during all variant calling algorithm runs. For WGS calling, we utilized the non-padded BROAD Institute interval calling list <a href="https://console.cloud.google.com/storage/browser/_details/genomics-public-data/resources/broad/hg38/v0/wgs_calling_regions.hg38.interval_list"><code>wgs_calling_regions.hg38.interval_list</code></a>, comprised of the full genome minus N bases, unless otherwise noted below. Strelka2 <span class="citation" data-cites="REfkDUtE">[<a href="#ref-REfkDUtE" role="doc-biblioref">12</a>]</span> v2.9.3 was run using default parameters for canonical chromosomes (chr1-22, X,Y,M), as recommended by the authors. The final Strelka2 VCF was filtered for PASS variants. Mutect2 from GATK v4.1.1.0 was run following Broad best practices outlined from their Workflow Description Language (WDL) <span class="citation" data-cites="E5aTvXmQ">[<a href="#ref-E5aTvXmQ" role="doc-biblioref">13</a>]</span>. The final Mutect2 VCF was filtered for PASS variants. To manage memory issues, VarDictJava <span class="citation" data-cites="trQRR8fs">[<a href="#ref-trQRR8fs" role="doc-biblioref">14</a>]</span> v1.58 <span class="citation" data-cites="1GMHnwH5p">[<a href="#ref-1GMHnwH5p" role="doc-biblioref">15</a>]</span> was run using 20Kb interval chunks of the input BED, padded by 100 bp on each side, such that if an INDEL occurred in between intervals, it would be captured. Parameters and filtering followed <a href="https://github.com/bcbio/bcbio-nextgen">BCBIO standards</a> except that variants with a variant allele frequency (VAF) &gt;= 0.05 (instead of &gt;= 0.10) were retained. The 0.05 VAF increased the true positive rate for INDELs and decreased the false positive rate for SNVs when using VarDict in consensus calling. The final VCF was filtered for PASS variants with TYPE=StronglySomatic. Lancet <span class="citation" data-cites="V6KdWVYi">[<a href="#ref-V6KdWVYi" role="doc-biblioref">16</a>]</span> v1.0.7 <span class="citation" data-cites="dYF6AyBo">[<a href="#ref-dYF6AyBo" role="doc-biblioref">17</a>]</span> was run using default parameters, unless noted below. For input intervals to Lancet, a reference BED was created by using only the UTR, exome, and start/stop codon features of the GENCODE 31 reference, augmented as recommended with PASS variant calls from Strelka2 and Mutect2 <span class="citation" data-cites="bKthX7vJ">[<a href="#ref-bKthX7vJ" role="doc-biblioref">18</a>]</span>. These intervals were then padded by 300 bp on each side during Lancet variant calling. Per recommendations by the New York Genome Center <span class="citation" data-cites="bKthX7vJ">[<a href="#ref-bKthX7vJ" role="doc-biblioref">18</a>]</span>, the Lancet input intervals described above were augmented with PASS variant calls from Strelka2 and Mutect2 as validation.</p>
+<p>We used four variant callers to call SNVs and INDELS from targeted DNA panel, WXS, and WGS data: Strelka2, Mutect2, Lancet, and VarDict. The input interval BED files for both panel and WXS data provided by the manufacturers were padded by 100 bp on each side during all variant calling algorithm runs. For WGS calling, we utilized the non-padded BROAD Institute interval calling list <a href="https://console.cloud.google.com/storage/browser/_details/genomics-public-data/resources/broad/hg38/v0/wgs_calling_regions.hg38.interval_list"><code>wgs_calling_regions.hg38.interval_list</code></a>, comprised of the full genome minus N bases, unless otherwise noted below. Strelka2 <span class="citation" data-cites="REfkDUtE">[<a href="#ref-REfkDUtE" role="doc-biblioref">13</a>]</span> v2.9.3 was run using default parameters for canonical chromosomes (chr1-22, X,Y,M), as recommended by the authors. The final Strelka2 VCF was filtered for PASS variants. Mutect2 from GATK v4.1.1.0 was run following Broad best practices outlined from their Workflow Description Language (WDL) <span class="citation" data-cites="E5aTvXmQ">[<a href="#ref-E5aTvXmQ" role="doc-biblioref">14</a>]</span>. The final Mutect2 VCF was filtered for PASS variants. To manage memory issues, VarDictJava <span class="citation" data-cites="trQRR8fs">[<a href="#ref-trQRR8fs" role="doc-biblioref">15</a>]</span> v1.58 <span class="citation" data-cites="1GMHnwH5p">[<a href="#ref-1GMHnwH5p" role="doc-biblioref">16</a>]</span> was run using 20Kb interval chunks of the input BED, padded by 100 bp on each side, such that if an INDEL occurred in between intervals, it would be captured. Parameters and filtering followed <a href="https://github.com/bcbio/bcbio-nextgen">BCBIO standards</a> except that variants with a variant allele frequency (VAF) &gt;= 0.05 (instead of &gt;= 0.10) were retained. The 0.05 VAF increased the true positive rate for INDELs and decreased the false positive rate for SNVs when using VarDict in consensus calling. The final VCF was filtered for PASS variants with TYPE=StronglySomatic. Lancet <span class="citation" data-cites="V6KdWVYi">[<a href="#ref-V6KdWVYi" role="doc-biblioref">17</a>]</span> v1.0.7 <span class="citation" data-cites="dYF6AyBo">[<a href="#ref-dYF6AyBo" role="doc-biblioref">18</a>]</span> was run using default parameters, unless noted below. For input intervals to Lancet, a reference BED was created by using only the UTR, exome, and start/stop codon features of the GENCODE 31 reference, augmented as recommended with PASS variant calls from Strelka2 and Mutect2 <span class="citation" data-cites="bKthX7vJ">[<a href="#ref-bKthX7vJ" role="doc-biblioref">19</a>]</span>. These intervals were then padded by 300 bp on each side during Lancet variant calling. Per recommendations by the New York Genome Center <span class="citation" data-cites="bKthX7vJ">[<a href="#ref-bKthX7vJ" role="doc-biblioref">19</a>]</span>, the Lancet input intervals described above were augmented with PASS variant calls from Strelka2 and Mutect2 as validation.</p>
 <h4 id="vcf-annotation-and-maf-creation">VCF annotation and MAF creation</h4>
-<p>We filtered outputs from both callers on the “PASS” filter, and annotated using The ENSEMBL Variant Effect Predictor <span class="citation" data-cites="p1f5DxRQ">[<a href="#ref-p1f5DxRQ" role="doc-biblioref">19</a>]</span>, reference release 93, and created MAFs using MSKCC’s vcf2maf <span class="citation" data-cites="11Fn5jqUI">[<a href="#ref-11Fn5jqUI" role="doc-biblioref">20</a>]</span> v1.6.17.</p>
+<p>We filtered outputs from both callers on the “PASS” filter, and annotated using The ENSEMBL Variant Effect Predictor <span class="citation" data-cites="p1f5DxRQ">[<a href="#ref-p1f5DxRQ" role="doc-biblioref">20</a>]</span>, reference release 93, and created MAFs using MSKCC’s vcf2maf <span class="citation" data-cites="11Fn5jqUI">[<a href="#ref-11Fn5jqUI" role="doc-biblioref">21</a>]</span> v1.6.17.</p>
 <h3 id="somatic-copy-number-variant-calling">Somatic Copy Number Variant Calling</h3>
-<p>We used Control-FREEC <span class="citation" data-cites="ZQ0L3o1q 1F3i4BvCt">[<a href="#ref-ZQ0L3o1q" role="doc-biblioref">21</a>,<a href="#ref-1F3i4BvCt" role="doc-biblioref">22</a>]</span> v11.6 and CNVkit <span class="citation" data-cites="UTxRcYIQ">[<a href="#ref-UTxRcYIQ" role="doc-biblioref">23</a>]</span> v0.9.3 for copy number variant calls. For both algorithms, the <code>germline_sex_estimate</code> (described below) was used as input for sample sex and germline variant calls (above) were used as input for BAF estimation. ControlFreeC was run on human genome reference hg38 using the optional parameters of a 0.05 coefficient of variation, ploidy choice of 2-4, and BAF adjustment for tumor-normal pairs. Theta2 <span class="citation" data-cites="V4PckbrH">[<a href="#ref-V4PckbrH" role="doc-biblioref">24</a>]</span> used VarDict germline and somatic calls, filtered on PASS and strongly somatic, to infer tumor purity. Theta2 purity was added as an optional parameter to CNVkit to adjust copy number calls. CNVkit was run on human genome reference hg38 using the optional parameters of Theta2 purity and BAF adjustment for tumor-normal pairs.</p>
+<p>We used Control-FREEC <span class="citation" data-cites="ZQ0L3o1q 1F3i4BvCt">[<a href="#ref-ZQ0L3o1q" role="doc-biblioref">22</a>,<a href="#ref-1F3i4BvCt" role="doc-biblioref">23</a>]</span> v11.6 and CNVkit <span class="citation" data-cites="UTxRcYIQ">[<a href="#ref-UTxRcYIQ" role="doc-biblioref">24</a>]</span> v0.9.3 for copy number variant calls. For both algorithms, the <code>germline_sex_estimate</code> (described below) was used as input for sample sex and germline variant calls (above) were used as input for BAF estimation. ControlFreeC was run on human genome reference hg38 using the optional parameters of a 0.05 coefficient of variation, ploidy choice of 2-4, and BAF adjustment for tumor-normal pairs. Theta2 <span class="citation" data-cites="V4PckbrH">[<a href="#ref-V4PckbrH" role="doc-biblioref">25</a>]</span> used VarDict germline and somatic calls, filtered on PASS and strongly somatic, to infer tumor purity. Theta2 purity was added as an optional parameter to CNVkit to adjust copy number calls. CNVkit was run on human genome reference hg38 using the optional parameters of Theta2 purity and BAF adjustment for tumor-normal pairs.</p>
 <h3 id="somatic-structural-variant-calling">Somatic Structural Variant Calling</h3>
-<p>We used Manta SV <span class="citation" data-cites="kTn1PIj5">[<a href="#ref-kTn1PIj5" role="doc-biblioref">25</a>]</span> v1.4.0 for structural variant (SV) calls. Manta SV calling was also limited to regions used in Strelka2. The hg38 reference for SV calling used was limited to canonical chromosome regions. The somatic DNA workflow for SNV, INDEL, copy number, and SV calling can be found in the <a href="https://github.com/kids-first/kf-somatic-workflow">KidsFirst Github repository</a>. Manta SV output was annotated using <a href="https://lbgi.fr/AnnotSV/">AnnotSV v2.1</a> <span class="citation" data-cites="7Ull5aU5">[<a href="#ref-7Ull5aU5" role="doc-biblioref">26</a>]</span> and the workflow can be found in the <a href="https://github.com/d3b-center/annotSV/tree/master">D3b GitHub repository</a>.</p>
+<p>We used Manta SV <span class="citation" data-cites="kTn1PIj5">[<a href="#ref-kTn1PIj5" role="doc-biblioref">26</a>]</span> v1.4.0 for structural variant (SV) calls. Manta SV calling was also limited to regions used in Strelka2. The hg38 reference for SV calling used was limited to canonical chromosome regions. The somatic DNA workflow for SNV, INDEL, copy number, and SV calling can be found in the <a href="https://github.com/kids-first/kf-somatic-workflow">KidsFirst Github repository</a>. Manta SV output was annotated using <a href="https://lbgi.fr/AnnotSV/">AnnotSV v2.1</a> <span class="citation" data-cites="7Ull5aU5">[<a href="#ref-7Ull5aU5" role="doc-biblioref">27</a>]</span> and the workflow can be found in the <a href="https://github.com/d3b-center/annotSV/tree/master">D3b GitHub repository</a>.</p>
 <h3 id="gene-expression-abundance-estimation">Gene Expression Abundance Estimation</h3>
-<p>We used STAR <span class="citation" data-cites="tTu8Ds9Z">[<a href="#ref-tTu8Ds9Z" role="doc-biblioref">27</a>]</span> v2.6.1d to align paired-end RNA-seq reads. This output was used for all subsequent RNA analysis. The reference we used was that of ENSEMBL’s GENCODE 27 <span class="citation" data-cites="9oRUnb2k">[<a href="#ref-9oRUnb2k" role="doc-biblioref">28</a>]</span>, “Comprehensive gene annotation.” We used RSEM <span class="citation" data-cites="Dh2n1EV3">[<a href="#ref-Dh2n1EV3" role="doc-biblioref">29</a>]</span> v1.3.1 for both FPKM and TPM transcript- and gene-level quantification. We also added a second method of quantification using kallisto <span class="citation" data-cites="12KZMHMQl">[<a href="#ref-12KZMHMQl" role="doc-biblioref">30</a>]</span> v0.43.1. This method differs in that it uses pseudoaligments using fastq reads directly to the aforementioned GENCODE 27 reference.</p>
+<p>We used STAR <span class="citation" data-cites="tTu8Ds9Z">[<a href="#ref-tTu8Ds9Z" role="doc-biblioref">28</a>]</span> v2.6.1d to align paired-end RNA-seq reads. This output was used for all subsequent RNA analysis. The reference we used was that of ENSEMBL’s GENCODE 27 <span class="citation" data-cites="9oRUnb2k">[<a href="#ref-9oRUnb2k" role="doc-biblioref">29</a>]</span>, “Comprehensive gene annotation.” We used RSEM <span class="citation" data-cites="Dh2n1EV3">[<a href="#ref-Dh2n1EV3" role="doc-biblioref">30</a>]</span> v1.3.1 for both FPKM and TPM transcript- and gene-level quantification. We also added a second method of quantification using kallisto <span class="citation" data-cites="12KZMHMQl">[<a href="#ref-12KZMHMQl" role="doc-biblioref">31</a>]</span> v0.43.1. This method differs in that it uses pseudoaligments using fastq reads directly to the aforementioned GENCODE 27 reference.</p>
 <h3 id="rna-fusion-calling-and-prioritization">RNA Fusion Calling and Prioritization</h3>
 <h4 id="gene-fusion-detection">Gene fusion detection</h4>
-<p>We set up <a href="https://github.com/suhrig/arriba/">Arriba v1.1.0</a> and STAR-Fusion 1.5.0 <span class="citation" data-cites="rqYlIiAi">[<a href="#ref-rqYlIiAi" role="doc-biblioref">31</a>]</span> fusion detection tools using CWL on CAVATICA. For both these tools we used aligned BAM and chimeric SAM files from STAR as inputs and GRCh38_gencode_v27 GTF for gene annotation. We ran STAR-Fusion with default parameters and annotated all fusion calls with GRCh38_v27_CTAT_lib_Feb092018.plug-n-play.tar.gz provided in the STAR-fusion release. For Arriba, we used a blacklist file (blacklist_hg38_GRCh38_2018-11-04.tsv.gz) from the Arriba release tarballs to remove recurrent fusion artifacts and transcripts present in healthy tissue. We also provided Arriba with strandedness information or set it to auto-detection for polyA samples. The RNA expression and fusion workflows can be found in the <a href="https://github.com/kids-first/kf-rnaseq-workflow">KidsFirst GitHub repository</a>.</p>
+<p>We set up <a href="https://github.com/suhrig/arriba/">Arriba v1.1.0</a> and STAR-Fusion 1.5.0 <span class="citation" data-cites="rqYlIiAi">[<a href="#ref-rqYlIiAi" role="doc-biblioref">32</a>]</span> fusion detection tools using CWL on CAVATICA. For both these tools we used aligned BAM and chimeric SAM files from STAR as inputs and GRCh38_gencode_v27 GTF for gene annotation. We ran STAR-Fusion with default parameters and annotated all fusion calls with GRCh38_v27_CTAT_lib_Feb092018.plug-n-play.tar.gz provided in the STAR-fusion release. For Arriba, we used a blacklist file (blacklist_hg38_GRCh38_2018-11-04.tsv.gz) from the Arriba release tarballs to remove recurrent fusion artifacts and transcripts present in healthy tissue. We also provided Arriba with strandedness information or set it to auto-detection for polyA samples. We used <a href="https://github.com/FusionAnnotator/FusionAnnotator">FusionAnnotator</a> on Arriba fusion calls in order to harmonize annotations with those of STAR-Fusion. The RNA expression and fusion workflows can be found in the <a href="https://github.com/kids-first/kf-rnaseq-workflow">KidsFirst GitHub repository</a> and the FusionAnnotator workflow found in the <a href="https://github.com/d3b-center/FusionAnnotator">D3b GitHub repository</a>.</p>
 <h4 id="fusion-prioritization">Fusion prioritization</h4>
-<p>We built a <a href="https://github.com/d3b-center/fusion_filtering_pipeline">fusion prioritization pipeline</a> to filter and annotate fusions. We considered all inframe and frameshift fusion calls with 1 or more junction reads and fused genes expressed with TPM greater than one to be true calls. If a fusion call had large number of spanning fragment reads compared to junction reads (spanning fragment minus junction read greater than ten) or if either 5` or 3` genes fused to more than five different genes we removed these calls as a potential false positive. We also removed fusions if the 5` or 3` ends were the same gene, and these were tagged as non-canonical splicing or duplication. We used a list of curated fusion calls for each histology to capture each occurrence of the fusion as a putative driver fusion. We prioritized a union of fusion calls as true calls if the fused genes were detected by both callers, the same fusion was recurrent in histology (&gt;2 samples) or the fusion was specific to the broad histology. We annotated putative driver fusions and prioritized fusions lists with kinases, oncogenic, tumor suppressor, transcription factor, fused genes and known TCGA fusions from curated <a href="https://github.com/d3b-center/fusion_filtering_pipeline/tree/master/references">datasheets</a>. We also added chimerDB <span class="citation" data-cites="FLBuvqQe">[<a href="#ref-FLBuvqQe" role="doc-biblioref">32</a>]</span> annotations to both driver and prioritized fusion list.</p>
+<p>We performed artifact filtering and additional annotation on fusion calls to prioritize putative oncogenic fusions. Briefly, we considered all inframe and frameshift fusion calls with a minimum of 1 junction reads and at least one gene partner expressed (TPM &gt; 1) to be true calls. If a fusion call had large number of spanning fragment reads compared to junction reads (spanning fragment minus junction read greater than ten), we removed these calls as potential false positives. We prioritized a union of fusion calls as true calls if the fused genes were detected by both callers, the same fusion was recurrent within a <code>broad_histology</code> (&gt;2 samples) or the fusion was specific to the <code>broad_histology</code>. If either 5’ or 3’ genes fused to more than five different genes within a sample, we removed these calls as potential false positives. We annotated putative driver fusions and prioritized fusions based on partners containing known <a href="http://kinase.com/human/kinome/tables/Kincat_Hsap.08.02.xls">kinases</a>, <a href="http://www.bushmanlab.org/assets/doc/allOnco_Feb2017.tsv">oncogenes</a>, <a href="https://bioinfo.uth.edu/TSGene/Human_TSGs.txt?csrt=5027697123997809089">tumor suppressors</a>, curated transcription factors <span class="citation" data-cites="9vS8HBL6">[<a href="#ref-9vS8HBL6" role="doc-biblioref">33</a>]</span>, <a href="https://cancer.sanger.ac.uk/census">COSMIC genes</a>, and/or known <a href="https://tumorfusions.org/PanCanFusV2/downloads/pancanfus.txt.gz">TCGA fusions</a> from curated <a href="https://github.com/AlexsLemonade/OpenPBTA-analysis/tree/master/analyses/fusion_filtering/references">references</a>. <em>MYBL1</em> <span class="citation" data-cites="jLWV5IWB">[<a href="#ref-jLWV5IWB" role="doc-biblioref">34</a>]</span>, <em>SNCAIP</em> <span class="citation" data-cites="4wYR62jK">[<a href="#ref-4wYR62jK" role="doc-biblioref">35</a>]</span>, <em>FOXR2</em> <span class="citation" data-cites="kfmK8vm">[<a href="#ref-kfmK8vm" role="doc-biblioref">36</a>]</span>, <em>TTYH1</em> <span class="citation" data-cites="5ueZBnsJ">[<a href="#ref-5ueZBnsJ" role="doc-biblioref">37</a>]</span>, and <em>TERT</em> <span class="citation" data-cites="ASmwGlFp YfG9EVSk lWMOs28t 1B3tdZcAl">[<a href="#ref-ASmwGlFp" role="doc-biblioref">38</a>,<a href="#ref-YfG9EVSk" role="doc-biblioref">39</a>,<a href="#ref-lWMOs28t" role="doc-biblioref">40</a>,<a href="#ref-1B3tdZcAl" role="doc-biblioref">41</a>]</span> were added to the oncogene list and <em>BCOR</em> <span class="citation" data-cites="kfmK8vm">[<a href="#ref-kfmK8vm" role="doc-biblioref">36</a>]</span> and <em>QKI</em> <span class="citation" data-cites="1foRpfch">[<a href="#ref-1foRpfch" role="doc-biblioref">42</a>]</span> were added to the tumor suppressor gene list based on pediatric cancer literature review. The fusion filtering workflow can be found in the <a href="https://github.com/AlexsLemonade/OpenPBTA-analysis/tree/master/analyses/fusion_filtering">OpenPBTA Analysis repository</a>.</p>
 <h3 id="clinical-data-harmonization">Clinical Data Harmonization</h3>
 <h4 id="who-classification-of-disease-types">WHO Classification of Disease Types</h4>
 <p>The <code>disease_type_old</code> field in the <code>pbta-histologies.tsv</code> file contains the diagnosis denoted from the patient’s pathology report. The <code>disease_type_new</code> field in the <code>pbta-histologies.tsv</code> file includes updates to <code>disease_type_old</code> and these changes are documented in the <code>Notes</code>. For instance, any diagnosis denoted as “Other” in <code>disease_type_old</code> was modified to capture the pathology report diagnosis in <code>disease_type_new</code>. Additionally, <code>disease_type_old</code> was modified to <code>disease_type_new</code> if the presence of specific molecular alterations defined a biospecimen as having an alternate diagnosis. The <code>broad_histology</code> denotes the broad 2016 WHO classification [doi:10.1007/s00401-016-1545-1] for each tumor. The <code>short_histology</code> is an abbreviated version of the <code>broad_histology</code>. The <code>glioma_brain_region</code> was subtyped into hemispheric, midline, mixed, or other based on specimen location (see table below).</p>
@@ -255,7 +255,7 @@
 <h4 id="survival">Survival</h4>
 <p>Overall survival, denoted <code>OS_days</code>, was calculated as days since initial diagnosis.</p>
 <h4 id="prediction-of-participants-genetic-sex">Prediction of participants’ genetic sex</h4>
-<p>The clinical metadata provided included a reported gender. We used DNA data, in concert with the reported gender, to predict participant genetic sex so that we could identify sexually dimorphic outcomes. This analysis could also reveal samples that may have been contaminated in certain circumstances. We used the idxstats utility from SAMTOOLS <span class="citation" data-cites="hNfNHk9L">[<a href="#ref-hNfNHk9L" role="doc-biblioref">33</a>]</span> to calculate read lengths, the number of mapped reads, and the corresponding chromosomal location for reads to the X and Y chromosomes. We used the fraction of total normalized X and Y chromosome reads that were attributed to the Y chromosome as a summary statistic. We reviewed this statistic in the context of reported gender and determined that a threshold of less than 0.2 clearly delineated female samples. Fractions greater than 0.4 were predicted to be males. Samples with values in the range [0.2, 0.4] were marked as unknown. We ran this analysis through <a href="https://github.com/d3b-center/sex-determination-tool">CWL</a> on Cavatica. Resulting calls were added to the clinical metadata as <code>germline_sex_estimate</code>.</p>
+<p>The clinical metadata provided included a reported gender. We used DNA data, in concert with the reported gender, to predict participant genetic sex so that we could identify sexually dimorphic outcomes. This analysis could also reveal samples that may have been contaminated in certain circumstances. We used the idxstats utility from SAMTOOLS <span class="citation" data-cites="hNfNHk9L">[<a href="#ref-hNfNHk9L" role="doc-biblioref">43</a>]</span> to calculate read lengths, the number of mapped reads, and the corresponding chromosomal location for reads to the X and Y chromosomes. We used the fraction of total normalized X and Y chromosome reads that were attributed to the Y chromosome as a summary statistic. We reviewed this statistic in the context of reported gender and determined that a threshold of less than 0.2 clearly delineated female samples. Fractions greater than 0.4 were predicted to be males. Samples with values in the range [0.2, 0.4] were marked as unknown. We ran this analysis through <a href="https://github.com/d3b-center/sex-determination-tool">CWL</a> on Cavatica. Resulting calls were added to the clinical metadata as <code>germline_sex_estimate</code>.</p>
 <h4 id="selection-of-independent-samples">Selection of independent samples</h4>
 <p>Certain analyses required that we select only a single representative specimen for each individual. In these cases, we prioritized primary tumors and those with whole-genome sequencing available. If this filtering still resulted in multiple specimens, we selected from the remaining set randomly.</p>
 <h2 id="results">Results</h2>
@@ -311,132 +311,192 @@ DOI: <a href="https://doi.org/10.1093/bioinformatics/btv098">10.1093/bioinformat
 <div id="ref-RsmkaFIb">
 <p>10. <strong>GATK | Home</strong><a href="https://software.broadinstitute.org/gatk/">https://software.broadinstitute.org/gatk/</a></p>
 </div>
+<div id="ref-A4FXW005">
+<p>11. <strong>NGSCheckMate: software for validating sample identity in next-generation sequencing studies within and across data types</strong><br />
+Sejoon Lee, Soohyun Lee, Scott Ouellette, Woong-Yang Park, Eunjung A. Lee, Peter J. Park<br />
+<em>Nucleic Acids Research</em> (2017-03-23) <a href="https://doi.org/f9xrq4">https://doi.org/f9xrq4</a><br />
+DOI: <a href="https://doi.org/10.1093/nar/gkx193">10.1093/nar/gkx193</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28369524">28369524</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5499645">PMC5499645</a></p>
+</div>
 <div id="ref-16tUBMk59">
-<p>11. <strong>Software program for checking sample matching for NGS data: parklab/NGSCheckMate</strong><br />
+<p>12. <strong>Software program for checking sample matching for NGS data: parklab/NGSCheckMate</strong><br />
 Park Lab at Harvard Medical School<br />
 (2019-11-14) <a href="https://github.com/parklab/NGSCheckMate">https://github.com/parklab/NGSCheckMate</a></p>
 </div>
 <div id="ref-REfkDUtE">
-<p>12. <strong>Strelka2: fast and accurate calling of germline and somatic variants</strong><br />
+<p>13. <strong>Strelka2: fast and accurate calling of germline and somatic variants</strong><br />
 Sangtae Kim, Konrad Scheffler, Aaron L. Halpern, Mitchell A. Bekritsky, Eunho Noh, Morten Källberg, Xiaoyu Chen, Yeonbin Kim, Doruk Beyter, Peter Krusche, Christopher T. Saunders<br />
 <em>Nature Methods</em> (2018-07-16) <a href="https://doi.org/gdwrp4">https://doi.org/gdwrp4</a><br />
 DOI: <a href="https://doi.org/10.1038/s41592-018-0051-x">10.1038/s41592-018-0051-x</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30013048">30013048</a></p>
 </div>
 <div id="ref-E5aTvXmQ">
-<p>13. <strong>Official code repository for GATK versions 4 and up: broadinstitute/gatk</strong><br />
+<p>14. <strong>Official code repository for GATK versions 4 and up: broadinstitute/gatk</strong><br />
 Broad Institute<br />
-(2019-11-21) <a href="https://github.com/broadinstitute/gatk">https://github.com/broadinstitute/gatk</a></p>
+(2019-11-25) <a href="https://github.com/broadinstitute/gatk">https://github.com/broadinstitute/gatk</a></p>
 </div>
 <div id="ref-trQRR8fs">
-<p>14. <strong>VarDict: a novel and versatile variant caller for next-generation sequencing in cancer research</strong><br />
+<p>15. <strong>VarDict: a novel and versatile variant caller for next-generation sequencing in cancer research</strong><br />
 Zhongwu Lai, Aleksandra Markovets, Miika Ahdesmaki, Brad Chapman, Oliver Hofmann, Robert McEwen, Justin Johnson, Brian Dougherty, J. Carl Barrett, Jonathan R. Dry<br />
 <em>Nucleic Acids Research</em> (2016-04-07) <a href="https://doi.org/f8v6qz">https://doi.org/f8v6qz</a><br />
 DOI: <a href="https://doi.org/10.1093/nar/gkw227">10.1093/nar/gkw227</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27060149">27060149</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4914105">PMC4914105</a></p>
 </div>
 <div id="ref-1GMHnwH5p">
-<p>15. <strong>VarDict Java port. Contribute to AstraZeneca-NGS/VarDictJava development by creating an account on GitHub</strong><br />
+<p>16. <strong>VarDict Java port. Contribute to AstraZeneca-NGS/VarDictJava development by creating an account on GitHub</strong><br />
 AstraZeneca - NGS Team<br />
-(2019-11-21) <a href="https://github.com/AstraZeneca-NGS/VarDictJava">https://github.com/AstraZeneca-NGS/VarDictJava</a></p>
+(2019-11-25) <a href="https://github.com/AstraZeneca-NGS/VarDictJava">https://github.com/AstraZeneca-NGS/VarDictJava</a></p>
 </div>
 <div id="ref-V6KdWVYi">
-<p>16. <strong>Genome-wide somatic variant calling using localized colored de Bruijn graphs</strong><br />
+<p>17. <strong>Genome-wide somatic variant calling using localized colored de Bruijn graphs</strong><br />
 Giuseppe Narzisi, André Corvelo, Kanika Arora, Ewa A. Bergmann, Minita Shah, Rajeeva Musunuri, Anne-Katrin Emde, Nicolas Robine, Vladimir Vacic, Michael C. Zody<br />
 <em>Communications Biology</em> (2018-03-22) <a href="https://doi.org/gfcfr8">https://doi.org/gfcfr8</a><br />
 DOI: <a href="https://doi.org/10.1038/s42003-018-0023-9">10.1038/s42003-018-0023-9</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30271907">30271907</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6123722">PMC6123722</a></p>
 </div>
 <div id="ref-dYF6AyBo">
-<p>17. <strong>Microassembly based somatic variant caller for NGS data: nygenome/lancet</strong><br />
+<p>18. <strong>Microassembly based somatic variant caller for NGS data: nygenome/lancet</strong><br />
 New York Genome Center<br />
 (2019-11-16) <a href="https://github.com/nygenome/lancet">https://github.com/nygenome/lancet</a></p>
 </div>
 <div id="ref-bKthX7vJ">
-<p>18. <strong>Deep sequencing of 3 cancer cell lines on 2 sequencing platforms</strong><br />
+<p>19. <strong>Deep sequencing of 3 cancer cell lines on 2 sequencing platforms</strong><br />
 Kanika Arora, Minita Shah, Molly Johnson, Rashesh Sanghvi, Jennifer Shelton, Kshithija Nagulapalli, Dayna M. Oschwald, Michael C. Zody, Soren Germer, Vaidehi Jobanputra, … Nicolas Robine<br />
 <em>Cold Spring Harbor Laboratory</em> (2019-04-30) <a href="https://doi.org/ggc9vx">https://doi.org/ggc9vx</a><br />
 DOI: <a href="https://doi.org/10.1101/623702">10.1101/623702</a></p>
 </div>
 <div id="ref-p1f5DxRQ">
-<p>19. <strong>The Ensembl Variant Effect Predictor</strong><br />
+<p>20. <strong>The Ensembl Variant Effect Predictor</strong><br />
 William McLaren, Laurent Gil, Sarah E. Hunt, Harpreet Singh Riat, Graham R. S. Ritchie, Anja Thormann, Paul Flicek, Fiona Cunningham<br />
 <em>Genome Biology</em> (2016-06-06) <a href="https://doi.org/gdz75c">https://doi.org/gdz75c</a><br />
 DOI: <a href="https://doi.org/10.1186/s13059-016-0974-4">10.1186/s13059-016-0974-4</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27268795">27268795</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4893825">PMC4893825</a></p>
 </div>
 <div id="ref-11Fn5jqUI">
-<p>20. <strong>Convert a VCF into a MAF, where each variant is annotated to only one of all possible gene isoforms: mskcc/vcf2maf</strong><br />
+<p>21. <strong>Convert a VCF into a MAF, where each variant is annotated to only one of all possible gene isoforms: mskcc/vcf2maf</strong><br />
 Memorial Sloan Kettering<br />
 (2019-11-20) <a href="https://github.com/mskcc/vcf2maf">https://github.com/mskcc/vcf2maf</a></p>
 </div>
 <div id="ref-ZQ0L3o1q">
-<p>21. <strong>Control-FREEC: a tool for assessing copy number and allelic content using next-generation sequencing data</strong><br />
+<p>22. <strong>Control-FREEC: a tool for assessing copy number and allelic content using next-generation sequencing data</strong><br />
 Valentina Boeva, Tatiana Popova, Kevin Bleakley, Pierre Chiche, Julie Cappo, Gudrun Schleiermacher, Isabelle Janoueix-Lerosey, Olivier Delattre, Emmanuel Barillot<br />
 <em>Bioinformatics</em> (2011-12-06) <a href="https://doi.org/ckt4vz">https://doi.org/ckt4vz</a><br />
 DOI: <a href="https://doi.org/10.1093/bioinformatics/btr670">10.1093/bioinformatics/btr670</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22155870">22155870</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3268243">PMC3268243</a></p>
 </div>
 <div id="ref-1F3i4BvCt">
-<p>22. <strong>Control-free calling of copy number alterations in deep-sequencing data using GC-content normalization</strong><br />
+<p>23. <strong>Control-free calling of copy number alterations in deep-sequencing data using GC-content normalization</strong><br />
 Valentina Boeva, Andrei Zinovyev, Kevin Bleakley, Jean-Philippe Vert, Isabelle Janoueix-Lerosey, Olivier Delattre, Emmanuel Barillot<br />
 <em>Bioinformatics</em> (2010-11-15) <a href="https://doi.org/c6bcps">https://doi.org/c6bcps</a><br />
 DOI: <a href="https://doi.org/10.1093/bioinformatics/btq635">10.1093/bioinformatics/btq635</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/21081509">21081509</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3018818">PMC3018818</a></p>
 </div>
 <div id="ref-UTxRcYIQ">
-<p>23. <strong>CNVkit: Genome-Wide Copy Number Detection and Visualization from Targeted DNA Sequencing</strong><br />
+<p>24. <strong>CNVkit: Genome-Wide Copy Number Detection and Visualization from Targeted DNA Sequencing</strong><br />
 Eric Talevich, A. Hunter Shain, Thomas Botton, Boris C. Bastian<br />
 <em>PLOS Computational Biology</em> (2016-04-21) <a href="https://doi.org/c9pd">https://doi.org/c9pd</a><br />
 DOI: <a href="https://doi.org/10.1371/journal.pcbi.1004873">10.1371/journal.pcbi.1004873</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27100738">27100738</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4839673">PMC4839673</a></p>
 </div>
 <div id="ref-V4PckbrH">
-<p>24. <strong>Quantifying tumor heterogeneity in whole-genome and whole-exome sequencing data</strong><br />
+<p>25. <strong>Quantifying tumor heterogeneity in whole-genome and whole-exome sequencing data</strong><br />
 Layla Oesper, Gryte Satas, Benjamin J. Raphael<br />
 <em>Bioinformatics</em> (2014-10-08) <a href="https://doi.org/f6rmgt">https://doi.org/f6rmgt</a><br />
 DOI: <a href="https://doi.org/10.1093/bioinformatics/btu651">10.1093/bioinformatics/btu651</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25297070">25297070</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4253833">PMC4253833</a></p>
 </div>
 <div id="ref-kTn1PIj5">
-<p>25. <strong>Manta: rapid detection of structural variants and indels for germline and cancer sequencing applications</strong><br />
+<p>26. <strong>Manta: rapid detection of structural variants and indels for germline and cancer sequencing applications</strong><br />
 Xiaoyu Chen, Ole Schulz-Trieglaff, Richard Shaw, Bret Barnes, Felix Schlesinger, Morten Källberg, Anthony J. Cox, Semyon Kruglyak, Christopher T. Saunders<br />
 <em>Bioinformatics</em> (2015-12-08) <a href="https://doi.org/gf3ggb">https://doi.org/gf3ggb</a><br />
 DOI: <a href="https://doi.org/10.1093/bioinformatics/btv710">10.1093/bioinformatics/btv710</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26647377">26647377</a></p>
 </div>
 <div id="ref-7Ull5aU5">
-<p>26. <strong>AnnotSV: an integrated tool for structural variations annotation</strong><br />
+<p>27. <strong>AnnotSV: an integrated tool for structural variations annotation</strong><br />
 Véronique Geoffroy, Yvan Herenger, Arnaud Kress, Corinne Stoetzel, Amélie Piton, Hélène Dollfus, Jean Muller<br />
 <em>Bioinformatics</em> (2018-04-14) <a href="https://doi.org/gdcsh3">https://doi.org/gdcsh3</a><br />
 DOI: <a href="https://doi.org/10.1093/bioinformatics/bty304">10.1093/bioinformatics/bty304</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29669011">29669011</a></p>
 </div>
 <div id="ref-tTu8Ds9Z">
-<p>27. <strong>STAR: ultrafast universal RNA-seq aligner</strong><br />
+<p>28. <strong>STAR: ultrafast universal RNA-seq aligner</strong><br />
 Alexander Dobin, Carrie A. Davis, Felix Schlesinger, Jorg Drenkow, Chris Zaleski, Sonali Jha, Philippe Batut, Mark Chaisson, Thomas R. Gingeras<br />
 <em>Bioinformatics</em> (2012-10-25) <a href="https://doi.org/f4h523">https://doi.org/f4h523</a><br />
 DOI: <a href="https://doi.org/10.1093/bioinformatics/bts635">10.1093/bioinformatics/bts635</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23104886">23104886</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3530905">PMC3530905</a></p>
 </div>
 <div id="ref-9oRUnb2k">
-<p>28. <strong>GENCODE - Human Release 27</strong><a href="https://www.gencodegenes.org/human/release_27.html">https://www.gencodegenes.org/human/release_27.html</a></p>
+<p>29. <strong>GENCODE - Human Release 27</strong><a href="https://www.gencodegenes.org/human/release_27.html">https://www.gencodegenes.org/human/release_27.html</a></p>
 </div>
 <div id="ref-Dh2n1EV3">
-<p>29. <strong>RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome</strong><br />
+<p>30. <strong>RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome</strong><br />
 Bo Li, Colin N Dewey<br />
 <em>BMC Bioinformatics</em> (2011-08-04) <a href="https://doi.org/cwg8n5">https://doi.org/cwg8n5</a><br />
 DOI: <a href="https://doi.org/10.1186/1471-2105-12-323">10.1186/1471-2105-12-323</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/21816040">21816040</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3163565">PMC3163565</a></p>
 </div>
 <div id="ref-12KZMHMQl">
-<p>30. <strong>Near-optimal probabilistic RNA-seq quantification</strong><br />
+<p>31. <strong>Near-optimal probabilistic RNA-seq quantification</strong><br />
 Nicolas L Bray, Harold Pimentel, Páll Melsted, Lior Pachter<br />
 <em>Nature Biotechnology</em> (2016-04-04) <a href="https://doi.org/f8nvsp">https://doi.org/f8nvsp</a><br />
 DOI: <a href="https://doi.org/10.1038/nbt.3519">10.1038/nbt.3519</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27043002">27043002</a></p>
 </div>
 <div id="ref-rqYlIiAi">
-<p>31. <strong>STAR-Fusion: Fast and Accurate Fusion Transcript Detection from RNA-Seq</strong><br />
+<p>32. <strong>STAR-Fusion: Fast and Accurate Fusion Transcript Detection from RNA-Seq</strong><br />
 Brian J. Haas, Alex Dobin, Nicolas Stransky, Bo Li, Xiao Yang, Timothy Tickle, Asma Bankapur, Carrie Ganote, Thomas G. Doak, Nathalie Pochet, … Aviv Regev<br />
 <em>Cold Spring Harbor Laboratory</em> (2017-03-24) <a href="https://doi.org/gf5pc5">https://doi.org/gf5pc5</a><br />
 DOI: <a href="https://doi.org/10.1101/120295">10.1101/120295</a></p>
 </div>
-<div id="ref-FLBuvqQe">
-<p>32. <strong>OUP accepted manuscript</strong><br />
-Nucleic Acids Research<br />
-(2016) <a href="https://doi.org/gf6bx9">https://doi.org/gf6bx9</a><br />
-DOI: <a href="https://doi.org/10.1093/nar/gkw1083">10.1093/nar/gkw1083</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27899563">27899563</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5210563">PMC5210563</a></p>
+<div id="ref-9vS8HBL6">
+<p>33. <strong>The Human Transcription Factors</strong><br />
+Samuel A. Lambert, Arttu Jolma, Laura F. Campitelli, Pratyush K. Das, Yimeng Yin, Mihai Albu, Xiaoting Chen, Jussi Taipale, Timothy R. Hughes, Matthew T. Weirauch<br />
+<em>Cell</em> (2018-02) <a href="https://doi.org/gcw8rb">https://doi.org/gcw8rb</a><br />
+DOI: <a href="https://doi.org/10.1016/j.cell.2018.01.029">10.1016/j.cell.2018.01.029</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29425488">29425488</a></p>
+</div>
+<div id="ref-jLWV5IWB">
+<p>34. <strong>Genomic analysis of diffuse pediatric low-grade gliomas identifies recurrent oncogenic truncating rearrangements in the transcription factor MYBL1</strong><br />
+L. A. Ramkissoon, P. M. Horowitz, J. M. Craig, S. H. Ramkissoon, B. E. Rich, S. E. Schumacher, A. McKenna, M. S. Lawrence, G. Bergthold, P. K. Brastianos, … K. L. Ligon<br />
+<em>Proceedings of the National Academy of Sciences</em> (2013-04-30) <a href="https://doi.org/f42gg4">https://doi.org/f42gg4</a><br />
+DOI: <a href="https://doi.org/10.1073/pnas.1300252110">10.1073/pnas.1300252110</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23633565">23633565</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3657784">PMC3657784</a></p>
+</div>
+<div id="ref-4wYR62jK">
+<p>35. <strong>Subgroup-specific structural variation across 1,000 medulloblastoma genomes</strong><br />
+Paul A. Northcott, David J. H. Shih, John Peacock, Livia Garzia, A. Sorana Morrissy, Thomas Zichner, Adrian M. Stütz, Andrey Korshunov, Jüri Reimand, Steven E. Schumacher, … Michael D. Taylor<br />
+<em>Nature</em> (2012-07-25) <a href="https://doi.org/ggdhk3">https://doi.org/ggdhk3</a><br />
+DOI: <a href="https://doi.org/10.1038/nature11327">10.1038/nature11327</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22832581">22832581</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3683624">PMC3683624</a></p>
+</div>
+<div id="ref-kfmK8vm">
+<p>36. <strong>New Brain Tumor Entities Emerge from Molecular Classification of CNS-PNETs</strong><br />
+Dominik Sturm, Brent A. Orr, Umut H. Toprak, Volker Hovestadt, David T.W. Jones, David Capper, Martin Sill, Ivo Buchhalter, Paul A. Northcott, Irina Leis, … Marcel Kool<br />
+<em>Cell</em> (2016-02) <a href="https://doi.org/f3t869">https://doi.org/f3t869</a><br />
+DOI: <a href="https://doi.org/10.1016/j.cell.2016.01.015">10.1016/j.cell.2016.01.015</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26919435">26919435</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5139621">PMC5139621</a></p>
+</div>
+<div id="ref-5ueZBnsJ">
+<p>37. <strong>Fusion of TTYH1 with the C19MC microRNA cluster drives expression of a brain-specific DNMT3B isoform in the embryonal brain tumor ETMR</strong><br />
+Claudia L Kleinman, Noha Gerges, Simon Papillon-Cavanagh, Patrick Sin-Chan, Albena Pramatarova, Dong-Anh Khuong Quang, Véronique Adoue, Stephan Busche, Maxime Caron, Haig Djambazian, … Nada Jabado<br />
+<em>Nature Genetics</em> (2013-12-08) <a href="https://doi.org/ggdhk4">https://doi.org/ggdhk4</a><br />
+DOI: <a href="https://doi.org/10.1038/ng.2849">10.1038/ng.2849</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24316981">24316981</a></p>
+</div>
+<div id="ref-ASmwGlFp">
+<p>38. <strong>TERT rearrangements are frequent in neuroblastoma and identify aggressive tumors</strong><br />
+Linda J Valentijn, Jan Koster, Danny A Zwijnenburg, Nancy E Hasselt, Peter van Sluis, Richard Volckmann, Max M van Noesel, Rani E George, Godelieve AM Tytgat, Jan J Molenaar, Rogier Versteeg<br />
+<em>Nature Genetics</em> (2015-11-02) <a href="https://doi.org/ggdhk5">https://doi.org/ggdhk5</a><br />
+DOI: <a href="https://doi.org/10.1038/ng.3438">10.1038/ng.3438</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26523776">26523776</a></p>
+</div>
+<div id="ref-YfG9EVSk">
+<p>39. <strong>Recurrent pre-existing and acquired DNA copy number alterations, including focalTERTgains, in neuroblastoma central nervous system metastases</strong><br />
+David Cobrinik, Irina Ostrovnaya, Maryam Hassimi, Satish K. Tickoo, Irene Y. Cheung, Nai-Kong V. Cheung<br />
+<em>Genes, Chromosomes and Cancer</em> (2013-10-10) <a href="https://doi.org/f5gd94">https://doi.org/f5gd94</a><br />
+DOI: <a href="https://doi.org/10.1002/gcc.22110">10.1002/gcc.22110</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24123354">24123354</a></p>
+</div>
+<div id="ref-lWMOs28t">
+<p>40. <strong>Activation of human telomerase reverse transcriptase through gene fusion in clear cell sarcoma of the kidney</strong><br />
+Jenny Karlsson, Henrik Lilljebjörn, Linda Holmquist Mengelbier, Anders Valind, Marianne Rissler, Ingrid Øra, Thoas Fioretos, David Gisselsson<br />
+<em>Cancer Letters</em> (2015-02) <a href="https://doi.org/f25ck5">https://doi.org/f25ck5</a><br />
+DOI: <a href="https://doi.org/10.1016/j.canlet.2014.11.057">10.1016/j.canlet.2014.11.057</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25481751">25481751</a></p>
+</div>
+<div id="ref-1B3tdZcAl">
+<p>41. <strong>New Molecular Considerations for Glioma: IDH, ATRX, BRAF, TERT, H3 K27M</strong><br />
+Michael Karsy, Jian Guan, Adam L. Cohen, Randy L. Jensen, Howard Colman<br />
+<em>Current Neurology and Neuroscience Reports</em> (2017-02) <a href="https://doi.org/ggdhk2">https://doi.org/ggdhk2</a><br />
+DOI: <a href="https://doi.org/10.1007/s11910-017-0722-5">10.1007/s11910-017-0722-5</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28271343">28271343</a></p>
+</div>
+<div id="ref-1foRpfch">
+<p>42. <strong>MYB-QKI rearrangements in angiocentric glioma drive tumorigenicity through a tripartite mechanism</strong><br />
+Pratiti Bandopadhayay, Lori A Ramkissoon, Payal Jain, Guillaume Bergthold, Jeremiah Wala, Rhamy Zeid, Steven E Schumacher, Laura Urbanski, Ryan O’Rourke, William J Gibson, … Adam C Resnick<br />
+<em>Nature Genetics</em> (2016-02-01) <a href="https://doi.org/f8bwqn">https://doi.org/f8bwqn</a><br />
+DOI: <a href="https://doi.org/10.1038/ng.3500">10.1038/ng.3500</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26829751">26829751</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4767685">PMC4767685</a></p>
 </div>
 <div id="ref-hNfNHk9L">
-<p>33. <strong>The Sequence Alignment/Map format and SAMtools.</strong><br />
+<p>43. <strong>The Sequence Alignment/Map format and SAMtools.</strong><br />
 Heng Li, Bob Handsaker, Alec Wysoker, Tim Fennell, Jue Ruan, Nils Homer, Gabor Marth, Goncalo Abecasis, Richard Durbin, <br />
 <em>Bioinformatics (Oxford, England)</em> (2009-06-08) <a href="https://www.ncbi.nlm.nih.gov/pubmed/19505943">https://www.ncbi.nlm.nih.gov/pubmed/19505943</a><br />
 DOI: <a href="https://doi.org/10.1093/bioinformatics/btp352">10.1093/bioinformatics/btp352</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/19505943">19505943</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2723002">PMC2723002</a></p>

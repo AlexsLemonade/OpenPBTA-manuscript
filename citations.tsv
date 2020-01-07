@@ -10,6 +10,7 @@ doi:10.1016/j.cell.2016.01.015	doi:10.1016/j.cell.2016.01.015	doi:10.1016/j.cell
 doi:10.1016/j.cell.2018.01.029	doi:10.1016/j.cell.2018.01.029	doi:10.1016/j.cell.2018.01.029	9vS8HBL6
 doi:10.1016/j.cels.2018.03.002	doi:10.1016/j.cels.2018.03.002	doi:10.1016/j.cels.2018.03.002	cDnF3a5Q
 doi:10.1038/nature11327	doi:10.1038/nature11327	doi:10.1038/nature11327	4wYR62jK
+doi:10.1038/nature12477	doi:10.1038/nature12477	doi:10.1038/nature12477	kG8qNLrs
 doi:10.1038/nbt.3519	doi:10.1038/nbt.3519	doi:10.1038/nbt.3519	12KZMHMQl
 doi:10.1038/ng.2849	doi:10.1038/ng.2849	doi:10.1038/ng.2849	5ueZBnsJ
 doi:10.1038/ng.3438	doi:10.1038/ng.3438	doi:10.1038/ng.3438	ASmwGlFp
@@ -32,10 +33,13 @@ doi:10.1101/120295	doi:10.1101/120295	doi:10.1101/120295	rqYlIiAi
 doi:10.1101/623702	doi:10.1101/623702	doi:10.1101/623702	bKthX7vJ
 doi:10.1101/656587	doi:10.1101/656587	doi:10.1101/656587	v08ocfr0
 doi:10/cwg8n5	doi:10/cwg8n5	doi:10.1186/1471-2105-12-323	Dh2n1EV3
+doi:10.1186/s13059-016-0893-4	doi:10.1186/s13059-016-0893-4	doi:10.1186/s13059-016-0893-4	KhxTOfIb
 doi:10/gdz75c	doi:10/gdz75c	doi:10.1186/s13059-016-0974-4	p1f5DxRQ
 doi:10.1371/journal.pcbi.1004873	doi:10.1371/journal.pcbi.1004873	doi:10.1371/journal.pcbi.1004873	UTxRcYIQ
 pmid:19505943	pmid:19505943	pmid:19505943	hNfNHk9L
 url:http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/	url:http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/	url:http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/	1AWRgvxVu
+url:https://bioconductor.org/packages/release/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.html	url:https://bioconductor.org/packages/release/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.html	url:https://bioconductor.org/packages/release/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.html	GpcQXpz9
+url:https://cancer.sanger.ac.uk/cosmic	url:https://cancer.sanger.ac.uk/cosmic	url:https://cancer.sanger.ac.uk/cosmic	m4IK7k7z
 url:https://cbttc.org	url:https://cbttc.org	url:https://cbttc.org	ME49zC7J
 url:https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/snv-callers/compare_snv_callers_plots.Rmd	url:https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/snv-callers/compare_snv_callers_plots.Rmd	url:https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/snv-callers/compare_snv_callers_plots.Rmd	Ob2wQ9wX
 url:https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/snv-callers/plots/comparison/upset_plot.png	url:https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/snv-callers/plots/comparison/upset_plot.png	url:https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/snv-callers/plots/comparison/upset_plot.png	Z1i0sjNH
@@ -45,6 +49,7 @@ url:https://github.com/broadinstitute/gatk/blob/4.1.1.0/scripts/mutect2_wdl/mute
 url:https://github.com/mskcc/vcf2maf	url:https://github.com/mskcc/vcf2maf	url:https://github.com/mskcc/vcf2maf	11Fn5jqUI
 url:https://github.com/nygenome/lancet	url:https://github.com/nygenome/lancet	url:https://github.com/nygenome/lancet	dYF6AyBo
 url:https://github.com/parklab/NGSCheckMate	url:https://github.com/parklab/NGSCheckMate	url:https://github.com/parklab/NGSCheckMate	16tUBMk59
+url:https://github.com/raerose01/deconstructSigs	url:https://github.com/raerose01/deconstructSigs	url:https://github.com/raerose01/deconstructSigs	1eIeMT1A
 url:https://kidsfirstdrc.org	url:https://kidsfirstdrc.org	url:https://kidsfirstdrc.org	JkpD6jMa
 url:https://software.broadinstitute.org/gatk/	url:https://software.broadinstitute.org/gatk/	url:https://software.broadinstitute.org/gatk/	RsmkaFIb
 url:https://software.broadinstitute.org/gatk/best-practices/workflow?id	url:https://software.broadinstitute.org/gatk/best-practices/workflow?id	url:https://software.broadinstitute.org/gatk/best-practices/workflow?id	EHMzG34o

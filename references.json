@@ -6598,6 +6598,318 @@
   },
   {
     "publisher": "Springer Science and Business Media LLC",
+    "issue": "7463",
+    "DOI": "10.1038/nature12477",
+    "type": "article-journal",
+    "page": "415-421",
+    "source": "Crossref",
+    "title": "Signatures of mutational processes in human cancer",
+    "volume": "500",
+    "author": [
+      {
+        "given": "Ludmil B.",
+        "family": "Alexandrov"
+      },
+      {},
+      {
+        "given": "Serena",
+        "family": "Nik-Zainal"
+      },
+      {
+        "given": "David C.",
+        "family": "Wedge"
+      },
+      {
+        "given": "Samuel A. J. R.",
+        "family": "Aparicio"
+      },
+      {
+        "given": "Sam",
+        "family": "Behjati"
+      },
+      {
+        "given": "Andrew V.",
+        "family": "Biankin"
+      },
+      {
+        "given": "Graham R.",
+        "family": "Bignell"
+      },
+      {
+        "given": "Niccolò",
+        "family": "Bolli"
+      },
+      {
+        "given": "Ake",
+        "family": "Borg"
+      },
+      {
+        "given": "Anne-Lise",
+        "family": "Børresen-Dale"
+      },
+      {
+        "given": "Sandrine",
+        "family": "Boyault"
+      },
+      {
+        "given": "Birgit",
+        "family": "Burkhardt"
+      },
+      {
+        "given": "Adam P.",
+        "family": "Butler"
+      },
+      {
+        "given": "Carlos",
+        "family": "Caldas"
+      },
+      {
+        "given": "Helen R.",
+        "family": "Davies"
+      },
+      {
+        "given": "Christine",
+        "family": "Desmedt"
+      },
+      {
+        "given": "Roland",
+        "family": "Eils"
+      },
+      {
+        "given": "Jórunn Erla",
+        "family": "Eyfjörd"
+      },
+      {
+        "given": "John A.",
+        "family": "Foekens"
+      },
+      {
+        "given": "Mel",
+        "family": "Greaves"
+      },
+      {
+        "given": "Fumie",
+        "family": "Hosoda"
+      },
+      {
+        "given": "Barbara",
+        "family": "Hutter"
+      },
+      {
+        "given": "Tomislav",
+        "family": "Ilicic"
+      },
+      {
+        "given": "Sandrine",
+        "family": "Imbeaud"
+      },
+      {
+        "given": "Marcin",
+        "family": "Imielinski"
+      },
+      {
+        "given": "Natalie",
+        "family": "Jäger"
+      },
+      {
+        "given": "David T. W.",
+        "family": "Jones"
+      },
+      {
+        "given": "David",
+        "family": "Jones"
+      },
+      {
+        "given": "Stian",
+        "family": "Knappskog"
+      },
+      {
+        "given": "Marcel",
+        "family": "Kool"
+      },
+      {
+        "given": "Sunil R.",
+        "family": "Lakhani"
+      },
+      {
+        "given": "Carlos",
+        "family": "López-Otín"
+      },
+      {
+        "given": "Sancha",
+        "family": "Martin"
+      },
+      {
+        "given": "Nikhil C.",
+        "family": "Munshi"
+      },
+      {
+        "given": "Hiromi",
+        "family": "Nakamura"
+      },
+      {
+        "given": "Paul A.",
+        "family": "Northcott"
+      },
+      {
+        "given": "Marina",
+        "family": "Pajic"
+      },
+      {
+        "given": "Elli",
+        "family": "Papaemmanuil"
+      },
+      {
+        "given": "Angelo",
+        "family": "Paradiso"
+      },
+      {
+        "given": "John V.",
+        "family": "Pearson"
+      },
+      {
+        "given": "Xose S.",
+        "family": "Puente"
+      },
+      {
+        "given": "Keiran",
+        "family": "Raine"
+      },
+      {
+        "given": "Manasa",
+        "family": "Ramakrishna"
+      },
+      {
+        "given": "Andrea L.",
+        "family": "Richardson"
+      },
+      {
+        "given": "Julia",
+        "family": "Richter"
+      },
+      {
+        "given": "Philip",
+        "family": "Rosenstiel"
+      },
+      {
+        "given": "Matthias",
+        "family": "Schlesner"
+      },
+      {
+        "given": "Ton N.",
+        "family": "Schumacher"
+      },
+      {
+        "given": "Paul N.",
+        "family": "Span"
+      },
+      {
+        "given": "Jon W.",
+        "family": "Teague"
+      },
+      {
+        "given": "Yasushi",
+        "family": "Totoki"
+      },
+      {
+        "given": "Andrew N. J.",
+        "family": "Tutt"
+      },
+      {
+        "given": "Rafael",
+        "family": "Valdés-Mas"
+      },
+      {
+        "given": "Marit M.",
+        "family": "van Buuren"
+      },
+      {
+        "given": "Laura",
+        "family": "van ’t Veer"
+      },
+      {
+        "given": "Anne",
+        "family": "Vincent-Salomon"
+      },
+      {
+        "given": "Nicola",
+        "family": "Waddell"
+      },
+      {
+        "given": "Lucy R.",
+        "family": "Yates"
+      },
+      {
+        "given": "Jessica",
+        "family": "Zucman-Rossi"
+      },
+      {
+        "given": "P.",
+        "family": "Andrew Futreal"
+      },
+      {
+        "given": "Ultan",
+        "family": "McDermott"
+      },
+      {
+        "given": "Peter",
+        "family": "Lichter"
+      },
+      {
+        "given": "Matthew",
+        "family": "Meyerson"
+      },
+      {
+        "given": "Sean M.",
+        "family": "Grimmond"
+      },
+      {
+        "given": "Reiner",
+        "family": "Siebert"
+      },
+      {
+        "given": "Elías",
+        "family": "Campo"
+      },
+      {
+        "given": "Tatsuhiro",
+        "family": "Shibata"
+      },
+      {
+        "given": "Stefan M.",
+        "family": "Pfister"
+      },
+      {
+        "given": "Peter J.",
+        "family": "Campbell"
+      },
+      {
+        "given": "Michael R.",
+        "family": "Stratton"
+      },
+      {},
+      {},
+      {}
+    ],
+    "container-title": "Nature",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          8
+        ]
+      ]
+    },
+    "URL": "https://doi.org/f22m2q",
+    "container-title-short": "Nature",
+    "PMCID": "PMC3776390",
+    "PMID": "23945592",
+    "note": "This CSL JSON Item was automatically generated by Manubot v0.2.3 using citation-by-identifier.\nstandard_id: doi:10.1038/nature12477",
+    "id": "kG8qNLrs"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
     "issue": "5",
     "DOI": "10.1038/nbt.3519",
     "type": "article-journal",
@@ -8400,6 +8712,54 @@
     "id": "Dh2n1EV3"
   },
   {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "DOI": "10.1186/s13059-016-0893-4",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "deconstructSigs: delineating mutational processes in single tumors distinguishes DNA repair deficiencies and patterns of carcinoma evolution",
+    "volume": "17",
+    "author": [
+      {
+        "given": "Rachel",
+        "family": "Rosenthal"
+      },
+      {
+        "given": "Nicholas",
+        "family": "McGranahan"
+      },
+      {
+        "given": "Javier",
+        "family": "Herrero"
+      },
+      {
+        "given": "Barry S.",
+        "family": "Taylor"
+      },
+      {
+        "given": "Charles",
+        "family": "Swanton"
+      }
+    ],
+    "container-title": "Genome Biology",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          2,
+          22
+        ]
+      ]
+    },
+    "URL": "https://doi.org/f8bdsq",
+    "container-title-short": "Genome Biol",
+    "PMCID": "PMC4762164",
+    "PMID": "26899170",
+    "note": "This CSL JSON Item was automatically generated by Manubot v0.2.3 using citation-by-identifier.\nstandard_id: doi:10.1186/s13059-016-0893-4",
+    "id": "KhxTOfIb"
+  },
+  {
     "publisher": "Springer Nature",
     "issue": "1",
     "DOI": "10.1186/s13059-016-0974-4",
@@ -8577,13 +8937,56 @@
     "accessed": {
       "date-parts": [
         [
-          "2019",
-          12,
-          21
+          "2020",
+          1,
+          7
         ]
       ]
     },
     "note": "This CSL JSON Item was automatically generated by Manubot v0.2.3 using citation-by-identifier.\nstandard_id: url:http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/"
+  },
+  {
+    "id": "GpcQXpz9",
+    "type": "webpage",
+    "title": "BSgenome.Hsapiens.UCSC.hg38",
+    "container-title": "Bioconductor",
+    "abstract": "Full genome sequences for Homo sapiens (Human) as provided by UCSC (hg38, Dec. 2013) and stored in Biostrings objects.",
+    "URL": "http://bioconductor.org/packages/BSgenome.Hsapiens.UCSC.hg38/",
+    "language": "en-US",
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          1,
+          7
+        ]
+      ]
+    },
+    "note": "This CSL JSON Item was automatically generated by Manubot v0.2.3 using citation-by-identifier.\nstandard_id: url:https://bioconductor.org/packages/release/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.html"
+  },
+  {
+    "id": "m4IK7k7z",
+    "type": "webpage",
+    "title": "COSMIC - Catalogue of Somatic Mutations in Cancer",
+    "abstract": "COSMIC, the Catalogue Of Somatic Mutations In Cancer, is the world's largest and most comprehensive resource for exploring the impact of somatic mutations in human cancer.",
+    "URL": "https://cancer.sanger.ac.uk/cosmic",
+    "language": "en",
+    "author": [
+      {
+        "family": "Cosmic",
+        "given": ""
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          1,
+          7
+        ]
+      ]
+    },
+    "note": "This CSL JSON Item was automatically generated by Manubot v0.2.3 using citation-by-identifier.\nstandard_id: url:https://cancer.sanger.ac.uk/cosmic"
   },
   {
     "id": "ME49zC7J",
@@ -8596,9 +8999,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2019",
-          12,
-          21
+          "2020",
+          1,
+          7
         ]
       ]
     },
@@ -8615,9 +9018,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2019",
-          12,
-          21
+          "2020",
+          1,
+          7
         ]
       ]
     },
@@ -8634,9 +9037,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2019",
-          12,
-          21
+          "2020",
+          1,
+          7
         ]
       ]
     },
@@ -8653,9 +9056,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2019",
-          12,
-          21
+          "2020",
+          1,
+          7
         ]
       ]
     },
@@ -8674,18 +9077,18 @@
     "issued": {
       "date-parts": [
         [
-          "2019",
-          11,
-          25
+          "2020",
+          1,
+          4
         ]
       ]
     },
     "accessed": {
       "date-parts": [
         [
-          "2019",
-          12,
-          21
+          "2020",
+          1,
+          7
         ]
       ]
     }
@@ -8701,9 +9104,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2019",
-          12,
-          21
+          "2020",
+          1,
+          7
         ]
       ]
     },
@@ -8731,9 +9134,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2019",
-          12,
-          21
+          "2020",
+          1,
+          7
         ]
       ]
     }
@@ -8753,16 +9156,16 @@
         [
           "2019",
           12,
-          17
+          26
         ]
       ]
     },
     "accessed": {
       "date-parts": [
         [
-          "2019",
-          12,
-          21
+          "2020",
+          1,
+          7
         ]
       ]
     }
@@ -8780,18 +9183,52 @@
     "issued": {
       "date-parts": [
         [
-          "2019",
-          11,
-          14
+          "2020",
+          1,
+          7
         ]
       ]
     },
     "accessed": {
       "date-parts": [
         [
-          "2019",
-          12,
-          21
+          "2020",
+          1,
+          7
+        ]
+      ]
+    }
+  },
+  {
+    "id": "1eIeMT1A",
+    "type": "book",
+    "title": "raerose01/deconstructSigs",
+    "genre": "R",
+    "source": "GitHub",
+    "abstract": "deconstructSigs. Contribute to raerose01/deconstructSigs development by creating an account on GitHub.",
+    "URL": "https://github.com/raerose01/deconstructSigs",
+    "note": "original-date: 2016-01-06T14:24:08Z\nThis CSL JSON Item was automatically generated by Manubot v0.2.3 using citation-by-identifier.\nstandard_id: url:https://github.com/raerose01/deconstructSigs",
+    "author": [
+      {
+        "family": "raerose01",
+        "given": ""
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          1,
+          7
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          1,
+          7
         ]
       ]
     }
@@ -8804,9 +9241,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2019",
-          12,
-          21
+          "2020",
+          1,
+          7
         ]
       ]
     },
@@ -8815,15 +9252,14 @@
   {
     "id": "RsmkaFIb",
     "type": "webpage",
-    "title": "GATK | Home",
-    "abstract": "The website of the Genome Analysis Toolkit",
-    "URL": "https://software.broadinstitute.org/gatk/",
+    "title": "GATK",
+    "URL": "https://gatk.broadinstitute.org/hc/en-us",
     "accessed": {
       "date-parts": [
         [
-          "2019",
-          12,
-          21
+          "2020",
+          1,
+          7
         ]
       ]
     },
@@ -8832,14 +9268,14 @@
   {
     "id": "EHMzG34o",
     "type": "webpage",
-    "title": "GATK | BP Doc # |",
-    "URL": "https://software.broadinstitute.org/gatk/best-practices/workflow?id",
+    "title": "GATK",
+    "URL": "https://gatk.broadinstitute.org/hc/en-us",
     "accessed": {
       "date-parts": [
         [
-          "2019",
-          12,
-          21
+          "2020",
+          1,
+          7
         ]
       ]
     },
@@ -8853,9 +9289,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2019",
-          12,
-          21
+          "2020",
+          1,
+          7
         ]
       ]
     },
@@ -8869,9 +9305,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2019",
-          12,
-          21
+          "2020",
+          1,
+          7
         ]
       ]
     },

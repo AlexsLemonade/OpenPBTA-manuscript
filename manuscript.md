@@ -2,7 +2,7 @@
 author-meta:
 - John Doe
 - Jane Roe
-date-meta: '2019-12-21'
+date-meta: '2020-01-07'
 keywords:
 - pediatric cancer
 - brain tumor
@@ -18,10 +18,10 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c7beaaecf5c4cfd70dbac307e2e4e4f6ff235abd/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/8890abf5cee74d0961095ea166712e4e82dcdd0d/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@c7beaae](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/c7beaaecf5c4cfd70dbac307e2e4e4f6ff235abd)
-on December 21, 2019.
+from [AlexsLemonade/OpenPBTA-manuscript@8890abf](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/8890abf5cee74d0961095ea166712e4e82dcdd0d)
+on January 7, 2020.
 </em></small>
 
 ## Authors
@@ -230,6 +230,19 @@ If either 5' or 3' genes fused to more than five different genes within a sample
 We annotated putative driver fusions and prioritized fusions based on partners containing known [kinases](http://kinase.com/human/kinome/tables/Kincat_Hsap.08.02.xls), [oncogenes](http://www.bushmanlab.org/assets/doc/allOnco_Feb2017.tsv), [tumor suppressors](https://bioinfo.uth.edu/TSGene/Human_TSGs.txt?csrt=5027697123997809089), curated transcription factors [@9vS8HBL6], [COSMIC genes](https://cancer.sanger.ac.uk/census), and/or known [TCGA fusions](https://tumorfusions.org/PanCanFusV2/downloads/pancanfus.txt.gz) from curated [references](https://github.com/AlexsLemonade/OpenPBTA-analysis/tree/master/analyses/fusion_filtering/references).
 _MYBL1_ [@jLWV5IWB], _SNCAIP_ [@4wYR62jK], _FOXR2_ [@kfmK8vm], _TTYH1_ [@5ueZBnsJ], and _TERT_ [@ASmwGlFp; @YfG9EVSk; @lWMOs28t; @1B3tdZcAl] were added to the oncogene list and _BCOR_ [@kfmK8vm] and _QKI_ [@1foRpfch] were added to the tumor suppressor gene list based on pediatric cancer literature review.
 The fusion filtering workflow can be found in the [OpenPBTA Analysis repository](https://github.com/AlexsLemonade/OpenPBTA-analysis/tree/master/analyses/fusion_filtering).
+
+### Mutational Signatures
+
+We obtained weights for signature sets by applying deconstructSigs [@KhxTOfIb ; @1eIeMT1A] to consensus SNVs with the BSgenome.Hsapiens.UCSC.hg38 annotations [@GpcQXpz9].
+We estimated how many mutations contributed to each signature for each sample using each sample's signature weights.
+Weights for signatures fall in the range zero to one inclusive.
+For a given sample and signature combination, we estimated the number of contributing mutations per Mb of the genome by multiplying the signature weight by the total number of trinucleotide mutations identified by deconstructSigs and then dividing by the size of the effectively surveyed genome.  
+
+$$ \frac{\textrm{# of contributing mutations}}{Mb} = \frac{\textrm{weight} * \sum{\textrm{# Trinucleotide mutations}}} {\textrm{Size in Mb of effectively surveyed genome}}
+$$
+
+These results do not include signatures with small contributions; deconstructSigs drops signature weights that are less than 6% [@KhxTOfIb].
+We used these methods to calculate signature scores for each sample with both COSMIC [@m4IK7k7z] and Alexandrov et al, 2013 [@kG8qNLrs] signature sets.
 
 ### PBTA Tumor Mutation Burden
 

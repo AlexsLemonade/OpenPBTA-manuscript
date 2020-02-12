@@ -2,7 +2,7 @@
 author-meta:
 - John Doe
 - Jane Roe
-date-meta: '2020-01-13'
+date-meta: '2020-02-12'
 keywords:
 - pediatric cancer
 - brain tumor
@@ -18,10 +18,10 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/7a25ff2ea0d25510e33dc32758899f0e2a960c02/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/3119a311bffc3ca4fd1a2b36c2d12eebf74c9832/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@7a25ff2](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/7a25ff2ea0d25510e33dc32758899f0e2a960c02)
-on January 13, 2020.
+from [AlexsLemonade/OpenPBTA-manuscript@3119a31](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/3119a311bffc3ca4fd1a2b36c2d12eebf74c9832)
+on February 12, 2020.
 </em></small>
 
 ## Authors
@@ -379,6 +379,12 @@ If this filtering still resulted in multiple specimens, we selected from the rem
 ## Results
 
 Results section stub.
+
+### The Open Pediatric Brain Tumor Atlas
+
+This section will introduce the dataset (e.g., the histologies represented and what data types are included; Figure {@fig:openpbta-overview}A-B) and the process for contributing analytical code and to the manuscript (Figure {@fig:openpbta-overview}C-D).
+
+![An overview of the OpenPBTA project](figure_sketches/fig1-proposed-sketch.png){#fig:openpbta-overview}
 
 
 ## Conclusions

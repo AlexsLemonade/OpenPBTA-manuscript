@@ -18,9 +18,9 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c6ba2ad5d2b19f51a74f90b94c8edc8980b96c3d/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/b4b0c54865304bbfddcce15b36c94217b1f60dd8/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@c6ba2ad](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/c6ba2ad5d2b19f51a74f90b94c8edc8980b96c3d)
+from [AlexsLemonade/OpenPBTA-manuscript@b4b0c54](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/b4b0c54865304bbfddcce15b36c94217b1f60dd8)
 on February 13, 2020.
 </em></small>
 
@@ -393,6 +393,13 @@ Figure {@fig:openpbta-overview}A shows the tumor mutation burden as compared to 
 Figure {@fig:mutational-landscape-overview}B-C show concordance of these samples with mutational signatures from COSMIC [@m4IK7k7z] and Alexandrov et al, 2013 [@kG8qNLrs] signature sets.
 
 ![Mutational Landscape](images/figure_sketches/fig2-proposed-sketch.png){#fig:mutational-landscape-overview}
+
+### Recurrence and co-occurrence of mutations
+
+This section will discuss the genes and regions that are repeatedly mutated within and between cancer types.
+The occurrence of mutations in affecting particular genes, separated by cancer,  type is shown in Figure {@fig:occurrence-plots}A, with significant co-occurrence across all types and within types with sufficient sample sizes illustrated in Figure {@fig:occurrence-plots}B.
+
+![Occurrence and co-occurrence of mutations](images/figure_sketches/occurrence-fig-sketch.jpg){#fig:occurrence-plots}
 
 
 ## Conclusions

@@ -2,7 +2,7 @@
 author-meta:
 - John Doe
 - Jane Roe
-date-meta: '2020-02-12'
+date-meta: '2020-02-13'
 keywords:
 - pediatric cancer
 - brain tumor
@@ -18,10 +18,10 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/29e52d7bd7a18a9f0b2243505d31652c9b7d0530/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c6ba2ad5d2b19f51a74f90b94c8edc8980b96c3d/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@29e52d7](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/29e52d7bd7a18a9f0b2243505d31652c9b7d0530)
-on February 12, 2020.
+from [AlexsLemonade/OpenPBTA-manuscript@c6ba2ad](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/c6ba2ad5d2b19f51a74f90b94c8edc8980b96c3d)
+on February 13, 2020.
 </em></small>
 
 ## Authors
@@ -385,6 +385,14 @@ Results section stub.
 This section will introduce the dataset (e.g., the histologies represented and what data types are included; Figure {@fig:openpbta-overview}A-B) and the process for contributing analytical code and to the manuscript (Figure {@fig:openpbta-overview}C-D).
 
 ![An overview of the OpenPBTA project](images/figure_sketches/fig1-proposed-sketch.png){#fig:openpbta-overview}
+
+### Mutational Landscape
+
+This section summarizes the mutational landscape of the pediatric brain tumor samples of this dataset.
+Figure {@fig:openpbta-overview}A shows the tumor mutation burden as compared to adult TCGA brain-related tumors.
+Figure {@fig:mutational-landscape-overview}B-C show concordance of these samples with mutational signatures from COSMIC [@m4IK7k7z] and Alexandrov et al, 2013 [@kG8qNLrs] signature sets.
+
+![Mutational Landscape](images/figure_sketches/fig2-proposed-sketch.png){#fig:mutational-landscape-overview}
 
 
 ## Conclusions

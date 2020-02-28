@@ -2,7 +2,7 @@
 author-meta:
 - John Doe
 - Jane Roe
-date-meta: '2020-02-24'
+date-meta: '2020-02-28'
 keywords:
 - pediatric cancer
 - brain tumor
@@ -18,10 +18,10 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/9b65cd00cef2b59bad7059f0f96b483b7354b8e4/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/fb8dff748117896f7bedda1f460d9161a9fff045/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@9b65cd0](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/9b65cd00cef2b59bad7059f0f96b483b7354b8e4)
-on February 24, 2020.
+from [AlexsLemonade/OpenPBTA-manuscript@fb8dff7](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/fb8dff748117896f7bedda1f460d9161a9fff045)
+on February 28, 2020.
 </em></small>
 
 ## Authors
@@ -386,7 +386,13 @@ This section will introduce the dataset (e.g., the histologies represented and w
 
 ![An overview of the OpenPBTA project](images/figure_sketches/fig1-proposed-sketch.png){#fig:openpbta-overview}
 
-### Mutational Landscape
+### Landscape of Genomic Alterations
+
+The oncoprint will provide a visualization of the genomic alterations found in the analyses implemented throughout the OpenPBTA project.
+
+![Oncoprint showing the landscape of genetic lesions across the OpenPBTA dataset](images/figure_sketches/oncoprint-proposed-sketch.png){#fig:oncoprint-landscape}
+
+### Landscape of Mutational Processes
 
 This section summarizes the mutational landscape of the pediatric brain tumor samples of this dataset.
 Figure {@fig:openpbta-overview}A shows the tumor mutation burden as compared to adult TCGA brain-related tumors.

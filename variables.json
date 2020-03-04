@@ -1,5 +1,5 @@
 {
-  "date": "February 28, 2020",
+  "date": "March 4, 2020",
   "authors": [
     {
       "github": "johndoe",
@@ -46,16 +46,16 @@
     "repo_slug": "AlexsLemonade/OpenPBTA-manuscript",
     "repo_owner": "AlexsLemonade",
     "repo_name": "OpenPBTA-manuscript",
-    "commit": "fb8dff748117896f7bedda1f460d9161a9fff045"
+    "commit": "8e93c20d780b9ed40379d501f4bbea1715188436"
   },
   "manuscript_stats": {
     "reference_counts": {
       "arxiv": 1,
-      "doi": 36,
+      "doi": 38,
       "pmid": 6,
       "url": 22,
-      "total": 65
+      "total": 67
     },
-    "word_count": 5099
+    "word_count": 5172
   }
 }

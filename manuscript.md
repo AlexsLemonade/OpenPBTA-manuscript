@@ -2,7 +2,7 @@
 author-meta:
 - John Doe
 - Jane Roe
-date-meta: '2020-02-28'
+date-meta: '2020-03-04'
 keywords:
 - pediatric cancer
 - brain tumor
@@ -18,10 +18,10 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/fb8dff748117896f7bedda1f460d9161a9fff045/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/8e93c20d780b9ed40379d501f4bbea1715188436/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@fb8dff7](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/fb8dff748117896f7bedda1f460d9161a9fff045)
-on February 28, 2020.
+from [AlexsLemonade/OpenPBTA-manuscript@8e93c20](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/8e93c20d780b9ed40379d501f4bbea1715188436)
+on March 4, 2020.
 </em></small>
 
 ## Authors
@@ -137,6 +137,7 @@ Per author guidelines, <= 0.61 was used as a correlation coefficient cutoff at s
 For RNA-Seq, read strandedness was determined by running the [`infer_experiment.py` script](http://rseqc.sourceforge.net/#infer-experiment-py) on the first 200k mapped reads.
 If calculated strandedness did not match strandedness information received from the sequencing center, samples were removed from analysis.
 We required at least 60% of RNA-Seq reads mapped to the human reference or samples were removed from analysis.
+MendQC [@xCe0Gxab] was performed on aligned RNA-Seq reads using [this workflow](https://github.com/d3b-center/publication_workflows/blob/master/openPBTA/kfdrc-mendqc-wf.cwl) to identify mapped exonic non-duplicate reads.
 
 ### Germline Variant Calling
 #### SNV calling for B-allele Frequency (BAF) generation
@@ -150,7 +151,7 @@ This single-sample workflow can be found in the [Kids First GitHub repository](h
 #### SNV and INDEL calling
 
 We used four variant callers to call SNVs and INDELS from targeted DNA panel, WXS, and WGS data: Strelka2, Mutect2, Lancet, and VarDict.
-The input interval BED files for both panel and WXS data provided by the manufacturers were padded by 100 bp on each side during all variant calling algorithm runs.
+The input interval BED files for both panel and WXS data provided by the manufacturers were padded by 100 bp on each side during Strelka2, Mutect2, and VarDict runs and 400 bp for the Lancet run.
 For WGS calling, we utilized the non-padded BROAD Institute interval calling list [`wgs_calling_regions.hg38.interval_list`](https://console.cloud.google.com/storage/browser/_details/genomics-public-data/resources/broad/hg38/v0/wgs_calling_regions.hg38.interval_list), comprised of the full genome minus N bases, unless otherwise noted below.
 Strelka2 [@REfkDUtE] v2.9.3 was run using default parameters for canonical chromosomes (chr1-22, X,Y,M), as recommended by the authors.
 The final Strelka2 VCF was filtered for PASS variants.
@@ -163,7 +164,7 @@ The final VCF was filtered for PASS variants with TYPE=StronglySomatic.
 Lancet [@V6KdWVYi] v1.0.7 [@dYF6AyBo] was run using default parameters, unless noted below.
 For input intervals to Lancet, a reference BED was created by using only the UTR, exome, and start/stop codon features of the GENCODE 31 reference, augmented as recommended with PASS variant calls from Strelka2 and Mutect2 [@bKthX7vJ].
 These intervals were then padded by 300 bp on each side during Lancet variant calling.
-Per recommendations by the New York Genome Center [@bKthX7vJ], the Lancet input intervals described above were augmented with PASS variant calls from Strelka2 and Mutect2 as validation.
+Per recommendations by the New York Genome Center [@bKthX7vJ], for WGS samples, the Lancet input intervals described above were augmented with PASS variant calls from Strelka2 and Mutect2 as validation.
 
 #### VCF annotation and MAF creation
 
@@ -184,7 +185,7 @@ For some downstream analyses, only coding sequence SNVs (based on GENCODE v27 [@
 We considered base pairs to be *effectively surveyed* if they were in the intersection of the genomic ranges considered by the callers used to generate the consensus and where appropriate, regions of interest, such as coding sequences.
 This definition of *effectively surveyed* base pairs is what is used to calculate effective genome size for calculations for tumor mutation burden and mutational signatures.
 
-### Somatic Copy Number Variant Calling
+### Somatic Copy Number Variant Calling (WGS samples only)
 
 We used Control-FREEC [@ZQ0L3o1q; @1F3i4BvCt] v11.6 and CNVkit [@UTxRcYIQ] v0.9.3 for copy number variant calls.
 For both algorithms, the `germline_sex_estimate` (described below) was used as input for sample sex and germline variant calls (above) were used as input for BAF estimation.
@@ -192,8 +193,9 @@ ControlFreeC was run on human genome reference hg38 using the optional parameter
 Theta2 [@V4PckbrH] used VarDict germline and somatic calls, filtered on PASS and strongly somatic, to infer tumor purity.
 Theta2 purity was added as an optional parameter to CNVkit to adjust copy number calls.
 CNVkit was run on human genome reference hg38 using the optional parameters of Theta2 purity and BAF adjustment for tumor-normal pairs.
+We used GISTIC [@rDV1hhfF] v.2.0.23 on the CNVkit and the consensus CNV segmentation files to generate gene-level copy number abundance (Log R Ratio) as well as chromosomal arm copy number alterations using the parameters specified in the [OpenPBTA Analysis repository](https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/run-gistic/scripts/run-gistic-openpbta.sh).
 
-### Somatic Structural Variant Calling
+### Somatic Structural Variant Calling (WGS samples only)
 
 We used Manta SV [@kTn1PIj5] v1.4.0 for structural variant (SV) calls.
 Manta SV calling was also limited to regions used in Strelka2.

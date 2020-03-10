@@ -19,7 +19,7 @@ _What GitHub issue does your pull request address?_
 #### Is there anything that you want to discuss further?
 
 
-#### Is the pull request in a mature enough form ready for review?
+#### Is the pull request ready for review?
 
 
 ### Pull review checklist

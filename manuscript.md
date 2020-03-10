@@ -2,7 +2,7 @@
 author-meta:
 - John Doe
 - Jane Roe
-date-meta: '2020-03-04'
+date-meta: '2020-03-10'
 keywords:
 - pediatric cancer
 - brain tumor
@@ -18,10 +18,10 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/8e93c20d780b9ed40379d501f4bbea1715188436/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/587ac65e295151d75f670d51028c38bf296392c9/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@8e93c20](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/8e93c20d780b9ed40379d501f4bbea1715188436)
-on March 4, 2020.
+from [AlexsLemonade/OpenPBTA-manuscript@587ac65](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/587ac65e295151d75f670d51028c38bf296392c9)
+on March 10, 2020.
 </em></small>
 
 ## Authors
@@ -127,7 +127,10 @@ We used BWA-MEM [@gmH6YDca] v0.7.17 for alignment of paired-end DNA-seq reads.
 The alignment reference that we used was Homo Sapiens Human Genome (hg) version 38, patch release 12, fasta file obtained from UCSC [@1AWRgvxVu].
 Alignments were further processed using following the Broad Institute's Best Practices [@EHMzG34o=11165] for processing BAMs in preparation for variant discovery.
 Duplicates were marked using Samblaster[@IzUbOv92] v0.1.24, BAMs merged and sorted using Sambamba [@PcJwlZj3] v0.6.3.
-Lastly, resultant BAMs were processing using Broad's Genome Analysis Tool Kit (GATK) [@RsmkaFIb] v4.0.3.0, BaseRecalibrator submodule.
+Resultant BAMs were processing using Broad's Genome Analysis Tool Kit [GATK] (https://software.broadinstitute.org/gatk/) v4.0.3.0, BaseRecalibrator submodule.
+Lastly, for normal/germline input, we run the GATK HaplotypeCaller[@15Mgg4tfC] submodule on the recalibrated bam, generating a gvcf file.
+This file is used as the basis for germline calling, decribed in the "SNV calling for B-allele Frequency (BAF) generation" section.
+References can be obtained from the [Broad Genome References on AWS](https://s3.console.aws.amazon.com/s3/buckets/broad-references/hg38/v0/) bucket, with a general description of references here [@jkkXdcPS].
 
 ### Quality Control of Sequencing Data
 
@@ -142,10 +145,12 @@ MendQC [@xCe0Gxab] was performed on aligned RNA-Seq reads using [this workflow](
 ### Germline Variant Calling
 #### SNV calling for B-allele Frequency (BAF) generation
 Germline haplotype calls were performed following the [GATK Joint Genotyping Workflow](https://software.broadinstitute.org/gatk/best-practices/workflow?id=11145), except the workflow was run on an individual sample basis.
+This workflow was applied to the gvcf output from the alignment worflow on normal/germline samples.
 Using only SNPs, we applied the [GATK generic hard filter suggestions](https://gatkforums.broadinstitute.org/gatk/discussion/2806/howto-apply-hard-filters-to-a-call-set) to the VCF, with an additional requirement of 10 reads minimum depth per SNP.
 This filtered VCF was used as input to ControlFreeC and CNVKit (below) for generation of BAF files.
 GATK v4.0.12.0 was used for all steps except `VariantFiltration`, which used 3.8.0 because as of GATK 4.0.12.0, this tool was beta and known to be unreliable for this purpose.
 This single-sample workflow can be found in the [Kids First GitHub repository](https://github.com/kids-first/kf-jointgenotyping-workflow).
+References can be obtained from the [Broad Genome References on AWS](https://s3.console.aws.amazon.com/s3/buckets/broad-references/hg38/v0/) bucket, with a general description of references here [@jkkXdcPS].
 
 ### Somatic Mutation Calling
 #### SNV and INDEL calling

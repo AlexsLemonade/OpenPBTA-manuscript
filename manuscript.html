@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="John Doe" />
   <meta name="author" content="Jane Roe" />
-  <meta name="dcterms.date" content="2020-03-11" />
+  <meta name="dcterms.date" content="2020-03-14" />
   <meta name="keywords" content="pediatric cancer, brain tumor, tumor atlas" />
   <title>An Open Pediatric Brain Tumor Atlas</title>
   <style>
@@ -23,7 +23,7 @@
 <header id="title-block-header">
 <h1 class="title">An Open Pediatric Brain Tumor Atlas</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/55d0b9bb698df3cfcf8c2889f075d602980bc6a8/">permalink</a>) was automatically generated from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/55d0b9bb698df3cfcf8c2889f075d602980bc6a8">AlexsLemonade/OpenPBTA-manuscript@55d0b9b</a> on March 11, 2020. </em></small></p>
+<p><small><em> This manuscript (<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/5e3b8fb253082b24cfb0ba668df8e33ec54488aa/">permalink</a>) was automatically generated from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/5e3b8fb253082b24cfb0ba668df8e33ec54488aa">AlexsLemonade/OpenPBTA-manuscript@5e3b8fb</a> on March 14, 2020. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><p><strong>John Doe</strong><br> <img src="images/orcid.svg" alt="ORCID icon" class="inline_icon" /> <a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX">XXXX-XXXX-XXXX-XXXX</a> · <img src="images/github.svg" alt="GitHub icon" class="inline_icon" /> <a href="https://github.com/johndoe">johndoe</a> · <img src="images/twitter.svg" alt="Twitter icon" class="inline_icon" /> <a href="https://twitter.com/johndoe">johndoe</a><br> <small> Department of Something, University of Whatever · Funded by Grant XXXXXXXX </small></p></li>
@@ -56,7 +56,8 @@
 <p>Germline haplotype calls were performed following the <a href="https://software.broadinstitute.org/gatk/best-practices/workflow?id=11145">GATK Joint Genotyping Workflow</a>, except the workflow was run on an individual sample basis. This workflow was applied to the gvcf output from the alignment worflow on normal/germline samples. Using only SNPs, we applied the <a href="https://gatkforums.broadinstitute.org/gatk/discussion/2806/howto-apply-hard-filters-to-a-call-set">GATK generic hard filter suggestions</a> to the VCF, with an additional requirement of 10 reads minimum depth per SNP. This filtered VCF was used as input to ControlFreeC and CNVKit (below) for generation of BAF files. GATK v4.0.12.0 was used for all steps except <code>VariantFiltration</code>, which used 3.8.0 because as of GATK 4.0.12.0, this tool was beta and known to be unreliable for this purpose. This single-sample workflow can be found in the <a href="https://github.com/kids-first/kf-jointgenotyping-workflow">Kids First GitHub repository</a>. References can be obtained from the <a href="https://s3.console.aws.amazon.com/s3/buckets/broad-references/hg38/v0/">Broad Genome References on AWS</a> bucket, with a general description of references here <span class="citation" data-cites="jkkXdcPS">[<a href="#ref-jkkXdcPS" role="doc-biblioref">11</a>]</span>.</p>
 <h3 id="somatic-mutation-calling">Somatic Mutation Calling</h3>
 <h4 id="snv-and-indel-calling">SNV and INDEL calling</h4>
-<p>We used four variant callers to call SNVs and INDELS from targeted DNA panel, WXS, and WGS data: Strelka2, Mutect2, Lancet, and VarDict. The input interval BED files for both panel and WXS data provided by the manufacturers were padded by 100 bp on each side during Strelka2, Mutect2, and VarDict runs and 400 bp for the Lancet run. For WGS calling, we utilized the non-padded BROAD Institute interval calling list <a href="https://console.cloud.google.com/storage/browser/_details/genomics-public-data/resources/broad/hg38/v0/wgs_calling_regions.hg38.interval_list"><code>wgs_calling_regions.hg38.interval_list</code></a>, comprised of the full genome minus N bases, unless otherwise noted below. Strelka2 <span class="citation" data-cites="REfkDUtE">[<a href="#ref-REfkDUtE" role="doc-biblioref">15</a>]</span> v2.9.3 was run using default parameters for canonical chromosomes (chr1-22, X,Y,M), as recommended by the authors. The final Strelka2 VCF was filtered for PASS variants. Mutect2 from GATK v4.1.1.0 was run following Broad best practices outlined from their Workflow Description Language (WDL) <span class="citation" data-cites="E5aTvXmQ">[<a href="#ref-E5aTvXmQ" role="doc-biblioref">16</a>]</span>. The final Mutect2 VCF was filtered for PASS variants. To manage memory issues, VarDictJava <span class="citation" data-cites="trQRR8fs">[<a href="#ref-trQRR8fs" role="doc-biblioref">17</a>]</span> v1.58 <span class="citation" data-cites="1GMHnwH5p">[<a href="#ref-1GMHnwH5p" role="doc-biblioref">18</a>]</span> was run using 20Kb interval chunks of the input BED, padded by 100 bp on each side, such that if an INDEL occurred in between intervals, it would be captured. Parameters and filtering followed <a href="https://github.com/bcbio/bcbio-nextgen">BCBIO standards</a> except that variants with a variant allele frequency (VAF) &gt;= 0.05 (instead of &gt;= 0.10) were retained. The 0.05 VAF increased the true positive rate for INDELs and decreased the false positive rate for SNVs when using VarDict in consensus calling. The final VCF was filtered for PASS variants with TYPE=StronglySomatic. Lancet <span class="citation" data-cites="V6KdWVYi">[<a href="#ref-V6KdWVYi" role="doc-biblioref">19</a>]</span> v1.0.7 <span class="citation" data-cites="dYF6AyBo">[<a href="#ref-dYF6AyBo" role="doc-biblioref">20</a>]</span> was run using default parameters, unless noted below. For input intervals to Lancet, a reference BED was created by using only the UTR, exome, and start/stop codon features of the GENCODE 31 reference, augmented as recommended with PASS variant calls from Strelka2 and Mutect2 <span class="citation" data-cites="bKthX7vJ">[<a href="#ref-bKthX7vJ" role="doc-biblioref">21</a>]</span>. These intervals were then padded by 300 bp on each side during Lancet variant calling. Per recommendations by the New York Genome Center <span class="citation" data-cites="bKthX7vJ">[<a href="#ref-bKthX7vJ" role="doc-biblioref">21</a>]</span>, for WGS samples, the Lancet input intervals described above were augmented with PASS variant calls from Strelka2 and Mutect2 as validation.</p>
+<p>For PBTA samples, we used four variant callers to call SNVs and INDELS from targeted DNA panel, WXS, and WGS data: Strelka2 <span class="citation" data-cites="REfkDUtE">[<a href="#ref-REfkDUtE" role="doc-biblioref">15</a>]</span>, Mutect2 <span class="citation" data-cites="149BEKISi">[<a href="#ref-149BEKISi" role="doc-biblioref">16</a>]</span>, Lancet <span class="citation" data-cites="V6KdWVYi">[<a href="#ref-V6KdWVYi" role="doc-biblioref">17</a>]</span>, and VarDict <span class="citation" data-cites="trQRR8fs">[<a href="#ref-trQRR8fs" role="doc-biblioref">18</a>]</span>. WXS samples from TCGA were run using Strelka2, Mutect2 and Lancet. TCGA samples were captured using different WXS target capture kits and all the BED files were downloaded from <a href="https://api.gdc.cancer.gov/files"><code>GDC portal</code></a>. The input interval BED files for both panel and WXS data for PBTA samples were provided by the manufacturers. For both PBTA and TCGA, all panel and WXS BED files were padded by 100 bp on each side during Strelka2, Mutect2, and VarDict runs and 400 bp for the Lancet run.<br />
+For WGS calling, we utilized the non-padded BROAD Institute interval calling list <a href="https://console.cloud.google.com/storage/browser/_details/genomics-public-data/resources/broad/hg38/v0/wgs_calling_regions.hg38.interval_list"><code>wgs_calling_regions.hg38.interval_list</code></a>, comprised of the full genome minus N bases, unless otherwise noted below. Strelka2 <span class="citation" data-cites="REfkDUtE">[<a href="#ref-REfkDUtE" role="doc-biblioref">15</a>]</span> v2.9.3 was run using default parameters for canonical chromosomes (chr1-22, X,Y,M), as recommended by the authors. The final Strelka2 VCF was filtered for PASS variants. Mutect2 from GATK v4.1.1.0 was run following Broad best practices outlined from their Workflow Description Language (WDL) <span class="citation" data-cites="E5aTvXmQ">[<a href="#ref-E5aTvXmQ" role="doc-biblioref">19</a>]</span>. The final Mutect2 VCF was filtered for PASS variants. To manage memory issues, VarDictJava <span class="citation" data-cites="trQRR8fs">[<a href="#ref-trQRR8fs" role="doc-biblioref">18</a>]</span> v1.58 <span class="citation" data-cites="1GMHnwH5p">[<a href="#ref-1GMHnwH5p" role="doc-biblioref">20</a>]</span> was run using 20Kb interval chunks of the input BED, padded by 100 bp on each side, such that if an INDEL occurred in between intervals, it would be captured. Parameters and filtering followed <a href="https://github.com/bcbio/bcbio-nextgen">BCBIO standards</a> except that variants with a variant allele frequency (VAF) &gt;= 0.05 (instead of &gt;= 0.10) were retained. The 0.05 VAF increased the true positive rate for INDELs and decreased the false positive rate for SNVs when using VarDict in consensus calling. The final VCF was filtered for PASS variants with TYPE=StronglySomatic. Lancet v1.0.7 was run using default parameters, except for those noted below. For input intervals to Lancet WGS, a reference BED was created by using only the UTR, exome, and start/stop codon features of the GENCODE 31 reference, augmented as recommended with PASS variant calls from Strelka2 and Mutect2 <span class="citation" data-cites="bKthX7vJ">[<a href="#ref-bKthX7vJ" role="doc-biblioref">21</a>]</span>. These intervals were then padded by 300 bp on each side during Lancet variant calling. Per recommendations by the New York Genome Center <span class="citation" data-cites="bKthX7vJ">[<a href="#ref-bKthX7vJ" role="doc-biblioref">21</a>]</span>, for WGS samples, the Lancet input intervals described above were augmented with PASS variant calls from Strelka2 and Mutect2 as validation.</p>
 <h4 id="vcf-annotation-and-maf-creation">VCF annotation and MAF creation</h4>
 <p>We filtered outputs from both callers on the “PASS” filter, and annotated using The ENSEMBL Variant Effect Predictor <span class="citation" data-cites="p1f5DxRQ">[<a href="#ref-p1f5DxRQ" role="doc-biblioref">22</a>]</span>, reference release 93, and created MAFs using MSKCC’s vcf2maf <span class="citation" data-cites="11Fn5jqUI">[<a href="#ref-11Fn5jqUI" role="doc-biblioref">23</a>]</span> v1.6.17.</p>
 <h4 id="consensus-snv-calling">Consensus SNV Calling</h4>
@@ -386,32 +387,33 @@ Sangtae Kim, Konrad Scheffler, Aaron L. Halpern, Mitchell A. Bekritsky, Eunho No
 <em>Nature Methods</em> (2018-07-16) <a href="https://doi.org/gdwrp4">https://doi.org/gdwrp4</a><br />
 DOI: <a href="https://doi.org/10.1038/s41592-018-0051-x">10.1038/s41592-018-0051-x</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30013048">30013048</a></p>
 </div>
-<div id="ref-E5aTvXmQ">
-<p>16. <strong>broadinstitute/gatk</strong><br />
-GitHub<br />
-<a href="https://github.com/broadinstitute/gatk">https://github.com/broadinstitute/gatk</a></p>
-</div>
-<div id="ref-trQRR8fs">
-<p>17. <strong>VarDict: a novel and versatile variant caller for next-generation sequencing in cancer research</strong><br />
-Zhongwu Lai, Aleksandra Markovets, Miika Ahdesmaki, Brad Chapman, Oliver Hofmann, Robert McEwen, Justin Johnson, Brian Dougherty, J. Carl Barrett, Jonathan R. Dry<br />
-<em>Nucleic Acids Research</em> (2016-04-07) <a href="https://doi.org/f8v6qz">https://doi.org/f8v6qz</a><br />
-DOI: <a href="https://doi.org/10.1093/nar/gkw227">10.1093/nar/gkw227</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27060149">27060149</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4914105">PMC4914105</a></p>
-</div>
-<div id="ref-1GMHnwH5p">
-<p>18. <strong>AstraZeneca-NGS/VarDictJava</strong><br />
-AstraZeneca - NGS Team<br />
-(2020-03-05) <a href="https://github.com/AstraZeneca-NGS/VarDictJava">https://github.com/AstraZeneca-NGS/VarDictJava</a></p>
+<div id="ref-149BEKISi">
+<p>16. <strong>Calling Somatic SNVs and Indels with Mutect2</strong><br />
+David Benjamin, Takuto Sato, Kristian Cibulskis, Gad Getz, Chip Stewart, Lee Lichtenstein<br />
+<em>Cold Spring Harbor Laboratory</em> (2019-12-02) <a href="https://doi.org/ggntwv">https://doi.org/ggntwv</a><br />
+DOI: <a href="https://doi.org/10.1101/861054">10.1101/861054</a></p>
 </div>
 <div id="ref-V6KdWVYi">
-<p>19. <strong>Genome-wide somatic variant calling using localized colored de Bruijn graphs</strong><br />
+<p>17. <strong>Genome-wide somatic variant calling using localized colored de Bruijn graphs</strong><br />
 Giuseppe Narzisi, André Corvelo, Kanika Arora, Ewa A. Bergmann, Minita Shah, Rajeeva Musunuri, Anne-Katrin Emde, Nicolas Robine, Vladimir Vacic, Michael C. Zody<br />
 <em>Communications Biology</em> (2018-03-22) <a href="https://doi.org/gfcfr8">https://doi.org/gfcfr8</a><br />
 DOI: <a href="https://doi.org/10.1038/s42003-018-0023-9">10.1038/s42003-018-0023-9</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30271907">30271907</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6123722">PMC6123722</a></p>
 </div>
-<div id="ref-dYF6AyBo">
-<p>20. <strong>nygenome/lancet</strong><br />
-New York Genome Center<br />
-(2020-02-17) <a href="https://github.com/nygenome/lancet">https://github.com/nygenome/lancet</a></p>
+<div id="ref-trQRR8fs">
+<p>18. <strong>VarDict: a novel and versatile variant caller for next-generation sequencing in cancer research</strong><br />
+Zhongwu Lai, Aleksandra Markovets, Miika Ahdesmaki, Brad Chapman, Oliver Hofmann, Robert McEwen, Justin Johnson, Brian Dougherty, J. Carl Barrett, Jonathan R. Dry<br />
+<em>Nucleic Acids Research</em> (2016-04-07) <a href="https://doi.org/f8v6qz">https://doi.org/f8v6qz</a><br />
+DOI: <a href="https://doi.org/10.1093/nar/gkw227">10.1093/nar/gkw227</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27060149">27060149</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4914105">PMC4914105</a></p>
+</div>
+<div id="ref-E5aTvXmQ">
+<p>19. <strong>broadinstitute/gatk</strong><br />
+GitHub<br />
+<a href="https://github.com/broadinstitute/gatk">https://github.com/broadinstitute/gatk</a></p>
+</div>
+<div id="ref-1GMHnwH5p">
+<p>20. <strong>AstraZeneca-NGS/VarDictJava</strong><br />
+AstraZeneca - NGS Team<br />
+(2020-03-05) <a href="https://github.com/AstraZeneca-NGS/VarDictJava">https://github.com/AstraZeneca-NGS/VarDictJava</a></p>
 </div>
 <div id="ref-bKthX7vJ">
 <p>21. <strong>Deep sequencing of 3 cancer cell lines on 2 sequencing platforms</strong><br />
@@ -517,7 +519,7 @@ DOI: <a href="https://doi.org/10.1093/bioinformatics/btz363">10.1093/bioinformat
 <div id="ref-klaJnG8x">
 <p>39. <strong>icbi-lab/immunedeconv</strong><br />
 ICBI<br />
-(2020-03-11) <a href="https://github.com/icbi-lab/immunedeconv">https://github.com/icbi-lab/immunedeconv</a></p>
+(2020-03-14) <a href="https://github.com/icbi-lab/immunedeconv">https://github.com/icbi-lab/immunedeconv</a></p>
 </div>
 <div id="ref-jvorcKyN">
 <p>40. <strong>xCell: digitally portraying the tissue cellular heterogeneity landscape.</strong><br />
@@ -627,7 +629,7 @@ DOI: <a href="https://doi.org/10.1186/s13059-016-0893-4">10.1186/s13059-016-0893
 <div id="ref-1eIeMT1A">
 <p>59. <strong>raerose01/deconstructSigs</strong><br />
 raerose01<br />
-(2020-02-29) <a href="https://github.com/raerose01/deconstructSigs">https://github.com/raerose01/deconstructSigs</a></p>
+(2020-03-12) <a href="https://github.com/raerose01/deconstructSigs">https://github.com/raerose01/deconstructSigs</a></p>
 </div>
 <div id="ref-GpcQXpz9">
 <p>60. <strong>BSgenome.Hsapiens.UCSC.hg38</strong><br />

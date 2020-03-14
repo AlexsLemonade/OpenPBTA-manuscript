@@ -2,7 +2,7 @@
 author-meta:
 - John Doe
 - Jane Roe
-date-meta: '2020-03-11'
+date-meta: '2020-03-14'
 keywords:
 - pediatric cancer
 - brain tumor
@@ -18,10 +18,10 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/55d0b9bb698df3cfcf8c2889f075d602980bc6a8/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/5e3b8fb253082b24cfb0ba668df8e33ec54488aa/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@55d0b9b](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/55d0b9bb698df3cfcf8c2889f075d602980bc6a8)
-on March 11, 2020.
+from [AlexsLemonade/OpenPBTA-manuscript@5e3b8fb](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/5e3b8fb253082b24cfb0ba668df8e33ec54488aa)
+on March 14, 2020.
 </em></small>
 
 ## Authors
@@ -155,8 +155,11 @@ References can be obtained from the [Broad Genome References on AWS](https://s3.
 ### Somatic Mutation Calling
 #### SNV and INDEL calling
 
-We used four variant callers to call SNVs and INDELS from targeted DNA panel, WXS, and WGS data: Strelka2, Mutect2, Lancet, and VarDict.
-The input interval BED files for both panel and WXS data provided by the manufacturers were padded by 100 bp on each side during Strelka2, Mutect2, and VarDict runs and 400 bp for the Lancet run.
+For PBTA samples, we used four variant callers to call SNVs and INDELS from targeted DNA panel, WXS, and WGS data: Strelka2 [@REfkDUtE], Mutect2 [@149BEKISi], Lancet  [@V6KdWVYi], and VarDict [@trQRR8fs].
+WXS samples from TCGA were run using Strelka2, Mutect2 and Lancet.
+TCGA samples were captured using different WXS target capture kits and all the BED files were downloaded from [`GDC portal`](https://api.gdc.cancer.gov/files).
+The input interval BED files for both panel and WXS data for PBTA  samples were provided by the manufacturers.
+For both PBTA and TCGA, all panel and WXS  BED files were padded by 100 bp on each side during Strelka2, Mutect2, and VarDict runs and 400 bp for the Lancet run.  
 For WGS calling, we utilized the non-padded BROAD Institute interval calling list [`wgs_calling_regions.hg38.interval_list`](https://console.cloud.google.com/storage/browser/_details/genomics-public-data/resources/broad/hg38/v0/wgs_calling_regions.hg38.interval_list), comprised of the full genome minus N bases, unless otherwise noted below.
 Strelka2 [@REfkDUtE] v2.9.3 was run using default parameters for canonical chromosomes (chr1-22, X,Y,M), as recommended by the authors.
 The final Strelka2 VCF was filtered for PASS variants.
@@ -166,9 +169,9 @@ To manage memory issues, VarDictJava [@trQRR8fs] v1.58 [@1GMHnwH5p] was run usin
 Parameters and filtering followed [BCBIO standards](https://github.com/bcbio/bcbio-nextgen) except that variants with a variant allele frequency (VAF) >= 0.05 (instead of >= 0.10) were retained.
 The 0.05 VAF increased the true positive rate for INDELs and decreased the false positive rate for SNVs when using VarDict in consensus calling.
 The final VCF was filtered for PASS variants with TYPE=StronglySomatic.
-Lancet [@V6KdWVYi] v1.0.7 [@dYF6AyBo] was run using default parameters, unless noted below.
-For input intervals to Lancet, a reference BED was created by using only the UTR, exome, and start/stop codon features of the GENCODE 31 reference, augmented as recommended with PASS variant calls from Strelka2 and Mutect2 [@bKthX7vJ].
-These intervals were then padded by 300 bp on each side during Lancet variant calling.
+Lancet v1.0.7 was run using default parameters, except for those noted below.
+For input intervals to Lancet WGS, a reference BED was created by using only the UTR, exome, and start/stop codon features of the GENCODE 31 reference, augmented as recommended with PASS variant calls from Strelka2 and Mutect2 [@bKthX7vJ].
+These intervals were then padded by 300 bp on each side during Lancet variant calling. 
 Per recommendations by the New York Genome Center [@bKthX7vJ], for WGS samples, the Lancet input intervals described above were augmented with PASS variant calls from Strelka2 and Mutect2 as validation.
 
 #### VCF annotation and MAF creation

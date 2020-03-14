@@ -15,6 +15,7 @@ doi:10.1038/nbt.3519	doi:10.1038/nbt.3519	doi:10.1038/nbt.3519	12KZMHMQl
 doi:10.1038/ng.2849	doi:10.1038/ng.2849	doi:10.1038/ng.2849	5ueZBnsJ
 doi:10.1038/ng.3438	doi:10.1038/ng.3438	doi:10.1038/ng.3438	ASmwGlFp
 doi:10.1038/ng.3500	doi:10.1038/ng.3500	doi:10.1038/ng.3500	1foRpfch
+doi:10.1038/s41592-018-0051-x	doi:10.1038/s41592-018-0051-x	doi:10.1038/s41592-018-0051-x	REfkDUtE
 doi:10/gdwrp4	doi:10/gdwrp4	doi:10.1038/s41592-018-0051-x	REfkDUtE
 doi:10.1038/s42003-018-0023-9	doi:10.1038/s42003-018-0023-9	doi:10.1038/s42003-018-0023-9	V6KdWVYi
 doi:10.1056/NEJMoa1402121	doi:10.1056/NEJMoa1402121	doi:10.1056/nejmoa1402121	ei4gGEBQ
@@ -34,6 +35,7 @@ doi:10.1101/201178	doi:10.1101/201178	doi:10.1101/201178	15Mgg4tfC
 doi:10.1101/623702	doi:10.1101/623702	doi:10.1101/623702	bKthX7vJ
 doi:10.1101/656587	doi:10.1101/656587	doi:10.1101/656587	v08ocfr0
 doi:10.1101/716829	doi:10.1101/716829	doi:10.1101/716829	xCe0Gxab
+doi:10.1101/861054	doi:10.1101/861054	doi:10.1101/861054	149BEKISi
 doi:10/cwg8n5	doi:10/cwg8n5	doi:10.1186/1471-2105-12-323	Dh2n1EV3
 doi:10.1186/gb-2011-12-4-r41	doi:10.1186/gb-2011-12-4-r41	doi:10.1186/gb-2011-12-4-r41	rDV1hhfF
 doi:10.1186/s13059-016-0893-4	doi:10.1186/s13059-016-0893-4	doi:10.1186/s13059-016-0893-4	KhxTOfIb
@@ -59,7 +61,6 @@ url:https://github.com/AstraZeneca-NGS/VarDictJava	url:https://github.com/AstraZ
 url:https://github.com/broadinstitute/gatk/blob/4.1.1.0/scripts/mutect2_wdl/mutect2.wdl	url:https://github.com/broadinstitute/gatk/blob/4.1.1.0/scripts/mutect2_wdl/mutect2.wdl	url:https://github.com/broadinstitute/gatk/blob/4.1.1.0/scripts/mutect2_wdl/mutect2.wdl	E5aTvXmQ
 url:https://github.com/icbi-lab/immunedeconv	url:https://github.com/icbi-lab/immunedeconv	url:https://github.com/icbi-lab/immunedeconv	klaJnG8x
 url:https://github.com/mskcc/vcf2maf	url:https://github.com/mskcc/vcf2maf	url:https://github.com/mskcc/vcf2maf	11Fn5jqUI
-url:https://github.com/nygenome/lancet	url:https://github.com/nygenome/lancet	url:https://github.com/nygenome/lancet	dYF6AyBo
 url:https://github.com/parklab/NGSCheckMate	url:https://github.com/parklab/NGSCheckMate	url:https://github.com/parklab/NGSCheckMate	16tUBMk59
 url:https://github.com/raerose01/deconstructSigs	url:https://github.com/raerose01/deconstructSigs	url:https://github.com/raerose01/deconstructSigs	1eIeMT1A
 url:https://kidsfirstdrc.org	url:https://kidsfirstdrc.org	url:https://kidsfirstdrc.org	JkpD6jMa

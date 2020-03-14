@@ -23,7 +23,7 @@
 <header id="title-block-header">
 <h1 class="title">An Open Pediatric Brain Tumor Atlas</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/5e3b8fb253082b24cfb0ba668df8e33ec54488aa/">permalink</a>) was automatically generated from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/5e3b8fb253082b24cfb0ba668df8e33ec54488aa">AlexsLemonade/OpenPBTA-manuscript@5e3b8fb</a> on March 14, 2020. </em></small></p>
+<p><small><em> This manuscript (<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1e711050cf898011231629630fce013aa6ec7b39/">permalink</a>) was automatically generated from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/1e711050cf898011231629630fce013aa6ec7b39">AlexsLemonade/OpenPBTA-manuscript@1e71105</a> on March 14, 2020. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><p><strong>John Doe</strong><br> <img src="images/orcid.svg" alt="ORCID icon" class="inline_icon" /> <a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX">XXXX-XXXX-XXXX-XXXX</a> · <img src="images/github.svg" alt="GitHub icon" class="inline_icon" /> <a href="https://github.com/johndoe">johndoe</a> · <img src="images/twitter.svg" alt="Twitter icon" class="inline_icon" /> <a href="https://twitter.com/johndoe">johndoe</a><br> <small> Department of Something, University of Whatever · Funded by Grant XXXXXXXX </small></p></li>
@@ -99,7 +99,7 @@ For WGS calling, we utilized the non-padded BROAD Institute interval calling lis
 <p>We calculated tumor mutation burden in TCGA using MC3 mutation calls <span class="citation" data-cites="cDnF3a5Q">[<a href="#ref-cDnF3a5Q" role="doc-biblioref">63</a>]</span> for TCGA brain-related tumor projects including: LGG (Lower-grade Glioma) <span class="citation" data-cites="ei4gGEBQ">[<a href="#ref-ei4gGEBQ" role="doc-biblioref">64</a>]</span>, GBM (Glioblastoma Multiforme) <span class="citation" data-cites="xm7TtQ4U">[<a href="#ref-xm7TtQ4U" role="doc-biblioref">65</a>]</span>, and PCPG (Pheochromocytoma and Paraganglioma) <span class="citation" data-cites="vIvggrJi">[<a href="#ref-vIvggrJi" role="doc-biblioref">66</a>]</span>. The MC3 project provided an exome BED file. All SNVs fell within these regions. We considered the regions covered by the MC3 BED file (based on GENCODE v19 annotation <span class="citation" data-cites="ukGlPa3O">[<a href="#ref-ukGlPa3O" role="doc-biblioref">67</a>]</span>) to have been effectively surveyed.</p>
 <h3 id="clinical-data-harmonization">Clinical Data Harmonization</h3>
 <h4 id="who-classification-of-disease-types">WHO Classification of Disease Types</h4>
-<p>The <code>disease_type_old</code> field in the <code>pbta-histologies.tsv</code> file contains the diagnosis denoted from the patient’s pathology report. The <code>disease_type_new</code> field in the <code>pbta-histologies.tsv</code> file includes updates to <code>disease_type_old</code> and these changes are documented in the <code>Notes</code>. For instance, any diagnosis denoted as “Other” in <code>disease_type_old</code> was modified to capture the pathology report diagnosis in <code>disease_type_new</code>. Additionally, <code>disease_type_old</code> was modified to <code>disease_type_new</code> if the presence of specific molecular alterations defined a biospecimen as having an alternate diagnosis. The <code>broad_histology</code> denotes the broad 2016 WHO classification [doi:10.1007/s00401-016-1545-1] for each tumor. The <code>short_histology</code> is an abbreviated version of the <code>broad_histology</code>. The <code>glioma_brain_region</code> was subtyped into hemispheric, midline, mixed, or other based on specimen location (see table below).</p>
+<p>The <code>pathology_diagnosis</code> field in the <code>pbta-histologies.tsv</code> file contains the diagnosis denoted from the patient’s pathology report. The <code>integrated_diagnosis</code> field in the <code>pbta-histologies.tsv</code> file includes updates to <code>pathology_diagnosis</code> and these changes are documented in the <code>Notes</code>. For instance, any diagnosis denoted as “Other” in <code>pathology_diagnosis</code> was modified to capture the pathology report diagnosis in <code>integrated_diagnosis</code>. Additionally, <code>pathology_diagnosis</code> was modified to <code>integrated_diagnosis</code> if the presence of specific molecular alterations defined a biospecimen as having an alternate diagnosis. The <code>broad_histology</code> denotes the broad 2016 WHO classification <span class="citation" data-cites="7sgrMadR">[<a href="#ref-7sgrMadR" role="doc-biblioref">68</a>]</span> for each tumor. The <code>short_histology</code> is an abbreviated version of the <code>broad_histology</code>. The <code>glioma_brain_region</code> was subtyped into hemispheric, midline, mixed, or other based on specimen location (see table below).</p>
 <table>
 <colgroup>
 <col style="width: 7%" />
@@ -155,16 +155,6 @@ For WGS calling, we utilized the non-padded BROAD Institute interval calling lis
 <td>Derived Cell Line;Not Reported;Peripheral Whole Blood;Saliva;Solid Tissue</td>
 </tr>
 <tr class="odd">
-<td>disease_type_new</td>
-<td>Updated and/or integrated molecular diagnosis</td>
-<td>text</td>
-</tr>
-<tr class="even">
-<td>disease_type_old</td>
-<td>Reported patient diagnosis from pathology reports</td>
-<td>text</td>
-</tr>
-<tr class="odd">
 <td>ethnicity</td>
 <td>Patient reported ethnicity</td>
 <td>text</td>
@@ -185,91 +175,106 @@ For WGS calling, we utilized the non-padded BROAD Institute interval calling lis
 <td>midline (Thalamus</td>
 </tr>
 <tr class="odd">
+<td><code>integrated_diagnosis</code></td>
+<td>Updated and/or integrated molecular diagnosis</td>
+<td>text</td>
+</tr>
+<tr class="even">
 <td>Kids_First_Biospecimen_ID</td>
 <td>KidsFirst Biopecimen identifier</td>
 <td>BS_########</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Kids_First_Participant_ID</td>
 <td>KidsFirst patient identifier</td>
 <td>PT_########</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>molecular_subtype</td>
 <td>Molecular subtype defined by WHO 2016 guidelines</td>
 <td>text</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>normal_fraction</td>
 <td>Theta2 normal DNA fraction estimate</td>
 <td>numeric</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Notes</td>
-<td>Free text field describing changes from diagnosis_old to diagnosis_new or manner in which molecular_subtype was determined</td>
+<td>Free text field describing changes from <code>pathology_diagnosis</code> to <code>integrated_diagnosis</code> or manner in which molecular_subtype was determined</td>
 <td>text</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>OS_days</td>
 <td>Overall survival in days</td>
 <td>numeric</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>OS_status</td>
 <td>Overall survival status</td>
 <td>DECEASED;LIVING</td>
 </tr>
+<tr class="odd">
+<td>parent_aliquot_id</td>
+<td>External identifier combining sample_id, sample_type, aliquot_id, and sequencing_strategy for some samples</td>
+<td>text</td>
+</tr>
 <tr class="even">
+<td>pathology_diagnosis</td>
+<td>Reported patient diagnosis from pathology reports</td>
+<td>text</td>
+</tr>
+<tr class="odd">
 <td>primary_site</td>
 <td>Bodily site(s) from which specimen was derived</td>
 <td>text</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>race</td>
 <td>Patient reported race</td>
 <td>text</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>reported_gender</td>
 <td>Patient reported gender</td>
 <td>text</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>RNA_library</td>
 <td>Type of RNA-Sequencing library preparation</td>
 <td>stranded;poly-A</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>sample_id</td>
 <td>External biospecimen identifier</td>
 <td>variable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>sample_type</td>
 <td>Broad sample type</td>
 <td>Normal;Tumor</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>seq_center</td>
 <td>Sequencing center</td>
 <td>BGI@CHOP Genome Center;Genomic Clinical Core at Sidra Medical and Research Center;NantOmics;TGEN</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>short_histology</td>
-<td>Abbreviated disease_type_new</td>
+<td>Abbreviated <code>integrated_diagnosis</code></td>
 <td>text</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>tumor_descriptor</td>
 <td>Phase of therapy from which tumor was derived</td>
 <td>Initial CNS Tumor;Progressive Progressive Disease Post-Mortem;Recurrence;Second Malignancy;Unavailable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>tumor_fraction</td>
 <td>Theta2 tumor DNA fraction estimate</td>
 <td>numeric</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>tumor_ploidy</td>
 <td>ControlFreeC ploidy</td>
 <td>numeric</td>
@@ -278,11 +283,31 @@ For WGS calling, we utilized the non-padded BROAD Institute interval calling lis
 </table>
 <p>Table S1. Clinical metadata collected for OpenPBTA. {#tbl:S1}</p>
 <h4 id="molecular-subtyping">Molecular Subtyping</h4>
-<p>The <code>molecular_subtype</code> column in the <code>pbta-histologies.tsv</code> file contains molecular subtype information derived as described below. Medulloblastoma subtypes SHH, MYC, Group 3, and Group 4 were predicted using an <a href="https://github.com/d3b-center/medullo-classifier-package">RNA expression classifier</a> on the RSEM FPKM data.</p>
+<p>The <code>molecular_subtype</code> column in the <code>pbta-histologies.tsv</code> file contains molecular subtype information derived as described below, following World Health Organization 2016 classification criteria <span class="citation" data-cites="7sgrMadR">[<a href="#ref-7sgrMadR" role="doc-biblioref">68</a>]</span>.</p>
+<p>Medulloblastoma (MB) subtypes SHH, MYC, Group 3, and Group 4 were predicted using an <a href="https://github.com/d3b-center/medullo-classifier-package">RNA expression classifier</a> on the RSEM FPKM data.</p>
+<p>High-grade glioma (HGG) subtypes were derived using the criteria below (additional details in the <a href="https://github.com/AlexsLemonade/OpenPBTA-analysis/tree/master/analyses/molecular-subtyping-HGG">analysis README</a>):</p>
+<ol type="1">
+<li>If any sample contained an H3F3A K28M, HIST1H3B K28M, HIST1H3C K28M, or HIST2H3C K28M mutation and no BRAF V600E mutation, it was subtyped as <code>DMG, H3K28</code>.</li>
+<li>If any sample contained an HIST1H3B K28M, HIST1H3C K28M, or HIST2H3C K28M mutation and a BRAF V600E mutation, it was subtyped as <code>DMG, H3 K28, BRAF V600E</code>.</li>
+<li>If any sample contained an H3F3A G35V or G35R mutation, it was subtyped as<code>HGG, H3 G35</code>.</li>
+<li>If any high-grade glioma sample contained an IDH1 R132 mutation, it was subtyped as <code>HGG, IDH</code>.</li>
+<li>If a sample was initially classified as HGAT, had no defining histone mutations, and a BRAF V600E mutation, it was subtyped as <code>BRAF V600E</code>.</li>
+<li>All other high-grade glioma samples that did not meet any of these criteria were subtyped as <code>HGG, H3 wildtype</code>.</li>
+</ol>
+<p>Non-MB and non-ATRT embryonal (<code>Embryonal tumor</code> in the <code>broad_histology</code> column of the metadata pbta-histologies.tsv) subtypes were derived using the criteria below <span class="citation" data-cites="paqlZJfj t40FioEk 1AM78Fkrd Cibjccyk">[<a href="#ref-paqlZJfj" role="doc-biblioref">69</a>,<a href="#ref-t40FioEk" role="doc-biblioref">70</a>,<a href="#ref-1AM78Fkrd" role="doc-biblioref">71</a>,<a href="#ref-Cibjccyk" role="doc-biblioref">72</a>]</span>. Additional details can be found in the analysis <a href="https://alexslemonade.github.io/OpenPBTA-analysis/analyses/molecular-subtyping-embryonal/04-table-prep.nb.html">notebook</a>.</p>
+<ol type="1">
+<li>Any RNA-seq biospecimen with <i>LIN28A</i>a overexpression, plus a <i>TTYH1</i> fusion (5’ partner) with a gene adjacent or within the C19MC miRNA cluster and/or copy number amplification of the C19MC region was subtyped as <code>ETMR, C19MC-altered</code> (Embryonal tumor with multilayer rosettes, chromosome 19 miRNA cluster altered).</li>
+<li>Any RNA-seq biospecimen with <i>LIN28A</i>a overexpression, a <i>TTYH1</i> fusion (5’ partner) with a gene adjacent or within the C19MC miRNA cluster but no evidence of copy number amplification of the C19MC region was subtyped as <code>ETMR, NOS</code> (Embryonal tumor with multilayer rosettes, not otherwise specified).</li>
+<li>Any RNA-seq biospecimen with a fusion having a 5’ <i>MN1</i> and 3’ <i>BEND2</i> or <i>CXXC5</i> partner were subtyped as <code>CNS HGNET-MN1</code> (Central nervous system (CNS) high-grade neuroepithelial tumor with <em>MN1</em> alteration).</li>
+<li>Non-MB and non-ATRT embryonal tumors with internal tandem duplication of <em>BCOR</em> were subtyped as <code>CNS HGNET-BCOR</code> (CNS high-grade neuroepithelial tumor with <em>BCOR</em> alteration).</li>
+<li>Non-MB and non-ATRT embryonal tumors with over-expression and/or gene fusions in <i>FOXR2</i> were subtyped as <code>CNS NB-FOXR2</code> (CNS neuroblastoma with <i>FOXR2</i> activation).</li>
+<li>Non-MB and non-ATRT embryonal tumors with <i>CIC-NUTM1</i> or other <i>CIC</i> fusions, were subtyped as <code>CNS EFT-CIC</code> (CNS Ewing sarcoma family tumor with <i>CIC</i> alteration).</li>
+<li>Non-MB and non-ATRT embryonal tumors that did not fit any of the above categories were subtyped as CNS Embryonal, NOS (CNS Embryonal tumor, not otherwise specified).</li>
+</ol>
 <h4 id="survival">Survival</h4>
 <p>Overall survival, denoted <code>OS_days</code>, was calculated as days since initial diagnosis.</p>
 <h4 id="prediction-of-participants-genetic-sex">Prediction of participants’ genetic sex</h4>
-<p>The clinical metadata provided included a reported gender. We used DNA data, in concert with the reported gender, to predict participant genetic sex so that we could identify sexually dimorphic outcomes. This analysis could also reveal samples that may have been contaminated in certain circumstances. We used the idxstats utility from SAMTOOLS <span class="citation" data-cites="hNfNHk9L">[<a href="#ref-hNfNHk9L" role="doc-biblioref">68</a>]</span> to calculate read lengths, the number of mapped reads, and the corresponding chromosomal location for reads to the X and Y chromosomes. We used the fraction of total normalized X and Y chromosome reads that were attributed to the Y chromosome as a summary statistic. We reviewed this statistic in the context of reported gender and determined that a threshold of less than 0.2 clearly delineated female samples. Fractions greater than 0.4 were predicted to be males. Samples with values in the range [0.2, 0.4] were marked as unknown. We ran this analysis through <a href="https://github.com/d3b-center/sex-determination-tool">CWL</a> on Cavatica. Resulting calls were added to the clinical metadata as <code>germline_sex_estimate</code>.</p>
+<p>The clinical metadata provided included a reported gender. We used DNA data, in concert with the reported gender, to predict participant genetic sex so that we could identify sexually dimorphic outcomes. This analysis could also reveal samples that may have been contaminated in certain circumstances. We used the idxstats utility from SAMTOOLS <span class="citation" data-cites="hNfNHk9L">[<a href="#ref-hNfNHk9L" role="doc-biblioref">73</a>]</span> to calculate read lengths, the number of mapped reads, and the corresponding chromosomal location for reads to the X and Y chromosomes. We used the fraction of total normalized X and Y chromosome reads that were attributed to the Y chromosome as a summary statistic. We reviewed this statistic in the context of reported gender and determined that a threshold of less than 0.2 clearly delineated female samples. Fractions greater than 0.4 were predicted to be males. Samples with values in the range [0.2, 0.4] were marked as unknown. We ran this analysis through <a href="https://github.com/d3b-center/sex-determination-tool">CWL</a> on Cavatica. Resulting calls were added to the clinical metadata as <code>germline_sex_estimate</code>.</p>
 <h4 id="selection-of-independent-samples">Selection of independent samples</h4>
 <p>Certain analyses required that we select only a single representative specimen for each individual. In these cases, we prioritized primary tumors and those with whole-genome sequencing available. If this filtering still resulted in multiple specimens, we selected from the remaining set randomly.</p>
 <h2 id="results">Results</h2>
@@ -672,8 +697,37 @@ DOI: <a href="https://doi.org/10.1016/j.ccell.2017.01.001">10.1016/j.ccell.2017.
 <div id="ref-ukGlPa3O">
 <p>67. <strong>GENCODE - Human Release 19</strong><a href="https://www.gencodegenes.org/human/release_19.html">https://www.gencodegenes.org/human/release_19.html</a></p>
 </div>
+<div id="ref-7sgrMadR">
+<p>68. <strong>The 2016 World Health Organization Classification of Tumors of the Central Nervous System: a summary</strong><br />
+David N. Louis, Arie Perry, Guido Reifenberger, Andreas von Deimling, Dominique Figarella-Branger, Webster K. Cavenee, Hiroko Ohgaki, Otmar D. Wiestler, Paul Kleihues, David W. Ellison<br />
+<em>Acta Neuropathologica</em> (2016-05-09) <a href="https://doi.org/f8mspx">https://doi.org/f8mspx</a><br />
+DOI: <a href="https://doi.org/10.1007/s00401-016-1545-1">10.1007/s00401-016-1545-1</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27157931">27157931</a></p>
+</div>
+<div id="ref-paqlZJfj">
+<p>69. <strong>Embryonal Tumors of the Central Nervous System in Children: The Era of Targeted Therapeutics.</strong><br />
+David E Kram, Jacob J Henderson, Muhammad Baig, Diya Chakraborty, Morgan A Gardner, Subhasree Biswas, Soumen Khatua<br />
+<em>Bioengineering (Basel, Switzerland)</em> (2018-09-23) <a href="https://www.ncbi.nlm.nih.gov/pubmed/30249036">https://www.ncbi.nlm.nih.gov/pubmed/30249036</a><br />
+DOI: <a href="https://doi.org/10.3390/bioengineering5040078">10.3390/bioengineering5040078</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30249036">30249036</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6315657">PMC6315657</a></p>
+</div>
+<div id="ref-t40FioEk">
+<p>70. <strong>LIN28A, a sensitive immunohistochemical marker for Embryonal Tumor with Multilayered Rosettes (ETMR), is also positive in a subset of Atypical Teratoid/Rhabdoid Tumor (AT/RT)</strong><br />
+Shilpa Rao, R. T. Rajeswarie, T. Chickabasaviah Yasha, Bevinahalli N. Nandeesh, Arimappamagan Arivazhagan, Vani Santosh<br />
+<em>Child’s Nervous System</em> (2017-07-25) <a href="https://doi.org/ggnpkn">https://doi.org/ggnpkn</a><br />
+DOI: <a href="https://doi.org/10.1007/s00381-017-3551-6">10.1007/s00381-017-3551-6</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28744687">28744687</a></p>
+</div>
+<div id="ref-1AM78Fkrd">
+<p>71. <strong>Childhood Medulloblastoma and Other Central Nervous System Embryonal Tumors Treatment (PDQ®)–Health Professional Version</strong><br />
+National Cancer Institute<br />
+(2008-02-13) <a href="https://www.cancer.gov/types/brain/hp/child-cns-embryonal-treatment-pdq">https://www.cancer.gov/types/brain/hp/child-cns-embryonal-treatment-pdq</a></p>
+</div>
+<div id="ref-Cibjccyk">
+<p>72. <strong>DNA Methylation Profiling for Diagnosing Undifferentiated Sarcoma with Capicua Transcriptional Receptor (CIC) Alterations</strong><br />
+Evelina Miele, Rita De Vito, Andrea Ciolfi, Lucia Pedace, Ida Russo, Maria Debora De Pasquale, Angela Di Giannatale, Alessandro Crocoli, Biagio De Angelis, Marco Tartaglia, … Giuseppe Maria Milano<br />
+<em>International Journal of Molecular Sciences</em> (2020-03-06) <a href="https://doi.org/ggnn7x">https://doi.org/ggnn7x</a><br />
+DOI: <a href="https://doi.org/10.3390/ijms21051818">10.3390/ijms21051818</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32155762">32155762</a></p>
+</div>
 <div id="ref-hNfNHk9L">
-<p>68. <strong>The Sequence Alignment/Map format and SAMtools.</strong><br />
+<p>73. <strong>The Sequence Alignment/Map format and SAMtools.</strong><br />
 Heng Li, Bob Handsaker, Alec Wysoker, Tim Fennell, Jue Ruan, Nils Homer, Gabor Marth, Goncalo Abecasis, Richard Durbin, <br />
 <em>Bioinformatics (Oxford, England)</em> (2009-06-08) <a href="https://www.ncbi.nlm.nih.gov/pubmed/19505943">https://www.ncbi.nlm.nih.gov/pubmed/19505943</a><br />
 DOI: <a href="https://doi.org/10.1093/bioinformatics/btp352">10.1093/bioinformatics/btp352</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/19505943">19505943</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2723002">PMC2723002</a></p>

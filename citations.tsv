@@ -2,6 +2,8 @@ manuscript_id	detagged_id	standard_id	short_id
 arxiv:1303.3997	arxiv:1303.3997	arxiv:1303.3997	gmH6YDca
 doi:10.1002/gcc.22110	doi:10.1002/gcc.22110	doi:10.1002/gcc.22110	YfG9EVSk
 doi:10.1002/ijc.32258	doi:10.1002/ijc.32258	doi:10.1002/ijc.32258	BLNV1DbL
+doi:10.1007/s00381-017-3551-6	doi:10.1007/s00381-017-3551-6	doi:10.1007/s00381-017-3551-6	t40FioEk
+doi:10.1007/s00401-016-1545-1	doi:10.1007/s00401-016-1545-1	doi:10.1007/s00401-016-1545-1	7sgrMadR
 doi:10.1007/s11910-017-0722-5	doi:10.1007/s11910-017-0722-5	doi:10.1007/s11910-017-0722-5	1B3tdZcAl
 doi:10.1016/j.canlet.2014.11.057	doi:10.1016/j.canlet.2014.11.057	doi:10.1016/j.canlet.2014.11.057	lWMOs28t
 doi:10.1016/j.ccell.2017.01.001	doi:10.1016/j.ccell.2017.01.001	doi:10.1016/j.ccell.2017.01.001	vIvggrJi
@@ -41,11 +43,13 @@ doi:10.1186/gb-2011-12-4-r41	doi:10.1186/gb-2011-12-4-r41	doi:10.1186/gb-2011-12
 doi:10.1186/s13059-016-0893-4	doi:10.1186/s13059-016-0893-4	doi:10.1186/s13059-016-0893-4	KhxTOfIb
 doi:10/gdz75c	doi:10/gdz75c	doi:10.1186/s13059-016-0974-4	p1f5DxRQ
 doi:10.1371/journal.pcbi.1004873	doi:10.1371/journal.pcbi.1004873	doi:10.1371/journal.pcbi.1004873	UTxRcYIQ
+doi:10.3390/ijms21051818	doi:10.3390/ijms21051818	doi:10.3390/ijms21051818	Cibjccyk
 pmid:19505943	pmid:19505943	pmid:19505943	hNfNHk9L
 pmid:24436311	pmid:24436311	pmid:24436311	ItUbSSvv
 pmid:28555838	pmid:28555838	pmid:28555838	Gv11xzwL
 pmid:29141660	pmid:29141660	pmid:29141660	jvorcKyN
 pmid:30006449	pmid:30006449	pmid:30006449	ywns2iy3
+pmid:30249036	pmid:30249036	pmid:30249036	paqlZJfj
 pmid:31510660	pmid:31510660	pmid:31510660	1Ac8JWQ8h
 url:http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/	url:http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/	url:http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/	1AWRgvxVu
 url:https://bioconductor.org/packages/release/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.html	url:https://bioconductor.org/packages/release/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.html	url:https://bioconductor.org/packages/release/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.html	GpcQXpz9
@@ -66,5 +70,6 @@ url:https://github.com/raerose01/deconstructSigs	url:https://github.com/raerose0
 url:https://kidsfirstdrc.org	url:https://kidsfirstdrc.org	url:https://kidsfirstdrc.org	JkpD6jMa
 url:https://s3.amazonaws.com/broad-references/broad-references-readme.html	url:https://s3.amazonaws.com/broad-references/broad-references-readme.html	url:https://s3.amazonaws.com/broad-references/broad-references-readme.html	jkkXdcPS
 url:https://software.broadinstitute.org/gatk/best-practices/workflow?id	url:https://software.broadinstitute.org/gatk/best-practices/workflow?id	url:https://software.broadinstitute.org/gatk/best-practices/workflow?id	EHMzG34o
+url:https://www.cancer.gov/types/brain/hp/child-cns-embryonal-treatment-pdq	url:https://www.cancer.gov/types/brain/hp/child-cns-embryonal-treatment-pdq	url:https://www.cancer.gov/types/brain/hp/child-cns-embryonal-treatment-pdq	1AM78Fkrd
 url:https://www.gencodegenes.org/human/release_19.html	url:https://www.gencodegenes.org/human/release_19.html	url:https://www.gencodegenes.org/human/release_19.html	ukGlPa3O
 url:https://www.gencodegenes.org/human/release_27.html	url:https://www.gencodegenes.org/human/release_27.html	url:https://www.gencodegenes.org/human/release_27.html	9oRUnb2k

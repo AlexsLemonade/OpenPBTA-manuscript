@@ -2,7 +2,7 @@
 author-meta:
 - John Doe
 - Jane Roe
-date-meta: '2020-03-14'
+date-meta: '2020-03-29'
 keywords:
 - pediatric cancer
 - brain tumor
@@ -18,10 +18,10 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1e711050cf898011231629630fce013aa6ec7b39/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/7d86a8132804c575724d5670a8b99f9350f6f9e1/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@1e71105](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/1e711050cf898011231629630fce013aa6ec7b39)
-on March 14, 2020.
+from [AlexsLemonade/OpenPBTA-manuscript@7d86a81](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/7d86a8132804c575724d5670a8b99f9350f6f9e1)
+on March 29, 2020.
 </em></small>
 
 ## Authors
@@ -431,7 +431,7 @@ This section summarizes the mutational landscape of the pediatric brain tumor sa
 Figure {@fig:openpbta-overview}A shows the tumor mutation burden as compared to adult TCGA brain-related tumors.
 Figure {@fig:mutational-landscape-overview}B-C show concordance of these samples with mutational signatures from COSMIC [@m4IK7k7z] and Alexandrov et al, 2013 [@kG8qNLrs] signature sets.
 
-![Mutational Landscape](images/figure_sketches/fig2-proposed-sketch.png){#fig:mutational-landscape-overview}
+![Mutational Landscape](https://github.com/AlexsLemonade/OpenPBTA-analysis/raw/master/figures/pngs/fig2-mutational-landscapes.png){#fig:mutational-landscape-overview}
 
 ### Recurrence and co-occurrence of mutations
 

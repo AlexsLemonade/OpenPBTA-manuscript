@@ -2,7 +2,7 @@
 author-meta:
 - John Doe
 - Jane Roe
-date-meta: '2020-03-29'
+date-meta: '2020-04-01'
 keywords:
 - pediatric cancer
 - brain tumor
@@ -18,10 +18,10 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/7d86a8132804c575724d5670a8b99f9350f6f9e1/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/68323801616c43d5977b28f9eb7b95b1f6b19605/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@7d86a81](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/7d86a8132804c575724d5670a8b99f9350f6f9e1)
-on March 29, 2020.
+from [AlexsLemonade/OpenPBTA-manuscript@6832380](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/68323801616c43d5977b28f9eb7b95b1f6b19605)
+on April 1, 2020.
 </em></small>
 
 ## Authors
@@ -436,9 +436,13 @@ Figure {@fig:mutational-landscape-overview}B-C show concordance of these samples
 ### Recurrence and co-occurrence of mutations
 
 This section will discuss the genes and regions that are repeatedly mutated within and between cancer types.
-The occurrence of mutations in affecting particular genes, separated by cancer,  type is shown in Figure {@fig:occurrence-plots}A, with significant co-occurrence across all types and within types with sufficient sample sizes illustrated in Figure {@fig:occurrence-plots}B.
+The occurrence of mutations in affecting particular genes, separated by tumor type is shown in Figure {@fig:occurrence-plots}A, with significant co-occurrence across all types illustrated in Figure {@fig:occurrence-plots}B.
 
-![Occurrence and co-occurrence of mutations](images/figure_sketches/occurrence-fig-sketch.jpg){#fig:occurrence-plots}
+![Occurrence and co-occurrence of nonsynonymous mutations for the 50 most commonly mutated genes across all tumor types.
+A) Counts of nonsynonymous mutations, colored by tumor type (as defined in `integrated_diagnosis`).
+B) Cooccurence and mutual exclusivity of nonsynonymous mutations between genes.
+The cooccurrence score is defined as $I(-\log_{10}(P))$ where $P$ is defined by Fisher's exact test and $I$ is 1 when mutations cooccur more often than expected and -1 when exclusivity is more common.
+](https://github.com/AlexsLemonade/OpenPBTA-analysis/raw/master/figures/pngs/mutation_cooccurrence_figure.png){#fig:occurrence-plots}
 
 
 ## Conclusions

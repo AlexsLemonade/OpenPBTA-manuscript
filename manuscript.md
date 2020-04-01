@@ -18,9 +18,9 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/68323801616c43d5977b28f9eb7b95b1f6b19605/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/8f8d95ee15a730d9bfb04399f1da3ac9c55b3387/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@6832380](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/68323801616c43d5977b28f9eb7b95b1f6b19605)
+from [AlexsLemonade/OpenPBTA-manuscript@8f8d95e](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/8f8d95ee15a730d9bfb04399f1da3ac9c55b3387)
 on April 1, 2020.
 </em></small>
 
@@ -417,7 +417,9 @@ Results section stub.
 
 This section will introduce the dataset (e.g., the histologies represented and what data types are included; Figure {@fig:openpbta-overview}A-B) and the process for contributing analytical code and to the manuscript (Figure {@fig:openpbta-overview}C-D).
 
-![An overview of the OpenPBTA project](images/figure_sketches/fig1-proposed-sketch.png){#fig:openpbta-overview}
+![An overview of the OpenPBTA project.
+A) The distribution of unique participant samples across short histologies and integrated diagnoses.
+](https://github.com/AlexsLemonade/OpenPBTA-analysis/raw/master/figures/pngs/fig1-openpbta-distribution.png){#fig:openpbta-overview}
 
 ### Landscape of Genomic Alterations
 

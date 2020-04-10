@@ -2,7 +2,7 @@
 author-meta:
 - John Doe
 - Jane Roe
-date-meta: '2020-04-01'
+date-meta: '2020-04-10'
 keywords:
 - pediatric cancer
 - brain tumor
@@ -18,10 +18,10 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/8f8d95ee15a730d9bfb04399f1da3ac9c55b3387/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/9343a4e8626890d68e30e11160c51c75ed51e70b/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@8f8d95e](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/8f8d95ee15a730d9bfb04399f1da3ac9c55b3387)
-on April 1, 2020.
+from [AlexsLemonade/OpenPBTA-manuscript@9343a4e](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/9343a4e8626890d68e30e11160c51c75ed51e70b)
+on April 10, 2020.
 </em></small>
 
 ## Authors
@@ -171,7 +171,7 @@ The 0.05 VAF increased the true positive rate for INDELs and decreased the false
 The final VCF was filtered for PASS variants with TYPE=StronglySomatic.
 Lancet v1.0.7 was run using default parameters, except for those noted below.
 For input intervals to Lancet WGS, a reference BED was created by using only the UTR, exome, and start/stop codon features of the GENCODE 31 reference, augmented as recommended with PASS variant calls from Strelka2 and Mutect2 [@bKthX7vJ].
-These intervals were then padded by 300 bp on each side during Lancet variant calling. 
+These intervals were then padded by 300 bp on each side during Lancet variant calling.
 Per recommendations by the New York Genome Center [@bKthX7vJ], for WGS samples, the Lancet input intervals described above were augmented with PASS variant calls from Strelka2 and Mutect2 as validation.
 
 #### VCF annotation and MAF creation
@@ -202,6 +202,16 @@ Theta2 [@V4PckbrH] used VarDict germline and somatic calls, filtered on PASS and
 Theta2 purity was added as an optional parameter to CNVkit to adjust copy number calls.
 CNVkit was run on human genome reference hg38 using the optional parameters of Theta2 purity and BAF adjustment for tumor-normal pairs.
 We used GISTIC [@rDV1hhfF] v.2.0.23 on the CNVkit and the consensus CNV segmentation files to generate gene-level copy number abundance (Log R Ratio) as well as chromosomal arm copy number alterations using the parameters specified in the [OpenPBTA Analysis repository](https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/run-gistic/scripts/run-gistic-openpbta.sh).
+
+#### Consensus CNV Calling
+
+For each caller and sample, CNVs were called based on consensus amongst ControlFreeC [@ZQ0L3o1q; @1F3i4BvCt], CNVKit [@UTxRcYIQ], and Manta [@kTn1PIj5].
+CNVs called significant by ControlFreeC (pval < 0.01) were included in the consensus calling.
+
+Sample and caller combination files with more than 2500 CNVs called were removed from the set; we expect these to be noisy and poor quality samples based on cutoffs used in GISTIC [@rDV1hhfF].
+For each sample, regions with reciprocal overlap of at least 50% between two of the three callers were included in the final consensus set.
+CNV regions within 10,000 bp of each other with the same direction of gain or loss were merged into single region.
+We filtered out any CNVs that overlapped 50% or more with immunoglobulin, telomeric, centromeric, segment duplicated regions or were shorter than 3000 bp.
 
 ### Somatic Structural Variant Calling (WGS samples only)
 
@@ -373,7 +383,7 @@ High-grade glioma (HGG) subtypes were derived using the criteria below (addition
 5. If a sample was initially classified as HGAT, had no defining histone mutations, and a BRAF V600E mutation, it was subtyped as `BRAF V600E`.
 6. All other high-grade glioma samples that did not meet any of these criteria were subtyped as `HGG, H3 wildtype`.
 
-Non-MB and non-ATRT embryonal (`Embryonal tumor` in the `broad_histology` column of the metadata pbta-histologies.tsv) subtypes were derived using the criteria below [@paqlZJfj; @t40FioEk; @1AM78Fkrd; @Cibjccyk]. 
+Non-MB and non-ATRT embryonal (`Embryonal tumor` in the `broad_histology` column of the metadata pbta-histologies.tsv) subtypes were derived using the criteria below [@paqlZJfj; @t40FioEk; @1AM78Fkrd; @Cibjccyk].
 Additional details can be found in the analysis [notebook](https://alexslemonade.github.io/OpenPBTA-analysis/analyses/molecular-subtyping-embryonal/04-table-prep.nb.html).
 
 1. Any RNA-seq biospecimen with <i>LIN28A</i>a overexpression, plus a <i>TTYH1</i> fusion (5' partner) with a gene adjacent or within the C19MC miRNA cluster and/or copy number amplification of the C19MC region was subtyped as `ETMR, C19MC-altered` (Embryonal tumor with multilayer rosettes, chromosome 19 miRNA cluster altered).
@@ -383,7 +393,7 @@ Additional details can be found in the analysis [notebook](https://alexslemonade
 5. Non-MB and non-ATRT embryonal tumors with over-expression and/or gene fusions in <i>FOXR2</i> were subtyped as `CNS NB-FOXR2` (CNS neuroblastoma with <i>FOXR2</i> activation).
 6. Non-MB and non-ATRT embryonal tumors with <i>CIC-NUTM1</i> or other <i>CIC</i> fusions, were subtyped as `CNS EFT-CIC` (CNS Ewing sarcoma family tumor with <i>CIC</i> alteration).
 7. Non-MB and non-ATRT embryonal tumors that did not fit any of the above categories were subtyped as CNS Embryonal, NOS (CNS Embryonal tumor, not otherwise specified).
- 
+
 
 #### Survival
 

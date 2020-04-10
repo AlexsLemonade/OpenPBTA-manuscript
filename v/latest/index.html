@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="John Doe" />
   <meta name="author" content="Jane Roe" />
-  <meta name="dcterms.date" content="2020-04-01" />
+  <meta name="dcterms.date" content="2020-04-10" />
   <meta name="keywords" content="pediatric cancer, brain tumor, tumor atlas" />
   <title>An Open Pediatric Brain Tumor Atlas</title>
   <style>
@@ -23,7 +23,7 @@
 <header id="title-block-header">
 <h1 class="title">An Open Pediatric Brain Tumor Atlas</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/8f8d95ee15a730d9bfb04399f1da3ac9c55b3387/">permalink</a>) was automatically generated from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/8f8d95ee15a730d9bfb04399f1da3ac9c55b3387">AlexsLemonade/OpenPBTA-manuscript@8f8d95e</a> on April 1, 2020. </em></small></p>
+<p><small><em> This manuscript (<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/9343a4e8626890d68e30e11160c51c75ed51e70b/">permalink</a>) was automatically generated from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/9343a4e8626890d68e30e11160c51c75ed51e70b">AlexsLemonade/OpenPBTA-manuscript@9343a4e</a> on April 10, 2020. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><p><strong>John Doe</strong><br> <img src="images/orcid.svg" alt="ORCID icon" class="inline_icon" /> <a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX">XXXX-XXXX-XXXX-XXXX</a> · <img src="images/github.svg" alt="GitHub icon" class="inline_icon" /> <a href="https://github.com/johndoe">johndoe</a> · <img src="images/twitter.svg" alt="Twitter icon" class="inline_icon" /> <a href="https://twitter.com/johndoe">johndoe</a><br> <small> Department of Something, University of Whatever · Funded by Grant XXXXXXXX </small></p></li>
@@ -65,6 +65,9 @@ For WGS calling, we utilized the non-padded BROAD Institute interval calling lis
 <p>For some downstream analyses, only coding sequence SNVs (based on GENCODE v27 <span class="citation" data-cites="9oRUnb2k">[<a href="#ref-9oRUnb2k" role="doc-biblioref">27</a>]</span>) are used, to enhance comparability to other studies. We considered base pairs to be <em>effectively surveyed</em> if they were in the intersection of the genomic ranges considered by the callers used to generate the consensus and where appropriate, regions of interest, such as coding sequences. This definition of <em>effectively surveyed</em> base pairs is what is used to calculate effective genome size for calculations for tumor mutation burden and mutational signatures.</p>
 <h3 id="somatic-copy-number-variant-calling-wgs-samples-only">Somatic Copy Number Variant Calling (WGS samples only)</h3>
 <p>We used Control-FREEC <span class="citation" data-cites="ZQ0L3o1q 1F3i4BvCt">[<a href="#ref-ZQ0L3o1q" role="doc-biblioref">28</a>,<a href="#ref-1F3i4BvCt" role="doc-biblioref">29</a>]</span> v11.6 and CNVkit <span class="citation" data-cites="UTxRcYIQ">[<a href="#ref-UTxRcYIQ" role="doc-biblioref">30</a>]</span> v0.9.3 for copy number variant calls. For both algorithms, the <code>germline_sex_estimate</code> (described below) was used as input for sample sex and germline variant calls (above) were used as input for BAF estimation. ControlFreeC was run on human genome reference hg38 using the optional parameters of a 0.05 coefficient of variation, ploidy choice of 2-4, and BAF adjustment for tumor-normal pairs. Theta2 <span class="citation" data-cites="V4PckbrH">[<a href="#ref-V4PckbrH" role="doc-biblioref">31</a>]</span> used VarDict germline and somatic calls, filtered on PASS and strongly somatic, to infer tumor purity. Theta2 purity was added as an optional parameter to CNVkit to adjust copy number calls. CNVkit was run on human genome reference hg38 using the optional parameters of Theta2 purity and BAF adjustment for tumor-normal pairs. We used GISTIC <span class="citation" data-cites="rDV1hhfF">[<a href="#ref-rDV1hhfF" role="doc-biblioref">32</a>]</span> v.2.0.23 on the CNVkit and the consensus CNV segmentation files to generate gene-level copy number abundance (Log R Ratio) as well as chromosomal arm copy number alterations using the parameters specified in the <a href="https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/run-gistic/scripts/run-gistic-openpbta.sh">OpenPBTA Analysis repository</a>.</p>
+<h4 id="consensus-cnv-calling">Consensus CNV Calling</h4>
+<p>For each caller and sample, CNVs were called based on consensus amongst ControlFreeC <span class="citation" data-cites="ZQ0L3o1q 1F3i4BvCt">[<a href="#ref-ZQ0L3o1q" role="doc-biblioref">28</a>,<a href="#ref-1F3i4BvCt" role="doc-biblioref">29</a>]</span>, CNVKit <span class="citation" data-cites="UTxRcYIQ">[<a href="#ref-UTxRcYIQ" role="doc-biblioref">30</a>]</span>, and Manta <span class="citation" data-cites="kTn1PIj5">[<a href="#ref-kTn1PIj5" role="doc-biblioref">33</a>]</span>. CNVs called significant by ControlFreeC (pval &lt; 0.01) were included in the consensus calling.</p>
+<p>Sample and caller combination files with more than 2500 CNVs called were removed from the set; we expect these to be noisy and poor quality samples based on cutoffs used in GISTIC <span class="citation" data-cites="rDV1hhfF">[<a href="#ref-rDV1hhfF" role="doc-biblioref">32</a>]</span>. For each sample, regions with reciprocal overlap of at least 50% between two of the three callers were included in the final consensus set. CNV regions within 10,000 bp of each other with the same direction of gain or loss were merged into single region. We filtered out any CNVs that overlapped 50% or more with immunoglobulin, telomeric, centromeric, segment duplicated regions or were shorter than 3000 bp.</p>
 <h3 id="somatic-structural-variant-calling-wgs-samples-only">Somatic Structural Variant Calling (WGS samples only)</h3>
 <p>We used Manta SV <span class="citation" data-cites="kTn1PIj5">[<a href="#ref-kTn1PIj5" role="doc-biblioref">33</a>]</span> v1.4.0 for structural variant (SV) calls. Manta SV calling was also limited to regions used in Strelka2. The hg38 reference for SV calling used was limited to canonical chromosome regions. The somatic DNA workflow for SNV, INDEL, copy number, and SV calling can be found in the <a href="https://github.com/kids-first/kf-somatic-workflow">KidsFirst Github repository</a>. Manta SV output was annotated using <a href="https://lbgi.fr/AnnotSV/">AnnotSV v2.1</a> <span class="citation" data-cites="7Ull5aU5">[<a href="#ref-7Ull5aU5" role="doc-biblioref">34</a>]</span> and the workflow can be found in the <a href="https://github.com/d3b-center/annotSV/tree/master">D3b GitHub repository</a>.</p>
 <h3 id="gene-expression-abundance-estimation">Gene Expression Abundance Estimation</h3>
@@ -398,7 +401,7 @@ DOI: <a href="https://doi.org/10.1093/nar/gkx193">10.1093/nar/gkx193</a> · PMID
 <div id="ref-16tUBMk59">
 <p>13. <strong>parklab/NGSCheckMate</strong><br />
 Park Lab at Harvard Medical School<br />
-(2020-03-24) <a href="https://github.com/parklab/NGSCheckMate">https://github.com/parklab/NGSCheckMate</a></p>
+(2020-04-02) <a href="https://github.com/parklab/NGSCheckMate">https://github.com/parklab/NGSCheckMate</a></p>
 </div>
 <div id="ref-xCe0Gxab">
 <p>14. <strong>Framework for determining accuracy of RNA sequencing data for gene expression profiling of single samples</strong><br />
@@ -455,7 +458,7 @@ DOI: <a href="https://doi.org/10.1186/s13059-016-0974-4">10.1186/s13059-016-0974
 <div id="ref-11Fn5jqUI">
 <p>23. <strong>mskcc/vcf2maf</strong><br />
 Memorial Sloan Kettering<br />
-(2020-03-30) <a href="https://github.com/mskcc/vcf2maf">https://github.com/mskcc/vcf2maf</a></p>
+(2020-04-07) <a href="https://github.com/mskcc/vcf2maf">https://github.com/mskcc/vcf2maf</a></p>
 </div>
 <div id="ref-Ob2wQ9wX">
 <p>24. <strong>AlexsLemonade/OpenPBTA-analysis</strong><br />
@@ -544,7 +547,7 @@ DOI: <a href="https://doi.org/10.1093/bioinformatics/btz363">10.1093/bioinformat
 <div id="ref-klaJnG8x">
 <p>39. <strong>icbi-lab/immunedeconv</strong><br />
 ICBI<br />
-(2020-03-28) <a href="https://github.com/icbi-lab/immunedeconv">https://github.com/icbi-lab/immunedeconv</a></p>
+(2020-04-08) <a href="https://github.com/icbi-lab/immunedeconv">https://github.com/icbi-lab/immunedeconv</a></p>
 </div>
 <div id="ref-jvorcKyN">
 <p>40. <strong>xCell: digitally portraying the tissue cellular heterogeneity landscape.</strong><br />
@@ -654,7 +657,7 @@ DOI: <a href="https://doi.org/10.1186/s13059-016-0893-4">10.1186/s13059-016-0893
 <div id="ref-1eIeMT1A">
 <p>59. <strong>raerose01/deconstructSigs</strong><br />
 raerose01<br />
-(2020-03-26) <a href="https://github.com/raerose01/deconstructSigs">https://github.com/raerose01/deconstructSigs</a></p>
+(2020-04-03) <a href="https://github.com/raerose01/deconstructSigs">https://github.com/raerose01/deconstructSigs</a></p>
 </div>
 <div id="ref-GpcQXpz9">
 <p>60. <strong>BSgenome.Hsapiens.UCSC.hg38</strong><br />
@@ -716,9 +719,7 @@ Shilpa Rao, R. T. Rajeswarie, T. Chickabasaviah Yasha, Bevinahalli N. Nandeesh, 
 DOI: <a href="https://doi.org/10.1007/s00381-017-3551-6">10.1007/s00381-017-3551-6</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28744687">28744687</a></p>
 </div>
 <div id="ref-1AM78Fkrd">
-<p>71. <strong>Childhood Medulloblastoma and Other Central Nervous System Embryonal Tumors Treatment (PDQ®)–Health Professional Version</strong><br />
-National Cancer Institute<br />
-(2008-02-13) <a href="https://www.cancer.gov/types/brain/hp/child-cns-embryonal-treatment-pdq">https://www.cancer.gov/types/brain/hp/child-cns-embryonal-treatment-pdq</a></p>
+<p>71. <strong>Childhood Medulloblastoma and Other Central Nervous System Embryonal Tumors Treatment (PDQ®)–Health Professional Version - National Cancer Institute</strong>(2008-02-13) <a href="https://www.cancer.gov/types/brain/hp/child-cns-embryonal-treatment-pdq">https://www.cancer.gov/types/brain/hp/child-cns-embryonal-treatment-pdq</a></p>
 </div>
 <div id="ref-Cibjccyk">
 <p>72. <strong>DNA Methylation Profiling for Diagnosing Undifferentiated Sarcoma with Capicua Transcriptional Receptor (CIC) Alterations</strong><br />

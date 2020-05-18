@@ -5,9 +5,8 @@ keywords:
   - brain tumor
   - tumor atlas
 lang: en-US
-author_info:
-  -
-    github: johndoe
+authors:
+  - github: johndoe
     name: John Doe
     initials: JD
     orcid: XXXX-XXXX-XXXX-XXXX
@@ -15,9 +14,9 @@ author_info:
     email: john.doe@something.com
     affiliations:
       - Department of Something, University of Whatever
-    funders: Grant XXXXXXXX
-  -
-    github: janeroe
+    funders:
+      - Grant XXXXXXXX
+  - github: janeroe
     name: Jane Roe
     initials: JR
     orcid: XXXX-XXXX-XXXX-XXXX

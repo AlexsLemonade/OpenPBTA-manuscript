@@ -13,6 +13,7 @@ pmc
 pmcid
 pmid
 pubmed
+PBTA
 rootstock
 s
 strikethrough

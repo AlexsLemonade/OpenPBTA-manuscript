@@ -190,3 +190,9 @@ pontine
 Kapa
 transcriptome
 MEM
+BAMs
+Sambamba
+SAMBLASTER
+BaseRecalibrator
+submodule
+recalibrated

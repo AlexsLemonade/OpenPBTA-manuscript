@@ -13,7 +13,6 @@ pmc
 pmcid
 pmid
 pubmed
-PBTA
 rootstock
 s
 strikethrough
@@ -22,6 +21,7 @@ svgs
 tbl
 unicode
 wikidata
+PBTA
 BRAF
 BWA
 CAVATICA

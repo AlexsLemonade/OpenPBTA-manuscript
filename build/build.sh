@@ -109,7 +109,7 @@ if [ "${SPELLCHECK:-}" = "true" ]; then
   # Use "|| true" after grep because otherwise this step of the pipeline will
   # return exit code 1 if any of the markdown files do not contain a
   # misspelled word
-  cat output/expanded-spelling-errors.txt | while read word; do grep -ion "\<$word\>" content/*.md; done | sort -h -t ":" -k 1b,1 -k2,2 > output/spelling-error-locations.txt || true
+  cat output/expanded-spelling-errors.txt | while read word; do grep -on "\<$word\>" content/*.md; done | sort -h -t ":" -k 1b,1 -k2,2 > output/spelling-error-locations.txt || true
   echo >&2 "Filenames and line numbers with potential spelling errors:"
   cat output/spelling-error-locations.txt
 

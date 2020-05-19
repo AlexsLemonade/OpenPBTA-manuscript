@@ -242,3 +242,6 @@ LGAT
 Sidra
 Mortem
 README
+subtypes
+DIPG
+frameshift

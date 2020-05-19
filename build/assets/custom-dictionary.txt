@@ -177,6 +177,7 @@ BAF
 MAFs
 ploidy
 Alexandrov
+subtype
 subtyped
 multilayer
 neuroblastoma
@@ -190,6 +191,7 @@ pontine
 Kapa
 transcriptome
 MEM
+BAM
 BAMs
 Sambamba
 SAMBLASTER
@@ -211,6 +213,7 @@ quanTIseq
 benchmarking
 intra
 Pearson
+heatmap
 heatmaps
 oncogenic
 deconstructSigs
@@ -225,3 +228,17 @@ dimorphic
 idxstats
 SAMtools
 Cavatica
+FASTA
+GVCF
+polymorphisms
+BCBIO
+TPM
+kinases
+subtyping
+histiocytic
+GTF
+HGAT
+LGAT
+Sidra
+Mortem
+README

@@ -5,7 +5,6 @@
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://AlexsLemonade.github.io/OpenPBTA-manuscript/)
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf)
 [![GitHub Actions Status](https://github.com/AlexsLemonade/OpenPBTA-manuscript/workflows/Manubot/badge.svg)](https://github.com/AlexsLemonade/OpenPBTA-manuscript/actions)
-[![Travis Build Status](https://travis-ci.com/AlexsLemonade/OpenPBTA-manuscript.svg?branch=master)](https://travis-ci.com/AlexsLemonade/OpenPBTA-manuscript)
 
 ## Manuscript description
 

@@ -87,7 +87,7 @@ fi
 
 # Spellcheck
 if [ "${SPELLCHECK:-}" = "true" ]; then
-  export ASPELL_CONF="add-extra-dicts $(pwd)/build/assets/custom-dictionary.txt; ignore-case true"
+  export ASPELL_CONF="add-extra-dicts $(pwd)/build/assets/custom-dictionary.txt; ignore-case false"
 
   # Identify and store spelling errors
   pandoc \

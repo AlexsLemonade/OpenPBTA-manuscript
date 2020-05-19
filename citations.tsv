@@ -1,4 +1,4 @@
-manuscript_id	detagged_id	standard_id	short_id
+manuscript_citekey	detagged_citekey	standard_citekey	short_citekey
 arxiv:1303.3997	arxiv:1303.3997	arxiv:1303.3997	gmH6YDca
 doi:10.1002/gcc.22110	doi:10.1002/gcc.22110	doi:10.1002/gcc.22110	YfG9EVSk
 doi:10.1002/ijc.32258	doi:10.1002/ijc.32258	doi:10.1002/ijc.32258	BLNV1DbL
@@ -51,7 +51,7 @@ pmid:29141660	pmid:29141660	pmid:29141660	jvorcKyN
 pmid:30006449	pmid:30006449	pmid:30006449	ywns2iy3
 pmid:30249036	pmid:30249036	pmid:30249036	paqlZJfj
 pmid:31510660	pmid:31510660	pmid:31510660	1Ac8JWQ8h
-url:http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/	url:http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/	url:http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/	1AWRgvxVu
+url:http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips	url:http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips	url:http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips	19mY46wTE
 url:https://bioconductor.org/packages/release/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.html	url:https://bioconductor.org/packages/release/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.html	url:https://bioconductor.org/packages/release/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.html	GpcQXpz9
 url:https://cancer.sanger.ac.uk/cosmic	url:https://cancer.sanger.ac.uk/cosmic	url:https://cancer.sanger.ac.uk/cosmic	m4IK7k7z
 url:https://cbttc.org	url:https://cbttc.org	url:https://cbttc.org	ME49zC7J

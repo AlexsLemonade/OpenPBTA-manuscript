@@ -1,61 +1,90 @@
 {
-  "date": "April 10, 2020",
-  "authors": [
-    {
-      "github": "johndoe",
-      "name": "John Doe",
-      "initials": "JD",
-      "orcid": "XXXX-XXXX-XXXX-XXXX",
-      "twitter": "johndoe",
-      "email": "john.doe@something.com",
-      "affiliations": [
-        "Department of Something, University of Whatever"
-      ],
-      "funders": "Grant XXXXXXXX",
-      "affiliation_numbers": [
-        1
-      ]
-    },
-    {
-      "github": "janeroe",
-      "name": "Jane Roe",
-      "initials": "JR",
-      "orcid": "XXXX-XXXX-XXXX-XXXX",
-      "email": "jane.roe@whatever.edu",
-      "affiliations": [
-        "Department of Something, University of Whatever",
-        "Department of Whatever, University of Something"
-      ],
-      "affiliation_numbers": [
-        1,
-        2
-      ]
-    }
-  ],
-  "affiliations": [
-    {
-      "affiliation": "Department of Something, University of Whatever",
-      "affiliation_number": 1
-    },
-    {
-      "affiliation": "Department of Whatever, University of Something",
-      "affiliation_number": 2
-    }
-  ],
-  "ci_source": {
-    "repo_slug": "AlexsLemonade/OpenPBTA-manuscript",
-    "repo_owner": "AlexsLemonade",
-    "repo_name": "OpenPBTA-manuscript",
-    "commit": "9343a4e8626890d68e30e11160c51c75ed51e70b"
+  "pandoc": {
+    "title": "An Open Pediatric Brain Tumor Atlas",
+    "keywords": [
+      "pediatric cancer",
+      "brain tumor",
+      "tumor atlas"
+    ],
+    "lang": "en-US",
+    "date-meta": "2020-05-19",
+    "author-meta": [
+      "John Doe",
+      "Jane Roe"
+    ],
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"An Open Pediatric Brain Tumor Atlas\" />\n<meta name=\"citation_title\" content=\"An Open Pediatric Brain Tumor Atlas\" />\n<meta property=\"og:title\" content=\"An Open Pediatric Brain Tumor Atlas\" />\n<meta property=\"twitter:title\" content=\"An Open Pediatric Brain Tumor Atlas\" />\n<meta name=\"dc.date\" content=\"2020-05-19\" />\n<meta name=\"citation_publication_date\" content=\"2020-05-19\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"John Doe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@johndoe\" />\n<meta name=\"citation_author\" content=\"Jane Roe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<link rel=\"canonical\" href=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/\" />\n<meta property=\"og:url\" content=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/\" />\n<meta property=\"twitter:url\" content=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/\" />\n<meta name=\"citation_pdf_url\" content=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/fa2f962635edda1a0e30110f23c225abd8471378/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/fa2f962635edda1a0e30110f23c225abd8471378/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/fa2f962635edda1a0e30110f23c225abd8471378/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "bibliography": [
+      "content/manual-references.json"
+    ],
+    "manubot-output-bibliography": "output/references.json",
+    "manubot-output-citekeys": "output/citations.tsv",
+    "manubot-requests-cache-path": "ci/cache/requests-cache",
+    "manubot-clear-requests-cache": false
   },
-  "manuscript_stats": {
-    "reference_counts": {
-      "arxiv": 1,
-      "doi": 43,
-      "pmid": 7,
-      "url": 22,
-      "total": 73
+  "manubot": {
+    "date": "May 19, 2020",
+    "authors": [
+      {
+        "github": "johndoe",
+        "name": "John Doe",
+        "initials": "JD",
+        "orcid": "XXXX-XXXX-XXXX-XXXX",
+        "twitter": "johndoe",
+        "email": "john.doe@something.com",
+        "affiliations": [
+          "Department of Something, University of Whatever"
+        ],
+        "funders": [
+          "Grant XXXXXXXX"
+        ],
+        "affiliation_numbers": [
+          1
+        ]
+      },
+      {
+        "github": "janeroe",
+        "name": "Jane Roe",
+        "initials": "JR",
+        "orcid": "XXXX-XXXX-XXXX-XXXX",
+        "email": "jane.roe@whatever.edu",
+        "affiliations": [
+          "Department of Something, University of Whatever",
+          "Department of Whatever, University of Something"
+        ],
+        "affiliation_numbers": [
+          1,
+          2
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "affiliation": "Department of Something, University of Whatever",
+        "affiliation_number": 1
+      },
+      {
+        "affiliation": "Department of Whatever, University of Something",
+        "affiliation_number": 2
+      }
+    ],
+    "ci_source": {
+      "provider": "github",
+      "repo_slug": "AlexsLemonade/OpenPBTA-manuscript",
+      "repo_owner": "AlexsLemonade",
+      "repo_name": "OpenPBTA-manuscript",
+      "commit": "fa2f962635edda1a0e30110f23c225abd8471378",
+      "triggering_commit": "fa2f962635edda1a0e30110f23c225abd8471378",
+      "build_url": "https://github.com/AlexsLemonade/OpenPBTA-manuscript/commit/fa2f962635edda1a0e30110f23c225abd8471378/checks",
+      "job_url": "https://github.com/AlexsLemonade/OpenPBTA-manuscript/runs/run3"
     },
-    "word_count": 5967
+    "html_url": "https://AlexsLemonade.github.io/OpenPBTA-manuscript/",
+    "pdf_url": "https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf",
+    "html_url_versioned": "https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/fa2f962635edda1a0e30110f23c225abd8471378/",
+    "pdf_url_versioned": "https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/fa2f962635edda1a0e30110f23c225abd8471378/manuscript.pdf",
+    "manubot_version": "0.3.1",
+    "rootstock_commit": "8b9b5ced2c7c963bf3ea5afb8f31f9a4a54ab697",
+    "manuscript_stats": {
+      "word_count": 5998
+    }
   }
 }

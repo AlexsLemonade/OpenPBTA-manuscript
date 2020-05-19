@@ -1,4 +1,4 @@
-personal_ws-1.1 en 96
+personal_ws-1.1 en 96 utf-8
 al
 doi
 eq
@@ -95,3 +95,5 @@ monocytes
 myeloid
 neutrophils
 FusionAnnotator
+Greiner
+papain

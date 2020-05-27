@@ -243,3 +243,5 @@ translocations
 trinucleotide
 tsv
 xCell
+telomerase
+Poly-A

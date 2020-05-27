@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/074d920366f7d13f07f6c38c91e9ba429e83b9f2/" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1bb3665e9b39a0564d47133ddfb6bcab3078f9c3/" />
 
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/074d920366f7d13f07f6c38c91e9ba429e83b9f2/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1bb3665e9b39a0564d47133ddfb6bcab3078f9c3/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/074d920366f7d13f07f6c38c91e9ba429e83b9f2/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1bb3665e9b39a0564d47133ddfb6bcab3078f9c3/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,9 +103,9 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/074d920366f7d13f07f6c38c91e9ba429e83b9f2/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1bb3665e9b39a0564d47133ddfb6bcab3078f9c3/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@074d920](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/074d920366f7d13f07f6c38c91e9ba429e83b9f2)
+from [AlexsLemonade/OpenPBTA-manuscript@1bb3665](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/1bb3665e9b39a0564d47133ddfb6bcab3078f9c3)
 on May 27, 2020.
 </em></small>
 
@@ -311,6 +311,23 @@ For each sample, regions with reciprocal overlap of at least 50% between two of 
 CNV regions within 10,000 bp of each other with the same direction of gain or loss were merged into single region.
 We filtered out any CNVs that overlapped 50% or more with immunoglobulin, telomeric, centromeric, segment duplicated regions or were shorter than 3000 bp.
 
+#### Focal Copy Number Calling
+
+We added the ploidy inferred via Control-FREEC to the consensus CNV segmentation file and used the ploidy and copy number values to define gain and loss values broadly at the chromosome level.
+We used bedtools coverage [@url:https://bedtools.readthedocs.io/en/latest/content/tools/coverage.html; @doi:10.1093/bioinformatics/btq033] to add cytoband status using the UCSC cytoband file [@url:http://hgdownload.cse.ucsc.edu/goldenpath/hg38/database/cytoBand.txt.gz; @doi:10.1093/nar/gks1048].
+The output status call fractions, which are values of the loss, gain and callable fractions of each cytoband region, were used to define dominant status at the cytoband-level.
+The weighted means of each status call fraction were calculated using band length.
+We used the weighted means to define the dominant status at the chromosome arm-level.
+
+A status is considered dominant if more than half of the region was callable and the status call fraction was greater than 0.9 for that region.
+The 0.9 threshold was chosen to ensure that the dominant status fraction call is greater than the remaining status fraction calls in a region.
+
+We also wanted to define focal copy number units to avoid calling adjacent genes in the same cytoband or arm as copy number losses or gains where it would be more appropriate to call the broader region a loss or gain.
+For the determination of the most focal units, we first considered the dominant status calls at the chromosome arm-level.
+If the chromosome arm dominant status was not clearly defined as a gain or loss (and was callable) we looked to include the cytoband-level status call.
+Similarly, if a cytoband dominant status call was not clearly defined as a gain or loss (and was callable) we looked to include the gene-level status call.
+To obtain the gene-level data, we used the mergeByOverlaps function [@url:https://www.rdocumentation.org/packages/IRanges/versions/2.6.1/topics/findOverlaps-methods] from the IRanges package [@doi:10.1371/journal.pcbi.1003118] to find overlaps between the segments in the consensus CNV file and the exons in the GENCODE v27 annotation file [@url:https://www.gencodegenes.org/human/release_27.html].
+ 
 ### Somatic Structural Variant Calling (WGS samples only)
 
 We used Manta SV [@doi:10/gf3ggb] v1.4.0 for structural variant (SV) calls.

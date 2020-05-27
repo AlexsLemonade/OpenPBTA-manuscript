@@ -4,7 +4,7 @@ author-meta:
 - Jane Roe
 bibliography:
 - content/manual-references.json
-date-meta: '2020-05-19'
+date-meta: '2020-05-27'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,9 +23,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="An Open Pediatric Brain Tumor Atlas" />
 
-  <meta name="dc.date" content="2020-05-19" />
+  <meta name="dc.date" content="2020-05-27" />
 
-  <meta name="citation_publication_date" content="2020-05-19" />
+  <meta name="citation_publication_date" content="2020-05-27" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/fa2f962635edda1a0e30110f23c225abd8471378/" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/074d920366f7d13f07f6c38c91e9ba429e83b9f2/" />
 
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/fa2f962635edda1a0e30110f23c225abd8471378/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/074d920366f7d13f07f6c38c91e9ba429e83b9f2/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/fa2f962635edda1a0e30110f23c225abd8471378/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/074d920366f7d13f07f6c38c91e9ba429e83b9f2/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,10 +103,10 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/fa2f962635edda1a0e30110f23c225abd8471378/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/074d920366f7d13f07f6c38c91e9ba429e83b9f2/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@fa2f962](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/fa2f962635edda1a0e30110f23c225abd8471378)
-on May 19, 2020.
+from [AlexsLemonade/OpenPBTA-manuscript@074d920](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/074d920366f7d13f07f6c38c91e9ba429e83b9f2)
+on May 27, 2020.
 </em></small>
 
 ## Authors
@@ -281,6 +281,15 @@ In practice, because our filtered set was based on the intersection of these thr
 For some downstream analyses, only coding sequence SNVs (based on GENCODE v27 [@url:https://www.gencodegenes.org/human/release_27.html]) are used, to enhance comparability to other studies.
 We considered base pairs to be *effectively surveyed* if they were in the intersection of the genomic ranges considered by the callers used to generate the consensus and where appropriate, regions of interest, such as coding sequences.
 This definition of *effectively surveyed* base pairs is what is used to calculate effective genome size for calculations for tumor mutation burden and mutational signatures.
+
+#### Recurrently mutated genes and co-occurrence of gene mutations
+
+Using the consensus SNV calls, we identified genes that were recurrently mutated in the cohort, including nonsynonymous mutations with a variant allele frequency greater than 5% among the set of independent samples.
+The set of nonsynonymous mutations was determined using ENSEMBL Variant Effect Predictor [@doi:10/gdz75c] annotations, including High and Moderate consequence types as defined in `maftools` [@doi:10.1101/gr.239244.118].
+For each gene, we then tallied the number of samples that had at least one nonsynonymous mutation.
+
+For genes that contained nonsynonymous mutations in multiple samples, we calculated pairwise mutation co-occurrence scores.
+This score was defined as the $I\times -\log_{10}(P)$ where $I$ is 1 when the odds ratio is > 1 (indicating co-occurrence), and -1 when the odds ratio is < 1 (indicating mutual exclusivity), with $P$ defined by  Fisher's Exact Test.
 
 ### Somatic Copy Number Variant Calling (WGS samples only)
 

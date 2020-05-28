@@ -86,6 +86,7 @@ Hyclone
 HyperPrep
 IDH
 Illumina
+interpretability
 Invivogen
 KAPA
 Kapa

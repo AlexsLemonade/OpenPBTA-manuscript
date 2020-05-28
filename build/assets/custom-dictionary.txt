@@ -47,7 +47,6 @@ CBTTC
 CIBERSORT
 CIC
 CNV
-CNVKit
 CNVkit
 CNVs
 CWL
@@ -220,7 +219,6 @@ paraganglioma
 pbta
 pheochromocytoma
 ploidy
-polyA
 polymorphisms
 pontine
 preprocessed

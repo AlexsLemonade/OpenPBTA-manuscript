@@ -51,9 +51,9 @@
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/642d66c78e5cfa36db6eacb77cfea11a1657fb7b/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/642d66c78e5cfa36db6eacb77cfea11a1657fb7b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/642d66c78e5cfa36db6eacb77cfea11a1657fb7b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/7530b587c47118bf2803e84850f7039622daf4c1/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/7530b587c47118bf2803e84850f7039622daf4c1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/7530b587c47118bf2803e84850f7039622daf4c1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/642d66c78e5cfa36db6eacb77cfea11a1657fb7b/">permalink</a>)
+(<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/7530b587c47118bf2803e84850f7039622daf4c1/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/642d66c78e5cfa36db6eacb77cfea11a1657fb7b">AlexsLemonade/OpenPBTA-manuscript@642d66c</a>
+from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/7530b587c47118bf2803e84850f7039622daf4c1">AlexsLemonade/OpenPBTA-manuscript@7530b58</a>
 on May 29, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -571,12 +571,21 @@ Figure <a href="#fig:mutational-landscape-overview">3</a>B-C show concordance of
 <img src="https://github.com/AlexsLemonade/OpenPBTA-analysis/raw/master/figures/pngs/fig2-mutational-landscapes.png" alt="" /><figcaption><span>Figure 3:</span> Mutational Landscape</figcaption>
 </figure>
 </div>
+<h3 id="copy-number-variant-overview">Copy Number Variant Overview</h3>
+<div id="fig:copy-number-status-heatmap" class="fignos">
+<figure>
+<img src="https://github.com/AlexsLemonade/OpenPBTA-analysis/raw/master/figures/pngs/cn_status_heatmap.png" style="width:7in" alt="" /><figcaption><span>Figure 4:</span> This figure shows dominant statuses for small copy number consensus segments (&lt; 10 Mb) across the genome, where each square represents a ~1 Mb binned section of the genome.
+A dominant status is declared if one status is &gt;75% coverage.
+Unstable indicates multiple non-neutral statuses totaling coverage &gt;75%.
+Copy number segments longer than 10 Mb have been removed from the figure for easier interpretability.</figcaption>
+</figure>
+</div>
 <h3 id="recurrence-and-co-occurrence-of-mutations">Recurrence and co-occurrence of mutations</h3>
 <p>This section will discuss the genes and regions that are repeatedly mutated within and between cancer types.
-The occurrence of mutations in affecting particular genes, separated by tumor type is shown in Figure <a href="#fig:occurrence-plots">4</a>A, with significant co-occurrence across all types illustrated in Figure <a href="#fig:occurrence-plots">4</a>B.</p>
+The occurrence of mutations in affecting particular genes, separated by tumor type is shown in Figure <a href="#fig:occurrence-plots">5</a>A, with significant co-occurrence across all types illustrated in Figure <a href="#fig:occurrence-plots">5</a>B.</p>
 <div id="fig:occurrence-plots" class="fignos">
 <figure>
-<img src="https://github.com/AlexsLemonade/OpenPBTA-analysis/raw/master/figures/pngs/mutation_cooccurrence_figure.png" alt="" /><figcaption><span>Figure 4:</span> Occurrence and co-occurrence of nonsynonymous mutations for the 50 most commonly mutated genes across all tumor types.
+<img src="https://github.com/AlexsLemonade/OpenPBTA-analysis/raw/master/figures/pngs/mutation_cooccurrence_figure.png" alt="" /><figcaption><span>Figure 5:</span> Occurrence and co-occurrence of nonsynonymous mutations for the 50 most commonly mutated genes across all tumor types.
 A) Counts of nonsynonymous mutations, colored by tumor type (as defined in <code>integrated_diagnosis</code>).
 B) Co-occurrence and mutual exclusivity of nonsynonymous mutations between genes.
 The co-occurrence score is defined as <span class="math inline">\(I(-\log_{10}(P))\)</span> where <span class="math inline">\(P\)</span> is defined by Fisher’s exact test and <span class="math inline">\(I\)</span> is 1 when mutations co-occur more often than expected and -1 when exclusivity is more common.</figcaption>
@@ -770,7 +779,7 @@ DOI: <a href="https://doi.org/10.1093/bioinformatics/btv710">10.1093/bioinformat
 <p>36. <strong>BEDTools: a flexible suite of utilities for comparing genomic features</strong><br />
 Aaron R. Quinlan, Ira M. Hall<br />
 <em>Bioinformatics</em> (2010-03-15) <a href="https://doi.org/cmrms3">https://doi.org/cmrms3</a><br />
-DOI: <a href="https://doi.org/10.1093/bioinformatics/btq033">10.1093/bioinformatics/btq033</a></p>
+DOI: <a href="https://doi.org/10.1093/bioinformatics/btq033">10.1093/bioinformatics/btq033</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/20110278">20110278</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2832824">PMC2832824</a></p>
 </div>
 <div id="ref-H6flbhE">
 <p>37. <a href="http://hgdownload.cse.ucsc.edu/goldenpath/hg38/database/cytoBand.txt.gz">http://hgdownload.cse.ucsc.edu/goldenpath/hg38/database/cytoBand.txt.gz</a></p>

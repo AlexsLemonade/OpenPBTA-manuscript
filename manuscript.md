@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/642d66c78e5cfa36db6eacb77cfea11a1657fb7b/" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/7530b587c47118bf2803e84850f7039622daf4c1/" />
 
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/642d66c78e5cfa36db6eacb77cfea11a1657fb7b/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/7530b587c47118bf2803e84850f7039622daf4c1/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/642d66c78e5cfa36db6eacb77cfea11a1657fb7b/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/7530b587c47118bf2803e84850f7039622daf4c1/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,9 +103,9 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/642d66c78e5cfa36db6eacb77cfea11a1657fb7b/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/7530b587c47118bf2803e84850f7039622daf4c1/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@642d66c](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/642d66c78e5cfa36db6eacb77cfea11a1657fb7b)
+from [AlexsLemonade/OpenPBTA-manuscript@7530b58](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/7530b587c47118bf2803e84850f7039622daf4c1)
 on May 29, 2020.
 </em></small>
 
@@ -560,6 +560,13 @@ Figure {@fig:openpbta-overview}A shows the tumor mutation burden as compared to 
 Figure {@fig:mutational-landscape-overview}B-C show concordance of these samples with mutational signatures from COSMIC [@url:https://cancer.sanger.ac.uk/cosmic] and Alexandrov et al, 2013 [@doi:10.1038/nature12477] signature sets.
 
 ![Mutational Landscape](https://github.com/AlexsLemonade/OpenPBTA-analysis/raw/master/figures/pngs/fig2-mutational-landscapes.png){#fig:mutational-landscape-overview}
+
+### Copy Number Variant Overview
+
+![This figure shows dominant statuses for small copy number consensus segments (< 10 Mb) across the genome, where each square represents a ~1 Mb binned section of the genome.
+A dominant status is declared if one status is >75% coverage.
+Unstable indicates multiple non-neutral statuses totaling coverage >75%.
+Copy number segments longer than 10 Mb have been removed from the figure for easier interpretability.](https://github.com/AlexsLemonade/OpenPBTA-analysis/raw/master/figures/pngs/cn_status_heatmap.png){#fig:copy-number-status-heatmap width="7in"}
 
 ### Recurrence and co-occurrence of mutations
 

@@ -246,7 +246,7 @@ IRanges
 mergeByOverlaps
 cytoband
 ANOVA
-bioconductor
+Bioconductor
 MSigDB
 transcriptomic
 UMAP

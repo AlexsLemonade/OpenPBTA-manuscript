@@ -51,9 +51,9 @@
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/7530b587c47118bf2803e84850f7039622daf4c1/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/7530b587c47118bf2803e84850f7039622daf4c1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/7530b587c47118bf2803e84850f7039622daf4c1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/5dfa385e91b3711f4b22137029aa8c60d837cca2/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/5dfa385e91b3711f4b22137029aa8c60d837cca2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/5dfa385e91b3711f4b22137029aa8c60d837cca2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/7530b587c47118bf2803e84850f7039622daf4c1/">permalink</a>)
+(<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/5dfa385e91b3711f4b22137029aa8c60d837cca2/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/7530b587c47118bf2803e84850f7039622daf4c1">AlexsLemonade/OpenPBTA-manuscript@7530b58</a>
+from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/5dfa385e91b3711f4b22137029aa8c60d837cca2">AlexsLemonade/OpenPBTA-manuscript@5dfa385</a>
 on May 29, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -243,40 +243,30 @@ Manta SV calling was also limited to regions used in Strelka2.
 The hg38 reference for SV calling used was limited to canonical chromosome regions.
 The somatic DNA workflow for SNV, indel, copy number, and SV calling can be found in the <a href="https://github.com/kids-first/kf-somatic-workflow">KidsFirst Github repository</a>.
 Manta SV output was annotated using <a href="https://lbgi.fr/AnnotSV/">AnnotSV v2.1</a> <span class="citation" data-cites="7Ull5aU5">[<a href="#ref-7Ull5aU5" role="doc-biblioref">41</a>]</span> and the workflow can be found in the <a href="https://github.com/d3b-center/annotSV/tree/master">D3b GitHub repository</a>.</p>
-<h3 id="gene-expression-abundance-estimation">Gene Expression Abundance Estimation</h3>
+<h3 id="gene-expression">Gene Expression</h3>
+<h4 id="abundance-estimation">Abundance Estimation</h4>
 <p>We used STAR <span class="citation" data-cites="tTu8Ds9Z">[<a href="#ref-tTu8Ds9Z" role="doc-biblioref">42</a>]</span> v2.6.1d to align paired-end RNA-seq reads.
 This output was used for all subsequent RNA analysis.
 We used Ensembl GENCODE 27 <span class="citation" data-cites="9oRUnb2k">[<a href="#ref-9oRUnb2k" role="doc-biblioref">27</a>]</span>, “Comprehensive gene annotation” as a reference.
 We used RSEM <span class="citation" data-cites="Dh2n1EV3">[<a href="#ref-Dh2n1EV3" role="doc-biblioref">43</a>]</span> v1.3.1 for both FPKM and TPM transcript- and gene-level quantification.
 We also added a second method of quantification using kallisto <span class="citation" data-cites="12KZMHMQl">[<a href="#ref-12KZMHMQl" role="doc-biblioref">44</a>]</span> v0.43.1.
 This method differs in that it uses pseudoaligments using FASTQ reads directly to the aforementioned GENCODE 27 reference.</p>
-<h3 id="gene-expression-matrices-with-unique-hugo-symbols">Gene Expression Matrices with Unique HUGO Symbols</h3>
+<h4 id="gene-expression-matrices-with-unique-hugo-symbols">Gene Expression Matrices with Unique HUGO Symbols</h4>
 <p>Algorithms that perform gene set enrichment, molecular subtyping, or immune-profiling, for example, require an RNA-seq gene expression matrix as input, with HUGO gene symbols as row names and sample names as column names.
-This is not straight-forward, as there are a small proportion of gene symbols that map to multiple Ensembl gene identifiers (in GENCODE v27, 212 gene symbols map to 1866 Ensembl gene identifiers).</p>
-<p>We first removed genes with no expression using a cut-off of FPKM &gt; 0 in at least 1 sample across the PBTA cohort. Next, of the expressed multi-mapped genes, we found 168 genes mapped to 1393 Ensembl gene identifiers in the stranded dataset and 139 genes mapped to 429 Ensembl gene identifiers in the poly-A dataset.
-Of these, only a small proportion were found to be protein coding genes, i.e. 3% (42/1393) in stranded and 10% (42/429) in the poly-A dataset.
-The top two most represented gene types were misc_RNA (60% for stranded; 36% for poly-A) and snoRNA (24% for stranded and 27% for poly-A).</p>
-<p>We computed the mean FPKM across all samples per gene and for each multi-mapped gene symbol, we chose the Ensembl identifier corresponding to the maximum mean FPKM with the goal of choosing the identifier that best represented the expression of the gene.
-After collapsing gene identifiers, there were a total of 46,400 unique expressed genes in the poly-A dataset and a total of 53,011 unique expressed genes remaining in the stranded dataset.</p>
-<p>For each multi-mapped gene symbol, we also performed a correlation analysis between the duplicated genes so see how well the expression between different Ensembl identifiers of the same gene correlated.
-We computed the average Pearson correlation coefficient between the expressed gene identifier that was kept (after collapsing) vs each expressed gene identifier that was discarded.
-We did not find any striking patterns of correlations and the correlation coefficients were quite arbitrary as high as 0.92 and 1.00 and as low as -0.27 and -0.19 in stranded and poly-A dataset, respectively.</p>
-<h3 id="immune-profilingdeconvolution">Immune Profiling/Deconvolution</h3>
-<p>In general, immune deconvolution from the tumor microenvironment is complicated in that most deconvolution methods do not always agree because of the type of underlying algorithm, the ability to deconvolute certain cell types better than others and the type of output: some methods output actual cell fractions while others output scores that correlate to cell abundance.</p>
-<p>We used the R package immunedeconv <span class="citation" data-cites="1Ac8JWQ8h klaJnG8x">[<a href="#ref-1Ac8JWQ8h" role="doc-biblioref">45</a>,<a href="#ref-klaJnG8x" role="doc-biblioref">46</a>]</span> to deconvolute, quantify and compare various immune cell types across 21 histologies from the PBTA cohort (stranded and poly-A).
-The package provides a unified interface for cell type quantification from RNA-seq gene expression data using multiple methods: EPIC (immune cells, fibroblasts, endothelial cells; n = 6), TIMER (immune cells; n = 6), MCP-counter (immune cells, fibroblasts, endothelial cells; n = 8), quanTIseq (immune cells; n = 10), CIBERSORT (immune cells; n = 22) and xCell (immune and non-immune cells; n = 64).
-To get a more fine grained deconvolution, we chose the top two most comprehensive methods i.e. xCell and CIBERSORT that are able to deconvolute 64 and 22 cell types, respectively.
-xCell tests for enrichment of cell types using ssGSEA and CIBERSORT uses ν-Support Vector Regression.
-xCell was our method of choice because 1) it is able to deconvolute the maximum number of immune and non-immune cell types, 2) is highly robust against background predictions and 3) can reliably identify the presence of immune cells at low abundances (0-1% infiltration depending on the immune cell type) <span class="citation" data-cites="1Ac8JWQ8h">[<a href="#ref-1Ac8JWQ8h" role="doc-biblioref">45</a>]</span>.
-Further, xCell was also shown to robustly outperform all other methods, including CIBERSORT in a benchmarking study <span class="citation" data-cites="jvorcKyN">[<a href="#ref-jvorcKyN" role="doc-biblioref">47</a>]</span>.
-We chose CIBERSORT as the second method because like xCell, it represents immune cell content as arbitrary scores that are highly correlated with actual cell proportions and are cross comparable between the two methods.
-The advantage of these methods is that they allow between samples (inter-sample), between cell types (intra-sample) and between cancer type (inter-histology) comparisons.</p>
-<p>To compare the outcome scores across the two profiling methods i.e. xCell and CIBERSORT, we took 13 cell types commonly represented between both methods and created a correlation plot per cell type per histology <span class="citation" data-cites="epfPgFJd">[<a href="#ref-epfPgFJd" role="doc-biblioref">48</a>]</span>.
-Overall, across all histologies and cell types, the predictions did not correlate well (Pearson correlation = 0.12) but we did observe a high correlation (&gt; 0.5) between certain cell type predictions i.e. Macrophages M2, Monocytes, Neutrophils and T cell CD8+ markers across specific histologies.</p>
-<p>In order to see histology specific enrichment of certain cell types, we created heatmaps for xCell <span class="citation" data-cites="Wb3s53Q7">[<a href="#ref-Wb3s53Q7" role="doc-biblioref">49</a>]</span> and CIBERSORT <span class="citation" data-cites="iwZ4djxN">[<a href="#ref-iwZ4djxN" role="doc-biblioref">50</a>]</span> representing average immune cell scores normalized across histologies.
-We observed a very similar and interesting pattern in the heatmaps as well i.e. cell types that were highly correlated between xCell and CIBERSORT are also the ones that are found in high proportions compared to other cell types.
-Using the profiling methods, we could distinctively identify three histologies enriched in specific cell types: histiocytic tumors (n = 5) which are known to be characterized by an increase in monocytes, macrophages and dendritic cells <span class="citation" data-cites="ItUbSSvv">[<a href="#ref-ItUbSSvv" role="doc-biblioref">51</a>]</span> were observed to be enriched in Myeloid dendritic cell activated, Monocytes, Neutrophils and Macrophage M1/M2; Lymphomas (n = 1) were seen to be enriched in B cell plasma, Class-switched memory B cell, B cell naive, B cell, B cell memory, T cell regulatory (Tregs), Common Lymphoid progenitor <span class="citation" data-cites="ywns2iy3">[<a href="#ref-ywns2iy3" role="doc-biblioref">52</a>]</span>; and Germ cell tumors (n = 13) as expected <span class="citation" data-cites="Gv11xzwL">[<a href="#ref-Gv11xzwL" role="doc-biblioref">53</a>]</span> were seen to be enriched in T cell CD8+ and T cell CD4+ naive cells.</p>
-<p>Because we only have a sample size of 1 for Lymphomas, we couldn’t get any correlation between immune scores of xCell and CIBERSORT across various B cell types but looking at the heatmap of average scores per cell type per histology, it is highly likely that given a larger sample size, the immune scores between the two methods would correlate.</p>
+There is a small proportion of gene symbols that map to multiple Ensembl gene identifiers (in GENCODE v27, 212 gene symbols map to 1866 Ensembl gene identifiers), termed multi-mapped gene symbols.</p>
+<p>We first removed genes with no expression from the RSEM abundance data using a cut-off of FPKM &gt; 0 in at least 1 sample across the PBTA cohort.
+We computed the mean FPKM across all samples per gene and for each multi-mapped gene symbol, we chose the Ensembl identifier corresponding to the maximum mean FPKM with the goal of choosing the identifier that best represented the expression of the gene.
+After collapsing gene identifiers, there were a total of 46,400 unique expressed genes in the poly-A dataset and a total of 53,011 unique expressed genes remaining in the stranded dataset.
+More detail can be found in the <a href="https://github.com/AlexsLemonade/OpenPBTA-analysis/tree/master/analyses/collapse-rnaseq"><code>collapse-rnaseq</code> analysis module</a>.</p>
+<h4 id="immune-profilingdeconvolution">Immune Profiling/Deconvolution</h4>
+<p>We used the R package immunedeconv <span class="citation" data-cites="1Ac8JWQ8h klaJnG8x">[<a href="#ref-1Ac8JWQ8h" role="doc-biblioref">45</a>,<a href="#ref-klaJnG8x" role="doc-biblioref">46</a>]</span> to deconvolute, quantify and compare various immune cell types across 21 histologies from the PBTA cohort with xCell <span class="citation" data-cites="Tno7T3ZP">[<a href="#ref-Tno7T3ZP" role="doc-biblioref">47</a>]</span> and CIBERSORT <span class="citation" data-cites="q19GhH6H">[<a href="#ref-q19GhH6H" role="doc-biblioref">48</a>]</span> in the stranded and poly-A collapsed FPKM RNA-seq datasets (<a href="https://github.com/AlexsLemonade/OpenPBTA-analysis/tree/master/analyses/immune-deconv"><code>immune-deconv</code> analysis module</a>).
+Both methods allow between samples (inter-sample), between cell types (intra-sample) and between cancer type (inter-histology) comparisons.</p>
+<h4 id="gene-set-variation-analysis">Gene Set Variation Analysis</h4>
+<p>We performed Gene Set Variation Analysis (GSVA) <span class="citation" data-cites="1F5zJEMaD">[<a href="#ref-1F5zJEMaD" role="doc-biblioref">49</a>]</span> on collapsed, log2-transformed RSEM FPKM data using the GSVA Bioconductor package <span class="citation" data-cites="w3jDgsn7">[<a href="#ref-w3jDgsn7" role="doc-biblioref">50</a>]</span> with setting <code>mx.diff=TRUE</code> to obtain Gaussian-distributed scores (<a href="https://github.com/AlexsLemonade/OpenPBTA-analysis/tree/master/analyses/gene-set-enrichment-analysis"><code>gene-set-enrichment-analysis</code> analysis module</a>) for each of the MSigDB hallmark gene sets <span class="citation" data-cites="1CbVoEpNJ">[<a href="#ref-1CbVoEpNJ" role="doc-biblioref">51</a>]</span>.
+We compared GSVA scores among histology groups (<code>short_histology</code>) using ANOVA and subsequent Tukey tests; p-values were Bonferroni-corrected for multiple hypothesis testing.</p>
+<h4 id="dimension-reduction">Dimension reduction</h4>
+<p>We applied Uniform Manifold Approximation and Projection (UMAP) <span class="citation" data-cites="14XP70sGJ">[<a href="#ref-14XP70sGJ" role="doc-biblioref">52</a>]</span> to log2-transformed FPKM data using the umap R package <span class="citation" data-cites="WsAj0wOM">[<a href="#ref-WsAj0wOM" role="doc-biblioref">53</a>]</span>.
+We set the number of neighbors to 15 (<a href="https://github.com/AlexsLemonade/OpenPBTA-analysis/tree/master/analyses/transcriptomic-dimension-reduction"><code>transcriptomic-dimension-reduction</code> analysis module</a>).</p>
 <h3 id="rna-fusion-calling-and-prioritization">RNA Fusion Calling and Prioritization</h3>
 <h4 id="gene-fusion-detection">Gene fusion detection</h4>
 <p>We set up <a href="https://github.com/suhrig/arriba/">Arriba v1.1.0</a> and STAR-Fusion 1.5.0 <span class="citation" data-cites="rqYlIiAi">[<a href="#ref-rqYlIiAi" role="doc-biblioref">54</a>]</span> fusion detection tools using CWL on CAVATICA.
@@ -591,6 +581,18 @@ B) Co-occurrence and mutual exclusivity of nonsynonymous mutations between genes
 The co-occurrence score is defined as <span class="math inline">\(I(-\log_{10}(P))\)</span> where <span class="math inline">\(P\)</span> is defined by Fisher’s exact test and <span class="math inline">\(I\)</span> is 1 when mutations co-occur more often than expected and -1 when exclusivity is more common.</figcaption>
 </figure>
 </div>
+<h3 id="transcriptomic-landscape">Transcriptomic landscape</h3>
+<p>This section will discuss the overall structure of the transcriptome data, pathway analysis, and immune deconvolution.
+A dimension reduction plot, a heatmap of GSVA scores <span class="citation" data-cites="1F5zJEMaD">[<a href="#ref-1F5zJEMaD" role="doc-biblioref">49</a>]</span>, and a heatmap of xCell fraction values <span class="citation" data-cites="Tno7T3ZP">[<a href="#ref-Tno7T3ZP" role="doc-biblioref">47</a>]</span> are shown in Figure <a href="#fig:transcriptomic-overview">6</a>.</p>
+<div id="fig:transcriptomic-overview" class="fignos">
+<figure>
+<img src="https://github.com/AlexsLemonade/OpenPBTA-analysis/raw/master/figures/pngs/transcriptomic-overview.png" alt="" /><figcaption><span>Figure 6:</span> Transcriptomic overview (stranded data only)
+A) First two dimensions from Uniform Manifold Approximation and Projection (UMAP) of sample transcriptome data.
+Points are colored by <code>short_histology</code> of the samples they represent.
+B) Heatmap of GSVA scores for Hallmark gene sets with significant differences, with samples ordered by <code>short_histology</code>.
+C) Heatmap of xCell fraction values for scores and cell types with high variance, with samples ordered by <code>short_histology</code>.</figcaption>
+</figure>
+</div>
 <h2 id="conclusions">Conclusions</h2>
 <p>Stub in conclusions section</p>
 <h2 class="page_break_before" id="references">References</h2>
@@ -656,8 +658,8 @@ DOI: <a href="https://doi.org/10.1093/nar/gkx193">10.1093/nar/gkx193</a> · PMID
 </div>
 <div id="ref-16tUBMk59">
 <p>13. <strong>parklab/NGSCheckMate</strong><br />
-GitHub<br />
-<a href="https://github.com/parklab/NGSCheckMate">https://github.com/parklab/NGSCheckMate</a></p>
+Park Lab at Harvard Medical School<br />
+(2020-05-27) <a href="https://github.com/parklab/NGSCheckMate">https://github.com/parklab/NGSCheckMate</a></p>
 </div>
 <div id="ref-xCe0Gxab">
 <p>14. <strong>Framework for determining accuracy of RNA sequencing data for gene expression profiling of single samples</strong><br />
@@ -696,8 +698,8 @@ GitHub<br />
 </div>
 <div id="ref-1GMHnwH5p">
 <p>20. <strong>AstraZeneca-NGS/VarDictJava</strong><br />
-GitHub<br />
-<a href="https://github.com/AstraZeneca-NGS/VarDictJava">https://github.com/AstraZeneca-NGS/VarDictJava</a></p>
+AstraZeneca - NGS Team<br />
+(2020-05-27) <a href="https://github.com/AstraZeneca-NGS/VarDictJava">https://github.com/AstraZeneca-NGS/VarDictJava</a></p>
 </div>
 <div id="ref-bKthX7vJ">
 <p>21. <strong>Deep sequencing of 3 cancer cell lines on 2 sequencing platforms</strong><br />
@@ -713,8 +715,8 @@ DOI: <a href="https://doi.org/10.1186/s13059-016-0974-4">10.1186/s13059-016-0974
 </div>
 <div id="ref-11Fn5jqUI">
 <p>23. <strong>mskcc/vcf2maf</strong><br />
-GitHub<br />
-<a href="https://github.com/mskcc/vcf2maf">https://github.com/mskcc/vcf2maf</a></p>
+Memorial Sloan Kettering<br />
+(2020-05-25) <a href="https://github.com/mskcc/vcf2maf">https://github.com/mskcc/vcf2maf</a></p>
 </div>
 <div id="ref-Ob2wQ9wX">
 <p>24. <strong>AlexsLemonade/OpenPBTA-analysis</strong><br />
@@ -831,41 +833,47 @@ DOI: <a href="https://doi.org/10.1093/bioinformatics/btz363">10.1093/bioinformat
 </div>
 <div id="ref-klaJnG8x">
 <p>46. <strong>icbi-lab/immunedeconv</strong><br />
-GitHub<br />
-<a href="https://github.com/icbi-lab/immunedeconv">https://github.com/icbi-lab/immunedeconv</a></p>
+ICBI<br />
+(2020-05-26) <a href="https://github.com/icbi-lab/immunedeconv">https://github.com/icbi-lab/immunedeconv</a></p>
 </div>
-<div id="ref-jvorcKyN">
-<p>47. <strong>xCell: digitally portraying the tissue cellular heterogeneity landscape.</strong><br />
-Dvir Aran, Zicheng Hu, Atul J Butte<br />
-<em>Genome biology</em> (2017-11-15) <a href="https://www.ncbi.nlm.nih.gov/pubmed/29141660">https://www.ncbi.nlm.nih.gov/pubmed/29141660</a><br />
+<div id="ref-Tno7T3ZP">
+<p>47. <strong>xCell: digitally portraying the tissue cellular heterogeneity landscape</strong><br />
+Dvir Aran, Zicheng Hu, Atul J. Butte<br />
+<em>Genome Biology</em> (2017-11-15) <a href="https://doi.org/gckmjs">https://doi.org/gckmjs</a><br />
 DOI: <a href="https://doi.org/10.1186/s13059-017-1349-1">10.1186/s13059-017-1349-1</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29141660">29141660</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5688663">PMC5688663</a></p>
 </div>
-<div id="ref-epfPgFJd">
-<p>48. <a href="https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/immune-deconv/plots/corrplot_xCell_vs_CIBERSORT">https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/immune-deconv/plots/corrplot_xCell_vs_CIBERSORT</a></p>
+<div id="ref-q19GhH6H">
+<p>48. <strong>Robust enumeration of cell subsets from tissue expression profiles</strong><br />
+Aaron M Newman, Chih Long Liu, Michael R Green, Andrew J Gentles, Weiguo Feng, Yue Xu, Chuong D Hoang, Maximilian Diehn, Ash A Alizadeh<br />
+<em>Nature Methods</em> (2015-03-30) <a href="https://doi.org/gcp3f5">https://doi.org/gcp3f5</a><br />
+DOI: <a href="https://doi.org/10.1038/nmeth.3337">10.1038/nmeth.3337</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25822800">25822800</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4739640">PMC4739640</a></p>
 </div>
-<div id="ref-Wb3s53Q7">
-<p>49. <a href="https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/immune-deconv/plots/heatmap_xCell.png">https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/immune-deconv/plots/heatmap_xCell.png</a></p>
+<div id="ref-1F5zJEMaD">
+<p>49. <strong>GSVA: gene set variation analysis for microarray and RNA-Seq data</strong><br />
+Sonja Hänzelmann, Robert Castelo, Justin Guinney<br />
+<em>BMC Bioinformatics</em> (2013) <a href="https://doi.org/gb8vx5">https://doi.org/gb8vx5</a><br />
+DOI: <a href="https://doi.org/10.1186/1471-2105-14-7">10.1186/1471-2105-14-7</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23323831">23323831</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3618321">PMC3618321</a></p>
 </div>
-<div id="ref-iwZ4djxN">
-<p>50. <a href="https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/immune-deconv/plots/heatmap_CIBERSORT">https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/immune-deconv/plots/heatmap_CIBERSORT</a></p>
+<div id="ref-w3jDgsn7">
+<p>50. <strong>GSVA</strong><br />
+Justin Guinney [Aut, Cre], Robert Castelo [Aut], Joan Fernandez[Ctb]<br />
+<em>Bioconductor</em> (2017) <a href="https://doi.org/ggxrqs">https://doi.org/ggxrqs</a><br />
+DOI: <a href="https://doi.org/10.18129/b9.bioc.gsva">10.18129/b9.bioc.gsva</a></p>
 </div>
-<div id="ref-ItUbSSvv">
-<p>51. <strong>New insights into the molecular pathogenesis of langerhans cell histiocytosis.</strong><br />
-Francesca M Rizzo, Mauro Cives, Valeria Simone, Franco Silvestris<br />
-<em>The oncologist</em> (2014-01-16) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24436311">https://www.ncbi.nlm.nih.gov/pubmed/24436311</a><br />
-DOI: <a href="https://doi.org/10.1634/theoncologist.2013-0341">10.1634/theoncologist.2013-0341</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24436311">24436311</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3926789">PMC3926789</a></p>
+<div id="ref-1CbVoEpNJ">
+<p>51. <strong>The Molecular Signatures Database Hallmark Gene Set Collection</strong><br />
+Arthur Liberzon, Chet Birger, Helga Thorvaldsdóttir, Mahmoud Ghandi, Jill P. Mesirov, Pablo Tamayo<br />
+<em>Cell Systems</em> (2015-12) <a href="https://doi.org/gf78hq">https://doi.org/gf78hq</a><br />
+DOI: <a href="https://doi.org/10.1016/j.cels.2015.12.004">10.1016/j.cels.2015.12.004</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26771021">26771021</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4707969">PMC4707969</a></p>
 </div>
-<div id="ref-ywns2iy3">
-<p>52. <strong>Hide or defend, the two strategies of lymphoma immune evasion: potential implications for immunotherapy.</strong><br />
-Marie de Charette, Roch Houot<br />
-<em>Haematologica</em> (2018-07-13) <a href="https://www.ncbi.nlm.nih.gov/pubmed/30006449">https://www.ncbi.nlm.nih.gov/pubmed/30006449</a><br />
-DOI: <a href="https://doi.org/10.3324/haematol.2017.184192">10.3324/haematol.2017.184192</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30006449">30006449</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6068015">PMC6068015</a></p>
+<div id="ref-14XP70sGJ">
+<p>52. <strong>UMAP: Uniform Manifold Approximation and Projection for Dimension
+Reduction</strong><br />
+Leland McInnes, John Healy, James Melville<br />
+<em>arXiv</em> (2018-02-09) <a href="https://arxiv.org/abs/1802.03426v2">https://arxiv.org/abs/1802.03426v2</a></p>
 </div>
-<div id="ref-Gv11xzwL">
-<p>53. <strong>Spontaneous CD4</strong><br />
-Hayden Pearce, Paul Hutton, Shalini Chaudhri, Emilio Porfiri, Prashant Patel, Richard Viney, Paul Moss<br />
-<em>European journal of immunology</em> (2017-06-26) <a href="https://www.ncbi.nlm.nih.gov/pubmed/28555838">https://www.ncbi.nlm.nih.gov/pubmed/28555838</a><br />
-DOI: <a href="https://doi.org/10.1002/eji.201646898">10.1002/eji.201646898</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28555838">28555838</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5519936">PMC5519936</a></p>
+<div id="ref-WsAj0wOM">
+<p>53. <a href="https://cran.r-project.org/package">https://cran.r-project.org/package</a></p>
 </div>
 <div id="ref-rqYlIiAi">
 <p>54. <strong>STAR-Fusion: Fast and Accurate Fusion Transcript Detection from RNA-Seq</strong><br />
@@ -941,8 +949,8 @@ DOI: <a href="https://doi.org/10.1186/s13059-016-0893-4">10.1186/s13059-016-0893
 </div>
 <div id="ref-1eIeMT1A">
 <p>66. <strong>raerose01/deconstructSigs</strong><br />
-GitHub<br />
-<a href="https://github.com/raerose01/deconstructSigs">https://github.com/raerose01/deconstructSigs</a></p>
+raerose01<br />
+(2020-04-22) <a href="https://github.com/raerose01/deconstructSigs">https://github.com/raerose01/deconstructSigs</a></p>
 </div>
 <div id="ref-GpcQXpz9">
 <p>67. <strong>BSgenome.Hsapiens.UCSC.hg38</strong><br />

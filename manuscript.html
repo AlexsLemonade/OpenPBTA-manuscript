@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="John Doe" />
   <meta name="author" content="Jane Roe" />
-  <meta name="dcterms.date" content="2020-05-27" />
+  <meta name="dcterms.date" content="2020-05-29" />
   <meta name="keywords" content="pediatric cancer, brain tumor, tumor atlas" />
   <title>An Open Pediatric Brain Tumor Atlas</title>
   <style>
@@ -29,8 +29,8 @@
   <meta name="citation_title" content="An Open Pediatric Brain Tumor Atlas" />
   <meta property="og:title" content="An Open Pediatric Brain Tumor Atlas" />
   <meta property="twitter:title" content="An Open Pediatric Brain Tumor Atlas" />
-  <meta name="dc.date" content="2020-05-27" />
-  <meta name="citation_publication_date" content="2020-05-27" />
+  <meta name="dc.date" content="2020-05-29" />
+  <meta name="citation_publication_date" content="2020-05-29" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1bb3665e9b39a0564d47133ddfb6bcab3078f9c3/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1bb3665e9b39a0564d47133ddfb6bcab3078f9c3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1bb3665e9b39a0564d47133ddfb6bcab3078f9c3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/642d66c78e5cfa36db6eacb77cfea11a1657fb7b/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/642d66c78e5cfa36db6eacb77cfea11a1657fb7b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/642d66c78e5cfa36db6eacb77cfea11a1657fb7b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,10 +67,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1bb3665e9b39a0564d47133ddfb6bcab3078f9c3/">permalink</a>)
+(<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/642d66c78e5cfa36db6eacb77cfea11a1657fb7b/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/1bb3665e9b39a0564d47133ddfb6bcab3078f9c3">AlexsLemonade/OpenPBTA-manuscript@1bb3665</a>
-on May 27, 2020.
+from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/642d66c78e5cfa36db6eacb77cfea11a1657fb7b">AlexsLemonade/OpenPBTA-manuscript@642d66c</a>
+on May 29, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -165,7 +165,7 @@ MEND QC <span class="citation" data-cites="xCe0Gxab">[<a href="#ref-xCe0Gxab" ro
 <p>Germline haplotype calls were performed following the <a href="https://software.broadinstitute.org/gatk/best-practices/workflow?id=11145">GATK Joint Genotyping Workflow</a>, except the workflow was run on an individual sample basis.
 This workflow was applied to the GVCF output from the alignment workflow on normal/germline samples.
 Using only SNPs, we applied the <a href="https://gatkforums.broadinstitute.org/gatk/discussion/2806/howto-apply-hard-filters-to-a-call-set">GATK generic hard filter suggestions</a> to the VCF, with an additional requirement of 10 reads minimum depth per SNP.
-This filtered VCF was used as input to Control-FREEC and CNVKit (below) for generation of BAF files.
+This filtered VCF was used as input to Control-FREEC and CNVkit (below) for generation of BAF files.
 GATK v4.0.12.0 was used for all steps except <code>VariantFiltration</code>, which used 3.8.0 because as of GATK 4.0.12.0, this tool was beta and known to be unreliable for this purpose.
 This single-sample workflow can be found in the <a href="https://github.com/kids-first/kf-jointgenotyping-workflow">Kids First GitHub repository</a>.
 References can be obtained from the <a href="https://s3.console.aws.amazon.com/s3/buckets/broad-references/hg38/v0/">Broad Genome References on AWS</a> bucket, with a general description of references here <span class="citation" data-cites="jkkXdcPS">[<a href="#ref-jkkXdcPS" role="doc-biblioref">11</a>]</span>.</p>
@@ -218,7 +218,7 @@ Theta2 purity was added as an optional parameter to CNVkit to adjust copy number
 CNVkit was run on human genome reference hg38 using the optional parameters of Theta2 purity and BAF adjustment for tumor-normal pairs.
 We used GISTIC <span class="citation" data-cites="rDV1hhfF">[<a href="#ref-rDV1hhfF" role="doc-biblioref">33</a>]</span> v.2.0.23 on the CNVkit and the consensus CNV segmentation files to generate gene-level copy number abundance (Log R Ratio) as well as chromosomal arm copy number alterations using the parameters specified in the <a href="https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/run-gistic/scripts/run-gistic-openpbta.sh">OpenPBTA Analysis repository</a>.</p>
 <h4 id="consensus-cnv-calling">Consensus CNV Calling</h4>
-<p>For each caller and sample, CNVs were called based on consensus among Control-FREEC <span class="citation" data-cites="ZQ0L3o1q 1F3i4BvCt">[<a href="#ref-ZQ0L3o1q" role="doc-biblioref">29</a>,<a href="#ref-1F3i4BvCt" role="doc-biblioref">30</a>]</span>, CNVKit <span class="citation" data-cites="UTxRcYIQ">[<a href="#ref-UTxRcYIQ" role="doc-biblioref">31</a>]</span>, and Manta <span class="citation" data-cites="kTn1PIj5">[<a href="#ref-kTn1PIj5" role="doc-biblioref">34</a>]</span>.
+<p>For each caller and sample, CNVs were called based on consensus among Control-FREEC <span class="citation" data-cites="ZQ0L3o1q 1F3i4BvCt">[<a href="#ref-ZQ0L3o1q" role="doc-biblioref">29</a>,<a href="#ref-1F3i4BvCt" role="doc-biblioref">30</a>]</span>, CNVkit <span class="citation" data-cites="UTxRcYIQ">[<a href="#ref-UTxRcYIQ" role="doc-biblioref">31</a>]</span>, and Manta <span class="citation" data-cites="kTn1PIj5">[<a href="#ref-kTn1PIj5" role="doc-biblioref">34</a>]</span>.
 CNVs called significant by Control-FREEC (p-value &lt; 0.01) were included in the consensus calling.</p>
 <p>Sample and caller combination files with more than 2500 CNVs called were removed from the set; we expect these to be noisy and poor quality samples based on cutoffs used in GISTIC <span class="citation" data-cites="rDV1hhfF">[<a href="#ref-rDV1hhfF" role="doc-biblioref">33</a>]</span>.
 For each sample, regions with reciprocal overlap of at least 50% between two of the three callers were included in the final consensus set.
@@ -253,17 +253,17 @@ This method differs in that it uses pseudoaligments using FASTQ reads directly t
 <h3 id="gene-expression-matrices-with-unique-hugo-symbols">Gene Expression Matrices with Unique HUGO Symbols</h3>
 <p>Algorithms that perform gene set enrichment, molecular subtyping, or immune-profiling, for example, require an RNA-seq gene expression matrix as input, with HUGO gene symbols as row names and sample names as column names.
 This is not straight-forward, as there are a small proportion of gene symbols that map to multiple Ensembl gene identifiers (in GENCODE v27, 212 gene symbols map to 1866 Ensembl gene identifiers).</p>
-<p>We first removed genes with no expression using a cut-off of FPKM &gt; 0 in at least 1 sample across the PBTA cohort. Next, of the expressed multi-mapped genes, we found 168 genes mapped to 1393 Ensembl gene identifiers in the stranded dataset and 139 genes mapped to 429 Ensembl gene identifiers in the polyA dataset.
+<p>We first removed genes with no expression using a cut-off of FPKM &gt; 0 in at least 1 sample across the PBTA cohort. Next, of the expressed multi-mapped genes, we found 168 genes mapped to 1393 Ensembl gene identifiers in the stranded dataset and 139 genes mapped to 429 Ensembl gene identifiers in the poly-A dataset.
 Of these, only a small proportion were found to be protein coding genes, i.e. 3% (42/1393) in stranded and 10% (42/429) in the poly-A dataset.
 The top two most represented gene types were misc_RNA (60% for stranded; 36% for poly-A) and snoRNA (24% for stranded and 27% for poly-A).</p>
 <p>We computed the mean FPKM across all samples per gene and for each multi-mapped gene symbol, we chose the Ensembl identifier corresponding to the maximum mean FPKM with the goal of choosing the identifier that best represented the expression of the gene.
 After collapsing gene identifiers, there were a total of 46,400 unique expressed genes in the poly-A dataset and a total of 53,011 unique expressed genes remaining in the stranded dataset.</p>
 <p>For each multi-mapped gene symbol, we also performed a correlation analysis between the duplicated genes so see how well the expression between different Ensembl identifiers of the same gene correlated.
 We computed the average Pearson correlation coefficient between the expressed gene identifier that was kept (after collapsing) vs each expressed gene identifier that was discarded.
-We did not find any striking patterns of correlations and the correlation coefficients were quite arbitrary as high as 0.92 and 1.00 and as low as -0.27 and -0.19 in stranded and polyA dataset, respectively.</p>
+We did not find any striking patterns of correlations and the correlation coefficients were quite arbitrary as high as 0.92 and 1.00 and as low as -0.27 and -0.19 in stranded and poly-A dataset, respectively.</p>
 <h3 id="immune-profilingdeconvolution">Immune Profiling/Deconvolution</h3>
 <p>In general, immune deconvolution from the tumor microenvironment is complicated in that most deconvolution methods do not always agree because of the type of underlying algorithm, the ability to deconvolute certain cell types better than others and the type of output: some methods output actual cell fractions while others output scores that correlate to cell abundance.</p>
-<p>We used the R package immunedeconv <span class="citation" data-cites="1Ac8JWQ8h klaJnG8x">[<a href="#ref-1Ac8JWQ8h" role="doc-biblioref">45</a>,<a href="#ref-klaJnG8x" role="doc-biblioref">46</a>]</span> to deconvolute, quantify and compare various immune cell types across 21 histologies from the PBTA cohort (stranded and polyA).
+<p>We used the R package immunedeconv <span class="citation" data-cites="1Ac8JWQ8h klaJnG8x">[<a href="#ref-1Ac8JWQ8h" role="doc-biblioref">45</a>,<a href="#ref-klaJnG8x" role="doc-biblioref">46</a>]</span> to deconvolute, quantify and compare various immune cell types across 21 histologies from the PBTA cohort (stranded and poly-A).
 The package provides a unified interface for cell type quantification from RNA-seq gene expression data using multiple methods: EPIC (immune cells, fibroblasts, endothelial cells; n = 6), TIMER (immune cells; n = 6), MCP-counter (immune cells, fibroblasts, endothelial cells; n = 8), quanTIseq (immune cells; n = 10), CIBERSORT (immune cells; n = 22) and xCell (immune and non-immune cells; n = 64).
 To get a more fine grained deconvolution, we chose the top two most comprehensive methods i.e. xCell and CIBERSORT that are able to deconvolute 64 and 22 cell types, respectively.
 xCell tests for enrichment of cell types using ssGSEA and CIBERSORT uses ν-Support Vector Regression.
@@ -283,7 +283,7 @@ Using the profiling methods, we could distinctively identify three histologies e
 For both these tools we used aligned BAM and chimeric SAM files from STAR as inputs and GRCh38_gencode_v27 GTF for gene annotation.
 We ran STAR-Fusion with default parameters and annotated all fusion calls with GRCh38_v27_CTAT_lib_Feb092018.plug-n-play.tar.gz provided in the STAR-fusion release.
 For Arriba, we used a blacklist file (blacklist_hg38_GRCh38_2018-11-04.tsv.gz) from the Arriba release tarballs to remove recurrent fusion artifacts and transcripts present in healthy tissue.
-We also provided Arriba with strandedness information or set it to auto-detection for polyA samples.
+We also provided Arriba with strandedness information or set it to auto-detection for poly-A samples.
 We used <a href="https://github.com/FusionAnnotator/FusionAnnotator">FusionAnnotator</a> on Arriba fusion calls in order to harmonize annotations with those of STAR-Fusion.
 The RNA expression and fusion workflows can be found in the <a href="https://github.com/kids-first/kf-rnaseq-workflow">KidsFirst GitHub repository</a> and the FusionAnnotator workflow found in the <a href="https://github.com/d3b-center/FusionAnnotator">D3b GitHub repository</a>.</p>
 <h4 id="fusion-prioritization">Fusion prioritization</h4>
@@ -647,8 +647,8 @@ DOI: <a href="https://doi.org/10.1093/nar/gkx193">10.1093/nar/gkx193</a> · PMID
 </div>
 <div id="ref-16tUBMk59">
 <p>13. <strong>parklab/NGSCheckMate</strong><br />
-Park Lab at Harvard Medical School<br />
-(2020-05-27) <a href="https://github.com/parklab/NGSCheckMate">https://github.com/parklab/NGSCheckMate</a></p>
+GitHub<br />
+<a href="https://github.com/parklab/NGSCheckMate">https://github.com/parklab/NGSCheckMate</a></p>
 </div>
 <div id="ref-xCe0Gxab">
 <p>14. <strong>Framework for determining accuracy of RNA sequencing data for gene expression profiling of single samples</strong><br />
@@ -687,8 +687,8 @@ GitHub<br />
 </div>
 <div id="ref-1GMHnwH5p">
 <p>20. <strong>AstraZeneca-NGS/VarDictJava</strong><br />
-AstraZeneca - NGS Team<br />
-(2020-05-27) <a href="https://github.com/AstraZeneca-NGS/VarDictJava">https://github.com/AstraZeneca-NGS/VarDictJava</a></p>
+GitHub<br />
+<a href="https://github.com/AstraZeneca-NGS/VarDictJava">https://github.com/AstraZeneca-NGS/VarDictJava</a></p>
 </div>
 <div id="ref-bKthX7vJ">
 <p>21. <strong>Deep sequencing of 3 cancer cell lines on 2 sequencing platforms</strong><br />
@@ -704,8 +704,8 @@ DOI: <a href="https://doi.org/10.1186/s13059-016-0974-4">10.1186/s13059-016-0974
 </div>
 <div id="ref-11Fn5jqUI">
 <p>23. <strong>mskcc/vcf2maf</strong><br />
-Memorial Sloan Kettering<br />
-(2020-05-25) <a href="https://github.com/mskcc/vcf2maf">https://github.com/mskcc/vcf2maf</a></p>
+GitHub<br />
+<a href="https://github.com/mskcc/vcf2maf">https://github.com/mskcc/vcf2maf</a></p>
 </div>
 <div id="ref-Ob2wQ9wX">
 <p>24. <strong>AlexsLemonade/OpenPBTA-analysis</strong><br />
@@ -770,7 +770,7 @@ DOI: <a href="https://doi.org/10.1093/bioinformatics/btv710">10.1093/bioinformat
 <p>36. <strong>BEDTools: a flexible suite of utilities for comparing genomic features</strong><br />
 Aaron R. Quinlan, Ira M. Hall<br />
 <em>Bioinformatics</em> (2010-03-15) <a href="https://doi.org/cmrms3">https://doi.org/cmrms3</a><br />
-DOI: <a href="https://doi.org/10.1093/bioinformatics/btq033">10.1093/bioinformatics/btq033</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/20110278">20110278</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2832824">PMC2832824</a></p>
+DOI: <a href="https://doi.org/10.1093/bioinformatics/btq033">10.1093/bioinformatics/btq033</a></p>
 </div>
 <div id="ref-H6flbhE">
 <p>37. <a href="http://hgdownload.cse.ucsc.edu/goldenpath/hg38/database/cytoBand.txt.gz">http://hgdownload.cse.ucsc.edu/goldenpath/hg38/database/cytoBand.txt.gz</a></p>
@@ -822,8 +822,8 @@ DOI: <a href="https://doi.org/10.1093/bioinformatics/btz363">10.1093/bioinformat
 </div>
 <div id="ref-klaJnG8x">
 <p>46. <strong>icbi-lab/immunedeconv</strong><br />
-ICBI<br />
-(2020-05-26) <a href="https://github.com/icbi-lab/immunedeconv">https://github.com/icbi-lab/immunedeconv</a></p>
+GitHub<br />
+<a href="https://github.com/icbi-lab/immunedeconv">https://github.com/icbi-lab/immunedeconv</a></p>
 </div>
 <div id="ref-jvorcKyN">
 <p>47. <strong>xCell: digitally portraying the tissue cellular heterogeneity landscape.</strong><br />
@@ -932,8 +932,8 @@ DOI: <a href="https://doi.org/10.1186/s13059-016-0893-4">10.1186/s13059-016-0893
 </div>
 <div id="ref-1eIeMT1A">
 <p>66. <strong>raerose01/deconstructSigs</strong><br />
-raerose01<br />
-(2020-04-22) <a href="https://github.com/raerose01/deconstructSigs">https://github.com/raerose01/deconstructSigs</a></p>
+GitHub<br />
+<a href="https://github.com/raerose01/deconstructSigs">https://github.com/raerose01/deconstructSigs</a></p>
 </div>
 <div id="ref-GpcQXpz9">
 <p>67. <strong>BSgenome.Hsapiens.UCSC.hg38</strong><br />

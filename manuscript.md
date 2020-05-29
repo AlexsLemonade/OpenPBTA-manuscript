@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/5dfa385e91b3711f4b22137029aa8c60d837cca2/" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c802c65c58b7fc8f76db32b7c9ebd79a6498c5e4/" />
 
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/5dfa385e91b3711f4b22137029aa8c60d837cca2/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c802c65c58b7fc8f76db32b7c9ebd79a6498c5e4/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/5dfa385e91b3711f4b22137029aa8c60d837cca2/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c802c65c58b7fc8f76db32b7c9ebd79a6498c5e4/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,9 +103,9 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/5dfa385e91b3711f4b22137029aa8c60d837cca2/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c802c65c58b7fc8f76db32b7c9ebd79a6498c5e4/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@5dfa385](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/5dfa385e91b3711f4b22137029aa8c60d837cca2)
+from [AlexsLemonade/OpenPBTA-manuscript@c802c65](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/c802c65c58b7fc8f76db32b7c9ebd79a6498c5e4)
 on May 29, 2020.
 </em></small>
 
@@ -541,9 +541,12 @@ A) The distribution of unique participant samples across short histologies and i
 
 ### Landscape of Genomic Alterations
 
-The oncoprint will provide a visualization of the genomic alterations found in the analyses implemented throughout the OpenPBTA project.
+The OncoPrint will provide a visualization of the genomic alterations found in the analyses implemented throughout the OpenPBTA project.
 
-![Oncoprint showing the landscape of genetic lesions across the OpenPBTA dataset](images/figure_sketches/oncoprint-proposed-sketch.png){#fig:oncoprint-landscape}
+![OncoPrint displaying genes most frequently altered across the OpenPBTA dataset.
+Genes include the top 50 most frequently mutated genes and the top 20 genes with copy number alterations.
+Samples were filtered to primary samples or, when no primary sample from an individual participant was available, a randomly selected sample with whole genome sequencing (WGS) data.
+Sample histology (`short_histology`) is displayed in the annotation bar at the bottom of the plot.](https://github.com/AlexsLemonade/OpenPBTA-analysis/raw/master/figures/pngs/fig3-oncoprint-landscape.png){#fig:oncoprint-landscape}
 
 ### Landscape of Mutational Processes
 

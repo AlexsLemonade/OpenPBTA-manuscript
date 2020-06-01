@@ -244,7 +244,7 @@ trinucleotide
 tsv
 xCell
 telomerase
-Poly-A
+telomeres
 bedtools
 IRanges
 mergeByOverlaps

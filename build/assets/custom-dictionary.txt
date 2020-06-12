@@ -245,6 +245,9 @@ tsv
 xCell
 telomerase
 telomeres
+histological
+Spearman
+Bonferroni
 bedtools
 IRanges
 mergeByOverlaps

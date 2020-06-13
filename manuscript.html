@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="John Doe" />
   <meta name="author" content="Jane Roe" />
-  <meta name="dcterms.date" content="2020-05-29" />
+  <meta name="dcterms.date" content="2020-06-13" />
   <meta name="keywords" content="pediatric cancer, brain tumor, tumor atlas" />
   <title>An Open Pediatric Brain Tumor Atlas</title>
   <style>
@@ -29,8 +29,8 @@
   <meta name="citation_title" content="An Open Pediatric Brain Tumor Atlas" />
   <meta property="og:title" content="An Open Pediatric Brain Tumor Atlas" />
   <meta property="twitter:title" content="An Open Pediatric Brain Tumor Atlas" />
-  <meta name="dc.date" content="2020-05-29" />
-  <meta name="citation_publication_date" content="2020-05-29" />
+  <meta name="dc.date" content="2020-06-13" />
+  <meta name="citation_publication_date" content="2020-06-13" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c802c65c58b7fc8f76db32b7c9ebd79a6498c5e4/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c802c65c58b7fc8f76db32b7c9ebd79a6498c5e4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c802c65c58b7fc8f76db32b7c9ebd79a6498c5e4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/11c6040d0865c5f0950cc7162c188f439934a526/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/11c6040d0865c5f0950cc7162c188f439934a526/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/11c6040d0865c5f0950cc7162c188f439934a526/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,10 +67,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c802c65c58b7fc8f76db32b7c9ebd79a6498c5e4/">permalink</a>)
+(<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/11c6040d0865c5f0950cc7162c188f439934a526/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/c802c65c58b7fc8f76db32b7c9ebd79a6498c5e4">AlexsLemonade/OpenPBTA-manuscript@c802c65</a>
-on May 29, 2020.
+from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/11c6040d0865c5f0950cc7162c188f439934a526">AlexsLemonade/OpenPBTA-manuscript@11c6040</a>
+on June 13, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -535,6 +535,14 @@ Resulting calls were added to the clinical metadata as <code>germline_sex_estima
 <p>Certain analyses required that we select only a single representative specimen for each individual.
 In these cases, we prioritized primary tumors and those with whole-genome sequencing available.
 If this filtering still resulted in multiple specimens, we selected from the remaining set randomly.</p>
+<h3 id="quantify-telomerase-activity-using-gene-expression-data">Quantify Telomerase Activity using Gene Expression Data</h3>
+<p>We predicted telomerase activity of pediatric brain tumor samples using our recently developed method EXTEND.
+In brief, EXTEND estimates telomerase activity based on the expression of a 13-gene signature.
+This signature was derived by comparing telomerase positive tumors and tumors with activated alternative lengthening of telomeres pathway, a group presumably negative of telomerase activity.
+More details about the algorithm can be found in reference <span class="citation" data-cites="doi:https://doi.org/10.1101/2020.05.21.109249">[<span class="citeproc-not-found" data-reference-id="doi:https://doi.org/10.1101/2020.05.21.109249"><strong>???</strong></span>]</span>.
+We calculated telomerase activity score for each sample of the PBTA cohort and examined the score distribution across both broad and specific disease histological subtypes.
+We also compared EXTEND scores across the four molecular subgroups of medulloblastoma (Group3, Group4, SHH and WNT) using a series of pairwise two-sample t-tests with a Bonferroni correction for multiple testing.
+EXTEND scores have been further compared, using Spearman rank correlation, between counts and FPKM gene expression values from poly-A and stranded protocols.</p>
 <h2 id="results">Results</h2>
 <p>Results section stub.</p>
 <h3 id="the-open-pediatric-brain-tumor-atlas">The Open Pediatric Brain Tumor Atlas</h3>
@@ -662,7 +670,7 @@ DOI: <a href="https://doi.org/10.1093/nar/gkx193">10.1093/nar/gkx193</a> · PMID
 <div id="ref-16tUBMk59">
 <p>13. <strong>parklab/NGSCheckMate</strong><br />
 Park Lab at Harvard Medical School<br />
-(2020-05-27) <a href="https://github.com/parklab/NGSCheckMate">https://github.com/parklab/NGSCheckMate</a></p>
+(2020-06-13) <a href="https://github.com/parklab/NGSCheckMate">https://github.com/parklab/NGSCheckMate</a></p>
 </div>
 <div id="ref-xCe0Gxab">
 <p>14. <strong>Framework for determining accuracy of RNA sequencing data for gene expression profiling of single samples</strong><br />
@@ -702,7 +710,7 @@ GitHub<br />
 <div id="ref-1GMHnwH5p">
 <p>20. <strong>AstraZeneca-NGS/VarDictJava</strong><br />
 AstraZeneca - NGS Team<br />
-(2020-05-27) <a href="https://github.com/AstraZeneca-NGS/VarDictJava">https://github.com/AstraZeneca-NGS/VarDictJava</a></p>
+(2020-06-12) <a href="https://github.com/AstraZeneca-NGS/VarDictJava">https://github.com/AstraZeneca-NGS/VarDictJava</a></p>
 </div>
 <div id="ref-bKthX7vJ">
 <p>21. <strong>Deep sequencing of 3 cancer cell lines on 2 sequencing platforms</strong><br />
@@ -719,7 +727,7 @@ DOI: <a href="https://doi.org/10.1186/s13059-016-0974-4">10.1186/s13059-016-0974
 <div id="ref-11Fn5jqUI">
 <p>23. <strong>mskcc/vcf2maf</strong><br />
 Memorial Sloan Kettering<br />
-(2020-05-25) <a href="https://github.com/mskcc/vcf2maf">https://github.com/mskcc/vcf2maf</a></p>
+(2020-06-04) <a href="https://github.com/mskcc/vcf2maf">https://github.com/mskcc/vcf2maf</a></p>
 </div>
 <div id="ref-Ob2wQ9wX">
 <p>24. <strong>AlexsLemonade/OpenPBTA-analysis</strong><br />
@@ -837,7 +845,7 @@ DOI: <a href="https://doi.org/10.1093/bioinformatics/btz363">10.1093/bioinformat
 <div id="ref-klaJnG8x">
 <p>46. <strong>icbi-lab/immunedeconv</strong><br />
 ICBI<br />
-(2020-05-26) <a href="https://github.com/icbi-lab/immunedeconv">https://github.com/icbi-lab/immunedeconv</a></p>
+(2020-06-12) <a href="https://github.com/icbi-lab/immunedeconv">https://github.com/icbi-lab/immunedeconv</a></p>
 </div>
 <div id="ref-Tno7T3ZP">
 <p>47. <strong>xCell: digitally portraying the tissue cellular heterogeneity landscape</strong><br />
@@ -952,8 +960,8 @@ DOI: <a href="https://doi.org/10.1186/s13059-016-0893-4">10.1186/s13059-016-0893
 </div>
 <div id="ref-1eIeMT1A">
 <p>66. <strong>raerose01/deconstructSigs</strong><br />
-GitHub<br />
-<a href="https://github.com/raerose01/deconstructSigs">https://github.com/raerose01/deconstructSigs</a></p>
+raerose01<br />
+(2020-06-11) <a href="https://github.com/raerose01/deconstructSigs">https://github.com/raerose01/deconstructSigs</a></p>
 </div>
 <div id="ref-GpcQXpz9">
 <p>67. <strong>BSgenome.Hsapiens.UCSC.hg38</strong><br />

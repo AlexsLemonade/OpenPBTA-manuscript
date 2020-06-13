@@ -4,7 +4,7 @@ author-meta:
 - Jane Roe
 bibliography:
 - content/manual-references.json
-date-meta: '2020-05-29'
+date-meta: '2020-06-13'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,9 +23,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="An Open Pediatric Brain Tumor Atlas" />
 
-  <meta name="dc.date" content="2020-05-29" />
+  <meta name="dc.date" content="2020-06-13" />
 
-  <meta name="citation_publication_date" content="2020-05-29" />
+  <meta name="citation_publication_date" content="2020-06-13" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c802c65c58b7fc8f76db32b7c9ebd79a6498c5e4/" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/11c6040d0865c5f0950cc7162c188f439934a526/" />
 
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c802c65c58b7fc8f76db32b7c9ebd79a6498c5e4/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/11c6040d0865c5f0950cc7162c188f439934a526/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c802c65c58b7fc8f76db32b7c9ebd79a6498c5e4/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/11c6040d0865c5f0950cc7162c188f439934a526/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,10 +103,10 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c802c65c58b7fc8f76db32b7c9ebd79a6498c5e4/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/11c6040d0865c5f0950cc7162c188f439934a526/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@c802c65](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/c802c65c58b7fc8f76db32b7c9ebd79a6498c5e4)
-on May 29, 2020.
+from [AlexsLemonade/OpenPBTA-manuscript@11c6040](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/11c6040d0865c5f0950cc7162c188f439934a526)
+on June 13, 2020.
 </em></small>
 
 ## Authors
@@ -526,6 +526,17 @@ Certain analyses required that we select only a single representative specimen f
 In these cases, we prioritized primary tumors and those with whole-genome sequencing available.
 If this filtering still resulted in multiple specimens, we selected from the remaining set randomly.
 
+
+
+### Quantify Telomerase Activity using Gene Expression Data
+
+We predicted telomerase activity of pediatric brain tumor samples using our recently developed method EXTEND. 
+In brief, EXTEND estimates telomerase activity based on the expression of a 13-gene signature. 
+This signature was derived by comparing telomerase positive tumors and tumors with activated alternative lengthening of telomeres pathway, a group presumably negative of telomerase activity. 
+More details about the algorithm can be found in reference [@doi:https://doi.org/10.1101/2020.05.21.109249]. 
+We calculated telomerase activity score for each sample of the PBTA cohort and examined the score distribution across both broad and specific disease histological subtypes. 
+We also compared EXTEND scores across the four molecular subgroups of medulloblastoma (Group3, Group4, SHH and WNT) using a series of pairwise two-sample t-tests with a Bonferroni correction for multiple testing. 
+EXTEND scores have been further compared, using Spearman rank correlation, between counts and FPKM gene expression values from poly-A and stranded protocols.
 
 ## Results
 

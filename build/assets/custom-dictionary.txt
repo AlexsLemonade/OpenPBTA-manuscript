@@ -242,6 +242,12 @@ translocations
 trinucleotide
 tsv
 xCell
+telomerase
+telomeres
+histological
+Spearman
+Bonferroni
+WNT
 bedtools
 IRanges
 mergeByOverlaps

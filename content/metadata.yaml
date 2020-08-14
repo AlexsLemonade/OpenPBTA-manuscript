@@ -105,7 +105,7 @@ authors:
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
-  - github: dmiller15 
+  - github: dmiller15
     name: Daniel P. Miller
     initials: DPM
     orcid: 0000-0002-2032-4358
@@ -228,7 +228,7 @@ authors:
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
-- github: adamcresnick
+  - github: adamcresnick
     name: Adam C. Resnick
     initials: ACR
     orcid: 0000-0003-0436-4189
@@ -239,7 +239,7 @@ authors:
       - Division of Neurosurgery, Children's Hospital of Philadelphia
     funders:
       - Alex's Lemonade Stand Foundation
-- github: jharenza
+  - github: jharenza
     name: Jo Lynne Rokita
     initials: JR
     orcid: 0000-0003-2171-3627

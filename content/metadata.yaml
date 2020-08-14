@@ -12,6 +12,13 @@ authors:
     orcid: 0000-0003-0838-2405
     twitter: 29aprilkrutika
     email: gaonkark@email.chop.edu
+    contributions:
+      - Data curation
+      - Formal Analysis
+      - Investigation
+      - Methodology
+      - Software
+      - Writing – original draft
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -22,6 +29,12 @@ authors:
     orcid: 0000-0002-2455-9525
     twitter: zhuyuankun
     email: zhuy@email.chop.edu
+    contributions:
+      - Data curation
+      - Formal Analysis
+      - Investigation
+      - Methodology
+      - Supervision
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -31,12 +44,19 @@ authors:
     orcid: 0000-0001-6782-1442
     twitter: migbro
     email: brownm28@email.chop.edu
+    contributions:
+      - Data curation
+      - Methodology
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
   - github: fingerfen
     name: Nhat Duong
     initials: ND
+    contributions:
+      - Formal Analysis
+      - Investigation
+      - Methodology
     affiliations:
       - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
   - github: komalsrathi
@@ -45,6 +65,11 @@ authors:
     orcid: 0000-0001-5534-6904
     twitter: komalsrathi
     email: rathik@email.chop.edu
+    contributions:
+      - Formal Analysis
+      - Investigation
+      - Methodology
+      - Writing – original draft
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
@@ -53,6 +78,9 @@ authors:
     initials: BZ
     orcid: 0000-0002-0743-5379
     email: zhangb1@email.chop.edu
+    contributions:
+      - Data curation
+      - Formal Analysis
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -61,6 +89,9 @@ authors:
     initials: BME
     orcid: 0000-0002-2653-5009
     email: ennisb@email.chop.edu
+    contributions:
+      - Data curation
+      - Formal Analysis
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -69,6 +100,9 @@ authors:
     initials: BF
     orcid: 0000-0001-6727-6333
     email: farrowb@email.chop.edu
+    contributions:
+      - Data curation
+      - Software
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -76,6 +110,9 @@ authors:
     name: Nicolas Van Kuren
     initials: NVK
     email: vankurenk@email.chop.edu
+    contributions:
+      - Data curation
+      - Software
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -84,6 +121,22 @@ authors:
     initials: TK
     orcid: 0000-0002-7733-6480
     email: kogantit@email.chop.edu
+    contributions:
+      - Formal Analysis
+      - Investigation
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - github: jainpayal022
+    name: Payal Jain
+    initials: PJ
+    orcid: 0000-0002-5914-9083
+    twitter: jainpayal022
+    email: jainp@email.chop.edu
+    contributions:
+      - Data curation
+      - Investigation
+      - Validation
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -93,6 +146,10 @@ authors:
     orcid: 0000-0002-1460-920X
     twitter: kshrivats
     email: shrivats@seas.upenn.edu
+    contributions:
+      - Formal Analysis
+      - Methodology
+      - Writing – original draft
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -102,6 +159,10 @@ authors:
     orcid: 0000-0001-6948-2157
     twitter: PichaiRaman
     email: pichai.raman@gmail.com
+    contributions:
+      - Conceptualization
+      - Formal Analysis
+      - Methodology
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
@@ -110,6 +171,8 @@ authors:
     initials: DPM
     orcid: 0000-0002-2032-4358
     email: millerd15@email.chop.edu
+    contributions:
+      - Formal Analysis
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -119,6 +182,8 @@ authors:
     orcid: 0000-0003-2223-0029
     twitter: xiehb
     email: xiem1@email.chop.edu
+    contributions:
+      - Methodology
     affiliations:
       - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
   - github: migbro
@@ -127,6 +192,8 @@ authors:
     orcid: 0000-0001-6782-1442
     twitter: migbro
     email: brownm28@email.chop.edu
+    contributions:
+      - Writing – original draft
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -135,6 +202,8 @@ authors:
     initials: AAK
     orcid: 0000-0002-8526-5694
     email: krayaa@email.chop.edu
+    contributions:
+      - Methodology
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -144,6 +213,8 @@ authors:
     orcid: 0000-0002-2583-9668
     twitter: allig8r
     email: heathap@email.chop.edu
+    contributions:
+      - Project administration
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -153,6 +224,9 @@ authors:
     orcid: 0000-0002-3857-6633
     twitter: koptyram
     email: koptyram@email.chop.edu
+    contributions:
+      - Formal Analysis
+      - Writing – original draft
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -162,6 +236,8 @@ authors:
     orcid: 0000-0003-1508-7631
     twitter: jessicawongbfx
     email: jessicawong.bfx@gmail.com
+    contributions:
+      - Writing – original draft
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -169,6 +245,9 @@ authors:
     initials: MS
     orcid: 0000-0002-6728-3450
     email: santim@email.chop.edu
+    contributions:
+      - Investigation
+      - Validation
     affiliations:
       - Department of Pathology and Laboratory Medicine, Children’s Hospital of Philadelphia
       - Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman School of Medicine
@@ -176,6 +255,9 @@ authors:
     initials: AV
     orcid: 0000-0001-6430-8360
     email: viaenea@email.chop.edu
+    contributions:
+      - Investigation
+      - Validation
     affiliations:
       - Department of Pathology and Laboratory Medicine, Children’s Hospital of Philadelphia
       - Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman School of Medicine
@@ -185,6 +267,10 @@ authors:
     orcid: 0000-0001-6782-1442
     twitter: migbro
     email: brownm28@email.chop.edu
+    contributions:
+      - Data Curation
+      - Formal Analysis
+      - Investigation
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -193,6 +279,8 @@ authors:
     initials: AW
     orcid: 0000-0002-0571-2889
     email: awaanders@luriechildrens.org
+    contributions:
+      - Validation
     affiliations:
        - Department of Oncology, Ann & Robert H. Lurie Children’s Hospital of Chicago
        - Department of Pediatrics, Northwestern University Feinberg School of Medicine
@@ -202,6 +290,8 @@ authors:
     orcid: 0000-0001-6782-1442
     twitter: migbro
     email: brownm28@email.chop.edu
+    contributions:
+      - 
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -209,6 +299,8 @@ authors:
     initials: DH
     orcid: 0000-0002-0024-5142
     email: derek.hanson@hackensackmeridian.org
+    contributions:
+      - Validation
     affiliations:
       - Hackensack Meridian School of Medicine
       - Hackensack University Medical Center
@@ -218,6 +310,9 @@ authors:
     orcid: 0000-0003-1439-6045
     twitter: jvlilly
     email: lillyj@email.chop.edu
+    contributions:
+      - Funding acquisition
+      - Project administration
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -225,6 +320,9 @@ authors:
     initials: PBS
     orcid: 0000-0002-7964-2449
     email: storm@email.chop.edu
+    contributions:
+      - Funding acquisition
+      - Resources
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -234,6 +332,11 @@ authors:
     orcid: 0000-0003-0436-4189
     twitter: adamcresnick
     email: resnick@email.chop.edu
+    contributions:
+      - Conceptualization
+      - Funding acquisition
+      - Resources
+      - Supervision
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -245,6 +348,16 @@ authors:
     orcid: 0000-0003-2171-3627
     twitter: jolynnerokita
     email: rokita@email.chop.edu
+    contributions:
+      - Conceptualization
+      - Data curation
+      - Formal Analysis
+      - Funding acquisition
+      - Investigation
+      - Methodology
+      - Software
+      - Supervision
+      - Writing – original draft
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia

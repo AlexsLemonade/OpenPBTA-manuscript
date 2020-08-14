@@ -6,21 +6,248 @@ keywords:
   - tumor atlas
 lang: en-US
 authors:
-  - github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    email: john.doe@something.com
+  - github: kgaonkar6
+    name: Krutika S. Gaonkar
+    initials: KSG
+    orcid: 0000-0003-0838-2405
+    twitter: 29aprilkrutika
+    email: gaonkark@email.chop.edu
     affiliations:
-      - Department of Something, University of Whatever
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
+      - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
+  - github: yuankunzhu
+    name: Yuankun Zhu
+    initials: YZ
+    orcid: 0000-0002-2455-9525
+    twitter: zhuyuankun
+    email: zhuy@email.chop.edu
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - github: migbro
+    name: Miguel A. Brown
+    initials: MAB
+    orcid: 0000-0001-6782-1442
+    twitter: migbro
+    email: brownm28@email.chop.edu
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - github: fingerfen
+    name: Nhat Duong
+    initials: ND
+    affiliations:
+      - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
+  - github: komalsrathi
+    name: Komal S. Rathi
+    initials: KSR
+    orcid: 0000-0001-5534-6904
+    twitter: komalsrathi
+    email: rathik@email.chop.edu
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
+  - github: zhangb1
+    name: Bo Zhang
+    initials: BZ
+    orcid: 0000-0002-0743-5379
+    email: zhangb1@email.chop.edu
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - github: bmennis
+    name: Brian M. Ennis
+    initials: BME
+    orcid: 0000-0002-2653-5009
+    email: ennisb@email.chop.edu
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - github: baileyckelly
+    name: Bailey Farrow
+    initials: BF
+    orcid: 0000-0001-6727-6333
+    email: farrowb@email.chop.edu
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - github: nicholasvk
+    name: Nicolas Van Kuren
+    initials: NVK
+    email: vankurenk@email.chop.edu
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - github: tkoganti
+    name: Tejaswi Koganti
+    initials: TK
+    orcid: 0000-0002-7733-6480
+    email: kogantit@email.chop.edu
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - github: shrivatsk
+    name: Shrivats Kannan
+    initials: SK
+    orcid: 0000-0002-1460-920X
+    twitter: kshrivats
+    email: shrivats@seas.upenn.edu
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - github: pichairaman
+    name: Pichai Raman
+    initials: PR
+    orcid: 0000-0001-6948-2157
+    twitter: PichaiRaman
+    email: pichai.raman@gmail.com
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
+  - github: dmiller15 
+    name: Daniel P. Miller
+    initials: DPM
+    orcid: 0000-0002-2032-4358
+    email: millerd15@email.chop.edu
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - github: xiehongbo
+    name: Hongbo M. Xie
+    initials: HMX
+    orcid: 0000-0003-2223-0029
+    twitter: xiehb
+    email: xiem1@email.chop.edu
+    affiliations:
+      - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
+  - github: migbro
+    name: Miguel A. Brown
+    initials: MAB
+    orcid: 0000-0001-6782-1442
+    twitter: migbro
+    email: brownm28@email.chop.edu
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - github: aadamk
+    name: Adam A. Kraya
+    initials: AAK
+    orcid: 0000-0002-8526-5694
+    email: krayaa@email.chop.edu
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - github: allisonheath
+    name: Allison P. Heath
+    initials: APH
+    orcid: 0000-0002-2583-9668
+    twitter: allig8r
+    email: heathap@email.chop.edu
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - github: mkoptyra
+    name: Mateusz P. Koptyra
+    initials: MPK
+    orcid: 0000-0002-3857-6633
+    twitter: koptyram
+    email: koptyram@email.chop.edu
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - github: wongjessica93
+    name: Jessica Wong
+    initials: JW
+    orcid: 0000-0003-1508-7631
+    twitter: jessicawongbfx
+    email: jessicawong.bfx@gmail.com
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - name: Mariarita Santi
+    initials: MS
+    orcid: 0000-0002-6728-3450
+    email: santim@email.chop.edu
+    affiliations:
+      - Department of Pathology and Laboratory Medicine, Children’s Hospital of Philadelphia
+      - Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman School of Medicine
+  - name: Angela Viaene
+    initials: AV
+    orcid: 0000-0001-6430-8360
+    email: viaenea@email.chop.edu
+    affiliations:
+      - Department of Pathology and Laboratory Medicine, Children’s Hospital of Philadelphia
+      - Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman School of Medicine
+  - github: awaanders
+    name: Miguel A. Brown
+    initials: MAB
+    orcid: 0000-0001-6782-1442
+    twitter: migbro
+    email: brownm28@email.chop.edu
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - github: migbro
+    name: Angela Waanders
+    initials: AW
+    orcid: 0000-0002-0571-2889
+    email: awaanders@luriechildrens.org
+    affiliations:
+       - Department of Oncology, Ann & Robert H. Lurie Children’s Hospital of Chicago
+       - Department of Pediatrics, Northwestern University Feinberg School of Medicine
+  - github: migbro
+    name: Miguel A. Brown
+    initials: MAB
+    orcid: 0000-0001-6782-1442
+    twitter: migbro
+    email: brownm28@email.chop.edu
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - name: Derek Hanson
+    initials: DH
+    orcid: 0000-0002-0024-5142
+    email: derek.hanson@hackensackmeridian.org
+    affiliations:
+      - Hackensack Meridian School of Medicine
+      - Hackensack University Medical Center
+  - github: jvlilly
+    name: Jena V. Lilly
+    initials: JVL
+    orcid: 0000-0003-1439-6045
+    twitter: jvlilly
+    email: lillyj@email.chop.edu
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - name: Philip B. Storm
+    initials: PBS
+    orcid: 0000-0002-7964-2449
+    email: storm@email.chop.edu
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
+- github: adamcresnick
+    name: Adam C. Resnick
+    initials: ACR
+    orcid: 0000-0003-0436-4189
+    twitter: adamcresnick
+    email: resnick@email.chop.edu
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
     funders:
-      - Grant XXXXXXXX
-  - github: janeroe
-    name: Jane Roe
+      - Alex's Lemonade Stand Foundation
+- github: jharenza
+    name: Jo Lynne Rokita
     initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
+    orcid: 0000-0003-2171-3627
+    twitter: jolynnerokita
+    email: rokita@email.chop.edu
     affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
+      - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
+    funders:
+      - Alex's Lemonade Stand Foundation

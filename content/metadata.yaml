@@ -370,7 +370,9 @@ authors:
     funders:
       - Alex's Lemonade Stand Foundation
   - name: Children's Brain Tumor Tissue Consortium
+    contributions:
       - Conceptualization
   - name: Pacific Pediatric Neurooncology Consortium
+    contributions:
       - Conceptualization
 

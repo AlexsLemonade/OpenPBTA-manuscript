@@ -108,7 +108,8 @@ authors:
       - Division of Neurosurgery, Children's Hospital of Philadelphia
   - github: nicholasvk
     name: Nicolas Van Kuren
-    initials: NVK
+    initials: NK
+    orcid: 0000-0002-7414-9516
     email: vankurenk@email.chop.edu
     contributions:
       - Data curation
@@ -311,6 +312,7 @@ authors:
     twitter: jvlilly
     email: lillyj@email.chop.edu
     contributions:
+      - Conceptualization
       - Funding acquisition
       - Project administration
     affiliations:
@@ -321,6 +323,7 @@ authors:
     orcid: 0000-0002-7964-2449
     email: storm@email.chop.edu
     contributions:
+      - Conceptualization
       - Funding acquisition
       - Resources
     affiliations:

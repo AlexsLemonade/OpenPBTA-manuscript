@@ -342,6 +342,8 @@ authors:
       - Division of Neurosurgery, Children's Hospital of Philadelphia
     funders:
       - Alex's Lemonade Stand Foundation
+      - Children's Brain Tumor Tissue Consortium
+      - NIH R01NS091620-05, 5U2CHL138346-04, 1U2CCA233285-03, 1OT2OD027852-01, 1OT3HL147154-01
   - github: jharenza
     name: Jo Lynne Rokita
     initials: JR
@@ -364,4 +366,8 @@ authors:
       - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
     funders:
       - Alex's Lemonade Stand Foundation
+  - name: Children's Brain Tumor Tissue Consortium
+      - Conceptualization
+  - name: Pacific Pediatric Neurooncology Consortium
+      - Conceptualization
 

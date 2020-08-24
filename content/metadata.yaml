@@ -53,6 +53,9 @@ authors:
   - github: fingerfen
     name: Nhat Duong
     initials: ND
+    orcid: 0000-0003-2852-4263
+    twitter: asiannhat
+    email: nd141@duke.edu
     contributions:
       - Formal Analysis
       - Investigation

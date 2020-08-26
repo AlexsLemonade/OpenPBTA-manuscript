@@ -7,12 +7,13 @@
       "tumor atlas"
     ],
     "lang": "en-US",
-    "date-meta": "2020-06-13",
+    "date-meta": "2020-08-26",
     "author-meta": [
       "John Doe",
-      "Jane Roe"
+      "Jane Roe",
+      "Casey S. Greene"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"An Open Pediatric Brain Tumor Atlas\" />\n<meta name=\"citation_title\" content=\"An Open Pediatric Brain Tumor Atlas\" />\n<meta property=\"og:title\" content=\"An Open Pediatric Brain Tumor Atlas\" />\n<meta property=\"twitter:title\" content=\"An Open Pediatric Brain Tumor Atlas\" />\n<meta name=\"dc.date\" content=\"2020-06-13\" />\n<meta name=\"citation_publication_date\" content=\"2020-06-13\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"John Doe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@johndoe\" />\n<meta name=\"citation_author\" content=\"Jane Roe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<link rel=\"canonical\" href=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/\" />\n<meta property=\"og:url\" content=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/\" />\n<meta property=\"twitter:url\" content=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/\" />\n<meta name=\"citation_pdf_url\" content=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/11c6040d0865c5f0950cc7162c188f439934a526/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/11c6040d0865c5f0950cc7162c188f439934a526/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/11c6040d0865c5f0950cc7162c188f439934a526/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"An Open Pediatric Brain Tumor Atlas\" />\n<meta name=\"citation_title\" content=\"An Open Pediatric Brain Tumor Atlas\" />\n<meta property=\"og:title\" content=\"An Open Pediatric Brain Tumor Atlas\" />\n<meta property=\"twitter:title\" content=\"An Open Pediatric Brain Tumor Atlas\" />\n<meta name=\"dc.date\" content=\"2020-08-26\" />\n<meta name=\"citation_publication_date\" content=\"2020-08-26\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"John Doe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@johndoe\" />\n<meta name=\"citation_author\" content=\"Jane Roe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Philadelphia, PA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"twitter:creator\" content=\"@greenescientist\" />\n<link rel=\"canonical\" href=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/\" />\n<meta property=\"og:url\" content=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/\" />\n<meta property=\"twitter:url\" content=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/\" />\n<meta name=\"citation_pdf_url\" content=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/8c72bd94880ff98aaa80fc8c65b72013a4580d42/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/8c72bd94880ff98aaa80fc8c65b72013a4580d42/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/8c72bd94880ff98aaa80fc8c65b72013a4580d42/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -22,7 +23,7 @@
     "manubot-clear-requests-cache": false
   },
   "manubot": {
-    "date": "June 13, 2020",
+    "date": "August 26, 2020",
     "authors": [
       {
         "github": "johndoe",
@@ -55,6 +56,34 @@
           1,
           2
         ]
+      },
+      {
+        "github": "cgreene",
+        "name": "Casey S. Greene",
+        "initials": "CSG",
+        "orcid": "0000-0001-8713-9213",
+        "twitter": "greenescientist",
+        "email": "greenescientist@gmail.com",
+        "affiliations": [
+          "Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA",
+          "Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, PA, USA"
+        ],
+        "funders": [
+          "Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)"
+        ],
+        "contributions": [
+          "Conceptualization",
+          "Funding acquisition",
+          "Methodology",
+          "Project administration",
+          "Software",
+          "Supervision",
+          "Writing – review & editing"
+        ],
+        "affiliation_numbers": [
+          3,
+          4
+        ]
       }
     ],
     "affiliations": [
@@ -65,6 +94,14 @@
       {
         "affiliation": "Department of Whatever, University of Something",
         "affiliation_number": 2
+      },
+      {
+        "affiliation": "Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA",
+        "affiliation_number": 3
+      },
+      {
+        "affiliation": "Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, PA, USA",
+        "affiliation_number": 4
       }
     ],
     "ci_source": {
@@ -72,19 +109,19 @@
       "repo_slug": "AlexsLemonade/OpenPBTA-manuscript",
       "repo_owner": "AlexsLemonade",
       "repo_name": "OpenPBTA-manuscript",
-      "commit": "11c6040d0865c5f0950cc7162c188f439934a526",
-      "triggering_commit": "11c6040d0865c5f0950cc7162c188f439934a526",
-      "build_url": "https://github.com/AlexsLemonade/OpenPBTA-manuscript/commit/11c6040d0865c5f0950cc7162c188f439934a526/checks",
+      "commit": "8c72bd94880ff98aaa80fc8c65b72013a4580d42",
+      "triggering_commit": "8c72bd94880ff98aaa80fc8c65b72013a4580d42",
+      "build_url": "https://github.com/AlexsLemonade/OpenPBTA-manuscript/commit/8c72bd94880ff98aaa80fc8c65b72013a4580d42/checks",
       "job_url": "https://github.com/AlexsLemonade/OpenPBTA-manuscript/runs/run3"
     },
     "html_url": "https://AlexsLemonade.github.io/OpenPBTA-manuscript/",
     "pdf_url": "https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf",
-    "html_url_versioned": "https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/11c6040d0865c5f0950cc7162c188f439934a526/",
-    "pdf_url_versioned": "https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/11c6040d0865c5f0950cc7162c188f439934a526/manuscript.pdf",
+    "html_url_versioned": "https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/8c72bd94880ff98aaa80fc8c65b72013a4580d42/",
+    "pdf_url_versioned": "https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/8c72bd94880ff98aaa80fc8c65b72013a4580d42/manuscript.pdf",
     "manubot_version": "0.3.1",
     "rootstock_commit": "8b9b5ced2c7c963bf3ea5afb8f31f9a4a54ab697",
     "manuscript_stats": {
-      "word_count": 6202
+      "word_count": 6259
     }
   }
 }

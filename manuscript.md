@@ -2,9 +2,10 @@
 author-meta:
 - John Doe
 - Jane Roe
+- Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-06-13'
+date-meta: '2020-08-26'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,9 +24,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="An Open Pediatric Brain Tumor Atlas" />
 
-  <meta name="dc.date" content="2020-06-13" />
+  <meta name="dc.date" content="2020-08-26" />
 
-  <meta name="citation_publication_date" content="2020-06-13" />
+  <meta name="citation_publication_date" content="2020-08-26" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -55,6 +56,16 @@ header-includes: '<!--
 
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
 
+  <meta name="citation_author" content="Casey S. Greene" />
+
+  <meta name="citation_author_institution" content="Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA" />
+
+  <meta name="citation_author_institution" content="Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Philadelphia, PA, USA" />
+
+  <meta name="citation_author_orcid" content="0000-0001-8713-9213" />
+
+  <meta name="twitter:creator" content="@greenescientist" />
+
   <link rel="canonical" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
 
   <meta property="og:url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
@@ -67,11 +78,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/11c6040d0865c5f0950cc7162c188f439934a526/" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/8c72bd94880ff98aaa80fc8c65b72013a4580d42/" />
 
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/11c6040d0865c5f0950cc7162c188f439934a526/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/8c72bd94880ff98aaa80fc8c65b72013a4580d42/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/11c6040d0865c5f0950cc7162c188f439934a526/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/8c72bd94880ff98aaa80fc8c65b72013a4580d42/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,10 +114,10 @@ title: An Open Pediatric Brain Tumor Atlas
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/11c6040d0865c5f0950cc7162c188f439934a526/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/8c72bd94880ff98aaa80fc8c65b72013a4580d42/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@11c6040](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/11c6040d0865c5f0950cc7162c188f439934a526)
-on June 13, 2020.
+from [AlexsLemonade/OpenPBTA-manuscript@8c72bd9](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/8c72bd94880ff98aaa80fc8c65b72013a4580d42)
+on August 26, 2020.
 </em></small>
 
 ## Authors
@@ -132,6 +143,18 @@ on June 13, 2020.
     [janeroe](https://github.com/janeroe)<br>
   <small>
      Department of Something, University of Whatever; Department of Whatever, University of Something
+  </small>
+
++ **Casey S. Greene**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-8713-9213](https://orcid.org/0000-0001-8713-9213)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [cgreene](https://github.com/cgreene)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [greenescientist](https://twitter.com/greenescientist)<br>
+  <small>
+     Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA; Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, PA, USA
+     · Funded by Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
   </small>
 
 
@@ -601,6 +624,23 @@ C) Heatmap of xCell fraction values for scores and cell types with high variance
 ## Conclusions
 
 Stub in conclusions section   
+
+
+## Data and Resource Availability
+
+## Author Contributions
+
+|Author|Contributions|
+|---|---|
+|John Doe||
+|Jane Roe||
+|Casey S. Greene|Conceptualization, Funding acquisition, Methodology, Project administration, Software, Supervision, Writing – review & editing|
+
+## Acknowledgments
+
+## Conflicts of Interest
+
+CSG's spouse is an employee of Alex's Lemonade Stand Foundation, which was a sponsor of this research.
 
 
 ## References {.page_break_before}

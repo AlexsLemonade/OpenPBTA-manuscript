@@ -190,17 +190,6 @@ authors:
       - Methodology
     affiliations:
       - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
-  - github: migbro
-    name: Miguel A. Brown
-    initials: MAB
-    orcid: 0000-0001-6782-1442
-    twitter: migbro
-    email: brownm28@email.chop.edu
-    contributions:
-      - Writing – original draft
-    affiliations:
-      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
-      - Division of Neurosurgery, Children's Hospital of Philadelphia
   - github: aadamk
     name: Adam A. Kraya
     initials: AAK
@@ -266,19 +255,6 @@ authors:
       - Department of Pathology and Laboratory Medicine, Children’s Hospital of Philadelphia
       - Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman School of Medicine
   - github: awaanders
-    name: Miguel A. Brown
-    initials: MAB
-    orcid: 0000-0001-6782-1442
-    twitter: migbro
-    email: brownm28@email.chop.edu
-    contributions:
-      - Data Curation
-      - Formal Analysis
-      - Investigation
-    affiliations:
-      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
-      - Division of Neurosurgery, Children's Hospital of Philadelphia
-  - github: migbro
     name: Angela Waanders
     initials: AW
     orcid: 0000-0002-0571-2889
@@ -288,17 +264,6 @@ authors:
     affiliations:
        - Department of Oncology, Ann & Robert H. Lurie Children’s Hospital of Chicago
        - Department of Pediatrics, Northwestern University Feinberg School of Medicine
-  - github: migbro
-    name: Miguel A. Brown
-    initials: MAB
-    orcid: 0000-0001-6782-1442
-    twitter: migbro
-    email: brownm28@email.chop.edu
-    contributions:
-      - 
-    affiliations:
-      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
-      - Division of Neurosurgery, Children's Hospital of Philadelphia
   - name: Derek Hanson
     initials: DH
     orcid: 0000-0002-0024-5142

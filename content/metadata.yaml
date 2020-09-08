@@ -6,6 +6,55 @@ keywords:
   - tumor atlas
 lang: en-US
 authors:
+  - github: jashapiro
+    name: Joshua A. Shapiro
+    initials: JAS
+    orcid: 0000-0002-6224-0347
+    twitter: jashapiro
+    email: josh.shapiro@ccdatalab.org
+    contributions:
+      - Methodology
+      - Software
+      - Validation
+      - Formal analysis
+      - Investigation
+      - Writing - Original draft
+      - Writing - Review and editing
+      - Visualization
+      - Supervision
+    affiliations:
+      - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, PA, USA
+  - github: cansavvy
+    name: Candace L. Savonen
+    initials: CLS
+    orcid: 0000-0001-6331-7070
+    twitter: cansavvy
+    email: candace.savonen@ccdatalab.org
+    contributions:
+      - Methodology
+      - Software
+      - Validation
+      - Formal analysis
+      - Investigation
+      - Writing - Original draft
+      - Visualization
+    affiliations:
+      - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, PA, USA
+  - github: cbethell
+    name: Chante J. Bethell
+    initials: CJB
+    orcid: 0000-0001-9653-8128
+    twitter: cjbethell
+    email: cbethell@ccdatalab.org
+    contributions:
+      - Methodology
+      - Validation
+      - Formal analysis
+      - Investigation
+      - Writing - Original draft 
+      - Visualization
+    affiliations:
+      - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, PA, USA
   - github: kgaonkar6
     name: Krutika S. Gaonkar
     initials: KSG
@@ -357,6 +406,27 @@ authors:
       - Supervision
       # - Writing – original draft
       - Writing – review & editing
+  - github: jaclyn-taroni
+    name: Jaclyn N. Taroni
+    initials: JNT
+    orcid: 0000-0003-4734-4508
+    twitter: jaclyn_taroni
+    email: jaclyn.taroni@ccdatalab.org
+    affiliations:
+      - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, PA, USA
+    funders:
+       - Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
+    contributions:
+      - Methodology
+      - Software
+      - Validation
+      - Formal analysis
+      - Investigation
+      - Data curation
+      - Writing - Review and editing
+      - Visualization
+      - Supervision
+      - Project administration
   - name: Children's Brain Tumor Tissue Consortium
     contributions:
       - Conceptualization

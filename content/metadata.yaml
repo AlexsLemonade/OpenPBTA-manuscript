@@ -24,6 +24,8 @@ authors:
       - Supervision
     affiliations:
       - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, PA, USA
+    funders:
+      - Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
   - github: cansavvy
     name: Candace L. Savonen
     initials: CLS
@@ -40,6 +42,8 @@ authors:
       - Visualization
     affiliations:
       - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, PA, USA
+    funders:
+      - Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
   - github: cbethell
     name: Chante J. Bethell
     initials: CJB
@@ -55,6 +59,8 @@ authors:
       - Visualization
     affiliations:
       - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, PA, USA
+    funders:
+      - Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
   - github: kgaonkar6
     name: Krutika S. Gaonkar
     initials: KSG

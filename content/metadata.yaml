@@ -352,6 +352,22 @@ authors:
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - github: sjspielman
+    name: Stephanie J. Spielman
+    initials: SJS
+    orcid: 0000-0002-9090-4788
+    twitter: stephspiel
+    email: spielman@rowan.edu
+    contributions:
+      - Validation - Miscellaneous code review
+      - Formal analysis - GSVA, some molecular subtyping
+      - Writing - Review and editing
+      - Visualization - Support for telomerase activity figures
+      - Supervision - Miscellaneous mentorship and oversight including survival analysis template and analyses
+    affiliations:
+      - Rowan University, Glassboro, NJ, USA
+    funders:
+      - Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
   - github: adamcresnick
     name: Adam C. Resnick
     initials: ACR
@@ -439,20 +455,4 @@ authors:
   - name: Pacific Pediatric Neurooncology Consortium
     contributions:
       - Conceptualization
-  - github: sjspielman
-    name: Stephanie J. Spielman
-    initials: SJS
-    orcid: 0000-0002-9090-4788
-    twitter: stephspiel
-    email: spielman@rowan.edu
-    contributions:
-      - Validation - Miscellaneous code review
-      - Formal analysis - GSVA, some molecular subtyping
-      - Writing - Review and editing
-      - Visualization - Support for telomerase activity figures
-      - Supervision - Miscellaneous mentorship and oversight including survival analysis template and analyses
-    affiliations:
-      - Rowan University, Glassboro, NJ, USA
-    funders:
-      - Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
 

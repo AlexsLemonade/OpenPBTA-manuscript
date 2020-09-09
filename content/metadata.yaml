@@ -359,11 +359,11 @@ authors:
     twitter: stephspiel
     email: spielman@rowan.edu
     contributions:
-      - Validation - Miscellaneous code review
-      - Formal analysis - GSVA, some molecular subtyping
+      - Validation
+      - Formal analysis
       - Writing - Review and editing
-      - Visualization - Support for telomerase activity figures
-      - Supervision - Miscellaneous mentorship and oversight including survival analysis template and analyses
+      - Visualization
+      - Supervision
     affiliations:
       - Rowan University, Glassboro, NJ, USA
     funders:
@@ -455,4 +455,3 @@ authors:
   - name: Pacific Pediatric Neurooncology Consortium
     contributions:
       - Conceptualization
-

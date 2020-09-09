@@ -153,6 +153,22 @@ authors:
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - github: sjspielman
+    name: Stephanie J. Spielman
+    initials: SJS
+    orcid: 0000-0002-9090-4788
+    twitter: stephspiel
+    email: spielman@rowan.edu
+    contributions:
+      - Validation
+      - Formal analysis
+      - Writing - Review and editing
+      - Visualization
+      - Supervision
+    affiliations:
+      - Rowan University, Glassboro, NJ, USA
+    funders:
+      - Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
   - github: baileyckelly
     name: Bailey Farrow
     initials: BF
@@ -352,22 +368,6 @@ authors:
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
-  - github: sjspielman
-    name: Stephanie J. Spielman
-    initials: SJS
-    orcid: 0000-0002-9090-4788
-    twitter: stephspiel
-    email: spielman@rowan.edu
-    contributions:
-      - Validation
-      - Formal analysis
-      - Writing - Review and editing
-      - Visualization
-      - Supervision
-    affiliations:
-      - Rowan University, Glassboro, NJ, USA
-    funders:
-      - Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
   - github: adamcresnick
     name: Adam C. Resnick
     initials: ACR

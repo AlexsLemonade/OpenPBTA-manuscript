@@ -32,6 +32,7 @@ Gaonkar
 gencode
 Glassboro
 GRCh
+Greehey
 greenescientist
 Hackensack
 hg
@@ -69,6 +70,9 @@ NCT
 Neurooncology
 Nhat
 nicholasvk
+Nighat
+NNoureen
+Noureen
 NUTM
 Payal
 PHG
@@ -83,12 +87,14 @@ Santi
 Savonen
 Shrivats
 shrivatsk
+Siyuan
 sjspielman
 SNCAIP
 Spielman
 stephspiel
 Strelka
-taroni
+syzheng
+Taroni
 Tejaswi
 TERT
 tkoganti
@@ -104,5 +110,7 @@ Yuankun
 yuankunzhu
 Zhang
 zhangb
+Zheng
+zhengsiyuan
 Zhu
 zhuyuankun

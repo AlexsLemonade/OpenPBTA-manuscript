@@ -131,6 +131,16 @@ authors:
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
+  - github: NNoureen
+    name: Nighat Noureen
+    initials: NN
+    orcid: 0000-0001-7495-8201
+    email: noureen@uthscsa.edu
+    contributions:
+      - Formal analysis
+      - Writing - Original draft
+    affiliations: 
+      - Greehey Children's Cancer Research Institute, UT Health San Antonio
   - github: zhangb1
     name: Bo Zhang
     initials: BZ
@@ -344,6 +354,18 @@ authors:
     affiliations:
       - Hackensack Meridian School of Medicine
       - Hackensack University Medical Center
+  - github: syzheng 
+    name: Siyuan Zheng
+    initials: SZ
+    email: zhengs3@uthscsa.edu
+    twitter: zhengsiyuan
+    orcid: 0000-0002-1031-9424
+    contributions:
+      - Formal analysis
+      - Writing - Original draft
+      - Supervision
+    affiliations:
+      - Greehey Children's Cancer Research Institute, UT Health San Antonio
   - github: jvlilly
     name: Jena V. Lilly
     initials: JVL

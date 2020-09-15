@@ -212,19 +212,6 @@ authors:
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
-  - github: jainpayal022
-    name: Payal Jain
-    initials: PJ
-    orcid: 0000-0002-5914-9083
-    twitter: jainpayal022
-    email: jainp@email.chop.edu
-    contributions:
-      - Data curation
-      - Investigation
-      - Validation
-    affiliations:
-      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
-      - Division of Neurosurgery, Children's Hospital of Philadelphia
   - github: shrivatsk
     name: Shrivats Kannan
     initials: SK
@@ -261,16 +248,19 @@ authors:
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
-  - github: xiehongbo
-    name: Hongbo M. Xie
-    initials: HMX
-    orcid: 0000-0003-2223-0029
-    twitter: xiehb
-    email: xiem1@email.chop.edu
+  - github: jainpayal022
+    name: Payal Jain
+    initials: PJ
+    orcid: 0000-0002-5914-9083
+    twitter: jainpayal022
+    email: jainp@email.chop.edu
     contributions:
-      - Methodology
+      - Data curation
+      - Investigation
+      - Validation
     affiliations:
-      - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
   - github: aadamk
     name: Adam A. Kraya
     initials: AAK
@@ -341,7 +331,7 @@ authors:
     orcid: 0000-0002-0571-2889
     email: awaanders@luriechildrens.org
     contributions:
-      - Validation
+      - Supervison
     affiliations:
        - Department of Oncology, Ann & Robert H. Lurie Children’s Hospital of Chicago
        - Department of Pediatrics, Northwestern University Feinberg School of Medicine
@@ -354,6 +344,17 @@ authors:
     affiliations:
       - Hackensack Meridian School of Medicine
       - Hackensack University Medical Center
+  - github: xiehongbo
+    name: Hongbo M. Xie
+    initials: HMX
+    orcid: 0000-0003-2223-0029
+    twitter: xiehb
+    email: xiem1@email.chop.edu
+    contributions:
+      - Methodology
+      - Supervision
+    affiliations:
+      - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
   - github: syzheng 
     name: Siyuan Zheng
     initials: SZ
@@ -366,6 +367,15 @@ authors:
       - Supervision
     affiliations:
       - Greehey Children's Cancer Research Institute, UT Health San Antonio
+  - name: Cassie N. Kline
+    initials: CNK
+    orcid: 0000-0001-7765-7690
+    email: klinec@email.chop.edu
+    twitter: cnkline13
+    contributions:
+      - Supervision
+    affiliations:
+      - Division of Oncology, Children's Hospital of Philadelphia
   - github: jvlilly
     name: Jena V. Lilly
     initials: JVL

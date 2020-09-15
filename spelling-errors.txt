@@ -20,6 +20,7 @@ CHCl
 CHL
 chr
 cjbethell
+cnkline
 curation
 CXXC
 dmiller
@@ -93,6 +94,7 @@ SNCAIP
 Spielman
 stephspiel
 Strelka
+Supervison
 syzheng
 Taroni
 Tejaswi

@@ -276,3 +276,7 @@ astrocytoma
 ependymomas
 medulloblastomas
 pineal
+germinomas
+teratomas
+astrocytomas
+TERT

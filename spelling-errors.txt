@@ -96,9 +96,8 @@ stephspiel
 Strelka
 Supervison
 syzheng
-Taroni
+taroni
 Tejaswi
-TERT
 tkoganti
 TTYH
 vcf

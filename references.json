@@ -290,6 +290,364 @@
   },
   {
     "type": "article-journal",
+    "id": "E6NaHJzx",
+    "author": [
+      {
+        "family": "Remke",
+        "given": "Marc"
+      },
+      {
+        "family": "Ramaswamy",
+        "given": "Vijay"
+      },
+      {
+        "family": "Peacock",
+        "given": "John"
+      },
+      {
+        "family": "Shih",
+        "given": "David J. H."
+      },
+      {
+        "family": "Koelsche",
+        "given": "Christian"
+      },
+      {
+        "family": "Northcott",
+        "given": "Paul A."
+      },
+      {
+        "family": "Hill",
+        "given": "Nadia"
+      },
+      {
+        "family": "Cavalli",
+        "given": "Florence M. G."
+      },
+      {
+        "family": "Kool",
+        "given": "Marcel"
+      },
+      {
+        "family": "Wang",
+        "given": "Xin"
+      },
+      {
+        "family": "Mack",
+        "given": "Stephen C."
+      },
+      {
+        "family": "Barszczyk",
+        "given": "Mark"
+      },
+      {
+        "family": "Morrissy",
+        "given": "A. Sorana"
+      },
+      {
+        "family": "Wu",
+        "given": "Xiaochong"
+      },
+      {
+        "family": "Agnihotri",
+        "given": "Sameer"
+      },
+      {
+        "family": "Luu",
+        "given": "Betty"
+      },
+      {
+        "family": "Jones",
+        "given": "David T. W."
+      },
+      {
+        "family": "Garzia",
+        "given": "Livia"
+      },
+      {
+        "family": "Dubuc",
+        "given": "Adrian M."
+      },
+      {
+        "family": "Zhukova",
+        "given": "Nataliya"
+      },
+      {
+        "family": "Vanner",
+        "given": "Robert"
+      },
+      {
+        "family": "Kros",
+        "given": "Johan M."
+      },
+      {
+        "family": "French",
+        "given": "Pim J."
+      },
+      {
+        "family": "Van Meir",
+        "given": "Erwin G."
+      },
+      {
+        "family": "Vibhakar",
+        "given": "Rajeev"
+      },
+      {
+        "family": "Zitterbart",
+        "given": "Karel"
+      },
+      {
+        "family": "Chan",
+        "given": "Jennifer A."
+      },
+      {
+        "family": "Bognár",
+        "given": "László"
+      },
+      {
+        "family": "Klekner",
+        "given": "Almos"
+      },
+      {
+        "family": "Lach",
+        "given": "Boleslaw"
+      },
+      {
+        "family": "Jung",
+        "given": "Shin"
+      },
+      {
+        "family": "Saad",
+        "given": "Ali G."
+      },
+      {
+        "family": "Liau",
+        "given": "Linda M."
+      },
+      {
+        "family": "Albrecht",
+        "given": "Steffen"
+      },
+      {
+        "family": "Zollo",
+        "given": "Massimo"
+      },
+      {
+        "family": "Cooper",
+        "given": "Michael K."
+      },
+      {
+        "family": "Thompson",
+        "given": "Reid C."
+      },
+      {
+        "family": "Delattre",
+        "given": "Oliver O."
+      },
+      {
+        "family": "Bourdeaut",
+        "given": "Franck"
+      },
+      {
+        "family": "Doz",
+        "given": "François F."
+      },
+      {
+        "family": "Garami",
+        "given": "Miklós"
+      },
+      {
+        "family": "Hauser",
+        "given": "Peter"
+      },
+      {
+        "family": "Carlotti",
+        "given": "Carlos G."
+      },
+      {
+        "family": "Van Meter",
+        "given": "Timothy E."
+      },
+      {
+        "family": "Massimi",
+        "given": "Luca"
+      },
+      {
+        "family": "Fults",
+        "given": "Daniel"
+      },
+      {
+        "family": "Pomeroy",
+        "given": "Scott L."
+      },
+      {
+        "family": "Kumabe",
+        "given": "Toshiro"
+      },
+      {
+        "family": "Ra",
+        "given": "Young Shin"
+      },
+      {
+        "family": "Leonard",
+        "given": "Jeffrey R."
+      },
+      {
+        "family": "Elbabaa",
+        "given": "Samer K."
+      },
+      {
+        "family": "Mora",
+        "given": "Jaume"
+      },
+      {
+        "family": "Rubin",
+        "given": "Joshua B."
+      },
+      {
+        "family": "Cho",
+        "given": "Yoon-Jae"
+      },
+      {
+        "family": "McLendon",
+        "given": "Roger E."
+      },
+      {
+        "family": "Bigner",
+        "given": "Darell D."
+      },
+      {
+        "family": "Eberhart",
+        "given": "Charles G."
+      },
+      {
+        "family": "Fouladi",
+        "given": "Maryam"
+      },
+      {
+        "family": "Wechsler-Reya",
+        "given": "Robert J."
+      },
+      {
+        "family": "Faria",
+        "given": "Claudia C."
+      },
+      {
+        "family": "Croul",
+        "given": "Sidney E."
+      },
+      {
+        "family": "Huang",
+        "given": "Annie"
+      },
+      {
+        "family": "Bouffet",
+        "given": "Eric"
+      },
+      {
+        "family": "Hawkins",
+        "given": "Cynthia E."
+      },
+      {
+        "family": "Dirks",
+        "given": "Peter B."
+      },
+      {
+        "family": "Weiss",
+        "given": "William A."
+      },
+      {
+        "family": "Schüller",
+        "given": "Ulrich"
+      },
+      {
+        "family": "Pollack",
+        "given": "Ian F."
+      },
+      {
+        "family": "Rutkowski",
+        "given": "Stefan"
+      },
+      {
+        "family": "Meyronet",
+        "given": "David"
+      },
+      {
+        "family": "Jouvet",
+        "given": "Anne"
+      },
+      {
+        "family": "Fèvre-Montange",
+        "given": "Michelle"
+      },
+      {
+        "family": "Jabado",
+        "given": "Nada"
+      },
+      {
+        "family": "Perek-Polnik",
+        "given": "Marta"
+      },
+      {
+        "family": "Grajkowska",
+        "given": "Wieslawa A."
+      },
+      {
+        "family": "Kim",
+        "given": "Seung-Ki"
+      },
+      {
+        "family": "Rutka",
+        "given": "James T."
+      },
+      {
+        "family": "Malkin",
+        "given": "David"
+      },
+      {
+        "family": "Tabori",
+        "given": "Uri"
+      },
+      {
+        "family": "Pfister",
+        "given": "Stefan M."
+      },
+      {
+        "family": "Korshunov",
+        "given": "Andrey"
+      },
+      {
+        "family": "von Deimling",
+        "given": "Andreas"
+      },
+      {
+        "family": "Taylor",
+        "given": "Michael D."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          10,
+          31
+        ]
+      ]
+    },
+    "container-title": "Acta Neuropathologica",
+    "DOI": "10.1007/s00401-013-1198-2",
+    "volume": "126",
+    "issue": "6",
+    "page": "917-929",
+    "publisher": "Springer Science and Business Media LLC",
+    "title": "TERT promoter mutations are highly recurrent in SHH subgroup medulloblastoma",
+    "URL": "https://doi.org/f5g9qb",
+    "PMCID": "PMC3830749",
+    "PMID": "24174164",
+    "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: doi:10.1007/s00401-013-1198-2"
+  },
+  {
+    "type": "article-journal",
     "id": "7sgrMadR",
     "author": [
       {
@@ -8498,6 +8856,59 @@
   },
   {
     "type": "article-journal",
+    "id": "Acpyi7Gb",
+    "author": [
+      {
+        "family": "Albanell",
+        "given": "J."
+      },
+      {
+        "family": "Bosl",
+        "given": "G. J."
+      },
+      {
+        "family": "Reuter",
+        "given": "V. E."
+      },
+      {
+        "family": "Engelhardt",
+        "given": "M."
+      },
+      {
+        "family": "Franco",
+        "given": "S."
+      },
+      {
+        "family": "Moore",
+        "given": "M. A. S."
+      },
+      {
+        "family": "Dmitrovsky",
+        "given": "E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1999,
+          8,
+          4
+        ]
+      ]
+    },
+    "container-title": "JNCI Journal of the National Cancer Institute",
+    "DOI": "10.1093/jnci/91.15.1321",
+    "volume": "91",
+    "issue": "15",
+    "page": "1321-1326",
+    "publisher": "Oxford University Press (OUP)",
+    "title": "Telomerase Activity in Germ Cell Cancers and Mature Teratomas",
+    "URL": "https://doi.org/fb2hjt",
+    "PMID": "10433622",
+    "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: doi:10.1093/jnci/91.15.1321"
+  },
+  {
+    "type": "article-journal",
     "id": "1DWggwY7R",
     "author": [
       {
@@ -8944,6 +9355,68 @@
     "title": "Scaling accurate genetic variant discovery to tens of thousands of samples",
     "URL": "https://doi.org/ggmrvr",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: doi:10.1101/201178"
+  },
+  {
+    "type": "article-journal",
+    "id": "LqHIy6Mh",
+    "author": [
+      {
+        "family": "Noureen",
+        "given": "Nighat"
+      },
+      {
+        "family": "Wu",
+        "given": "Shaofang"
+      },
+      {
+        "family": "Lyu",
+        "given": "Yingli"
+      },
+      {
+        "family": "Yang",
+        "given": "Juechen"
+      },
+      {
+        "family": "Yung",
+        "given": "WK Alfred"
+      },
+      {
+        "family": "Gelfond",
+        "given": "Jonathan"
+      },
+      {
+        "family": "Wang",
+        "given": "Xiaojing"
+      },
+      {
+        "family": "Koul",
+        "given": "Dimpy"
+      },
+      {
+        "family": "Ludlow",
+        "given": "Andrew"
+      },
+      {
+        "family": "Zheng",
+        "given": "Siyuan"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          26
+        ]
+      ]
+    },
+    "abstract": "Active telomerase is essential for stem cells and most cancers to maintain telomeres. The enzymatic activity of telomerase is related but not equivalent to the expression of TERT, the catalytic subunit of the complex. Here we show that telomerase enzymatic activity can be robustly estimated from the expression of a 13-gene signature. We demonstrate the validity of the expression-based approach, named EXTEND, using cell lines, cancer samples, and non-neoplastic samples. When applied to over 9,000 tumors and single cells, we find a strong correlation between telomerase activity and cancer stemness. This correlation is largely driven by a small proliferating cancer cell population that exhibits both high telomerase activity and cancer stemness. This study establishes a novel computational framework for quantifying telomerase enzymatic activity and provides new insights into the relationships among telomerase, cancer proliferation, and stemness.",
+    "container-title": "Cold Spring Harbor Laboratory",
+    "DOI": "10.1101/2020.05.21.109249",
+    "publisher": "Cold Spring Harbor Laboratory",
+    "title": "Inferring Telomerase Enzymatic Activity from Expression Data",
+    "URL": "https://doi.org/ggxfhq",
+    "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: doi:10.1101/2020.05.21.109249"
   },
   {
     "type": "article-journal",
@@ -9968,7 +10441,7 @@
         [
           "2020",
           9,
-          15
+          22
         ]
       ]
     },
@@ -9984,7 +10457,7 @@
         [
           "2020",
           9,
-          15
+          22
         ]
       ]
     },
@@ -10003,7 +10476,7 @@
         [
           "2020",
           9,
-          15
+          22
         ]
       ]
     },
@@ -10027,7 +10500,7 @@
         [
           "2020",
           9,
-          15
+          22
         ]
       ]
     },
@@ -10046,7 +10519,7 @@
         [
           "2020",
           9,
-          15
+          22
         ]
       ]
     },
@@ -10071,7 +10544,7 @@
         [
           "2020",
           9,
-          15
+          22
         ]
       ]
     },
@@ -10091,32 +10564,22 @@
   },
   {
     "id": "1GMHnwH5p",
-    "type": "book",
+    "type": "webpage",
     "title": "AstraZeneca-NGS/VarDictJava",
-    "publisher": "AstraZeneca - NGS Team",
-    "genre": "Java",
-    "source": "GitHub",
+    "container-title": "GitHub",
     "abstract": "VarDict Java port. Contribute to AstraZeneca-NGS/VarDictJava development by creating an account on GitHub.",
     "URL": "https://github.com/AstraZeneca-NGS/VarDictJava",
-    "note": "original-date: 2014-11-19T08:52:27Z\nThis CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://github.com/AstraZeneca-NGS/VarDictJava",
-    "issued": {
-      "date-parts": [
-        [
-          "2020",
-          9,
-          8
-        ]
-      ]
-    },
+    "language": "en",
     "accessed": {
       "date-parts": [
         [
           "2020",
           9,
-          15
+          22
         ]
       ]
-    }
+    },
+    "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://github.com/AstraZeneca-NGS/VarDictJava"
   },
   {
     "id": "E5aTvXmQ",
@@ -10131,7 +10594,7 @@
         [
           "2020",
           9,
-          15
+          22
         ]
       ]
     },
@@ -10139,124 +10602,79 @@
   },
   {
     "id": "klaJnG8x",
-    "type": "book",
+    "type": "webpage",
     "title": "icbi-lab/immunedeconv",
-    "publisher": "ICBI",
-    "genre": "R",
-    "source": "GitHub",
-    "abstract": "A unified interface to immune deconvolution methods (CIBERSORT, EPIC, quanTIseq, TIMER, xCell, MCPcounter)",
+    "container-title": "GitHub",
+    "abstract": "A unified interface to immune deconvolution methods (CIBERSORT, EPIC, quanTIseq, TIMER, xCell, MCPcounter) - icbi-lab/immunedeconv",
     "URL": "https://github.com/icbi-lab/immunedeconv",
-    "note": "original-date: 2018-03-21T11:24:26Z\nThis CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://github.com/icbi-lab/immunedeconv",
-    "issued": {
-      "date-parts": [
-        [
-          "2020",
-          9,
-          2
-        ]
-      ]
-    },
+    "language": "en",
     "accessed": {
       "date-parts": [
         [
           "2020",
           9,
-          15
+          22
         ]
       ]
-    }
+    },
+    "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://github.com/icbi-lab/immunedeconv"
   },
   {
     "id": "11Fn5jqUI",
-    "type": "book",
+    "type": "webpage",
     "title": "mskcc/vcf2maf",
-    "publisher": "Memorial Sloan Kettering",
-    "genre": "Perl",
-    "source": "GitHub",
-    "abstract": "Convert a VCF into a MAF, where each variant is annotated to only one of all possible gene isoforms",
+    "container-title": "GitHub",
+    "abstract": "Convert a VCF into a MAF, where each variant is annotated to only one of all possible gene isoforms - mskcc/vcf2maf",
     "URL": "https://github.com/mskcc/vcf2maf",
-    "note": "original-date: 2013-11-22T18:19:35Z\nThis CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://github.com/mskcc/vcf2maf",
-    "issued": {
-      "date-parts": [
-        [
-          "2020",
-          9,
-          12
-        ]
-      ]
-    },
+    "language": "en",
     "accessed": {
       "date-parts": [
         [
           "2020",
           9,
-          15
+          22
         ]
       ]
-    }
+    },
+    "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://github.com/mskcc/vcf2maf"
   },
   {
     "id": "16tUBMk59",
-    "type": "book",
+    "type": "webpage",
     "title": "parklab/NGSCheckMate",
-    "publisher": "Park Lab at Harvard Medical School",
-    "genre": "Python",
-    "source": "GitHub",
-    "abstract": "Software program for checking sample matching for NGS data",
+    "container-title": "GitHub",
+    "abstract": "Software program for checking sample matching for NGS data - parklab/NGSCheckMate",
     "URL": "https://github.com/parklab/NGSCheckMate",
-    "note": "original-date: 2016-01-08T22:36:41Z\nThis CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://github.com/parklab/NGSCheckMate",
-    "issued": {
-      "date-parts": [
-        [
-          "2020",
-          9,
-          9
-        ]
-      ]
-    },
+    "language": "en",
     "accessed": {
       "date-parts": [
         [
           "2020",
           9,
-          15
+          22
         ]
       ]
-    }
+    },
+    "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://github.com/parklab/NGSCheckMate"
   },
   {
     "id": "1eIeMT1A",
-    "type": "book",
+    "type": "webpage",
     "title": "raerose01/deconstructSigs",
-    "genre": "R",
-    "source": "GitHub",
+    "container-title": "GitHub",
     "abstract": "deconstructSigs. Contribute to raerose01/deconstructSigs development by creating an account on GitHub.",
     "URL": "https://github.com/raerose01/deconstructSigs",
-    "note": "original-date: 2016-01-06T14:24:08Z\nThis CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://github.com/raerose01/deconstructSigs",
-    "author": [
-      {
-        "family": "raerose01",
-        "given": ""
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "2020",
-          9,
-          14
-        ]
-      ]
-    },
+    "language": "en",
     "accessed": {
       "date-parts": [
         [
           "2020",
           9,
-          15
+          22
         ]
       ]
-    }
+    },
+    "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://github.com/raerose01/deconstructSigs"
   },
   {
     "id": "JkpD6jMa",
@@ -10268,7 +10686,7 @@
         [
           "2020",
           9,
-          15
+          22
         ]
       ]
     },
@@ -10284,17 +10702,27 @@
         [
           "2020",
           9,
-          15
+          22
         ]
       ]
     },
     "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://s3.amazonaws.com/broad-references/broad-references-readme.html"
   },
   {
-    "URL": "https://software.broadinstitute.org/gatk/best-practices/workflow?id",
+    "id": "EHMzG34o",
     "type": "webpage",
-    "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://software.broadinstitute.org/gatk/best-practices/workflow?id",
-    "id": "EHMzG34o"
+    "title": "GATK",
+    "URL": "https://gatk.broadinstitute.org/hc/en-us",
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          9,
+          22
+        ]
+      ]
+    },
+    "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://software.broadinstitute.org/gatk/best-practices/workflow?id"
   },
   {
     "id": "1AM78Fkrd",
@@ -10318,7 +10746,7 @@
         [
           "2020",
           9,
-          15
+          22
         ]
       ]
     },
@@ -10334,7 +10762,7 @@
         [
           "2020",
           9,
-          15
+          22
         ]
       ]
     },
@@ -10350,7 +10778,7 @@
         [
           "2020",
           9,
-          15
+          22
         ]
       ]
     },
@@ -10367,7 +10795,7 @@
         [
           "2020",
           9,
-          15
+          22
         ]
       ]
     },

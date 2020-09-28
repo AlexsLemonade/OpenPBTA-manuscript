@@ -50,6 +50,7 @@ doi:10.1101/gr.239244.118	doi:10.1101/gr.239244.118	doi:10.1101/gr.239244.118	83
 doi:10/cwg8n5	doi:10/cwg8n5	doi:10.1186/1471-2105-12-323	Dh2n1EV3
 doi:10.1186/1471-2105-14-7	doi:10.1186/1471-2105-14-7	doi:10.1186/1471-2105-14-7	1F5zJEMaD
 doi:10.1186/gb-2011-12-4-r41	doi:10.1186/gb-2011-12-4-r41	doi:10.1186/gb-2011-12-4-r41	rDV1hhfF
+doi:10.1186/s13029-016-0053-y	doi:10.1186/s13029-016-0053-y	doi:10.1186/s13029-016-0053-y	RmzXK4Cw
 doi:10.1186/s13059-016-0893-4	doi:10.1186/s13059-016-0893-4	doi:10.1186/s13059-016-0893-4	KhxTOfIb
 doi:10/gdz75c	doi:10/gdz75c	doi:10.1186/s13059-016-0974-4	p1f5DxRQ
 doi:10.1186/s13059-017-1349-1	doi:10.1186/s13059-017-1349-1	doi:10.1186/s13059-017-1349-1	Tno7T3ZP
@@ -62,10 +63,10 @@ pmid:30249036	pmid:30249036	pmid:30249036	paqlZJfj
 pmid:31510660	pmid:31510660	pmid:31510660	1Ac8JWQ8h
 url:http://hgdownload.cse.ucsc.edu/goldenpath/hg38/database/cytoBand.txt.gz	url:http://hgdownload.cse.ucsc.edu/goldenpath/hg38/database/cytoBand.txt.gz	url:http://hgdownload.cse.ucsc.edu/goldenpath/hg38/database/cytoBand.txt.gz	H6flbhE
 url:http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips	url:http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips	url:http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips	19mY46wTE
+url:https://CBTN.org	url:https://CBTN.org	url:https://CBTN.org	VT338cRv
 url:https://bedtools.readthedocs.io/en/latest/content/tools/coverage.html	url:https://bedtools.readthedocs.io/en/latest/content/tools/coverage.html	url:https://bedtools.readthedocs.io/en/latest/content/tools/coverage.html	Ddy8jB2X
 url:https://bioconductor.org/packages/release/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.html	url:https://bioconductor.org/packages/release/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.html	url:https://bioconductor.org/packages/release/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.html	GpcQXpz9
 url:https://cancer.sanger.ac.uk/cosmic	url:https://cancer.sanger.ac.uk/cosmic	url:https://cancer.sanger.ac.uk/cosmic	m4IK7k7z
-url:https://cbttc.org	url:https://cbttc.org	url:https://cbttc.org	ME49zC7J
 url:https://cran.r-project.org/package	url:https://cran.r-project.org/package	url:https://cran.r-project.org/package	WsAj0wOM
 url:https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/snv-callers/compare_snv_callers_plots.Rmd	url:https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/snv-callers/compare_snv_callers_plots.Rmd	url:https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/snv-callers/compare_snv_callers_plots.Rmd	Ob2wQ9wX
 url:https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/snv-callers/plots/comparison/upset_plot.png	url:https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/snv-callers/plots/comparison/upset_plot.png	url:https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/snv-callers/plots/comparison/upset_plot.png	Z1i0sjNH
@@ -82,4 +83,5 @@ url:https://software.broadinstitute.org/gatk/best-practices/workflow?id	url:http
 url:https://www.cancer.gov/types/brain/hp/child-cns-embryonal-treatment-pdq	url:https://www.cancer.gov/types/brain/hp/child-cns-embryonal-treatment-pdq	url:https://www.cancer.gov/types/brain/hp/child-cns-embryonal-treatment-pdq	1AM78Fkrd
 url:https://www.gencodegenes.org/human/release_19.html	url:https://www.gencodegenes.org/human/release_19.html	url:https://www.gencodegenes.org/human/release_19.html	ukGlPa3O
 url:https://www.gencodegenes.org/human/release_27.html	url:https://www.gencodegenes.org/human/release_27.html	url:https://www.gencodegenes.org/human/release_27.html	9oRUnb2k
+url:https://www.pnoc.us	url:https://www.pnoc.us	url:https://www.pnoc.us	cLFzPEr9
 url:https://www.rdocumentation.org/packages/IRanges/versions/2.6.1/topics/findOverlaps-methods	url:https://www.rdocumentation.org/packages/IRanges/versions/2.6.1/topics/findOverlaps-methods	url:https://www.rdocumentation.org/packages/IRanges/versions/2.6.1/topics/findOverlaps-methods	GAYU0k3L

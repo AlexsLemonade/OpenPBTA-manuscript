@@ -71,7 +71,7 @@ Noureen
 Payal
 PHG
 Pichai
-PichaiRaman
+pichairaman
 Raman
 Rathi
 Resnick
@@ -87,7 +87,7 @@ stephspiel
 Strelka
 Supervison
 syzheng
-Taroni
+taroni
 Tejaswi
 tkoganti
 vcf

@@ -249,6 +249,17 @@ authors:
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - github: arpoe
+    name: Anna R. Poetsch
+    initials: ARP
+    orcid: 0000-0003-3056-4360
+    twitter: APoetsch
+    email: arpoetsch@gmail.com
+    contributions:
+      - Formal Analysis
+    affiliations:
+      - Biotechnology Center, Technical University Dresden, Germany
+      - National Center for Tumor Diseases, Dresden, Germany
   - github: jainpayal022
     name: Payal Jain
     initials: PJ

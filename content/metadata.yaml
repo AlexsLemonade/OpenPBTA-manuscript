@@ -206,7 +206,7 @@ authors:
     name: Tejaswi Koganti
     initials: TK
     orcid: 0000-0002-7733-6480
-    email: kogantit@email.chop.edu
+    email: tejaswikoganti@gmail.com
     contributions:
       - Formal Analysis
       - Investigation
@@ -306,6 +306,27 @@ authors:
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - github: Yiran-Guo
+    name: Yiran Guo
+    initials: YG
+    orcid: 0000-0002-6549-8589
+    twitter: YiranGuo3
+    email: guoy@chop.edu
+    contributions:
+      - Formal Analysis
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - github: HuangXiaoyan0106
+    name: Xiaoyan Huang
+    initials: XH
+    orcid: 0000-0001-7267-4512
+    email: huangx@chop.edu
+    contributions:
+      - Formal Analysis
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
   - github: wongjessica93
     name: Jessica Wong
     initials: JW
@@ -337,6 +358,13 @@ authors:
     affiliations:
       - Department of Pathology and Laboratory Medicine, Children’s Hospital of Philadelphia
       - Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman School of Medicine
+  - name: Laura Scolaro
+    initials: LS
+    email: scolarol@chop.edu
+    contributions:
+      - Data Curation
+    affiliations:
+      - Division of Oncology, Children's Hospital of Philadelphia, Children’s Hospital of Philadelphia
   - github: awaanders
     name: Angela Waanders
     initials: AW

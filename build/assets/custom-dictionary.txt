@@ -22,6 +22,7 @@ BAMs
 BaseRecalibrator
 BCBIO
 BCFtools
+bcftools
 BCOR
 bedtools
 benchmarking
@@ -125,7 +126,7 @@ histologies
 histone
 hotspot
 HotspotAllele
-Hotspots
+hotspots
 Hyclone
 HyperPrep
 Hypothalamic
@@ -170,6 +171,7 @@ MNV
 monocytes
 Mortem
 MSigDB
+MSKCC
 MSKCC's
 multiforme
 multilayer
@@ -285,6 +287,7 @@ translocations
 Tregs
 trinucleotide
 TruSeq
+TSS
 tsv
 TTYH
 Tukey

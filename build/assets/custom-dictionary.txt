@@ -125,7 +125,7 @@ histological
 histologies
 histone
 hotspot
-HotspotAllele
+HotSpotAllele
 hotspots
 Hyclone
 HyperPrep

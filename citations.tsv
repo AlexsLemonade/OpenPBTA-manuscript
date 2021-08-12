@@ -22,7 +22,11 @@ doi:10/gdwrp4	doi:10/gdwrp4	doi:10.1038/s41592-018-0051-x	REfkDUtE
 url:https://github.com/broadinstitute/gatk/blob/4.1.1.0/scripts/mutect2_wdl/mutect2.wdl	url:https://github.com/broadinstitute/gatk/blob/4.1.1.0/scripts/mutect2_wdl/mutect2.wdl	url:https://github.com/broadinstitute/gatk/blob/4.1.1.0/scripts/mutect2_wdl/mutect2.wdl	E5aTvXmQ
 url:https://github.com/AstraZeneca-NGS/VarDictJava	url:https://github.com/AstraZeneca-NGS/VarDictJava	url:https://github.com/AstraZeneca-NGS/VarDictJava	1GMHnwH5p
 doi:10.1101/623702	doi:10.1101/623702	doi:10.1101/623702	bKthX7vJ
+url:http://samtools.github.io/bcftools/bcftools.html#norm	url:http://samtools.github.io/bcftools/bcftools.html#norm	url:http://samtools.github.io/bcftools/bcftools.html#norm	SkVcTxDP
+url:https://github.com/d3b-center/OpenPBTA-workflows/blob/master/cwl/kfdrc_annot_vcf_sub_wf.cwl	url:https://github.com/d3b-center/OpenPBTA-workflows/blob/master/cwl/kfdrc_annot_vcf_sub_wf.cwl	url:https://github.com/d3b-center/OpenPBTA-workflows/blob/master/cwl/kfdrc_annot_vcf_sub_wf.cwl	TeJdzIor
 doi:10/gdz75c	doi:10/gdz75c	doi:10.1186/s13059-016-0974-4	p1f5DxRQ
+url:https://www.cancerhotspots.org	url:https://www.cancerhotspots.org	url:https://www.cancerhotspots.org	qEpbKZ3t
+doi:10.3390/ijms21176034	doi:10.3390/ijms21176034	doi:10.3390/ijms21176034	59DKOl44
 url:https://github.com/mskcc/vcf2maf	url:https://github.com/mskcc/vcf2maf	url:https://github.com/mskcc/vcf2maf	11Fn5jqUI
 url:https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/snv-callers/compare_snv_callers_plots.Rmd	url:https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/snv-callers/compare_snv_callers_plots.Rmd	url:https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/snv-callers/compare_snv_callers_plots.Rmd	Ob2wQ9wX
 url:https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/snv-callers/plots/comparison/upset_plot.png	url:https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/snv-callers/plots/comparison/upset_plot.png	url:https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/snv-callers/plots/comparison/upset_plot.png	Z1i0sjNH

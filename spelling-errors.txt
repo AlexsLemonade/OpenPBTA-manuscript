@@ -90,7 +90,7 @@ stephspiel
 Strelka
 Supervison
 syzheng
-taroni
+Taroni
 Tejaswi
 tkoganti
 vcf

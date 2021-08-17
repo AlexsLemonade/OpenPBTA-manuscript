@@ -7,7 +7,7 @@
       "tumor atlas"
     ],
     "lang": "en-US",
-    "date-meta": "2021-08-12",
+    "date-meta": "2021-08-17",
     "author-meta": [
       "Joshua A. Shapiro",
       "Candace L. Savonen",
@@ -26,15 +26,19 @@
       "Tejaswi Koganti",
       "Shrivats Kannan",
       "Pichai Raman",
+      "Jennifer Mason",
       "Daniel P. Miller",
       "Anna R. Poetsch",
       "Payal Jain",
       "Adam A. Kraya",
       "Allison P. Heath",
       "Mateusz P. Koptyra",
+      "Yiran Guo",
+      "Xiaoyan Huang",
       "Jessica Wong",
       "Mariarita Santi",
       "Angela Viaene",
+      "Laura Scolaro",
       "Angela Waanders",
       "Derek Hanson",
       "Hongbo M. Xie",
@@ -49,7 +53,7 @@
       "Children's Brain Tumor Tissue Consortium",
       "Pacific Pediatric Neurooncology Consortium"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"An Open Pediatric Brain Tumor Atlas\" />\n<meta name=\"citation_title\" content=\"An Open Pediatric Brain Tumor Atlas\" />\n<meta property=\"og:title\" content=\"An Open Pediatric Brain Tumor Atlas\" />\n<meta property=\"twitter:title\" content=\"An Open Pediatric Brain Tumor Atlas\" />\n<meta name=\"dc.date\" content=\"2021-08-12\" />\n<meta name=\"citation_publication_date\" content=\"2021-08-12\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Joshua A. Shapiro\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Philadelphia, PA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-6224-0347\" />\n<meta name=\"twitter:creator\" content=\"@jashapiro\" />\n<meta name=\"citation_author\" content=\"Candace L. Savonen\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Philadelphia, PA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6331-7070\" />\n<meta name=\"twitter:creator\" content=\"@cansavvy\" />\n<meta name=\"citation_author\" content=\"Chante J. Bethell\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Philadelphia, PA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-9653-8128\" />\n<meta name=\"twitter:creator\" content=\"@cjbethell\" />\n<meta name=\"citation_author\" content=\"Krutika S. Gaonkar\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0838-2405\" />\n<meta name=\"twitter:creator\" content=\"@29aprilkrutika\" />\n<meta name=\"citation_author\" content=\"Yuankun Zhu\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2455-9525\" />\n<meta name=\"twitter:creator\" content=\"@zhuyuankun\" />\n<meta name=\"citation_author\" content=\"Miguel A. Brown\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6782-1442\" />\n<meta name=\"twitter:creator\" content=\"@migbro\" />\n<meta name=\"citation_author\" content=\"Nhat Duong\" />\n<meta name=\"citation_author_institution\" content=\"Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2852-4263\" />\n<meta name=\"twitter:creator\" content=\"@asiannhat\" />\n<meta name=\"citation_author\" content=\"Komal S. Rathi\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-5534-6904\" />\n<meta name=\"twitter:creator\" content=\"@komalsrathi\" />\n<meta name=\"citation_author\" content=\"Nighat Noureen\" />\n<meta name=\"citation_author_institution\" content=\"Greehey Children&#39;s Cancer Research Institute, UT Health San Antonio\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7495-8201\" />\n<meta name=\"citation_author\" content=\"Bo Zhang\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0743-5379\" />\n<meta name=\"citation_author\" content=\"Brian M. Ennis\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2653-5009\" />\n<meta name=\"citation_author\" content=\"Stephanie J. Spielman\" />\n<meta name=\"citation_author_institution\" content=\"Rowan University, Glassboro, NJ, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9090-4788\" />\n<meta name=\"twitter:creator\" content=\"@stephspiel\" />\n<meta name=\"citation_author\" content=\"Bailey Farrow\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6727-6333\" />\n<meta name=\"citation_author\" content=\"Nicolas Van Kuren\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-7414-9516\" />\n<meta name=\"citation_author\" content=\"Tejaswi Koganti\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-7733-6480\" />\n<meta name=\"citation_author\" content=\"Shrivats Kannan\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1460-920X\" />\n<meta name=\"twitter:creator\" content=\"@kshrivats\" />\n<meta name=\"citation_author\" content=\"Pichai Raman\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6948-2157\" />\n<meta name=\"twitter:creator\" content=\"@PichaiRaman\" />\n<meta name=\"citation_author\" content=\"Daniel P. Miller\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2032-4358\" />\n<meta name=\"citation_author\" content=\"Anna R. Poetsch\" />\n<meta name=\"citation_author_institution\" content=\"Biotechnology Center, Technical University Dresden, Germany\" />\n<meta name=\"citation_author_institution\" content=\"National Center for Tumor Diseases, Dresden, Germany\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3056-4360\" />\n<meta name=\"twitter:creator\" content=\"@APoetsch\" />\n<meta name=\"citation_author\" content=\"Payal Jain\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5914-9083\" />\n<meta name=\"twitter:creator\" content=\"@jainpayal022\" />\n<meta name=\"citation_author\" content=\"Adam A. Kraya\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-8526-5694\" />\n<meta name=\"citation_author\" content=\"Allison P. Heath\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2583-9668\" />\n<meta name=\"twitter:creator\" content=\"@allig8r\" />\n<meta name=\"citation_author\" content=\"Mateusz P. Koptyra\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3857-6633\" />\n<meta name=\"twitter:creator\" content=\"@koptyram\" />\n<meta name=\"citation_author\" content=\"Jessica Wong\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1508-7631\" />\n<meta name=\"twitter:creator\" content=\"@jessicawongbfx\" />\n<meta name=\"citation_author\" content=\"Mariarita Santi\" />\n<meta name=\"citation_author_institution\" content=\"Department of Pathology and Laboratory Medicine, Children’s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman School of Medicine\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-6728-3450\" />\n<meta name=\"citation_author\" content=\"Angela Viaene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Pathology and Laboratory Medicine, Children’s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman School of Medicine\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6430-8360\" />\n<meta name=\"citation_author\" content=\"Angela Waanders\" />\n<meta name=\"citation_author_institution\" content=\"Department of Oncology, Ann &amp; Robert H. Lurie Children’s Hospital of Chicago\" />\n<meta name=\"citation_author_institution\" content=\"Department of Pediatrics, Northwestern University Feinberg School of Medicine\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0571-2889\" />\n<meta name=\"citation_author\" content=\"Derek Hanson\" />\n<meta name=\"citation_author_institution\" content=\"Hackensack Meridian School of Medicine\" />\n<meta name=\"citation_author_institution\" content=\"Hackensack University Medical Center\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0024-5142\" />\n<meta name=\"citation_author\" content=\"Hongbo M. Xie\" />\n<meta name=\"citation_author_institution\" content=\"Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2223-0029\" />\n<meta name=\"twitter:creator\" content=\"@xiehb\" />\n<meta name=\"citation_author\" content=\"Siyuan Zheng\" />\n<meta name=\"citation_author_institution\" content=\"Greehey Children&#39;s Cancer Research Institute, UT Health San Antonio\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1031-9424\" />\n<meta name=\"twitter:creator\" content=\"@zhengsiyuan\" />\n<meta name=\"citation_author\" content=\"Cassie N. Kline\" />\n<meta name=\"citation_author_institution\" content=\"Division of Oncology, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7765-7690\" />\n<meta name=\"twitter:creator\" content=\"@cnkline13\" />\n<meta name=\"citation_author\" content=\"Jena V. Lilly\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1439-6045\" />\n<meta name=\"twitter:creator\" content=\"@jvlilly\" />\n<meta name=\"citation_author\" content=\"Philip B. Storm\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-7964-2449\" />\n<meta name=\"citation_author\" content=\"Adam C. Resnick\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0436-4189\" />\n<meta name=\"twitter:creator\" content=\"@adamcresnick\" />\n<meta name=\"citation_author\" content=\"Jo Lynne Rokita\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2171-3627\" />\n<meta name=\"twitter:creator\" content=\"@jolynnerokita\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Philadelphia, PA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"twitter:creator\" content=\"@greenescientist\" />\n<meta name=\"citation_author\" content=\"Jaclyn N. Taroni\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Philadelphia, PA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4734-4508\" />\n<meta name=\"twitter:creator\" content=\"@jaclyn_taroni\" />\n<meta name=\"citation_author\" content=\"Children&#39;s Brain Tumor Tissue Consortium\" />\n<meta name=\"citation_author\" content=\"Pacific Pediatric Neurooncology Consortium\" />\n<link rel=\"canonical\" href=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/\" />\n<meta property=\"og:url\" content=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/\" />\n<meta property=\"twitter:url\" content=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/\" />\n<meta name=\"citation_pdf_url\" content=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/faeedfbf2e39df45b9bec15c58ade3a2ff672c79/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/faeedfbf2e39df45b9bec15c58ade3a2ff672c79/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/faeedfbf2e39df45b9bec15c58ade3a2ff672c79/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"An Open Pediatric Brain Tumor Atlas\" />\n<meta name=\"citation_title\" content=\"An Open Pediatric Brain Tumor Atlas\" />\n<meta property=\"og:title\" content=\"An Open Pediatric Brain Tumor Atlas\" />\n<meta property=\"twitter:title\" content=\"An Open Pediatric Brain Tumor Atlas\" />\n<meta name=\"dc.date\" content=\"2021-08-17\" />\n<meta name=\"citation_publication_date\" content=\"2021-08-17\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Joshua A. Shapiro\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Philadelphia, PA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-6224-0347\" />\n<meta name=\"twitter:creator\" content=\"@jashapiro\" />\n<meta name=\"citation_author\" content=\"Candace L. Savonen\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Philadelphia, PA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6331-7070\" />\n<meta name=\"twitter:creator\" content=\"@cansavvy\" />\n<meta name=\"citation_author\" content=\"Chante J. Bethell\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Philadelphia, PA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-9653-8128\" />\n<meta name=\"twitter:creator\" content=\"@cjbethell\" />\n<meta name=\"citation_author\" content=\"Krutika S. Gaonkar\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0838-2405\" />\n<meta name=\"twitter:creator\" content=\"@29aprilkrutika\" />\n<meta name=\"citation_author\" content=\"Yuankun Zhu\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2455-9525\" />\n<meta name=\"twitter:creator\" content=\"@zhuyuankun\" />\n<meta name=\"citation_author\" content=\"Miguel A. Brown\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6782-1442\" />\n<meta name=\"twitter:creator\" content=\"@migbro\" />\n<meta name=\"citation_author\" content=\"Nhat Duong\" />\n<meta name=\"citation_author_institution\" content=\"Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2852-4263\" />\n<meta name=\"twitter:creator\" content=\"@asiannhat\" />\n<meta name=\"citation_author\" content=\"Komal S. Rathi\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-5534-6904\" />\n<meta name=\"twitter:creator\" content=\"@komalsrathi\" />\n<meta name=\"citation_author\" content=\"Nighat Noureen\" />\n<meta name=\"citation_author_institution\" content=\"Greehey Children&#39;s Cancer Research Institute, UT Health San Antonio\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7495-8201\" />\n<meta name=\"citation_author\" content=\"Bo Zhang\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0743-5379\" />\n<meta name=\"citation_author\" content=\"Brian M. Ennis\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2653-5009\" />\n<meta name=\"citation_author\" content=\"Stephanie J. Spielman\" />\n<meta name=\"citation_author_institution\" content=\"Rowan University, Glassboro, NJ, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9090-4788\" />\n<meta name=\"twitter:creator\" content=\"@stephspiel\" />\n<meta name=\"citation_author\" content=\"Bailey Farrow\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6727-6333\" />\n<meta name=\"citation_author\" content=\"Nicolas Van Kuren\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-7414-9516\" />\n<meta name=\"citation_author\" content=\"Tejaswi Koganti\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-7733-6480\" />\n<meta name=\"citation_author\" content=\"Shrivats Kannan\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1460-920X\" />\n<meta name=\"twitter:creator\" content=\"@kshrivats\" />\n<meta name=\"citation_author\" content=\"Pichai Raman\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6948-2157\" />\n<meta name=\"twitter:creator\" content=\"@PichaiRaman\" />\n<meta name=\"citation_author\" content=\"Jennifer Mason\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"twitter:creator\" content=\"@jenn0307\" />\n<meta name=\"citation_author\" content=\"Daniel P. Miller\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2032-4358\" />\n<meta name=\"citation_author\" content=\"Anna R. Poetsch\" />\n<meta name=\"citation_author_institution\" content=\"Biotechnology Center, Technical University Dresden, Germany\" />\n<meta name=\"citation_author_institution\" content=\"National Center for Tumor Diseases, Dresden, Germany\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3056-4360\" />\n<meta name=\"twitter:creator\" content=\"@APoetsch\" />\n<meta name=\"citation_author\" content=\"Payal Jain\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5914-9083\" />\n<meta name=\"twitter:creator\" content=\"@jainpayal022\" />\n<meta name=\"citation_author\" content=\"Adam A. Kraya\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-8526-5694\" />\n<meta name=\"citation_author\" content=\"Allison P. Heath\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2583-9668\" />\n<meta name=\"twitter:creator\" content=\"@allig8r\" />\n<meta name=\"citation_author\" content=\"Mateusz P. Koptyra\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3857-6633\" />\n<meta name=\"twitter:creator\" content=\"@koptyram\" />\n<meta name=\"citation_author\" content=\"Yiran Guo\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-6549-8589\" />\n<meta name=\"twitter:creator\" content=\"@YiranGuo3\" />\n<meta name=\"citation_author\" content=\"Xiaoyan Huang\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7267-4512\" />\n<meta name=\"citation_author\" content=\"Jessica Wong\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1508-7631\" />\n<meta name=\"twitter:creator\" content=\"@jessicawongbfx\" />\n<meta name=\"citation_author\" content=\"Mariarita Santi\" />\n<meta name=\"citation_author_institution\" content=\"Department of Pathology and Laboratory Medicine, Children’s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman School of Medicine\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-6728-3450\" />\n<meta name=\"citation_author\" content=\"Angela Viaene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Pathology and Laboratory Medicine, Children’s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman School of Medicine\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6430-8360\" />\n<meta name=\"citation_author\" content=\"Laura Scolaro\" />\n<meta name=\"citation_author_institution\" content=\"Division of Oncology, Children&#39;s Hospital of Philadelphia, Children’s Hospital of Philadelphia\" />\n<meta name=\"citation_author\" content=\"Angela Waanders\" />\n<meta name=\"citation_author_institution\" content=\"Department of Oncology, Ann &amp; Robert H. Lurie Children’s Hospital of Chicago\" />\n<meta name=\"citation_author_institution\" content=\"Department of Pediatrics, Northwestern University Feinberg School of Medicine\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0571-2889\" />\n<meta name=\"citation_author\" content=\"Derek Hanson\" />\n<meta name=\"citation_author_institution\" content=\"Hackensack Meridian School of Medicine\" />\n<meta name=\"citation_author_institution\" content=\"Hackensack University Medical Center\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0024-5142\" />\n<meta name=\"citation_author\" content=\"Hongbo M. Xie\" />\n<meta name=\"citation_author_institution\" content=\"Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2223-0029\" />\n<meta name=\"twitter:creator\" content=\"@xiehb\" />\n<meta name=\"citation_author\" content=\"Siyuan Zheng\" />\n<meta name=\"citation_author_institution\" content=\"Greehey Children&#39;s Cancer Research Institute, UT Health San Antonio\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1031-9424\" />\n<meta name=\"twitter:creator\" content=\"@zhengsiyuan\" />\n<meta name=\"citation_author\" content=\"Cassie N. Kline\" />\n<meta name=\"citation_author_institution\" content=\"Division of Oncology, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7765-7690\" />\n<meta name=\"twitter:creator\" content=\"@cnkline13\" />\n<meta name=\"citation_author\" content=\"Jena V. Lilly\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1439-6045\" />\n<meta name=\"twitter:creator\" content=\"@jvlilly\" />\n<meta name=\"citation_author\" content=\"Philip B. Storm\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-7964-2449\" />\n<meta name=\"citation_author\" content=\"Adam C. Resnick\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0436-4189\" />\n<meta name=\"twitter:creator\" content=\"@adamcresnick\" />\n<meta name=\"citation_author\" content=\"Jo Lynne Rokita\" />\n<meta name=\"citation_author_institution\" content=\"Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Division of Neurosurgery, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_institution\" content=\"Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2171-3627\" />\n<meta name=\"twitter:creator\" content=\"@jolynnerokita\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Philadelphia, PA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"twitter:creator\" content=\"@greenescientist\" />\n<meta name=\"citation_author\" content=\"Jaclyn N. Taroni\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Philadelphia, PA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4734-4508\" />\n<meta name=\"twitter:creator\" content=\"@jaclyn_taroni\" />\n<meta name=\"citation_author\" content=\"Children&#39;s Brain Tumor Tissue Consortium\" />\n<meta name=\"citation_author\" content=\"Pacific Pediatric Neurooncology Consortium\" />\n<link rel=\"canonical\" href=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/\" />\n<meta property=\"og:url\" content=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/\" />\n<meta property=\"twitter:url\" content=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/\" />\n<meta name=\"citation_pdf_url\" content=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/ac9b6c2f7abffcf779dbb9ec4471f9b818ffbf83/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/ac9b6c2f7abffcf779dbb9ec4471f9b818ffbf83/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/ac9b6c2f7abffcf779dbb9ec4471f9b818ffbf83/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -59,7 +63,7 @@
     "manubot-clear-requests-cache": false
   },
   "manubot": {
-    "date": "August 12, 2021",
+    "date": "August 17, 2021",
     "authors": [
       {
         "github": "jashapiro",
@@ -146,7 +150,7 @@
         "initials": "KSG",
         "orcid": "0000-0003-0838-2405",
         "twitter": "29aprilkrutika",
-        "email": "gaonkark@email.chop.edu",
+        "email": "gaonkark@chop.edu",
         "contributions": [
           "Data curation",
           "Formal Analysis",
@@ -172,7 +176,7 @@
         "initials": "YZ",
         "orcid": "0000-0002-2455-9525",
         "twitter": "zhuyuankun",
-        "email": "zhuy@email.chop.edu",
+        "email": "zhuy@chop.edu",
         "contributions": [
           "Data curation",
           "Formal Analysis",
@@ -195,7 +199,7 @@
         "initials": "MAB",
         "orcid": "0000-0001-6782-1442",
         "twitter": "migbro",
-        "email": "brownm28@email.chop.edu",
+        "email": "brownm28@chop.edu",
         "contributions": [
           "Data curation",
           "Methodology"
@@ -234,7 +238,7 @@
         "initials": "KSR",
         "orcid": "0000-0001-5534-6904",
         "twitter": "komalsrathi",
-        "email": "rathik@email.chop.edu",
+        "email": "rathik@chop.edu",
         "contributions": [
           "Formal Analysis",
           "Investigation",
@@ -273,7 +277,7 @@
         "name": "Bo Zhang",
         "initials": "BZ",
         "orcid": "0000-0002-0743-5379",
-        "email": "zhangb1@email.chop.edu",
+        "email": "zhangb1@chop.edu",
         "contributions": [
           "Data curation",
           "Formal Analysis"
@@ -292,7 +296,7 @@
         "name": "Brian M. Ennis",
         "initials": "BME",
         "orcid": "0000-0002-2653-5009",
-        "email": "ennisb@email.chop.edu",
+        "email": "ennisb@chop.edu",
         "contributions": [
           "Data curation",
           "Formal Analysis"
@@ -335,7 +339,7 @@
         "name": "Bailey Farrow",
         "initials": "BF",
         "orcid": "0000-0001-6727-6333",
-        "email": "farrowb@email.chop.edu",
+        "email": "farrowb@chop.edu",
         "contributions": [
           "Data curation",
           "Software"
@@ -354,7 +358,7 @@
         "name": "Nicolas Van Kuren",
         "initials": "NK",
         "orcid": "0000-0002-7414-9516",
-        "email": "vankurenk@email.chop.edu",
+        "email": "vankurenk@chop.edu",
         "contributions": [
           "Data curation",
           "Software"
@@ -373,7 +377,7 @@
         "name": "Tejaswi Koganti",
         "initials": "TK",
         "orcid": "0000-0002-7733-6480",
-        "email": "kogantit@email.chop.edu",
+        "email": "tejaswikoganti@gmail.com",
         "contributions": [
           "Formal Analysis",
           "Investigation"
@@ -430,11 +434,29 @@
         ]
       },
       {
+        "github": "jenn0307",
+        "name": "Jennifer Mason",
+        "initials": "JM",
+        "twitter": "jenn0307",
+        "email": "masonjl@chop.edu",
+        "contributions": [
+          "Supervision"
+        ],
+        "affiliations": [
+          "Center for Data-Driven Discovery, Children's Hospital of Philadelphia",
+          "Division of Neurosurgery, Children's Hospital of Philadelphia"
+        ],
+        "affiliation_numbers": [
+          2,
+          3
+        ]
+      },
+      {
         "github": "dmiller15",
         "name": "Daniel P. Miller",
         "initials": "DPM",
         "orcid": "0000-0002-2032-4358",
-        "email": "millerd15@email.chop.edu",
+        "email": "millerd15@chop.edu",
         "contributions": [
           "Formal Analysis"
         ],
@@ -472,7 +494,7 @@
         "initials": "PJ",
         "orcid": "0000-0002-5914-9083",
         "twitter": "jainpayal022",
-        "email": "jainp@email.chop.edu",
+        "email": "jainp@chop.edu",
         "contributions": [
           "Data curation",
           "Investigation",
@@ -492,7 +514,7 @@
         "name": "Adam A. Kraya",
         "initials": "AAK",
         "orcid": "0000-0002-8526-5694",
-        "email": "krayaa@email.chop.edu",
+        "email": "krayaa@chop.edu",
         "contributions": [
           "Methodology"
         ],
@@ -511,7 +533,7 @@
         "initials": "APH",
         "orcid": "0000-0002-2583-9668",
         "twitter": "allig8r",
-        "email": "heathap@email.chop.edu",
+        "email": "heathap@chop.edu",
         "contributions": [
           "Project administration"
         ],
@@ -530,10 +552,47 @@
         "initials": "MPK",
         "orcid": "0000-0002-3857-6633",
         "twitter": "koptyram",
-        "email": "koptyram@email.chop.edu",
+        "email": "koptyram@chop.edu",
         "contributions": [
           "Formal Analysis",
           "Writing – original draft"
+        ],
+        "affiliations": [
+          "Center for Data-Driven Discovery, Children's Hospital of Philadelphia",
+          "Division of Neurosurgery, Children's Hospital of Philadelphia"
+        ],
+        "affiliation_numbers": [
+          2,
+          3
+        ]
+      },
+      {
+        "github": "Yiran-Guo",
+        "name": "Yiran Guo",
+        "initials": "YG",
+        "orcid": "0000-0002-6549-8589",
+        "twitter": "YiranGuo3",
+        "email": "guoy@chop.edu",
+        "contributions": [
+          "Formal Analysis"
+        ],
+        "affiliations": [
+          "Center for Data-Driven Discovery, Children's Hospital of Philadelphia",
+          "Division of Neurosurgery, Children's Hospital of Philadelphia"
+        ],
+        "affiliation_numbers": [
+          2,
+          3
+        ]
+      },
+      {
+        "github": "HuangXiaoyan0106",
+        "name": "Xiaoyan Huang",
+        "initials": "XH",
+        "orcid": "0000-0001-7267-4512",
+        "email": "huangx@chop.edu",
+        "contributions": [
+          "Formal Analysis"
         ],
         "affiliations": [
           "Center for Data-Driven Discovery, Children's Hospital of Philadelphia",
@@ -567,7 +626,7 @@
         "name": "Mariarita Santi",
         "initials": "MS",
         "orcid": "0000-0002-6728-3450",
-        "email": "santim@email.chop.edu",
+        "email": "santim@chop.edu",
         "contributions": [
           "Investigation",
           "Validation"
@@ -585,7 +644,7 @@
         "name": "Angela Viaene",
         "initials": "AV",
         "orcid": "0000-0001-6430-8360",
-        "email": "viaenea@email.chop.edu",
+        "email": "viaenea@chop.edu",
         "contributions": [
           "Investigation",
           "Validation"
@@ -597,6 +656,20 @@
         "affiliation_numbers": [
           9,
           10
+        ]
+      },
+      {
+        "name": "Laura Scolaro",
+        "initials": "LS",
+        "email": "scolarol@chop.edu",
+        "contributions": [
+          "Data Curation"
+        ],
+        "affiliations": [
+          "Division of Oncology, Children's Hospital of Philadelphia, Children’s Hospital of Philadelphia"
+        ],
+        "affiliation_numbers": [
+          11
         ]
       },
       {
@@ -613,8 +686,8 @@
           "Department of Pediatrics, Northwestern University Feinberg School of Medicine"
         ],
         "affiliation_numbers": [
-          11,
-          12
+          12,
+          13
         ]
       },
       {
@@ -630,8 +703,8 @@
           "Hackensack University Medical Center"
         ],
         "affiliation_numbers": [
-          13,
-          14
+          14,
+          15
         ]
       },
       {
@@ -640,7 +713,7 @@
         "initials": "HMX",
         "orcid": "0000-0003-2223-0029",
         "twitter": "xiehb",
-        "email": "xiem1@email.chop.edu",
+        "email": "xiem1@chop.edu",
         "contributions": [
           "Methodology",
           "Supervision"
@@ -676,7 +749,7 @@
         "name": "Cassie N. Kline",
         "initials": "CNK",
         "orcid": "0000-0001-7765-7690",
-        "email": "klinec@email.chop.edu",
+        "email": "klinec@chop.edu",
         "twitter": "cnkline13",
         "contributions": [
           "Supervision"
@@ -685,7 +758,7 @@
           "Division of Oncology, Children's Hospital of Philadelphia"
         ],
         "affiliation_numbers": [
-          15
+          16
         ]
       },
       {
@@ -694,7 +767,7 @@
         "initials": "JVL",
         "orcid": "0000-0003-1439-6045",
         "twitter": "jvlilly",
-        "email": "lillyj@email.chop.edu",
+        "email": "lillyj@chop.edu",
         "contributions": [
           "Conceptualization",
           "Funding acquisition",
@@ -713,7 +786,7 @@
         "name": "Philip B. Storm",
         "initials": "PBS",
         "orcid": "0000-0002-7964-2449",
-        "email": "storm@email.chop.edu",
+        "email": "storm@chop.edu",
         "contributions": [
           "Conceptualization",
           "Funding acquisition",
@@ -734,7 +807,7 @@
         "initials": "ACR",
         "orcid": "0000-0003-0436-4189",
         "twitter": "adamcresnick",
-        "email": "resnick@email.chop.edu",
+        "email": "resnick@chop.edu",
         "contributions": [
           "Conceptualization",
           "Funding acquisition",
@@ -761,7 +834,7 @@
         "initials": "JR",
         "orcid": "0000-0003-2171-3627",
         "twitter": "jolynnerokita",
-        "email": "rokita@email.chop.edu",
+        "email": "rokita@chop.edu",
         "contributions": [
           "Conceptualization",
           "Data curation",
@@ -812,7 +885,7 @@
         ],
         "affiliation_numbers": [
           1,
-          16
+          17
         ]
       },
       {
@@ -901,28 +974,32 @@
         "affiliation_number": 10
       },
       {
-        "affiliation": "Department of Oncology, Ann & Robert H. Lurie Children’s Hospital of Chicago",
+        "affiliation": "Division of Oncology, Children's Hospital of Philadelphia, Children’s Hospital of Philadelphia",
         "affiliation_number": 11
       },
       {
-        "affiliation": "Department of Pediatrics, Northwestern University Feinberg School of Medicine",
+        "affiliation": "Department of Oncology, Ann & Robert H. Lurie Children’s Hospital of Chicago",
         "affiliation_number": 12
       },
       {
-        "affiliation": "Hackensack Meridian School of Medicine",
+        "affiliation": "Department of Pediatrics, Northwestern University Feinberg School of Medicine",
         "affiliation_number": 13
       },
       {
-        "affiliation": "Hackensack University Medical Center",
+        "affiliation": "Hackensack Meridian School of Medicine",
         "affiliation_number": 14
       },
       {
-        "affiliation": "Division of Oncology, Children's Hospital of Philadelphia",
+        "affiliation": "Hackensack University Medical Center",
         "affiliation_number": 15
       },
       {
-        "affiliation": "Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA",
+        "affiliation": "Division of Oncology, Children's Hospital of Philadelphia",
         "affiliation_number": 16
+      },
+      {
+        "affiliation": "Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA",
+        "affiliation_number": 17
       }
     ],
     "ci_source": {
@@ -930,15 +1007,15 @@
       "repo_slug": "AlexsLemonade/OpenPBTA-manuscript",
       "repo_owner": "AlexsLemonade",
       "repo_name": "OpenPBTA-manuscript",
-      "commit": "faeedfbf2e39df45b9bec15c58ade3a2ff672c79",
-      "triggering_commit": "faeedfbf2e39df45b9bec15c58ade3a2ff672c79",
-      "build_url": "https://github.com/AlexsLemonade/OpenPBTA-manuscript/commit/faeedfbf2e39df45b9bec15c58ade3a2ff672c79/checks",
+      "commit": "ac9b6c2f7abffcf779dbb9ec4471f9b818ffbf83",
+      "triggering_commit": "ac9b6c2f7abffcf779dbb9ec4471f9b818ffbf83",
+      "build_url": "https://github.com/AlexsLemonade/OpenPBTA-manuscript/commit/ac9b6c2f7abffcf779dbb9ec4471f9b818ffbf83/checks",
       "job_url": "https://github.com/AlexsLemonade/OpenPBTA-manuscript/runs/__run_3"
     },
     "html_url": "https://AlexsLemonade.github.io/OpenPBTA-manuscript/",
     "pdf_url": "https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf",
-    "html_url_versioned": "https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/faeedfbf2e39df45b9bec15c58ade3a2ff672c79/",
-    "pdf_url_versioned": "https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/faeedfbf2e39df45b9bec15c58ade3a2ff672c79/manuscript.pdf",
+    "html_url_versioned": "https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/ac9b6c2f7abffcf779dbb9ec4471f9b818ffbf83/",
+    "pdf_url_versioned": "https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/ac9b6c2f7abffcf779dbb9ec4471f9b818ffbf83/manuscript.pdf",
     "manubot_version": "0.4.1",
     "rootstock_commit": "97b294802ffcd39071b6e5b8ab59f60faf4be118",
     "manuscript_stats": {

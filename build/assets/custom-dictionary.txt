@@ -308,3 +308,9 @@ wikidata
 WNT
 WXS
 xCell
+autosomes
+PanCan
+Fraumeni
+allelic
+IARC
+vcf

@@ -19,7 +19,7 @@ cgreene
 Chante
 CHCl
 CHL
-Chr
+chr
 cjbethell
 cnkline
 CXXC
@@ -76,7 +76,7 @@ Noureen
 Payal
 PHG
 Pichai
-PichaiRaman
+pichairaman
 Poetsch
 Raman
 Rathi
@@ -97,7 +97,7 @@ syzheng
 taroni
 Tejaswi
 tkoganti
-vcf
+TP
 Viaene
 Waanders
 wongjessica

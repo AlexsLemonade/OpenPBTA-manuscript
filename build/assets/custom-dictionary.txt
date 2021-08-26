@@ -314,3 +314,7 @@ Fraumeni
 allelic
 IARC
 vcf
+CNC
+EVN
+extraventricular
+neurocytoma

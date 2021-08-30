@@ -22,6 +22,7 @@ CHL
 Chr
 cjbethell
 cnkline
+CTNNB
 CXXC
 dmiller
 Duong
@@ -94,7 +95,7 @@ stephspiel
 Strelka
 Supervison
 syzheng
-Taroni
+taroni
 Tejaswi
 tkoganti
 TP

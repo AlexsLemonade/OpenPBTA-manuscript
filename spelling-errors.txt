@@ -19,7 +19,7 @@ cgreene
 Chante
 CHCl
 CHL
-Chr
+chr
 cjbethell
 cnkline
 CTNNB
@@ -27,6 +27,7 @@ CXXC
 dmiller
 Duong
 Ennis
+EWSR
 Feinberg
 fingerfen
 Gaonkar
@@ -77,7 +78,7 @@ Noureen
 Payal
 PHG
 Pichai
-PichaiRaman
+pichairaman
 Poetsch
 Raman
 Rathi

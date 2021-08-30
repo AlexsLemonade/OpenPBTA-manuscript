@@ -321,4 +321,11 @@ ependymoblastoma
 medulloepithelioma
 ros
 HGNET
-
+CNC
+EVN
+extraventricular
+neurocytoma
+adamantinomatous
+CRANIO
+ACP
+craniopharyngiomas

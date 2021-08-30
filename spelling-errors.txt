@@ -19,7 +19,7 @@ cgreene
 Chante
 CHCl
 CHL
-chr
+Chr
 cjbethell
 cnkline
 CXXC
@@ -76,7 +76,7 @@ Noureen
 Payal
 PHG
 Pichai
-pichairaman
+PichaiRaman
 Poetsch
 Raman
 Rathi
@@ -94,7 +94,7 @@ stephspiel
 Strelka
 Supervison
 syzheng
-taroni
+Taroni
 Tejaswi
 tkoganti
 TP

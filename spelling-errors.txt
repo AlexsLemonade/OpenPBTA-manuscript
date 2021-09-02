@@ -20,7 +20,7 @@ cgreene
 Chante
 CHCl
 CHL
-Chr
+chr
 cjbethell
 CLDN
 cnkline

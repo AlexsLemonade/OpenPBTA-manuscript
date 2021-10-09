@@ -333,3 +333,8 @@ adamantinomatous
 CRANIO
 ACP
 craniopharyngiomas
+DMG
+SVs
+CircleCI
+ManuBot
+reproducibility

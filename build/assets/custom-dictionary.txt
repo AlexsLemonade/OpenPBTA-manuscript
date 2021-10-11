@@ -333,3 +333,9 @@ adamantinomatous
 CRANIO
 ACP
 craniopharyngiomas
+missense
+Thr
+FGFR
+tyrosine
+MYB
+recoded

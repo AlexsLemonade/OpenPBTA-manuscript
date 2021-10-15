@@ -357,3 +357,8 @@ FGFR
 tyrosine
 MYB
 recoded
+DMG
+SVs
+CircleCI
+ManuBot
+reproducibility

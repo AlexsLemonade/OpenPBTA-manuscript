@@ -1,4 +1,4 @@
-personal_ws-1.1 en 306 utf-8
+personal_ws-1.1 en 395 utf-8
 acknowledgments
 Agilent
 Agilent's
@@ -324,7 +324,6 @@ Supratentorial
 ependymoblastoma
 medulloepithelioma
 ros
-HGNET
 CNC
 EVN
 extraventricular
@@ -362,3 +361,36 @@ SVs
 CircleCI
 ManuBot
 reproducibility
+oncoprint
+MAPK
+RAS
+upregulation
+KRAS
+LGATs
+ATRTs
+ETMRs
+rhabdoid
+teratoid
+oligodendroglial
+DMGs
+oligodendroglioma
+downregulation
+craniopharayngiomas
+desmoplastic
+dysembryoplastic
+barplot
+ependymomal
+fibrillary
+ganglioglioma
+ganglioneuroblastoma
+glial
+GNT
+melanocytic
+meningiomas
+meningothelial
+mesenchymal
+paraspinal
+pleomorphic
+sellar
+Subependymal
+xanthoastrocytoma

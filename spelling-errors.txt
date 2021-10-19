@@ -23,7 +23,7 @@ cgreene
 Chante
 CHCl
 CHL
-Chr
+chr
 cjbethell
 CLDN
 cnkline
@@ -38,8 +38,6 @@ Feinberg
 fingerfen
 Gaonkar
 Glassboro
-glialneuronal
-GNT
 GPBP
 Greehey
 greenescientist
@@ -80,9 +78,7 @@ Mateusz
 migbro
 mkoptyra
 Mutect
-muttation
 NCT
-neurofibromatosis
 Neurooncology
 Nhat
 nicholasvk

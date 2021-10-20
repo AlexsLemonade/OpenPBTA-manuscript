@@ -91,7 +91,7 @@ Payal
 PDGFRA
 PHG
 Pichai
-PichaiRaman
+pichairaman
 Poetsch
 Raman
 Rathi
@@ -110,7 +110,7 @@ stephspiel
 Strelka
 Supervison
 syzheng
-Taroni
+taroni
 Tejaswi
 tkoganti
 TKTL

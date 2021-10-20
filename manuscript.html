@@ -47,7 +47,7 @@
   <meta name="author" content="Jaclyn N. Taroni" />
   <meta name="author" content="Children’s Brain Tumor Tissue Consortium" />
   <meta name="author" content="Pacific Pediatric Neurooncology Consortium" />
-  <meta name="dcterms.date" content="2021-10-19" />
+  <meta name="dcterms.date" content="2021-10-20" />
   <meta name="keywords" content="pediatric cancer, brain tumor, tumor atlas" />
   <title>An Open Pediatric Brain Tumor Atlas</title>
   <style>
@@ -70,8 +70,8 @@
   <meta name="citation_title" content="An Open Pediatric Brain Tumor Atlas" />
   <meta property="og:title" content="An Open Pediatric Brain Tumor Atlas" />
   <meta property="twitter:title" content="An Open Pediatric Brain Tumor Atlas" />
-  <meta name="dc.date" content="2021-10-19" />
-  <meta name="citation_publication_date" content="2021-10-19" />
+  <meta name="dc.date" content="2021-10-20" />
+  <meta name="citation_publication_date" content="2021-10-20" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -267,9 +267,9 @@
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/9b8aa173956a6ab5fac2682d35251e1489c91d17/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/9b8aa173956a6ab5fac2682d35251e1489c91d17/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/9b8aa173956a6ab5fac2682d35251e1489c91d17/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/6be35a4ca8cd616b61bc24ccf6801f8e1f7054e7/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/6be35a4ca8cd616b61bc24ccf6801f8e1f7054e7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/6be35a4ca8cd616b61bc24ccf6801f8e1f7054e7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -283,10 +283,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/9b8aa173956a6ab5fac2682d35251e1489c91d17/">permalink</a>)
+(<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/6be35a4ca8cd616b61bc24ccf6801f8e1f7054e7/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/9b8aa173956a6ab5fac2682d35251e1489c91d17">AlexsLemonade/OpenPBTA-manuscript@9b8aa17</a>
-on October 19, 2021.
+from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/6be35a4ca8cd616b61bc24ccf6801f8e1f7054e7">AlexsLemonade/OpenPBTA-manuscript@6be35a4</a>
+on October 20, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -1217,6 +1217,242 @@ Briefly, fusion, CNV and gene expression data were used to subtype EPN as follow
 - chromosome 11 long arm (11q) gain
 - <em>ARL4D</em> expression z-score of over 3
 - <em>CLDN1</em> expression z-score of over 3</p>
+<p>After all relevant tumor samples were subtyped by the above molecular subtyping modules, the results from these modules, along with other clinical information (such as pathology diagnosis free text), were compiled through <code>molecular-subtyping-pathology</code> module.
+The compilation was executed by the following steps:</p>
+<p>Firstly, <code>broad_histology</code>, <code>short_histology</code>, and <code>integrated_diagnosis</code> columns in the result files from the above subtyping modules (i.e., <code>CRANIO_molecular_subtype.tsv</code>, <code>EWS_results.tsv</code>, <code>EPN_all_data_withsubgroup.tsv</code>, <code>HGG_molecular_subtype.tsv</code> ,<code>lgat_subtyping.tsv</code>, <code>MB_molecular_subtype.tsv</code>, <code>embryonal_tumor_molecular_subtypes.tsv</code>, and <code>neurocytoma_subtyping.tsv</code>) were updated based on the molecular subtype of the tumor.
+Detailed information about the updating procedure were included in the analysis <a href="https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/molecular-subtyping-pathology/01-compile-subtyping-results.Rmd">notebook</a>.
+Notes were also added to indicated that the changes in <code>broad_histology</code>, <code>short_histology</code> and <code>integrated_diagnosis</code> were from OpenPBTA subtyping modules.</p>
+<p>Subsequently, <code>broad_histology</code>, <code>short_histology</code> and <code>harmonized_diagnosis</code> columns of tumors with particular pathology diagnosis free text were updated as specified in the following table:</p>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>pathology_diagnosis</th>
+<th>subtyping module</th>
+<th>pathology_free_text_diagnosis</th>
+<th>broad_histology</th>
+<th>short_histology</th>
+<th>harmonized_diagnosis</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Primary CNS lymphoma</td>
+<td>NA</td>
+<td>contains <code>burkitt's lymphoma</code></td>
+<td>Lymphoma</td>
+<td>CNS lymphoma</td>
+<td>CNS Burkitt’s lymphoma</td>
+</tr>
+<tr class="even">
+<td>Other</td>
+<td>NA</td>
+<td>contains <code>xanthogranuloma</code> or <code>jxg</code></td>
+<td>Histiocytic tumor</td>
+<td>JXG</td>
+<td>Juvenile xanthogranuloma</td>
+</tr>
+<tr class="odd">
+<td>Meningioma</td>
+<td>NA</td>
+<td>contains <code>atypical</code></td>
+<td>Meningioma</td>
+<td>Meningioma</td>
+<td>Atypical meningioma</td>
+</tr>
+<tr class="even">
+<td>Meningioma</td>
+<td>NA</td>
+<td>contains <code>anaplastic</code></td>
+<td>Meningioma</td>
+<td>Meningioma</td>
+<td>Anaplastic (malignant) meningioma</td>
+</tr>
+<tr class="odd">
+<td>Meningioma</td>
+<td>NA</td>
+<td>contains <code>clear cell meningioma</code></td>
+<td>Meningioma</td>
+<td>Meningioma</td>
+<td>Clear cell meningioma</td>
+</tr>
+<tr class="even">
+<td>Meningioma</td>
+<td>NA</td>
+<td>contains <code>meningothelial</code></td>
+<td>Meningioma</td>
+<td>Meningioma</td>
+<td>Meningothelial meningioma</td>
+</tr>
+<tr class="odd">
+<td>Meningioma</td>
+<td>NA</td>
+<td>does not contain <code>atypical</code>, <code>anaplastic</code>, <code>clear cell</code>, or <code>meningothelial</code></td>
+<td>Meningioma</td>
+<td>Meningioma</td>
+<td>Meningioma</td>
+</tr>
+<tr class="even">
+<td>Choroid plexus papilloma</td>
+<td>NA</td>
+<td>contains <code>atypical</code></td>
+<td>Choroid plexus tumor</td>
+<td>Choroid plexus tumor</td>
+<td>Atypical choroid plexus papilloma</td>
+</tr>
+<tr class="odd">
+<td>Craniopharyngioma</td>
+<td>CRANIO</td>
+<td>contains <code>adamantinomatous</code></td>
+<td>Tumors of sellar region</td>
+<td>Craniopharyngioma</td>
+<td>Adamantinomatous craniopharyngioma</td>
+</tr>
+</tbody>
+</table>
+<p>Similarly, <code>broad_histology</code>, <code>short_histology</code>, <code>integrated_diagnosis</code> and <code>harmonized_diagnosis</code> columns of tumors with following pathology diagnosis free text were updated as specified in the table below:</p>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>pathology_diagnosis</th>
+<th>subtyping module</th>
+<th>pathology_free_text_diagnosis</th>
+<th>broad_histology</th>
+<th>short_histology</th>
+<th>integrated_diagnosis</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Low-grade glioma/astrocytoma (WHO grade I/II)</td>
+<td>LGAT</td>
+<td>contains <code>sega or subependymal giant cell astrocytoma</code></td>
+<td>Low grade astrocytic tumor</td>
+<td>LGAT</td>
+<td>Subependymal Giant Cell Astrocytoma, <subtype></td>
+</tr>
+<tr class="even">
+<td>Low-grade glioma/astrocytoma (WHO grade I/II)</td>
+<td>LGAT</td>
+<td>contains <code>fibrillary</code></td>
+<td>Low grade astrocytic tumor</td>
+<td>LGAT</td>
+<td>Diffuse fibrillary astrocytoma, <subtype></td>
+</tr>
+<tr class="odd">
+<td>Low-grade glioma/astrocytoma (WHO grade I/II)</td>
+<td>LGAT</td>
+<td>contains <code>gliomatosis cerebri, type 1, ia</code></td>
+<td>Low grade astrocytic tumor</td>
+<td>LGAT</td>
+<td>Gliomatosis cerebri, <subtype></td>
+</tr>
+<tr class="even">
+<td>Low-grade glioma/astrocytoma (WHO grade I/II)</td>
+<td>LGAT</td>
+<td>contains <code>jpa</code> or <code>juvenile astrocytoma</code> or <code>pilocytic</code> or <code>pilocystic</code> (typo) or <code>pilomyxoid</code> but does not contain <code>fibrillary</code></td>
+<td>Low grade astrocytic tumor</td>
+<td>LGAT</td>
+<td>Pilocytic astrocytoma, <subtype></td>
+</tr>
+<tr class="odd">
+<td>Low-grade glioma/astrocytoma (WHO grade I/II)</td>
+<td>LGAT</td>
+<td>contains <code>oligodendroglioma who ii</code></td>
+<td>Diffuse astrocytic and oligodendroglial tumor</td>
+<td>Oligodendroglioma</td>
+<td>Oligodendroglioma, <subtype></td>
+</tr>
+<tr class="even">
+<td>Low-grade glioma/astrocytoma (WHO grade I/II)</td>
+<td>LGAT</td>
+<td>contains <code>pxa</code> or <code>pleomorphic xanthoastrocytoma</code></td>
+<td>Low grade astrocytic tumor</td>
+<td>LGAT</td>
+<td>Pleomorphic xanthoastrocytoma, <subtype></td>
+</tr>
+</tbody>
+</table>
+<p>Additionally, <code>broad_histology</code>, <code>short_histology</code>, <code>integrated_diagnosis</code> and <code>harmonized_diagnosis</code> columns of tumors with following pathology diagnosis free text were updated as specified in the table below:</p>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>pathology_diagnosis</th>
+<th>subtyping module</th>
+<th>pathology_free_text_diagnosis</th>
+<th>broad_histology</th>
+<th>short_histology</th>
+<th>integrated_diagnosis</th>
+<th>harmonized_diagnosis</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Low-grade glioma/astrocytoma (WHO grade I/II)</td>
+<td>NA, remove from LGAT module</td>
+<td>contains <code>desmoplastic infantile astrocytoma</code></td>
+<td>Neuronal and mixed neuronal-glial tumor</td>
+<td>GNT</td>
+<td>Desmoplastic infantile astrocytoma and ganglioglioma, <subtype></td>
+<td>Desmoplastic infantile astrocytoma and ganglioglioma</td>
+</tr>
+<tr class="even">
+<td>Low-grade glioma/astrocytoma (WHO grade I/II)</td>
+<td>NA, remove from LGAT module</td>
+<td>contains <code>diffuse leptomeningeal glioneuronal tumor</code></td>
+<td>Neuronal and mixed neuronal-glial tumor</td>
+<td>GNT</td>
+<td>Diffuse leptomeningeal glioneuronal tumor, <subtype></td>
+<td>Diffuse leptomeningeal glioneuronal tumor</td>
+</tr>
+<tr class="odd">
+<td>Low-grade glioma/astrocytoma (WHO grade I/II)</td>
+<td>NA, remove from LGAT module</td>
+<td>contains <code>glioneuronal</code></td>
+<td>Neuronal and mixed neuronal-glial tumor</td>
+<td>GNT</td>
+<td>Glial-neuronal tumor NOS, <subtype></td>
+<td>Glial-neuronal tumor NOS</td>
+</tr>
+<tr class="even">
+<td>Low-grade glioma/astrocytoma (WHO grade I/II)</td>
+<td>NA, remove from LGAT module</td>
+<td>contains <code>rosette forming glioneuronal tumor</code></td>
+<td>Neuronal and mixed neuronal-glial tumor</td>
+<td>GNT</td>
+<td>Rosette-forming glioneuronal tumor, <subtype></td>
+<td>Rosette-forming glioneuronal tumor</td>
+</tr>
+</tbody>
+</table>
+<p>Notes were also added to indicated that the changes in <code>broad_histology</code>, <code>short_histology</code>, <code>integrated_diagnosis</code> and <code>harmonized_diagnosis</code> were from pathology diagnosis free text.</p>
+<p>For samples with subtype discrepancies, <code>molecular_subtype</code> and <code>integrated_diagnosis</code> were updated following pathology or clinical review.
+Detailed information can be found in the analysis notebooks for <a href="https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/molecular-subtyping-pathology/03-incorporate-clinical-feedback.Rmd">clinical</a> and <a href="https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/molecular-subtyping-pathology/04-incorporate-pathology-feedback.Rmd">pathology</a> feedback.
+Finally, the newly compiled subtypes were integrated into the <code>pbta-histologies.tsv</code> file in the <code>molecular-subtyping-integrate</code> module.</p>
 <h4 id="tp53-alteration-annotation">TP53 Alteration Annotation</h4>
 <p>In addition to tumor types mentioned above, TP53 altered status is also annotated for all samples and if a sample is determined to be either <code>TP53 loss</code> or <code>TP53 activated</code>, this annotation will be included in the <code>molecular_subtype</code> column.
 We applied a <em>TP53</em> inactivation classifier originally trained on TCGA PanCan data <span class="citation" data-cites="X6oQhIf8">[<a href="#ref-X6oQhIf8" role="doc-biblioref">97</a>]</span> to the matched RNA expression data for each sample.
@@ -2363,7 +2599,7 @@ Scott Ryall, Michal Zapotocky, Kohei Fukuoka, Liana Nobre, Ana Guerreiro Stuckli
 DOI: <a href="https://doi.org/10.1016/j.ccell.2020.03.011">10.1016/j.ccell.2020.03.011</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32289278">32289278</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7169997">PMC7169997</a></p>
 </div>
 <div id="ref-1WxziFyg">
-<p>94. <strong>Pfam: Family: PK_Tyr_Ser-Thr (PF07714)</strong> <a href="https://pfam.xfam.org/family/PF07714">https://pfam.xfam.org/family/PF07714</a></p>
+<p>94. <a href="https://pfam.xfam.org/family/PF07714">https://pfam.xfam.org/family/PF07714</a></p>
 </div>
 <div id="ref-p1ZTCLep">
 <p>95. <a href="http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/pfamDesc.txt.gz">http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/pfamDesc.txt.gz</a></p>

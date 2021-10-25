@@ -75,6 +75,7 @@ Lurie
 maf
 Mariarita
 Mateusz
+MEK
 migbro
 mkoptyra
 Mutect
@@ -86,7 +87,7 @@ Nighat
 NNoureen
 Noureen
 NRAS
-NTRK
+OncoPrint
 Payal
 PDGFRA
 PHG
@@ -110,7 +111,7 @@ stephspiel
 Strelka
 Supervison
 syzheng
-taroni
+Taroni
 Tejaswi
 tkoganti
 TKTL

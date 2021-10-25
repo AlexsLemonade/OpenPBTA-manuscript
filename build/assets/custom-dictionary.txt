@@ -73,7 +73,7 @@ deconvolution
 dendritic
 desmoplastic
 dimorphic
-DINe
+DIN
 DIPG
 DMEM
 DMG

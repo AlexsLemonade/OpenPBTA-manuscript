@@ -1,4 +1,4 @@
-personal_ws-1.1 en 404 utf-8
+personal_ws-1.1 en 407 utf-8
 acknowledgments
 ACP
 adamantinomatous
@@ -25,7 +25,6 @@ AWS
 BAF
 BAM
 BAMs
-barplot
 BaseRecalibrator
 BCBIO
 BCFtools
@@ -46,7 +45,6 @@ brainstem
 Burkitt's
 BWA
 CAVATICA
-Cavatica
 CBTN
 CBTTC
 CCDL
@@ -77,7 +75,7 @@ deconvolution
 dendritic
 desmoplastic
 dimorphic
-DINe
+DIN
 DIPG
 DMEM
 DMG
@@ -156,11 +154,13 @@ heatmap
 heatmaps
 hemangioblastomas
 HGAT
+HGATs
 HGG
 HGNET
 hippocampus
 HiSeq
 histiocytic
+histologic
 histological
 histologies
 histone
@@ -168,6 +168,7 @@ hotspot
 HotSpotAllele
 hotspots
 Hyclone
+hypermutant
 HyperPrep
 Hypothalamic
 IARC
@@ -220,7 +221,7 @@ mergeByOverlaps
 mesenchymal
 microenvironment
 microsatellite
-Midbrain
+midbrain
 midline
 miRNA
 missense
@@ -231,9 +232,11 @@ MSigDB
 MSKCC
 MSKCC's
 mTOR
+multifactorial
 multiforme
 multilayer
 multinucleotide
+Mut
 MYB
 MYBL
 MYC
@@ -245,6 +248,7 @@ Neuro
 neuroblastoma
 neurocytoma
 neuroepithelial
+neurofibroma
 neurofibromas
 neurofibromatosis
 neutrophils
@@ -255,11 +259,10 @@ Normocin
 nr
 NTRK
 NUTM
-Occipital
+occipital
 oligodendroglial
 oligodendroglioma
 oncogenic
-OncoPrint
 oncoprint
 OpenPBTA
 openpbta
@@ -314,7 +317,6 @@ rhabdoid
 RiboErase
 ribosomal
 RIN
-RINe
 RNase
 rootstock
 ros
@@ -322,6 +324,7 @@ RSEM
 Sambamba
 SAMBLASTER
 SAMtools
+schwannoma
 SciQuest
 sellar
 selumetinib
@@ -332,6 +335,7 @@ SNP
 SNPs
 SNV
 SNVs
+sor
 Spearman
 spectrophotometer
 ssGSEA
@@ -346,7 +350,7 @@ subtypes
 subtyping
 subworkflow
 Suprasellar
-Supratentorial
+supratentorial
 SureSelect
 SV
 svg

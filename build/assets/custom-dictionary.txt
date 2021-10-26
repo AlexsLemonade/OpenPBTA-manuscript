@@ -1,4 +1,4 @@
-personal_ws-1.1 en 404 utf-8
+personal_ws-1.1 en 406 utf-8
 acknowledgments
 ACP
 adamantinomatous
@@ -153,6 +153,7 @@ heatmap
 heatmaps
 hemangioblastomas
 HGAT
+HGATs
 HGG
 HGNET
 hippocampus
@@ -166,6 +167,7 @@ hotspot
 HotSpotAllele
 hotspots
 Hyclone
+hypermutant
 HyperPrep
 Hypothalamic
 IARC
@@ -233,6 +235,7 @@ multifactorial
 multiforme
 multilayer
 multinucleotide
+Mut
 MYB
 MYBL
 MYC
@@ -244,6 +247,7 @@ Neuro
 neuroblastoma
 neurocytoma
 neuroepithelial
+neurofibroma
 neurofibromas
 neurofibromatosis
 neutrophils
@@ -258,7 +262,7 @@ occipital
 oligodendroglial
 oligodendroglioma
 oncogenic
-OncoPrint
+oncoprint
 OpenPBTA
 openpbta
 orcid
@@ -319,6 +323,7 @@ RSEM
 Sambamba
 SAMBLASTER
 SAMtools
+schwannoma
 SciQuest
 sellar
 selumetinib
@@ -329,6 +334,7 @@ SNP
 SNPs
 SNV
 SNVs
+sor
 Spearman
 spectrophotometer
 ssGSEA

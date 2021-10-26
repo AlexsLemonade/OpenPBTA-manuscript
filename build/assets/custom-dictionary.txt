@@ -138,6 +138,7 @@ glioblastoma
 glioma
 gliomas
 gliomatosis
+glioneuronal
 GlutaMAX
 gnomAD
 GNT

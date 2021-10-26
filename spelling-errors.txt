@@ -35,9 +35,11 @@ Duong
 Ennis
 EWSR
 Feinberg
+FigS
 fingerfen
 Gaonkar
 Glassboro
+glioneuronal
 GPBP
 Greehey
 greenescientist
@@ -73,6 +75,7 @@ kshrivats
 Kuren
 Lurie
 maf
+ManuBot
 Mariarita
 Mateusz
 MEK
@@ -109,9 +112,10 @@ sjspielman
 Spielman
 stephspiel
 Strelka
+StronglySomatic
 Supervison
 syzheng
-Taroni
+taroni
 Tejaswi
 tkoganti
 TKTL

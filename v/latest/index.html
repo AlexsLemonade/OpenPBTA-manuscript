@@ -267,9 +267,9 @@
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/de459f90f2d57d673e12b1d65e06caea44adce10/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/de459f90f2d57d673e12b1d65e06caea44adce10/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/de459f90f2d57d673e12b1d65e06caea44adce10/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/7cf9dd135e96db511d2a2ab68fdca01de3f4d55f/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/7cf9dd135e96db511d2a2ab68fdca01de3f4d55f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/7cf9dd135e96db511d2a2ab68fdca01de3f4d55f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -283,9 +283,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/de459f90f2d57d673e12b1d65e06caea44adce10/">permalink</a>)
+(<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/7cf9dd135e96db511d2a2ab68fdca01de3f4d55f/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/de459f90f2d57d673e12b1d65e06caea44adce10">AlexsLemonade/OpenPBTA-manuscript@de459f9</a>
+from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/7cf9dd135e96db511d2a2ab68fdca01de3f4d55f">AlexsLemonade/OpenPBTA-manuscript@7cf9dd1</a>
 on October 26, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -1835,20 +1835,47 @@ EXTEND scores have been further compared, using Spearman rank correlation, betwe
 We then harnessed the benchmarking efforts of the KidsFirst Data Resource Center to develop a robust and reproducible data analysis workflow within the CAVATICA platform to perform primary somatic analyses: variant calling of single nucleotide variants (SNVs), copy number variants (CNVs), structural variants (SVs), and fusions (<strong>Figure <a href="#fig:FigS1">9</a></strong> - red boxes and <strong>STAR Methods</strong>).
 Next, we created a Github analysis repository (https://github.com/AlexsLemonade/OpenPBTA-analysis) with continuous integration to ensure analysis reproducibility and a GitHub manuscript repository (https://github.com/AlexsLemonade/OpenPBTA-manuscript) with ManuBot <span class="citation" data-cites="petulEc2 YuJbg3zO">[<a href="#ref-petulEc2" role="doc-biblioref">108</a>,<a href="#ref-YuJbg3zO" role="doc-biblioref">109</a>]</span> integration to enable manuscript creation using Markdown within GitHub.
 We maintained a data release folder on Amazon S3 containing merged files for each analysis, downloadable from the GitHub repository or open access CAVATICA project.</p>
-<!-- TODO: Add process for contributing analytical code (Figures 1B, S1, STAR Methods) and describe the sample makeup (Figure 1C) -->
+<p>Stub for the process for contributing analytical code (<strong>Figure <a href="#fig:FigS1">9</a></strong> and <strong>STAR Methods</strong>) and to the manuscript.
+Also add a quick note about consensus SNV and CNV to reference <strong>Figure <a href="#fig:FigS2">10</a>A-F</strong> here.</p>
 <div id="fig:Fig1" class="fignos">
 <figure>
 <img src="images/main/Figure1.png" alt="" /><figcaption><span>Figure 1:</span> Figure 1. Overview of the OpenPBTA Project.</figcaption>
 </figure>
 </div>
-<h3 id="landscape-of-genomic-alterations">Landscape of Genomic Alterations</h3>
-<p>The OncoPrint will provide a visualization of the genomic alterations found in the analyses implemented throughout the OpenPBTA project.</p>
-<div id="fig:oncoprint-landscape" class="fignos">
+<h3 id="somatic-mutational-landscape-of-pediatric-brain-tumors">Somatic Mutational Landscape of Pediatric Brain Tumors</h3>
+<p>We performed a comprehensive genomic analysis of somatic SNVs, CNVs, SVs, and fusions across 1,969 tumors (N = 1,019 RNA-Seq, N = 1,719 WGS, N = 64 WXS/Panel) and 38 cell lines (N = 16 RNA-Seq, N = 22 WGS) from 943 patients.
+Following SNV consensus calling (<strong>Figures <a href="#fig:FigS1">9</a></strong> and <strong><a href="#fig:FigS2">10</a>A-F</strong>), we observed lower expected tumor mutation burden (TMB) <strong>Figure <a href="#fig:FigS2">10</a>G</strong> in pediatric tumors compared to adult brain tumors from The Cancer Genome Atlas (TCGA), with hypermutant (&gt; 10 Mut/Mb) and ultra-hypermutant (&gt; 100 Mut/Mb) tumors only found within HGATs.</p>
+<h4 id="low-grade-astrocytic-tumors">Low-grade astrocytic tumors</h4>
+<p><strong>Figure <a href="#fig:Fig2">2</a>A</strong> depicts an oncoprint of driver genes for 227 primary low-grade astrocytic tumors. As expected, the majority (62%, 140/227) of these tumors harbor a somatic alteration in <em>BRAF</em>, with canonical <em>BRAF::KIAA1549</em> fusions as the major oncogenic driver.
+We observed additional mutations in <em>FGFR1</em> (2%), <em>PIK3CA</em> (2%), <em>KRAS</em> (2%), <em>TP53</em> (1%), and <em>ATRX</em> (1%) and fusions in <em>NTRK2</em> (2%), <em>RAF1</em> (2%), <em>MYB</em> (1%), <em>QKI</em> (1%), <em>ROS1</em> (1%), and <em>FGFR2</em> (1%), concordant with previous studies reporting the near universal upregulation of the RAS/MAPK pathway in these tumors resulting from activating mutations and/or oncogenic fusions <span class="citation" data-cites="IamVuiNU ULPByXgG">[<a href="#ref-ULPByXgG" role="doc-biblioref">95</a>,<a href="#ref-IamVuiNU" role="doc-biblioref">110</a>]</span>.
+Indeed, we observed significant upregulation (ANOVA p &lt; 0.01) of the KRAS signaling pathway in LGATs (<strong>Figure ??B</strong>).</p>
+<h4 id="embryonal-tumors">Embryonal tumors</h4>
+<p><strong>Figure <a href="#fig:Fig2">2</a>B</strong> shows the mutational landscape for 128 primary embryonal tumors.
+The majority (N = 95) are medulloblastomas and span the spectrum of molecular subtypes: WNT, SHH, Group3, and Group 4 (see <strong>Molecular Subtyping of CNS Tumors</strong>), with their canonical mutations.
+We detected canonical <em>SMARCB1/SMARCA4</em> deletions or inactivating mutations in atypical teratoid rhabdoid tumors (ATRTs) and C19MC amplification in the embryonal tumors with multilayer rosettes (ETMRs) <span class="citation" data-cites="1Geb70JK9 1EzqPr2Ef j11VxJIm UuzX8B9C">[<a href="#ref-1Geb70JK9" role="doc-biblioref">111</a>,<a href="#ref-1EzqPr2Ef" role="doc-biblioref">112</a>,<a href="#ref-j11VxJIm" role="doc-biblioref">113</a>,<a href="#ref-UuzX8B9C" role="doc-biblioref">114</a>]</span>.</p>
+<h4 id="diffuse-astrocytic-and-oligodendroglial-tumors-n-61">Diffuse astrocytic and oligodendroglial tumors (N = 61)</h4>
+<p>In <strong>Figure <a href="#fig:Fig2">2</a>C</strong>, we show genomic alterations in diffuse midline gliomas (DMGs, N = 34) and non-midline high-grade gliomas (N = 26) biopsied at diagnosis.
+The single oligodendroglioma sample in the OpenPBTA does not contain mutations in the genes shown and is therefore not present in this oncoprint.
+Across HGATs, we found <em>TP53</em> (57%, 35/61) and <em>H3F3A</em> (52%, 32/61) to be the most mutated and co-occurring genes (<strong>Figure <a href="#fig:Fig2">2</a>A</strong>), followed by frequent mutations in <em>ATRX</em> (30% 18/61).
+We found recurrent amplifications and fusions in <em>EGFR</em>, <em>MET</em>, <em>PDGFRA</em>, and <em>KIT</em>, highlighting that these tumors utilize multiple oncogenic mechanisms to activate tyrosine kinases, as has been previously reported <span class="citation" data-cites="QNvTzXiX BLNV1DbL vd5Uh9gY KU8wVb8T">[<a href="#ref-BLNV1DbL" role="doc-biblioref">7</a>,<a href="#ref-QNvTzXiX" role="doc-biblioref">115</a>,<a href="#ref-vd5Uh9gY" role="doc-biblioref">116</a>,<a href="#ref-KU8wVb8T" role="doc-biblioref">117</a>]</span>.
+Gene set enrichment analysis showed upregulation (ANOVA p &lt; 0.01) of DNA repair, G2M checkpoint, and MYC pathways as well as downregulation of the TP53 pathway (<strong>Figure ??B</strong>).
+The two tumors with ultra-high tumor mutation burden (TMB) (&gt; 100 Mutations/Mb) were from patients with known mismatch repair deficiency syndrome <span class="citation" data-cites="DwCzMoBJ">[<a href="#ref-DwCzMoBJ" role="doc-biblioref">107</a>]</span>.</p>
+<h4 id="other-cns-tumors">Other CNS tumors</h4>
+<p><strong>Figure <a href="#fig:Fig2">2</a>D</strong> depicts an oncoprint for the remaining primary CNS tumors (N = 195).
+We observed 8% (16/195) of tumors to be <em>C11orf95::RELA</em> fusion positive ependymomas and 12% (23/195) to be adamantinomatous craniopharyngiomas driven by mutations in <em>CTNNB1</em>.
+<!-- TODO: update NF2 cancer types -->
+Multiple cancer types contained somatic mutations or fusions in <em>NF2</em> (7%, comprised of ependymomas, desmoplastic infantile astrocytoma and ganglioglioma, …, and …) and <em>BRAF</em> (4%), in addition to rare ependymoma fusions (&lt; 4% of all embryonal tumors) in <em>YAP1</em>, <em>KRAS</em>, <em>ERBB4</em>, and <em>MYB</em>.
+The majority of dysembryoplastic tumors harbored alterations in <em>FGFR1</em>, including <em>FGFR1::TACC1</em> fusions.</p>
+<div id="fig:Fig2" class="fignos">
 <figure>
-<img src="https://github.com/AlexsLemonade/OpenPBTA-analysis/raw/master/figures/pngs/fig3-oncoprint-landscape.png" alt="" /><figcaption><span>Figure 2:</span> OncoPrint displaying genes most frequently altered across the OpenPBTA dataset.
-Genes include the top 50 most frequently mutated genes and the top 20 genes with copy number alterations.
-Samples were filtered to primary samples or, when no primary sample from an individual participant was available, a randomly selected sample with whole genome sequencing (WGS) data.
-Sample histology (<code>short_histology</code>) is displayed in the annotation bar at the bottom of the plot.</figcaption>
+<img src="https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/figures/pngs/primary_only_oncoprint_landscape.png" alt="" /><figcaption><span>Figure 2:</span> <strong>Figure 2. Mutational landscape of PBTA tumors.</strong>
+Shown are frequencies of canonical somatic gene mutations, CNVs, fusions, and TMB (top bar plot) for the top 20 genes mutated across primary tumors within the OpenPBTA dataset.
+A, Low-grade astrocytic tumors (N = 227): low-grade glioma astrocytoma (N = 187), ganglioglioma (N = 35), subependymal giant cell astrocytoma (N = 2), diffuse fibrillary astrocytoma (N = 1), pilocytic astrocytoma (N = 1), and pleomorphic xanthoastrocytoma (N = 1);
+B, Embryonal tumors (N = 131): medulloblastomas (N = 97), atypical teratoid rhabdoid tumors (N = 24), embryonal tumors with multilayer rosettes (N = 2), other CNS embryonal tumors (N = 6), ganglioneuroblastoma (N = 1), and CNS neuroblastoma (N = 1);
+C, Diffuse astrocytic and oligodendroglial tumors (N = 61): diffuse midline gliomas (N = 34) and non-midline high-grade gliomas (N = 26), oligodendroglioma (N = 1);
+D, Other CNS tumors (N = 195): ependymomas (N = 60), dysembryoplastic neuroepithelial tumors (N = 19), meningiomas (N = 17), schwannoma (N = 11), neurofibroma plexiform (N = 7), other CNS (N &lt; 5 each).
+Patient sex (<code>germline_sex_estimate</code>) and tumor histology (<code>cancer_group</code>) are displayed as annotations at the bottom of each plot.
+Only samples with mutations in the listed genes are shown.</figcaption>
 </figure>
 </div>
 <h3 id="landscape-of-mutational-processes">Landscape of Mutational Processes</h3>
@@ -1893,7 +1920,7 @@ C) Heatmap of xCell fraction values for scores and cell types with high variance
 </figure>
 </div>
 <h3 id="quantify-telomerase-activity-using-gene-expression-data-1">Quantify Telomerase Activity using Gene Expression Data</h3>
-<p>We used gene expression data sets from both poly-A and stranded RNA-Seq protocols to predict telomerase activities using EXTEND <span class="citation" data-cites="LqHIy6Mh">[<a href="#ref-LqHIy6Mh" role="doc-biblioref">110</a>]</span> as shown in <a href="https://github.com/AlexsLemonade/OpenPBTA-analysis/tree/master/analyses/telomerase-activity-prediction/results">Supplementary Tables</a>.</p>
+<p>We used gene expression data sets from both poly-A and stranded RNA-Seq protocols to predict telomerase activities using EXTEND <span class="citation" data-cites="LqHIy6Mh">[<a href="#ref-LqHIy6Mh" role="doc-biblioref">118</a>]</span> as shown in <a href="https://github.com/AlexsLemonade/OpenPBTA-analysis/tree/master/analyses/telomerase-activity-prediction/results">Supplementary Tables</a>.</p>
 <p>For both platforms, EXTEND scores were highly consistent between FPKM versus counts data (Supplementary Figure) <a href="#fig:comparison-plots">7</a>A and Figure <a href="#fig:comparison-plots">7</a>B.</p>
 <div id="fig:comparison-plots" class="fignos">
 <figure>
@@ -1905,7 +1932,7 @@ B) stranded platform.</figcaption>
 <p>We next examined telomerase activity across different brain tumor histological subtypes using data from the stranded FPKM protocol.
 Across the short histological groups, we found germinomas had the highest EXTEND scores.
 However, teratomas, another type of germ cell tumor, had much lower scores (Figure) <a href="#fig:distribution-plots">8</a>A.
-Teratomas were previously reported to have negligible or low telomerase activities <span class="citation" data-cites="Acpyi7Gb">[<a href="#ref-Acpyi7Gb" role="doc-biblioref">111</a>]</span>.
+Teratomas were previously reported to have negligible or low telomerase activities <span class="citation" data-cites="Acpyi7Gb">[<a href="#ref-Acpyi7Gb" role="doc-biblioref">119</a>]</span>.
 Teratomas originating from the tissue of three dermal layers of an embryo, are benign germ cell neoplasms <span class="citation" data-cites="doi">[<span class="citeproc-not-found" data-reference-id="doi"><strong>???</strong></span> 10.1097/MOP.0b013e32832b41ee]</span>.
 These tumors are divided into mature and immature (malignant) groups, where pediatric tumors are mostly classified as mature ones <span class="citation" data-cites="doi">[<span class="citeproc-not-found" data-reference-id="doi"><strong>???</strong></span> 10.1016/j.jpedsurg.2004.03.045]</span>.
 Mature tumors are deficient of malignant potential thereby reducing the risk of malignancy <span class="citation" data-cites="doi">[<span class="citeproc-not-found" data-reference-id="doi"><strong>???</strong></span> 10.1016/j.jpedsurg.2004.03.045]</span>, hence bearing low telomerase activities.
@@ -1913,7 +1940,7 @@ Benign neoplasia including dysplasia and hemangioblastomas had the lowest scores
 Among common pediatric brain tumors, medulloblastomas had higher scores than high grade astrocytic tumors, ependymomas and low-grade astrocytomas.
 Across broad groups, benign tumors and precancerous lesions were among those with the lowest scores, whereas pineal region and embryonal tumors have the highest scores (Figure) <a href="#fig:distribution-plots">8</a>B.
 Considering medulloblastoma tumors, high risk Group3 and Group4 subtypes had higher scores than WNT and SHH subtype (Figure) <a href="#fig:distribution-plots">8</a>C.
-A similar pattern has been speculated with respect to cell of origin by one of the earlier studies <span class="citation" data-cites="E6NaHJzx">[<a href="#ref-E6NaHJzx" role="doc-biblioref">112</a>]</span> which mainly focused TERT promoter mutations for medulloblastoma subtypes comparisons rather than telomerase activity.</p>
+A similar pattern has been speculated with respect to cell of origin by one of the earlier studies <span class="citation" data-cites="E6NaHJzx">[<a href="#ref-E6NaHJzx" role="doc-biblioref">120</a>]</span> which mainly focused TERT promoter mutations for medulloblastoma subtypes comparisons rather than telomerase activity.</p>
 <div id="fig:distribution-plots" class="fignos">
 <figure>
 <img src="https://github.com/AlexsLemonade/OpenPBTA-analysis/raw/master/figures/pngs/Telomerase_Activities.png" alt="" /><figcaption><span>Figure 8:</span> Box plots representing distribution of telomerase activities for stranded FPKM data.
@@ -2121,13 +2148,18 @@ C) Comparison of telomerase activities across molecular subtypes of medulloblast
 <img src="images/supplement/Figure-S1.png" alt="" /><figcaption><span>Figure 9:</span> OpenPBTA Project Workflow, Related to Figure 1.</figcaption>
 </figure>
 </div>
+<div id="fig:FigS2" class="fignos">
+<figure>
+<img src="images/supplement/Figure-S2.png" alt="" /><figcaption><span>Figure 10:</span> Validation of Consensus SNV calls and Tumor Mutation Burden, Related to Figures 2 and 3.</figcaption>
+</figure>
+</div>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" class="references hanging-indent" role="doc-bibliography">
 <div id="ref-nAMOAA9j">
 <p>1. <strong>CBTRUS Statistical Report: Primary Brain and Other Central Nervous System Tumors Diagnosed in the United States in 2012–2016</strong> <br />
 Quinn T Ostrom, Gino Cioffi, Haley Gittleman, Nirav Patil, Kristin Waite, Carol Kruchko, Jill S Barnholtz-Sloan<br />
-<em>Neuro-Oncology</em> (2019-10) <a href="https://doi.org/gg4d4k">https://doi.org/gg4d4k</a> <br />
+<em>Neuro-Oncology</em> (2019-11-01) <a href="https://doi.org/gg4d4k">https://doi.org/gg4d4k</a> <br />
 DOI: <a href="https://doi.org/10.1093/neuonc/noz150">10.1093/neuonc/noz150</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31675094">31675094</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6823730">PMC6823730</a></p>
 </div>
 <div id="ref-1H6hugOV3">
@@ -2632,7 +2664,7 @@ Scott Ryall, Michal Zapotocky, Kohei Fukuoka, Liana Nobre, Ana Guerreiro Stuckli
 DOI: <a href="https://doi.org/10.1016/j.ccell.2020.03.011">10.1016/j.ccell.2020.03.011</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32289278">32289278</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7169997">PMC7169997</a></p>
 </div>
 <div id="ref-1WxziFyg">
-<p>96. <strong>Pfam: Family: PK_Tyr_Ser-Thr (PF07714)</strong> <a href="https://pfam.xfam.org/family/PF07714">https://pfam.xfam.org/family/PF07714</a></p>
+<p>96. <a href="https://pfam.xfam.org/family/PF07714">https://pfam.xfam.org/family/PF07714</a></p>
 </div>
 <div id="ref-p1ZTCLep">
 <p>97. <a href="http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/pfamDesc.txt.gz">http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/pfamDesc.txt.gz</a></p>
@@ -2706,20 +2738,68 @@ Daniel S. Himmelstein, Vincent Rubinetti, David R. Slochower, Dongbo Hu, Venkat 
 <em>PLOS Computational Biology</em> (2019-06-24) <a href="https://doi.org/c7np">https://doi.org/c7np</a> <br />
 DOI: <a href="https://doi.org/10.1371/journal.pcbi.1007128">10.1371/journal.pcbi.1007128</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31233491">31233491</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6611653">PMC6611653</a></p>
 </div>
+<div id="ref-IamVuiNU">
+<p>110. <strong>Pediatric low-grade glioma in the era of molecular diagnostics</strong> <br />
+Scott Ryall, Uri Tabori, Cynthia Hawkins<br />
+<em>Acta Neuropathologica Communications</em> (2020-03-12) <a href="https://doi.org/gm3kst">https://doi.org/gm3kst</a> <br />
+DOI: <a href="https://doi.org/10.1186/s40478-020-00902-z">10.1186/s40478-020-00902-z</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32164789">32164789</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7066826">PMC7066826</a></p>
+</div>
+<div id="ref-1Geb70JK9">
+<p>111. <strong>ETMR: a tumor entity in its infancy</strong> <br />
+Sander Lambo, Katja von Hoff, Andrey Korshunov, Stefan M. Pfister, Marcel Kool<br />
+<em>Acta Neuropathologica</em> (2020-09) <a href="https://doi.org/gm3q25">https://doi.org/gm3q25</a> <br />
+DOI: <a href="https://doi.org/10.1007/s00401-020-02182-2">10.1007/s00401-020-02182-2</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32601913">32601913</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7423804">PMC7423804</a></p>
+</div>
+<div id="ref-1EzqPr2Ef">
+<p>112. <strong>Emergence and maintenance of actionable genetic drivers at medulloblastoma relapse</strong> <br />
+Stacey Richardson, Rebecca M Hill, Christopher Kui, Janet C Lindsey, Yura Grabovksa, Claire Keeling, Louise Pease, Matthew Bashton, Stephen Crosier, Maria Vinci, … Steven C Clifford<br />
+<em>Neuro-Oncology</em> (2021-07-17) <a href="https://doi.org/gm3q3n">https://doi.org/gm3q3n</a> <br />
+DOI: <a href="https://doi.org/10.1093/neuonc/noab178">10.1093/neuonc/noab178</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/34272868">34272868</a></p>
+</div>
+<div id="ref-j11VxJIm">
+<p>113. <strong>Molecular identification of CNS NB-FOXR2, CNS EFT-CIC, CNS HGNET-MN1 and CNS HGNET-BCOR pediatric brain tumors using tumor-specific signature genes</strong> <br />
+Maria Łastowska, Joanna Trubicka, Anna Sobocińska, Bartosz Wojtas, Magdalena Niemira, Anna Szałkowska, Adam Krętowski, Agnieszka Karkucińska-Więckowska, Magdalena Kaleta, Maria Ejmont, … Ewa Matyja<br />
+<em>Acta Neuropathologica Communications</em> (2020-07-10) <a href="https://doi.org/gm3q3p">https://doi.org/gm3q3p</a> <br />
+DOI: <a href="https://doi.org/10.1186/s40478-020-00984-9">10.1186/s40478-020-00984-9</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32650833">32650833</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7350623">PMC7350623</a></p>
+</div>
+<div id="ref-UuzX8B9C">
+<p>114. <strong>The whole-genome landscape of medulloblastoma subtypes</strong> <br />
+Paul A. Northcott, Ivo Buchhalter, A. Sorana Morrissy, Volker Hovestadt, Joachim Weischenfeldt, Tobias Ehrenberger, Susanne Gröbner, Maia Segura-Wang, Thomas Zichner, Vasilisa A. Rudneva, … Peter Lichter<br />
+<em>Nature</em> (2017-07-20) <a href="https://doi.org/gbnzc9">https://doi.org/gbnzc9</a> <br />
+DOI: <a href="https://doi.org/10.1038/nature22973">10.1038/nature22973</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28726821">28726821</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5905700">PMC5905700</a></p>
+</div>
+<div id="ref-QNvTzXiX">
+<p>115. <strong>WHO classification of tumors of the nervous system: preview of the upcoming 5th edition</strong> <br />
+Elisabeth J. Rushing<br />
+<em>memo - Magazine of European Medical Oncology</em> (2021-06) <a href="https://doi.org/gk2z97">https://doi.org/gk2z97</a> <br />
+DOI: <a href="https://doi.org/10.1007/s12254-021-00680-x">10.1007/s12254-021-00680-x</a></p>
+</div>
+<div id="ref-vd5Uh9gY">
+<p>116. <strong>Integrated Molecular Meta-Analysis of 1,000 Pediatric High-Grade and Diffuse Intrinsic Pontine Glioma</strong> <br />
+Alan Mackay, Anna Burford, Diana Carvalho, Elisa Izquierdo, Janat Fazal-Salom, Kathryn R. Taylor, Lynn Bjerke, Matthew Clarke, Mara Vinci, Meera Nandhabalan, … Chris Jones<br />
+<em>Cancer Cell</em> (2017-10) <a href="https://doi.org/gb4kpn">https://doi.org/gb4kpn</a> <br />
+DOI: <a href="https://doi.org/10.1016/j.ccell.2017.08.017">10.1016/j.ccell.2017.08.017</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28966033">28966033</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5637314">PMC5637314</a></p>
+</div>
+<div id="ref-KU8wVb8T">
+<p>117. <strong>Diffuse intrinsic pontine glioma-like tumor with EZHIP expression and molecular features of PFA ependymoma</strong> <br />
+Drew Pratt, Martha Quezado, Zied Abdullaev, Debra Hawes, Fusheng Yang, Hugh J. L. Garton, Alexander R. Judkins, Rajen Mody, Arul Chinnaiyan, Kenneth Aldape, … Sriram Venneti<br />
+<em>Acta Neuropathologica Communications</em> (2020-03-20) <a href="https://doi.org/gm3ksv">https://doi.org/gm3ksv</a> <br />
+DOI: <a href="https://doi.org/10.1186/s40478-020-00905-w">10.1186/s40478-020-00905-w</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32197665">32197665</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7083001">PMC7083001</a></p>
+</div>
 <div id="ref-LqHIy6Mh">
-<p>110. <strong>Inferring Telomerase Enzymatic Activity from Expression Data</strong> <br />
+<p>118. <strong>Inferring Telomerase Enzymatic Activity from Expression Data</strong> <br />
 Nighat Noureen, Shaofang Wu, Yingli Lyu, Juechen Yang, WK Alfred Yung, Jonathan Gelfond, Xiaojing Wang, Dimpy Koul, Andrew Ludlow, Siyuan Zheng<br />
 <em>Cold Spring Harbor Laboratory</em> (2020-05-26) <a href="https://doi.org/ggxfhq">https://doi.org/ggxfhq</a> <br />
 DOI: <a href="https://doi.org/10.1101/2020.05.21.109249">10.1101/2020.05.21.109249</a></p>
 </div>
 <div id="ref-Acpyi7Gb">
-<p>111. <strong>Telomerase Activity in Germ Cell Cancers and Mature Teratomas</strong> <br />
+<p>119. <strong>Telomerase Activity in Germ Cell Cancers and Mature Teratomas</strong> <br />
 J. Albanell, G. J. Bosl, V. E. Reuter, M. Engelhardt, S. Franco, M. A. S. Moore, E. Dmitrovsky<br />
 <em>JNCI Journal of the National Cancer Institute</em> (1999-08-04) <a href="https://doi.org/fb2hjt">https://doi.org/fb2hjt</a> <br />
 DOI: <a href="https://doi.org/10.1093/jnci/91.15.1321">10.1093/jnci/91.15.1321</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/10433622">10433622</a></p>
 </div>
 <div id="ref-E6NaHJzx">
-<p>112. <strong>TERT promoter mutations are highly recurrent in SHH subgroup medulloblastoma</strong> <br />
+<p>120. <strong>TERT promoter mutations are highly recurrent in SHH subgroup medulloblastoma</strong> <br />
 Marc Remke, Vijay Ramaswamy, John Peacock, David J. H. Shih, Christian Koelsche, Paul A. Northcott, Nadia Hill, Florence M. G. Cavalli, Marcel Kool, Xin Wang, … Michael D. Taylor<br />
 <em>Acta Neuropathologica</em> (2013-10-31) <a href="https://doi.org/f5g9qb">https://doi.org/f5g9qb</a> <br />
 DOI: <a href="https://doi.org/10.1007/s00401-013-1198-2">10.1007/s00401-013-1198-2</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24174164">24174164</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3830749">PMC3830749</a></p>

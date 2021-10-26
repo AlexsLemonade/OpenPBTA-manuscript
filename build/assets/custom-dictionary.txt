@@ -1,4 +1,4 @@
-personal_ws-1.1 en 379 utf-8
+personal_ws-1.1 en 380 utf-8
 acknowledgments
 ACP
 adamantinomatous
@@ -76,6 +76,7 @@ dimorphic
 DIN
 DIPG
 DMEM
+DMG
 DNase
 doi
 DropletQuant
@@ -129,7 +130,6 @@ glioblastoma
 glioma
 gliomas
 gliomatosis
-glioneuronal
 GlutaMAX
 gnomAD
 GNT
@@ -199,11 +199,11 @@ medulloepithelioma
 MEM
 MEND
 meningioma
-Meningothelial
+meningothelial
 mergeByOverlaps
 microenvironment
 microsatellite
-Midbrain
+midbrain
 midline
 miRNA
 missense
@@ -239,9 +239,9 @@ Normocin
 nr
 NTRK
 NUTM
-Occipital
+occipital
 oligodendroglial
-Oligodendroglioma
+oligodendroglioma
 oncogenic
 OpenPBTA
 openpbta
@@ -290,6 +290,7 @@ recalibrated
 recoded
 recombinant
 RELA
+reproducibility
 RiboErase
 ribosomal
 RIN
@@ -315,7 +316,6 @@ spectrophotometer
 ssGSEA
 strandedness
 strikethrough
-StronglySomatic
 subependymal
 submodule
 subtype
@@ -324,11 +324,12 @@ subtypes
 subtyping
 subworkflow
 Suprasellar
-Supratentorial
+supratentorial
 SureSelect
 SV
 svg
 svgs
+SVs
 TapeStation
 tbl
 TCGA

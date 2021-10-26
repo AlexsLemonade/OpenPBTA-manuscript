@@ -45,7 +45,6 @@ brainstem
 Burkitt's
 BWA
 CAVATICA
-Cavatica
 CBTN
 CBTTC
 CCDL
@@ -76,7 +75,7 @@ deconvolution
 dendritic
 desmoplastic
 dimorphic
-DINe
+DIN
 DIPG
 DMEM
 DMG
@@ -139,7 +138,6 @@ glioblastoma
 glioma
 gliomas
 gliomatosis
-glioneuronal
 GlutaMAX
 gnomAD
 GNT
@@ -160,6 +158,7 @@ HGNET
 hippocampus
 HiSeq
 histiocytic
+histologic
 histological
 histologies
 histone
@@ -219,7 +218,7 @@ mergeByOverlaps
 mesenchymal
 microenvironment
 microsatellite
-Midbrain
+midbrain
 midline
 miRNA
 missense
@@ -230,6 +229,7 @@ MSigDB
 MSKCC
 MSKCC's
 mTOR
+multifactorial
 multiforme
 multilayer
 multinucleotide
@@ -254,12 +254,11 @@ Normocin
 nr
 NTRK
 NUTM
-Occipital
+occipital
 oligodendroglial
 oligodendroglioma
 oncogenic
 OncoPrint
-oncoprint
 OpenPBTA
 openpbta
 orcid
@@ -313,7 +312,6 @@ rhabdoid
 RiboErase
 ribosomal
 RIN
-RINe
 RNase
 rootstock
 ros
@@ -345,7 +343,7 @@ subtypes
 subtyping
 subworkflow
 Suprasellar
-Supratentorial
+supratentorial
 SureSelect
 SV
 svg

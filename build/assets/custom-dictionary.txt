@@ -1,4 +1,4 @@
-personal_ws-1.1 en 404 utf-8
+personal_ws-1.1 en 427 utf-8
 acknowledgments
 ACP
 adamantinomatous
@@ -20,12 +20,12 @@ astrocytoma
 astrocytomas
 ATRT
 ATRTs
+ATRX
 autosomes
 AWS
 BAF
 BAM
 BAMs
-barplot
 BaseRecalibrator
 BCBIO
 BCFtools
@@ -43,15 +43,18 @@ Bonferroni
 bp
 BRAF
 brainstem
+breakpoint
 Burkitt's
 BWA
 CAVATICA
-Cavatica
 CBTN
 CBTTC
 CCDL
 centromeric
 cerebri
+CHDM
+chordomas
+chromothripsis
 CIBERSORT
 CIC
 CircleCI
@@ -77,7 +80,7 @@ deconvolution
 dendritic
 desmoplastic
 dimorphic
-DINe
+DIN
 DIPG
 DMEM
 DMG
@@ -90,9 +93,11 @@ DSP
 Dura
 dysembryoplastic
 dysplasia
+ectodermal
 embryonal
 Ensembl
 entrectinib
+ependymal
 ependymoblastoma
 ependymoma
 ependymomal
@@ -100,9 +105,12 @@ ependymomas
 EPN
 eq
 et
+ETMR
 ETMRs
 everolimus
 EVN
+ewing
+EWS
 exome
 exonic
 extraventricular
@@ -122,12 +130,14 @@ FREEC
 FusionAnnotator
 Gabriella
 ganglioglioma
+gangliogliomas
 ganglioneuroblastoma
 GATK
 GBM
 GENCODE
 gencode
 genomic
+genomically
 genotyping
 germinomas
 germline
@@ -142,6 +152,7 @@ gliomas
 gliomatosis
 glioneuronal
 GlutaMAX
+GNG
 gnomAD
 GNT
 GRCh
@@ -156,11 +167,13 @@ heatmap
 heatmaps
 hemangioblastomas
 HGAT
+HGATs
 HGG
 HGNET
 hippocampus
 HiSeq
 histiocytic
+histologic
 histological
 histologies
 histone
@@ -168,6 +181,7 @@ hotspot
 HotSpotAllele
 hotspots
 Hyclone
+hypermutant
 HyperPrep
 Hypothalamic
 IARC
@@ -185,6 +199,7 @@ intronic
 Invivogen
 IRanges
 isbn
+iteratively
 JXG
 kallisto
 KAPA
@@ -198,6 +213,7 @@ leptomeningeal
 LGAT
 LGATs
 LGG
+LGGs
 Lonza
 lysed
 macrophage
@@ -218,9 +234,10 @@ meningiomas
 meningothelial
 mergeByOverlaps
 mesenchymal
+methylation
 microenvironment
 microsatellite
-Midbrain
+midbrain
 midline
 miRNA
 missense
@@ -231,9 +248,11 @@ MSigDB
 MSKCC
 MSKCC's
 mTOR
+multifactorial
 multiforme
 multilayer
 multinucleotide
+Mut
 MYB
 MYBL
 MYC
@@ -245,6 +264,7 @@ Neuro
 neuroblastoma
 neurocytoma
 neuroepithelial
+neurofibroma
 neurofibromas
 neurofibromatosis
 neutrophils
@@ -252,14 +272,14 @@ ng
 NGSCheckmate
 nonsynonymous
 Normocin
+novo
 nr
 NTRK
 NUTM
-Occipital
+occipital
 oligodendroglial
 oligodendroglioma
 oncogenic
-OncoPrint
 oncoprint
 OpenPBTA
 openpbta
@@ -314,14 +334,16 @@ rhabdoid
 RiboErase
 ribosomal
 RIN
-RINe
 RNase
 rootstock
 ros
 RSEM
+RTK
+Ryall
 Sambamba
 SAMBLASTER
 SAMtools
+schwannoma
 SciQuest
 sellar
 selumetinib
@@ -332,6 +354,7 @@ SNP
 SNPs
 SNV
 SNVs
+sor
 Spearman
 spectrophotometer
 ssGSEA
@@ -346,7 +369,7 @@ subtypes
 subtyping
 subworkflow
 Suprasellar
-Supratentorial
+supratentorial
 SureSelect
 SV
 svg
@@ -397,6 +420,7 @@ VIS
 WDL
 WGS
 wikidata
+wildtype
 WNT
 WXS
 xanthoastrocytoma

@@ -109,7 +109,7 @@ ETMR
 ETMRs
 everolimus
 EVN
-ewing
+Ewing
 EWS
 exome
 exonic

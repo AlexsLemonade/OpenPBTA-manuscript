@@ -494,364 +494,6 @@
   },
   {
     "type": "article-journal",
-    "id": "E6NaHJzx",
-    "author": [
-      {
-        "family": "Remke",
-        "given": "Marc"
-      },
-      {
-        "family": "Ramaswamy",
-        "given": "Vijay"
-      },
-      {
-        "family": "Peacock",
-        "given": "John"
-      },
-      {
-        "family": "Shih",
-        "given": "David J. H."
-      },
-      {
-        "family": "Koelsche",
-        "given": "Christian"
-      },
-      {
-        "family": "Northcott",
-        "given": "Paul A."
-      },
-      {
-        "family": "Hill",
-        "given": "Nadia"
-      },
-      {
-        "family": "Cavalli",
-        "given": "Florence M. G."
-      },
-      {
-        "family": "Kool",
-        "given": "Marcel"
-      },
-      {
-        "family": "Wang",
-        "given": "Xin"
-      },
-      {
-        "family": "Mack",
-        "given": "Stephen C."
-      },
-      {
-        "family": "Barszczyk",
-        "given": "Mark"
-      },
-      {
-        "family": "Morrissy",
-        "given": "A. Sorana"
-      },
-      {
-        "family": "Wu",
-        "given": "Xiaochong"
-      },
-      {
-        "family": "Agnihotri",
-        "given": "Sameer"
-      },
-      {
-        "family": "Luu",
-        "given": "Betty"
-      },
-      {
-        "family": "Jones",
-        "given": "David T. W."
-      },
-      {
-        "family": "Garzia",
-        "given": "Livia"
-      },
-      {
-        "family": "Dubuc",
-        "given": "Adrian M."
-      },
-      {
-        "family": "Zhukova",
-        "given": "Nataliya"
-      },
-      {
-        "family": "Vanner",
-        "given": "Robert"
-      },
-      {
-        "family": "Kros",
-        "given": "Johan M."
-      },
-      {
-        "family": "French",
-        "given": "Pim J."
-      },
-      {
-        "family": "Van Meir",
-        "given": "Erwin G."
-      },
-      {
-        "family": "Vibhakar",
-        "given": "Rajeev"
-      },
-      {
-        "family": "Zitterbart",
-        "given": "Karel"
-      },
-      {
-        "family": "Chan",
-        "given": "Jennifer A."
-      },
-      {
-        "family": "Bognár",
-        "given": "László"
-      },
-      {
-        "family": "Klekner",
-        "given": "Almos"
-      },
-      {
-        "family": "Lach",
-        "given": "Boleslaw"
-      },
-      {
-        "family": "Jung",
-        "given": "Shin"
-      },
-      {
-        "family": "Saad",
-        "given": "Ali G."
-      },
-      {
-        "family": "Liau",
-        "given": "Linda M."
-      },
-      {
-        "family": "Albrecht",
-        "given": "Steffen"
-      },
-      {
-        "family": "Zollo",
-        "given": "Massimo"
-      },
-      {
-        "family": "Cooper",
-        "given": "Michael K."
-      },
-      {
-        "family": "Thompson",
-        "given": "Reid C."
-      },
-      {
-        "family": "Delattre",
-        "given": "Oliver O."
-      },
-      {
-        "family": "Bourdeaut",
-        "given": "Franck"
-      },
-      {
-        "family": "Doz",
-        "given": "François F."
-      },
-      {
-        "family": "Garami",
-        "given": "Miklós"
-      },
-      {
-        "family": "Hauser",
-        "given": "Peter"
-      },
-      {
-        "family": "Carlotti",
-        "given": "Carlos G."
-      },
-      {
-        "family": "Van Meter",
-        "given": "Timothy E."
-      },
-      {
-        "family": "Massimi",
-        "given": "Luca"
-      },
-      {
-        "family": "Fults",
-        "given": "Daniel"
-      },
-      {
-        "family": "Pomeroy",
-        "given": "Scott L."
-      },
-      {
-        "family": "Kumabe",
-        "given": "Toshiro"
-      },
-      {
-        "family": "Ra",
-        "given": "Young Shin"
-      },
-      {
-        "family": "Leonard",
-        "given": "Jeffrey R."
-      },
-      {
-        "family": "Elbabaa",
-        "given": "Samer K."
-      },
-      {
-        "family": "Mora",
-        "given": "Jaume"
-      },
-      {
-        "family": "Rubin",
-        "given": "Joshua B."
-      },
-      {
-        "family": "Cho",
-        "given": "Yoon-Jae"
-      },
-      {
-        "family": "McLendon",
-        "given": "Roger E."
-      },
-      {
-        "family": "Bigner",
-        "given": "Darell D."
-      },
-      {
-        "family": "Eberhart",
-        "given": "Charles G."
-      },
-      {
-        "family": "Fouladi",
-        "given": "Maryam"
-      },
-      {
-        "family": "Wechsler-Reya",
-        "given": "Robert J."
-      },
-      {
-        "family": "Faria",
-        "given": "Claudia C."
-      },
-      {
-        "family": "Croul",
-        "given": "Sidney E."
-      },
-      {
-        "family": "Huang",
-        "given": "Annie"
-      },
-      {
-        "family": "Bouffet",
-        "given": "Eric"
-      },
-      {
-        "family": "Hawkins",
-        "given": "Cynthia E."
-      },
-      {
-        "family": "Dirks",
-        "given": "Peter B."
-      },
-      {
-        "family": "Weiss",
-        "given": "William A."
-      },
-      {
-        "family": "Schüller",
-        "given": "Ulrich"
-      },
-      {
-        "family": "Pollack",
-        "given": "Ian F."
-      },
-      {
-        "family": "Rutkowski",
-        "given": "Stefan"
-      },
-      {
-        "family": "Meyronet",
-        "given": "David"
-      },
-      {
-        "family": "Jouvet",
-        "given": "Anne"
-      },
-      {
-        "family": "Fèvre-Montange",
-        "given": "Michelle"
-      },
-      {
-        "family": "Jabado",
-        "given": "Nada"
-      },
-      {
-        "family": "Perek-Polnik",
-        "given": "Marta"
-      },
-      {
-        "family": "Grajkowska",
-        "given": "Wieslawa A."
-      },
-      {
-        "family": "Kim",
-        "given": "Seung-Ki"
-      },
-      {
-        "family": "Rutka",
-        "given": "James T."
-      },
-      {
-        "family": "Malkin",
-        "given": "David"
-      },
-      {
-        "family": "Tabori",
-        "given": "Uri"
-      },
-      {
-        "family": "Pfister",
-        "given": "Stefan M."
-      },
-      {
-        "family": "Korshunov",
-        "given": "Andrey"
-      },
-      {
-        "family": "von Deimling",
-        "given": "Andreas"
-      },
-      {
-        "family": "Taylor",
-        "given": "Michael D."
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          2013,
-          10,
-          31
-        ]
-      ]
-    },
-    "container-title": "Acta Neuropathologica",
-    "DOI": "10.1007/s00401-013-1198-2",
-    "volume": "126",
-    "issue": "6",
-    "page": "917-929",
-    "publisher": "Springer Science and Business Media LLC",
-    "title": "TERT promoter mutations are highly recurrent in SHH subgroup medulloblastoma",
-    "URL": "https://doi.org/f5g9qb",
-    "PMCID": "PMC3830749",
-    "PMID": "24174164",
-    "note": "This CSL JSON Item was automatically generated by Manubot v0.4.1 using citation-by-identifier.\nstandard_id: doi:10.1007/s00401-013-1198-2"
-  },
-  {
-    "type": "article-journal",
     "id": "7sgrMadR",
     "author": [
       {
@@ -12698,6 +12340,73 @@
   },
   {
     "type": "article-journal",
+    "id": "RnBZNbdx",
+    "author": [
+      {
+        "family": "Noureen",
+        "given": "Nighat"
+      },
+      {
+        "family": "Wu",
+        "given": "Shaofang"
+      },
+      {
+        "family": "Lv",
+        "given": "Yingli"
+      },
+      {
+        "family": "Yang",
+        "given": "Juechen"
+      },
+      {
+        "family": "Alfred Yung",
+        "given": "W. K."
+      },
+      {
+        "family": "Gelfond",
+        "given": "Jonathan"
+      },
+      {
+        "family": "Wang",
+        "given": "Xiaojing"
+      },
+      {
+        "family": "Koul",
+        "given": "Dimpy"
+      },
+      {
+        "family": "Ludlow",
+        "given": "Andrew"
+      },
+      {
+        "family": "Zheng",
+        "given": "Siyuan"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          8
+        ]
+      ]
+    },
+    "abstract": "Active telomerase is essential for stem cells and most cancers to maintain telomeres. The enzymatic activity of telomerase is related but not equivalent to the expression of TERT, the catalytic subunit of the complex. Here we show that telomerase enzymatic activity can be robustly estimated from the expression of a 13-gene signature. We demonstrate the validity of the expression-based approach, named EXTEND, using cell lines, cancer samples, and non-neoplastic samples. When applied to over 9,000 tumors and single cells, we find a strong correlation between telomerase activity and cancer stemness. This correlation is largely driven by a small population of proliferating cancer cells that exhibits both high telomerase activity and cancer stemness. This study establishes a computational framework for quantifying telomerase enzymatic activity and provides new insights into the relationships among telomerase, cancer proliferation, and stemness.",
+    "container-title": "Nature Communications",
+    "DOI": "10.1038/s41467-020-20474-9",
+    "volume": "12",
+    "issue": "1",
+    "page": "139",
+    "publisher": "Springer Science and Business Media LLC",
+    "title": "Integrated analysis of telomerase enzymatic activity unravels an association with cancer stemness and proliferation",
+    "URL": "https://doi.org/gmfxxd",
+    "PMCID": "PMC7794223",
+    "PMID": "33420056",
+    "note": "This CSL JSON Item was automatically generated by Manubot v0.4.1 using citation-by-identifier.\nstandard_id: doi:10.1038/s41467-020-20474-9"
+  },
+  {
+    "type": "article-journal",
     "id": "REfkDUtE",
     "author": [
       {
@@ -13509,59 +13218,6 @@
     "URL": "https://doi.org/gdcsh3",
     "PMID": "29669011",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.4.1 using citation-by-identifier.\nstandard_id: doi:10.1093/bioinformatics/bty304"
-  },
-  {
-    "type": "article-journal",
-    "id": "Acpyi7Gb",
-    "author": [
-      {
-        "family": "Albanell",
-        "given": "J."
-      },
-      {
-        "family": "Bosl",
-        "given": "G. J."
-      },
-      {
-        "family": "Reuter",
-        "given": "V. E."
-      },
-      {
-        "family": "Engelhardt",
-        "given": "M."
-      },
-      {
-        "family": "Franco",
-        "given": "S."
-      },
-      {
-        "family": "Moore",
-        "given": "M. A. S."
-      },
-      {
-        "family": "Dmitrovsky",
-        "given": "E."
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          1999,
-          8,
-          4
-        ]
-      ]
-    },
-    "container-title": "JNCI Journal of the National Cancer Institute",
-    "DOI": "10.1093/jnci/91.15.1321",
-    "volume": "91",
-    "issue": "15",
-    "page": "1321-1326",
-    "publisher": "Oxford University Press (OUP)",
-    "title": "Telomerase Activity in Germ Cell Cancers and Mature Teratomas",
-    "URL": "https://doi.org/fb2hjt",
-    "PMID": "10433622",
-    "note": "This CSL JSON Item was automatically generated by Manubot v0.4.1 using citation-by-identifier.\nstandard_id: doi:10.1093/jnci/91.15.1321"
   },
   {
     "type": "article-journal",
@@ -14472,68 +14128,6 @@
     "title": "Scaling accurate genetic variant discovery to tens of thousands of samples",
     "URL": "https://doi.org/ggmrvr",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.4.1 using citation-by-identifier.\nstandard_id: doi:10.1101/201178"
-  },
-  {
-    "type": "article-journal",
-    "id": "LqHIy6Mh",
-    "author": [
-      {
-        "family": "Noureen",
-        "given": "Nighat"
-      },
-      {
-        "family": "Wu",
-        "given": "Shaofang"
-      },
-      {
-        "family": "Lyu",
-        "given": "Yingli"
-      },
-      {
-        "family": "Yang",
-        "given": "Juechen"
-      },
-      {
-        "family": "Yung",
-        "given": "WK Alfred"
-      },
-      {
-        "family": "Gelfond",
-        "given": "Jonathan"
-      },
-      {
-        "family": "Wang",
-        "given": "Xiaojing"
-      },
-      {
-        "family": "Koul",
-        "given": "Dimpy"
-      },
-      {
-        "family": "Ludlow",
-        "given": "Andrew"
-      },
-      {
-        "family": "Zheng",
-        "given": "Siyuan"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          2020,
-          5,
-          26
-        ]
-      ]
-    },
-    "abstract": "Active telomerase is essential for stem cells and most cancers to maintain telomeres. The enzymatic activity of telomerase is related but not equivalent to the expression of TERT, the catalytic subunit of the complex. Here we show that telomerase enzymatic activity can be robustly estimated from the expression of a 13-gene signature. We demonstrate the validity of the expression-based approach, named EXTEND, using cell lines, cancer samples, and non-neoplastic samples. When applied to over 9,000 tumors and single cells, we find a strong correlation between telomerase activity and cancer stemness. This correlation is largely driven by a small proliferating cancer cell population that exhibits both high telomerase activity and cancer stemness. This study establishes a novel computational framework for quantifying telomerase enzymatic activity and provides new insights into the relationships among telomerase, cancer proliferation, and stemness.",
-    "container-title": "Cold Spring Harbor Laboratory",
-    "DOI": "10.1101/2020.05.21.109249",
-    "publisher": "Cold Spring Harbor Laboratory",
-    "title": "Inferring Telomerase Enzymatic Activity from Expression Data",
-    "URL": "https://doi.org/ggxfhq",
-    "note": "This CSL JSON Item was automatically generated by Manubot v0.4.1 using citation-by-identifier.\nstandard_id: doi:10.1101/2020.05.21.109249"
   },
   {
     "type": "article-journal",
@@ -16538,7 +16132,7 @@
         [
           "2021",
           11,
-          12
+          18
         ]
       ]
     },
@@ -16560,7 +16154,7 @@
         [
           "2021",
           11,
-          12
+          18
         ]
       ]
     },
@@ -16578,7 +16172,7 @@
         [
           "2021",
           11,
-          12
+          18
         ]
       ]
     },
@@ -16594,7 +16188,7 @@
         [
           "2021",
           11,
-          12
+          18
         ]
       ]
     },
@@ -16613,7 +16207,7 @@
         [
           "2021",
           11,
-          12
+          18
         ]
       ]
     },
@@ -16637,7 +16231,7 @@
         [
           "2021",
           11,
-          12
+          18
         ]
       ]
     },
@@ -16662,7 +16256,7 @@
         [
           "2021",
           11,
-          12
+          18
         ]
       ]
     },
@@ -16694,7 +16288,7 @@
         [
           "2021",
           11,
-          12
+          18
         ]
       ]
     },
@@ -16713,7 +16307,7 @@
         [
           "2021",
           11,
-          12
+          18
         ]
       ]
     },
@@ -16732,7 +16326,7 @@
         [
           "2021",
           11,
-          12
+          18
         ]
       ]
     },
@@ -16751,7 +16345,7 @@
         [
           "2021",
           11,
-          12
+          18
         ]
       ]
     },
@@ -16771,7 +16365,7 @@
         [
           "2021",
           11,
-          12
+          18
         ]
       ]
     },
@@ -16791,7 +16385,7 @@
         [
           "2021",
           11,
-          12
+          18
         ]
       ]
     },
@@ -16811,7 +16405,7 @@
         [
           "2021",
           11,
-          12
+          18
         ]
       ]
     },
@@ -16831,7 +16425,7 @@
         [
           "2021",
           11,
-          12
+          18
         ]
       ]
     },
@@ -16847,7 +16441,7 @@
         [
           "2021",
           11,
-          12
+          18
         ]
       ]
     },
@@ -16864,7 +16458,7 @@
         [
           "2021",
           11,
-          12
+          18
         ]
       ]
     },
@@ -16880,7 +16474,7 @@
         [
           "2021",
           11,
-          12
+          18
         ]
       ]
     },
@@ -16896,7 +16490,7 @@
         [
           "2021",
           11,
-          12
+          18
         ]
       ]
     },
@@ -16921,7 +16515,7 @@
         [
           "2021",
           11,
-          12
+          18
         ]
       ]
     },
@@ -16946,7 +16540,7 @@
         [
           "2021",
           11,
-          12
+          18
         ]
       ]
     },
@@ -16962,7 +16556,7 @@
         [
           "2021",
           11,
-          12
+          18
         ]
       ]
     },
@@ -16978,7 +16572,7 @@
         [
           "2021",
           11,
-          12
+          18
         ]
       ]
     },
@@ -16994,7 +16588,7 @@
         [
           "2021",
           11,
-          12
+          18
         ]
       ]
     },
@@ -17011,7 +16605,7 @@
         [
           "2021",
           11,
-          12
+          18
         ]
       ]
     },

@@ -120,8 +120,9 @@ Strelka
 Supervison
 syzheng
 TACC
-Taroni
+taroni
 Tejaswi
+TERC
 tkoganti
 TKTL
 TP

@@ -141,7 +141,6 @@ GATK
 GBM
 GENCODE
 gencode
-geneset
 genomic
 genomically
 genotyping

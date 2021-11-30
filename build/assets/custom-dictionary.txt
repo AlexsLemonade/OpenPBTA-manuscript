@@ -1,4 +1,4 @@
-personal_ws-1.1 en 435 utf-8
+personal_ws-1.1 en 440 utf-8
 acknowledgments
 ACP
 adamantinomatous
@@ -21,6 +21,7 @@ astrocytomas
 ATRT
 ATRTs
 ATRX
+AUROC
 autosomes
 AWS
 BAF
@@ -209,12 +210,14 @@ JXG
 kallisto
 KAPA
 Kapa
+kaplan
 KidsFirst
 kinases
 KRAS
 larotrectinib
 latex
 leptomeningeal
+LFS
 LGAT
 LGATs
 LGG
@@ -287,6 +290,7 @@ occipital
 oligodendroglial
 oligodendroglioma
 oncogenic
+oncogenicity
 oncoprint
 OpenPBTA
 openpbta
@@ -344,6 +348,7 @@ RIN
 RNase
 rootstock
 ros
+rRNA
 RSEM
 RTK
 Ryall
@@ -427,6 +432,7 @@ VIS
 WDL
 WGS
 wikidata
+Wilcoxon
 wildtype
 WNT
 WXS

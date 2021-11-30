@@ -1,4 +1,4 @@
-personal_ws-1.1 en 453 utf-8
+personal_ws-1.1 en 454 utf-8
 acknowledgments
 ACP
 ACR
@@ -95,7 +95,7 @@ DMG
 DMGs
 DNase
 doi
-dois
+DOIs
 downregulation
 DropletQuant
 DSP
@@ -212,6 +212,7 @@ Invivogen
 IRanges
 isbn
 iteratively
+jaclyn
 JLR
 JNT
 JXG

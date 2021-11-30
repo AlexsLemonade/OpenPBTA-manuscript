@@ -95,7 +95,7 @@ DMG
 DMGs
 DNase
 doi
-dois
+DOIs
 downregulation
 DropletQuant
 DSP
@@ -212,6 +212,7 @@ Invivogen
 IRanges
 isbn
 iteratively
+jaclyn
 JLR
 JNT
 JXG

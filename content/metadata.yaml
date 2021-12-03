@@ -469,28 +469,6 @@ authors:
       - Alex's Lemonade Stand Foundation
       - Children's Brain Tumor Tissue Consortium
       - NIH R01NS091620-05, 5U2CHL138346-04, 1U2CCA233285-03, 1OT2OD027852-01, 1OT3HL147154-01
-  - github: jharenza
-    name: Jo Lynne Rokita*
-    initials: JR
-    orcid: 0000-0003-2171-3627
-    twitter: jolynnerokita
-    email: rokita@chop.edu
-    contributions:
-      - Conceptualization
-      - Data curation
-      - Formal Analysis
-      - Funding acquisition
-      - Investigation
-      - Methodology
-      - Software
-      - Supervision
-      - Writing – original draft
-    affiliations:
-      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
-      - Division of Neurosurgery, Children's Hospital of Philadelphia
-      - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
-    funders:
-      - Alex's Lemonade Stand Foundation
   - github: cgreene
     name: Casey S. Greene
     initials: CSG
@@ -513,6 +491,28 @@ authors:
       - Supervision
       # - Writing – original draft
       - Writing – review & editing
+  - github: jharenza
+    name: Jo Lynne Rokita*
+    initials: JR
+    orcid: 0000-0003-2171-3627
+    twitter: jolynnerokita
+    email: rokita@chop.edu
+    contributions:
+      - Conceptualization
+      - Data curation
+      - Formal Analysis
+      - Funding acquisition
+      - Investigation
+      - Methodology
+      - Software
+      - Supervision
+      - Writing – original draft
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
+      - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
+    funders:
+      - Alex's Lemonade Stand Foundation
   - github: jaclyn-taroni
     name: Jaclyn N. Taroni*
     initials: JNT

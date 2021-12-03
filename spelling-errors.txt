@@ -17,12 +17,10 @@ bmennis
 Bo
 cansavvy
 cbethell
-CCA
 CDKN
 cgreene
 Chante
 CHCl
-CHL
 Chr
 cjbethell
 CLDN
@@ -54,8 +52,8 @@ Hongbo
 HRAS
 HuangXiaoyan
 IFT
-jaclyn
 jainpayal
+JAS
 jashapiro
 Jena
 jenn
@@ -82,7 +80,6 @@ Mariarita
 Mateusz
 MEK
 migbro
-mis
 mkoptyra
 Mutect
 NCT
@@ -97,13 +94,12 @@ Payal
 PDGFRA
 PHG
 Pichai
-pichairaman
+PichaiRaman
 PIK
 Poetsch
 Raman
 Rathi
 Resnick
-Rokita
 Santi
 Savonen
 Scolaro
@@ -120,7 +116,7 @@ Strelka
 Supervison
 syzheng
 TACC
-taroni
+Taroni
 Tejaswi
 TERC
 tkoganti

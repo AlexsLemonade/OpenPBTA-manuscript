@@ -180,6 +180,17 @@ authors:
       - Rowan University, Glassboro, NJ, USA
     funders:
       - Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
+  - github: LauraEgolf
+    name: Laura E. Egolf
+    initials: LEE
+    orcid: 0000-0002-7103-4801
+    twitter: LauraEgolf
+    email: laura.egolf@pennmedicine.upenn.edu
+    contributions:
+      - Formal analysis
+    affiliations:
+      - Cell and Molecular Biology Graduate Group, Perelman School of Medicine at the University of Pennsylvania
+      - Division of Oncology, Children's Hospital of Philadelphia
   - github: baileyckelly
     name: Bailey Farrow
     initials: BF
@@ -378,7 +389,7 @@ authors:
     contributions:
       - Data Curation
     affiliations:
-      - Division of Oncology, Children's Hospital of Philadelphia, Children’s Hospital of Philadelphia
+      - Division of Oncology, Children's Hospital of Philadelphia
   - github: awaanders
     name: Angela Waanders
     initials: AW

@@ -304,6 +304,10 @@ authors:
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
+    funders:
+      - NIH U2C HL138346-03
+      - NCI/NIH Contract No. 75N91019D00024, Task Order No. 75N91020F00003
+      - Australian Government, Department of Education
   - github: mkoptyra
     name: Mateusz P. Koptyra
     initials: MPK
@@ -451,6 +455,9 @@ authors:
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
+    funders:
+      - Alex's Lemonade Stand Foundation (Catalyst)
+      - Children’s Hospital of Philadelphia Division of Neurosurgery
   - github: adamcresnick
     name: Adam C. Resnick
     initials: ACR
@@ -466,31 +473,11 @@ authors:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
     funders:
-      - Alex's Lemonade Stand Foundation
-      - Children's Brain Tumor Tissue Consortium
-      - NIH R01NS091620-05, 5U2CHL138346-04, 1U2CCA233285-03, 1OT2OD027852-01, 1OT3HL147154-01
-  - github: jharenza
-    name: Jo Lynne Rokita
-    initials: JR
-    orcid: 0000-0003-2171-3627
-    twitter: jolynnerokita
-    email: rokita@chop.edu
-    contributions:
-      - Conceptualization
-      - Data curation
-      - Formal Analysis
-      - Funding acquisition
-      - Investigation
-      - Methodology
-      - Software
-      - Supervision
-      - Writing – original draft
-    affiliations:
-      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
-      - Division of Neurosurgery, Children's Hospital of Philadelphia
-      - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
-    funders:
-      - Alex's Lemonade Stand Foundation
+      - Alex's Lemonade Stand Foundation (Catalyst)
+      - Children's Brain Tumor Network
+      - NIH 3P30 CA016520-44S5, U2C HL138346-03, U24 CA220457-03
+      - NCI/NIH Contract No. 75N91019D00024, Task Order No. 75N91020F00003
+      - Children’s Hospital of Philadelphia Division of Neurosurgery
   - github: cgreene
     name: Casey S. Greene
     initials: CSG
@@ -513,8 +500,31 @@ authors:
       - Supervision
       # - Writing – original draft
       - Writing – review & editing
+  - github: jharenza
+    name: Jo Lynne Rokita*
+    initials: JR
+    orcid: 0000-0003-2171-3627
+    twitter: jolynnerokita
+    email: rokita@chop.edu
+    contributions:
+      - Conceptualization
+      - Data curation
+      - Formal Analysis
+      - Funding acquisition
+      - Investigation
+      - Methodology
+      - Software
+      - Supervision
+      - Writing – original draft
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
+      - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
+    funders:
+      - Alex's Lemonade Stand Foundation (Young Investigator, Catalyst)
+      - NCI/NIH Contract No. 75N91019D00024, Task Order No. 75N91020F00003
   - github: jaclyn-taroni
-    name: Jaclyn N. Taroni
+    name: Jaclyn N. Taroni*
     initials: JNT
     orcid: 0000-0003-4734-4508
     twitter: jaclyn_taroni
@@ -534,7 +544,7 @@ authors:
       - Visualization
       - Supervision
       - Project administration
-  - name: Children's Brain Tumor Tissue Consortium
+  - name: Children's Brain Tumor Network
     contributions:
       - Conceptualization
   - name: Pacific Pediatric Neurooncology Consortium

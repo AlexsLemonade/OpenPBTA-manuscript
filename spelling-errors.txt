@@ -32,6 +32,7 @@ DDX
 dmiller
 Duong
 EGFR
+Egolf
 Ennis
 ERBB
 EWSR
@@ -74,6 +75,7 @@ Kraya
 Krutika
 kshrivats
 Kuren
+LauraEgolf
 Lurie
 maf
 Mariarita
@@ -116,7 +118,7 @@ Strelka
 Supervison
 syzheng
 TACC
-Taroni
+taroni
 Tejaswi
 TERC
 tkoganti

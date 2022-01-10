@@ -264,6 +264,7 @@
         ]
       ]
     },
+    "container-title": "Atlas of Pediatric Brain Tumors",
     "DOI": "10.1007/978-3-319-33432-5_20",
     "page": "195-199",
     "publisher": "Springer Science and Business Media LLC",
@@ -12708,6 +12709,367 @@
   },
   {
     "type": "article-journal",
+    "id": "17wG7AMwM",
+    "author": [
+      {
+        "family": "Cortés-Ciriano",
+        "given": "Isidro"
+      },
+      {
+        "family": "Lee",
+        "given": "Jake June-Koo"
+      },
+      {
+        "family": "Xi",
+        "given": "Ruibin"
+      },
+      {
+        "family": "Jain",
+        "given": "Dhawal"
+      },
+      {
+        "family": "Jung",
+        "given": "Youngsook L."
+      },
+      {
+        "family": "Yang",
+        "given": "Lixing"
+      },
+      {
+        "family": "Gordenin",
+        "given": "Dmitry"
+      },
+      {
+        "family": "Klimczak",
+        "given": "Leszek J."
+      },
+      {
+        "family": "Zhang",
+        "given": "Cheng-Zhong"
+      },
+      {
+        "family": "Pellman",
+        "given": "David S."
+      },
+      {
+        "family": "Akdemir",
+        "given": "Kadir C."
+      },
+      {
+        "family": "Alvarez",
+        "given": "Eva G."
+      },
+      {
+        "family": "Baez-Ortega",
+        "given": "Adrian"
+      },
+      {
+        "family": "Beroukhim",
+        "given": "Rameen"
+      },
+      {
+        "family": "Boutros",
+        "given": "Paul C."
+      },
+      {
+        "family": "Bowtell",
+        "given": "David D. L."
+      },
+      {
+        "family": "Brors",
+        "given": "Benedikt"
+      },
+      {
+        "family": "Burns",
+        "given": "Kathleen H."
+      },
+      {
+        "family": "Campbell",
+        "given": "Peter J."
+      },
+      {
+        "family": "Chan",
+        "given": "Kin"
+      },
+      {
+        "family": "Chen",
+        "given": "Ken"
+      },
+      {
+        "family": "Cortés-Ciriano",
+        "given": "Isidro"
+      },
+      {
+        "family": "Dueso-Barroso",
+        "given": "Ana"
+      },
+      {
+        "family": "Dunford",
+        "given": "Andrew J."
+      },
+      {
+        "family": "Edwards",
+        "given": "Paul A."
+      },
+      {
+        "family": "Estivill",
+        "given": "Xavier"
+      },
+      {
+        "family": "Etemadmoghadam",
+        "given": "Dariush"
+      },
+      {
+        "family": "Feuerbach",
+        "given": "Lars"
+      },
+      {
+        "family": "Fink",
+        "given": "J. Lynn"
+      },
+      {
+        "family": "Frenkel-Morgenstern",
+        "given": "Milana"
+      },
+      {
+        "family": "Garsed",
+        "given": "Dale W."
+      },
+      {
+        "family": "Gerstein",
+        "given": "Mark"
+      },
+      {
+        "family": "Gordenin",
+        "given": "Dmitry A."
+      },
+      {
+        "family": "Haan",
+        "given": "David"
+      },
+      {
+        "family": "Haber",
+        "given": "James E."
+      },
+      {
+        "family": "Hess",
+        "given": "Julian M."
+      },
+      {
+        "family": "Hutter",
+        "given": "Barbara"
+      },
+      {
+        "family": "Imielinski",
+        "given": "Marcin"
+      },
+      {
+        "family": "Jones",
+        "given": "David T. W."
+      },
+      {
+        "family": "Ju",
+        "given": "Young Seok"
+      },
+      {
+        "family": "Kazanov",
+        "given": "Marat D."
+      },
+      {
+        "family": "Klimczak",
+        "given": "Leszek J."
+      },
+      {
+        "family": "Koh",
+        "given": "Youngil"
+      },
+      {
+        "family": "Korbel",
+        "given": "Jan O."
+      },
+      {
+        "family": "Kumar",
+        "given": "Kiran"
+      },
+      {
+        "family": "Lee",
+        "given": "Eunjung Alice"
+      },
+      {
+        "family": "Lee",
+        "given": "Jake June-Koo"
+      },
+      {
+        "family": "Li",
+        "given": "Yilong"
+      },
+      {
+        "family": "Lynch",
+        "given": "Andy G."
+      },
+      {
+        "family": "Macintyre",
+        "given": "Geoff"
+      },
+      {
+        "family": "Markowetz",
+        "given": "Florian"
+      },
+      {
+        "family": "Martincorena",
+        "given": "Iñigo"
+      },
+      {
+        "family": "Martinez-Fundichely",
+        "given": "Alexander"
+      },
+      {
+        "family": "Miyano",
+        "given": "Satoru"
+      },
+      {
+        "family": "Nakagawa",
+        "given": "Hidewaki"
+      },
+      {
+        "family": "Navarro",
+        "given": "Fabio C. P."
+      },
+      {
+        "family": "Ossowski",
+        "given": "Stephan"
+      },
+      {
+        "family": "Park",
+        "given": "Peter J."
+      },
+      {
+        "family": "Pearson",
+        "given": "John V."
+      },
+      {
+        "family": "Puiggròs",
+        "given": "Montserrat"
+      },
+      {
+        "family": "Rippe",
+        "given": "Karsten"
+      },
+      {
+        "family": "Roberts",
+        "given": "Nicola D."
+      },
+      {
+        "family": "Roberts",
+        "given": "Steven A."
+      },
+      {
+        "family": "Rodriguez-Martin",
+        "given": "Bernardo"
+      },
+      {
+        "family": "Schumacher",
+        "given": "Steven E."
+      },
+      {
+        "family": "Scully",
+        "given": "Ralph"
+      },
+      {
+        "family": "Shackleton",
+        "given": "Mark"
+      },
+      {
+        "family": "Sidiropoulos",
+        "given": "Nikos"
+      },
+      {
+        "family": "Sieverling",
+        "given": "Lina"
+      },
+      {
+        "family": "Stewart",
+        "given": "Chip"
+      },
+      {
+        "family": "Torrents",
+        "given": "David"
+      },
+      {
+        "family": "Tubio",
+        "given": "Jose M. C."
+      },
+      {
+        "family": "Villasante",
+        "given": "Izar"
+      },
+      {
+        "family": "Waddell",
+        "given": "Nicola"
+      },
+      {
+        "family": "Wala",
+        "given": "Jeremiah A."
+      },
+      {
+        "family": "Weischenfeldt",
+        "given": "Joachim"
+      },
+      {
+        "family": "Yang",
+        "given": "Lixing"
+      },
+      {
+        "family": "Yao",
+        "given": "Xiaotong"
+      },
+      {
+        "family": "Yoon",
+        "given": "Sung-Soo"
+      },
+      {
+        "family": "Zamora",
+        "given": "Jorge"
+      },
+      {
+        "family": "Zhang",
+        "given": "Cheng-Zhong"
+      },
+      {
+        "family": "Park",
+        "given": "Peter J."
+      },
+      {
+        "literal": "PCAWG Structural Variation Working Group"
+      },
+      {
+        "literal": "PCAWG Consortium"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          2,
+          5
+        ]
+      ]
+    },
+    "abstract": "Chromothripsis is a mutational phenomenon characterized by massive, clustered genomic rearrangements that occurs in cancer and other diseases. Recent studies in selected cancer types have suggested that chromothripsis may be more common than initially inferred from low-resolution copy-number data. Here, as part of the Pan-Cancer Analysis of Whole Genomes (PCAWG) Consortium of the International Cancer Genome Consortium (ICGC) and The Cancer Genome Atlas (TCGA), we analyze patterns of chromothripsis across 2,658 tumors from 38 cancer types using whole-genome sequencing data. We find that chromothripsis events are pervasive across cancers, with a frequency of more than 50% in several cancer types. Whereas canonical chromothripsis profiles display oscillations between two copy-number states, a considerable fraction of events involve multiple chromosomes and additional structural alterations. In addition to non-homologous end joining, we detect signatures of replication-associated processes and templated insertions. Chromothripsis contributes to oncogene amplification and to inactivation of genes such as mismatch-repair-related genes. These findings show that chromothripsis is a major process that drives genome evolution in human cancer.",
+    "container-title": "Nature Genetics",
+    "DOI": "10.1038/s41588-019-0576-7",
+    "volume": "52",
+    "issue": "3",
+    "page": "331-341",
+    "publisher": "Springer Science and Business Media LLC",
+    "title": "Comprehensive analysis of chromothripsis in 2,658 human cancers using whole-genome sequencing",
+    "URL": "https://doi.org/ggkkpt",
+    "PMCID": "PMC7058534",
+    "PMID": "32025003",
+    "note": "This CSL JSON Item was automatically generated by Manubot v0.4.1 using citation-by-identifier.\nstandard_id: doi:10.1038/s41588-019-0576-7"
+  },
+  {
+    "type": "article-journal",
     "id": "REfkDUtE",
     "author": [
       {
@@ -13997,18 +14359,21 @@
     "issued": {
       "date-parts": [
         [
-          2021,
-          7,
-          17
+          2022,
+          1,
+          1
         ]
       ]
     },
     "container-title": "Neuro-Oncology",
     "DOI": "10.1093/neuonc/noab178",
-    "page": "noab178",
+    "volume": "24",
+    "issue": "1",
+    "page": "153-165",
     "publisher": "Oxford University Press (OUP)",
     "title": "Emergence and maintenance of actionable genetic drivers at medulloblastoma relapse",
     "URL": "https://doi.org/gm3q3n",
+    "PMCID": "PMC8730763",
     "PMID": "34272868",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.4.1 using citation-by-identifier.\nstandard_id: doi:10.1093/neuonc/noab178"
   },
@@ -16432,9 +16797,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2021",
-          12,
-          5
+          "2022",
+          1,
+          10
         ]
       ]
     },
@@ -16454,9 +16819,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2021",
-          12,
-          5
+          "2022",
+          1,
+          10
         ]
       ]
     },
@@ -16472,9 +16837,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2021",
-          12,
-          5
+          "2022",
+          1,
+          10
         ]
       ]
     },
@@ -16488,9 +16853,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2021",
-          12,
-          5
+          "2022",
+          1,
+          10
         ]
       ]
     },
@@ -16507,9 +16872,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2021",
-          12,
-          5
+          "2022",
+          1,
+          10
         ]
       ]
     },
@@ -16531,9 +16896,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2021",
-          12,
-          5
+          "2022",
+          1,
+          10
         ]
       ]
     },
@@ -16556,9 +16921,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2021",
-          12,
-          5
+          "2022",
+          1,
+          10
         ]
       ]
     },
@@ -16588,9 +16953,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2021",
-          12,
-          5
+          "2022",
+          1,
+          10
         ]
       ]
     },
@@ -16607,9 +16972,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2021",
-          12,
-          5
+          "2022",
+          1,
+          10
         ]
       ]
     },
@@ -16626,9 +16991,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2021",
-          12,
-          5
+          "2022",
+          1,
+          10
         ]
       ]
     },
@@ -16645,9 +17010,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2021",
-          12,
-          5
+          "2022",
+          1,
+          10
         ]
       ]
     },
@@ -16665,9 +17030,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2021",
-          12,
-          5
+          "2022",
+          1,
+          10
         ]
       ]
     },
@@ -16685,9 +17050,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2021",
-          12,
-          5
+          "2022",
+          1,
+          10
         ]
       ]
     },
@@ -16705,9 +17070,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2021",
-          12,
-          5
+          "2022",
+          1,
+          10
         ]
       ]
     },
@@ -16725,9 +17090,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2021",
-          12,
-          5
+          "2022",
+          1,
+          10
         ]
       ]
     },
@@ -16741,9 +17106,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2021",
-          12,
-          5
+          "2022",
+          1,
+          10
         ]
       ]
     },
@@ -16758,28 +17123,18 @@
     "accessed": {
       "date-parts": [
         [
-          "2021",
-          12,
-          5
+          "2022",
+          1,
+          10
         ]
       ]
     },
     "note": "This CSL JSON Item was automatically generated by Manubot v0.4.1 using citation-by-identifier.\nstandard_id: url:https://manubot.org"
   },
   {
-    "id": "1WxziFyg",
-    "type": "webpage",
-    "title": "Pfam: Family: PK_Tyr_Ser-Thr (PF07714)",
     "URL": "https://pfam.xfam.org/family/PF07714",
-    "accessed": {
-      "date-parts": [
-        [
-          "2021",
-          12,
-          5
-        ]
-      ]
-    },
+    "type": "webpage",
+    "id": "1WxziFyg",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.4.1 using citation-by-identifier.\nstandard_id: url:https://pfam.xfam.org/family/PF07714"
   },
   {
@@ -16790,9 +17145,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2021",
-          12,
-          5
+          "2022",
+          1,
+          10
         ]
       ]
     },
@@ -16815,9 +17170,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2021",
-          12,
-          5
+          "2022",
+          1,
+          10
         ]
       ]
     },
@@ -16840,9 +17195,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2021",
-          12,
-          5
+          "2022",
+          1,
+          10
         ]
       ]
     },
@@ -16856,9 +17211,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2021",
-          12,
-          5
+          "2022",
+          1,
+          10
         ]
       ]
     },
@@ -16872,9 +17227,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2021",
-          12,
-          5
+          "2022",
+          1,
+          10
         ]
       ]
     },
@@ -16888,9 +17243,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2021",
-          12,
-          5
+          "2022",
+          1,
+          10
         ]
       ]
     },
@@ -16905,9 +17260,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2021",
-          12,
-          5
+          "2022",
+          1,
+          10
         ]
       ]
     },

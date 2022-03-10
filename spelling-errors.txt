@@ -96,7 +96,7 @@ Payal
 PDGFRA
 PHG
 Pichai
-pichairaman
+PichaiRaman
 PIK
 Poetsch
 Raman
@@ -118,7 +118,7 @@ Strelka
 Supervison
 syzheng
 TACC
-taroni
+Taroni
 Tejaswi
 TERC
 tkoganti

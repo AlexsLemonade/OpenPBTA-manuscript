@@ -66,7 +66,7 @@ authors:
     initials: KSG
     orcid: 0000-0003-0838-2405
     twitter: 29aprilkrutika
-    email: gaonkark@chop.edu
+    email: ksgaonkar@outlook.com
     contributions:
       - Data curation
       - Formal Analysis
@@ -78,6 +78,20 @@ authors:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
       - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
+  - github: runjin326
+    name: Run Jin
+    initials: RJ
+    orcid: 0000-0002-8958-9266
+    twitter: runjin
+    email: jinr@chop.edu
+    contributions:
+      - Data curation
+      - Formal Analysis
+      - Visualization
+      - Writing – original draft
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
   - github: yuankunzhu
     name: Yuankun Zhu
     initials: YZ
@@ -329,6 +343,14 @@ authors:
     contributions:
       - Formal Analysis
       - Writing – original draft
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - name: Shannon Robbins
+    initials: SR
+    email: Shannonmrobins@gmail.com
+    contributions:
+      - Data curation
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia

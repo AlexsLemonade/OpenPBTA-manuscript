@@ -1,4 +1,4 @@
-personal_ws-1.1 en 453 utf-8
+personal_ws-1.1 en 457 utf-8
 acknowledgments
 ACP
 ACR
@@ -213,6 +213,7 @@ IRanges
 isbn
 iteratively
 jaclyn
+JAS
 JLR
 JNT
 JXG
@@ -402,6 +403,7 @@ svg
 svgs
 SVs
 TapeStation
+taroni
 tbl
 TCGA
 Tectum

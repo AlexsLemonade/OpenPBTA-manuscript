@@ -1,10 +1,10 @@
 aadamk
 adamcresnick
+aggokittu
 ALK
 allig
 allisonheath
 APoetsch
-aprilkrutika
 ARAF
 ARL
 arpoe
@@ -54,12 +54,12 @@ HRAS
 HuangXiaoyan
 IFT
 jainpayal
-JAS
 jashapiro
 Jena
 jenn
 jessicawongbfx
 jharenza
+Jin
 jolynnerokita
 jvlilly
 Kannan
@@ -102,6 +102,7 @@ Poetsch
 Raman
 Rathi
 Resnick
+runjin
 Santi
 Savonen
 Scolaro
@@ -118,7 +119,6 @@ Strelka
 Supervison
 syzheng
 TACC
-Taroni
 Tejaswi
 TERC
 tkoganti

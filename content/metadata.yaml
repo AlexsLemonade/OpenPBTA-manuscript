@@ -169,7 +169,7 @@ authors:
     initials: SJS
     orcid: 0000-0002-9090-4788
     twitter: stephspiel
-    email: spielman@rowan.edu
+    email: stephanie.spielman@ccdatalab.org
     contributions:
       - Validation
       - Formal analysis
@@ -177,6 +177,7 @@ authors:
       - Visualization
       - Supervision
     affiliations:
+      - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, PA, USA
       - Rowan University, Glassboro, NJ, USA
     funders:
       - Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)

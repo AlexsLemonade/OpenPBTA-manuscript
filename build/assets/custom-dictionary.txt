@@ -263,7 +263,6 @@ midline
 miRNA
 mis
 missense
-MMR2
 MNV
 monocytes
 Mortem
@@ -280,7 +279,6 @@ MYB
 MYBL
 MYC
 myeloid
-N6
 NantHealth
 NantOmics
 NCI

@@ -66,6 +66,7 @@ CircleCI
 CJB
 CLS
 CNC
+CNS
 CNV
 CNVkit
 CNVs
@@ -262,6 +263,7 @@ midline
 miRNA
 mis
 missense
+MMR2
 MNV
 monocytes
 Mortem
@@ -278,6 +280,7 @@ MYB
 MYBL
 MYC
 myeloid
+N6
 NantHealth
 NantOmics
 NCI
@@ -353,6 +356,7 @@ README
 recalibrated
 recoded
 recombinant
+RefSig
 RELA
 reproducibility
 rhabdoid
@@ -447,6 +451,7 @@ VCFs
 VIS
 WDL
 WGS
+whichSignatures
 wikidata
 Wilcoxon
 wildtype

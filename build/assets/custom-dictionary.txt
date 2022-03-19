@@ -1,4 +1,4 @@
-personal_ws-1.1 en 472 utf-8
+personal_ws-1.1 en 473 utf-8
 acknowledgments
 ACP
 ACR
@@ -364,6 +364,7 @@ recombinant
 RefSig
 RELA
 reproducibility
+resected
 rhabdoid
 RiboErase
 ribosomal
@@ -408,7 +409,7 @@ subtyped
 subtypes
 subtyping
 subworkflow
-Suprasellar
+suprasellar
 supratentorial
 SureSelect
 SV

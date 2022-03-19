@@ -21,7 +21,7 @@ CDKN
 cgreene
 Chante
 CHCl
-Chr
+chr
 cjbethell
 CLDN
 cnkline
@@ -78,6 +78,7 @@ Kuren
 LauraEgolf
 Lurie
 maf
+Maftools
 Mariarita
 Mateusz
 MEK
@@ -91,12 +92,14 @@ Nighat
 NNoureen
 Noureen
 NRAS
+oncoprints
 orf
 Payal
 PDGFRA
+PFS
 PHG
 Pichai
-pichairaman
+PichaiRaman
 PIK
 Poetsch
 Raman

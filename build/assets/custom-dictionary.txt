@@ -1,4 +1,4 @@
-personal_ws-1.1 en 674 utf-8
+personal_ws-1.1 en 675 utf-8
 Abadi
 AbdelBaki
 Acharya
@@ -509,6 +509,7 @@ recombinant
 Reddy
 RELA
 reproducibility
+resected
 Resnick
 Reya
 rhabdoid
@@ -584,7 +585,7 @@ subtyped
 subtypes
 subtyping
 subworkflow
-Suprasellar
+suprasellar
 supratentorial
 SureSelect
 SV

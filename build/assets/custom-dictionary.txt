@@ -1,4 +1,4 @@
-personal_ws-1.1 en 458 utf-8
+personal_ws-1.1 en 463 utf-8
 acknowledgments
 ACP
 ACR
@@ -39,6 +39,7 @@ bedtools
 benchmarking
 Bioconductor
 bioinformatics
+biorender
 biorepository
 biospecimen
 biospecimens
@@ -221,6 +222,7 @@ kallisto
 KAPA
 Kapa
 kaplan
+KFDRC
 KidsFirst
 kinases
 KRAS
@@ -238,6 +240,7 @@ lysed
 macrophage
 MAF
 MAFs
+Maftools
 MantaSV
 manubot
 ManuBot
@@ -305,6 +308,7 @@ oligodendroglioma
 oncogenic
 oncogenicity
 oncoprint
+oncoprints
 OpenPBTA
 openpbta
 orcid
@@ -375,6 +379,7 @@ schwannoma
 SciQuest
 sellar
 selumetinib
+ShatterSeek
 Sidra
 SNCAIP
 snoRNA
@@ -440,6 +445,7 @@ unicode
 upregulation
 UTR
 VAF
+VAFs
 VarDict
 VarDictJava
 VCF
@@ -456,4 +462,3 @@ WXS
 xanthoastrocytoma
 xanthogranuloma
 xCell
-ShatterSeek

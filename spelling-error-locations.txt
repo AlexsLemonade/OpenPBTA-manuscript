@@ -1,2 +1,0 @@
-content/06.methods.md:300:Maftools
-content/06.methods.md:300:oncoprints

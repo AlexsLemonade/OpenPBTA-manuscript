@@ -66,6 +66,7 @@ CircleCI
 CJB
 CLS
 CNC
+CNS
 CNV
 CNVkit
 CNVs
@@ -466,6 +467,7 @@ VCFs
 VIS
 WDL
 WGS
+whichSignatures
 wikidata
 Wilcoxon
 wildtype

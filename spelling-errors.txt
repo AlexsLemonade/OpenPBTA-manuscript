@@ -98,7 +98,7 @@ PDGFRA
 PFS
 PHG
 Pichai
-pichairaman
+PichaiRaman
 PIK
 Poetsch
 Raman

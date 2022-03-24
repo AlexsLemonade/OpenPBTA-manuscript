@@ -21,7 +21,7 @@ CDKN
 cgreene
 Chante
 CHCl
-chr
+Chr
 cjbethell
 CLDN
 cnkline
@@ -98,7 +98,7 @@ PDGFRA
 PFS
 PHG
 Pichai
-PichaiRaman
+pichairaman
 PIK
 Poetsch
 Raman

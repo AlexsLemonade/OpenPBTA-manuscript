@@ -55,7 +55,7 @@ authors:
       - Validation
       - Formal analysis
       - Investigation
-      - Writing - Original draft 
+      - Writing - Original draft
       - Visualization
     affiliations:
       - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, PA, USA
@@ -65,8 +65,8 @@ authors:
     name: Krutika S. Gaonkar
     initials: KSG
     orcid: 0000-0003-0838-2405
-    twitter: 29aprilkrutika
-    email: gaonkark@email.chop.edu
+    twitter: aggokittu
+    email: ksgaonkar@outlook.com
     contributions:
       - Data curation
       - Formal Analysis
@@ -78,12 +78,26 @@ authors:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
       - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
+  - github: runjin326
+    name: Run Jin
+    initials: RJ
+    orcid: 0000-0002-8958-9266
+    twitter: runjin
+    email: jinr@chop.edu
+    contributions:
+      - Data curation
+      - Formal Analysis
+      - Visualization
+      - Writing – original draft
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
   - github: yuankunzhu
     name: Yuankun Zhu
     initials: YZ
     orcid: 0000-0002-2455-9525
     twitter: zhuyuankun
-    email: zhuy@email.chop.edu
+    email: zhuy@chop.edu
     contributions:
       - Data curation
       - Formal Analysis
@@ -98,7 +112,7 @@ authors:
     initials: MAB
     orcid: 0000-0001-6782-1442
     twitter: migbro
-    email: brownm28@email.chop.edu
+    email: brownm28@chop.edu
     contributions:
       - Data curation
       - Methodology
@@ -122,7 +136,7 @@ authors:
     initials: KSR
     orcid: 0000-0001-5534-6904
     twitter: komalsrathi
-    email: rathik@email.chop.edu
+    email: rathik@chop.edu
     contributions:
       - Formal Analysis
       - Investigation
@@ -140,13 +154,13 @@ authors:
       - Formal analysis
       - Visualization
       - Writing - Original draft
-    affiliations: 
+    affiliations:
       - Greehey Children's Cancer Research Institute, UT Health San Antonio
   - github: zhangb1
     name: Bo Zhang
     initials: BZ
     orcid: 0000-0002-0743-5379
-    email: zhangb1@email.chop.edu
+    email: zhangb1@chop.edu
     contributions:
       - Data curation
       - Formal Analysis
@@ -157,7 +171,7 @@ authors:
     name: Brian M. Ennis
     initials: BME
     orcid: 0000-0002-2653-5009
-    email: ennisb@email.chop.edu
+    email: ennisb@chop.edu
     contributions:
       - Data curation
       - Formal Analysis
@@ -169,7 +183,7 @@ authors:
     initials: SJS
     orcid: 0000-0002-9090-4788
     twitter: stephspiel
-    email: spielman@rowan.edu
+    email: stephanie.spielman@gmail.com
     contributions:
       - Validation
       - Formal analysis
@@ -177,14 +191,28 @@ authors:
       - Visualization
       - Supervision
     affiliations:
+      - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, PA, USA<sup>☯</sup>
       - Rowan University, Glassboro, NJ, USA
+    symbol_str: "☯"
     funders:
       - Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
+  - github: LauraEgolf
+    name: Laura E. Egolf
+    initials: LEE
+    orcid: 0000-0002-7103-4801
+    twitter: LauraEgolf
+    email: laura.egolf@pennmedicine.upenn.edu
+    contributions:
+      - Formal analysis
+      - Writing - Original draft
+    affiliations:
+      - Cell and Molecular Biology Graduate Group, Perelman School of Medicine at the University of Pennsylvania
+      - Division of Oncology, Children's Hospital of Philadelphia
   - github: baileyckelly
     name: Bailey Farrow
     initials: BF
     orcid: 0000-0001-6727-6333
-    email: farrowb@email.chop.edu
+    email: farrowb@chop.edu
     contributions:
       - Data curation
       - Software
@@ -195,7 +223,7 @@ authors:
     name: Nicolas Van Kuren
     initials: NK
     orcid: 0000-0002-7414-9516
-    email: vankurenk@email.chop.edu
+    email: vankurenk@chop.edu
     contributions:
       - Data curation
       - Software
@@ -206,7 +234,7 @@ authors:
     name: Tejaswi Koganti
     initials: TK
     orcid: 0000-0002-7733-6480
-    email: kogantit@email.chop.edu
+    email: tejaswikoganti@gmail.com
     contributions:
       - Formal Analysis
       - Investigation
@@ -239,22 +267,43 @@ authors:
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
+  - github: jenn0307
+    name: Jennifer Mason
+    initials: JM
+    twitter: jenn0307
+    email: masonjl@chop.edu
+    contributions:
+      - Supervision
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
   - github: dmiller15
     name: Daniel P. Miller
     initials: DPM
     orcid: 0000-0002-2032-4358
-    email: millerd15@email.chop.edu
+    email: millerd15@chop.edu
     contributions:
       - Formal Analysis
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - github: arpoe
+    name: Anna R. Poetsch
+    initials: ARP
+    orcid: 0000-0003-3056-4360
+    twitter: APoetsch
+    email: arpoetsch@gmail.com
+    contributions:
+      - Formal Analysis
+    affiliations:
+      - Biotechnology Center, Technical University Dresden, Germany
+      - National Center for Tumor Diseases, Dresden, Germany
   - github: jainpayal022
     name: Payal Jain
     initials: PJ
     orcid: 0000-0002-5914-9083
     twitter: jainpayal022
-    email: jainp@email.chop.edu
+    email: jainp@chop.edu
     contributions:
       - Data curation
       - Investigation
@@ -266,7 +315,7 @@ authors:
     name: Adam A. Kraya
     initials: AAK
     orcid: 0000-0002-8526-5694
-    email: krayaa@email.chop.edu
+    email: krayaa@chop.edu
     contributions:
       - Methodology
     affiliations:
@@ -277,21 +326,54 @@ authors:
     initials: APH
     orcid: 0000-0002-2583-9668
     twitter: allig8r
-    email: heathap@email.chop.edu
+    email: heathap@chop.edu
     contributions:
       - Project administration
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
+    funders:
+      - NIH U2C HL138346-03
+      - NCI/NIH Contract No. 75N91019D00024, Task Order No. 75N91020F00003
+      - Australian Government, Department of Education
   - github: mkoptyra
     name: Mateusz P. Koptyra
     initials: MPK
     orcid: 0000-0002-3857-6633
     twitter: koptyram
-    email: koptyram@email.chop.edu
+    email: koptyram@chop.edu
     contributions:
       - Formal Analysis
       - Writing – original draft
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - name: Shannon Robbins
+    initials: SR
+    email: Shannonmrobins@gmail.com
+    contributions:
+      - Data curation
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - github: Yiran-Guo
+    name: Yiran Guo
+    initials: YG
+    orcid: 0000-0002-6549-8589
+    twitter: YiranGuo3
+    email: guoy@chop.edu
+    contributions:
+      - Formal Analysis
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - github: HuangXiaoyan0106
+    name: Xiaoyan Huang
+    initials: XH
+    orcid: 0000-0001-7267-4512
+    email: huangx@chop.edu
+    contributions:
+      - Formal Analysis
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -309,7 +391,7 @@ authors:
   - name: Mariarita Santi
     initials: MS
     orcid: 0000-0002-6728-3450
-    email: santim@email.chop.edu
+    email: santim@chop.edu
     contributions:
       - Investigation
       - Validation
@@ -319,13 +401,20 @@ authors:
   - name: Angela Viaene
     initials: AV
     orcid: 0000-0001-6430-8360
-    email: viaenea@email.chop.edu
+    email: viaenea@chop.edu
     contributions:
       - Investigation
       - Validation
     affiliations:
       - Department of Pathology and Laboratory Medicine, Children’s Hospital of Philadelphia
       - Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman School of Medicine
+  - name: Laura Scolaro
+    initials: LS
+    email: scolarol@chop.edu
+    contributions:
+      - Data Curation
+    affiliations:
+      - Division of Oncology, Children's Hospital of Philadelphia
   - github: awaanders
     name: Angela Waanders
     initials: AW
@@ -350,13 +439,13 @@ authors:
     initials: HMX
     orcid: 0000-0003-2223-0029
     twitter: xiehb
-    email: xiem1@email.chop.edu
+    email: xiem1@chop.edu
     contributions:
       - Methodology
       - Supervision
     affiliations:
       - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
-  - github: syzheng 
+  - github: syzheng
     name: Siyuan Zheng
     initials: SZ
     email: zhengs3@uthscsa.edu
@@ -372,7 +461,7 @@ authors:
   - name: Cassie N. Kline
     initials: CNK
     orcid: 0000-0001-7765-7690
-    email: klinec@email.chop.edu
+    email: klinec@chop.edu
     twitter: cnkline13
     contributions:
       - Supervision
@@ -383,7 +472,7 @@ authors:
     initials: JVL
     orcid: 0000-0003-1439-6045
     twitter: jvlilly
-    email: lillyj@email.chop.edu
+    email: lillyj@chop.edu
     contributions:
       - Conceptualization
       - Funding acquisition
@@ -394,7 +483,7 @@ authors:
   - name: Philip B. Storm
     initials: PBS
     orcid: 0000-0002-7964-2449
-    email: storm@email.chop.edu
+    email: storm@chop.edu
     contributions:
       - Conceptualization
       - Funding acquisition
@@ -402,12 +491,15 @@ authors:
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
+    funders:
+      - Alex's Lemonade Stand Foundation (Catalyst)
+      - Children’s Hospital of Philadelphia Division of Neurosurgery
   - github: adamcresnick
     name: Adam C. Resnick
     initials: ACR
     orcid: 0000-0003-0436-4189
     twitter: adamcresnick
-    email: resnick@email.chop.edu
+    email: resnick@chop.edu
     contributions:
       - Conceptualization
       - Funding acquisition
@@ -417,15 +509,39 @@ authors:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
     funders:
-      - Alex's Lemonade Stand Foundation
-      - Children's Brain Tumor Tissue Consortium
-      - NIH R01NS091620-05, 5U2CHL138346-04, 1U2CCA233285-03, 1OT2OD027852-01, 1OT3HL147154-01
+      - Alex's Lemonade Stand Foundation (Catalyst)
+      - Children's Brain Tumor Network
+      - NIH 3P30 CA016520-44S5, U2C HL138346-03, U24 CA220457-03
+      - NCI/NIH Contract No. 75N91019D00024, Task Order No. 75N91020F00003
+      - Children’s Hospital of Philadelphia Division of Neurosurgery
+  - github: cgreene
+    name: Casey S. Greene
+    initials: CSG
+    orcid: 0000-0001-8713-9213
+    twitter: greenescientist
+    email: greenescientist@gmail.com
+    affiliations:
+      - Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA
+      - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, PA, USA
+      - Center for Health AI, University of Colorado School of Medicine, Aurora, CO, USA
+      - Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, CO, USA
+    funders:
+      - Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
+    contributions:
+      - Conceptualization
+      - Funding acquisition
+      - Methodology
+      - Project administration
+      - Software
+      - Supervision
+      # - Writing – original draft
+      - Writing – review & editing
   - github: jharenza
-    name: Jo Lynne Rokita
+    name: Jo Lynne Rokita*
     initials: JR
     orcid: 0000-0003-2171-3627
     twitter: jolynnerokita
-    email: rokita@email.chop.edu
+    email: rokita@chop.edu
     contributions:
       - Conceptualization
       - Data curation
@@ -441,29 +557,10 @@ authors:
       - Division of Neurosurgery, Children's Hospital of Philadelphia
       - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
     funders:
-      - Alex's Lemonade Stand Foundation
-  - github: cgreene
-    name: Casey S. Greene
-    initials: CSG
-    orcid: 0000-0001-8713-9213
-    twitter: greenescientist
-    email: greenescientist@gmail.com
-    affiliations:
-      - Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA
-      - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, PA, USA
-    funders:
-      - Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
-    contributions:
-      - Conceptualization
-      - Funding acquisition
-      - Methodology
-      - Project administration
-      - Software
-      - Supervision
-      # - Writing – original draft
-      - Writing – review & editing
+      - Alex's Lemonade Stand Foundation (Young Investigator, Catalyst)
+      - NCI/NIH Contract No. 75N91019D00024, Task Order No. 75N91020F00003
   - github: jaclyn-taroni
-    name: Jaclyn N. Taroni
+    name: Jaclyn N. Taroni*
     initials: JNT
     orcid: 0000-0003-4734-4508
     twitter: jaclyn_taroni
@@ -483,7 +580,7 @@ authors:
       - Visualization
       - Supervision
       - Project administration
-  - name: Children's Brain Tumor Tissue Consortium
+  - name: Children's Brain Tumor Network
     contributions:
       - Conceptualization
   - name: Pacific Pediatric Neurooncology Consortium

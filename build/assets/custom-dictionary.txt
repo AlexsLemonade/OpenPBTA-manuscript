@@ -394,6 +394,7 @@ selumetinib
 ShatterSeek
 Sidra
 sina
+SJS
 SNCAIP
 snoRNA
 SNP

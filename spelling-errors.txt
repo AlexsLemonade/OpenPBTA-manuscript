@@ -21,7 +21,7 @@ CDKN
 cgreene
 Chante
 CHCl
-chr
+Chr
 cjbethell
 CLDN
 cnkline
@@ -78,6 +78,7 @@ Kuren
 LauraEgolf
 Lurie
 maf
+MAML
 Mariarita
 Mateusz
 MEK
@@ -98,7 +99,7 @@ PDGFRA
 PFS
 PHG
 Pichai
-PichaiRaman
+pichairaman
 PIK
 Poetsch
 Raman
@@ -120,7 +121,6 @@ stephspiel
 Strelka
 Supervison
 syzheng
-TACC
 Tejaswi
 TERC
 tkoganti

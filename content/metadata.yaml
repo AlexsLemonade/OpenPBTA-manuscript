@@ -230,6 +230,16 @@ authors:
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - github: liberaliscomputing  
+    name: Meen Chul Kim
+    initials: MCK 
+    orcid: 0000-0002-0308-783X
+    email: KIMM11@chop.edu
+    contributions:
+      - Data curation
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
   - github: tkoganti
     name: Tejaswi Koganti
     initials: TK
@@ -303,7 +313,7 @@ authors:
     initials: PJ
     orcid: 0000-0002-5914-9083
     twitter: jainpayal022
-    email: jainp@chop.edu
+    email: jain.payal022@gmail.com
     contributions:
       - Data curation
       - Investigation

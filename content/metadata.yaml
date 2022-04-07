@@ -444,6 +444,16 @@ authors:
     affiliations:
       - Hackensack Meridian School of Medicine
       - Hackensack University Medical Center
+  - github: 
+    name: Steven Foltz
+    initials: SF
+    email: steven.foltz@pennmedicine.upenn.edu
+    orcid: 0000-0002-9526-8194
+    contributions:
+      - Validation
+    affiliations:
+      - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania       
+      - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, PA, USA
   - github: xiehongbo
     name: Hongbo M. Xie
     initials: HMX

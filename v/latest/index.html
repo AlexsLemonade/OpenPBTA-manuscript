@@ -51,7 +51,7 @@
   <meta name="author" content="Jaclyn N. Taroni*" />
   <meta name="author" content="Children’s Brain Tumor Network" />
   <meta name="author" content="Pacific Pediatric Neurooncology Consortium" />
-  <meta name="dcterms.date" content="2022-04-08" />
+  <meta name="dcterms.date" content="2022-04-09" />
   <meta name="keywords" content="pediatric cancer, brain tumor, tumor atlas" />
   <title>An Open Pediatric Brain Tumor Atlas</title>
   <style>
@@ -74,8 +74,8 @@
   <meta name="citation_title" content="An Open Pediatric Brain Tumor Atlas" />
   <meta property="og:title" content="An Open Pediatric Brain Tumor Atlas" />
   <meta property="twitter:title" content="An Open Pediatric Brain Tumor Atlas" />
-  <meta name="dc.date" content="2022-04-08" />
-  <meta name="citation_publication_date" content="2022-04-08" />
+  <meta name="dc.date" content="2022-04-09" />
+  <meta name="citation_publication_date" content="2022-04-09" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -289,9 +289,9 @@
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/272d77816b85abf125bf5e2d4830114153fe04bf/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/272d77816b85abf125bf5e2d4830114153fe04bf/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/272d77816b85abf125bf5e2d4830114153fe04bf/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c66f621b45b53585add238a05fe0799747beee8c/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c66f621b45b53585add238a05fe0799747beee8c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c66f621b45b53585add238a05fe0799747beee8c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -305,10 +305,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/272d77816b85abf125bf5e2d4830114153fe04bf/">permalink</a>)
+(<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c66f621b45b53585add238a05fe0799747beee8c/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/272d77816b85abf125bf5e2d4830114153fe04bf">AlexsLemonade/OpenPBTA-manuscript@272d778</a>
-on April 8, 2022.
+from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/c66f621b45b53585add238a05fe0799747beee8c">AlexsLemonade/OpenPBTA-manuscript@c66f621</a>
+on April 9, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -1587,7 +1587,7 @@ We filtered out any CNVs that overlapped 50% or more with immunoglobulin, telome
 <p>We used Manta SV <span class="citation" data-cites="kTn1PIj5">[<a href="#ref-kTn1PIj5" role="doc-biblioref">64</a>]</span> v1.4.0 for structural variant (SV) calls.
 Manta SV calling was also limited to regions used in Strelka2.
 The hg38 reference for SV calling used was limited to canonical chromosome regions.
-The somatic DNA workflow for SNV, indel, copy number, and SV calling can be found in the <a href="https://github.com/kids-first/kf-somatic-workflow">KidsFirst Github repository</a>.
+The somatic DNA workflows for SNV, indel, copy number, and SV calling can be found in the <a href="https://github.com/d3b-center/OpenPBTA-workflows/">OpenPBTA workflows Github repository</a>.
 Manta SV output was annotated using <a href="https://lbgi.fr/AnnotSV/">AnnotSV v2.1</a> <span class="citation" data-cites="7Ull5aU5">[<a href="#ref-7Ull5aU5" role="doc-biblioref">66</a>]</span> and the workflow can be found in the <a href="https://github.com/d3b-center/annotSV/tree/master">D3b GitHub repository</a>.</p>
 <h4 id="gene-expression">Gene Expression</h4>
 <h5 id="abundance-estimation">Abundance Estimation</h5>
@@ -1611,7 +1611,8 @@ We ran STAR-Fusion with default parameters and annotated all fusion calls with G
 For Arriba, we used a blacklist file (blacklist_hg38_GRCh38_2018-11-04.tsv.gz) from the Arriba release to remove recurrent fusion artifacts and transcripts present in healthy tissue.
 We also provided Arriba with strandedness information for stranded samples, or we set it to auto-detection for poly-A samples.
 We used <a href="https://github.com/FusionAnnotator/FusionAnnotator">FusionAnnotator</a> on Arriba fusion calls in order to harmonize annotations with those of STAR-Fusion.
-The RNA expression and fusion workflows can be found in the <a href="https://github.com/kids-first/kf-rnaseq-workflow">KidsFirst GitHub repository</a> and the FusionAnnotator workflow in the <a href="https://github.com/d3b-center/FusionAnnotator">D3b GitHub repository</a>.</p>
+The RNA expression and fusion workflows can be found in the <a href="https://github.com/d3b-center/OpenPBTA-workflows/blob/master/cwl/kfdrc_RNAseq_workflow.cwl">OpenPBTA workflows GitHub repository</a>.
+The FusionAnnotator workflow can be found in the <a href="https://github.com/d3b-center/FusionAnnotator">D3b GitHub repository</a>.</p>
 <h3 id="quantification-and-statistical-analysis">QUANTIFICATION AND STATISTICAL ANALYSIS</h3>
 <h5 id="recurrently-mutated-genes-and-co-occurrence-of-gene-mutations">Recurrently mutated genes and co-occurrence of gene mutations</h5>
 <p>Using the consensus SNV calls, we identified genes that were recurrently mutated in the cohort, including nonsynonymous mutations with a variant allele frequency greater than 5% among the set of independent samples.

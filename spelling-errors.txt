@@ -33,12 +33,14 @@ dmiller
 Duong
 EGFR
 Egolf
+envest
 ERBB
 EWSR
 FAM
 Feinberg
 FigS
 fingerfen
+Foltz
 Glassboro
 GPBP
 Greehey
@@ -91,7 +93,7 @@ orf
 PDGFRA
 PFS
 PHG
-PichaiRaman
+pichairaman
 PIK
 Poetsch
 Rathi

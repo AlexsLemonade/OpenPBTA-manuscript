@@ -4,6 +4,7 @@ aggokittu
 ALK
 allig
 allisonheath
+annoFuse
 APoetsch
 ARAF
 ARL
@@ -43,6 +44,7 @@ fingerfen
 Foltz
 Glassboro
 GPBP
+GPC
 Greehey
 greenescientist
 Hackensack
@@ -93,7 +95,7 @@ orf
 PDGFRA
 PFS
 PHG
-PichaiRaman
+pichairaman
 PIK
 Poetsch
 Rathi

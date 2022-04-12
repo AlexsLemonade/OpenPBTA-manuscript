@@ -208,7 +208,8 @@ authors:
     affiliations:
       - Cell and Molecular Biology Graduate Group, Perelman School of Medicine at the University of Pennsylvania
       - Division of Oncology, Children's Hospital of Philadelphia
-  - name: Yang Yang
+  - github: yangyangclover
+    name: Yang Yang
     initials: YY
     email: yangyangclover@gmail.com
     contributions:

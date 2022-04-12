@@ -208,6 +208,15 @@ authors:
     affiliations:
       - Cell and Molecular Biology Graduate Group, Perelman School of Medicine at the University of Pennsylvania
       - Division of Oncology, Children's Hospital of Philadelphia
+  - github: yangyangclover
+    name: Yang Yang
+    initials: YY
+    email: yangyangclover@gmail.com
+    contributions:
+      - Formal analysis
+      - Software
+    affiliations:
+      - Ben May Department for Cancer Research, University of Chicago, Chicago IL, USA 
   - github: baileyckelly
     name: Bailey Farrow
     initials: BF

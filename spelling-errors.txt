@@ -11,6 +11,7 @@ ARL
 arpoe
 asiannhat
 awaanders
+AY
 baileyckelly
 bcps
 Bethell
@@ -20,8 +21,9 @@ cbethell
 CDKN
 cgreene
 Chante
+CHB
 CHCl
-Chr
+chr
 Chul
 cjbethell
 CLDN
@@ -30,6 +32,7 @@ CTNNB
 CXorf
 CXXC
 DDX
+DEHJF
 dmiller
 Duong
 EGFR
@@ -42,6 +45,7 @@ Feinberg
 FigS
 fingerfen
 Foltz
+GF
 Glassboro
 GPBP
 GPC
@@ -50,6 +54,7 @@ greenescientist
 Hackensack
 hg
 HL
+HN
 Hongbo
 HRAS
 HuangXiaoyan
@@ -60,6 +65,7 @@ jenn
 jessicawongbfx
 jharenza
 Jin
+JNEV
 jolynnerokita
 jvlilly
 Kannan
@@ -82,7 +88,8 @@ Meen
 MEK
 migbro
 mkoptyra
-MMR
+MLH
+MSH
 Mutect
 NCT
 Nhat
@@ -98,6 +105,8 @@ PHG
 PichaiRaman
 PIK
 Poetsch
+QAH
+QJ
 Rathi
 runjin
 Savonen
@@ -110,10 +119,12 @@ sjspielman
 SMARCA
 SMARCB
 Spielman
+SPKM
 stephspiel
 Strelka
 Supervison
 syzheng
+TBZG
 Tejaswi
 TERC
 tkoganti
@@ -121,14 +132,20 @@ TKTL
 TP
 TYH
 Tyr
+VK
+VTM
+VW
 wongjessica
 Xiaoyan
 Xie
 xiehb
 xiehongbo
+XN
 yangyangclover
+YBZSBY
 YiranGuo
 yuankunzhu
+ZD
 ZFTA
 zhangb
 Zheng

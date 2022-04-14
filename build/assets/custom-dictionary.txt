@@ -63,7 +63,7 @@ Bendel
 Bevacizumab
 Bioconductor
 bioinformatics
-Biorender
+BioRender
 biorepository
 biospecimen
 biospecimens

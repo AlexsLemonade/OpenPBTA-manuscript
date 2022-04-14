@@ -21,7 +21,7 @@ CDKN
 cgreene
 Chante
 CHCl
-chr
+Chr
 Chul
 cjbethell
 CLDN
@@ -95,7 +95,7 @@ orf
 PDGFRA
 PFS
 PHG
-pichairaman
+PichaiRaman
 PIK
 Poetsch
 Rathi

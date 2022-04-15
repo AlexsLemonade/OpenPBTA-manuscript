@@ -1,4 +1,4 @@
-personal_ws-1.1 en 731 utf-8
+personal_ws-1.1 en 733 utf-8
 Abadi
 AbdelBaki
 aberrantly
@@ -300,6 +300,7 @@ IARC
 Ibrahim
 IDH
 idxstats
+IFN
 Illumina
 immunedeconv
 immunotherapeutic
@@ -668,6 +669,7 @@ Thr
 TissueLyser
 TMB
 TMBs
+TNF
 TPM
 transcriptional
 transcriptome

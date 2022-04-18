@@ -65,8 +65,8 @@ authors:
     name: Krutika S. Gaonkar
     initials: KSG
     orcid: 0000-0003-0838-2405
-    twitter: 29aprilkrutika
-    email: gaonkark@chop.edu
+    twitter: aggokittu
+    email: ksgaonkar@outlook.com
     contributions:
       - Data curation
       - Formal Analysis
@@ -78,6 +78,20 @@ authors:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
       - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
+  - github: runjin326
+    name: Run Jin
+    initials: RJ
+    orcid: 0000-0002-8958-9266
+    twitter: runjin
+    email: jinr@chop.edu
+    contributions:
+      - Data curation
+      - Formal Analysis
+      - Visualization
+      - Writing – original draft
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
   - github: yuankunzhu
     name: Yuankun Zhu
     initials: YZ
@@ -169,7 +183,7 @@ authors:
     initials: SJS
     orcid: 0000-0002-9090-4788
     twitter: stephspiel
-    email: spielman@rowan.edu
+    email: stephanie.spielman@gmail.com
     contributions:
       - Validation
       - Formal analysis
@@ -177,7 +191,9 @@ authors:
       - Visualization
       - Supervision
     affiliations:
+      - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, PA, USA<sup>☯</sup>
       - Rowan University, Glassboro, NJ, USA
+    symbol_str: "☯"
     funders:
       - Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
   - github: LauraEgolf
@@ -192,6 +208,15 @@ authors:
     affiliations:
       - Cell and Molecular Biology Graduate Group, Perelman School of Medicine at the University of Pennsylvania
       - Division of Oncology, Children's Hospital of Philadelphia
+  - github: yangyangclover
+    name: Yang Yang
+    initials: YY
+    email: yangyangclover@gmail.com
+    contributions:
+      - Formal analysis
+      - Software
+    affiliations:
+      - Ben May Department for Cancer Research, University of Chicago, Chicago IL, USA 
   - github: baileyckelly
     name: Bailey Farrow
     initials: BF
@@ -211,6 +236,16 @@ authors:
     contributions:
       - Data curation
       - Software
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - github: liberaliscomputing  
+    name: Meen Chul Kim
+    initials: MCK 
+    orcid: 0000-0002-0308-783X
+    email: KIMM11@chop.edu
+    contributions:
+      - Data curation
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -287,7 +322,7 @@ authors:
     initials: PJ
     orcid: 0000-0002-5914-9083
     twitter: jainpayal022
-    email: jainp@chop.edu
+    email: jain.payal022@gmail.com
     contributions:
       - Data curation
       - Investigation
@@ -329,6 +364,14 @@ authors:
     contributions:
       - Formal Analysis
       - Writing – original draft
+    affiliations:
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - name: Shannon Robbins
+    initials: SR
+    email: Shannonmrobins@gmail.com
+    contributions:
+      - Data curation
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -410,6 +453,16 @@ authors:
     affiliations:
       - Hackensack Meridian School of Medicine
       - Hackensack University Medical Center
+  - github: envest
+    name: Steven M. Foltz
+    initials: SMF
+    email: steven.foltz@pennmedicine.upenn.edu
+    orcid: 0000-0002-9526-8194
+    contributions:
+      - Validation
+    affiliations:
+      - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania       
+      - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, PA, USA
   - github: xiehongbo
     name: Hongbo M. Xie
     initials: HMX

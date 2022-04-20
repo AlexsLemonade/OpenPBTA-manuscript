@@ -1,4 +1,4 @@
-personal_ws-1.1 en 733 utf-8
+personal_ws-1.1 en 739 utf-8
 Abadi
 AbdelBaki
 aberrantly
@@ -61,6 +61,7 @@ bedtools
 benchmarking
 Bendel
 Bevacizumab
+BGI
 Bioconductor
 bioinformatics
 BioRender
@@ -114,6 +115,7 @@ CNVs
 ControlFREEC
 Cooney
 CPP
+CRAMs
 CRANIO
 craniopharyngioma
 craniopharyngiomas
@@ -258,6 +260,7 @@ Guerreiro
 Guo
 Gururangan
 GVCF
+GVCFs
 Hagop
 haplotype
 HaplotypeCaller
@@ -412,6 +415,7 @@ miRNA
 mis
 misclassification
 missense
+mL
 MMR
 MNV
 molecularly
@@ -501,6 +505,7 @@ pembrolizumab
 PeproTech
 PerkinElmer
 permalink
+PFAM
 pheochromocytoma
 Philbert
 Pichai
@@ -732,3 +737,4 @@ Yuankun
 Zeinab
 Zhang
 Zhu
+Zvereva

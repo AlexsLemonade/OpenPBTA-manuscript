@@ -67,10 +67,6 @@ doi:10/gdz75c	doi:10/gdz75c	doi:10.1186/s13059-016-0974-4	p1f5DxRQ
 url:https://www.cancerhotspots.org	url:https://www.cancerhotspots.org	url:https://www.cancerhotspots.org	qEpbKZ3t
 doi:10.3390/ijms21176034	doi:10.3390/ijms21176034	doi:10.3390/ijms21176034	59DKOl44
 url:https://github.com/mskcc/vcf2maf	url:https://github.com/mskcc/vcf2maf	url:https://github.com/mskcc/vcf2maf	11Fn5jqUI
-url:https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/snv-callers/compare_snv_callers_plots.Rmd	url:https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/snv-callers/compare_snv_callers_plots.Rmd	url:https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/snv-callers/compare_snv_callers_plots.Rmd	Ob2wQ9wX
-url:https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/snv-callers/plots/comparison/upset_plot.png	url:https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/snv-callers/plots/comparison/upset_plot.png	url:https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/snv-callers/plots/comparison/upset_plot.png	Z1i0sjNH
-url:https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/snv-callers/plots/comparison/vaf_violin_plot.png	url:https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/snv-callers/plots/comparison/vaf_violin_plot.png	url:https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/analyses/snv-callers/plots/comparison/vaf_violin_plot.png	tkwfe0u6
-url:https://www.gencodegenes.org/human/release_27.html	url:https://www.gencodegenes.org/human/release_27.html	url:https://www.gencodegenes.org/human/release_27.html	9oRUnb2k
 doi:10/ckt4vz	doi:10/ckt4vz	doi:10.1093/bioinformatics/btr670	ZQ0L3o1q
 doi:10/c6bcps	doi:10/c6bcps	doi:10.1093/bioinformatics/btq635	1F3i4BvCt
 doi:10.1371/journal.pcbi.1004873	doi:10.1371/journal.pcbi.1004873	doi:10.1371/journal.pcbi.1004873	UTxRcYIQ
@@ -80,15 +76,15 @@ doi:10/gf3ggb	doi:10/gf3ggb	doi:10.1093/bioinformatics/btv710	kTn1PIj5
 url:https://github.com/Illumina/manta/blob/75b5c38d4fcd2f6961197b28a41eb61856f2d976/docs/userGuide/README.md#vcf-format-fields	url:https://github.com/Illumina/manta/blob/75b5c38d4fcd2f6961197b28a41eb61856f2d976/docs/userGuide/README.md#vcf-format-fields	url:https://github.com/Illumina/manta/blob/75b5c38d4fcd2f6961197b28a41eb61856f2d976/docs/userGuide/README.md#vcf-format-fields	10RYb622Q
 doi:10.1093/bioinformatics/bty304	doi:10.1093/bioinformatics/bty304	doi:10.1093/bioinformatics/bty304	7Ull5aU5
 doi:10/f4h523	doi:10/f4h523	doi:10.1093/bioinformatics/bts635	tTu8Ds9Z
+url:https://www.gencodegenes.org/human/release_27.html	url:https://www.gencodegenes.org/human/release_27.html	url:https://www.gencodegenes.org/human/release_27.html	9oRUnb2k
 doi:10/cwg8n5	doi:10/cwg8n5	doi:10.1186/1471-2105-12-323	Dh2n1EV3
 doi:10.1038/nbt.3519	doi:10.1038/nbt.3519	doi:10.1038/nbt.3519	12KZMHMQl
+doi:10.1101/gr.257246.119	doi:10.1101/gr.257246.119	doi:10.1101/gr.257246.119	DuQpY5dg
 doi:10.1101/120295	doi:10.1101/120295	doi:10.1101/120295	rqYlIiAi
 doi:10.1101/gr.239244.118	doi:10.1101/gr.239244.118	doi:10.1101/gr.239244.118	83Prx3Xc
 url:https://bedtools.readthedocs.io/en/latest/content/tools/coverage.html	url:https://bedtools.readthedocs.io/en/latest/content/tools/coverage.html	url:https://bedtools.readthedocs.io/en/latest/content/tools/coverage.html	Ddy8jB2X
 doi:10.1093/bioinformatics/btq033	doi:10.1093/bioinformatics/btq033	doi:10.1093/bioinformatics/btq033	1HWiAHnIw
-url:http://hgdownload.cse.ucsc.edu/goldenpath/hg38/database/cytoBand.txt.gz	url:http://hgdownload.cse.ucsc.edu/goldenpath/hg38/database/cytoBand.txt.gz	url:http://hgdownload.cse.ucsc.edu/goldenpath/hg38/database/cytoBand.txt.gz	H6flbhE
 doi:10.1093/nar/gks1048	doi:10.1093/nar/gks1048	doi:10.1093/nar/gks1048	1DWggwY7R
-url:https://www.rdocumentation.org/packages/IRanges/versions/2.6.1/topics/findOverlaps-methods	url:https://www.rdocumentation.org/packages/IRanges/versions/2.6.1/topics/findOverlaps-methods	url:https://www.rdocumentation.org/packages/IRanges/versions/2.6.1/topics/findOverlaps-methods	GAYU0k3L
 doi:10.1371/journal.pcbi.1003118	doi:10.1371/journal.pcbi.1003118	doi:10.1371/journal.pcbi.1003118	14d6Jzwus
 doi:10.1038/s41588-019-0576-7	doi:10.1038/s41588-019-0576-7	doi:10.1038/s41588-019-0576-7	17wG7AMwM
 pmid:31510660	pmid:31510660	pubmed:31510660	HnrrHXPm
@@ -124,7 +120,6 @@ doi:10.1016/j.jaad.2017.05.059	doi:10.1016/j.jaad.2017.05.059	doi:10.1016/j.jaad
 doi:10.1186/s13059-016-0893-4	doi:10.1186/s13059-016-0893-4	doi:10.1186/s13059-016-0893-4	KhxTOfIb
 url:https://github.com/raerose01/deconstructSigs	url:https://github.com/raerose01/deconstructSigs	url:https://github.com/raerose01/deconstructSigs	1eIeMT1A
 url:https://bioconductor.org/packages/release/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.html	url:https://bioconductor.org/packages/release/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.html	url:https://bioconductor.org/packages/release/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.html	GpcQXpz9
-url	url	url	u0DlQJir
 doi:10.1111/nan.12626	doi:10.1111/nan.12626	doi:10.1111/nan.12626	6bmmWiU5
 pmid:30249036	pmid:30249036	pubmed:30249036	ynt8AIJ4
 doi:10.1007/s00381-017-3551-6	doi:10.1007/s00381-017-3551-6	doi:10.1007/s00381-017-3551-6	t40FioEk

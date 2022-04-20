@@ -101,7 +101,7 @@ orf
 PDGFRA
 PFS
 PHG
-PichaiRaman
+pichairaman
 PIK
 Poetsch
 QAH

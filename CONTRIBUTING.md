@@ -17,7 +17,7 @@ We expect participants to actively review pull requests, with a particular focus
 The ultimate goal of this is effort is to describe the results from [OpenPBTA-analysis](https://github.com/AlexsLemonade/OpenPBTA-analysis) in this manuscript.
 We expect authors to have contributed to the overall design of the project by participating in issues and to contribute to the text by contributing, reviewing, or informing sections and/or revisions to sections through pull requests in this repository.
 It is important to note that, for authorship, these should be substantial intellectual contributions to the scientific objective of the work underpinning the manuscript.
-Authorship will be based on the following criteria (adapted from (ICMJE guidelines)[http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html]):
+Authorship will be based on the following criteria (adapted from [ICMJE guidelines](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html)):
 - Substantial contributions to the conception or coordination and design of the required work and its performance; or the generation, acquisition, processing, harmonization, analysis, and/or interpretation of data/results for the work and its associated knowledge creation activities including;
 - Drafting, critiquing, or revising of the work critically and providing important intellectual input and content as well as;
 - Final approval of the version to be published; AND

@@ -19,6 +19,7 @@ aliquot
 allelic
 AllPrep
 ALSF
+Amadio
 Amar
 Amphotericin
 Anaplastic
@@ -317,7 +318,6 @@ intronic
 Invivogen
 IRanges
 Irinotecan
-Irinotecan
 isbn
 iteratively
 jaclyn
@@ -336,6 +336,7 @@ kaplan
 Karlene
 Keating
 Keoni
+Kephart
 Keyes
 KFDRC
 Khuong

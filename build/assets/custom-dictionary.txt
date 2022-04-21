@@ -458,7 +458,7 @@ neurooncology
 neutrophils
 Nevins
 ng
-NGSCheckmate
+NGSCheckMate
 Nicolaides
 Nithin
 Nitin

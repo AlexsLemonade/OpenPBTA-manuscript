@@ -23,7 +23,7 @@ cgreene
 Chante
 CHB
 CHCl
-chr
+Chr
 Chul
 cjbethell
 CLDN
@@ -81,6 +81,7 @@ Kuren
 LauraEgolf
 liberaliscomputing
 Lurie
+Madsen
 MAML
 Meen
 MEK
@@ -98,9 +99,10 @@ Noureen
 NRAS
 orf
 PDGFRA
+petermadsenmd
 PFS
 PHG
-pichairaman
+PichaiRaman
 PIK
 Poetsch
 QAH

@@ -463,6 +463,9 @@ authors:
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania       
       - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, PA, USA
+    funders:
+      - Alex's Lemonade Stand Foundation GR-000002471
+      - National Institutes of Health K12GM081259
   - github: xiehongbo
     name: Hongbo M. Xie
     initials: HMX
@@ -496,6 +499,16 @@ authors:
       - Supervision
     affiliations:
       - Division of Oncology, Children's Hospital of Philadelphia
+  - name: Peter J. Madsen
+    initials: PJM
+    orcid: 0000-0001-9266-3685
+    email: madsenp@chop.edu
+    twitter: petermadsenmd
+    contributions:
+      - Writing – review & editing
+    affiliations:
+      - Division of Neurosurgery, Children's Hospital of Philadelphia
+      - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
   - github: jvlilly
     name: Jena V. Lilly
     initials: JVL

@@ -463,6 +463,9 @@ authors:
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania       
       - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, PA, USA
+    funders:
+      - Alex's Lemonade Stand Foundation GR-000002471
+      - National Institutes of Health K12GM081259
   - github: xiehongbo
     name: Hongbo M. Xie
     initials: HMX

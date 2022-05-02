@@ -1,4 +1,4 @@
-personal_ws-1.1 en 752 utf-8
+personal_ws-1.1 en 755 utf-8
 Abadi
 AbdelBaki
 aberrantly
@@ -313,11 +313,12 @@ idxstats
 IFN
 Illumina
 immunedeconv
+immunologically
 immunotherapeutic
 immunotherapy
 indel
-indels
 INDELs
+indels
 interpretability
 intra
 intronic
@@ -383,8 +384,8 @@ MAFs
 Maftools
 Malbari
 MantaSV
-manubot
 ManuBot
+manubot
 MAPK
 Margol
 Mariarita
@@ -543,6 +544,7 @@ PREA
 preclinical
 preprocessed
 Priya
+proteogenomic
 pseudoaligments
 pubmed
 Qaddoumi
@@ -567,6 +569,7 @@ Reddy
 RefSig
 RELA
 reproducibility
+resect
 resected
 Resnick
 Reya

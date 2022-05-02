@@ -17,6 +17,7 @@ Bala
 bcps
 Bethell
 bmennis
+BPDY
 cansavvy
 cbethell
 CDKN
@@ -41,12 +42,14 @@ EGFR
 Egolf
 envest
 ERBB
+ERFMPQN
 EWSR
 FAM
 Feinberg
 fingerfen
 Foltz
 GF
+GFJN
 Glassboro
 GPBP
 GPC
@@ -109,6 +112,7 @@ PIK
 Poetsch
 QAH
 QJ
+QWM
 Rathi
 runjin
 Savonen
@@ -120,7 +124,6 @@ Siyuan
 sjspielman
 SMARCA
 SMARCB
-SMF
 Spielman
 SPKM
 stephspiel
@@ -135,6 +138,7 @@ TKTL
 TP
 TYH
 Tyr
+vitro
 VK
 VTM
 VW

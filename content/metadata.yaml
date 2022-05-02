@@ -23,7 +23,7 @@ authors:
       - Visualization
       - Supervision
     affiliations:
-      - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, PA, USA
+      - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, USA
     funders:
       - Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
   - github: cansavvy
@@ -41,7 +41,7 @@ authors:
       - Writing - Original draft
       - Visualization
     affiliations:
-      - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, PA, USA
+      - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, USA
     funders:
       - Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
   - github: cbethell
@@ -58,7 +58,7 @@ authors:
       - Writing - Original draft
       - Visualization
     affiliations:
-      - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, PA, USA
+      - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, USA
     funders:
       - Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
   - github: kgaonkar6
@@ -191,7 +191,7 @@ authors:
       - Visualization
       - Supervision
     affiliations:
-      - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, PA, USA<sup>☯</sup>
+      - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, USA<sup>☯</sup>
       - Rowan University, Glassboro, NJ, USA
     symbol_str: "☯"
     funders:
@@ -462,7 +462,7 @@ authors:
       - Validation
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania       
-      - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, PA, USA
+      - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, USA
     funders:
       - Alex's Lemonade Stand Foundation GR-000002471
       - National Institutes of Health K12GM081259
@@ -564,7 +564,7 @@ authors:
     email: greenescientist@gmail.com
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA
-      - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, PA, USA
+      - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, USA
       - Center for Health AI, University of Colorado School of Medicine, Aurora, CO, USA
       - Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, CO, USA
     funders:
@@ -608,7 +608,7 @@ authors:
     twitter: jaclyn_taroni
     email: jaclyn.taroni@ccdatalab.org
     affiliations:
-      - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, PA, USA
+      - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, USA
     funders:
        - Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
     contributions:

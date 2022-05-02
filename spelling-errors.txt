@@ -13,6 +13,7 @@ asiannhat
 awaanders
 AY
 baileyckelly
+Bala
 bcps
 Bethell
 bmennis
@@ -23,7 +24,7 @@ cgreene
 Chante
 CHB
 CHCl
-Chr
+chr
 Chul
 cjbethell
 CLDN
@@ -31,6 +32,7 @@ cnkline
 CTNNB
 CXorf
 CXXC
+Cynwyd
 DDX
 DEHJF
 dmiller

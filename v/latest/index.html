@@ -303,9 +303,9 @@
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/cb838ae9ac67b490d1495d3ef4b5f3a54e8e8cfc/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/cb838ae9ac67b490d1495d3ef4b5f3a54e8e8cfc/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/cb838ae9ac67b490d1495d3ef4b5f3a54e8e8cfc/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/9f1522033202cca17bbe4bb6f48e65a2cabeffcf/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/9f1522033202cca17bbe4bb6f48e65a2cabeffcf/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/9f1522033202cca17bbe4bb6f48e65a2cabeffcf/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -319,9 +319,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/cb838ae9ac67b490d1495d3ef4b5f3a54e8e8cfc/">permalink</a>)
+(<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/9f1522033202cca17bbe4bb6f48e65a2cabeffcf/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/cb838ae9ac67b490d1495d3ef4b5f3a54e8e8cfc">AlexsLemonade/OpenPBTA-manuscript@cb838ae</a>
+from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/9f1522033202cca17bbe4bb6f48e65a2cabeffcf">AlexsLemonade/OpenPBTA-manuscript@9f15220</a>
 on May 2, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -2524,9 +2524,6 @@ A sample will be annotated as <code>TP53 loss</code> if any of the following con
 2) It contains two <em>TP53</em> alterations, including SNV, CNV or SV, which is indicative of probable bi-allelic alterations
 3) It contains one <em>TP53</em> somatic alteration, including SNV, CNV, or SV and a germline <em>TP53</em> mutation indicated by the diagnosis of Li-Fraumeni syndrome <span class="citation" data-cites="JdxWaORm">[<a href="#ref-JdxWaORm" role="doc-biblioref">116</a>]</span>
 4) It contains one germline <em>TP53</em> mutation indicated by Li-Fraumeni syndrome and the <em>TP53</em> classifier score for matched RNA-Seq is over 0.5.</p>
-<h4 id="survival-analysis">Survival analysis</h4>
-<p>Overall survival, denoted <code>OS_days</code>, was calculated as days since initial diagnosis.
-Progression-free survival, denoted <code>PFS_days</code>, was calculated as days since last event.</p>
 <h4 id="prediction-of-participants-genetic-sex">Prediction of participants’ genetic sex</h4>
 <p>Participant metadata included a reported gender.
 We used WGS germline data, in concert with the reported gender, to predict participant genetic sex so that we could identify sexually dimorphic outcomes.
@@ -2545,8 +2542,10 @@ If this filtering still resulted in multiple specimens, we selected from the rem
 <p>We predicted telomerase activity of tumor samples using the recently developed EXTEND method <span class="citation" data-cites="16bqdaYmh">[<a href="#ref-16bqdaYmh" role="doc-biblioref">118</a>]</span>.
 In brief, EXTEND estimates telomerase activity based on the expression of a 13-gene signature.
 We derived this signature by comparing telomerase-positive tumors and tumors with activated alternative lengthening of telomeres pathway, a group presumably negative of telomerase activity.</p>
-<h3 id="additional-resources">ADDITIONAL RESOURCES</h3>
-<!-- TODO: Add section -->
+<h3 id="survival-models">Survival models</h3>
+<p>We calculated overall survival (OS), as days since initial diagnosis (<code>OS_days</code>) and progression-free survival (PFS), as days since last event (<code>PFS_days</code>).
+Using the <a href="https://github.com/therneau/survival"><code>survival</code> R package</a>, we performed survival analysis for patients by HGG subtype using the Kaplan-Meier estimator <span class="citation" data-cites="6RHepB1T">[<a href="#ref-6RHepB1T" role="doc-biblioref">119</a>]</span> and a log-rank test (Mantel-Cox test) <span class="citation" data-cites="dUQ2CC5u">[<a href="#ref-dUQ2CC5u" role="doc-biblioref">120</a>]</span> on the different HGG subtypes.
+Next, we used multivariate cox (proportional hazards) regression analysis <span class="citation" data-cites="D7GiJO3C">[<a href="#ref-D7GiJO3C" role="doc-biblioref">121</a>]</span> to model the following: a) <code>tp53 scores + telomerase scores + extent of tumor resection + LGG group + HGG group</code>, in which <code>tp53 scores</code> and <code>telomerase scores</code> are numeric, <code>extent of tumor resection</code> is categorical, and <code>LGG group</code> and <code>HGG group</code> are binary variables indicating group status, b) <code>tp53 scores + telomerase scores + extent of tumor resection</code> for each <code>cancer_group</code> with an N&gt;=3 deceased patients (DIPG, DMG, HGG, MB, and EPN), and c) <code>quantiseq cell type fractions + CD274 expression + extent of tumor resection</code> for each <code>cancer_group</code> with an N&gt;=3 deceased patients (DIPG, DMG, HGG, MB, and EPN), in which <code>quantiseq cell type fractions</code> and <code>CD274 expression</code> are numeric.</p>
 <h3 id="key-resources-table">KEY RESOURCES TABLE</h3>
 <table>
 <colgroup>
@@ -2735,7 +2734,7 @@ We derived this signature by comparing telomerase-positive tumors and tumors wit
 <tr class="odd">
 <td>OpenPBTA workflows repository</td>
 <td>this project</td>
-<td><span class="citation" data-cites="ljRmMZgk">[<a href="#ref-ljRmMZgk" role="doc-biblioref">119</a>]</span></td>
+<td><span class="citation" data-cites="ljRmMZgk">[<a href="#ref-ljRmMZgk" role="doc-biblioref">122</a>]</span></td>
 </tr>
 <tr class="even">
 <td>OpenPBTA analysis repository</td>
@@ -3548,8 +3547,23 @@ Nighat Noureen, Shaofang Wu, Yingli Lyu, Juechen Yang, WK Alfred Yung, Jonathan 
 <em>Bioinformatics</em> (2020-05-26) <a href="https://doi.org/ggxfhq">https://doi.org/ggxfhq</a> <br />
 DOI: <a href="https://doi.org/https://doi.org/10.1101/2020.05.21.109249">https://doi.org/10.1101/2020.05.21.109249</a></p>
 </div>
+<div id="ref-6RHepB1T">
+<p>119. <strong>Nonparametric Estimation from Incomplete Observations</strong> <br />
+E. L. Kaplan, Paul Meier<br />
+<em>Journal of the American Statistical Association</em> (1958-06) <a href="https://doi.org/fscrh2">https://doi.org/fscrh2</a> <br />
+DOI: <a href="https://doi.org/10.2307/2281868">10.2307/2281868</a></p>
+</div>
+<div id="ref-dUQ2CC5u">
+<p>120. <strong>Evaluation of survival data and two new rank order statistics arising in its consideration.</strong> <br />
+N Mantel<br />
+<em>Cancer chemotherapy reports</em> (1966-03) <a href="https://www.ncbi.nlm.nih.gov/pubmed/5910392">https://www.ncbi.nlm.nih.gov/pubmed/5910392</a> <br />
+PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/5910392">5910392</a></p>
+</div>
+<div id="ref-D7GiJO3C">
+<p>121. <a href="http://www.jstor.org/stable/2985181">http://www.jstor.org/stable/2985181</a></p>
+</div>
 <div id="ref-ljRmMZgk">
-<p>119. <strong>d3b-center/OpenPBTA-workflows: Release v1.0.1</strong> <br />
+<p>122. <strong>d3b-center/OpenPBTA-workflows: Release v1.0.1</strong> <br />
 Jo Lynne Rokita, Miguel Brown<br />
 <em>Zenodo</em> (2022-04-20) <a href="https://doi.org/gpxs5q">https://doi.org/gpxs5q</a> <br />
 DOI: <a href="https://doi.org/10.5281/zenodo.6474116">10.5281/zenodo.6474116</a></p>

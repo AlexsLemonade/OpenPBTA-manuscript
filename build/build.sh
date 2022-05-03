@@ -65,7 +65,7 @@ if [ "${BUILD_PDF:-}" != "false" ] && [ -n "$DOCKER_RUNNING" ]; then
   cp -R -L content/images output/
   docker run \
     --rm \
-    --shm-size=1g \
+    --shm-size=2g \
     --volume="$(pwd)/output:/converted/" \
     --security-opt=seccomp:unconfined \
     arachnysdocker/athenapdf:2.16.0 \

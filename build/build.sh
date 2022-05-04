@@ -65,12 +65,13 @@ if [ "${BUILD_PDF:-}" != "false" ] && [ -n "$DOCKER_RUNNING" ]; then
   cp -R -L content/images output/
   docker run \
     --rm \
-    --shm-size=1g \
+    --shm-size=2g \
     --volume="$(pwd)/output:/converted/" \
     --security-opt=seccomp:unconfined \
     arachnysdocker/athenapdf:2.16.0 \
     athenapdf \
     --delay=${MANUBOT_ATHENAPDF_DELAY:-1100} \
+    --timeout=1200 \
     --pagesize=A4 \
     manuscript.html manuscript.pdf
   rm -rf output/images

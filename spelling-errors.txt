@@ -46,6 +46,7 @@ ERFMPQN
 EWSR
 FAM
 Feinberg
+FigS
 fingerfen
 Foltz
 GF
@@ -106,7 +107,7 @@ orf
 PDGFRA
 petermadsenmd
 PHG
-pichairaman
+PichaiRaman
 PIK
 Poetsch
 QAH

@@ -25,7 +25,7 @@ cgreene
 Chante
 CHB
 CHCl
-Chr
+chr
 Chul
 cjbethell
 CLDN
@@ -46,7 +46,6 @@ ERFMPQN
 EWSR
 FAM
 Feinberg
-FigS
 fingerfen
 Foltz
 GF

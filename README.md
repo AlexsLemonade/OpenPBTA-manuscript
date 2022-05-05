@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/gh-pages) branch hosts the contents of this directory at <https://AlexsLemonade.github.io/OpenPBTA-manuscript/>.
-The permalink for this webpage version is <https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/ac2681e73025ac5ee63a1cbfc506f0a8715469c3/>.
+The permalink for this webpage version is <https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/40da093535cb0d8872dcaeedadd81e72e23c44cc/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`ac2681e73025ac5ee63a1cbfc506f0a8715469c3`](https://github.com/AlexsLemonade/OpenPBTA-manuscript/commit/ac2681e73025ac5ee63a1cbfc506f0a8715469c3).
+[`40da093535cb0d8872dcaeedadd81e72e23c44cc`](https://github.com/AlexsLemonade/OpenPBTA-manuscript/commit/40da093535cb0d8872dcaeedadd81e72e23c44cc).

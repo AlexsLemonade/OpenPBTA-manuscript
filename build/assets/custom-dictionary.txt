@@ -22,6 +22,7 @@ ALSF
 Amadio
 Amar
 Amphotericin
+Analytics
 Anaplastic
 Anat
 Anh
@@ -549,6 +550,7 @@ preclinical
 preprocessed
 Priya
 proteogenomic
+pseudoalignment
 pseudoaligments
 pubmed
 Qaddoumi
@@ -724,6 +726,7 @@ VAF
 VAFs
 VarDict
 VarDictJava
+VariantFiltration
 Vaske
 VCF
 vcf

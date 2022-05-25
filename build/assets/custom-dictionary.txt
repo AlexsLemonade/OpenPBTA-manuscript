@@ -254,6 +254,7 @@ gliomatosis
 glioneuronal
 GlutaMAX
 GNG
+GNGs
 gnomAD
 GNT
 Golbeck

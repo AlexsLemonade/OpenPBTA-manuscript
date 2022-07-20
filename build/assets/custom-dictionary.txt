@@ -553,6 +553,7 @@ proteogenomic
 pseudoalignment
 pseudoaligments
 pubmed
+PXA
 Qaddoumi
 QIACube
 Qiagen

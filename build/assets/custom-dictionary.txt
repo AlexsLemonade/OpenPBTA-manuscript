@@ -1,4 +1,4 @@
-personal_ws-1.1 en 765 utf-8
+personal_ws-1.1 en 766 utf-8
 Abadi
 AbdelBaki
 aberrantly
@@ -553,6 +553,7 @@ proteogenomic
 pseudoalignment
 pseudoaligments
 pubmed
+PXA
 Qaddoumi
 QIACube
 Qiagen

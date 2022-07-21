@@ -1,4 +1,4 @@
-personal_ws-1.1 en 768 utf-8
+personal_ws-1.1 en 771 utf-8
 Abadi
 AbdelBaki
 aberrantly
@@ -158,6 +158,7 @@ DNET
 DNETs
 doi
 DOIs
+Dorfman
 downregulation
 Drinkwater
 DropletQuant
@@ -534,6 +535,7 @@ pineoblastoma
 Pisapia
 pleomorphic
 plexiform
+plexiforms
 Plisiewicz
 ploidy
 pmc
@@ -552,8 +554,8 @@ preclinical
 preprocessed
 Priya
 proteogenomic
-pseudoalignment
 pseudoaligments
+pseudoalignment
 pubmed
 PXA
 Qaddoumi
@@ -594,6 +596,7 @@ Robison
 Rokita
 rootstock
 ros
+Rosai
 rRNA
 RSEM
 RShiny

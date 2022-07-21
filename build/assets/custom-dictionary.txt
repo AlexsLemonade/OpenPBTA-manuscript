@@ -552,7 +552,7 @@ preclinical
 preprocessed
 Priya
 proteogenomic
-pseudoaligments
+pseudoalignments
 pseudoalignment
 pubmed
 PXA

@@ -434,6 +434,7 @@ authors:
       - Data Curation
     affiliations:
       - Division of Oncology, Children's Hospital of Philadelphia
+  - github: sdiskin
   - name: Sharon J. Diskin
     initials: SJD
     orcid: 0000-0002-7200-8939
@@ -444,8 +445,10 @@ authors:
     affiliations:
       - Division of Oncology, Children's Hospital of Philadelphia
       - Department of Pediatrics, University of Pennsylvania
-  - name: Rebecca Kauffman
-    initials: RK
+  - github: rebkau
+  - name: Rebecca S. Kaufman
+    initials: RSK
+    orcid: 0000-0001-8535-9730
     email: kaufmanr1@chop.edu
     contributions:
       - Formal Analysis

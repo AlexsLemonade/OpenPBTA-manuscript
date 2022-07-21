@@ -26,7 +26,7 @@ cgreene
 Chante
 CHB
 CHCl
-Chr
+chr
 Chul
 cjbethell
 CLDN
@@ -37,6 +37,7 @@ CXXC
 Cynwyd
 DDX
 DEHJF
+Diskin
 dmiller
 Duong
 EB
@@ -76,6 +77,7 @@ JNEV
 jolynnerokita
 jvlilly
 Kannan
+Kauffman
 kgaonkar
 KIAA
 KK
@@ -116,6 +118,7 @@ QAH
 QJ
 QWM
 Rathi
+Rebecca
 runjin
 Savonen
 Scolaro

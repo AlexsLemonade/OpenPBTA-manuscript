@@ -18,6 +18,7 @@ bcps
 Bethell
 bmennis
 BPDY
+BXG
 cansavvy
 cbethell
 CDKN
@@ -25,7 +26,7 @@ cgreene
 Chante
 CHB
 CHCl
-Chr
+chr
 Chul
 cjbethell
 CLDN
@@ -38,6 +39,7 @@ DDX
 DEHJF
 dmiller
 Duong
+EB
 EGFR
 Egolf
 envest
@@ -51,6 +53,7 @@ Foltz
 GF
 GFJN
 Glassboro
+GNWEJJ
 GPBP
 GPC
 Greehey
@@ -106,7 +109,7 @@ orf
 PDGFRA
 petermadsenmd
 PHG
-pichairaman
+PichaiRaman
 PIK
 Poetsch
 QAH

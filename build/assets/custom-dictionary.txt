@@ -1,4 +1,4 @@
-personal_ws-1.1 en 770 utf-8
+personal_ws-1.1 en 771 utf-8
 Abadi
 AbdelBaki
 aberrantly
@@ -552,7 +552,6 @@ preclinical
 preprocessed
 Priya
 proteogenomic
-pseudoalignments
 pseudoalignment
 pubmed
 PXA
@@ -582,6 +581,7 @@ reproducibility
 resect
 resected
 Resnick
+restrospective
 Reya
 rhabdoid
 RiboErase
@@ -742,6 +742,7 @@ VIS
 Vitanza
 Waanders
 Wadhwani
+Wafula
 WDL
 Wechsler
 WGS

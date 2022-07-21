@@ -1,4 +1,4 @@
-personal_ws-1.1 en 769 utf-8
+personal_ws-1.1 en 775 utf-8
 Abadi
 AbdelBaki
 aberrantly
@@ -27,6 +27,7 @@ Anaplastic
 Anat
 Anh
 AnnotSV
+ANNOVAR
 Anny
 ANOVA
 Anu
@@ -113,6 +114,7 @@ CIC
 CircleCI
 CIs
 CJB
+ClinVar
 CLS
 CNC
 CNS
@@ -271,6 +273,7 @@ Guerreiro
 Guo
 Gururangan
 GVCF
+gVCFs
 GVCFs
 Hagop
 haplotype
@@ -325,6 +328,7 @@ indel
 INDELs
 indels
 interpretability
+InterVar
 intra
 intronic
 Invivogen
@@ -513,6 +517,7 @@ papilloma
 paraganglioma
 paraspinal
 Partap
+pathogenicity
 Payal
 PBTA
 pbta
@@ -553,8 +558,8 @@ preclinical
 preprocessed
 Priya
 proteogenomic
-pseudoalignment
 pseudoaligments
+pseudoalignment
 pubmed
 PXA
 Qaddoumi
@@ -635,6 +640,7 @@ SMF
 SNCAIP
 snoRNA
 SNP
+SnpEff
 SNPs
 Snuderl
 SNV

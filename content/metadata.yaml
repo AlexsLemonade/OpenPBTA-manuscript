@@ -216,7 +216,7 @@ authors:
       - Formal analysis
       - Software
     affiliations:
-      - Ben May Department for Cancer Research, University of Chicago, Chicago IL, USA 
+      - Ben May Department for Cancer Research, University of Chicago, Chicago IL, USA
   - github: baileyckelly
     name: Bailey Farrow
     initials: BF
@@ -239,9 +239,9 @@ authors:
     affiliations:
       - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
       - Division of Neurosurgery, Children's Hospital of Philadelphia
-  - github: liberaliscomputing  
+  - github: liberaliscomputing
     name: Meen Chul Kim
-    initials: MCK 
+    initials: MCK
     orcid: 0000-0002-0308-783X
     email: KIMM11@chop.edu
     contributions:
@@ -434,6 +434,29 @@ authors:
       - Data Curation
     affiliations:
       - Division of Oncology, Children's Hospital of Philadelphia
+  - name: Sharon J. Diskin
+    initials: SJD
+    orcid: 0000-0002-7200-8939
+    email: diskin@chop.edu
+    contributions:
+      - Investigation
+      - Supervision
+    affiliations:
+      - Division of Oncology, Children's Hospital of Philadelphia
+      - Department of Pediatrics, University of Pennsylvania
+  - name: Zalman Vaksman
+    initials: ZV
+    contributions:
+      - Formal Analysis
+    affiliations:
+      - Division of Oncology, Children's Hospital of Philadelphia
+  - name: Rebecca Kauffman
+    initials: RK
+    email: kaufmanr1@chop.edu
+    contributions:
+      - Formal Analysis
+    affiliations:
+      - Division of Oncology, Children's Hospital of Philadelphia
   - github: awaanders
     name: Angela Waanders
     initials: AW
@@ -461,7 +484,7 @@ authors:
     contributions:
       - Validation
     affiliations:
-      - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania       
+      - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
       - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, USA
     funders:
       - Alex's Lemonade Stand Foundation GR-000002471

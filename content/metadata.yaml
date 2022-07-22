@@ -438,6 +438,7 @@ authors:
     name: Sharon J. Diskin
     initials: SJD
     orcid: 0000-0002-7200-8939
+    twitter: @sjdiskin
     email: diskin@chop.edu
     contributions:
       - Investigation
@@ -445,6 +446,24 @@ authors:
     affiliations:
       - Division of Oncology, Children's Hospital of Philadelphia
       - Department of Pediatrics, University of Pennsylvania
+  - name: Douglas R. Stewart
+    initials: DRS
+    orcid: 0000-0001-8193-1488
+    email: drstewart@mail.nih.gov
+    contributions:
+      - Investigation
+      - Supervision
+    affiliations:
+      - Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics, National Cancer Institute
+  - name: Jung Kim
+    initials: JK
+    orcid: 0000-0001-6274-2841
+    email: jung.kim2@nih.gov
+    contributions:
+      - Investigation
+      - Supervision
+    affiliations:
+      - Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics, National Cancer Institute
   - github: rebkau
     name: Rebecca S. Kaufman
     initials: RSK

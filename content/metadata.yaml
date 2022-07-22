@@ -435,7 +435,7 @@ authors:
     affiliations:
       - Division of Oncology, Children's Hospital of Philadelphia
   - github: sdiskin
-  - name: Sharon J. Diskin
+    name: Sharon J. Diskin
     initials: SJD
     orcid: 0000-0002-7200-8939
     email: diskin@chop.edu
@@ -446,7 +446,7 @@ authors:
       - Division of Oncology, Children's Hospital of Philadelphia
       - Department of Pediatrics, University of Pennsylvania
   - github: rebkau
-  - name: Rebecca S. Kaufman
+    name: Rebecca S. Kaufman
     initials: RSK
     orcid: 0000-0001-8535-9730
     email: kaufmanr1@chop.edu

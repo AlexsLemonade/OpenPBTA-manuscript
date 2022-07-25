@@ -434,6 +434,41 @@ authors:
       - Data Curation
     affiliations:
       - Division of Oncology, Children's Hospital of Philadelphia
+  - github: rebkau
+    name: Rebecca S. Kaufman
+    initials: RSK
+    orcid: 0000-0001-8535-9730
+    email: kaufmanr1@chop.edu
+    contributions:
+      - Formal Analysis
+      - Investigation
+      - Validation
+    affiliations:
+      - Division of Oncology, Children's Hospital of Philadelphia
+  - name: Zalman Vaksman
+    initials: ZV
+    email: zvaksman@gmail.com
+    contributions:
+      - Formal Analysis
+      - Investigation
+    affiliations:
+      - Division of Oncology, Children's Hospital of Philadelphia
+  - name: Jung Kim
+    initials: JK
+    orcid: 0000-0001-6274-2841
+    email: jung.kim2@nih.gov
+    contributions:
+      - Investigation
+    affiliations:
+      - Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics, National Cancer Institute
+  - name: Douglas R. Stewart
+    initials: DRS
+    orcid: 0000-0001-8193-1488
+    email: drstewart@mail.nih.gov
+    contributions:
+      - Supervision
+    affiliations:
+      - Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics, National Cancer Institute
   - github: sdiskin
     name: Sharon J. Diskin
     initials: SJD
@@ -443,37 +478,11 @@ authors:
     contributions:
       - Investigation
       - Supervision
+      - Validation
+      - Funding acquisition
     affiliations:
       - Division of Oncology, Children's Hospital of Philadelphia
       - Department of Pediatrics, University of Pennsylvania
-  - name: Douglas R. Stewart
-    initials: DRS
-    orcid: 0000-0001-8193-1488
-    email: drstewart@mail.nih.gov
-    contributions:
-      - Investigation
-      - Supervision
-      - Funding acquisition
-    affiliations:
-      - Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics, National Cancer Institute
-  - name: Jung Kim
-    initials: JK
-    orcid: 0000-0001-6274-2841
-    email: jung.kim2@nih.gov
-    contributions:
-      - Investigation
-      - Supervision
-    affiliations:
-      - Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics, National Cancer Institute
-  - github: rebkau
-    name: Rebecca S. Kaufman
-    initials: RSK
-    orcid: 0000-0001-8535-9730
-    email: kaufmanr1@chop.edu
-    contributions:
-      - Formal Analysis
-    affiliations:
-      - Division of Oncology, Children's Hospital of Philadelphia
   - github: awaanders
     name: Angela Waanders
     initials: AW

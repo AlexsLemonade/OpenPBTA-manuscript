@@ -1,4 +1,4 @@
-personal_ws-1.1 en 770 utf-8
+personal_ws-1.1 en 771 utf-8
 Abadi
 AbdelBaki
 aberrantly
@@ -628,6 +628,7 @@ Shida
 shinyFuse
 Sidra
 sina
+SJD
 SJS
 Sklar
 Skrypek

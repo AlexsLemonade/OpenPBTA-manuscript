@@ -1,4 +1,4 @@
-personal_ws-1.1 en 770 utf-8
+personal_ws-1.1 en 781 utf-8
 Abadi
 AbdelBaki
 aberrantly
@@ -769,3 +769,14 @@ Zeinab
 Zhang
 Zhu
 Zvereva
+pathogenicity
+ANNOVAR
+KEGG
+SnpEff
+ExAC
+ClinVar
+InterVar
+Badged
+ClinGen
+VUS
+NCBI

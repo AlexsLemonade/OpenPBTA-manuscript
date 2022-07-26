@@ -1,4 +1,4 @@
-personal_ws-1.1 en 785 utf-8
+personal_ws-1.1 en 786 utf-8
 Abadi
 AbdelBaki
 aberrantly
@@ -46,7 +46,7 @@ ATRX
 AUROC
 autosomes
 AWS
-Badged
+badged
 BAF
 BAM
 BAMs

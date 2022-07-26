@@ -1,4 +1,4 @@
-personal_ws-1.1 en 781 utf-8
+personal_ws-1.1 en 785 utf-8
 Abadi
 AbdelBaki
 aberrantly
@@ -27,6 +27,7 @@ Anaplastic
 Anat
 Anh
 AnnotSV
+ANNOVAR
 Anny
 ANOVA
 Anu
@@ -45,6 +46,7 @@ ATRX
 AUROC
 autosomes
 AWS
+Badged
 BAF
 BAM
 BAMs
@@ -113,6 +115,8 @@ CIC
 CircleCI
 CIs
 CJB
+ClinGen
+ClinVar
 CLS
 CNC
 CNS
@@ -158,6 +162,7 @@ DNET
 DNETs
 doi
 DOIs
+Dorfman
 downregulation
 Drinkwater
 DropletQuant
@@ -195,6 +200,7 @@ EVN
 Evrony
 Ewing
 EWS
+ExAC
 exome
 exonic
 expectedly
@@ -324,6 +330,7 @@ indel
 INDELs
 indels
 interpretability
+InterVar
 intra
 intronic
 Invivogen
@@ -346,6 +353,7 @@ Kapa
 Kaplan
 Karlene
 Keating
+KEGG
 Keoni
 Kephart
 Keyes
@@ -398,6 +406,7 @@ Maryam
 Mateos
 Mateusz
 Matija
+MBs
 McCowage
 MCP
 medulloblastoma
@@ -460,6 +469,7 @@ NantHealth
 NantOmics
 Nazarian
 NBL
+NCBI
 NCI
 NCI's
 neoplasia
@@ -512,6 +522,7 @@ papilloma
 paraganglioma
 paraspinal
 Partap
+pathogenicity
 Payal
 PBTA
 pbta
@@ -534,6 +545,7 @@ pineoblastoma
 Pisapia
 pleomorphic
 plexiform
+plexiforms
 Plisiewicz
 ploidy
 pmc
@@ -595,6 +607,7 @@ Robison
 Rokita
 rootstock
 ros
+Rosai
 rRNA
 RSEM
 RShiny
@@ -635,6 +648,7 @@ SMF
 SNCAIP
 snoRNA
 SNP
+SnpEff
 SNPs
 Snuderl
 SNV
@@ -740,6 +754,7 @@ Viaene
 Vicini
 VIS
 Vitanza
+VUS
 Waanders
 Wadhwani
 Wafula
@@ -769,14 +784,3 @@ Zeinab
 Zhang
 Zhu
 Zvereva
-pathogenicity
-ANNOVAR
-KEGG
-SnpEff
-ExAC
-ClinVar
-InterVar
-Badged
-ClinGen
-VUS
-NCBI

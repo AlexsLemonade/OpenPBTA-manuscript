@@ -1,4 +1,4 @@
-personal_ws-1.1 en 774 utf-8
+personal_ws-1.1 en 775 utf-8
 Abadi
 AbdelBaki
 aberrantly
@@ -555,10 +555,10 @@ preclinical
 preprocessed
 Priya
 proteogenomic
-pseudoaligments
 pseudoalignment
 pubmed
 PXA
+PXAs
 Qaddoumi
 QIACube
 Qiagen
@@ -758,6 +758,7 @@ Winebrake
 WNT
 WXS
 xanthoastrocytoma
+xanthoastrocytomas
 xanthogranuloma
 xCell
 xenograft

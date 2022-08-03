@@ -1,4 +1,4 @@
-personal_ws-1.1 en 775 utf-8
+personal_ws-1.1 en 779 utf-8
 Abadi
 AbdelBaki
 aberrantly
@@ -113,6 +113,7 @@ CIC
 CircleCI
 CIs
 CJB
+ClinVar
 CLS
 CNC
 CNS
@@ -347,6 +348,7 @@ Kapa
 Kaplan
 Karlene
 Keating
+KEGG
 Keoni
 Kephart
 Keyes
@@ -462,6 +464,7 @@ NantHealth
 NantOmics
 Nazarian
 NBL
+NCBI
 NCI
 NCI's
 neoplasia
@@ -514,6 +517,7 @@ papilloma
 paraganglioma
 paraspinal
 Partap
+pathogenicity
 Payal
 PBTA
 pbta

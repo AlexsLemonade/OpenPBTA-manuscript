@@ -61,6 +61,7 @@ Greehey
 greenescientist
 Hackensack
 hg
+HHSN
 HL
 HN
 Hongbo
@@ -77,7 +78,6 @@ JNEV
 jolynnerokita
 jvlilly
 Kannan
-Kauffman
 kgaonkar
 KIAA
 KK
@@ -119,13 +119,16 @@ QJ
 QWM
 Rathi
 Rebecca
+rebkau
 runjin
 Savonen
 Scolaro
+sdiskin
 Ser
 Shrivats
 shrivatsk
 Siyuan
+sjdiskin
 sjspielman
 SMARCA
 SMARCB
@@ -143,6 +146,7 @@ TKTL
 TP
 TYH
 Tyr
+Vaksman
 vitro
 VK
 VTM
@@ -157,6 +161,7 @@ yangyangclover
 YBZSBY
 YiranGuo
 yuankunzhu
+Zalman
 ZD
 ZFTA
 zhangb

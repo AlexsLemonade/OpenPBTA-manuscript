@@ -46,7 +46,7 @@ jobs:
           fi
       - name: Build Manuscript
         shell: bash --login {0}
-        run: bash build/build.sh
+        run: BUILD_DOCX=true bash build/build.sh
       - name: Upload Artifacts
         uses: actions/upload-artifact@v1
         with:

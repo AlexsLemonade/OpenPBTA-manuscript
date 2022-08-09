@@ -1,4 +1,4 @@
-personal_ws-1.1 en 779 utf-8
+personal_ws-1.1 en 781 utf-8
 Abadi
 AbdelBaki
 aberrantly
@@ -115,6 +115,7 @@ CIs
 CJB
 ClinVar
 CLS
+CMMRD
 CNC
 CNS
 CNV
@@ -749,6 +750,7 @@ Viaene
 Vicini
 VIS
 Vitanza
+VUS
 Waanders
 Wadhwani
 Wafula

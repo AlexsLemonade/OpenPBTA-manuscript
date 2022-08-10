@@ -1,5 +1,5 @@
 # See https://www.appveyor.com/docs/getting-started-with-appveyor-for-linux/
-# Don't build branches with a PR, since their build will be created with the PR itself. 
+# Don't build branches with a PR, since their build will be created with the PR itself.
 # Otherwise there would be two builds -- one for the PR and one for the branch.
 # If you're having issues with getting your PR to build, make sure there are no merge conflicts.
 skip_branch_with_pr: true
@@ -35,12 +35,14 @@ install:
   - source ci/install.sh
 
 test_script:
-  - bash build/build.sh
+  - BUILD_DOCX=true bash build/build.sh
   - MANUSCRIPT_FILENAME=manuscript-$APPVEYOR_BUILD_VERSION-${TRIGGERING_COMMIT:0:7}
   - cp output/manuscript.html $MANUSCRIPT_FILENAME.html
   - cp output/manuscript.pdf $MANUSCRIPT_FILENAME.pdf
+  - cp output/manuscript.docx $MANUSCRIPT_FILENAME.docx
   - appveyor PushArtifact $MANUSCRIPT_FILENAME.html
   - appveyor PushArtifact $MANUSCRIPT_FILENAME.pdf
+  - appveyor PushArtifact $MANUSCRIPT_FILENAME.docx
   - |
       if [ "${SPELLCHECK:-}" = "true" ]; then
         SPELLING_ERRORS_FILENAME=spelling-errors-$APPVEYOR_BUILD_VERSION-${TRIGGERING_COMMIT:0:7}.txt

@@ -19,7 +19,7 @@ on:
       BUILD_DOCX:
         type: boolean
         description: generate DOCX output
-        default: false
+        default: true
       BUILD_LATEX:
         type: boolean
         description: generate LaTeX output
@@ -85,7 +85,7 @@ jobs:
         if: env.SPELLCHECK == 'true'
         run: bash ci/install-spellcheck.sh
       - name: Build Manuscript
-        run: BUILD_DOCX=true bash build/build.sh
+        run: bash build/build.sh
       - name: Upload Artifacts
         uses: actions/upload-artifact@v1
         with:

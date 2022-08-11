@@ -629,12 +629,11 @@ authors:
       # - Writing – original draft
       - Writing – review & editing
   - github: jharenza
-    name: Jo Lynne Rokita
+    name: Jo Lynne Rokita*
     initials: JR
     orcid: 0000-0003-2171-3627
     twitter: jolynnerokita
     email: rokita@chop.edu
-    corresponding: true
     contributions:
       - Conceptualization
       - Data curation
@@ -653,12 +652,11 @@ authors:
       - Alex's Lemonade Stand Foundation (Young Investigator, Catalyst)
       - NCI/NIH Contract No. 75N91019D00024, Task Order No. 75N91020F00003
   - github: jaclyn-taroni
-    name: Jaclyn N. Taroni
+    name: Jaclyn N. Taroni*
     initials: JNT
     orcid: 0000-0003-4734-4508
     twitter: jaclyn_taroni
     email: jaclyn.taroni@ccdatalab.org
-    corresponding: true
     affiliations:
       - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, USA
     funders:

@@ -2,9 +2,9 @@
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
-[![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://AlexsLemonade.github.io/OpenPBTA-manuscript/)
-[![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf)
-[![GitHub Actions Status](https://github.com/AlexsLemonade/OpenPBTA-manuscript/workflows/Manubot/badge.svg)](https://github.com/AlexsLemonade/OpenPBTA-manuscript/actions)
+[![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://manubot.github.io/rootstock/)
+[![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://manubot.github.io/rootstock/manuscript.pdf)
+[![GitHub Actions Status](https://github.com/manubot/rootstock/workflows/Manubot/badge.svg)](https://github.com/manubot/rootstock/actions)
 
 ## Manuscript description
 
@@ -81,13 +81,13 @@ Whenever a pull request is opened, CI (continuous integration) will test whether
 The build process aims to detect common errors, such as invalid citations.
 If your pull request build fails, see the CI logs for the cause of failure and revise your pull request accordingly.
 
-When a commit to the `master` branch occurs (for example, when a pull request is merged), CI builds the manuscript and writes the results to the [`gh-pages`](https://github.com/manubot/rootstock/tree/gh-pages) and [`output`](https://github.com/manubot/rootstock/tree/output) branches.
+When a commit to the `main` branch occurs (for example, when a pull request is merged), CI builds the manuscript and writes the results to the [`gh-pages`](https://github.com/manubot/rootstock/tree/gh-pages) and [`output`](https://github.com/manubot/rootstock/tree/output) branches.
 The `gh-pages` branch uses [GitHub Pages](https://pages.github.com/) to host the following URLs:
 
 + **HTML manuscript** at https://AlexsLemonade.github.io/OpenPBTA-manuscript/
 + **PDF manuscript** at https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf
 
-For continuous integration configuration details, see [`.github/workflows/manubot.yaml`](.github/workflows/manubot.yaml) if using GitHub Actions or [`.travis.yml`](.travis.yml) if using Travis CI.
+For continuous integration configuration details, see [`.github/workflows/manubot.yaml`](.github/workflows/manubot.yaml).
 
 ## License
 

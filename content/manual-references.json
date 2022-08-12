@@ -1,22 +1,365 @@
 [
-{
-  "id": "url:https://github.com/manubot/rootstock",
-  "type": "webpage",
-  "URL": "https://github.com/manubot/rootstock",
-  "title": "manubot/rootstock GitHub repository",
-  "container-title": "GitHub",
-  "issued": {
-    "date-parts": [
-      [
-        2019
+  {
+    "id": "biorxiv:10.1101/2021.07.06.451385",
+    "type": "article-journal",
+    "container-title": "bioRxiv",
+    "page": "2021.07.06.451385",
+    "DOI": "10.1101/2021.07.06.451385",
+    "abstract": "Pediatric brain tumors are the leading cause of cancer death in children with an urgent need for innovative therapies. Here we show that the cell surface oncoprotein glypican 2 (GPC2) is highly expressed on multiple lethal pediatric brain tumors, including medulloblastomas, embryonal tumors with multi-layered rosettes, other CNS embryonal tumors, as well as definable subsets of highly malignant gliomas. To target GPC2 on these pediatric brain tumors with adoptive cellular therapies and mitigate potential inflammatory neurotoxicity, we developed four mRNA chimeric antigen receptor (CAR) T cell constructs using the highly GPC2-specific fully human D3 single chain variable fragment. First, we validated and prioritized these CARs using in vitro cytotoxicity and T cell degranulation assays with GPC2-expressing neuroblastoma cells. Next, we expanded the testing of the two most potent GPC2-directed CAR constructs prioritized from these studies to GPC2-expressing medulloblastoma and high-grade glioma cell lines, showing significant GPC2-specific cell death in multiple models. Finally, locoregional delivery bi-weekly of two to four million GPC2-directed mRNA CAR T cells induced significant and sustained tumor regression in two orthotopic medulloblastoma models, and significantly prolonged survival in an aggressive orthotopic thalamic diffuse midline glioma model. No GPC2-directed CAR T cell related neurologic or systemic toxicity was observed. Taken together, these data show that GPC2 is a highly differentially expressed cell surface protein on multiple malignant pediatric brain tumors that can be targeted safely with local delivery of mRNA CAR T cells.One Sentence Summary Glypican 2 is expressed on the surface of multiple pediatric brain tumors and can be successfully targeted with mRNA chimeric antigen receptor T cells.Competing Interest StatementT.S. is currently employed by Spark Therapeutics. K.K. is currently employed by BioNTech and is an inventor on a patent related to use of nucleoside-modified mRNA. D.M.B. is currently employed by Tmunity Therapeutics. J.B.F., D.M.B, J.M.M., and K.R.B. hold patents for the discovery and development of immunotherapies for cancer, including patents related to GPC2-directed immunotherapies. K.R.B. and J.M.M. receive research funding from Tmunity for research on GPC2-directed immunotherapies and J.B.F., D.M.B, J.M.M., and K.R.B. receive royalties from Tmunity for licensing of GPC2-related intellectual property. J.M.M. is a founder of both Tantigen Bio and Hula Therapeutics, focused on cellular therapies for childhood cancers, but neither are working on GPC2-directed therapeutics. All other authors have nothing to disclose.",
+    "genre": "preprint",
+    "language": "en",
+    "source": "DOI.org (Crossref)",
+    "title": "Development of GPC2-directed chimeric antigen receptors using mRNA for pediatric brain tumors",
+    "URL": "https://www.biorxiv.org/content/10.1101/2021.07.06.451385v2",
+    "author": [
+      {
+        "family": "Foster",
+        "given": "Jessica B."
+      },
+      {
+        "family": "Griffin",
+        "given": "Crystal"
+      },
+      {
+        "family": "Rokita",
+        "given": "Jo Lynne"
+      },
+      {
+        "family": "Stern",
+        "given": "Allison"
+      },
+      {
+        "family": "Brimley",
+        "given": "Cameron"
+      },
+      {
+        "family": "Rathi",
+        "given": "Komal"
+      },
+      {
+        "family": "Lane",
+        "given": "Maria V."
+      },
+      {
+        "family": "Buongervino",
+        "given": "Samantha N."
+      },
+      {
+        "family": "Smith",
+        "given": "Tiffany"
+      },
+      {
+        "family": "Madsen",
+        "given": "Peter J."
+      },
+      {
+        "family": "Martinez",
+        "given": "Daniel"
+      },
+      {
+        "family": "Wechsler-Reya",
+        "given": "Robert J."
+      },
+      {
+        "family": "Karikó",
+        "given": "Katalin"
+      },
+      {
+        "family": "Storm",
+        "given": "Phillip B."
+      },
+      {
+        "family": "Barrett",
+        "given": "David M."
+      },
+      {
+        "family": "Resnick",
+        "given": "Adam C."
+      },
+      {
+        "family": "Maris",
+        "given": "John M."
+      },
+      {
+        "family": "Bosse",
+        "given": "Kristopher R."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2022",
+          8,
+          11
+        ]
       ]
-    ]
-  },
-  "author": [
-    {
-      "given": "Daniel",
-      "family": "Himmelstein"
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2021",
+          7,
+          7
+        ]
+      ]
     }
-  ]
-}
+  },
+  {
+    "id": "biorxiv:10.1101/201178",
+    "type": "article-journal",
+    "container-title": "bioRxiv",
+    "title": "Scaling accurate genetic variant discovery to tens of thousands of samples",
+    "page": "201178",
+    "DOI": "10.1101/201178",
+    "language": "en",
+    "abstract": "Comprehensive disease gene discovery in both common and rare diseases will require the efficient and accurate detection of all classes of genetic variation across tens to hundreds of thousands of human samples. We describe here a novel assembly-based approach to variant calling, the GATK HaplotypeCaller (HC) and Reference Confidence Model (RCM), that determines genotype likelihoods independently per-sample but performs joint calling across all samples within a project simultaneously. We show by calling over 90,000 samples from the Exome Aggregation Consortium (ExAC) that, in contrast to other algorithms, the HC-RCM scales efficiently to very large sample sizes without loss in accuracy; and that the accuracy of indel variant calling is superior in comparison to other algorithms. More importantly, the HC-RCM produces a fully squared-off matrix of genotypes across all samples at every genomic position being investigated. The HC-RCM is a novel, scalable, assembly-based algorithm with abundant applications for population genetics and clinical studies.",
+    "source": "bioRxiv",
+    "URL": "https://www.biorxiv.org/content/10.1101/201178v3",
+    "author": [
+      {
+        "family": "Poplin",
+        "given": "Ryan"
+      },
+      {
+        "family": "Ruano-Rubio",
+        "given": "Valentin"
+      },
+      {
+        "family": "DePristo",
+        "given": "Mark A."
+      },
+      {
+        "family": "Fennell",
+        "given": "Tim J."
+      },
+      {
+        "family": "Carneiro",
+        "given": "Mauricio O."
+      },
+      {
+        "family": "Auwera",
+        "given": "Geraldine A. Van",
+        "dropping-particle": "der"
+      },
+      {
+        "family": "Kling",
+        "given": "David E."
+      },
+      {
+        "family": "Gauthier",
+        "given": "Laura D."
+      },
+      {
+        "family": "Levy-Moonshine",
+        "given": "Ami"
+      },
+      {
+        "family": "Roazen",
+        "given": "David"
+      },
+      {
+        "family": "Shakir",
+        "given": "Khalid"
+      },
+      {
+        "family": "Thibault",
+        "given": "Joel"
+      },
+      {
+        "family": "Chandran",
+        "given": "Sheila"
+      },
+      {
+        "family": "Whelan",
+        "given": "Chris"
+      },
+      {
+        "family": "Lek",
+        "given": "Monkol"
+      },
+      {
+        "family": "Gabriel",
+        "given": "Stacey"
+      },
+      {
+        "family": "Daly",
+        "given": "Mark J."
+      },
+      {
+        "family": "Neale",
+        "given": "Ben"
+      },
+      {
+        "family": "MacArthur",
+        "given": "Daniel G."
+      },
+      {
+        "family": "Banks",
+        "given": "Eric"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2022",
+          8,
+          11
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2018",
+          7,
+          24
+        ]
+      ]
+    }
+  },
+  {
+    "id": "biorxiv:10.1101/861054",
+    "type": "article-journal",
+    "container-title": "bioRxiv",
+    "title": "Calling Somatic SNVs and Indels with Mutect2",
+    "page": "861054",
+    "DOI": "10.1101/861054",
+    "abstract": "Mutect2 is a somatic variant caller that uses local assembly and realignment to detect SNVs and indels. Assembly implies whole haplotypes and read pairs, rather than single bases, as the atomic units of biological variation and sequencing evidence, improving variant calling. Beyond local assembly and alignment, Mutect2 is based on several probabilistic models for genotyping and filtering that work well with and without a matched normal sample and for all sequencing depths.",
+    "language": "en",
+    "source": "bioRxiv",
+    "URL": "https://www.biorxiv.org/content/10.1101/861054v1",
+    "author": [
+      {
+        "family": "Benjamin",
+        "given": "David"
+      },
+      {
+        "family": "Sato",
+        "given": "Takuto"
+      },
+      {
+        "family": "Cibulskis",
+        "given": "Kristian"
+      },
+      {
+        "family": "Getz",
+        "given": "Gad"
+      },
+      {
+        "family": "Stewart",
+        "given": "Chip"
+      },
+      {
+        "family": "Lichtenstein",
+        "given": "Lee"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2022",
+          8,
+          11
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2019",
+          12,
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "id": "biorxiv:10.1101/120295",
+    "type": "article-journal",
+    "container-title": "bioRxiv",
+    "abstract": "Motivation Fusion genes created by genomic rearrangements can be potent drivers of tumorigenesis. However, accurate identification of functionally fusion genes from genomic sequencing requires whole genome sequencing, since exonic sequencing alone is often insufficient. Transcriptome sequencing provides a direct, highly effective alternative for capturing molecular evidence of expressed fusions in the precision medicine pipeline, but current methods tend to be inefficient or insufficiently accurate, lacking in sensitivity or predicting large numbers of false positives. Here, we describe STAR-Fusion, a method that is both fast and accurate in identifying fusion transcripts from RNA-Seq data.\nResults We benchmarked STAR-Fusion’s fusion detection accuracy using both simulated and genuine Illumina paired-end RNA-Seq data, and show that it has superior performance compared to popular alternative fusion detection methods.\nAvailability and implementation STAR-Fusion is implemented in Perl, freely available as open source software at http://star-fusion.github.io, and supported on Linux.\nContact bhaas{at}broadinstitute.org",
+    "language": "en",
+    "page": "120295",
+    "DOI": "10.1101/120295",
+    "source": "bioRxiv",
+    "title": "STAR-Fusion: Fast and Accurate Fusion Transcript Detection from RNA-Seq",
+    "title-short": "STAR-Fusion",
+    "URL": "https://www.biorxiv.org/content/10.1101/120295v1",
+    "author": [
+      {
+        "family": "Haas",
+        "given": "Brian J."
+      },
+      {
+        "family": "Dobin",
+        "given": "Alex"
+      },
+      {
+        "family": "Stransky",
+        "given": "Nicolas"
+      },
+      {
+        "family": "Li",
+        "given": "Bo"
+      },
+      {
+        "family": "Yang",
+        "given": "Xiao"
+      },
+      {
+        "family": "Tickle",
+        "given": "Timothy"
+      },
+      {
+        "family": "Bankapur",
+        "given": "Asma"
+      },
+      {
+        "family": "Ganote",
+        "given": "Carrie"
+      },
+      {
+        "family": "Doak",
+        "given": "Thomas G."
+      },
+      {
+        "family": "Pochet",
+        "given": "Nathalie"
+      },
+      {
+        "family": "Sun",
+        "given": "Jing"
+      },
+      {
+        "family": "Wu",
+        "given": "Catherine J."
+      },
+      {
+        "family": "Gingeras",
+        "given": "Thomas R."
+      },
+      {
+        "family": "Regev",
+        "given": "Aviv"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2022",
+          8,
+          11
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2017",
+          3,
+          24
+        ]
+      ]
+    }
+  }
 ]

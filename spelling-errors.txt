@@ -60,7 +60,6 @@ GPC
 Greehey
 greenescientist
 Hackensack
-hg
 HHSN
 HL
 HN
@@ -112,7 +111,7 @@ orf
 PDGFRA
 petermadsenmd
 PHG
-pichairaman
+PichaiRaman
 PIK
 Poetsch
 QAH

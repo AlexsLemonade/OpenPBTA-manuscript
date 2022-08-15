@@ -26,7 +26,7 @@ author-meta:
 - Payal Jain
 - Yang Yang
 - Meen Chul Kim
-- Philip B. Storm
+- Phillip B. Storm
 - Steven M. Foltz
 - Derek Hanson
 - Jennifer Mason
@@ -44,7 +44,7 @@ author-meta:
 - Sharon J. Diskin
 - Allison P. Heath
 - Adam A. Kraya
-- Angela Waanders
+- Angela J. Waanders
 - Cassie N. Kline
 - Yiran Guo
 - Jena V. Lilly
@@ -162,7 +162,7 @@ header-includes: |-
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0002-0308-783X" />
-  <meta name="citation_author" content="Philip B. Storm" />
+  <meta name="citation_author" content="Phillip B. Storm" />
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0002-7964-2449" />
@@ -236,8 +236,8 @@ header-includes: |-
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0002-8526-5694" />
-  <meta name="citation_author" content="Angela Waanders" />
-  <meta name="citation_author_institution" content="Department of Oncology, Ann &amp; Robert H. Lurie Children’s Hospital of Chicago" />
+  <meta name="citation_author" content="Angela J. Waanders" />
+  <meta name="citation_author_institution" content="Division of Hematology, Oncology, Neuro-Oncology, and Stem Cell Transplant, Ann &amp; Robert H Lurie Children’s Hospital of Chicago" />
   <meta name="citation_author_institution" content="Department of Pediatrics, Northwestern University Feinberg School of Medicine" />
   <meta name="citation_author_orcid" content="0000-0002-0571-2889" />
   <meta name="citation_author" content="Cassie N. Kline" />
@@ -316,9 +316,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/50a6a3de528b4fdfca422031a3a8719239cb165e/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/50a6a3de528b4fdfca422031a3a8719239cb165e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/50a6a3de528b4fdfca422031a3a8719239cb165e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/8ccc193f1e68e830b0e240a190ab0d1f92269fc0/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/8ccc193f1e68e830b0e240a190ab0d1f92269fc0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/8ccc193f1e68e830b0e240a190ab0d1f92269fc0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -340,9 +340,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/50a6a3de528b4fdfca422031a3a8719239cb165e/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/8ccc193f1e68e830b0e240a190ab0d1f92269fc0/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@50a6a3d](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/50a6a3de528b4fdfca422031a3a8719239cb165e)
+from [AlexsLemonade/OpenPBTA-manuscript@8ccc193](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/8ccc193f1e68e830b0e240a190ab0d1f92269fc0)
 on August 15, 2022.
 </em></small>
 
@@ -564,7 +564,7 @@ on August 15, 2022.
      Center for Data-Driven Discovery, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
-+ **Philip B. Storm**
++ **Phillip B. Storm**
   <br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-7964-2449](https://orcid.org/0000-0002-7964-2449)<br>
@@ -745,14 +745,14 @@ on August 15, 2022.
      Center for Data-Driven Discovery, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
-+ **Angela Waanders**
++ **Angela J. Waanders**
   <br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-0571-2889](https://orcid.org/0000-0002-0571-2889)
     · ![GitHub icon](images/github.png){.inline_icon}
     [awaanders](https://github.com/awaanders)<br>
   <small>
-     Department of Oncology, Ann & Robert H. Lurie Children’s Hospital of Chicago; Department of Pediatrics, Northwestern University Feinberg School of Medicine
+     Division of Hematology, Oncology, Neuro-Oncology, and Stem Cell Transplant, Ann & Robert H Lurie Children’s Hospital of Chicago; Department of Pediatrics, Northwestern University Feinberg School of Medicine
   </small>
 
 + **Cassie N. Kline**
@@ -1381,7 +1381,7 @@ Finally, we would like to thank Yuanchao Zhang and Eric Wafula for adding to the
 |Payal Jain|Data curation, Investigation, Validation|
 |Yang Yang|Formal analysis, Software|
 |Meen Chul Kim|D, a, t, a,  , c, u, r, a, t, i, o, n|
-|Philip B. Storm|Conceptualization, Funding acquisition, Resources|
+|Phillip B. Storm|Conceptualization, Funding acquisition, Resources|
 |Steven M. Foltz|V, a, l, i, d, a, t, i, o, n|
 |Derek Hanson|V, a, l, i, d, a, t, i, o, n|
 |Jennifer Mason|S, u, p, e, r, v, i, s, i, o, n|
@@ -1399,7 +1399,7 @@ Finally, we would like to thank Yuanchao Zhang and Eric Wafula for adding to the
 |Sharon J. Diskin|Investigation, Supervision, Validation, Funding acquisition|
 |Allison P. Heath|P, r, o, j, e, c, t,  , a, d, m, i, n, i, s, t, r, a, t, i, o, n|
 |Adam A. Kraya|M, e, t, h, o, d, o, l, o, g, y|
-|Angela Waanders|S, u, p, e, r, v, i, s, o, n|
+|Angela J. Waanders|S, u, p, e, r, v, i, s, o, n|
 |Cassie N. Kline|S, u, p, e, r, v, i, s, i, o, n|
 |Yiran Guo|F, o, r, m, a, l,  , A, n, a, l, y, s, i, s|
 |Jena V. Lilly|Conceptualization, Funding acquisition, Project administration|

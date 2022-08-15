@@ -55,7 +55,7 @@ authors:
   - Investigation
   - Writing - Original draft
   - Visualization
-  affiliations: 
+  affiliations:
   - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, USA
   - Fred Hutchinson Cancer Center, Seattle, WA, USA
   funders: Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
@@ -98,7 +98,7 @@ authors:
   initials: RJ
   orcid: 0000-0002-8958-9266
   twitter: runjin
-  email: jinr@chop.edu
+  email: runjin@sas.upenn.edu
   contributions:
   - Data curation
   - Formal Analysis
@@ -141,7 +141,7 @@ authors:
   initials: LEE
   orcid: 0000-0002-7103-4801
   twitter: LauraEgolf
-  email: laura.egolf@pennmedicine.upenn.edu
+  email: laura.egolf@nih.gov
   contributions:
   - Formal analysis
   - Writing - Original draft
@@ -353,7 +353,7 @@ authors:
   name: Nicolas Van Kuren
   initials: NK
   orcid: 0000-0002-7414-9516
-  email: vankurenk@chop.edu
+  email: vankurenn@chop.edu
   contributions:
   - Data curation
   - Software
@@ -372,8 +372,8 @@ authors:
   affiliations:
   - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
-- name: Angela Viaene
-  initials: AV
+- name: Angela N. Viaene
+  initials: ANV
   orcid: 0000-0001-6430-8360
   email: viaenea@chop.edu
   contributions:

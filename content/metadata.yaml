@@ -46,7 +46,7 @@ authors:
   initials: CLS
   orcid: 0000-0001-6331-7070
   twitter: cansavvy
-  email: candace.savonen@ccdatalab.org
+  email: csavonen@fredhutch.org
   contributions:
   - Methodology
   - Software
@@ -55,8 +55,10 @@ authors:
   - Investigation
   - Writing - Original draft
   - Visualization
-  affiliations: Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala
+  affiliations: 
+    - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala
     Cynwyd, PA, USA
+    - Fred Hutchinson Cancer Center, Seattle, WA, USA
   funders: Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
 - github: sjspielman
   name: Stephanie J. Spielman

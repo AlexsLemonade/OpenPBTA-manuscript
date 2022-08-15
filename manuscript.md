@@ -5,7 +5,7 @@ keywords:
 - brain tumor
 - tumor atlas
 lang: en-US
-date-meta: '2022-08-12'
+date-meta: '2022-08-15'
 author-meta:
 - Joshua A. Shapiro
 - Krutika S. Gaonkar
@@ -72,8 +72,8 @@ header-includes: |-
   <meta name="citation_title" content="An Open Pediatric Brain Tumor Atlas" />
   <meta property="og:title" content="An Open Pediatric Brain Tumor Atlas" />
   <meta property="twitter:title" content="An Open Pediatric Brain Tumor Atlas" />
-  <meta name="dc.date" content="2022-08-12" />
-  <meta name="citation_publication_date" content="2022-08-12" />
+  <meta name="dc.date" content="2022-08-15" />
+  <meta name="citation_publication_date" content="2022-08-15" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -92,6 +92,7 @@ header-includes: |-
   <meta name="twitter:creator" content="@aggokittu" />
   <meta name="citation_author" content="Candace L. Savonen" />
   <meta name="citation_author_institution" content="Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Bala Cynwyd, PA, USA" />
+  <meta name="citation_author_institution" content="Fred Hutchinson Cancer Center, Seattle, WA, USA" />
   <meta name="citation_author_orcid" content="0000-0001-6331-7070" />
   <meta name="twitter:creator" content="@cansavvy" />
   <meta name="citation_author" content="Stephanie J. Spielman" />
@@ -315,9 +316,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c79e1db13ae31da81d720d3e1bbd73154d07c3c4/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c79e1db13ae31da81d720d3e1bbd73154d07c3c4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c79e1db13ae31da81d720d3e1bbd73154d07c3c4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/55b837003d428c2f949fd5e49dfc2207f3eaedee/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/55b837003d428c2f949fd5e49dfc2207f3eaedee/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/55b837003d428c2f949fd5e49dfc2207f3eaedee/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -339,10 +340,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c79e1db13ae31da81d720d3e1bbd73154d07c3c4/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/55b837003d428c2f949fd5e49dfc2207f3eaedee/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@c79e1db](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/c79e1db13ae31da81d720d3e1bbd73154d07c3c4)
-on August 12, 2022.
+from [AlexsLemonade/OpenPBTA-manuscript@55b8370](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/55b837003d428c2f949fd5e49dfc2207f3eaedee)
+on August 15, 2022.
 </em></small>
 
 ## Authors
@@ -383,7 +384,7 @@ on August 12, 2022.
     · ![Twitter icon](images/twitter.png){.inline_icon}
     [cansavvy](https://twitter.com/cansavvy)<br>
   <small>
-     Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, USA
+     Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, USA; Fred Hutchinson Cancer Center, Seattle, WA, USA
      · Funded by Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
   </small>
 

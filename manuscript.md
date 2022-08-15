@@ -37,7 +37,7 @@ author-meta:
 - Xiaoyan Huang
 - Nicolas Van Kuren
 - Miguel A. Brown
-- Angela Viaene
+- Angela N. Viaene
 - Laura Scolaro
 - Bo Zhang
 - Anna R. Poetsch
@@ -207,7 +207,7 @@ header-includes: |-
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0001-6782-1442" />
   <meta name="twitter:creator" content="@migbro" />
-  <meta name="citation_author" content="Angela Viaene" />
+  <meta name="citation_author" content="Angela N. Viaene" />
   <meta name="citation_author_institution" content="Department of Pathology and Laboratory Medicine, Children’s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman School of Medicine" />
   <meta name="citation_author_orcid" content="0000-0001-6430-8360" />
@@ -316,9 +316,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/f6f7a42eb19fb9e3b320ffc023a793355e9da906/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/f6f7a42eb19fb9e3b320ffc023a793355e9da906/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/f6f7a42eb19fb9e3b320ffc023a793355e9da906/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/525693d4fa013aad610b5fe2fb72d1d763f4ccfa/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/525693d4fa013aad610b5fe2fb72d1d763f4ccfa/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/525693d4fa013aad610b5fe2fb72d1d763f4ccfa/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -340,9 +340,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/f6f7a42eb19fb9e3b320ffc023a793355e9da906/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/525693d4fa013aad610b5fe2fb72d1d763f4ccfa/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@f6f7a42](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/f6f7a42eb19fb9e3b320ffc023a793355e9da906)
+from [AlexsLemonade/OpenPBTA-manuscript@525693d](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/525693d4fa013aad610b5fe2fb72d1d763f4ccfa)
 on August 15, 2022.
 </em></small>
 
@@ -674,7 +674,7 @@ on August 15, 2022.
      Center for Data-Driven Discovery, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
-+ **Angela Viaene**
++ **Angela N. Viaene**
   <br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0001-6430-8360](https://orcid.org/0000-0001-6430-8360)<br>
@@ -1392,7 +1392,7 @@ Finally, we would like to thank Yuanchao Zhang and Eric Wafula for adding to the
 |Xiaoyan Huang|Formal Analysis|
 |Nicolas Van Kuren|Data curation, Software|
 |Miguel A. Brown|Data curation, Methodology|
-|Angela Viaene|Investigation, Validation|
+|Angela N. Viaene|Investigation, Validation|
 |Laura Scolaro|Data Curation|
 |Bo Zhang|Data curation, Formal Analysis|
 |Anna R. Poetsch|Formal Analysis|

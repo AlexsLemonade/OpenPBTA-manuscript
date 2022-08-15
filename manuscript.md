@@ -295,7 +295,7 @@ header-includes: |-
   <meta name="citation_author_institution" content="Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA" />
   <meta name="citation_author_institution" content="Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Bala Cynwyd, PA, USA" />
   <meta name="citation_author_institution" content="Center for Health AI, University of Colorado School of Medicine, Aurora, CO, USA" />
-  <meta name="citation_author_institution" content="Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, CO, USA" />
+  <meta name="citation_author_institution" content="Department of Biomedical Informatics, University of Colorado School of Medicine, Aurora, CO, USA" />
   <meta name="citation_author_orcid" content="0000-0001-8713-9213" />
   <meta name="twitter:creator" content="@greenescientist" />
   <meta name="citation_author" content="Jo Lynne Rokita" />
@@ -316,9 +316,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/8ccc193f1e68e830b0e240a190ab0d1f92269fc0/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/8ccc193f1e68e830b0e240a190ab0d1f92269fc0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/8ccc193f1e68e830b0e240a190ab0d1f92269fc0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/f6f7a42eb19fb9e3b320ffc023a793355e9da906/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/f6f7a42eb19fb9e3b320ffc023a793355e9da906/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/f6f7a42eb19fb9e3b320ffc023a793355e9da906/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -340,9 +340,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/8ccc193f1e68e830b0e240a190ab0d1f92269fc0/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/f6f7a42eb19fb9e3b320ffc023a793355e9da906/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@8ccc193](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/8ccc193f1e68e830b0e240a190ab0d1f92269fc0)
+from [AlexsLemonade/OpenPBTA-manuscript@f6f7a42](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/f6f7a42eb19fb9e3b320ffc023a793355e9da906)
 on August 15, 2022.
 </em></small>
 
@@ -891,7 +891,7 @@ on August 15, 2022.
     · ![Twitter icon](images/twitter.png){.inline_icon}
     [greenescientist](https://twitter.com/greenescientist)<br>
   <small>
-     Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA; Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, USA; Center for Health AI, University of Colorado School of Medicine, Aurora, CO, USA; Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, CO, USA
+     Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA; Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, USA; Center for Health AI, University of Colorado School of Medicine, Aurora, CO, USA; Department of Biomedical Informatics, University of Colorado School of Medicine, Aurora, CO, USA
      · Funded by Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
   </small>
 
@@ -1372,51 +1372,51 @@ Finally, we would like to thank Yuanchao Zhang and Eric Wafula for adding to the
 |Yuankun Zhu|Data curation, Formal Analysis, Investigation, Methodology, Supervision|
 |Laura E. Egolf|Formal analysis, Writing - Original draft|
 |Bailey Farrow|Data curation, Software|
-|Daniel P. Miller|F, o, r, m, a, l,  , A, n, a, l, y, s, i, s|
+|Daniel P. Miller|Formal Analysis|
 |Mateusz P. Koptyra|Formal Analysis, Writing – original draft|
 |Nhat Duong|Formal Analysis, Investigation, Methodology|
 |Tejaswi Koganti|Formal Analysis, Investigation|
 |Nighat Noureen|Formal analysis, Visualization, Writing - Original draft|
-|Shannon Robbins|D, a, t, a,  , c, u, r, a, t, i, o, n|
+|Shannon Robbins|Data curation|
 |Payal Jain|Data curation, Investigation, Validation|
 |Yang Yang|Formal analysis, Software|
-|Meen Chul Kim|D, a, t, a,  , c, u, r, a, t, i, o, n|
+|Meen Chul Kim|Data curation|
 |Phillip B. Storm|Conceptualization, Funding acquisition, Resources|
-|Steven M. Foltz|V, a, l, i, d, a, t, i, o, n|
-|Derek Hanson|V, a, l, i, d, a, t, i, o, n|
-|Jennifer Mason|S, u, p, e, r, v, i, s, i, o, n|
+|Steven M. Foltz|Validation|
+|Derek Hanson|Validation|
+|Jennifer Mason|Supervision|
 |Siyuan Zheng|Formal analysis, Visualization, Writing - Original draft, Supervision|
-|Douglas R. Stewart|S, u, p, e, r, v, i, s, i, o, n|
+|Douglas R. Stewart|Supervision|
 |Shrivats Kannan|Formal Analysis, Methodology, Writing – original draft|
 |Mariarita Santi|Investigation, Validation|
-|Xiaoyan Huang|F, o, r, m, a, l,  , A, n, a, l, y, s, i, s|
+|Xiaoyan Huang|Formal Analysis|
 |Nicolas Van Kuren|Data curation, Software|
 |Miguel A. Brown|Data curation, Methodology|
 |Angela Viaene|Investigation, Validation|
-|Laura Scolaro|D, a, t, a,  , C, u, r, a, t, i, o, n|
+|Laura Scolaro|Data Curation|
 |Bo Zhang|Data curation, Formal Analysis|
-|Anna R. Poetsch|F, o, r, m, a, l,  , A, n, a, l, y, s, i, s|
+|Anna R. Poetsch|Formal Analysis|
 |Sharon J. Diskin|Investigation, Supervision, Validation, Funding acquisition|
-|Allison P. Heath|P, r, o, j, e, c, t,  , a, d, m, i, n, i, s, t, r, a, t, i, o, n|
-|Adam A. Kraya|M, e, t, h, o, d, o, l, o, g, y|
-|Angela J. Waanders|S, u, p, e, r, v, i, s, o, n|
-|Cassie N. Kline|S, u, p, e, r, v, i, s, i, o, n|
-|Yiran Guo|F, o, r, m, a, l,  , A, n, a, l, y, s, i, s|
+|Allison P. Heath|Project administration|
+|Adam A. Kraya|Methodology|
+|Angela J. Waanders|Supervison|
+|Cassie N. Kline|Supervision|
+|Yiran Guo|Formal Analysis|
 |Jena V. Lilly|Conceptualization, Funding acquisition, Project administration|
 |Rebecca S. Kaufman|Formal Analysis, Investigation, Validation|
 |Brian M. Ennis|Data curation, Formal Analysis|
-|Peter J. Madsen|W, r, i, t, i, n, g,  , –,  , r, e, v, i, e, w,  , &,  , e, d, i, t, i, n, g|
+|Peter J. Madsen|Writing – review & editing|
 |Zalman Vaksman|Formal Analysis, Investigation|
 |Hongbo M. Xie|Methodology, Supervision|
-|Jessica Wong|W, r, i, t, i, n, g,  , –,  , o, r, i, g, i, n, a, l,  , d, r, a, f, t|
+|Jessica Wong|Writing – original draft|
 |Pichai Raman|Conceptualization, Formal Analysis, Methodology|
-|Jung Kim|I, n, v, e, s, t, i, g, a, t, i, o, n|
+|Jung Kim|Investigation|
 |Adam C. Resnick|Conceptualization, Funding acquisition, Resources, Supervision|
 |Casey S. Greene|Conceptualization, Funding acquisition, Methodology, Project administration, Software, Supervision, Writing – review & editing|
 |Jo Lynne Rokita|Conceptualization, Data curation, Formal Analysis, Funding acquisition, Investigation, Methodology, Software, Supervision, Writing – original draft|
 |Jaclyn N. Taroni|Methodology, Software, Validation, Formal analysis, Investigation, Data curation, Writing - Review and editing, Visualization, Supervision, Project administration|
-|Children's Brain Tumor Network|C, o, n, c, e, p, t, u, a, l, i, z, a, t, i, o, n|
-|Pacific Pediatric Neuro-Oncology Consortium|C, o, n, c, e, p, t, u, a, l, i, z, a, t, i, o, n|
+|Children's Brain Tumor Network|Conceptualization|
+|Pacific Pediatric Neuro-Oncology Consortium|Conceptualization|
 
 
 ## Declarations of Interest

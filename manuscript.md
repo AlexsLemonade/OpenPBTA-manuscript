@@ -316,9 +316,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/55b837003d428c2f949fd5e49dfc2207f3eaedee/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/55b837003d428c2f949fd5e49dfc2207f3eaedee/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/55b837003d428c2f949fd5e49dfc2207f3eaedee/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/50a6a3de528b4fdfca422031a3a8719239cb165e/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/50a6a3de528b4fdfca422031a3a8719239cb165e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/50a6a3de528b4fdfca422031a3a8719239cb165e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -340,9 +340,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/55b837003d428c2f949fd5e49dfc2207f3eaedee/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/50a6a3de528b4fdfca422031a3a8719239cb165e/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@55b8370](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/55b837003d428c2f949fd5e49dfc2207f3eaedee)
+from [AlexsLemonade/OpenPBTA-manuscript@50a6a3d](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/50a6a3de528b4fdfca422031a3a8719239cb165e)
 on August 15, 2022.
 </em></small>
 
@@ -1791,7 +1791,7 @@ High-grade glioma (HGG) subtypes were derived (`molecular-subtyping-HGG` analysi
 
 Embryonal tumors were included in non-MB and non-ATRT embryonal tumor subtyping (`molecular-subtyping-embryonal` analysis module) if they met any of the following criteria:
 1. A _TTYH1_ (5' partner) fusion was detected.
-2. A _MN1_ (5' partner) fusion was detected, with the exception of `MN1--PATZ1` since it is an entity separate of CNS HGNET-MN1 tumors [@doi:10.1111/nan.12626].
+2. A _MN1_ (5' partner) fusion was detected, with the exception of `MN1::PATZ1` since it is an entity separate of CNS HGNET-MN1 tumors [@doi:10.1111/nan.12626].
 3. Pathology diagnoses included "Supratentorial or Spinal Cord PNET" or "Embryonal Tumor with Multilayered Rosettes".
 4. A pathology diagnosis of "Neuroblastoma", where the tumor was not indicated to be peripheral or metastatic and was located in the CNS.
 5. Any sample with "embryonal tumor with multilayer rosettes, ros (who grade iv)", "embryonal tumor, nos, congenital type", "ependymoblastoma" or "medulloepithelioma" in pathology free text.
@@ -1803,7 +1803,7 @@ Non-MB and non-ATRT embryonal tumors identified with the above criteria were fur
 3. Any RNA-seq biospecimen with a fusion having a 5' _MN1_ and 3' _BEND2_ or _CXXC5_ partner were subtyped as `CNS HGNET-MN1` [Central nervous system (CNS) high-grade neuroepithelial tumor with _MN1_ alteration].
 4. Non-MB and non-ATRT embryonal tumors with internal tandem duplication (as defined in [@doi:10.1186/s12859-016-1031-8]) of _BCOR_ were subtyped as `CNS HGNET-BCOR` (CNS high-grade neuroepithelial tumor with _BCOR_ alteration).
 5. Non-MB and non-ATRT embryonal tumors with over-expression and/or gene fusions in _FOXR2_ were subtyped as `CNS NB-FOXR2` (CNS neuroblastoma with _FOXR2_ activation).
-6. Non-MB and non-ATRT embryonal tumors with _CIC-NUTM1_ or other _CIC_ fusions, were subtyped as `CNS EFT-CIC` (CNS Ewing sarcoma family tumor with _CIC_ alteration) [@doi:10.1016/j.cell.2016.01.015]
+6. Non-MB and non-ATRT embryonal tumors with _CIC::NUTM1_ or other _CIC_ fusions, were subtyped as `CNS EFT-CIC` (CNS Ewing sarcoma family tumor with _CIC_ alteration) [@doi:10.1016/j.cell.2016.01.015]
 7. Non-MB and non-ATRT embryonal tumors that did not fit any of the above categories were subtyped as `CNS Embryonal, NOS` (CNS Embryonal tumor, not otherwise specified).
 
 Neurocytoma subtypes central neurocytoma (CNC) and extraventricular neurocytoma (EVN) were assigned (`molecular-subtyping-neurocytoma` analysis module) based on the primary site of the tumor [@doi:10.1007/978-3-319-33432-5_20].
@@ -1822,8 +1822,8 @@ Low-grade gliomas (LGG) or glialneuronal tumors (GNT) were subtyped (`molecular-
 3. If a sample contained the _IDH_ p.R132 mutation, it was subtyped as `LGG, IDH`.
 4. If a sample contained a histone p.K28M mutation in either _H3F3A_, _H3F3B_, _HIST1H3B_, _HIST1H3C_, or _HIST2H3C_, or if it contained a p.G35R or p.G35V mutation in _H3F3A_, it was subtyped as `LGG, H3`.
 5. If a sample contained _BRAF_ p.V600E or any other non-canonical _BRAF_ mutations in the kinase (PK_Tyr_Ser-Thr) domain PF07714 (see **Key Resources Table**), it was subtyped as `LGG, BRAF V600E`.
-6. If a sample contained `KIAA1549--BRAF` fusion, it was subtyped as `LGG, KIAA1549-BRAF`.
-7. If a sample contained SNV or indel in either _KRAS_, _NRAS_, _HRAS_, _MAP2K1_, _MAP2K2_, _MAP2K1_, _ARAF_, _RAF1_, or non-kinase domain of _BRAF_, or if it contained _RAF1_ fusion, or _BRAF_ fusion that was not `KIAA1549--BRAF`, it was subtyped as `LGG, other MAPK`.
+6. If a sample contained `KIAA1549::BRAF` fusion, it was subtyped as `LGG, KIAA1549::BRAF`.
+7. If a sample contained SNV or indel in either _KRAS_, _NRAS_, _HRAS_, _MAP2K1_, _MAP2K2_, _MAP2K1_, _ARAF_, _RAF1_, or non-kinase domain of _BRAF_, or if it contained _RAF1_ fusion, or _BRAF_ fusion that was not `KIAA1549::BRAF`, it was subtyped as `LGG, other MAPK`.
 8. If a sample contained SNV in either _MET_, _KIT_ or _PDGFRA_, or if it contained fusion in _ALK_, _ROS1_, _NTRK1_, _NTRK2_, _NTRK3_ or _PDGFRA_, it was subtyped as `LGG, RTK`.
 9. If a sample contained _FGFR1_ p.N546K, p.K656E, p.N577, or p. K687 hotspot mutations, or tyrosine kinase domain tandem duplication (See **Key Resources Table**), or _FGFR1_ or _FGFR2_ fusions, it was subtyped as `LGG, FGFR`.
 10. If a sample contained _MYB_ or _MYBL1_ fusion, it was subtyped as `LGG, MYB/MYBL1`.
@@ -1840,8 +1840,8 @@ If pathology diagnosis is `Low-grade glioma/astrocytoma (WHO grade I/II)` or `Ga
 Ependymomas (EPN) were subtyped (`molecular-subtyping-EPN` analysis module) into `EPN, ST RELA`, `EPN, ST YAP1`, `EPN, PF A` and `EPN, PF B` based on evidence for these molecular subgroups as described in Pajtler et al. [@doi:10.1016/j.ccell.2015.04.002].
 Briefly, fusion, CNV and gene expression data were used to subtype EPN as follows:
 
-1. Any tumor with fusions containing `RELA` as fusion partner, e.g., `C11orf95--RELA`, `LTBP3--RELA`, was subtyped as `EPN, ST RELA`.
-2. Any tumor with fusions containing `YAP1` as fusion partner, such as `C11orf95--YAP1`, `YAP1--MAMLD1` and `YAP1--FAM118B`, was subtyped as `EPN, ST YAP1`.
+1. Any tumor with fusions containing `RELA` as fusion partner, e.g., `C11orf95::RELA`, `LTBP3::RELA`, was subtyped as `EPN, ST RELA`.
+2. Any tumor with fusions containing `YAP1` as fusion partner, such as `C11orf95::YAP1`, `YAP1::MAMLD1` and `YAP1::FAM118B`, was subtyped as `EPN, ST YAP1`.
 3. Any tumor with the following molecular characterization would be subtyped as `EPN, PF A`:
 - _CXorf67_ expression z-score of over 3
 - _TKTL1_ expression z-score of over 3 and 1q gain
@@ -1854,12 +1854,12 @@ Any tumor with the above molecular characteristics would be exclusively subtyped
 For all other remaining EPN tumors without above molecular characteristics, they would be subtyped to `EPN, ST RELA` and `EPN, ST YAP1` in a non-exclusive way (e.g., a tumor could have both `EPN, ST RELA` and `EPN, ST YAP1` subtypes) if any of the following alterations were present.
 
 1. Any tumor with the following alterations was assigned `EPN, ST RELA`:
-- `PTEN--TAS2R1` fusion
+- `PTEN::TAS2R1` fusion
 - chromosome 9 arm (9p or 9q) loss
 - _RELA_ expression z-score of over 3
 - _L1CAM_ expression z-score of over 3
 2. Any tumor with the following alterations was assigned `EPN, ST YAP1`:
-- `C11orf95--MAML2` fusion
+- `C11orf95::MAML2` fusion
 - chromosome 11 short arm (11p) loss
 - chromosome 11 long arm (11q) gain
 - _ARL4D_ expression z-score of over 3

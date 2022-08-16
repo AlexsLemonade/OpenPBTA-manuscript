@@ -21,8 +21,8 @@ authors:
   - Writing - Review and editing
   - Visualization
   - Supervision
-  affiliations: Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala
-    Cynwyd, PA, USA
+  affiliations:
+  - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, USA
   funders: Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
 - github: kgaonkar6
   name: Krutika S. Gaonkar
@@ -90,8 +90,8 @@ authors:
   - Investigation
   - Writing - Original draft
   - Visualization
-  affiliations: Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala
-    Cynwyd, PA, USA
+  affiliations:
+  - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, USA
   funders: Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
 - github: runjin326
   name: Run Jin
@@ -191,8 +191,8 @@ authors:
   - Formal Analysis
   - Investigation
   - Methodology
-  affiliations: Department of Bioinformatics and Health Informatics, Children's Hospital
-    of Philadelphia
+  affiliations:
+  - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
 - github: tkoganti
   name: Tejaswi Koganti
   initials: TK
@@ -213,7 +213,8 @@ authors:
   - Formal analysis
   - Visualization
   - Writing - Original draft
-  affiliations: Greehey Children's Cancer Research Institute, UT Health San Antonio
+  affiliations:
+  - Greehey Children's Cancer Research Institute, UT Health San Antonio
 - name: Shannon Robbins
   initials: SR
   email: Shannonmrobins@gmail.com
@@ -241,8 +242,8 @@ authors:
   contributions:
   - Formal analysis
   - Software
-  affiliations: Ben May Department for Cancer Research, University of Chicago, Chicago
-    IL, USA
+  affiliations:
+  - Ben May Department for Cancer Research, University of Chicago, Chicago IL, USA
 - github: liberaliscomputing
   name: Meen Chul Kim
   initials: MCK
@@ -273,10 +274,8 @@ authors:
   orcid: 0000-0002-9526-8194
   contributions: Validation
   affiliations:
-  - Department of Systems Pharmacology and Translational Therapeutics, University
-    of Pennsylvania
-  - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA,
-    USA
+  - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
+  - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, USA
   funders:
   - Alex's Lemonade Stand Foundation GR-000002471
   - National Institutes of Health K12GM081259
@@ -308,14 +307,15 @@ authors:
   - Visualization
   - Writing - Original draft
   - Supervision
-  affiliations: Greehey Children's Cancer Research Institute, UT Health San Antonio
+  affiliations:
+  - Greehey Children's Cancer Research Institute, UT Health San Antonio
 - name: Douglas R. Stewart
   initials: DRS
   orcid: 0000-0001-8193-1488
   email: drstewart@mail.nih.gov
   contributions: Supervision
-  affiliations: Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics,
-    National Cancer Institute
+  affiliations:
+  - Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics, National Cancer Institute
 - github: shrivatsk
   name: Shrivats Kannan
   initials: SK
@@ -387,7 +387,8 @@ authors:
   initials: LS
   email: scolarol@chop.edu
   contributions: Data Curation
-  affiliations: Division of Oncology, Children's Hospital of Philadelphia
+  affiliations:
+  - Division of Oncology, Children's Hospital of Philadelphia
 - github: zhangb1
   name: Bo Zhang
   initials: BZ
@@ -461,7 +462,8 @@ authors:
   email: klinec@chop.edu
   twitter: cnkline13
   contributions: Supervision
-  affiliations: Division of Oncology, Children's Hospital of Philadelphia
+  affiliations:
+  - Division of Oncology, Children's Hospital of Philadelphia
 - github: Yiran-Guo
   name: Yiran Guo
   initials: YG
@@ -523,7 +525,8 @@ authors:
   contributions:
   - Formal Analysis
   - Investigation
-  affiliations: Division of Oncology, Children's Hospital of Philadelphia
+  affiliations:
+  - Division of Oncology, Children's Hospital of Philadelphia
 - github: xiehongbo
   name: Hongbo M. Xie
   initials: HMX
@@ -533,8 +536,8 @@ authors:
   contributions:
   - Methodology
   - Supervision
-  affiliations: Department of Bioinformatics and Health Informatics, Children's Hospital
-    of Philadelphia
+  affiliations:
+  - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
 - github: wongjessica93
   name: Jessica Wong
   initials: JW
@@ -563,8 +566,8 @@ authors:
   orcid: 0000-0001-6274-2841
   email: jung.kim2@nih.gov
   contributions: Investigation
-  affiliations: Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics,
-    National Cancer Institute
+  affiliations:
+  - Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics, National Cancer Institute
 - github: adamcresnick
   name: Adam C. Resnick
   initials: ACR
@@ -592,13 +595,10 @@ authors:
   twitter: greenescientist
   email: greenescientist@gmail.com
   affiliations:
-  - Department of Systems Pharmacology and Translational Therapeutics, Perelman School
-    of Medicine, University of Pennsylvania, Philadelphia, PA, USA
-  - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA,
-    USA
+  - Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA
+  - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, USA
   - Center for Health AI, University of Colorado School of Medicine, Aurora, CO, USA
-  - Department of Biomedical Informatics, University of Colorado School
-    of Medicine, Aurora, CO, USA
+  - Department of Biomedical Informatics, University of Colorado School of Medicine, Aurora, CO, USA
   funders: Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
   contributions:
   - Conceptualization
@@ -639,8 +639,8 @@ authors:
   twitter: jaclyn_taroni
   email: jaclyn.taroni@ccdatalab.org
   corresponding: true
-  affiliations: Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala
-    Cynwyd, PA, USA
+  affiliations:
+  - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, USA
   funders: Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
   contributions:
   - Methodology

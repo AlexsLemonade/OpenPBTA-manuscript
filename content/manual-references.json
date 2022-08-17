@@ -361,5 +361,38 @@
         ]
       ]
     }
+  },
+  {
+    "id": "pmid:26389418",
+    "type": "review",
+    "title": "Childhood Medulloblastoma and Other Central Nervous System Embryonal Tumors Treatment (PDQ®): Health Professional Version",
+    "container-title": "PDQ Cancer Information Summaries",
+    "URL": "https://www.cancer.gov/types/brain/hp/child-cns-embryonal-treatment-pdq",
+    "author":[
+      {
+        "literal": "PDQ® Pediatric Treatment Editorial Board"
+      }
+    ],
+    "publisher": "National Cancer Institute",
+    "publisher-place": "Bethesda, MD",
+    "PMID": "26389418",
+    "updated": {
+      "date-parts": [
+        [
+          "2022",
+          3,
+          30
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          "2022",
+          8,
+          11
+        ]
+      ]
+    }
   }
 ]

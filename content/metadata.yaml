@@ -565,6 +565,42 @@ authors:
   contributions: Investigation
   affiliations: Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics,
     National Cancer Institute
+- name: Mike Prados
+  initials: MP
+  orcid:
+  email:
+  contributions: Conceptualization
+  affiliations:
+- name: Rishi Lulla
+  initials: RL
+  orcid:
+  email:
+  contributions: Conceptualization
+  affiliations:
+- name: Carl Koschmann
+  initials: CK
+  orcid:
+  email:
+  contributions: Conceptualization
+  affiliations:
+- name: Sabine Mueller
+  initials:
+  orcid:
+  email:
+  contributions: Conceptualization
+  affiliations:
+- name: Javad Nazarian
+  initials: JN
+  orcid:
+  email:
+  contributions: Conceptualization
+  affiliations:
+- name: Brian Rood
+  initials: BRR
+  orcid:
+  email:
+  contributions: Conceptualization
+  affiliations:
 - github: adamcresnick
   name: Adam C. Resnick
   initials: ACR

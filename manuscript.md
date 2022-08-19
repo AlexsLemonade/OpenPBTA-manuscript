@@ -5,7 +5,7 @@ keywords:
 - brain tumor
 - tumor atlas
 lang: en-US
-date-meta: '2022-08-15'
+date-meta: '2022-08-19'
 author-meta:
 - Joshua A. Shapiro
 - Krutika S. Gaonkar
@@ -72,8 +72,8 @@ header-includes: |-
   <meta name="citation_title" content="An Open Pediatric Brain Tumor Atlas" />
   <meta property="og:title" content="An Open Pediatric Brain Tumor Atlas" />
   <meta property="twitter:title" content="An Open Pediatric Brain Tumor Atlas" />
-  <meta name="dc.date" content="2022-08-15" />
-  <meta name="citation_publication_date" content="2022-08-15" />
+  <meta name="dc.date" content="2022-08-19" />
+  <meta name="citation_publication_date" content="2022-08-19" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -316,9 +316,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/525693d4fa013aad610b5fe2fb72d1d763f4ccfa/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/525693d4fa013aad610b5fe2fb72d1d763f4ccfa/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/525693d4fa013aad610b5fe2fb72d1d763f4ccfa/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/db471a01bdb3501dbc45ca55d0edad0db23c5bae/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/db471a01bdb3501dbc45ca55d0edad0db23c5bae/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/db471a01bdb3501dbc45ca55d0edad0db23c5bae/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -340,10 +340,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/525693d4fa013aad610b5fe2fb72d1d763f4ccfa/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/db471a01bdb3501dbc45ca55d0edad0db23c5bae/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@525693d](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/525693d4fa013aad610b5fe2fb72d1d763f4ccfa)
-on August 15, 2022.
+from [AlexsLemonade/OpenPBTA-manuscript@db471a0](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/db471a01bdb3501dbc45ca55d0edad0db23c5bae)
+on August 19, 2022.
 </em></small>
 
 ## Authors
@@ -1205,7 +1205,7 @@ By contrast, while this classifier has previously shown strong performance on po
 
 While we expected that samples annotated as "lost" would have higher _TP53_ scores than would samples annotated as "other," we observed that samples annotated as "activated" had similar _TP53_ scores to those annotated as "lost" (**Figure {@fig:Fig4}B**, Wilcoxon p = 0.23).
 This result suggests that the classifier actually detects an oncogenic, or altered, _TP53_ phenotype (scores > 0.5) rather than solely _TP53_ inactivation, as interpreted previously [@doi:10.1016/j.celrep.2018.03.076].
-Moreover, tumors with "activating" _TP53_ mutations had evidence of higher _TP53_ expression compared to those with _TP53_ "loss" mutations (Wilcoxon p = 3.5e-3, **Figure {@fig:Fig4}C**).
+Moreover, tumors with "activating" _TP53_ mutations showed higher _TP53_ expression compared to those with _TP53_ "loss" mutations (Wilcoxon p = 3.5e-3, **Figure {@fig:Fig4}C**).
 Tumor types with the highest median _TP53_ scores were those known to harbor somatic _TP53_ alterations and included DMGs, medulloblastomas, HGGs, DNETs, ependymomas, and craniopharyngiomas (**Figure {@fig:Fig4}D**), while gangliogliomas, LGGs, meningiomas, and schwannomas had the lowest median scores.
 
 To further validate the classifier's accuracy, we assessed _TP53_ scores for patients with LFS, hypothesizing that all of these tumors would have high scores.
@@ -1260,7 +1260,7 @@ Table: **Patients with hypermutant tumors.** Listed are patients with at least o
 Next, we asked whether transcriptomic classification of _TP53_ dysregulation and/or telomerase activity recapitulate the known prognostic influence of these oncogenic biomarkers.
 To this end, we conducted a multivariate cox regression on overall survival (**Figure {@fig:Fig4}F**; **STAR Methods**), controlling for extent of tumor resection and whether a tumor was low-grade (LGG group) or high-grade (HGG group).
 We identified several expected trends, including a significant overall survival benefit if the tumor had been fully resected (HR = 0.35, 95% CI = 0.2 - 0.62, p < 0.001) or if the tumor belonged to the LGG group (HR = 0.046, 95% CI = 0.0062 - 0.34, p = 0.003) as well as a significant risk if the tumor belonged to the HGG group (HR = 6.2, 95% CI = 4.0 - 9.5, p < 0.001).
-High telomerase scores were a poor prognostic indicator across brain tumor histologies (HR = 20, 95% CI = 6.4 - 62, p < 0.001), demonstrating that `EXTEND` scores calculated from RNA-Seq are an effective rapid surrogate measure for telomerase activity.
+High telomerase scores were associated with poor prognosis across brain tumor histologies (HR = 20, 95% CI = 6.4 - 62, p < 0.001), demonstrating that `EXTEND` scores calculated from RNA-Seq are an effective rapid surrogate measure for telomerase activity.
 Although higher _TP53_ scores, which predict _TP53_ gene or pathway dysregulation, were not a significant predictor of risk across the entire OpenPBTA cohort (**Table S4**), we did find a significant survival risk associated with higher _TP53_ scores within DMGs (HR = 6436, 95% CI = 2.67 - 1.55e7, p = 0.03) and ependymomas (HR = 2003, 95% CI = 9.9 - 4.05e5, p = 0.005).
 Since we observed the negative prognostic effect of _TP53_ scores for HGGs, we assessed the effect of molecular subtypes within HGG samples on survival risk.
 We found that DMG H3 K28 tumors with _TP53_ loss had significantly worse prognosis (HR = 2.8, CI = 1.4-5.6, p = 0.003) than did DMG H3 K28 tumors with wildtype _TP53_ (**Figure {@fig:Fig4}G** and **Figure {@fig:Fig4}H**).
@@ -1300,7 +1300,7 @@ However, we also found that higher expression of _CD274_ was significantly assoc
 This result may be explained by the higher expression of _CD274_ found in WNT subtype tumors by us and others [@doi:10.1080/2162402X.2018.1462430], as this diagnosis carries the best prognosis of all medulloblastoma subgroups (**Figure {@fig:Fig5}E**).
 
 Finally, we asked whether any molecular subtypes might show an immunologically-hot phenotype, as roughly defined by a greater proportion of CD8+ to CD4+ T cells [@doi:10.1136/jitc-2021-004012; @doi:10.4236/jct.2013.48164].
-While adamantinomatous craniopharyngiomas and Group 3 and Group 4 medulloblastomas had the highest ratios (**Figure {@fig:S6}F**), very few tumors had ratios greater than 1, highlighting an urgent need to identify novel therapeutics for these immunologically-cold pediatric brain tumors with poor prognosis.
+While adamantinomatous craniopharyngiomas and Group 3 and Group 4 medulloblastomas had the highest CD8+ to CD4+ T cell ratios (**Figure {@fig:S6}F**), very few tumors had ratios greater than 1, highlighting an urgent need to identify novel therapeutics for these immunologically-cold pediatric brain tumors with poor prognosis.
 
 ![**Transcriptomic and immune landscape of pediatric brain tumors** A, First two dimensions from UMAP of sample transcriptome data. Points are colored by the broad histology of the samples they represent. B, Heatmap of GSVA scores for Hallmark gene sets with significant differences, with samples ordered by cancer group. C, Box plots of quanTIseq estimates of immune cell proportions in select cancer groups with N > 15 samples. Note: Other HGGs and other LGGs have immune cell proportions similar to DMG and pilocytic astrocytoma, respectively, and are not shown. D, Forest plot depicting the additive effects of _CD274_ expression, immune cell proportion, and extent of tumor resection on overall survival of medulloblastoma patients. Hazard ratios (HR) with 95% confidence intervals and p-values are listed. Significant p-values are denoted with black diamonds. Reference groups are denoted by grey diamonds. Of note, the Macrophage M1 HR was 0 (coefficient = -9.90e+4) with infinite upper and lower CIs, and thus it was not included in the figure. E, Box plot of _CD274_ expression (log<sub>2</sub> FPKM) for medulloblastoma samples grouped by molecular subtype. Bonferroni-corrected p-values from Wilcoxon tests are shown.](https://raw.githubusercontent.com/AlexsLemonade/OpenPBTA-analysis/82966bc74343a641975f19ab5790567dc49e7bdb/figures/pngs/figure5.png?sanitize=true){#fig:Fig5 width="7in"}
 
@@ -1315,7 +1315,7 @@ We used available WGS, WXS, and RNA-Seq data to generate high-confidence consens
 We detected and showed expected patterns of genomic lesions, mutational signatures, and aberrantly regulated signaling pathways across multiple pediatric brain tumor histologies.
 
 Molecular subtyping information from pathology reports was largely not collected nor available for this cohort, and if available (e.g.: sparse medulloblastoma subtypes), it required manual curation from pathology reports and/or free text clinical data fields.
-Furthermore, in the absence of DNA methylation data, rapid classification to derive molecular subtypes could not be performed.
+Furthermore, rapid classification to derive molecular subtypes could not be immediately performed since we did not have DNA methylation data for these samples.
 Thus, to enable biological interrogation of specific tumor subtypes, we created RNA- and DNA-based subtyping modules aligned with WHO molecularly-defined diagnoses.
 We worked closely with pathologists and clinicians to build modules from which we determined a research-grade integrated diagnosis for 59% of samples while discovering incorrectly diagnosed or mis-identified samples in the OpenPBTA cohort. <!--SAMPLECOUNT-->
 
@@ -1325,8 +1325,9 @@ Among the subtyped tumors, we accurately recapitulated subtypes using MM2S (91%;
 We then applied the consensus of these methods to subtype all medulloblastoma tumors lacking pathology-based subtypes.
 
 We used an expression classifier to determine whether tumors have dysfunctional _TP53_ [@doi:10.1016/j.celrep.2018.03.076] and the EXTEND algorithm to determine their degree of telomerase activity using a 13-gene signature [@doi:10.1038/s41467-020-20474-9].
-We found that hypermutant tumors universally displayed dysregulation of _TP53_ and that EXTEND scores are a robust surrogate measure for telomerase activity, as tumors with high scores had a significant adverse risk for overall survival.
-Additionally, high _TP53_ scores were a significant negative prognostic indicator for overall survival for patients with certain tumor types, such as H3 K28-altered DMGs and ependymomas.
+Interestingly, in contrast to adult colorectal cancer and gastric adenocarcinoma, in which _TP53_ is less frequent in hypermutated tumors [@doi:10.18632/oncotarget.22783; @doi:10.1038/NATURE13480], we found that hypermutant HGG tumors universally displayed dysregulation of _TP53_.
+Furthermore, high _TP53_ scores were a significant prognostic marker for poor overall survival for patients with certain tumor types, such as H3 K28-altered DMGs and ependymomas.
+We also show that EXTEND scores are a robust surrogate measure for telomerase activity in pediatric brain tumors.
 By assessing _TP53_ and telomerase activity prospectively from expression data, information usually only attainable with DNA sequencing and/or qPCR, we can quickly incorporate oncogenic biomarker and prognostic knowledge and expand our biological understanding of these tumors.
 
 We identified enrichment of hallmark cancer pathways and characterized the immune cell landscape across pediatric brain tumors, demonstrating tumors in some histologies, such as schwannomas, craniopharyngiomas, and low-grade gliomas, may have a inflammatory tumor microenvironment.

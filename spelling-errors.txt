@@ -26,7 +26,7 @@ cgreene
 Chante
 CHB
 CHCl
-Chr
+chr
 Chul
 cjbethell
 CLDN
@@ -111,7 +111,7 @@ orf
 PDGFRA
 petermadsenmd
 PHG
-pichairaman
+PichaiRaman
 PIK
 Poetsch
 QAH

@@ -1,4 +1,4 @@
-personal_ws-1.1 en 781 utf-8
+personal_ws-1.1 en 782 utf-8
 Abadi
 AbdelBaki
 aberrantly
@@ -122,6 +122,7 @@ CNV
 CNVkit
 CNVs
 codebase
+colorectal
 ControlFREEC
 Cooney
 CPP

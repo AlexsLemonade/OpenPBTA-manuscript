@@ -565,6 +565,49 @@ authors:
   contributions: Investigation
   affiliations: Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics,
     National Cancer Institute
+- name: Mike Prados
+  initials: MP
+  orcid: 0000-0002-9630-2075
+  email: michael.prados@ucsf.edu
+  contributions: Conceptualization
+  affiliations: University of California, San Francisco, San Francisco, CA, United States
+- name: Rishi Lulla
+  initials: RL
+  orcid: 0000-0003-4109-2207
+  email: rishi_lulla@brown.edu
+  contributions: Conceptualization
+  affiliations:
+  - Division of Hematology/Oncology, Hasbro Children’s Hospital
+  - Department of Pediatrics, The Warren Alpert School of Brown University, Providence, Rhode Island
+- name: Carl J. Koschmann
+  initials: CJK
+  orcid: 0000-0002-0825-7615
+  email: ckoschma@med.umich.edu
+  contributions: Conceptualization
+  affiliations:
+  - Department of Pediatrics, University of Michigan Heath, Ann Arbor, MI
+  - Pediatric Hematology Oncology, Mott Children's Hospital, Ann Arbor, MI
+- name: Sabine Mueller
+  initials: SM
+  orcid: 0000-0002-3452-5150
+  email: sabine.mueller@ucsf.edu
+  contributions: Conceptualization
+  affiliations: University of California, San Francisco, San Francisco, CA
+- name: Javad Nazarian
+  initials: JN
+  orcid: 0000-0002-1951-9828
+  email: jnazarian@childrensnational.org
+  contributions: Conceptualization
+  affiliations:
+  - Children's National Research Institute, Washington, D.C.
+  - George Washington University School of Medicine and Health Sciences, Washington, D.C.
+- name: Brian Rood
+  initials: BRR
+  email: brood@childrensnational.org
+  contributions: Conceptualization
+  affiliations:
+  - Children's National Research Institute, Washington, D.C.
+  - George Washington University School of Medicine and Health Sciences, Washington, D.C.
 - github: adamcresnick
   name: Adam C. Resnick
   initials: ACR

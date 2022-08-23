@@ -567,34 +567,36 @@ authors:
     National Cancer Institute
 - name: Mike Prados
   initials: MP
-  orcid:
-  email:
+  orcid: 0000-0002-9630-2075
+  email: michael.prados@ucsf.edu
   contributions: Conceptualization
-  affiliations:
+  affiliations: University of California, San Francisco, San Francisco, CA, United States
 - name: Rishi Lulla
   initials: RL
-  orcid:
+  orcid: 0000-0003-4109-2207
   email:
   contributions: Conceptualization
   affiliations:
+  - Division of Hematology/Oncology, Hasbro Children’s Hospital
+  - Department of Pediatrics, The Warren Alpert School of Brown University, Providence, Rhode Island
 - name: Carl Koschmann
   initials: CK
-  orcid:
-  email:
+  orcid: 0000-0002-0825-7615
+  email: ckoschma@med.umich.edu
   contributions: Conceptualization
   affiliations:
 - name: Sabine Mueller
-  initials:
-  orcid:
-  email:
+  initials: SM
+  orcid: 0000-0002-3452-5150
+  email: sabine.mueller@ucsf.edu
   contributions: Conceptualization
-  affiliations:
+  affiliations: University of California, San Francisco, San Francisco, CA, United States
 - name: Javad Nazarian
   initials: JN
-  orcid:
-  email:
+  orcid: 0000-0002-1951-9828
+  email: jnazarian@childrensnational.org
   contributions: Conceptualization
-  affiliations:
+  affiliations: George Washington University, Washington D.C.
 - name: Brian Rood
   initials: BRR
   orcid:

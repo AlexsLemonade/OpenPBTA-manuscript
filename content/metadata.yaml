@@ -574,7 +574,7 @@ authors:
 - name: Rishi Lulla
   initials: RL
   orcid: 0000-0003-4109-2207
-  email:
+  email: rishi_lulla@brown.edu
   contributions: Conceptualization
   affiliations:
   - Division of Hematology/Oncology, Hasbro Children’s Hospital
@@ -590,19 +590,22 @@ authors:
   orcid: 0000-0002-3452-5150
   email: sabine.mueller@ucsf.edu
   contributions: Conceptualization
-  affiliations: University of California, San Francisco, San Francisco, CA, United States
+  affiliations: University of California, San Francisco, San Francisco, CA
 - name: Javad Nazarian
   initials: JN
   orcid: 0000-0002-1951-9828
   email: jnazarian@childrensnational.org
   contributions: Conceptualization
-  affiliations: George Washington University, Washington D.C.
+  affiliations:
+  - Children's National Research Institute, Washington, D.C.
+  - George Washington University School of Medicine and Health Sciences, Washington, D.C.
 - name: Brian Rood
   initials: BRR
-  orcid:
-  email:
+  email: brood@childrensnational.org
   contributions: Conceptualization
   affiliations:
+  - Children's National Research Institute, Washington, D.C.
+  - George Washington University School of Medicine and Health Sciences, Washington, D.C.
 - github: adamcresnick
   name: Adam C. Resnick
   initials: ACR

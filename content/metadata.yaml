@@ -385,9 +385,10 @@ authors:
   funders:
   - Alex's Lemonade Stand Foundation GR-000002471
   - National Institutes of Health K12GM081259
-- name: Shannon Robbins
+- name: Shannon Robins
   initials: SR
   email: Shannonmrobins@gmail.com
+  orcid: 0000-0003-0594-1953
   contributions: Data curation
   affiliations:
   - Center for Data-Driven Discovery, Children's Hospital of Philadelphia

@@ -5,7 +5,7 @@ keywords:
 - brain tumor
 - tumor atlas
 lang: en-US
-date-meta: '2022-08-24'
+date-meta: '2022-08-25'
 author-meta:
 - Joshua A. Shapiro
 - Krutika S. Gaonkar
@@ -40,7 +40,7 @@ author-meta:
 - Laura Scolaro
 - Angela J. Waanders
 - Steven M. Foltz
-- Shannon Robbins
+- Shannon Robins
 - Sharon J. Diskin
 - Zalman Vaksman
 - Payal Jain
@@ -78,8 +78,8 @@ header-includes: |-
   <meta name="citation_title" content="An Open Pediatric Brain Tumor Atlas" />
   <meta property="og:title" content="An Open Pediatric Brain Tumor Atlas" />
   <meta property="twitter:title" content="An Open Pediatric Brain Tumor Atlas" />
-  <meta name="dc.date" content="2022-08-24" />
-  <meta name="citation_publication_date" content="2022-08-24" />
+  <meta name="dc.date" content="2022-08-25" />
+  <meta name="citation_publication_date" content="2022-08-25" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -224,9 +224,10 @@ header-includes: |-
   <meta name="citation_author_institution" content="Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania" />
   <meta name="citation_author_institution" content="Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Bala Cynwyd, PA, USA" />
   <meta name="citation_author_orcid" content="0000-0002-9526-8194" />
-  <meta name="citation_author" content="Shannon Robbins" />
+  <meta name="citation_author" content="Shannon Robins" />
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_orcid" content="0000-0003-0594-1953" />
   <meta name="citation_author" content="Sharon J. Diskin" />
   <meta name="citation_author_institution" content="Division of Oncology, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Department of Pediatrics, University of Pennsylvania" />
@@ -343,9 +344,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/39d3f383650427bebe12a60e4baa8d857357cd20/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/39d3f383650427bebe12a60e4baa8d857357cd20/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/39d3f383650427bebe12a60e4baa8d857357cd20/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/6e39386f6910708095938c0da92f61ce08c369a1/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/6e39386f6910708095938c0da92f61ce08c369a1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/6e39386f6910708095938c0da92f61ce08c369a1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -367,10 +368,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/39d3f383650427bebe12a60e4baa8d857357cd20/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/6e39386f6910708095938c0da92f61ce08c369a1/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@39d3f38](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/39d3f383650427bebe12a60e4baa8d857357cd20)
-on August 24, 2022.
+from [AlexsLemonade/OpenPBTA-manuscript@6e39386](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/6e39386f6910708095938c0da92f61ce08c369a1)
+on August 25, 2022.
 </em></small>
 
 ## Authors
@@ -723,8 +724,10 @@ on August 24, 2022.
      · Funded by Alex's Lemonade Stand Foundation GR-000002471; National Institutes of Health K12GM081259
   </small>
 
-+ **Shannon Robbins**
-  <br><br>
++ **Shannon Robins**
+  <br>
+    ![ORCID icon](images/orcid.png){.inline_icon}
+    [0000-0003-0594-1953](https://orcid.org/0000-0003-0594-1953)<br>
   <small>
      Center for Data-Driven Discovery, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
@@ -1469,7 +1472,7 @@ Finally, we would like to thank Yuanchao Zhang and Eric Wafula for adding to the
 |Laura Scolaro|Data Curation|
 |Angela J. Waanders|Supervison|
 |Steven M. Foltz|Validation|
-|Shannon Robbins|Data curation|
+|Shannon Robins|Data curation|
 |Sharon J. Diskin|Investigation, Supervision, Validation, Funding acquisition|
 |Zalman Vaksman|Formal Analysis, Investigation|
 |Payal Jain|Data curation, Investigation, Validation|

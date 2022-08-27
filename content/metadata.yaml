@@ -637,6 +637,13 @@ authors:
   affiliations:
   - Division of Hematology and Oncology, Children’s Hospital Los Angeles
   - Department of Pediatrics, Keck School of Medicine of University of Southern California
+- name: Stephen C. Mack
+  initials: SCM
+  orcid: 0000-0001-9620-4742
+  email: stephen.mack@stjude.org
+  contributions: Writing - review and editing
+  affiliations:
+  - Department of Developmental Neurobiology, St. Jude Children’s Research Hospital
 - github: adamcresnick
   name: Adam C. Resnick
   initials: ACR

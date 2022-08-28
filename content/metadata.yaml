@@ -345,7 +345,9 @@ authors:
   orcid: 0000-0003-3056-4360
   twitter: APoetsch
   email: arpoetsch@gmail.com
-  contributions: Formal Analysis
+  contributions:
+  - Formal Analysis
+  - Funding acquisition
   affiliations:
   - Biotechnology Center, Technical University Dresden, Germany
   - National Center for Tumor Diseases, Dresden, Germany

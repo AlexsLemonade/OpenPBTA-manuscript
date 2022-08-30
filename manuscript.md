@@ -5,7 +5,7 @@ keywords:
 - brain tumor
 - tumor atlas
 lang: en-US
-date-meta: '2022-08-29'
+date-meta: '2022-08-30'
 author-meta:
 - Joshua A. Shapiro
 - Krutika S. Gaonkar
@@ -78,8 +78,8 @@ header-includes: |-
   <meta name="citation_title" content="An Open Pediatric Brain Tumor Atlas" />
   <meta property="og:title" content="An Open Pediatric Brain Tumor Atlas" />
   <meta property="twitter:title" content="An Open Pediatric Brain Tumor Atlas" />
-  <meta name="dc.date" content="2022-08-29" />
-  <meta name="citation_publication_date" content="2022-08-29" />
+  <meta name="dc.date" content="2022-08-30" />
+  <meta name="citation_publication_date" content="2022-08-30" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -91,7 +91,7 @@ header-includes: |-
   <meta name="citation_author_orcid" content="0000-0002-6224-0347" />
   <meta name="twitter:creator" content="@jashapiro" />
   <meta name="citation_author" content="Krutika S. Gaonkar" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0003-0838-2405" />
@@ -111,17 +111,17 @@ header-includes: |-
   <meta name="citation_author_orcid" content="0000-0001-9653-8128" />
   <meta name="twitter:creator" content="@cjbethell" />
   <meta name="citation_author" content="Run Jin" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0002-8958-9266" />
   <meta name="twitter:creator" content="@runjin" />
   <meta name="citation_author" content="Komal S. Rathi" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0001-5534-6904" />
   <meta name="twitter:creator" content="@komalsrathi" />
   <meta name="citation_author" content="Yuankun Zhu" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0002-2455-9525" />
   <meta name="twitter:creator" content="@zhuyuankun" />
@@ -131,24 +131,24 @@ header-includes: |-
   <meta name="citation_author_orcid" content="0000-0002-7103-4801" />
   <meta name="twitter:creator" content="@LauraEgolf" />
   <meta name="citation_author" content="Bailey Farrow" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0001-6727-6333" />
   <meta name="citation_author" content="Daniel P. Miller" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0002-2032-4358" />
   <meta name="citation_author" content="Yang Yang" />
   <meta name="citation_author_institution" content="Ben May Department for Cancer Research, University of Chicago, Chicago IL, USA" />
   <meta name="citation_author" content="Tejaswi Koganti" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0002-7733-6480" />
   <meta name="citation_author" content="Nighat Noureen" />
   <meta name="citation_author_institution" content="Greehey Children&#39;s Cancer Research Institute, UT Health San Antonio" />
   <meta name="citation_author_orcid" content="0000-0001-7495-8201" />
   <meta name="citation_author" content="Mateusz P. Koptyra" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0002-3857-6633" />
   <meta name="twitter:creator" content="@koptyram" />
@@ -161,7 +161,7 @@ header-includes: |-
   <meta name="citation_author_institution" content="Pediatric Hematology Oncology, Mott Children&#39;s Hospital, Ann Arbor, MI" />
   <meta name="citation_author_orcid" content="0000-0002-0825-7615" />
   <meta name="citation_author" content="Miguel A. Brown" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0001-6782-1442" />
   <meta name="twitter:creator" content="@migbro" />
@@ -170,7 +170,7 @@ header-includes: |-
   <meta name="citation_author_institution" content="Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman School of Medicine" />
   <meta name="citation_author_orcid" content="0000-0002-6728-3450" />
   <meta name="citation_author" content="Phillip B. Storm" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0002-7964-2449" />
   <meta name="citation_author" content="Derek Hanson" />
@@ -183,11 +183,11 @@ header-includes: |-
   <meta name="citation_author_orcid" content="0000-0002-1951-9828" />
   <meta name="citation_author" content="Peter J. Madsen" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0001-9266-3685" />
   <meta name="twitter:creator" content="@petermadsenmd" />
   <meta name="citation_author" content="Brian M. Ennis" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0002-2653-5009" />
   <meta name="citation_author" content="Douglas R. Stewart" />
@@ -197,12 +197,11 @@ header-includes: |-
   <meta name="citation_author_institution" content="University of California, San Francisco, San Francisco, CA, United States" />
   <meta name="citation_author_orcid" content="0000-0002-9630-2075" />
   <meta name="citation_author" content="Yiran Guo" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia" />
-  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0002-6549-8589" />
   <meta name="twitter:creator" content="@YiranGuo3" />
   <meta name="citation_author" content="Jennifer Mason" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="twitter:creator" content="@jenn0307" />
   <meta name="citation_author" content="Anna R. Poetsch" />
@@ -225,7 +224,7 @@ header-includes: |-
   <meta name="citation_author_institution" content="Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Bala Cynwyd, PA, USA" />
   <meta name="citation_author_orcid" content="0000-0002-9526-8194" />
   <meta name="citation_author" content="Shannon Robins" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0003-0594-1953" />
   <meta name="citation_author" content="Sharon J. Diskin" />
@@ -236,7 +235,7 @@ header-includes: |-
   <meta name="citation_author" content="Zalman Vaksman" />
   <meta name="citation_author_institution" content="Division of Oncology, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author" content="Payal Jain" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0002-5914-9083" />
   <meta name="twitter:creator" content="@jainpayal022" />
@@ -244,7 +243,7 @@ header-includes: |-
   <meta name="citation_author_institution" content="Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics, National Cancer Institute" />
   <meta name="citation_author_orcid" content="0000-0001-6274-2841" />
   <meta name="citation_author" content="Xiaoyan Huang" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0001-7267-4512" />
   <meta name="citation_author" content="Angela N. Viaene" />
@@ -252,11 +251,11 @@ header-includes: |-
   <meta name="citation_author_institution" content="Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman School of Medicine" />
   <meta name="citation_author_orcid" content="0000-0001-6430-8360" />
   <meta name="citation_author" content="Bo Zhang" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0002-0743-5379" />
   <meta name="citation_author" content="Jena V. Lilly" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0003-1439-6045" />
   <meta name="twitter:creator" content="@jvlilly" />
@@ -265,12 +264,12 @@ header-includes: |-
   <meta name="citation_author_institution" content="Department of Pediatrics, The Warren Alpert School of Brown University, Providence, Rhode Island" />
   <meta name="citation_author_orcid" content="0000-0003-4109-2207" />
   <meta name="citation_author" content="Pichai Raman" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0001-6948-2157" />
   <meta name="twitter:creator" content="@PichaiRaman" />
   <meta name="citation_author" content="Nicolas Van Kuren" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0002-7414-9516" />
   <meta name="citation_author" content="Rebecca S. Kaufman" />
@@ -284,21 +283,21 @@ header-includes: |-
   <meta name="citation_author_institution" content="University of California, San Francisco, San Francisco, CA" />
   <meta name="citation_author_orcid" content="0000-0002-3452-5150" />
   <meta name="citation_author" content="Meen Chul Kim" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0002-0308-783X" />
   <meta name="citation_author" content="Jessica Wong" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0003-1508-7631" />
   <meta name="twitter:creator" content="@jessicawongbfx" />
   <meta name="citation_author" content="Shrivats Kannan" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0002-1460-920X" />
   <meta name="twitter:creator" content="@kshrivats" />
   <meta name="citation_author" content="Adam A. Kraya" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0002-8526-5694" />
   <meta name="citation_author" content="Siyuan Zheng" />
@@ -310,12 +309,12 @@ header-includes: |-
   <meta name="citation_author_orcid" content="0000-0003-2223-0029" />
   <meta name="twitter:creator" content="@xiehb" />
   <meta name="citation_author" content="Allison P. Heath" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0002-2583-9668" />
   <meta name="twitter:creator" content="@allig8r" />
   <meta name="citation_author" content="Adam C. Resnick" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0003-0436-4189" />
   <meta name="twitter:creator" content="@adamcresnick" />
@@ -327,7 +326,7 @@ header-includes: |-
   <meta name="citation_author_orcid" content="0000-0001-8713-9213" />
   <meta name="twitter:creator" content="@greenescientist" />
   <meta name="citation_author" content="Jo Lynne Rokita" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0003-2171-3627" />
@@ -344,9 +343,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/dfbab352c59cf4fccc691cc5f0952e9c9dde8465/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/dfbab352c59cf4fccc691cc5f0952e9c9dde8465/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/dfbab352c59cf4fccc691cc5f0952e9c9dde8465/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/2e5970f2b2b07b31945a25075dbf4811679c9797/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/2e5970f2b2b07b31945a25075dbf4811679c9797/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/2e5970f2b2b07b31945a25075dbf4811679c9797/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -368,10 +367,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/dfbab352c59cf4fccc691cc5f0952e9c9dde8465/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/2e5970f2b2b07b31945a25075dbf4811679c9797/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@dfbab35](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/dfbab352c59cf4fccc691cc5f0952e9c9dde8465)
-on August 29, 2022.
+from [AlexsLemonade/OpenPBTA-manuscript@2e5970f](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/2e5970f2b2b07b31945a25075dbf4811679c9797)
+on August 30, 2022.
 </em></small>
 
 ## Authors
@@ -400,7 +399,7 @@ on August 29, 2022.
     · ![Twitter icon](images/twitter.png){.inline_icon}
     [aggokittu](https://twitter.com/aggokittu)<br>
   <small>
-     Center for Data-Driven Discovery, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia; Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia; Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
   </small>
 
 + **Candace L. Savonen**
@@ -453,7 +452,7 @@ on August 29, 2022.
     · ![Twitter icon](images/twitter.png){.inline_icon}
     [runjin](https://twitter.com/runjin)<br>
   <small>
-     Center for Data-Driven Discovery, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
 + **Komal S. Rathi**
@@ -465,7 +464,7 @@ on August 29, 2022.
     · ![Twitter icon](images/twitter.png){.inline_icon}
     [komalsrathi](https://twitter.com/komalsrathi)<br>
   <small>
-     Center for Data-Driven Discovery, Children's Hospital of Philadelphia; Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
   </small>
 
 + **Yuankun Zhu**
@@ -477,7 +476,7 @@ on August 29, 2022.
     · ![Twitter icon](images/twitter.png){.inline_icon}
     [zhuyuankun](https://twitter.com/zhuyuankun)<br>
   <small>
-     Center for Data-Driven Discovery, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
 + **Laura E. Egolf**
@@ -499,7 +498,7 @@ on August 29, 2022.
     · ![GitHub icon](images/github.png){.inline_icon}
     [baileyckelly](https://github.com/baileyckelly)<br>
   <small>
-     Center for Data-Driven Discovery, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
 + **Daniel P. Miller**
@@ -509,7 +508,7 @@ on August 29, 2022.
     · ![GitHub icon](images/github.png){.inline_icon}
     [dmiller15](https://github.com/dmiller15)<br>
   <small>
-     Center for Data-Driven Discovery, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
 + **Yang Yang**
@@ -527,7 +526,7 @@ on August 29, 2022.
     · ![GitHub icon](images/github.png){.inline_icon}
     [tkoganti](https://github.com/tkoganti)<br>
   <small>
-     Center for Data-Driven Discovery, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
 + **Nighat Noureen**
@@ -549,7 +548,7 @@ on August 29, 2022.
     · ![Twitter icon](images/twitter.png){.inline_icon}
     [koptyram](https://twitter.com/koptyram)<br>
   <small>
-     Center for Data-Driven Discovery, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
 + **Nhat Duong**
@@ -581,7 +580,7 @@ on August 29, 2022.
     · ![Twitter icon](images/twitter.png){.inline_icon}
     [migbro](https://twitter.com/migbro)<br>
   <small>
-     Center for Data-Driven Discovery, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
 + **Mariarita Santi**
@@ -597,7 +596,7 @@ on August 29, 2022.
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-7964-2449](https://orcid.org/0000-0002-7964-2449)<br>
   <small>
-     Center for Data-Driven Discovery, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
      · Funded by Alex's Lemonade Stand Foundation (Catalyst); Children’s Hospital of Philadelphia Division of Neurosurgery
   </small>
 
@@ -624,7 +623,7 @@ on August 29, 2022.
     · ![Twitter icon](images/twitter.png){.inline_icon}
     [petermadsenmd](https://twitter.com/petermadsenmd)<br>
   <small>
-     Division of Neurosurgery, Children's Hospital of Philadelphia; Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+     Division of Neurosurgery, Children's Hospital of Philadelphia; Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   </small>
 
 + **Brian M. Ennis**
@@ -634,7 +633,7 @@ on August 29, 2022.
     · ![GitHub icon](images/github.png){.inline_icon}
     [bmennis](https://github.com/bmennis)<br>
   <small>
-     Center for Data-Driven Discovery, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
 + **Douglas R. Stewart**
@@ -662,7 +661,7 @@ on August 29, 2022.
     · ![Twitter icon](images/twitter.png){.inline_icon}
     [YiranGuo3](https://twitter.com/YiranGuo3)<br>
   <small>
-     Center for Data-Driven Discovery, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   </small>
 
 + **Jennifer Mason**
@@ -672,7 +671,7 @@ on August 29, 2022.
     · ![Twitter icon](images/twitter.png){.inline_icon}
     [jenn0307](https://twitter.com/jenn0307)<br>
   <small>
-     Center for Data-Driven Discovery, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
 + **Anna R. Poetsch**
@@ -729,7 +728,7 @@ on August 29, 2022.
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0003-0594-1953](https://orcid.org/0000-0003-0594-1953)<br>
   <small>
-     Center for Data-Driven Discovery, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
 + **Sharon J. Diskin**
@@ -759,7 +758,7 @@ on August 29, 2022.
     · ![Twitter icon](images/twitter.png){.inline_icon}
     [jainpayal022](https://twitter.com/jainpayal022)<br>
   <small>
-     Center for Data-Driven Discovery, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
 + **Jung Kim**
@@ -777,7 +776,7 @@ on August 29, 2022.
     · ![GitHub icon](images/github.png){.inline_icon}
     [HuangXiaoyan0106](https://github.com/HuangXiaoyan0106)<br>
   <small>
-     Center for Data-Driven Discovery, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
 + **Angela N. Viaene**
@@ -795,7 +794,7 @@ on August 29, 2022.
     · ![GitHub icon](images/github.png){.inline_icon}
     [zhangb1](https://github.com/zhangb1)<br>
   <small>
-     Center for Data-Driven Discovery, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
 + **Jena V. Lilly**
@@ -807,7 +806,7 @@ on August 29, 2022.
     · ![Twitter icon](images/twitter.png){.inline_icon}
     [jvlilly](https://twitter.com/jvlilly)<br>
   <small>
-     Center for Data-Driven Discovery, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
 + **Rishi Lulla**
@@ -827,7 +826,7 @@ on August 29, 2022.
     · ![Twitter icon](images/twitter.png){.inline_icon}
     [PichaiRaman](https://twitter.com/PichaiRaman)<br>
   <small>
-     Center for Data-Driven Discovery, Children's Hospital of Philadelphia; Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
   </small>
 
 + **Nicolas Van Kuren**
@@ -837,7 +836,7 @@ on August 29, 2022.
     · ![GitHub icon](images/github.png){.inline_icon}
     [nicholasvk](https://github.com/nicholasvk)<br>
   <small>
-     Center for Data-Driven Discovery, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
 + **Rebecca S. Kaufman**
@@ -871,7 +870,7 @@ on August 29, 2022.
     · ![GitHub icon](images/github.png){.inline_icon}
     [liberaliscomputing](https://github.com/liberaliscomputing)<br>
   <small>
-     Center for Data-Driven Discovery, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
 + **Jessica Wong**
@@ -883,7 +882,7 @@ on August 29, 2022.
     · ![Twitter icon](images/twitter.png){.inline_icon}
     [jessicawongbfx](https://twitter.com/jessicawongbfx)<br>
   <small>
-     Center for Data-Driven Discovery, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
 + **Shrivats Kannan**
@@ -895,7 +894,7 @@ on August 29, 2022.
     · ![Twitter icon](images/twitter.png){.inline_icon}
     [kshrivats](https://twitter.com/kshrivats)<br>
   <small>
-     Center for Data-Driven Discovery, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
 + **Adam A. Kraya**
@@ -905,7 +904,7 @@ on August 29, 2022.
     · ![GitHub icon](images/github.png){.inline_icon}
     [aadamk](https://github.com/aadamk)<br>
   <small>
-     Center for Data-Driven Discovery, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
 + **Siyuan Zheng**
@@ -941,7 +940,7 @@ on August 29, 2022.
     · ![Twitter icon](images/twitter.png){.inline_icon}
     [allig8r](https://twitter.com/allig8r)<br>
   <small>
-     Center for Data-Driven Discovery, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
      · Funded by NIH U2C HL138346-03; NCI/NIH Contract No. 75N91019D00024, Task Order No. 75N91020F00003; Australian Government, Department of Education
   </small>
 
@@ -954,7 +953,7 @@ on August 29, 2022.
     · ![Twitter icon](images/twitter.png){.inline_icon}
     [adamcresnick](https://twitter.com/adamcresnick)<br>
   <small>
-     Center for Data-Driven Discovery, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
      · Funded by Alex's Lemonade Stand Foundation (Catalyst); Children's Brain Tumor Network; NIH 3P30 CA016520-44S5, U2C HL138346-03, U24 CA220457-03; NCI/NIH Contract No. 75N91019D00024, Task Order No. 75N91020F00003; Children’s Hospital of Philadelphia Division of Neurosurgery
   </small>
 
@@ -980,7 +979,7 @@ on August 29, 2022.
     · ![Twitter icon](images/twitter.png){.inline_icon}
     [jolynnerokita](https://twitter.com/jolynnerokita)<br>
   <small>
-     Center for Data-Driven Discovery, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia; Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia; Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
      · Funded by Alex's Lemonade Stand Foundation (Young Investigator, Catalyst); NCI/NIH Contract No. 75N91019D00024, Task Order No. 75N91020F00003
   </small>
 
@@ -1286,7 +1285,7 @@ Tumor types with the highest median _TP53_ scores were those known to harbor som
 
 To further validate the classifier's accuracy, we assessed _TP53_ scores for patients with LFS, hypothesizing that all of these tumors would have high scores.
 Indeed, we observed higher scores in LFS tumors (N = 8) for which we detected high-confidence _TP53_ somatic alterations (**Tables S1 and S3**).
-Although we did not detect canonical somatic _TP53_ mutations in two LFS patient tumors with low _TP53_ scores (BS_DEHJF4C7 with a score of 0.09 and BS_ZD5HN296 with a score of 0.28), we confirmed the LFS diagnoses from pathology reports and noted that patient had a pathogenic germline variant in _TP53_.
+Although we did not detect canonical somatic _TP53_ mutations in two patients whose tumors had low _TP53_ scores (BS_DEHJF4C7 with a score of 0.09 and BS_ZD5HN296 with a score of 0.28), we confirmed from pathology reports these patients were both diagnosed with LFS and had pathogenic germline variants in _TP53_.
 In addition, the tumor purity of these two LFS samples was low (16% and 37%, respectively), suggesting the classifier may require a certain level of tumor purity to achieve good performance, as we expect _TP53_ to be intact in normal cells.
 
 We next used gene expression data to predict telomerase activity using EXpression-based Telomerase ENzymatic activity Detection (`EXTEND`) [@doi:10.1038/s41467-020-20474-9] as a surrogate measure of malignant potential [@doi:10.1038/s41467-020-20474-9; @doi:10.1093/carcin/bgp268], such that higher `EXTEND` scores suggest increase malignant potential.
@@ -1465,7 +1464,7 @@ Finally, we would like to thank Yuanchao Zhang and Eric Wafula for adding to the
 |Brian M. Ennis|Data curation, Formal Analysis|
 |Douglas R. Stewart|Supervision|
 |Mike Prados|Conceptualization|
-|Yiran Guo|Formal Analysis|
+|Yiran Guo|Formal analysis, Writing - Review and editing|
 |Jennifer Mason|Supervision|
 |Anna R. Poetsch|Formal Analysis|
 |Cassie N. Kline|Supervision|

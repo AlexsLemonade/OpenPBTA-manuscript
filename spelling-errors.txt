@@ -16,6 +16,7 @@ baileyckelly
 Bala
 bcps
 Bethell
+Biomedicine
 bmennis
 BPDY
 BXG
@@ -26,7 +27,7 @@ cgreene
 Chante
 CHB
 CHCl
-chr
+Chr
 Chul
 cjbethell
 CLDN
@@ -112,7 +113,7 @@ orf
 PDGFRA
 petermadsenmd
 PHG
-PichaiRaman
+pichairaman
 PIK
 Poetsch
 QAH

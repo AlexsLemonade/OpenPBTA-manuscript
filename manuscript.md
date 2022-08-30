@@ -64,6 +64,7 @@ author-meta:
 - Allison P. Heath
 - Ashley S. Margol
 - Stephen C. Mack
+- Kristina A. Cole
 - Adam C. Resnick
 - Casey S. Greene
 - Jo Lynne Rokita
@@ -322,6 +323,11 @@ header-includes: |-
   <meta name="citation_author" content="Stephen C. Mack" />
   <meta name="citation_author_institution" content="Department of Developmental Neurobiology, St. Jude Children’s Research Hospital" />
   <meta name="citation_author_orcid" content="0000-0001-9620-4742" />
+  <meta name="citation_author" content="Kristina A. Cole" />
+  <meta name="citation_author_institution" content="Division of Oncology, Children’s Hospital of Philadelphia, Philadelphia, PA" />
+  <meta name="citation_author_institution" content="Department of Pediatrics, University of Pennsylvania, Philadelphia, PA" />
+  <meta name="citation_author_institution" content="Abramson Family Cancer Research Institute, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, PA" />
+  <meta name="citation_author_orcid" content="0000-0003-0064-2882" />
   <meta name="citation_author" content="Adam C. Resnick" />
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
@@ -352,9 +358,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1049c985c68b6514fa953fe8f5c1d7f09a89b829/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1049c985c68b6514fa953fe8f5c1d7f09a89b829/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1049c985c68b6514fa953fe8f5c1d7f09a89b829/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/00b7489425c74b64c7ebea825c131166503b0acb/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/00b7489425c74b64c7ebea825c131166503b0acb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/00b7489425c74b64c7ebea825c131166503b0acb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -376,9 +382,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1049c985c68b6514fa953fe8f5c1d7f09a89b829/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/00b7489425c74b64c7ebea825c131166503b0acb/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@1049c98](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/1049c985c68b6514fa953fe8f5c1d7f09a89b829)
+from [AlexsLemonade/OpenPBTA-manuscript@00b7489](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/00b7489425c74b64c7ebea825c131166503b0acb)
 on August 30, 2022.
 </em></small>
 
@@ -969,6 +975,14 @@ on August 30, 2022.
      Department of Developmental Neurobiology, St. Jude Children’s Research Hospital
   </small>
 
++ **Kristina A. Cole**
+  <br>
+    ![ORCID icon](images/orcid.png){.inline_icon}
+    [0000-0003-0064-2882](https://orcid.org/0000-0003-0064-2882)<br>
+  <small>
+     Division of Oncology, Children’s Hospital of Philadelphia, Philadelphia, PA; Department of Pediatrics, University of Pennsylvania, Philadelphia, PA; Abramson Family Cancer Research Institute, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, PA
+  </small>
+
 + **Adam C. Resnick**
   <br>
     ![ORCID icon](images/orcid.png){.inline_icon}
@@ -1062,26 +1076,23 @@ OpenPBTA will accelerate therapeutic translation of genomic insights
 
 
 ## Summary
-<!-- The summary is a single paragraph no longer than 150 words. An effective summary includes the following elements: (1) a brief background of the question that avoids statements about how a process is not well understood; (2) a description of the results and approaches/model systems framed in the context of their conceptual interest; and (3) an indication of the broader significance of the work. We discourage novelty claims (e.g., use of the word “novel”) because they are overused, tend not to add meaning, and are difficult to verify. Please do not include references in the summary. CURRENT WORD COUNT 146 -->
-As pediatric brain and spinal cord tumors are the leading disease-related cause of death in children, we urgently need novel, curative therapeutic strategies for these tumors.
-To accelerate such discoveries, the Children's Brain Tumor Network and Pacific Pediatric Neuro-Oncology Consortium created a systematic process for tumor biobanking, model generation, and sequencing while providing immediate access to harmonized data.
-Here, we leverage these data to create OpenPBTA, an open and collaborative project to genomically characterize and molecularly subtype pediatric brain tumor specimens in what is, to our knowledge, the largest cohort of such samples to date.
-OpenPBTA establishes over 40 scalable analysis modules to analyze these data and recapitulate key oncogenic drivers across histologies.
-OpenPBTA has already emerged as a foundational analysis platform actively being applied to study other pediatric cancers and inform molecular tumor board decision-making, making it an invaluable resource to the pediatric oncology community.
-
+<!-- The summary is a single paragraph no longer than 150 words. An effective summary includes the following elements: (1) a brief background of the question that avoids statements about how a process is not well understood; (2) a description of the results and approaches/model systems framed in the context of their conceptual interest; and (3) an indication of the broader significance of the work. We discourage novelty claims (e.g., use of the word “novel”) because they are overused, tend not to add meaning, and are difficult to verify. Please do not include references in the summary. CURRENT WORD COUNT 148 -->
+Pediatric brain and spinal cancer are the leading disease-related cause of death in children, thus we urgently need curative therapeutic strategies for these tumors.
+To accelerate such discoveries, the Children's Brain Tumor Network and Pacific Pediatric Neuro-Oncology Consortium created a systematic process for tumor biobanking, model generation, and sequencing with immediate access to harmonized data.
+We leverage these data to create OpenPBTA, an open collaborative project which establishes over 40 scalable analysis modules to genomically characterize 1,043 pediatric brain tumors.
+Transcriptomic classification reveals that _TP53_ loss is a significant marker for poor overall survival in ependymomas and H3 K28-altered diffuse midline gliomas and further identifies universal _TP53_ dysregulation in mismatch repair-deficient hypermutant high-grade gliomas. 
+OpenPBTA is a foundational analysis platform actively being applied to other pediatric cancers and inform molecular tumor board decision-making, making it an invaluable resource to the pediatric oncology community.
 
 ## Keywords
 <!-- We encourage you to include up to ten keywords with your paper. These keywords will be associated with your paper on Cell Press platforms and on PubMed. These keywords should be listed in the manuscript after the summary, separated by commas. -->
 pediatric brain tumors, somatic variation, open science, reproducibility, classification  
 
 
-
-
 ## Introduction
 
 Pediatric brain and spinal cord tumors are collectively the second most common malignancy in children after leukemia, and they represent the leading disease-related cause of death in children [@doi:10.1093/neuonc/noz150].
 Five-year survival rates vary widely across different histologic and molecular classifications of brain tumors.
-For example, most high-grade gliomas and embryonal tumors carry a universally fatal prognosis, while children with pilocytic astrocytoma have an estimated 10-year survival rate of 92% [@doi:10.1093/neuonc/now207].
+For example, most high-grade gliomas carry a universally fatal prognosis, while children with pilocytic astrocytoma have an estimated 10-year survival rate of 92% [@doi:10.1093/neuonc/now207].
 Moreover, estimates from 2009 suggest that children and adolescents aged 0-19 with brain tumors in the United States have lost an average of 47,631 years of potential life [@doi:10.1002/cam4.410].
 
 The low survival rates for some pediatric tumors are clearly multifactorial, explained partly by our lack of comprehensive understanding of the ever-evolving array of brain tumor molecular subtypes, difficulty drugging these tumors, and the shortage of drugs specifically labeled for pediatric malignancies.
@@ -1099,7 +1110,6 @@ Within the last 20 years, the FDA has approved only five drugs for the treatment
 This is, in part, due to pharmaceutical company priorities and concerns regarding toxicity, making it challenging for researchers to obtain to new therapeutic agents for pediatric clinical trials.
 Critically, as of August 18, 2020, an amendment to the Pediatric Research Equity Act called the "Research to Accelerate Cures and Equity (RACE) for Children Act" mandates that all new adult oncology drugs also be tested in children when the molecular targets are relevant to a particular childhood cancer.
 The regulatory change introduced by the RACE Act, coupled with the identification of putative molecular targets in pediatric cancers through genomic characterization, is poised to accelerate identification of novel and effective therapeutic for pediatric diseases that have otherwise been overlooked.
-
 
 To leverage diverse scientific and analytical expertise to analyze the PBTA data, we created an open science model and incorporated features, such as analytical code review [@doi:10.1093/aje/kwab092; @doi:10.7287/peerj.preprints.3210v1] and continuous integration to test data and code [@doi:10.1038/nbt.3780; @doi:10.7287/peerj.preprints.3210v1], to improve reproducibility throughout the life cycle of our project, termed OpenPBTA.
 We anticipated that a model of open collaboration would enhance the value of our effort to the pediatric brain tumor research community.
@@ -1342,15 +1352,15 @@ The mutual exclusivity of signatures 3 and MMR2 corroborates a previous report s
 
 | Kids First Participant ID | Kids First Biospecimen ID | CBTN ID   | Phase of therapy  | Composition       | Therapy post-biopsy                              | Cancer predisposition | Pathogenic germline variant                   | TMB   | OpenPBTA molecular subtype         |
 |---------------------------|---------------------------|-----------|-------------------|-------------------|--------------------------------------------------|-----------------------|-----------------------------------------------|-------|------------------------------------|
-| PT_0SPKM4S8               | BS_VW4XN9Y7               | 7316-2640 | Initial CNS Tumor | Solid Tissue      | Temozolomide, CCNU, Radiation                    | None documented       | NM_000535.7(PMS2):c.137G>T (p.Ser46Ile) (LP)  | 187.4 | HGG, H3 wildtype, TP53 activated   |
-| PT_3CHB9PK5               | BS_20TBZG09               | 7316-515  | Initial CNS Tumor | Solid Tissue      | Temozolomide, Irinotecan, Bevacizumab, Radiation | CMMRD                 | NM_000179.3(MSH6):c.3439-2A>G (LP)            | 307   | HGG, H3 wildtype, TP53 loss        |
-| PT_3CHB9PK5               | BS_8AY2GM4G               | 7316-2085 | Progressive       | Solid Tissue      | Unknown                                          | CMMRD                 | NM_000179.3(MSH6):c.3439-2A>G (LP)            | 321.6 | HGG, H3 wildtype, TP53 loss        |
-| PT_EB0D3BXG               | BS_F0GNWEJJ               | 7316-3311 | Progressive       | Solid Tissue      | Nivolumab, Radiation                             | None documented       | None detected                                 | 26.3  | Metastatic NBL, MYCN non-amplified |
-| PT_JNEV57VK               | BS_85Q5P8GF               | 7316-2594 | Initial CNS Tumor | Solid Tissue      | Temozolomide, Radiation                          | Lynch Syndrome        | NM_000251.3(MSH2):c.1906G>C (p.Ala636Pro) (P) | 4.7   | DMG, H3 K28, TP53 loss             |
-| PT_JNEV57VK               | BS_HM5GFJN8               | 7316-3058 | Progressive       | Derived Cell Line | Nivolumab                                        | Lynch Syndrome        | NM_000251.3(MSH2):c.1906G>C (p.Ala636Pro) (P) | 35.9  | DMG, H3 K28, TP53 loss             |
-| PT_JNEV57VK               | BS_QWM9BPDY               | 7316-3058 | Progressive       | Derived Cell Line | Nivolumab                                        | Lynch Syndrome        | NM_000251.3(MSH2):c.1906G>C (p.Ala636Pro) (P) | 7.4   | DMG, H3 K28, TP53 loss             |
-| PT_JNEV57VK               | BS_P0QJ1QAH               | 7316-3058 | Progressive       | Solid Tissue      | Nivolumab                                        | Lynch Syndrome        | NM_000251.3(MSH2):c.1906G>C (p.Ala636Pro) (P) | 6.3   | DMG, H3 K28, TP53 activated        |
-| PT_S0Q27J13               | BS_P3PF53V8               | 7316-2307 | Initial CNS Tumor | Solid Tissue      | Temozolomide, Irinotecan, Radiation              | None documented       | None detected                                 | 15.5  | HGG, H3 wildtype, TP53 activated   |
+| PT_0SPKM4S8               | BS_VW4XN9Y7               | 7316-2640 | Initial CNS Tumor | Solid Tissue      | Radiation, Temozolomide, CCNU                    | None documented       | NM_000535.7(PMS2):c.137G>T (p.Ser46Ile) (LP)  | 187.4 | HGG, H3 wildtype, TP53 activated   |
+| PT_3CHB9PK5               | BS_20TBZG09               | 7316-515  | Initial CNS Tumor | Solid Tissue      | Radiation, Temozolomide, Irinotecan, Bevacizumab | CMMRD                 | NM_000179.3(MSH6):c.3439-2A>G (LP)            | 307   | HGG, H3 wildtype, TP53 loss        |
+| PT_3CHB9PK5               | BS_8AY2GM4G               | 7316-2085 | Progressive       | Solid Tissue      | Radiation, Temozolomide, Irinotecan, Bevacizumab | CMMRD                 | NM_000179.3(MSH6):c.3439-2A>G (LP)            | 321.6 | HGG, H3 wildtype, TP53 loss        |
+| PT_EB0D3BXG               | BS_F0GNWEJJ               | 7316-3311 | Progressive       | Solid Tissue      | Radiation, Nivolumab                             | None documented       | None detected                                 | 26.3  | Metastatic NBL, MYCN non-amplified |
+| PT_JNEV57VK               | BS_85Q5P8GF               | 7316-2594 | Initial CNS Tumor | Solid Tissue      | Radiation, Temozolomide                          | Lynch Syndrome        | NM_000251.3(MSH2):c.1906G>C (p.Ala636Pro) (P) | 4.7   | DMG, H3 K28, TP53 loss             |
+| PT_JNEV57VK               | BS_HM5GFJN8               | 7316-3058 | Progressive       | Derived Cell Line | Radiation, Temozolomide, Nivolumab               | Lynch Syndrome        | NM_000251.3(MSH2):c.1906G>C (p.Ala636Pro) (P) | 35.9  | DMG, H3 K28, TP53 loss             |
+| PT_JNEV57VK               | BS_QWM9BPDY               | 7316-3058 | Progressive       | Derived Cell Line | Radiation, Temozolomide, Nivolumab               | Lynch Syndrome        | NM_000251.3(MSH2):c.1906G>C (p.Ala636Pro) (P) | 7.4   | DMG, H3 K28, TP53 loss             |
+| PT_JNEV57VK               | BS_P0QJ1QAH               | 7316-3058 | Progressive       | Solid Tissue      | Radiation, Temozolomide, Nivolumab               | Lynch Syndrome        | NM_000251.3(MSH2):c.1906G>C (p.Ala636Pro) (P) | 6.3   | DMG, H3 K28, TP53 activated        |
+| PT_S0Q27J13               | BS_P3PF53V8               | 7316-2307 | Initial CNS Tumor | Solid Tissue      | Radiation, Temozolomide, Irinotecan              | None documented       | None detected                                 | 15.5  | HGG, H3 wildtype, TP53 activated   |
 | PT_VTM2STE3               | BS_ERFMPQN3               | 7316-2189 | Progressive       | Derived Cell Line | Unknown                                          | Lynch Syndrome        | None detected                                 | 5.7   | HGG, H3 wildtype, TP53 loss        |
 | PT_VTM2STE3               | BS_02YBZSBY               | 7316-2189 | Progressive       | Solid Tissue      | Unknown                                          | Lynch Syndrome        | None detected                                 | 274.5 | HGG, H3 wildtype, TP53 activated   |
 
@@ -1457,7 +1467,7 @@ Additionally, this work was supported by the Intramural Research Program of the 
 The content of this publication does not necessarily reflect the views or policies of the Department of Health and Human Services, nor does mention of trade names, commercial products or organizations imply endorsement by the U.S. Government.
 
 The authors would like to thank the following collaborators who contributed or supervised analyses present in the analysis repository that were not included in the manuscript: William Amadio, Holly C. Beale, Ellen T. Kephart, A. Geoffrey Lyle, and Olena M. Vaske.
-Finally, we would like to thank Yuanchao Zhang and Eric Wafula for adding to the project codebase and Jessica B. Foster and Kristina A. Cole for helpful discussions while drafting the manuscript.
+Finally, we would like to thank Yuanchao Zhang and Eric Wafula for adding to the project codebase and Jessica B. Foster for helpful discussions while drafting the manuscript.
 
 ## Author Contributions
 
@@ -1520,6 +1530,7 @@ Finally, we would like to thank Yuanchao Zhang and Eric Wafula for adding to the
 |Allison P. Heath|Project administration|
 |Ashley S. Margol|Writing - Review and editing|
 |Stephen C. Mack|Writing - Review and editing|
+|Kristina A. Cole|Writing - Review and editing|
 |Adam C. Resnick|Conceptualization, Funding acquisition, Resources, Supervision|
 |Casey S. Greene|Conceptualization, Funding acquisition, Methodology, Project administration, Software, Supervision, Writing – review & editing|
 |Jo Lynne Rokita|Conceptualization, Data curation, Formal Analysis, Funding acquisition, Investigation, Methodology, Software, Supervision, Writing – original draft, Writing - Review and editing|

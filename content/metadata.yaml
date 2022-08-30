@@ -38,7 +38,7 @@ authors:
   - Software
   - Writing – original draft
   affiliations:
-  - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
   - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
 - github: cansavvy
@@ -106,7 +106,7 @@ authors:
   - Visualization
   - Writing – original draft
   affiliations:
-  - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
 - github: komalsrathi
   name: Komal S. Rathi
@@ -120,7 +120,7 @@ authors:
   - Methodology
   - Writing – original draft
   affiliations:
-  - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
 - github: yuankunzhu
   name: Yuankun Zhu
@@ -135,7 +135,7 @@ authors:
   - Methodology
   - Supervision
   affiliations:
-  - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
 - github: LauraEgolf
   name: Laura E. Egolf
@@ -159,7 +159,7 @@ authors:
   - Data curation
   - Software
   affiliations:
-  - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
 - github: dmiller15
   name: Daniel P. Miller
@@ -168,7 +168,7 @@ authors:
   email: millerd15@chop.edu
   contributions: Formal Analysis
   affiliations:
-  - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
 - github: yangyangclover
   name: Yang Yang
@@ -188,7 +188,7 @@ authors:
   - Formal Analysis
   - Investigation
   affiliations:
-  - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
 - github: NNoureen
   name: Nighat Noureen
@@ -210,7 +210,7 @@ authors:
   - Formal Analysis
   - Writing – original draft
   affiliations:
-  - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
 - github: fingerfen
   name: Nhat Duong
@@ -242,7 +242,7 @@ authors:
   - Data curation
   - Methodology
   affiliations:
-  - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
 - name: Mariarita Santi
   initials: MS
@@ -264,7 +264,7 @@ authors:
   - Funding acquisition
   - Resources
   affiliations:
-  - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
   funders:
   - Alex's Lemonade Stand Foundation (Catalyst)
@@ -294,7 +294,7 @@ authors:
   contributions: Writing – review & editing
   affiliations:
   - Division of Neurosurgery, Children's Hospital of Philadelphia
-  - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
 - github: bmennis
   name: Brian M. Ennis
   initials: BME
@@ -304,7 +304,7 @@ authors:
   - Data curation
   - Formal Analysis
   affiliations:
-  - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
 - name: Douglas R. Stewart
   initials: DRS
@@ -326,10 +326,11 @@ authors:
   orcid: 0000-0002-6549-8589
   twitter: YiranGuo3
   email: guoy@chop.edu
-  contributions: Formal Analysis
+  contributions:
+  - Formal analysis
+  - Writing - Review and editing
   affiliations:
-  - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
-  - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
 - github: jenn0307
   name: Jennifer Mason
   initials: JM
@@ -337,7 +338,7 @@ authors:
   email: masonjl@chop.edu
   contributions: Supervision
   affiliations:
-  - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
 - github: arpoe
   name: Anna R. Poetsch
@@ -391,7 +392,7 @@ authors:
   orcid: 0000-0003-0594-1953
   contributions: Data curation
   affiliations:
-  - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
 - github: sdiskin
   name: Sharon J. Diskin
@@ -425,7 +426,7 @@ authors:
   - Investigation
   - Validation
   affiliations:
-  - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
 - name: Jung Kim
   initials: JK
@@ -441,7 +442,7 @@ authors:
   email: huangx@chop.edu
   contributions: Formal Analysis
   affiliations:
-  - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
 - name: Angela N. Viaene
   initials: ANV
@@ -463,7 +464,7 @@ authors:
   - Data curation
   - Formal Analysis
   affiliations:
-  - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
 - github: jvlilly
   name: Jena V. Lilly
@@ -476,7 +477,7 @@ authors:
   - Funding acquisition
   - Project administration
   affiliations:
-  - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
 - name: Rishi Lulla
   initials: RL
@@ -498,7 +499,7 @@ authors:
   - Formal Analysis
   - Methodology
   affiliations:
-  - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
 - github: nicholasvk
   name: Nicolas Van Kuren
@@ -509,7 +510,7 @@ authors:
   - Data curation
   - Software
   affiliations:
-  - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
 - github: rebkau
   name: Rebecca S. Kaufman
@@ -544,7 +545,7 @@ authors:
   email: KIMM11@chop.edu
   contributions: Data curation
   affiliations:
-  - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
 - github: wongjessica93
   name: Jessica Wong
@@ -554,7 +555,7 @@ authors:
   email: jessicawong.bfx@gmail.com
   contributions: Writing – original draft
   affiliations:
-  - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
 - github: shrivatsk
   name: Shrivats Kannan
@@ -567,7 +568,7 @@ authors:
   - Methodology
   - Writing – original draft
   affiliations:
-  - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
 - github: aadamk
   name: Adam A. Kraya
@@ -576,7 +577,7 @@ authors:
   email: krayaa@chop.edu
   contributions: Methodology
   affiliations:
-  - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
 - github: syzheng
   name: Siyuan Zheng
@@ -609,7 +610,7 @@ authors:
   email: heathap@chop.edu
   contributions: Project administration
   affiliations:
-  - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
   funders:
   - NIH U2C HL138346-03
@@ -627,7 +628,7 @@ authors:
   - Resources
   - Supervision
   affiliations:
-  - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
   funders:
   - Alex's Lemonade Stand Foundation (Catalyst)
@@ -676,7 +677,7 @@ authors:
   - Supervision
   - Writing – original draft
   affiliations:
-  - Center for Data-Driven Discovery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
   - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
   funders:

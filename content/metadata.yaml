@@ -21,6 +21,7 @@ authors:
   - Writing - Review and editing
   - Visualization
   - Supervision
+  - Funding acquisition
   affiliations: Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala
     Cynwyd, PA, USA
   funders: Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
@@ -57,6 +58,7 @@ authors:
   - Writing - Original draft
   - Writing - Review and editing
   - Visualization
+  - Funding acquisition
   affiliations:
   - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA,
     USA
@@ -74,11 +76,12 @@ authors:
   - Writing - Review and editing
   - Visualization
   - Supervision
+  - Funding acquisition
   affiliations:
   - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA,
-    USA<sup>☯</sup>
+    USA<sup>+</sup>
   - Rowan University, Glassboro, NJ, USA
-  symbol_str: ☯
+  symbol_str: +
   funders: Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
 - github: cbethell
   name: Chante J. Bethell
@@ -93,6 +96,7 @@ authors:
   - Investigation
   - Writing - Original draft
   - Visualization
+  - Funding acquisition
   affiliations: Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala
     Cynwyd, PA, USA
   funders: Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
@@ -318,8 +322,7 @@ authors:
   contributions:
   - Supervision
   - Writing - Review and editing
-  affiliations: Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics,
-    National Cancer Institute
+  affiliations: Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics, National Cancer Institute
 - name: Mike Prados
   initials: MP
   orcid: 0000-0002-9630-2075
@@ -394,7 +397,9 @@ authors:
   initials: SMF
   email: steven.foltz@pennmedicine.upenn.edu
   orcid: 0000-0002-9526-8194
-  contributions: Validation
+  contributions:
+  - Validation
+  - Funding acquisition
   affiliations:
   - Department of Systems Pharmacology and Translational Therapeutics, University
     of Pennsylvania
@@ -628,7 +633,9 @@ authors:
   orcid: 0000-0002-2583-9668
   twitter: allig8r
   email: heathap@chop.edu
-  contributions: Project administration
+  contributions:
+  - Project administration
+  - Funding acquisition
   affiliations:
   - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -749,6 +756,7 @@ authors:
   - Visualization
   - Supervision
   - Project administration
+  - Funding acquisition
 - name: Children's Brain Tumor Network
   contributions: Conceptualization
 - name: Pacific Pediatric Neuro-Oncology Consortium

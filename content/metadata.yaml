@@ -1,4 +1,4 @@
-title: An Open Pediatric Brain Tumor Atlas
+title: "OpenPBTA: An Open Pediatric Brain Tumor Atlas"
 keywords:
 - pediatric cancer
 - brain tumor
@@ -37,6 +37,7 @@ authors:
   - Methodology
   - Software
   - Writing – original draft
+  - Writing - Review and editing
   affiliations:
   - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -54,6 +55,7 @@ authors:
   - Formal analysis
   - Investigation
   - Writing - Original draft
+  - Writing - Review and editing
   - Visualization
   affiliations:
   - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA,
@@ -105,6 +107,7 @@ authors:
   - Formal Analysis
   - Visualization
   - Writing – original draft
+  - Writing - Review and editing
   affiliations:
   - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -241,6 +244,7 @@ authors:
   contributions:
   - Data curation
   - Methodology
+  - Formal Analysis
   affiliations:
   - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -251,6 +255,7 @@ authors:
   contributions:
   - Investigation
   - Validation
+  - Writing - Review and editing
   affiliations:
   - Department of Pathology and Laboratory Medicine, Children’s Hospital of Philadelphia
   - Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman
@@ -310,7 +315,9 @@ authors:
   initials: DRS
   orcid: 0000-0001-8193-1488
   email: drstewart@mail.nih.gov
-  contributions: Supervision
+  contributions:
+  - Supervision
+  - Writing - Review and editing
   affiliations: Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics,
     National Cancer Institute
 - name: Mike Prados
@@ -346,16 +353,24 @@ authors:
   orcid: 0000-0003-3056-4360
   twitter: APoetsch
   email: arpoetsch@gmail.com
-  contributions: Formal Analysis
+  contributions:
+  - Formal Analysis
+  - Funding acquisition
+  - Writing – Review and editing
   affiliations:
   - Biotechnology Center, Technical University Dresden, Germany
   - National Center for Tumor Diseases, Dresden, Germany
+  funders:
+  - The St. Anna Kinderkrebsforschung, Austria
+  - The Mildred Scheel Early Career Center  Dresden P2, funded by the German Cancer Aid
 - name: Cassie N. Kline
   initials: CNK
   orcid: 0000-0001-7765-7690
   email: klinec@chop.edu
   twitter: cnkline13
-  contributions: Supervision
+  contributions:
+  - Supervision
+  - Investigation
   affiliations: Division of Oncology, Children's Hospital of Philadelphia
 - name: Laura Scolaro
   initials: LS
@@ -367,7 +382,9 @@ authors:
   initials: AJW
   orcid: 0000-0002-0571-2889
   email: awaanders@luriechildrens.org
-  contributions: Supervison
+  contributions:
+  - Supervision
+  - Conceptualization
   affiliations:
   - Division of Hematology, Oncology, Neuro-Oncology, and Stem Cell Transplant, Ann
     & Robert H Lurie Children’s Hospital of Chicago
@@ -432,7 +449,9 @@ authors:
   initials: JK
   orcid: 0000-0001-6274-2841
   email: jung.kim2@nih.gov
-  contributions: Investigation
+  contributions:
+  - Investigation
+  - Writing - Review and editing
   affiliations: Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics,
     National Cancer Institute
 - github: HuangXiaoyan0106
@@ -590,6 +609,7 @@ authors:
   - Visualization
   - Writing - Original draft
   - Supervision
+  - Writing - Review and editing
   affiliations: Greehey Children's Cancer Research Institute, UT Health San Antonio
 - github: xiehongbo
   name: Hongbo M. Xie
@@ -616,6 +636,30 @@ authors:
   - NIH U2C HL138346-03
   - NCI/NIH Contract No. 75N91019D00024, Task Order No. 75N91020F00003
   - Australian Government, Department of Education
+- name: Ashley S. Margol
+  initials: ASM
+  orcid: 0000-0002-3038-8005
+  email: amargol@chla.usc.edu
+  contributions: Writing - Review and editing
+  affiliations:
+  - Division of Hematology and Oncology, Children’s Hospital Los Angeles
+  - Department of Pediatrics, Keck School of Medicine of University of Southern California
+- name: Stephen C. Mack
+  initials: SCM
+  orcid: 0000-0001-9620-4742
+  email: stephen.mack@stjude.org
+  contributions: Writing - Review and editing
+  affiliations:
+  - Department of Developmental Neurobiology, St. Jude Children’s Research Hospital
+- name: Kristina A. Cole
+  initials: KAC
+  orcid: 0000-0003-0064-2882
+  email: colek@chop.edu
+  contributions: Writing - Review and editing
+  affiliations:
+  - Division of Oncology, Children’s Hospital of Philadelphia, Philadelphia, PA
+  - Department of Pediatrics, University of Pennsylvania, Philadelphia, PA
+  - Abramson Family Cancer Research Institute, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, PA
 - github: adamcresnick
   name: Adam C. Resnick
   initials: ACR
@@ -676,6 +720,7 @@ authors:
   - Software
   - Supervision
   - Writing – original draft
+  - Writing - Review and editing
   affiliations:
   - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia

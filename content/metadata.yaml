@@ -353,10 +353,16 @@ authors:
   orcid: 0000-0003-3056-4360
   twitter: APoetsch
   email: arpoetsch@gmail.com
-  contributions: Formal Analysis
+  contributions:
+  - Formal Analysis
+  - Funding acquisition
+  - Writing – Review and editing
   affiliations:
   - Biotechnology Center, Technical University Dresden, Germany
   - National Center for Tumor Diseases, Dresden, Germany
+  funders:
+  - The St. Anna Kinderkrebsforschung, Austria
+  - The Mildred Scheel Early Career Center  Dresden P2, funded by the German Cancer Aid
 - name: Cassie N. Kline
   initials: CNK
   orcid: 0000-0001-7765-7690

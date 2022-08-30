@@ -98,6 +98,7 @@ Madsen
 MAML
 Meen
 MEK
+MGMT
 migbro
 mkoptyra
 MLH
@@ -115,7 +116,7 @@ orf
 PDGFRA
 petermadsenmd
 PHG
-pichairaman
+PichaiRaman
 PIK
 Poetsch
 QAH

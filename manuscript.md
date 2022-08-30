@@ -358,9 +358,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/7f7d28ffe6173ce6806a1f1a1a78629456c0a0a6/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/7f7d28ffe6173ce6806a1f1a1a78629456c0a0a6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/7f7d28ffe6173ce6806a1f1a1a78629456c0a0a6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/d13886851c73dd3c01ee4405b0652b233199a482/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/d13886851c73dd3c01ee4405b0652b233199a482/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/d13886851c73dd3c01ee4405b0652b233199a482/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -382,9 +382,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/7f7d28ffe6173ce6806a1f1a1a78629456c0a0a6/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/d13886851c73dd3c01ee4405b0652b233199a482/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@7f7d28f](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/7f7d28ffe6173ce6806a1f1a1a78629456c0a0a6)
+from [AlexsLemonade/OpenPBTA-manuscript@d138868](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/d13886851c73dd3c01ee4405b0652b233199a482)
 on August 30, 2022.
 </em></small>
 
@@ -699,6 +699,7 @@ on August 30, 2022.
     [APoetsch](https://twitter.com/APoetsch)<br>
   <small>
      Biotechnology Center, Technical University Dresden, Germany; National Center for Tumor Diseases, Dresden, Germany
+     · Funded by The St. Anna Kinderkrebsforschung, Austria; The Mildred Scheel Early Career Center  Dresden P2, funded by the German Cancer Aid
   </small>
 
 + **Cassie N. Kline**
@@ -1238,8 +1239,9 @@ Table: **Molecular subtypes generated through the OpenPBTA project.** Listed are
 
 ### Somatic Mutational Landscape of Pediatric Brain Tumors
 
-We performed a comprehensive genomic analysis of somatic SNVs, CNVs, SVs, and fusions across 1,043 tumors (N = 1,019 RNA-Seq, N = 918 WGS, N = 32 WXS/Panel) and 22 cell lines (N = 16 RNA-Seq, N = 22 WGS), from 943 patients, 833 with paired normal specimens (N = 801 WGS, N = 32 WXS/Panel).  <!--SAMPLECOUNT-->
-Following SNV consensus calling (**Figure {@fig:S1}** and **Figure {@fig:S2}A-G**), we observed lower expected tumor mutation burden (TMB) **Figure {@fig:S2}H** in pediatric tumors compared to adult brain tumors from The Cancer Genome Atlas (TCGA), **Figure {@fig:S2}I**, with hypermutant (> 10 Mut/Mb) and ultra-hypermutant (> 100 Mut/Mb) tumors [@pmid:29056344] only found within HGGs. **Figure {@fig:Fig2}** and **Figure {@fig:S3}A** depict oncoprints of histology-specific driver genes across PBTA histologies.
+We performed a comprehensive genomic analysis of somatic SNVs, CNVs, SVs, and fusions across 1,043 tumors (N = 1,019 RNA-Seq, N = 918 WGS, N = 32 WXS/Panel) and 22 cell lines (N = 16 RNA-Seq, N = 22 WGS), from 943 patients, 833 with paired normal specimens (N = 801 WGS, N = 32 WXS/Panel).
+<!--SAMPLECOUNT-->
+Following SNV consensus calling (**Figure {@fig:S1}** and **Figure {@fig:S2}A-G**), we observed as expected lower tumor mutation burden (TMB) **Figure {@fig:S2}H** in pediatric tumors compared to adult brain tumors from The Cancer Genome Atlas (TCGA), **Figure {@fig:S2}I**, with hypermutant (> 10 Mut/Mb) and ultra-hypermutant (> 100 Mut/Mb) tumors [@pmid:29056344] only found within HGGs. **Figure {@fig:Fig2}** and **Figure {@fig:S3}A** depict oncoprints of histology-specific driver genes across PBTA histologies.
 
 <!-- TODO: Update group-specific count numbers below with figure update -->
 #### Low-grade gliomas
@@ -1300,7 +1302,7 @@ This trend may have resulted from therapy-induced mutations that produced additi
 
 <!-- To do: possibly explore gene mutations driving signature 8, specifically for meningiomas, and describe -->
 
-![**Mutational co-occurrence and signatures highlight key oncogenic drivers.** A, Bar plot of occurrence and co-occurrence of nonsynonymous mutations for the 50 most commonly mutated genes across all tumor types, which are denoted as "Other" when there are fewer than 10 samples per grouping; B, Co-occurrence and mutual exclusivity of nonsynonymous mutations between genes; The co-occurrence score is defined as $I(-\log_{10}(P))$ where $P$ is defined by Fisher's exact test and $I$ is 1 when mutations co-occur more often than expected and -1 when exclusivity is more common; C, The number of SV breaks significantly correlate with CNV breaks (Adjusted R = 0.436, p = 1.08e-37). D, Chromothripsis frequency across pediatric brain tumors for all cancer groups with N >= 3 samples. E, Sina plots of RefSig signature weights for signatures 1, 3, 8, 11, 18, 19, N6, MMR2, and Other across cancer groups. Box plot lines represent the first quartile, median, and third quartile.](https://raw.githubusercontent.com/AlexsLemonade/OpenPBTA-analysis/82966bc74343a641975f19ab5790567dc49e7bdb/figures/pngs/figure3.png?sanitize=true){#fig:Fig3 width="7in"}
+![**Mutational co-occurrence and signatures highlight key oncogenic drivers.** A, Bar plot of occurrence and co-occurrence of nonsynonymous mutations for the 50 most commonly mutated genes across all tumor types, which are denoted as "Other" when there are fewer than 10 samples per grouping; B, Co-occurrence and mutual exclusivity of nonsynonymous mutations between genes; The co-occurrence score is defined as $I(-\log_{10}(P))$ where $P$ is defined by Fisher's exact test and $I$ is 1 when mutations co-occur more often than expected and -1 when exclusivity is more common; C, The number of SV breaks significantly correlate with CNV breaks (Adjusted R = 0.436, p = 1.08e-37). D, Chromothripsis frequency across pediatric brain tumors for all cancer groups with N >= 3 samples. E, Sina plots of RefSig signature weights for signatures 1, 11, 18, 19, 3, 8, N6, MMR2, and Other across cancer groups. Box plot lines represent the first quartile, median, and third quartile.](https://raw.githubusercontent.com/AlexsLemonade/OpenPBTA-analysis/82966bc74343a641975f19ab5790567dc49e7bdb/figures/pngs/figure3.png?sanitize=true){#fig:Fig3 width="7in"}
 
 ### Transcriptomic Landscape of Pediatric Brain Tumors
 
@@ -1334,7 +1336,7 @@ These findings support previous reports of a more aggressive phenotype in tumors
 
 We further investigated the mutational signature profiles of the hypermutant (TMB > 10 Mut/Mb; N = 3) and ultra-hypermutant (TMB > 100 Mut/Mb; N = 4) tumors and/or derived cell lines from six patients in the OpenPBTA cohort (**Figure {@fig:Fig4}E**).
 Five of six tumors were diagnosed as HGGs and one was a brain metastasis of a MYCN non-amplified neuroblastoma tumor.
-Signature 11, which has been suggested to result from exposure to temozolomide, was indeed present in tumors with previous exposure to the drug (**Table {@tbl:Table2}**).
+Signature 11, which is associated with exposure to temozolomide plus _MGMT_ promoter and/or mismatch repair deficiency [@doi:10.1038/s41588-019-0525-5], was indeed present in tumors with previous exposure to the drug (**Table {@TBL:Table2}**).
 We detected the MMR2 signature in tumors of four patients (PT_0SPKM4S8, PT_3CHB9PK5, PT_JNEV57VK, and PT_VTM2STE3) diagnosed with either constitutional mismatch repair deficiency (CMMRD) or Lynch syndrome (**Table {@tbl:Table2}**), genetic predisposition syndromes caused by a variant in a mismatch repair gene such as _PMS2_, _MLH1_, _MSH2_, _MSH6_, or others [@doi:10.1136/jmedgenet-2020-107627].
 Three of these patients harbored pathogenic germline variants in one of the aforementioned genes.
 While we did not find a _known_ pathogenic variant in the germline of PT_VTM2STE3, this patient had a self-reported _PMS2_ variant noted in their pathology report and we did find 19 intronic variants of unknown significance (VUS) in _PMS2_.
@@ -1461,7 +1463,7 @@ All code and processed data are openly available through GitHub, CAVATICA, and P
 ## Acknowledgments
 
 We graciously thank the patients and families who have donated their tumors to the Children's Brain Tumor Network and/or the Pacific Pediatric Neuro-oncology Consortium, without which, this research would not be possible.
-This work was funded through the Alex’s Lemonade Stand Foundation (ALSF) Childhood Cancer Data Lab (JNT, CSG, JAS, CLS, CJB, SJS), ALSF Young Investigator Award (JLR), ALSF Catalyst Award (JLR, ACR, PBS), ALSF Catalyst Award (SJS), ALSF CCDL Postdoctoral Training Grant (SMF), Children’s Hospital of Philadelphia Division of Neurosurgery (PBS and ACR), the Australian Government, Department of Education (APH), and NIH Grants 3P30 CA016520-44S5 (ACR), U2C HL138346-03 (ACR, APH), U24 CA220457-03 (ACR), K12GM081259 (SMF), R03-CA23036 (SJD), and NIH Contract No. HHSN261200800001E (SJD).
+This work was funded through the Alex’s Lemonade Stand Foundation (ALSF) Childhood Cancer Data Lab (JNT, CSG, JAS, CLS, CJB, SJS), ALSF Young Investigator Award (JLR), ALSF Catalyst Award (JLR, ACR, PBS), ALSF Catalyst Award (SJS), ALSF CCDL Postdoctoral Training Grant (SMF), Children’s Hospital of Philadelphia Division of Neurosurgery (PBS and ACR), the Australian Government, Department of Education (APH), the St. Anna Kinderkrebsforschung, Austria (ARP), the Mildred Scheel Early Career Center  Dresden P2, funded by the German Cancer Aid (ARP), and NIH Grants 3P30 CA016520-44S5 (ACR), U2C HL138346-03 (ACR, APH), U24 CA220457-03 (ACR), K12GM081259 (SMF), R03-CA23036 (SJD), and NIH Contract No. HHSN261200800001E (SJD).
 This project has been funded in part with Federal funds from the National Cancer Institute, National Institutes of Health, under Contract No. 75N91019D00024, Task Order No. 75N91020F00003 (JLR, ACR, APH). 
 Additionally, this work was supported by the Intramural Research Program of the Division of Cancer Epidemiology and Genetics of the National Cancer Institute.
 The content of this publication does not necessarily reflect the views or policies of the Department of Health and Human Services, nor does mention of trade names, commercial products or organizations imply endorsement by the U.S. Government.
@@ -1501,7 +1503,7 @@ Finally, we would like to thank Yuanchao Zhang and Eric Wafula for adding to the
 |Mike Prados|Conceptualization|
 |Yiran Guo|Formal analysis, Writing - Review and editing|
 |Jennifer Mason|Supervision|
-|Anna R. Poetsch|Formal Analysis|
+|Anna R. Poetsch|Formal Analysis, Funding acquisition, Writing – Review and editing|
 |Cassie N. Kline|Supervision, Investigation|
 |Laura Scolaro|Data Curation|
 |Angela J. Waanders|Supervision, Conceptualization|
@@ -1553,7 +1555,7 @@ A, The Children's Brain Tumor Network and the Pacific Pediatric Neuro-Oncology C
 Shown are frequencies of canonical somatic gene mutations, CNVs, fusions, and TMB (top bar plot) for the top 20 genes mutated across primary tumors within the OpenPBTA dataset. A, Low-grade astrocytic tumors (N = 227): pilocytic astrocytoma (N = 104), other low-grade glioma (N = 69), ganglioglioma (N = 35), pleomorphic xanthoastrocytoma (N = 9), subependymal giant cell astrocytoma (N = 10); B, Embryonal tumors (N = 128): medulloblastomas (N = 95), atypical teratoid rhabdoid tumors (N = 24), other embryonal tumors (N = 9); C, Diffuse astrocytic and oligodendroglial tumors (N = 61): diffuse midline gliomas (N = 34) and other high-grade gliomas (N = 27); D, Other CNS tumors (N = 194): ependymomas (N = 60), craniopharyngiomas (N = 31),  meningiomas (N = 17), dysembryoplastic neuroepithelial tumors (N = 19), Ewing sarcomas (N = 7), schwannomas (N = 11), and neurofibroma plexiforms (N = 7). Additional, rare CNS tumors are displayed in **Figure {@fig:S3}A**. Tumor histology (`Cancer Group`) and patient sex (`Germline sex estimate`) are displayed as annotations at the bottom of each plot. Only samples with mutations in the listed genes are shown. Multiple CNVs are denoted as a complex event.
 
 **Figure 3. Mutational co-occurrence and signatures highlight key oncogenic drivers.**
-A, Bar plot of occurrence and co-occurrence of nonsynonymous mutations for the 50 most commonly mutated genes across all tumor types (annotated from `cancer_group` if N >= 10 or `Other` if N < 10); B, Co-occurrence and mutual exclusivity of nonsynonymous mutations between genes; The co-occurrence score is defined as $I(-\log_{10}(P))$ where $P$ is defined by Fisher's exact test and $I$ is 1 when mutations co-occur more often than expected and -1 when exclusivity is more common; C, The number of SV breaks significantly correlates with the number of CNV breaks (Adjusted R = 0.438, p = 1.08e-37). D, Chromothripsis frequency across pediatric brain tumors shown by `cancer_group` with N >= 3. E, Sina plots of RefSig signature weights for signatures 1, 3, 8, 11, 18, 19, N6, MMR2, and Other across cancer groups. Box plot lines represent the first quartile, median, and third quartile.
+A, Bar plot of occurrence and co-occurrence of nonsynonymous mutations for the 50 most commonly mutated genes across all tumor types (annotated from `cancer_group` if N >= 10 or `Other` if N < 10); B, Co-occurrence and mutual exclusivity of nonsynonymous mutations between genes; The co-occurrence score is defined as $I(-\log_{10}(P))$ where $P$ is defined by Fisher's exact test and $I$ is 1 when mutations co-occur more often than expected and -1 when exclusivity is more common; C, The number of SV breaks significantly correlates with the number of CNV breaks (Adjusted R = 0.438, p = 1.08e-37). D, Chromothripsis frequency across pediatric brain tumors shown by `cancer_group` with N >= 3. E, Sina plots of RefSig signature weights for signatures 1, 11, 18, 19, 3, 8, N6, MMR2, and Other across cancer groups. Box plot lines represent the first quartile, median, and third quartile.
 
 **Figure 4. _TP53_ and telomerase activity**
 A, Receiver Operating Characteristic for _TP53_ classifier run on FPKM of stranded RNA-Seq samples. B, Violin and box plots of _TP53_ scores plotted by _TP53_ alteration type (N<sub>activated</sub> = 11, N<sub>lost</sub> = 100, N<sub>other</sub> = 866). C, Violin and box plots of _TP53_ RNA expression plotted by _TP53_ activation status (N<sub>activated</sub> = 11, N<sub>lost</sub> = 100, N<sub>other</sub> = 866). D, Box plots of _TP53_ and telomerase (EXTEND) scores grouped by `cancer_group`. Mutation status is highlighted in orange (hypermutant) or red (ultra-hypermutant). E, Heatmap of RefSig mutational signatures for patients who have least one tumor or cell line with a TMB >= 10 Mut/Mb. F, Forest plot depicting the prognostic effects of _TP53_ and telomerase scores on overall survival, controlling for extent of tumor resection, LGG group, and HGG group. G, Forest plot depicting the effect of molecular subtype on overall survival of HGGs. For F and G, hazard ratios (HR) with 95% confidence intervals and p-values are listed. Significant p-values are denoted with black diamonds. Reference groups are denoted by grey diamonds. H, Kaplan-Meier curve of HGG tumors by molecular subtype.

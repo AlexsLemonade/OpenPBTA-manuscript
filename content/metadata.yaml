@@ -32,11 +32,11 @@ authors:
   email: ksgaonkar@outlook.com
   contributions:
   - Data curation
-  - Formal Analysis
+  - Formal analysis
   - Investigation
   - Methodology
   - Software
-  - Writing – original draft
+  - Writing – Original draft
   - Writing - Review and editing
   affiliations:
   - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
@@ -104,9 +104,9 @@ authors:
   email: runjin@sas.upenn.edu
   contributions:
   - Data curation
-  - Formal Analysis
+  - Formal analysis
   - Visualization
-  - Writing – original draft
+  - Writing – Original draft
   - Writing - Review and editing
   affiliations:
   - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
@@ -118,10 +118,10 @@ authors:
   twitter: komalsrathi
   email: rathik@chop.edu
   contributions:
-  - Formal Analysis
+  - Formal analysis
   - Investigation
   - Methodology
-  - Writing – original draft
+  - Writing – Original draft
   affiliations:
   - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
@@ -133,7 +133,7 @@ authors:
   email: zhuy@chop.edu
   contributions:
   - Data curation
-  - Formal Analysis
+  - Formal analysis
   - Investigation
   - Methodology
   - Supervision
@@ -169,7 +169,7 @@ authors:
   initials: DPM
   orcid: 0000-0002-2032-4358
   email: millerd15@chop.edu
-  contributions: Formal Analysis
+  contributions: Formal analysis
   affiliations:
   - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -188,7 +188,7 @@ authors:
   orcid: 0000-0002-7733-6480
   email: tejaswikoganti@gmail.com
   contributions:
-  - Formal Analysis
+  - Formal analysis
   - Investigation
   affiliations:
   - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
@@ -210,8 +210,8 @@ authors:
   twitter: koptyram
   email: koptyram@chop.edu
   contributions:
-  - Formal Analysis
-  - Writing – original draft
+  - Formal analysis
+  - Writing – Original draft
   affiliations:
   - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -222,7 +222,7 @@ authors:
   twitter: asiannhat
   email: nd141@duke.edu
   contributions:
-  - Formal Analysis
+  - Formal analysis
   - Investigation
   - Methodology
   affiliations: Department of Bioinformatics and Health Informatics, Children's Hospital
@@ -244,7 +244,7 @@ authors:
   contributions:
   - Data curation
   - Methodology
-  - Formal Analysis
+  - Formal analysis
   affiliations:
   - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -296,7 +296,7 @@ authors:
   orcid: 0000-0001-9266-3685
   email: madsenp@chop.edu
   twitter: petermadsenmd
-  contributions: Writing – review & editing
+  contributions: Writing – Review & editing
   affiliations:
   - Division of Neurosurgery, Children's Hospital of Philadelphia
   - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
@@ -307,7 +307,7 @@ authors:
   email: ennisb@chop.edu
   contributions:
   - Data curation
-  - Formal Analysis
+  - Formal analysis
   affiliations:
   - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -354,7 +354,7 @@ authors:
   twitter: APoetsch
   email: arpoetsch@gmail.com
   contributions:
-  - Formal Analysis
+  - Formal analysis
   - Funding acquisition
   - Writing – Review and editing
   affiliations:
@@ -375,7 +375,7 @@ authors:
 - name: Laura Scolaro
   initials: LS
   email: scolarol@chop.edu
-  contributions: Data Curation
+  contributions: Data curation
   affiliations: Division of Oncology, Children's Hospital of Philadelphia
 - github: awaanders
   name: Angela J. Waanders
@@ -429,7 +429,7 @@ authors:
   initials: ZV
   email: zvaksman@gmail.com
   contributions:
-  - Formal Analysis
+  - Formal analysis
   - Investigation
   affiliations: Division of Oncology, Children's Hospital of Philadelphia
 - github: jainpayal022
@@ -459,7 +459,7 @@ authors:
   initials: XH
   orcid: 0000-0001-7267-4512
   email: huangx@chop.edu
-  contributions: Formal Analysis
+  contributions: Formal analysis
   affiliations:
   - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -481,7 +481,7 @@ authors:
   email: zhangb1@chop.edu
   contributions:
   - Data curation
-  - Formal Analysis
+  - Formal analysis
   affiliations:
   - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -515,7 +515,7 @@ authors:
   email: pichai.raman@gmail.com
   contributions:
   - Conceptualization
-  - Formal Analysis
+  - Formal analysis
   - Methodology
   affiliations:
   - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
@@ -537,7 +537,7 @@ authors:
   orcid: 0000-0001-8535-9730
   email: kaufmanr1@chop.edu
   contributions:
-  - Formal Analysis
+  - Formal analysis
   - Investigation
   - Validation
   affiliations:
@@ -572,7 +572,7 @@ authors:
   orcid: 0000-0003-1508-7631
   twitter: jessicawongbfx
   email: jessicawong.bfx@gmail.com
-  contributions: Writing – original draft
+  contributions: Writing – Original draft
   affiliations:
   - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -583,9 +583,9 @@ authors:
   twitter: kshrivats
   email: shrivats@seas.upenn.edu
   contributions:
-  - Formal Analysis
+  - Formal analysis
   - Methodology
-  - Writing – original draft
+  - Writing – Original draft
   affiliations:
   - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
@@ -702,7 +702,7 @@ authors:
   - Project administration
   - Software
   - Supervision
-  - Writing – review & editing
+  - Writing – Review & editing
 - github: jharenza
   name: Jo Lynne Rokita
   initials: JR
@@ -713,13 +713,13 @@ authors:
   contributions:
   - Conceptualization
   - Data curation
-  - Formal Analysis
+  - Formal analysis
   - Funding acquisition
   - Investigation
   - Methodology
   - Software
   - Supervision
-  - Writing – original draft
+  - Writing – Original draft
   - Writing - Review and editing
   affiliations:
   - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia

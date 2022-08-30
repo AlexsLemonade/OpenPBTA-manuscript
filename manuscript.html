@@ -384,9 +384,9 @@
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/00b7489425c74b64c7ebea825c131166503b0acb/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/00b7489425c74b64c7ebea825c131166503b0acb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/00b7489425c74b64c7ebea825c131166503b0acb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/7f7d28ffe6173ce6806a1f1a1a78629456c0a0a6/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/7f7d28ffe6173ce6806a1f1a1a78629456c0a0a6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/7f7d28ffe6173ce6806a1f1a1a78629456c0a0a6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -403,9 +403,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/00b7489425c74b64c7ebea825c131166503b0acb/">permalink</a>)
+(<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/7f7d28ffe6173ce6806a1f1a1a78629456c0a0a6/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/00b7489425c74b64c7ebea825c131166503b0acb">AlexsLemonade/OpenPBTA-manuscript@00b7489</a>
+from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/7f7d28ffe6173ce6806a1f1a1a78629456c0a0a6">AlexsLemonade/OpenPBTA-manuscript@7f7d28f</a>
 on August 30, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -2170,9 +2170,9 @@ We used the filtered VCF as input to <code>Control-FREEC</code> and <code>CNVkit
 This single-sample workflow is available in the <a href="https://github.com/d3b-center/OpenPBTA-workflows">D3b GitHub repository</a>.
 References can be obtained from the <a href="https://s3.console.aws.amazon.com/s3/buckets/broad-references/hg38/v0/">Broad Genome References on AWS</a> bucket, and a general description of references can be found at https://s3.amazonaws.com/broad-references/broad-references-readme.html.</p>
 <h5 id="assessment-of-germline-variant-pathogenicity">Assessment of germline variant pathogenicity</h5>
-<p>For patients with hypermutant samples, we first added population frequency of germline variants using <code>ANNOVAR</code> <span class="citation" data-cites="Fv382g9q">(<a href="#ref-Fv382g9q" role="doc-biblioref">Wang et al., 2010</a>)</span> and pathogenicity scoring from ClinVar <span class="citation" data-cites="16jeSVhEx">(<a href="#ref-16jeSVhEx" role="doc-biblioref">Landrum et al., 2013</a>)</span> using <code>SnpEff</code> <span class="citation" data-cites="14Ao6H7FL">(<a href="#ref-14Ao6H7FL" role="doc-biblioref">Cingolani et al., 2012</a>)</span>.
-We then filtered for variants with read depth &gt;= 15, variant allele fraction &gt;= 0.20, and which were observed at &lt; 0.1% allele frequency across each population in the Genome Aggregation Database (see <strong>Key Resources</strong>).
-Finally, we retained variants in genes included in the KEGG MMR gene set (see <strong>Key Resources</strong>), <em>POLE</em>, and/or <em>TP53</em> which were ClinVar-annotated as pathogenic (P) or likely pathogenic (L/P) and with review status of &gt;= 2 gold stars.
+<p>For patients with hypermutant samples, we first added population frequency of germline variants using <code>ANNOVAR</code> <span class="citation" data-cites="Fv382g9q">(<a href="#ref-Fv382g9q" role="doc-biblioref">Wang et al., 2010</a>)</span> and pathogenicity scoring from ClinVar <span class="citation" data-cites="16jeSVhEx">(<a href="#ref-16jeSVhEx" role="doc-biblioref">Landrum et al., 2013</a>)</span> using <code>SnpSift</code> <span class="citation" data-cites="vOcCb1WG">(<a href="#ref-vOcCb1WG" role="doc-biblioref">Cingolani et al., 2012</a>)</span>.
+We then filtered for variants with read depth &gt;= 15, variant allele fraction &gt;= 0.20, and which were observed at &lt; 0.1% allele frequency across each population in the Genome Aggregation Database (see <strong>Key Resources Table</strong>).
+Finally, we retained variants in genes included in the KEGG MMR gene set (see <strong>Key Resources Table</strong>), <em>POLE</em>, and/or <em>TP53</em> which were ClinVar-annotated as pathogenic (P) or likely pathogenic (LP) with review status of &gt;= 2 stars.
 All P/LP variants were manually reviewed by an interdisciplinary team of scientists, clinicians, and genetic counselors.
 This workflow is available in the <a href="https://github.com/d3b-center/OpenPBTA-workflows">D3b GitHub repository</a>.</p>
 <h4 id="somatic-mutation-calling">Somatic Mutation Calling</h4>
@@ -2256,7 +2256,7 @@ We used <code>FusionAnnotator</code> on <code>Arriba</code> fusion calls to harm
 The RNA expression and fusion workflows can be found in the <a href="https://github.com/d3b-center/OpenPBTA-workflows/blob/master/cwl/kfdrc_RNAseq_workflow.cwl">D3b GitHub repository</a>.
 The <code>FusionAnnotator</code> workflow we used for this analysis can be found in the <a href="https://github.com/d3b-center/FusionAnnotator">D3b GitHub repository</a>.</p>
 <h3 id="quantification-and-statistical-analysis">QUANTIFICATION AND STATISTICAL ANALYSIS</h3>
-<h5 id="recurrently-mutated-genes-and-co-occurrence-of-gene-mutations-interation-plots-analysis-module">Recurrently mutated genes and co-occurrence of gene mutations (<code>interation-plots</code> analysis module)</h5>
+<h5 id="recurrently-mutated-genes-and-co-occurrence-of-gene-mutations-interaction-plots-analysis-module">Recurrently mutated genes and co-occurrence of gene mutations (<code>interaction-plots</code> analysis module)</h5>
 <p>Using the consensus SNV calls, we identified genes that were recurrently mutated in the OpenPBTA cohort, including nonsynonymous mutations with a VAF &gt; 5% among the set of independent samples.
 We used <code>VEP</code> <span class="citation" data-cites="p1f5DxRQ">(<a href="#ref-p1f5DxRQ" role="doc-biblioref">McLaren et al., 2016</a>)</span> annotations, including “High” and “Moderate” consequence types as defined in the R package <code>Maftools</code> <span class="citation" data-cites="83Prx3Xc">(<a href="#ref-83Prx3Xc" role="doc-biblioref">Mayakonda et al., 2018</a>)</span>, to determine the set of nonsynonymous mutations.
 For each gene, we then tallied the number of samples that had at least one nonsynonymous mutation.</p>
@@ -2693,7 +2693,7 @@ Next, we used multivariate Cox (proportional hazards) regression analysis <span 
 <td>https://bioconductor.org/packages/release/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.html</td>
 </tr>
 <tr class="odd">
-<td>gnomAD v2.1.1</td>
+<td>gnomAD v2.1.1 (exome and genome)</td>
 <td>Genome Aggregation Database</td>
 <td>https://gnomad.broadinstitute.org/downloads#v2-liftover-variants</td>
 </tr>
@@ -2845,8 +2845,8 @@ Chang, M.T., Bhattarai, T.S., Schram, A.M., Bielski, C.M., Donoghue, M.T.A., Jon
 <div id="ref-kTn1PIj5" class="csl-entry" role="doc-biblioentry">
 Chen, X., Schulz-Trieglaff, O., Shaw, R., Barnes, B., Schlesinger, F., Källberg, M., Cox, A.J., Kruglyak, S., and Saunders, C.T. (2015). Manta: rapid detection of structural variants and indels for germline and cancer sequencing applications. Bioinformatics <em>32</em>, 1220–1222. <a href="https://doi.org/10.1093/bioinformatics/btv710">https://doi.org/10.1093/bioinformatics/btv710</a>.
 </div>
-<div id="ref-14Ao6H7FL" class="csl-entry" role="doc-biblioentry">
-Cingolani, P., Platts, A., Wang, L.L., Coon, M., Nguyen, T., Wang, L., Land, S.J., Lu, X., and Ruden, D.M. (2012). A program for annotating and predicting the effects of single nucleotide polymorphisms, SnpEff. Fly <em>6</em>, 80–92. <a href="https://doi.org/10.4161/fly.19695">https://doi.org/10.4161/fly.19695</a>.
+<div id="ref-vOcCb1WG" class="csl-entry" role="doc-biblioentry">
+Cingolani, P., Patel, V.M., Coon, M., Nguyen, T., Land, S.J., Ruden, D.M., and Lu, X. (2012). Using Drosophila melanogaster as a Model for Genotoxic Chemical Mutational Studies with a New Program, SnpSift. Front. Gene. <em>3</em>. <a href="https://doi.org/10.3389/fgene.2012.00035">https://doi.org/10.3389/fgene.2012.00035</a>.
 </div>
 <div id="ref-YfG9EVSk" class="csl-entry" role="doc-biblioentry">
 Cobrinik, D., Ostrovnaya, I., Hassimi, M., Tickoo, S.K., Cheung, I.Y., and Cheung, N.-K.V. (2013). Recurrent pre-existing and acquired DNA copy number alterations, including focal&lt;i&gt;TERT&lt;/i&gt;gains, in neuroblastoma central nervous system metastases. Genes Chromosomes Cancer <em>52</em>, 1150–1166. <a href="https://doi.org/10.1002/gcc.22110">https://doi.org/10.1002/gcc.22110</a>.

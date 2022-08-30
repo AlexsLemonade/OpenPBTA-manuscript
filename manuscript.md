@@ -358,9 +358,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/00b7489425c74b64c7ebea825c131166503b0acb/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/00b7489425c74b64c7ebea825c131166503b0acb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/00b7489425c74b64c7ebea825c131166503b0acb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/7f7d28ffe6173ce6806a1f1a1a78629456c0a0a6/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/7f7d28ffe6173ce6806a1f1a1a78629456c0a0a6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/7f7d28ffe6173ce6806a1f1a1a78629456c0a0a6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -382,9 +382,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/00b7489425c74b64c7ebea825c131166503b0acb/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/7f7d28ffe6173ce6806a1f1a1a78629456c0a0a6/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@00b7489](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/00b7489425c74b64c7ebea825c131166503b0acb)
+from [AlexsLemonade/OpenPBTA-manuscript@7f7d28f](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/7f7d28ffe6173ce6806a1f1a1a78629456c0a0a6)
 on August 30, 2022.
 </em></small>
 
@@ -1686,9 +1686,9 @@ References can be obtained from the [Broad Genome References on AWS](https://s3.
 
 ##### Assessment of germline variant pathogenicity
 
-For patients with hypermutant samples, we first added population frequency of germline variants using `ANNOVAR` [@doi:10.1093/nar/gkq603] and pathogenicity scoring from ClinVar [@doi:10.1093/nar/gkt1113] using `SnpEff` [@doi:10.4161/fly.19695].
-We then filtered for variants with read depth >= 15, variant allele fraction >= 0.20, and which were observed at < 0.1% allele frequency across each population in the Genome Aggregation Database (see **Key Resources**).
-Finally, we retained variants in genes included in the KEGG MMR gene set (see **Key Resources**), _POLE_, and/or _TP53_ which were ClinVar-annotated as pathogenic (P) or likely pathogenic (L/P) and with review status of >= 2 gold stars.
+For patients with hypermutant samples, we first added population frequency of germline variants using `ANNOVAR` [@doi:10.1093/nar/gkq603] and pathogenicity scoring from ClinVar [@doi:10.1093/nar/gkt1113] using `SnpSift` [@doi:10.3389/fgene.2012.00035].
+We then filtered for variants with read depth >= 15, variant allele fraction >= 0.20, and which were observed at < 0.1% allele frequency across each population in the Genome Aggregation Database (see **Key Resources Table**).
+Finally, we retained variants in genes included in the KEGG MMR gene set (see **Key Resources Table**), _POLE_, and/or _TP53_ which were ClinVar-annotated as pathogenic (P) or likely pathogenic (LP) with review status of >= 2 stars.
 All P/LP variants were manually reviewed by an interdisciplinary team of scientists, clinicians, and genetic counselors.
 This workflow is available in the [D3b GitHub repository](https://github.com/d3b-center/OpenPBTA-workflows).
 
@@ -1796,7 +1796,7 @@ The `FusionAnnotator` workflow we used for this analysis can be found in the [D3
 
 ### QUANTIFICATION AND STATISTICAL ANALYSIS
 
-##### Recurrently mutated genes and co-occurrence of gene mutations (`interation-plots` analysis module)
+##### Recurrently mutated genes and co-occurrence of gene mutations (`interaction-plots` analysis module)
 
 Using the consensus SNV calls, we identified genes that were recurrently mutated in the OpenPBTA cohort, including nonsynonymous mutations with a VAF > 5% among the set of independent samples.
 We used `VEP` [@doi:10/gdz75c] annotations, including "High" and "Moderate" consequence types as defined in the R package `Maftools` [@doi:10.1101/gr.239244.118], to determine the set of nonsynonymous mutations.
@@ -2080,7 +2080,7 @@ Next, we used multivariate Cox (proportional hazards) regression analysis [@doi:
 | CDS from GENCODE v27 annotation               | GENCODE                                                      | https://www.gencodegenes.org/human/release_27.html                                                            |
 | PFAM domains and locations                    | UCSC                                                         | http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/pfamDesc.txt.gz; https://pfam.xfam.org/family/PF07714 |
 | BSgenome.Hsapiens.UCSC.hg38 annotations       | Bioconductor                                                 | https://bioconductor.org/packages/release/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.html               |
-| gnomAD v2.1.1                                 | Genome Aggregation Database                                  | https://gnomad.broadinstitute.org/downloads#v2-liftover-variants                                              |
+| gnomAD v2.1.1 (exome and genome)                                 | Genome Aggregation Database                                  | https://gnomad.broadinstitute.org/downloads#v2-liftover-variants                                              |
 | KEGG MMR gene set v7.5.1                      | BROAD Institute                                              | https://www.gsea-msigdb.org/gsea/msigdb/download_geneset.jsp?geneSetName=KEGG_MISMATCH_REPAIR                 |
 | ClinVar Database (2022-05-07)                 | NCBI                                                         | https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/archive_2.0/2022/clinvar_20220507.vcf.gz                  |
 

@@ -26,8 +26,7 @@ authors:
   - Visualization
   - Supervision
   - Funding acquisition
-  affiliations: Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala
-    Cynwyd, PA, USA
+  affiliations: Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, USA
   funders: Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
 - github: kgaonkar6
   name: Krutika S. Gaonkar
@@ -64,8 +63,7 @@ authors:
   - Visualization
   - Funding acquisition
   affiliations:
-  - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA,
-    USA
+  - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, USA
   - Fred Hutchinson Cancer Center, Seattle, WA, USA
   funders: Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
 - github: sjspielman
@@ -82,8 +80,7 @@ authors:
   - Supervision
   - Funding acquisition
   affiliations:
-  - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA,
-    USA<sup>+</sup>
+  - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, USA<sup>+</sup>
   - Rowan University, Glassboro, NJ, USA
   symbol_str: +
   funders: Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
@@ -101,8 +98,7 @@ authors:
   - Writing - Original draft
   - Visualization
   - Funding acquisition
-  affiliations: Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala
-    Cynwyd, PA, USA
+  affiliations: Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, USA
   funders: Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
 - github: runjin326
   name: Run Jin
@@ -158,8 +154,7 @@ authors:
   - Formal analysis
   - Writing - Original draft
   affiliations:
-  - Cell and Molecular Biology Graduate Group, Perelman School of Medicine at the
-    University of Pennsylvania
+  - Cell and Molecular Biology Graduate Group, Perelman School of Medicine at the University of Pennsylvania
   - Division of Oncology, Children's Hospital of Philadelphia
 - github: baileyckelly
   name: Bailey Farrow
@@ -188,8 +183,7 @@ authors:
   contributions:
   - Formal analysis
   - Software
-  affiliations: Ben May Department for Cancer Research, University of Chicago, Chicago
-    IL, USA
+  affiliations: Ben May Department for Cancer Research, University of Chicago, Chicago IL, USA
 - github: tkoganti
   name: Tejaswi Koganti
   initials: TK
@@ -233,8 +227,7 @@ authors:
   - Formal analysis
   - Investigation
   - Methodology
-  affiliations: Department of Bioinformatics and Health Informatics, Children's Hospital
-    of Philadelphia
+  affiliations: Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
 - name: Carl J. Koschmann
   initials: CJK
   orcid: 0000-0002-0825-7615
@@ -266,8 +259,7 @@ authors:
   - Writing - Review and editing
   affiliations:
   - Department of Pathology and Laboratory Medicine, Children’s Hospital of Philadelphia
-  - Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman
-    School of Medicine
+  - Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman School of Medicine
 - name: Phillip B. Storm
   initials: PBS
   orcid: 0000-0002-7964-2449
@@ -297,8 +289,7 @@ authors:
   contributions: Conceptualization
   affiliations:
   - Children's National Research Institute, Washington, D.C.
-  - George Washington University School of Medicine and Health Sciences, Washington,
-    D.C.
+  - George Washington University School of Medicine and Health Sciences, Washington, D.C.
 - name: Peter J. Madsen
   initials: PJM
   orcid: 0000-0001-9266-3685
@@ -332,8 +323,7 @@ authors:
   orcid: 0000-0002-9630-2075
   email: michael.prados@ucsf.edu
   contributions: Conceptualization
-  affiliations: University of California, San Francisco, San Francisco, CA, United
-    States
+  affiliations: University of California, San Francisco, San Francisco, CA, USA
 - github: Yiran-Guo
   name: Yiran Guo
   initials: YG
@@ -393,8 +383,7 @@ authors:
   - Supervision
   - Conceptualization
   affiliations:
-  - Division of Hematology, Oncology, Neuro-Oncology, and Stem Cell Transplant, Ann
-    & Robert H Lurie Children’s Hospital of Chicago
+  - Division of Hematology, Oncology, Neuro-Oncology, and Stem Cell Transplant, Ann & Robert H Lurie Children’s Hospital of Chicago
   - Department of Pediatrics, Northwestern University Feinberg School of Medicine
 - github: envest
   name: Steven M. Foltz
@@ -405,10 +394,8 @@ authors:
   - Validation
   - Funding acquisition
   affiliations:
-  - Department of Systems Pharmacology and Translational Therapeutics, University
-    of Pennsylvania
-  - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA,
-    USA
+  - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
+  - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, USA
   funders:
   - Alex's Lemonade Stand Foundation GR-000002471
   - National Institutes of Health K12GM081259

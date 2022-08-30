@@ -1,5 +1,5 @@
 ---
-title: An Open Pediatric Brain Tumor Atlas
+title: 'OpenPBTA: An Open Pediatric Brain Tumor Atlas'
 keywords:
 - pediatric cancer
 - brain tumor
@@ -62,6 +62,8 @@ author-meta:
 - Siyuan Zheng
 - Hongbo M. Xie
 - Allison P. Heath
+- Ashley S. Margol
+- Stephen C. Mack
 - Adam C. Resnick
 - Casey S. Greene
 - Jo Lynne Rokita
@@ -74,10 +76,10 @@ header-includes: |-
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="An Open Pediatric Brain Tumor Atlas" />
-  <meta name="citation_title" content="An Open Pediatric Brain Tumor Atlas" />
-  <meta property="og:title" content="An Open Pediatric Brain Tumor Atlas" />
-  <meta property="twitter:title" content="An Open Pediatric Brain Tumor Atlas" />
+  <meta name="dc.title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
+  <meta name="citation_title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
+  <meta property="og:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
+  <meta property="twitter:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta name="dc.date" content="2022-08-30" />
   <meta name="citation_publication_date" content="2022-08-30" />
   <meta name="dc.language" content="en-US" />
@@ -313,6 +315,13 @@ header-includes: |-
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0002-2583-9668" />
   <meta name="twitter:creator" content="@allig8r" />
+  <meta name="citation_author" content="Ashley S. Margol" />
+  <meta name="citation_author_institution" content="Division of Hematology and Oncology, Children’s Hospital Los Angeles" />
+  <meta name="citation_author_institution" content="Department of Pediatrics, Keck School of Medicine of University of Southern California" />
+  <meta name="citation_author_orcid" content="0000-0002-3038-8005" />
+  <meta name="citation_author" content="Stephen C. Mack" />
+  <meta name="citation_author_institution" content="Department of Developmental Neurobiology, St. Jude Children’s Research Hospital" />
+  <meta name="citation_author_orcid" content="0000-0001-9620-4742" />
   <meta name="citation_author" content="Adam C. Resnick" />
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
@@ -343,9 +352,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/2e5970f2b2b07b31945a25075dbf4811679c9797/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/2e5970f2b2b07b31945a25075dbf4811679c9797/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/2e5970f2b2b07b31945a25075dbf4811679c9797/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1049c985c68b6514fa953fe8f5c1d7f09a89b829/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1049c985c68b6514fa953fe8f5c1d7f09a89b829/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1049c985c68b6514fa953fe8f5c1d7f09a89b829/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -367,9 +376,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/2e5970f2b2b07b31945a25075dbf4811679c9797/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1049c985c68b6514fa953fe8f5c1d7f09a89b829/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@2e5970f](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/2e5970f2b2b07b31945a25075dbf4811679c9797)
+from [AlexsLemonade/OpenPBTA-manuscript@1049c98](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/1049c985c68b6514fa953fe8f5c1d7f09a89b829)
 on August 30, 2022.
 </em></small>
 
@@ -944,6 +953,22 @@ on August 30, 2022.
      · Funded by NIH U2C HL138346-03; NCI/NIH Contract No. 75N91019D00024, Task Order No. 75N91020F00003; Australian Government, Department of Education
   </small>
 
++ **Ashley S. Margol**
+  <br>
+    ![ORCID icon](images/orcid.png){.inline_icon}
+    [0000-0002-3038-8005](https://orcid.org/0000-0002-3038-8005)<br>
+  <small>
+     Division of Hematology and Oncology, Children’s Hospital Los Angeles; Department of Pediatrics, Keck School of Medicine of University of Southern California
+  </small>
+
++ **Stephen C. Mack**
+  <br>
+    ![ORCID icon](images/orcid.png){.inline_icon}
+    [0000-0001-9620-4742](https://orcid.org/0000-0001-9620-4742)<br>
+  <small>
+     Department of Developmental Neurobiology, St. Jude Children’s Research Hospital
+  </small>
+
 + **Adam C. Resnick**
   <br>
     ![ORCID icon](images/orcid.png){.inline_icon}
@@ -1054,13 +1079,13 @@ pediatric brain tumors, somatic variation, open science, reproducibility, classi
 
 ## Introduction
 
-Pediatric brain and spinal cord tumors are the second most common tumors in children after leukemia, and they represent the leading disease-related cause of death in children [@doi:10.1093/neuonc/noz150].
+Pediatric brain and spinal cord tumors are collectively the second most common malignancy in children after leukemia, and they represent the leading disease-related cause of death in children [@doi:10.1093/neuonc/noz150].
 Five-year survival rates vary widely across different histologic and molecular classifications of brain tumors.
-For example, most high-grade and embryonal tumors carry a universally fatal prognosis, while children with pilocytic astrocytoma have an estimated 10-year survival rate of 92% [@doi:10.1093/neuonc/now207].
+For example, most high-grade gliomas and embryonal tumors carry a universally fatal prognosis, while children with pilocytic astrocytoma have an estimated 10-year survival rate of 92% [@doi:10.1093/neuonc/now207].
 Moreover, estimates from 2009 suggest that children and adolescents aged 0-19 with brain tumors in the United States have lost an average of 47,631 years of potential life [@doi:10.1002/cam4.410].
 
 The low survival rates for some pediatric tumors are clearly multifactorial, explained partly by our lack of comprehensive understanding of the ever-evolving array of brain tumor molecular subtypes, difficulty drugging these tumors, and the shortage of drugs specifically labeled for pediatric malignancies.
-Historically, some of the most fatal, inoperable brain tumors, such as diffuse midline gliomas, were not routinely biopsied due to perceived risks of biopsy and the paucity of therapeutic options that would require tissue.
+Historically, some of the most fatal, inoperable brain tumors, such as diffuse intrinsic pontine gliomas, were not routinely biopsied due to perceived risks of biopsy and the paucity of therapeutic options that would require tissue.
 Limited access to tissue to develop patient-derived cell lines and mouse models has been a barrier to research.
 Furthermore, the incidence of any single brain tumor molecular subtype is relatively low due to the rarity of pediatric tumors in general.
 
@@ -1439,11 +1464,11 @@ Finally, we would like to thank Yuanchao Zhang and Eric Wafula for adding to the
 |Author|Contributions|
 |---|---|
 |Joshua A. Shapiro|Methodology, Software, Validation, Formal analysis, Investigation, Writing - Original draft, Writing - Review and editing, Visualization, Supervision|
-|Krutika S. Gaonkar|Data curation, Formal Analysis, Investigation, Methodology, Software, Writing – original draft|
-|Candace L. Savonen|Methodology, Software, Validation, Formal analysis, Investigation, Writing - Original draft, Visualization|
+|Krutika S. Gaonkar|Data curation, Formal Analysis, Investigation, Methodology, Software, Writing – original draft, Writing - Review and editing|
+|Candace L. Savonen|Methodology, Software, Validation, Formal analysis, Investigation, Writing - Original draft, Writing - Review and editing, Visualization|
 |Stephanie J. Spielman|Validation, Formal analysis, Writing - Review and editing, Visualization, Supervision|
 |Chante J. Bethell|Methodology, Validation, Formal analysis, Investigation, Writing - Original draft, Visualization|
-|Run Jin|Data curation, Formal Analysis, Visualization, Writing – original draft|
+|Run Jin|Data curation, Formal Analysis, Visualization, Writing – original draft, Writing - Review and editing|
 |Komal S. Rathi|Formal Analysis, Investigation, Methodology, Writing – original draft|
 |Yuankun Zhu|Data curation, Formal Analysis, Investigation, Methodology, Supervision|
 |Laura E. Egolf|Formal analysis, Writing - Original draft|
@@ -1455,27 +1480,27 @@ Finally, we would like to thank Yuanchao Zhang and Eric Wafula for adding to the
 |Mateusz P. Koptyra|Formal Analysis, Writing – original draft|
 |Nhat Duong|Formal Analysis, Investigation, Methodology|
 |Carl J. Koschmann|Conceptualization|
-|Miguel A. Brown|Data curation, Methodology|
-|Mariarita Santi|Investigation, Validation|
+|Miguel A. Brown|Data curation, Methodology, Formal Analysis|
+|Mariarita Santi|Investigation, Validation, Writing - Review and editing|
 |Phillip B. Storm|Conceptualization, Funding acquisition, Resources|
 |Derek Hanson|Validation|
 |Javad Nazarian|Conceptualization|
 |Peter J. Madsen|Writing – review & editing|
 |Brian M. Ennis|Data curation, Formal Analysis|
-|Douglas R. Stewart|Supervision|
+|Douglas R. Stewart|Supervision, Writing - Review and editing|
 |Mike Prados|Conceptualization|
 |Yiran Guo|Formal analysis, Writing - Review and editing|
 |Jennifer Mason|Supervision|
 |Anna R. Poetsch|Formal Analysis|
-|Cassie N. Kline|Supervision|
+|Cassie N. Kline|Supervision, Investigation|
 |Laura Scolaro|Data Curation|
-|Angela J. Waanders|Supervison|
+|Angela J. Waanders|Supervision, Conceptualization|
 |Steven M. Foltz|Validation|
 |Shannon Robins|Data curation|
 |Sharon J. Diskin|Investigation, Supervision, Validation, Funding acquisition|
 |Zalman Vaksman|Formal Analysis, Investigation|
 |Payal Jain|Data curation, Investigation, Validation|
-|Jung Kim|Investigation|
+|Jung Kim|Investigation, Writing - Review and editing|
 |Xiaoyan Huang|Formal Analysis|
 |Angela N. Viaene|Investigation, Validation|
 |Bo Zhang|Data curation, Formal Analysis|
@@ -1490,12 +1515,14 @@ Finally, we would like to thank Yuanchao Zhang and Eric Wafula for adding to the
 |Jessica Wong|Writing – original draft|
 |Shrivats Kannan|Formal Analysis, Methodology, Writing – original draft|
 |Adam A. Kraya|Methodology|
-|Siyuan Zheng|Formal analysis, Visualization, Writing - Original draft, Supervision|
+|Siyuan Zheng|Formal analysis, Visualization, Writing - Original draft, Supervision, Writing - Review and editing|
 |Hongbo M. Xie|Methodology, Supervision|
 |Allison P. Heath|Project administration|
+|Ashley S. Margol|Writing - Review and editing|
+|Stephen C. Mack|Writing - Review and editing|
 |Adam C. Resnick|Conceptualization, Funding acquisition, Resources, Supervision|
 |Casey S. Greene|Conceptualization, Funding acquisition, Methodology, Project administration, Software, Supervision, Writing – review & editing|
-|Jo Lynne Rokita|Conceptualization, Data curation, Formal Analysis, Funding acquisition, Investigation, Methodology, Software, Supervision, Writing – original draft|
+|Jo Lynne Rokita|Conceptualization, Data curation, Formal Analysis, Funding acquisition, Investigation, Methodology, Software, Supervision, Writing – original draft, Writing - Review and editing|
 |Jaclyn N. Taroni|Methodology, Software, Validation, Formal analysis, Investigation, Data curation, Writing - Review and editing, Visualization, Supervision, Project administration|
 |Children's Brain Tumor Network|Conceptualization|
 |Pacific Pediatric Neuro-Oncology Consortium|Conceptualization|

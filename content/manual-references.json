@@ -438,11 +438,13 @@
     "container-title": "FDA",
     "language": "en",
     "source": "www.fda.gov",
+    "publisher": "U.S. Food and Drug Administration",
     "title": "Pediatric Oncology Drug Approvals",
     "URL": "https://www.fda.gov/about-fda/oncology-center-excellence/pediatric-oncology-drug-approvals",
     "author": [
       {
-        "literal": "U.S. Food and Drug Administration"
+        "given": "",
+        "family": "Oncology Center of Excellence"
       }
     ],
     "accessed": {

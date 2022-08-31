@@ -4,8 +4,12 @@ keywords:
 - pediatric cancer
 - brain tumor
 - tumor atlas
+- reproducibility
+- open science
+- classification
+- somatic variation
 lang: en-US
-date-meta: '2022-08-30'
+date-meta: '2022-08-31'
 author-meta:
 - Joshua A. Shapiro
 - Krutika S. Gaonkar
@@ -81,8 +85,8 @@ header-includes: |-
   <meta name="citation_title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="og:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="twitter:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
-  <meta name="dc.date" content="2022-08-30" />
-  <meta name="citation_publication_date" content="2022-08-30" />
+  <meta name="dc.date" content="2022-08-31" />
+  <meta name="citation_publication_date" content="2022-08-31" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -105,7 +109,7 @@ header-includes: |-
   <meta name="citation_author_orcid" content="0000-0001-6331-7070" />
   <meta name="twitter:creator" content="@cansavvy" />
   <meta name="citation_author" content="Stephanie J. Spielman" />
-  <meta name="citation_author_institution" content="Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Bala Cynwyd, PA, USA&lt;sup&gt;☯&lt;/sup&gt;" />
+  <meta name="citation_author_institution" content="Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Bala Cynwyd, PA, USA&lt;sup&gt;+&lt;/sup&gt;" />
   <meta name="citation_author_institution" content="Rowan University, Glassboro, NJ, USA" />
   <meta name="citation_author_orcid" content="0000-0002-9090-4788" />
   <meta name="twitter:creator" content="@stephspiel" />
@@ -197,7 +201,7 @@ header-includes: |-
   <meta name="citation_author_institution" content="Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics, National Cancer Institute" />
   <meta name="citation_author_orcid" content="0000-0001-8193-1488" />
   <meta name="citation_author" content="Mike Prados" />
-  <meta name="citation_author_institution" content="University of California, San Francisco, San Francisco, CA, United States" />
+  <meta name="citation_author_institution" content="University of California, San Francisco, San Francisco, CA, USA" />
   <meta name="citation_author_orcid" content="0000-0002-9630-2075" />
   <meta name="citation_author" content="Yiran Guo" />
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
@@ -358,9 +362,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/92e7a8319ec6f545b1f860ae60f3f805bb5d271b/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/92e7a8319ec6f545b1f860ae60f3f805bb5d271b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/92e7a8319ec6f545b1f860ae60f3f805bb5d271b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/137018b0ed80c69758cd332ea2025ec1abdff138/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/137018b0ed80c69758cd332ea2025ec1abdff138/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/137018b0ed80c69758cd332ea2025ec1abdff138/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -382,10 +386,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/92e7a8319ec6f545b1f860ae60f3f805bb5d271b/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/137018b0ed80c69758cd332ea2025ec1abdff138/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@92e7a83](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/92e7a8319ec6f545b1f860ae60f3f805bb5d271b)
-on August 30, 2022.
+from [AlexsLemonade/OpenPBTA-manuscript@137018b](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/137018b0ed80c69758cd332ea2025ec1abdff138)
+on August 31, 2022.
 </em></small>
 
 ## Authors
@@ -439,10 +443,8 @@ on August 30, 2022.
     · ![Twitter icon](images/twitter.png){.inline_icon}
     [stephspiel](https://twitter.com/stephspiel)<br>
   <small>
-     Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, USA<sup>☯</sup>; Rowan University, Glassboro, NJ, USA
+     Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, USA<sup>+</sup>; Rowan University, Glassboro, NJ, USA
      · Funded by Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
-      <br>
-      <sup>☯</sup>Current affiliation
   </small>
 
 + **Chante J. Bethell**
@@ -664,7 +666,7 @@ on August 30, 2022.
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-9630-2075](https://orcid.org/0000-0002-9630-2075)<br>
   <small>
-     University of California, San Francisco, San Francisco, CA, United States
+     University of California, San Francisco, San Francisco, CA, USA
   </small>
 
 + **Yiran Guo**
@@ -1086,7 +1088,7 @@ OpenPBTA is a foundational analysis platform actively being applied to other ped
 
 ## Keywords
 <!-- We encourage you to include up to ten keywords with your paper. These keywords will be associated with your paper on Cell Press platforms and on PubMed. These keywords should be listed in the manuscript after the summary, separated by commas. -->
-pediatric brain tumors, somatic variation, open science, reproducibility, classification  
+pediatric cancer, brain tumors, somatic variation, open science, reproducibility, classification, tumor atlas  
 
 
 ## Introduction
@@ -1474,68 +1476,68 @@ Finally, we would like to thank Yuanchao Zhang and Eric Wafula for adding to the
 
 |Author|Contributions|
 |---|---|
-|Joshua A. Shapiro|Methodology, Software, Validation, Formal analysis, Investigation, Writing - Original draft, Writing - Review and editing, Visualization, Supervision|
-|Krutika S. Gaonkar|Data curation, Formal Analysis, Investigation, Methodology, Software, Writing – original draft, Writing - Review and editing|
-|Candace L. Savonen|Methodology, Software, Validation, Formal analysis, Investigation, Writing - Original draft, Writing - Review and editing, Visualization|
-|Stephanie J. Spielman|Validation, Formal analysis, Writing - Review and editing, Visualization, Supervision|
-|Chante J. Bethell|Methodology, Validation, Formal analysis, Investigation, Writing - Original draft, Visualization|
-|Run Jin|Data curation, Formal Analysis, Visualization, Writing – original draft, Writing - Review and editing|
-|Komal S. Rathi|Formal Analysis, Investigation, Methodology, Writing – original draft|
-|Yuankun Zhu|Data curation, Formal Analysis, Investigation, Methodology, Supervision|
+|Joshua A. Shapiro|Methodology, Software, Validation, Formal analysis, Investigation, Writing - Original draft, Writing - Review and editing, Visualization, Supervision, Funding acquisition|
+|Krutika S. Gaonkar|Data curation, Formal analysis, Investigation, Methodology, Software, Writing – Original draft, Writing - Review and editing|
+|Candace L. Savonen|Methodology, Software, Validation, Formal analysis, Investigation, Writing - Original draft, Writing - Review and editing, Visualization, Funding acquisition|
+|Stephanie J. Spielman|Validation, Formal analysis, Writing - Review and editing, Visualization, Supervision, Funding acquisition|
+|Chante J. Bethell|Methodology, Validation, Formal analysis, Investigation, Writing - Original draft, Visualization, Funding acquisition|
+|Run Jin|Data curation, Formal analysis, Visualization, Writing – Original draft, Writing - Review and editing|
+|Komal S. Rathi|Formal analysis, Investigation, Methodology, Writing – Original draft|
+|Yuankun Zhu|Data curation, Formal analysis, Investigation, Methodology, Supervision|
 |Laura E. Egolf|Formal analysis, Writing - Original draft|
 |Bailey Farrow|Data curation, Software|
-|Daniel P. Miller|Formal Analysis|
+|Daniel P. Miller|Formal analysis|
 |Yang Yang|Formal analysis, Software|
-|Tejaswi Koganti|Formal Analysis, Investigation|
+|Tejaswi Koganti|Formal analysis, Investigation|
 |Nighat Noureen|Formal analysis, Visualization, Writing - Original draft|
-|Mateusz P. Koptyra|Formal Analysis, Writing – original draft|
-|Nhat Duong|Formal Analysis, Investigation, Methodology|
+|Mateusz P. Koptyra|Formal analysis, Writing – Original draft|
+|Nhat Duong|Formal analysis, Investigation, Methodology|
 |Carl J. Koschmann|Conceptualization|
-|Miguel A. Brown|Data curation, Methodology, Formal Analysis|
+|Miguel A. Brown|Data curation, Methodology, Formal analysis|
 |Mariarita Santi|Investigation, Validation, Writing - Review and editing|
 |Phillip B. Storm|Conceptualization, Funding acquisition, Resources|
 |Derek Hanson|Validation|
 |Javad Nazarian|Conceptualization|
-|Peter J. Madsen|Writing – review & editing|
-|Brian M. Ennis|Data curation, Formal Analysis|
+|Peter J. Madsen|Writing – Review & editing|
+|Brian M. Ennis|Data curation, Formal analysis|
 |Douglas R. Stewart|Supervision, Writing - Review and editing|
 |Mike Prados|Conceptualization|
 |Yiran Guo|Formal analysis, Writing - Review and editing|
 |Jennifer Mason|Supervision|
-|Anna R. Poetsch|Formal Analysis, Funding acquisition, Writing – Review and editing|
+|Anna R. Poetsch|Formal analysis, Funding acquisition, Writing – Review and editing|
 |Cassie N. Kline|Supervision, Investigation|
-|Laura Scolaro|Data Curation|
+|Laura Scolaro|Data curation|
 |Angela J. Waanders|Supervision, Conceptualization|
 |Steven M. Foltz|Validation|
 |Shannon Robins|Data curation|
 |Sharon J. Diskin|Investigation, Supervision, Validation, Funding acquisition|
-|Zalman Vaksman|Formal Analysis, Investigation|
+|Zalman Vaksman|Formal analysis, Investigation|
 |Payal Jain|Data curation, Investigation, Validation|
 |Jung Kim|Investigation, Writing - Review and editing|
-|Xiaoyan Huang|Formal Analysis|
+|Xiaoyan Huang|Formal analysis|
 |Angela N. Viaene|Investigation, Validation|
-|Bo Zhang|Data curation, Formal Analysis|
+|Bo Zhang|Data curation, Formal analysis|
 |Jena V. Lilly|Conceptualization, Funding acquisition, Project administration|
 |Rishi Lulla|Conceptualization|
-|Pichai Raman|Conceptualization, Formal Analysis, Methodology|
+|Pichai Raman|Conceptualization, Formal analysis, Methodology|
 |Nicolas Van Kuren|Data curation, Software|
-|Rebecca S. Kaufman|Formal Analysis, Investigation, Validation|
+|Rebecca S. Kaufman|Formal analysis, Investigation, Validation|
 |Brian Rood|Conceptualization|
 |Sabine Mueller|Conceptualization|
 |Meen Chul Kim|Data curation|
-|Jessica Wong|Writing – original draft|
-|Shrivats Kannan|Formal Analysis, Methodology, Writing – original draft|
+|Jessica Wong|Writing – Original draft|
+|Shrivats Kannan|Formal analysis, Methodology, Writing – Original draft|
 |Adam A. Kraya|Methodology|
 |Siyuan Zheng|Formal analysis, Visualization, Writing - Original draft, Supervision, Writing - Review and editing|
 |Hongbo M. Xie|Methodology, Supervision|
-|Allison P. Heath|Project administration|
+|Allison P. Heath|Project administration, Funding acquisition|
 |Ashley S. Margol|Writing - Review and editing|
 |Stephen C. Mack|Writing - Review and editing|
 |Kristina A. Cole|Writing - Review and editing|
 |Adam C. Resnick|Conceptualization, Funding acquisition, Resources, Supervision|
-|Casey S. Greene|Conceptualization, Funding acquisition, Methodology, Project administration, Software, Supervision, Writing – review & editing|
-|Jo Lynne Rokita|Conceptualization, Data curation, Formal Analysis, Funding acquisition, Investigation, Methodology, Software, Supervision, Writing – original draft, Writing - Review and editing|
-|Jaclyn N. Taroni|Methodology, Software, Validation, Formal analysis, Investigation, Data curation, Writing - Review and editing, Visualization, Supervision, Project administration|
+|Casey S. Greene|Conceptualization, Funding acquisition, Methodology, Project administration, Software, Supervision, Writing – Review & editing|
+|Jo Lynne Rokita|Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Methodology, Software, Supervision, Writing – Original draft, Writing - Review and editing|
+|Jaclyn N. Taroni|Methodology, Software, Validation, Formal analysis, Investigation, Data curation, Writing - Review and editing, Visualization, Supervision, Project administration, Funding acquisition|
 |Children's Brain Tumor Network|Conceptualization|
 |Pacific Pediatric Neuro-Oncology Consortium|Conceptualization|
 

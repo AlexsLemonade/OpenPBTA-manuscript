@@ -362,9 +362,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/137197c67716f2402267dc0c15eeeefa889f9d85/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/137197c67716f2402267dc0c15eeeefa889f9d85/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/137197c67716f2402267dc0c15eeeefa889f9d85/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/eb8b903378187ad5ebdac7e3699cbe5d939edfe3/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/eb8b903378187ad5ebdac7e3699cbe5d939edfe3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/eb8b903378187ad5ebdac7e3699cbe5d939edfe3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -386,9 +386,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/137197c67716f2402267dc0c15eeeefa889f9d85/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/eb8b903378187ad5ebdac7e3699cbe5d939edfe3/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@137197c](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/137197c67716f2402267dc0c15eeeefa889f9d85)
+from [AlexsLemonade/OpenPBTA-manuscript@eb8b903](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/eb8b903378187ad5ebdac7e3699cbe5d939edfe3)
 on August 31, 2022.
 </em></small>
 
@@ -1134,7 +1134,7 @@ We maintained a data release folder on Amazon S3, downloadable directly from S3 
 As new analytical results (e.g., tumor mutation burden calculations) that we expected to be used across multiple analyses were produced, or issues with the data were identified, new data releases were made available in a versioned manner.
 
 A key innovative feature of this project has been its open contribution model used for both analyses (i.e., analytical code) and scientific manuscript writing.
-We created a public Github analysis repository (https://github.com/AlexsLemonade/OpenPBTA-analysis) to hold all code associated with analyses downstream of the Kids First Data Resource Center workflows and a GitHub manuscript repository (https://github.com/AlexsLemonade/OpenPBTA-manuscript) with Manubot [@doi:10.1371/journal.pcbi.1007128] integration to enable real-time manuscript creation using Markdown within GitHub.
+We created a public Github analysis repository ([https://github.com/AlexsLemonade/OpenPBTA-analysis](https://github.com/AlexsLemonade/OpenPBTA-analysis)) to hold all code associated with analyses downstream of the Kids First Data Resource Center workflows and a GitHub manuscript repository ([https://github.com/AlexsLemonade/OpenPBTA-manuscript](https://github.com/AlexsLemonade/OpenPBTA-manuscript)) with Manubot [@doi:10.1371/journal.pcbi.1007128] integration to enable real-time manuscript creation using Markdown within GitHub.
 Importantly, all analyses and manuscript writing were conducted openly throughout the research project, allowing any researcher in the world the opportunity to contribute.
 
 The process for analysis and manuscript contributions is outlined in **Figure {@fig:Fig1}C**.
@@ -1587,16 +1587,16 @@ This study did not create new, unique reagents.
 
 #### Data and code availability
 
-Raw and harmonized WGS, WXS, and RNA-Seq data derived from human samples are available within the KidsFirst Portal [@doi:10.24370/OPENPBTA] upon access request to the CBTN (https://cbtn.org/) as of the date of the publication.
-In addition, merged summary files are openly accessible at https://cavatica.sbgenomics.com/u/cavatica/openpbta or via download script in the  https://github.com/AlexsLemonade/OpenPBTA-analysis repository.
-Summary data are visible within PedcBioPortal at https://pedcbioportal.kidsfirstdrc.org/study/summary?id=openpbta.
+Raw and harmonized WGS, WXS, and RNA-Seq data derived from human samples are available within the KidsFirst Portal [@doi:10.24370/OPENPBTA] upon access request to the CBTN ([https://cbtn.org/](https://cbtn.org/)) as of the date of the publication.
+In addition, merged summary files are openly accessible at [https://cavatica.sbgenomics.com/u/cavatica/openpbta](https://cavatica.sbgenomics.com/u/cavatica/openpbta) or via download script in the  [https://github.com/AlexsLemonade/OpenPBTA-analysis](https://github.com/AlexsLemonade/OpenPBTA-analysis) repository.
+Summary data are visible within PedcBioPortal at [https://pedcbioportal.kidsfirstdrc.org/study/summary?id=openpbta](https://pedcbioportal.kidsfirstdrc.org/study/summary?id=openpbta).
 Associated DOIs are listed in the **Key Resources Table**.
 <!-- TODO: create data dois -->
 
 All original code was developed within the following repositories and is publicly available as follows.
-Primary data analyses can be found at https://github.com/d3b-center/OpenPBTA-workflows.
-Downstream data analyses can be found at https://github.com/AlexsLemonade/OpenPBTA-analysis.
-Manuscript code can be found at https://github.com/AlexsLemonade/OpenPBTA-manuscript.
+Primary data analyses can be found at [https://github.com/d3b-center/OpenPBTA-workflows](https://github.com/d3b-center/OpenPBTA-workflows).
+Downstream data analyses can be found at [https://github.com/AlexsLemonade/OpenPBTA-analysis](https://github.com/AlexsLemonade/OpenPBTA-analysis).
+Manuscript code can be found at [https://github.com/AlexsLemonade/OpenPBTA-manuscript](https://github.com/AlexsLemonade/OpenPBTA-manuscript).
 Associated DOIs are listed in the **Key Resources Table**.
 Software versions are documented in **Table S5** as an appendix to the **Key Resources Table**.
 <!-- TODO: create code dois -->

@@ -47,7 +47,7 @@ author-meta:
 - Rishi Lulla
 - Miguel A. Brown
 - Jessica Wong
-- Jennifer Mason
+- Jennifer L. Mason
 - Laura Scolaro
 - Meen Chul Kim
 - Hongbo M. Xie
@@ -246,7 +246,7 @@ header-includes: |-
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0003-1508-7631" />
   <meta name="twitter:creator" content="@jessicawongbfx" />
-  <meta name="citation_author" content="Jennifer Mason" />
+  <meta name="citation_author" content="Jennifer L. Mason" />
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="twitter:creator" content="@jenn0307" />
@@ -362,9 +362,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/6099cc0ebb05c033058a2d2eabbf43bbcc285437/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/6099cc0ebb05c033058a2d2eabbf43bbcc285437/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/6099cc0ebb05c033058a2d2eabbf43bbcc285437/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/b06a353cb7d0576142decfb266139901d3fcbd4a/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/b06a353cb7d0576142decfb266139901d3fcbd4a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/b06a353cb7d0576142decfb266139901d3fcbd4a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -386,9 +386,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/6099cc0ebb05c033058a2d2eabbf43bbcc285437/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/b06a353cb7d0576142decfb266139901d3fcbd4a/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@6099cc0](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/6099cc0ebb05c033058a2d2eabbf43bbcc285437)
+from [AlexsLemonade/OpenPBTA-manuscript@b06a353](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/b06a353cb7d0576142decfb266139901d3fcbd4a)
 on August 31, 2022.
 </em></small>
 
@@ -777,7 +777,7 @@ on August 31, 2022.
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
-+ **Jennifer Mason**
++ **Jennifer L. Mason**
   <br>
     · ![GitHub icon](images/github.png){.inline_icon}
     [jenn0307](https://github.com/jenn0307)
@@ -1465,8 +1465,8 @@ All code and processed data are openly available through GitHub, CAVATICA, and P
 ## Acknowledgments
 
 We graciously thank the patients and families who have donated their tumors to the Children's Brain Tumor Network and/or the Pacific Pediatric Neuro-oncology Consortium, without which, this research would not be possible.
-This work was funded through the Alex’s Lemonade Stand Foundation (ALSF) Childhood Cancer Data Lab (JNT, CSG, JAS, CLS, CJB, SJS), ALSF Young Investigator Award (JLR), ALSF Catalyst Award (JLR, ACR, PBS), ALSF Catalyst Award (SJS), ALSF CCDL Postdoctoral Training Grant (SMF), Children’s Hospital of Philadelphia Division of Neurosurgery (PBS and ACR), the Australian Government, Department of Education (APH), the St. Anna Kinderkrebsforschung, Austria (ARP), the Mildred Scheel Early Career Center  Dresden P2, funded by the German Cancer Aid (ARP), and NIH Grants 3P30 CA016520-44S5 (ACR), U2C HL138346-03 (ACR, APH), U24 CA220457-03 (ACR), K12GM081259 (SMF), R03-CA23036 (SJD), and NIH Contract No. HHSN261200800001E (SJD).
-This project has been funded in part with Federal funds from the National Cancer Institute, National Institutes of Health, under Contract No. 75N91019D00024, Task Order No. 75N91020F00003 (JLR, ACR, APH). 
+This work was funded through the Alex’s Lemonade Stand Foundation (ALSF) Childhood Cancer Data Lab (CSG), ALSF Young Investigator Award (JLR), ALSF Catalyst Award (JLR, ACR, PBS), ALSF Catalyst Award (SJS), ALSF CCDL Postdoctoral Training Grant (SMF), Children’s Hospital of Philadelphia Division of Neurosurgery (PBS and ACR), the Australian Government, Department of Education (APH), the St. Anna Kinderkrebsforschung, Austria (ARP), the Mildred Scheel Early Career Center  Dresden P2, funded by the German Cancer Aid (ARP), and NIH Grants 3P30 CA016520-44S5 (ACR), U2C HL138346-03 (ACR, APH), U24 CA220457-03 (ACR), K12GM081259 (SMF), R03-CA23036 (SJD), and NIH Contract No. HHSN261200800001E (SJD).
+This project has been funded in part with Federal funds from the National Cancer Institute, National Institutes of Health, under Contract No. 75N91019D00024, Task Order No. 75N91020F00003 (JLR, ACR, APH).
 Additionally, this work was supported by the Intramural Research Program of the Division of Cancer Epidemiology and Genetics of the National Cancer Institute.
 The content of this publication does not necessarily reflect the views or policies of the Department of Health and Human Services, nor does mention of trade names, commercial products or organizations imply endorsement by the U.S. Government.
 
@@ -1477,11 +1477,11 @@ Finally, we would like to thank Yuanchao Zhang and Eric Wafula for adding to the
 
 |Author|Contributions|
 |---|---|
-|Joshua A. Shapiro|Methodology, Software, Validation, Formal analysis, Investigation, Writing - Original draft, Writing - Review and editing, Visualization, Supervision, Funding acquisition|
+|Joshua A. Shapiro|Methodology, Software, Validation, Formal analysis, Investigation, Writing - Original draft, Writing - Review and editing, Visualization, Supervision|
 |Krutika S. Gaonkar|Data curation, Formal analysis, Investigation, Methodology, Software, Writing – Original draft, Writing - Review and editing|
-|Candace L. Savonen|Methodology, Software, Validation, Formal analysis, Investigation, Writing - Original draft, Writing - Review and editing, Visualization, Funding acquisition|
+|Candace L. Savonen|Methodology, Software, Validation, Formal analysis, Investigation, Writing - Original draft, Writing - Review and editing, Visualization|
 |Stephanie J. Spielman|Validation, Formal analysis, Writing - Review and editing, Visualization, Supervision, Funding acquisition|
-|Chante J. Bethell|Methodology, Validation, Formal analysis, Investigation, Writing - Original draft, Visualization, Funding acquisition|
+|Chante J. Bethell|Methodology, Validation, Formal analysis, Investigation, Writing - Original draft, Visualization|
 |Run Jin|Data curation, Formal analysis, Visualization, Writing – Original draft, Writing - Review and editing|
 |Komal S. Rathi|Formal analysis, Investigation, Methodology, Writing – Original draft|
 |Yuankun Zhu|Data curation, Formal analysis, Investigation, Methodology, Supervision|
@@ -1513,7 +1513,7 @@ Finally, we would like to thank Yuanchao Zhang and Eric Wafula for adding to the
 |Rishi Lulla|Conceptualization|
 |Miguel A. Brown|Data curation, Methodology, Formal analysis|
 |Jessica Wong|Writing – Original draft|
-|Jennifer Mason|Supervision|
+|Jennifer L. Mason|Supervision|
 |Laura Scolaro|Data curation|
 |Meen Chul Kim|Data curation|
 |Hongbo M. Xie|Methodology, Supervision|
@@ -1528,7 +1528,7 @@ Finally, we would like to thank Yuanchao Zhang and Eric Wafula for adding to the
 |Anna R. Poetsch|Formal analysis, Funding acquisition, Writing – Review and editing|
 |Angela N. Viaene|Investigation, Validation|
 |Douglas R. Stewart|Supervision, Writing - Review and editing|
-|Steven M. Foltz|Validation|
+|Steven M. Foltz|Validation, Funding acquisition|
 |Payal Jain|Data curation, Investigation, Validation|
 |Bo Zhang|Data curation, Formal analysis|
 |Shrivats Kannan|Formal analysis, Methodology, Writing – Original draft|
@@ -1538,10 +1538,13 @@ Finally, we would like to thank Yuanchao Zhang and Eric Wafula for adding to the
 |Adam C. Resnick|Conceptualization, Funding acquisition, Resources, Supervision|
 |Casey S. Greene|Conceptualization, Funding acquisition, Methodology, Project administration, Software, Supervision, Writing – Review & editing|
 |Jo Lynne Rokita|Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Methodology, Software, Supervision, Writing – Original draft, Writing - Review and editing|
-|Jaclyn N. Taroni|Methodology, Software, Validation, Formal analysis, Investigation, Data curation, Writing - Review and editing, Visualization, Supervision, Project administration, Funding acquisition|
+|Jaclyn N. Taroni|Methodology, Software, Validation, Formal analysis, Investigation, Data curation, Writing - Review and editing, Visualization, Supervision, Project administration|
 |Children's Brain Tumor Network|Conceptualization|
 |Pacific Pediatric Neuro-Oncology Consortium|Conceptualization|
 
+Except for the first and last four authors, authorship order was determined as follows: Authors who contributed to the OpenPBTA code base are listed based on number of modules included in the manuscript to which that individual contributed and, in the case of ties, a random order is used. All remaining authors are then listed in a random order.
+
+Code for determining authorship order can be found in the `count-contributions` module of the OpenPBTA analysis repository.
 
 ## Declarations of Interest
 

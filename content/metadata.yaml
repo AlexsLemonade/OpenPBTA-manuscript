@@ -25,7 +25,6 @@ authors:
   - Writing - Review and editing
   - Visualization
   - Supervision
-  - Funding acquisition
   affiliations: Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala
     Cynwyd, PA, USA
   funders: Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
@@ -62,7 +61,6 @@ authors:
   - Writing - Original draft
   - Writing - Review and editing
   - Visualization
-  - Funding acquisition
   affiliations:
   - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA,
     USA
@@ -100,7 +98,6 @@ authors:
   - Investigation
   - Writing - Original draft
   - Visualization
-  - Funding acquisition
   affiliations: Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala
     Cynwyd, PA, USA
   funders: Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
@@ -442,8 +439,8 @@ authors:
   - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
 - github: jenn0307
-  name: Jennifer Mason
-  initials: JM
+  name: Jennifer L. Mason
+  initials: JLM
   twitter: jenn0307
   email: masonjl@chop.edu
   contributions: Supervision
@@ -601,7 +598,9 @@ authors:
   initials: SMF
   email: steven.foltz@pennmedicine.upenn.edu
   orcid: 0000-0002-9526-8194
-  contributions: Validation
+  contributions:
+  - Validation
+  - Funding acquisition
   affiliations:
   - Department of Systems Pharmacology and Translational Therapeutics, University
     of Pennsylvania
@@ -761,7 +760,6 @@ authors:
   - Visualization
   - Supervision
   - Project administration
-  - Funding acquisition
 - name: Children's Brain Tumor Network
   contributions: Conceptualization
 - name: Pacific Pediatric Neuro-Oncology Consortium

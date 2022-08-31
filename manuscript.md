@@ -362,9 +362,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/eb8b903378187ad5ebdac7e3699cbe5d939edfe3/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/eb8b903378187ad5ebdac7e3699cbe5d939edfe3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/eb8b903378187ad5ebdac7e3699cbe5d939edfe3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/b02e6543301446bbe06d8b9a604352dcd610bcb5/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/b02e6543301446bbe06d8b9a604352dcd610bcb5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/b02e6543301446bbe06d8b9a604352dcd610bcb5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -386,9 +386,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/eb8b903378187ad5ebdac7e3699cbe5d939edfe3/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/b02e6543301446bbe06d8b9a604352dcd610bcb5/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@eb8b903](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/eb8b903378187ad5ebdac7e3699cbe5d939edfe3)
+from [AlexsLemonade/OpenPBTA-manuscript@b02e654](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/b02e6543301446bbe06d8b9a604352dcd610bcb5)
 on August 31, 2022.
 </em></small>
 
@@ -1118,14 +1118,15 @@ To leverage diverse scientific and analytical expertise to analyze the PBTA data
 We anticipated that a model of open collaboration would enhance the value of our effort to the pediatric brain tumor research community.
 Openly sharing data and code in real time allows others to build upon our work more rapidly, and publications that include data and code sharing may have a greater impact [@doi:10.1371/journal.pone.0000308; @doi:10.1371/journal.pcbi.1008867].
 Here, we present a comprehensive, collaborative, open genomic analysis of 1,043 tumors and 22 cell lines, comprised of 58 distinct brain tumor histologies from 943 patients.
-These analyses can be used to support the RACE Act in rational clinical trial design to include children with brain tumors.
+The data and containerized infrastructure of OpenPBTA have been instrumental for discovery and translational research studies [@doi:10.1016/j.celrep.2021.108917; @biorxiv:10.1101/2021.07.06.451385; @doi:10.1158/1078-0432.CCR-22-0803], are actively integrated into PNOC molecular tumor board decision-making, and are a foundational layer for the NCI's pediatric Molecular Targets Platform recently built in support of the RACE Act.
+We anticipate OpenPBTA will be an invaluable resource to the pediatric oncology community.
 
 
 ## Results
 
-### Crowd-sourced Somatic Analysis to create an Open Pediatric Brain Tumor Atlas
+### Crowd-sourced Somatic Analyses to Create an Open Pediatric Brain Tumor Atlas
 
-We previously performed whole genome sequencing (WGS), whole exome sequencing (WXS), and RNA sequencing (RNA-Seq) on matched tumor and normal tissues as well as selected cell lines from 943 patients from the Pediatric Brain Tumor Atlas (PBTA) [@doi:10.1093/neuonc/noz192], consisting of samples from the [Children’s Brain Tumor Network (CBTN)](https://CBTN.org) and the PNOC003 DMG clinical trial [@doi:10.1002/ijc.32258; @doi:10.1158/1078-0432.CCR-22-0803] of the Pacific Pediatric Neuro-Oncology Consortium (PNOC) (**Figure {@fig:Fig1}A**).
+We previously performed whole genome sequencing (WGS), whole exome sequencing (WXS), and RNA sequencing (RNA-Seq) on matched tumor and normal tissues as well as selected cell lines [@doi:10.1093/neuonc/noz192] from 943 patients from the Pediatric Brain Tumor Atlas (PBTA), consisting of samples from the [Children’s Brain Tumor Network (CBTN)](https://CBTN.org) and the PNOC003 DMG clinical trial [@doi:10.1002/ijc.32258; @doi:10.1158/1078-0432.CCR-22-0803] of the [Pacific Pediatric Neuro-Oncology Consortium (PNOC)](https://pnoc.us/) (**Figure {@fig:Fig1}A**).
 We then harnessed the benchmarking efforts of the Kids First Data Resource Center to develop robust and reproducible data analysis workflows within the CAVATICA platform to perform primary somatic analyses including calling of single nucleotide variants (SNVs), copy number variants (CNVs), structural variants (SVs), and gene fusions, often implementing multiple complementary methods  (**Figure {@fig:S1}**) and **STAR Methods**).
 
 To facilitate analysis and visualization of this large, diverse cohort, we further categorized tumor broad histologies (i.e., broad 2016 WHO classifications) into smaller groupings we denote "cancer groups."
@@ -1508,7 +1509,7 @@ Finally, we would like to thank Yuanchao Zhang and Eric Wafula for adding to the
 |Jung Kim|Investigation, Writing - Review and editing|
 |Derek Hanson|Validation|
 |Carl J. Koschmann|Conceptualization|
-|Sharon J. Diskin|Investigation, Supervision, Validation, Funding acquisition|
+|Sharon J. Diskin|Investigation, Supervision, Validation, Funding acquisition, Writing - Review and editing|
 |Rishi Lulla|Conceptualization|
 |Miguel A. Brown|Data curation, Methodology, Formal analysis|
 |Jessica Wong|Writing – Original draft|

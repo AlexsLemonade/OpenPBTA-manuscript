@@ -362,9 +362,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/b02e6543301446bbe06d8b9a604352dcd610bcb5/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/b02e6543301446bbe06d8b9a604352dcd610bcb5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/b02e6543301446bbe06d8b9a604352dcd610bcb5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/6099cc0ebb05c033058a2d2eabbf43bbcc285437/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/6099cc0ebb05c033058a2d2eabbf43bbcc285437/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/6099cc0ebb05c033058a2d2eabbf43bbcc285437/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -386,9 +386,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/b02e6543301446bbe06d8b9a604352dcd610bcb5/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/6099cc0ebb05c033058a2d2eabbf43bbcc285437/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@b02e654](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/b02e6543301446bbe06d8b9a604352dcd610bcb5)
+from [AlexsLemonade/OpenPBTA-manuscript@6099cc0](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/6099cc0ebb05c033058a2d2eabbf43bbcc285437)
 on August 31, 2022.
 </em></small>
 
@@ -1645,7 +1645,8 @@ Both tissue and cell pellets processes included a CHCl3 extraction and were run 
 Blood was thawed and treated with RNase A (cat#, 19101, Qiagen); 0.4-1ml was processed using the Qiagen QIAsymphony automated platform (Qiagen) using the QIAsymphony DSP DNA Midi Kit (cat# 937255, Qiagen).
 DNA and RNA quantity and quality was assessed by PerkinElmer DropletQuant UV-VIS spectrophotometer (PerkinElmer) and an Agilent 4200 TapeStation (Agilent, USA) for RIN and DIN (RNA Integrity Number and DNA Integrity Number, respectively).
 The NantHealth Sequencing Center, BGI at CHOP, or the Genomic Clinical Core at Sidra Medical and Research Center performed library preparation and sequencing.
-Briefly, DNA sequencing libraries were prepared for tumor and matched-normal DNA using the KAPA HyperPrep kit (cat# 08098107702, Roche), and tumor RNA-Seq libraries were prepared using KAPA Stranded RNA-Seq with RiboErase kit (cat# 07962304001, Roche).
+BGI at CHOP and Sidra Medical and Research Center used in house, center-specific workflows for sample preparation.
+At NantHealth Sequencing Center, DNA sequencing libraries were prepared for tumor and matched-normal DNA using the KAPA HyperPrep kit (cat# 08098107702, Roche), and tumor RNA-Seq libraries were prepared using KAPA Stranded RNA-Seq with RiboErase kit (cat# 07962304001, Roche).
 
 #### Data generation
 
@@ -1701,7 +1702,7 @@ This workflow is available in the [D3b GitHub repository](https://github.com/d3b
 ##### SNV and indel calling
 
 For PBTA samples, we used four variant callers to call SNVs and indels from panel, WXS, and WGS data: `Strelka2` [@doi:10.1038/s41592-018-0051-x], `Mutect2` [@biorxiv:10.1101/861054], `Lancet` [@doi:10.1038/s42003-018-0023-9], and `VarDictJava` [@doi:10.1093/nar/gkw227].
-`VarDictJava`-only calls were not retained since ~ 39M calls with low VAF were uniquely called and may be potential false positives.
+`VarDictJava`-only calls were not retained since ~ 39M calls with low VAF were uniquely called and may be potential false positives. (~1.2M calls were called by `Mutect2`, `Strelka2`, and `Lancet` and included consensus CNV calling as described below.)
 We used only `Strelka2`, `Mutect2` and `Lancet` to analyze WXS samples from TCGA.
 TCGA samples were captured using various WXS target capture kits and we downloaded the BED files from the [`GDC portal`](https://api.gdc.cancer.gov/files).
 The manufacturers provided the input interval BED files for both panel and WXS data for PBTA samples.

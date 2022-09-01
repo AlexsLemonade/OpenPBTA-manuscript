@@ -362,9 +362,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/922773ea5e66561bbdb981ce5bba8b3d9ff62bc5/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/922773ea5e66561bbdb981ce5bba8b3d9ff62bc5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/922773ea5e66561bbdb981ce5bba8b3d9ff62bc5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/eba461d915d1e2b24a85d88ae6d362d4d3f9a674/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/eba461d915d1e2b24a85d88ae6d362d4d3f9a674/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/eba461d915d1e2b24a85d88ae6d362d4d3f9a674/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -386,9 +386,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/922773ea5e66561bbdb981ce5bba8b3d9ff62bc5/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/eba461d915d1e2b24a85d88ae6d362d4d3f9a674/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@922773e](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/922773ea5e66561bbdb981ce5bba8b3d9ff62bc5)
+from [AlexsLemonade/OpenPBTA-manuscript@eba461d](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/eba461d915d1e2b24a85d88ae6d362d4d3f9a674)
 on September 1, 2022.
 </em></small>
 
@@ -1250,7 +1250,7 @@ Following SNV consensus calling (**Figure {@fig:S1}** and **Figure {@fig:S2}A-G*
 #### Low-grade gliomas
 As expected, the majority (62%, 140/227) of LGGs harbored a somatic alteration in _BRAF_, with canonical _BRAF::KIAA1549_ fusions as the major oncogenic driver [@doi:10.1186/s40478-020-00902-z] (**Figure {@fig:Fig2}A**). <!--SAMPLECOUNT-->
 We observed additional mutations in _FGFR1_ (2%), _PIK3CA_ (2%), _KRAS_ (2%), _TP53_ (1%), and _ATRX_ (1%) and fusions in _NTRK2_ (2%), _RAF1_ (2%), _MYB_ (1%), _QKI_ (1%), _ROS1_ (1%), and _FGFR2_ (1%), concordant with previous studies reporting the near universal upregulation of the RAS/MAPK pathway in these tumors resulting from activating mutations and/or oncogenic fusions [@doi:10.1186/s40478-020-00902-z; @doi:10.1016/j.ccell.2020.03.011].
-Indeed, we observed significant upregulation (ANOVA p < 0.01) of the KRAS signaling pathway in LGGs (**Figure {@fig:Fig5}B**).
+Indeed, we observed significant upregulation (ANOVA Bonferroni-corrected p < 0.01) of the KRAS signaling pathway in LGGs (**Figure {@fig:Fig5}B**).
 
 #### Embryonal tumors
  <!--SAMPLECOUNT-->
@@ -1298,7 +1298,7 @@ We also found evidence of chromothripsis in over 15% of sarcomas, PXAs, metastat
 We next assessed the contributions of eight previously identified adult CNS-specific mutational signatures from the RefSig database [@doi:10.1038/s43018-020-0027-5] across samples (**Figure {@fig:Fig3}E** and **Figure {@fig:S4}A**).
 Stage 0 and/or 1 tumors characterized by low TMBs (**Figure {@fig:S2}H**) such as pilocytic astrocytomas, gangliogliomas, other LGGs, and craniopharyngiomas, were dominated by Signature 1 (**Figure {@fig:S4}A**), which results from the normal process of spontaneous deamination of 5-methylcytosine.
 Signature N6 is a CNS-specific signature which we observed nearly universally across samples.
-Drivers of Signature 18, _TP53_, _APC_, _NOTCH1_ (found at https://signal.mutationalsignatures.com/explore/referenceCancerSignature/31/drivers), are also canonical drivers of medulloblastoma, and indeed, we observed Signature 18 as the most common signature in medulloblastoma tumors.
+Drivers of Signature 18, _TP53_, _APC_, _NOTCH1_ (found at https://signal.mutationalsignatures.com/explore/referenceCancerSignature/31/drivers), are also canonical drivers of medulloblastoma, and indeed, we observed Signature 18 as the signature with the highest weight in medulloblastoma tumors.
 Signatures 3, 8, 18, and MMR2 were prevalent in HGGs, including DMGs.
 Finally, we found that the Signature 1 weight was higher at diagnosis (pre-treatment) and was almost always lower in tumors at later phases of therapy (progression, recurrence, post-mortem, secondary malignancy; **Figure {@fig:S4}B**).
 This trend may have resulted from therapy-induced mutations that produced additional signatures (e.g., temozolomide treatment has been suggested to drive Signature 11 [@doi:10.1053/j.gastro.2014.07.052]), subclonal expansion, and/or acquisition of additional driver mutations during tumor progression, leading to higher overall TMBs and additional signatures.
@@ -1328,7 +1328,7 @@ Indeed, we observed higher scores in LFS tumors (N = 8) for which we detected hi
 Although we did not detect canonical somatic _TP53_ mutations in two patients whose tumors had low _TP53_ scores (BS_DEHJF4C7 with a score of 0.09 and BS_ZD5HN296 with a score of 0.28), we confirmed from pathology reports these patients were both diagnosed with LFS and had pathogenic germline variants in _TP53_.
 In addition, the tumor purity of these two LFS samples was low (16% and 37%, respectively), suggesting the classifier may require a certain level of tumor purity to achieve good performance, as we expect _TP53_ to be intact in normal cells.
 
-We next used gene expression data to predict telomerase activity using EXpression-based Telomerase ENzymatic activity Detection (`EXTEND`) [@doi:10.1038/s41467-020-20474-9] as a surrogate measure of malignant potential [@doi:10.1038/s41467-020-20474-9; @doi:10.1093/carcin/bgp268], such that higher `EXTEND` scores suggest increase malignant potential.
+We next used gene expression data to predict telomerase activity using EXpression-based Telomerase ENzymatic activity Detection (`EXTEND`) [@doi:10.1038/s41467-020-20474-9] as a surrogate measure of malignant potential [@doi:10.1038/s41467-020-20474-9; @doi:10.1093/carcin/bgp268], such that higher `EXTEND` scores suggest increased malignant potential.
 As expected, `EXTEND` scores significantly correlated with _TERC_ (R = 0.619, p < 0.01) and _TERT_ (R = 0.491, p < 0.01) expression (**Figure {@fig:S5}B-C**).
 We found aggressive tumors such as HGGs (DMGs and other high-grade gliomas) and MB had high `EXTEND` scores (**Figure {@fig:Fig4}D**), while benign lesions such as schwannomas, GNGs, DNETs, and other low-grade gliomas had among the lowest scores (**Table S3**).
 These findings support previous reports of a more aggressive phenotype in tumors with higher telomerase activity	[@doi:10.1007/s13277-016-5045-7; @doi:10.1038/labinvest.3700710; @doi:10.1007/s12032-016-0736-x; @doi:10.1111/j.1750-3639.2010.00372.x].
@@ -1346,7 +1346,7 @@ While we did not find a _known_ pathogenic variant in the germline of PT_VTM2STE
 This is not surprising since an estimated 49% of germline _PMS2_ variants in patients with CMMRD and/or Lynch syndrome are VUS [@doi:10.1136/jmedgenet-2020-107627].
 Interestingly, while the cell line derived from patient PT_VTM2STE3's tumor at progression was not hypermutated (TMB = 5.7 Mut/Mb), it solely showed the MMR2 signature of the eight CNS signatures examined, suggesting selective pressure to maintain a mismatch repair (MMR) phenotype _in vitro_.
 From patient PT_JNEV57VK, only one of the two cell lines derived from the progressive tumor was hypermutated (TMB = 35.9 Mut/Mb).
-This hypermutated cell line was strongly weighted towards signature 11, while this patient's non-hypermutated cell line showed a number of lesser signature weights (1, 11, 18, 19, MMR2), highlighting the plasticity of mutational processes and the need to carefully genomically characterize and select models for preclinical studies based on research objectives.
+This hypermutated cell line was strongly weighted towards signature 11, while this patient's non-hypermutated cell line showed a number of lesser signature weights (1, 11, 18, 19, MMR2; Table S2), highlighting the plasticity of mutational processes and the need to carefully genomically characterize and select models for preclinical studies based on research objectives.
 
 We observed that signature 18, which has been associated with high genomic instability and can lead to a hypermutator phenotype [@doi:10.1038/s43018-020-0027-5], was uniformly represented among hypermutant solid tumors.
 Additionally, we found that all of the HGG tumors or cell lines had dysfunctional _TP53_ (**Table {@tbl:Table2}**), consistent with a previous report showing _TP53_ dysregulation is a dependency in tumors with high genomic instability [@doi:10.1038/s43018-020-0027-5].
@@ -1373,7 +1373,7 @@ The mutual exclusivity of signatures 3 and MMR2 corroborates a previous report s
 Table: **Patients with hypermutant tumors.** Listed are patients with at least one hypermutant or ultra-hypermutant tumor or cell line. Pathogenic (P) or likely pathogenic (LP) germline variants, coding region TMB, phase of therapy, therapeutic interventions, cancer predisposition (CMMRD = Constitutional mismatch repair deficiency), and molecular subtypes are included. {#tbl:Table2}
 
 Next, we asked whether transcriptomic classification of _TP53_ dysregulation and/or telomerase activity recapitulate the known prognostic influence of these oncogenic biomarkers.
-To this end, we conducted a multivariate cox regression on overall survival (**Figure {@fig:Fig4}F**; **STAR Methods**), controlling for extent of tumor resection and whether a tumor was low-grade (LGG group) or high-grade (HGG group).
+To this end, we conducted a multivariate Cox regression on overall survival (**Figure {@fig:Fig4}F**; **STAR Methods**), controlling for extent of tumor resection and whether a tumor was low-grade (LGG group) or high-grade (HGG group).
 We identified several expected trends, including a significant overall survival benefit if the tumor had been fully resected (HR = 0.35, 95% CI = 0.2 - 0.62, p < 0.001) or if the tumor belonged to the LGG group (HR = 0.046, 95% CI = 0.0062 - 0.34, p = 0.003) as well as a significant risk if the tumor belonged to the HGG group (HR = 6.2, 95% CI = 4.0 - 9.5, p < 0.001).
 High telomerase scores were associated with poor prognosis across brain tumor histologies (HR = 20, 95% CI = 6.4 - 62, p < 0.001), demonstrating that `EXTEND` scores calculated from RNA-Seq are an effective rapid surrogate measure for telomerase activity.
 Although higher _TP53_ scores, which predict _TP53_ gene or pathway dysregulation, were not a significant predictor of risk across the entire OpenPBTA cohort (**Table S4**), we did find a significant survival risk associated with higher _TP53_ scores within DMGs (HR = 6436, 95% CI = 2.67 - 1.55e7, p = 0.03) and ependymomas (HR = 2003, 95% CI = 9.9 - 4.05e5, p = 0.005).
@@ -1793,7 +1793,7 @@ After collapsing gene identifiers, 46,400 uniquely-expressed genes remained in t
 
 ##### Gene fusion detection
 
-We set up `Arriba` [@doi:10.1101/gr.257246.119] and STAR-Fusion [@biorxiv:10.1101/120295] fusion detection tools using CWL on CAVATICA.
+We set up `Arriba` [@doi:10.1101/gr.257246.119] and `STAR-Fusion` [@biorxiv:10.1101/120295] fusion detection tools using CWL on CAVATICA.
 For both of these tools, we used aligned BAM and chimeric SAM files from `STAR` as inputs and `GRCh38_gencode_v27` GTF for gene annotation.
 We ran `STAR-Fusion` with default parameters and annotated all fusion calls with the `GRCh38_v27_CTAT_lib_Feb092018.plug-n-play.tar.gz` file from the `STAR-Fusion` release.
 For `Arriba`, we used a blacklist file `blacklist_hg38_GRCh38_2018-11-04.tsv.gz` from the `Arriba` release to remove recurrent fusion artifacts and transcripts present in healthy tissue.
@@ -1918,6 +1918,7 @@ High-grade glioma (HGG) subtypes were derived (`molecular-subtyping-HGG` analysi
 6. All other high-grade glioma samples that did not meet any of these criteria were subtyped as `HGG, H3 wildtype`.
 
 Embryonal tumors were included in non-MB and non-ATRT embryonal tumor subtyping (`molecular-subtyping-embryonal` analysis module) if they met any of the following criteria:
+
 1. A _TTYH1_ (5' partner) fusion was detected.
 2. A _MN1_ (5' partner) fusion was detected, with the exception of `MN1::PATZ1` since it is an entity separate of CNS HGNET-MN1 tumors [@doi:10.1111/nan.12626].
 3. Pathology diagnoses included "Supratentorial or Spinal Cord PNET" or "Embryonal Tumor with Multilayered Rosettes".
@@ -1938,6 +1939,7 @@ Neurocytoma subtypes central neurocytoma (CNC) and extraventricular neurocytoma 
 If the tumor's primary site was "ventricles," we assigned the subtype as CNC; otherwise, we assigned the subtype as EVN.
 
 Craniopharyngiomas (CRANIO) were subtyped (`molecular-subtyping-CRANIO` analysis module) into adamantinomatous (`CRANIO, ADAM`), papillary (`CRANIO, PAP`) or undetermined (`CRANIO, To be classified`) based on the following criteria [@doi:10.3171/jns.1995.83.2.0206; @doi:10.3171/jns.1998.89.4.0547]:
+
 1. Craniopharyngiomas from patients over 40 years old with a _BRAF_ p.V600E mutation were subtyped as `CRANIO, PAP`.
 2. Craniopharyngiomas from patients younger than 40 years old with mutations in exon 3 of _CTNNB1_ were subtyped as `CRANIO, ADAM`.
 3. Craniopharyngiomas that did not fall into the above two categories were subtyped as `CRANIO, To be classified`.
@@ -1945,6 +1947,7 @@ Craniopharyngiomas (CRANIO) were subtyped (`molecular-subtyping-CRANIO` analysis
 A molecular subtype of `EWS` was assigned to any tumor with a _EWSR1_ fusion or with a `pathology_diagnosis` of `Ewings Sarcoma` (`molecular-subtyping-EWS` analysis module).
 
 Low-grade gliomas (LGG) or glialneuronal tumors (GNT) were subtyped (`molecular-subtyping-LGAT` analysis module). based on SNV, fusion and CNV status based on @doi:10.1016/j.ccell.2020.03.011, and as described below.
+
 1. If a sample contained a _NF1_ somatic mutation, either nonsense or missense, it was subtyped as `LGG, NF1-somatic`.
 2. If a sample contained _NF1_ germline mutation, as indicated by a patient having the neurofibromatosis  cancer predisposition, it was subtyped as `LGG, NF1-germline`.
 3. If a sample contained the _IDH_ p.R132 mutation, it was subtyped as `LGG, IDH`.

@@ -28,7 +28,7 @@ cgreene
 Chante
 CHB
 CHCl
-chr
+Chr
 Chul
 cjbethell
 CLDN
@@ -94,7 +94,6 @@ liberaliscomputing
 Lurie
 Madsen
 MAML
-Mawla
 Meen
 MEK
 MGMT

@@ -362,9 +362,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/494551e811512b89d36fa41f98e9e0018c88e99c/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/494551e811512b89d36fa41f98e9e0018c88e99c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/494551e811512b89d36fa41f98e9e0018c88e99c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/922773ea5e66561bbdb981ce5bba8b3d9ff62bc5/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/922773ea5e66561bbdb981ce5bba8b3d9ff62bc5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/922773ea5e66561bbdb981ce5bba8b3d9ff62bc5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -386,9 +386,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/494551e811512b89d36fa41f98e9e0018c88e99c/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/922773ea5e66561bbdb981ce5bba8b3d9ff62bc5/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@494551e](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/494551e811512b89d36fa41f98e9e0018c88e99c)
+from [AlexsLemonade/OpenPBTA-manuscript@922773e](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/922773ea5e66561bbdb981ce5bba8b3d9ff62bc5)
 on September 1, 2022.
 </em></small>
 
@@ -1127,7 +1127,7 @@ We anticipate OpenPBTA will be an invaluable resource to the pediatric oncology 
 ### Crowd-sourced Somatic Analyses to Create an Open Pediatric Brain Tumor Atlas
 
 We previously performed whole genome sequencing (WGS), whole exome sequencing (WXS), and RNA sequencing (RNA-Seq) on matched tumor and normal tissues as well as selected cell lines [@doi:10.1093/neuonc/noz192] from 943 patients from the Pediatric Brain Tumor Atlas (PBTA), consisting of samples from the [Children’s Brain Tumor Network (CBTN)](https://CBTN.org) and the PNOC003 DMG clinical trial [@doi:10.1002/ijc.32258; @doi:10.1158/1078-0432.CCR-22-0803] of the [Pacific Pediatric Neuro-Oncology Consortium (PNOC)](https://pnoc.us/) (**Figure {@fig:Fig1}A**).
-We then harnessed the benchmarking efforts of the Kids First Data Resource Center to develop robust and reproducible data analysis workflows within the CAVATICA platform to perform primary somatic analyses including calling of single nucleotide variants (SNVs), copy number variants (CNVs), structural variants (SVs), and gene fusions, often implementing multiple complementary methods  (**Figure {@fig:S1}**) and **STAR Methods**).
+We then harnessed the benchmarking efforts of the [Gabriella Miller Kids First Data Resource Center](https://kidsfirstdrc.org/) to develop robust and reproducible data analysis workflows within the CAVATICA platform to perform primary somatic analyses including calling of single nucleotide variants (SNVs), copy number variants (CNVs), structural variants (SVs), and gene fusions, often implementing multiple complementary methods  (**Figure {@fig:S1}**) and **STAR Methods**).
 
 To facilitate analysis and visualization of this large, diverse cohort, we further categorized tumor broad histologies (i.e., broad 2016 WHO classifications) into smaller groupings we denote "cancer groups."
 A summarized view of the number of biospecimens per phase of therapy across different broad histologies and cancer groups is shown in (**Figure {@fig:Fig1}B**).
@@ -1291,7 +1291,7 @@ This trend recapitulates previous observations that _TP53_ and _PPM1D_ mutations
 We summarized broad CNV and SV and observed that HGGs and DMGs, followed by medulloblastomas, had the most unstable genomes (**Figure {@fig:S3}B**).
 By contrast, craniopharyngiomas and schwannomas generally lacked somatic CNV.
 Together, these CNV patterns largely aligned with our estimates of tumor mutational burden (**Figure {@fig:S2}H**).
-The number of SV and CNV breakpoints were significantly correlated across tumors (p = 1.08e-37) (**Figure {@fig:Fig3}C**) and as expected, the number of chromothripsis regions called increased as breakpoint density increased (**Figure {@fig:S3}B-C**).
+The breakpoint density estimated from SV and CNV data was significantly correlated across tumors (p = 1.08e-37) (**Figure {@fig:Fig3}C**) and as expected, the number of chromothripsis regions called increased as breakpoint density increased (**Figure {@fig:S3}B-C**).
 We identified chromothripsis events in 28% (N = 11/39) of diffuse midline gliomas and in 40% (N = 19/48) of other HGGs (non-midline HGGs) (**Figure {@fig:Fig3}D**).
 We also found evidence of chromothripsis in over 15% of sarcomas, PXAs, metastatic secondary tumors, chordomas, glial-neuronal tumors, germinomas, meningiomas, ependymomas, medulloblastomas, ATRTs, and other embryonal tumors, highlighting the genomic instability and complexity of these pediatric brain tumors.
 
@@ -1836,7 +1836,7 @@ We plotted genome-wide gains and losses in (**Figure {@fig:S3}B**) using the R p
 #### Chromothripsis Analysis (WGS samples only; `chromothripsis` analysis module)
 
 Considering only chromosomes 1-22 and X, we identified candidate chromothripsis regions in the set of independent tumor WGS samples with ShatterSeek [@doi:10.1038/s41588-019-0576-7], using Manta SV calls that passed all filters and consensus CNV calls.
-We modified the consensus CNV data to fit `ShatterSeek` input requirements as follows to set CNV-neutral or excluded regions as the respective sample’s ploidy value from `Control-FREEC`, and we then merged consecutive segments with the same copy number value.
+We modified the consensus CNV data to fit `ShatterSeek` input requirements as follows: we set CNV-neutral or excluded regions as the respective sample’s ploidy value from `Control-FREEC`, and we then merged consecutive segments with the same copy number value.
 We classified candidate chromothripsis regions as high- or low-confidence using the statistical criteria described by the `ShatterSeek` authors.
 
 ##### Immune Profiling and Deconvolution (`immune-deconv` analysis module)

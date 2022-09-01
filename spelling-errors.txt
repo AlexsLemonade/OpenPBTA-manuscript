@@ -115,7 +115,7 @@ orf
 PDGFRA
 petermadsenmd
 PHG
-PichaiRaman
+pichairaman
 PIK
 Poetsch
 QAH

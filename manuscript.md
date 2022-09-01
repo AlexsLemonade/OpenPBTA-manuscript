@@ -362,9 +362,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/58068ebaa5c530dc255c63c28916c09e22319fe5/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/58068ebaa5c530dc255c63c28916c09e22319fe5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/58068ebaa5c530dc255c63c28916c09e22319fe5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/494551e811512b89d36fa41f98e9e0018c88e99c/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/494551e811512b89d36fa41f98e9e0018c88e99c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/494551e811512b89d36fa41f98e9e0018c88e99c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -386,9 +386,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/58068ebaa5c530dc255c63c28916c09e22319fe5/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/494551e811512b89d36fa41f98e9e0018c88e99c/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@58068eb](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/58068ebaa5c530dc255c63c28916c09e22319fe5)
+from [AlexsLemonade/OpenPBTA-manuscript@494551e](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/494551e811512b89d36fa41f98e9e0018c88e99c)
 on September 1, 2022.
 </em></small>
 
@@ -1471,7 +1471,7 @@ Additionally, this work was supported by the Intramural Research Program of the 
 The content of this publication does not necessarily reflect the views or policies of the Department of Health and Human Services, nor does mention of trade names, commercial products or organizations imply endorsement by the U.S. Government.
 
 The authors would like to thank the following collaborators who contributed or supervised analyses present in the analysis repository that were not included in the manuscript: William Amadio, Holly C. Beale, Ellen T. Kephart, A. Geoffrey Lyle, and Olena M. Vaske.
-Finally, we would like to thank Yuanchao Zhang and Eric Wafula for adding to the project codebase and Jessica B. Foster for helpful discussions while drafting the manuscript.
+Finally, we would like to thank Yuanchao Zhang and Eric Wafula for adding to the project codebase, Jessica B. Foster for helpful discussions while drafting the manuscript, and Gina D. Mawla for identifying and reporting issues in OpenPBTA data.
 
 ## Author Contributions
 

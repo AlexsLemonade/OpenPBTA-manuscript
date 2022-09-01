@@ -28,7 +28,7 @@ cgreene
 Chante
 CHB
 CHCl
-Chr
+chr
 Chul
 cjbethell
 CLDN
@@ -94,6 +94,7 @@ liberaliscomputing
 Lurie
 Madsen
 MAML
+Mawla
 Meen
 MEK
 MGMT
@@ -114,7 +115,7 @@ orf
 PDGFRA
 petermadsenmd
 PHG
-pichairaman
+PichaiRaman
 PIK
 Poetsch
 QAH

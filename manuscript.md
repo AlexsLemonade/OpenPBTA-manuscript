@@ -9,7 +9,7 @@ keywords:
 - classification
 - somatic variation
 lang: en-US
-date-meta: '2022-09-01'
+date-meta: '2022-09-02'
 author-meta:
 - Joshua A. Shapiro
 - Krutika S. Gaonkar
@@ -85,8 +85,8 @@ header-includes: |-
   <meta name="citation_title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="og:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="twitter:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
-  <meta name="dc.date" content="2022-09-01" />
-  <meta name="citation_publication_date" content="2022-09-01" />
+  <meta name="dc.date" content="2022-09-02" />
+  <meta name="citation_publication_date" content="2022-09-02" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -362,9 +362,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/eba461d915d1e2b24a85d88ae6d362d4d3f9a674/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/eba461d915d1e2b24a85d88ae6d362d4d3f9a674/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/eba461d915d1e2b24a85d88ae6d362d4d3f9a674/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1902f7a44a60d7e768840e69ac0e806875a53459/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1902f7a44a60d7e768840e69ac0e806875a53459/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1902f7a44a60d7e768840e69ac0e806875a53459/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -386,10 +386,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/eba461d915d1e2b24a85d88ae6d362d4d3f9a674/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1902f7a44a60d7e768840e69ac0e806875a53459/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@eba461d](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/eba461d915d1e2b24a85d88ae6d362d4d3f9a674)
-on September 1, 2022.
+from [AlexsLemonade/OpenPBTA-manuscript@1902f7a](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/1902f7a44a60d7e768840e69ac0e806875a53459)
+on September 2, 2022.
 </em></small>
 
 ## Authors
@@ -2043,7 +2043,7 @@ Next, we used multivariate Cox (proportional hazards) regression analysis [@doi:
 
 ### KEY RESOURCES TABLE
 
-| REAGENT or RESOURCE                           | SOURCE                                                       | IDENTIFIER                                                                                                    |   |
+| REAGENT or RESOURCE                           | SOURCE                                                       | IDENTIFIER                                                                                                    |
 |-----------------------------------------------|--------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Critical commercial assays                    |                                                              |                                                                                                               |
 | Recover Cell Culture Freezing media           | Gibco                                                        | 12648010                                                                                                      |
@@ -2079,7 +2079,7 @@ Next, we used multivariate Cox (proportional hazards) regression analysis [@doi:
 | Software and algorithms                       |                                                              |                                                                                                               |
 | Data processing and analysis software         | Multiple                                                     | See **Table S5** for identifiers                                                                              |
 | OpenPBTA workflows repository                 | this project                                                 | [@doi:10.5281/zenodo.6968175]                                                                                 |
-| OpenPBTA analysis repository                  | this project                                                 |                                                                                                               |
+| OpenPBTA analysis repository                  | this project                                                 | [@doi:10.5281/zenodo.7044567]                                                                                                           |
 | OpenPBTA manuscript repository                | this project                                                 |                                                                                                               |
 |                                               |                                                              |                                                                                                               |
 | Other                                         |                                                              |                                                                                                               |

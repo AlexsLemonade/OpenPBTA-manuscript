@@ -362,9 +362,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/01783fa2c40c86acc6513642e9b85095696d3010/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/01783fa2c40c86acc6513642e9b85095696d3010/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/01783fa2c40c86acc6513642e9b85095696d3010/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/81969e5cefdd5c6b7a4ccecf19baa3d8cfb4ccc1/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/81969e5cefdd5c6b7a4ccecf19baa3d8cfb4ccc1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/81969e5cefdd5c6b7a4ccecf19baa3d8cfb4ccc1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -386,9 +386,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/01783fa2c40c86acc6513642e9b85095696d3010/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/81969e5cefdd5c6b7a4ccecf19baa3d8cfb4ccc1/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@01783fa](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/01783fa2c40c86acc6513642e9b85095696d3010)
+from [AlexsLemonade/OpenPBTA-manuscript@81969e5](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/81969e5cefdd5c6b7a4ccecf19baa3d8cfb4ccc1)
 on September 5, 2022.
 </em></small>
 

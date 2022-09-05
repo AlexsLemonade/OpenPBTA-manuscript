@@ -9,7 +9,7 @@ keywords:
 - classification
 - somatic variation
 lang: en-US
-date-meta: '2022-09-02'
+date-meta: '2022-09-05'
 author-meta:
 - Joshua A. Shapiro
 - Krutika S. Gaonkar
@@ -20,7 +20,7 @@ author-meta:
 - Komal S. Rathi
 - Yuankun Zhu
 - Laura E. Egolf
-- Bailey Farrow
+- Bailey K. Farrow
 - Daniel P. Miller
 - Yang Yang
 - Tejaswi Koganti
@@ -51,7 +51,7 @@ author-meta:
 - Laura Scolaro
 - Meen Chul Kim
 - Hongbo M. Xie
-- Brian Rood
+- Brian R. Rood
 - Kristina A. Cole
 - Ashley S. Margol
 - Zalman Vaksman
@@ -66,7 +66,7 @@ author-meta:
 - Payal Jain
 - Bo Zhang
 - Shrivats Kannan
-- Mike Prados
+- Michael Prados
 - Jena V. Lilly
 - Sabine Mueller
 - Adam C. Resnick
@@ -85,8 +85,8 @@ header-includes: |-
   <meta name="citation_title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="og:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="twitter:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
-  <meta name="dc.date" content="2022-09-02" />
-  <meta name="citation_publication_date" content="2022-09-02" />
+  <meta name="dc.date" content="2022-09-05" />
+  <meta name="citation_publication_date" content="2022-09-05" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -137,7 +137,7 @@ header-includes: |-
   <meta name="citation_author_institution" content="Division of Oncology, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0002-7103-4801" />
   <meta name="twitter:creator" content="@LauraEgolf" />
-  <meta name="citation_author" content="Bailey Farrow" />
+  <meta name="citation_author" content="Bailey K. Farrow" />
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0001-6727-6333" />
@@ -224,7 +224,7 @@ header-includes: |-
   <meta name="citation_author_institution" content="Hackensack University Medical Center" />
   <meta name="citation_author_orcid" content="0000-0002-0024-5142" />
   <meta name="citation_author" content="Carl J. Koschmann" />
-  <meta name="citation_author_institution" content="Department of Pediatrics, University of Michigan Heath, Ann Arbor, MI" />
+  <meta name="citation_author_institution" content="Department of Pediatrics, University of Michigan Health, Ann Arbor, MI" />
   <meta name="citation_author_institution" content="Pediatric Hematology Oncology, Mott Children&#39;s Hospital, Ann Arbor, MI" />
   <meta name="citation_author_orcid" content="0000-0002-0825-7615" />
   <meta name="citation_author" content="Sharon J. Diskin" />
@@ -233,7 +233,7 @@ header-includes: |-
   <meta name="citation_author_orcid" content="0000-0002-7200-8939" />
   <meta name="twitter:creator" content="@sjdiskin" />
   <meta name="citation_author" content="Rishi R. Lulla" />
-  <meta name="citation_author_institution" content="Division of Hematology/Oncology, Hasbro Children’s Hospital" />
+  <meta name="citation_author_institution" content="Division of Hematology/Oncology, Hasbro Children&#39;s Hospital" />
   <meta name="citation_author_institution" content="Department of Pediatrics, The Warren Alpert School of Brown University, Providence, Rhode Island" />
   <meta name="citation_author_orcid" content="0000-0003-4109-2207" />
   <meta name="citation_author" content="Miguel A. Brown" />
@@ -260,16 +260,16 @@ header-includes: |-
   <meta name="citation_author_institution" content="Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0003-2223-0029" />
   <meta name="twitter:creator" content="@xiehb" />
-  <meta name="citation_author" content="Brian Rood" />
+  <meta name="citation_author" content="Brian R. Rood" />
   <meta name="citation_author_institution" content="Children&#39;s National Research Institute, Washington, D.C." />
   <meta name="citation_author_institution" content="George Washington University School of Medicine and Health Sciences, Washington, D.C." />
   <meta name="citation_author" content="Kristina A. Cole" />
-  <meta name="citation_author_institution" content="Division of Oncology, Children’s Hospital of Philadelphia, Philadelphia, PA" />
+  <meta name="citation_author_institution" content="Division of Oncology, Children&#39;s Hospital of Philadelphia, Philadelphia, PA" />
   <meta name="citation_author_institution" content="Department of Pediatrics, University of Pennsylvania, Philadelphia, PA" />
   <meta name="citation_author_institution" content="Abramson Family Cancer Research Institute, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, PA" />
   <meta name="citation_author_orcid" content="0000-0003-0064-2882" />
   <meta name="citation_author" content="Ashley S. Margol" />
-  <meta name="citation_author_institution" content="Division of Hematology and Oncology, Children’s Hospital Los Angeles" />
+  <meta name="citation_author_institution" content="Division of Hematology and Oncology, Children&#39;s Hospital Los Angeles" />
   <meta name="citation_author_institution" content="Department of Pediatrics, Keck School of Medicine of University of Southern California" />
   <meta name="citation_author_orcid" content="0000-0002-3038-8005" />
   <meta name="citation_author" content="Zalman Vaksman" />
@@ -288,7 +288,7 @@ header-includes: |-
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0002-2653-5009" />
   <meta name="citation_author" content="Mariarita Santi" />
-  <meta name="citation_author_institution" content="Department of Pathology and Laboratory Medicine, Children’s Hospital of Philadelphia" />
+  <meta name="citation_author_institution" content="Department of Pathology and Laboratory Medicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman School of Medicine" />
   <meta name="citation_author_orcid" content="0000-0002-6728-3450" />
   <meta name="citation_author" content="Anna R. Poetsch" />
@@ -297,7 +297,7 @@ header-includes: |-
   <meta name="citation_author_orcid" content="0000-0003-3056-4360" />
   <meta name="twitter:creator" content="@APoetsch" />
   <meta name="citation_author" content="Angela N. Viaene" />
-  <meta name="citation_author_institution" content="Department of Pathology and Laboratory Medicine, Children’s Hospital of Philadelphia" />
+  <meta name="citation_author_institution" content="Department of Pathology and Laboratory Medicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman School of Medicine" />
   <meta name="citation_author_orcid" content="0000-0001-6430-8360" />
   <meta name="citation_author" content="Douglas R. Stewart" />
@@ -321,7 +321,7 @@ header-includes: |-
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0002-1460-920X" />
   <meta name="twitter:creator" content="@kshrivats" />
-  <meta name="citation_author" content="Mike Prados" />
+  <meta name="citation_author" content="Michael Prados" />
   <meta name="citation_author_institution" content="University of California, San Francisco, San Francisco, CA, USA" />
   <meta name="citation_author_orcid" content="0000-0002-9630-2075" />
   <meta name="citation_author" content="Jena V. Lilly" />
@@ -362,9 +362,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1902f7a44a60d7e768840e69ac0e806875a53459/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1902f7a44a60d7e768840e69ac0e806875a53459/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1902f7a44a60d7e768840e69ac0e806875a53459/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/01783fa2c40c86acc6513642e9b85095696d3010/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/01783fa2c40c86acc6513642e9b85095696d3010/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/01783fa2c40c86acc6513642e9b85095696d3010/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -386,10 +386,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1902f7a44a60d7e768840e69ac0e806875a53459/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/01783fa2c40c86acc6513642e9b85095696d3010/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@1902f7a](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/1902f7a44a60d7e768840e69ac0e806875a53459)
-on September 2, 2022.
+from [AlexsLemonade/OpenPBTA-manuscript@01783fa](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/01783fa2c40c86acc6513642e9b85095696d3010)
+on September 5, 2022.
 </em></small>
 
 ## Authors
@@ -508,7 +508,7 @@ on September 2, 2022.
      Cell and Molecular Biology Graduate Group, Perelman School of Medicine at the University of Pennsylvania; Division of Oncology, Children's Hospital of Philadelphia
   </small>
 
-+ **Bailey Farrow**
++ **Bailey K. Farrow**
   <br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0001-6727-6333](https://orcid.org/0000-0001-6727-6333)
@@ -730,7 +730,7 @@ on September 2, 2022.
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-0825-7615](https://orcid.org/0000-0002-0825-7615)<br>
   <small>
-     Department of Pediatrics, University of Michigan Heath, Ann Arbor, MI; Pediatric Hematology Oncology, Mott Children's Hospital, Ann Arbor, MI
+     Department of Pediatrics, University of Michigan Health, Ann Arbor, MI; Pediatric Hematology Oncology, Mott Children's Hospital, Ann Arbor, MI
   </small>
 
 + **Sharon J. Diskin**
@@ -750,7 +750,7 @@ on September 2, 2022.
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0003-4109-2207](https://orcid.org/0000-0003-4109-2207)<br>
   <small>
-     Division of Hematology/Oncology, Hasbro Children’s Hospital; Department of Pediatrics, The Warren Alpert School of Brown University, Providence, Rhode Island
+     Division of Hematology/Oncology, Hasbro Children's Hospital; Department of Pediatrics, The Warren Alpert School of Brown University, Providence, Rhode Island
   </small>
 
 + **Miguel A. Brown**
@@ -815,7 +815,7 @@ on September 2, 2022.
      Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
   </small>
 
-+ **Brian Rood**
++ **Brian R. Rood**
   <br><br>
   <small>
      Children's National Research Institute, Washington, D.C.; George Washington University School of Medicine and Health Sciences, Washington, D.C.
@@ -826,7 +826,7 @@ on September 2, 2022.
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0003-0064-2882](https://orcid.org/0000-0003-0064-2882)<br>
   <small>
-     Division of Oncology, Children’s Hospital of Philadelphia, Philadelphia, PA; Department of Pediatrics, University of Pennsylvania, Philadelphia, PA; Abramson Family Cancer Research Institute, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, PA
+     Division of Oncology, Children's Hospital of Philadelphia, Philadelphia, PA; Department of Pediatrics, University of Pennsylvania, Philadelphia, PA; Abramson Family Cancer Research Institute, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, PA
   </small>
 
 + **Ashley S. Margol**
@@ -834,7 +834,7 @@ on September 2, 2022.
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-3038-8005](https://orcid.org/0000-0002-3038-8005)<br>
   <small>
-     Division of Hematology and Oncology, Children’s Hospital Los Angeles; Department of Pediatrics, Keck School of Medicine of University of Southern California
+     Division of Hematology and Oncology, Children's Hospital Los Angeles; Department of Pediatrics, Keck School of Medicine of University of Southern California
   </small>
 
 + **Zalman Vaksman**
@@ -881,7 +881,7 @@ on September 2, 2022.
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-6728-3450](https://orcid.org/0000-0002-6728-3450)<br>
   <small>
-     Department of Pathology and Laboratory Medicine, Children’s Hospital of Philadelphia; Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman School of Medicine
+     Department of Pathology and Laboratory Medicine, Children's Hospital of Philadelphia; Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman School of Medicine
   </small>
 
 + **Anna R. Poetsch**
@@ -902,7 +902,7 @@ on September 2, 2022.
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0001-6430-8360](https://orcid.org/0000-0001-6430-8360)<br>
   <small>
-     Department of Pathology and Laboratory Medicine, Children’s Hospital of Philadelphia; Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman School of Medicine
+     Department of Pathology and Laboratory Medicine, Children's Hospital of Philadelphia; Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman School of Medicine
   </small>
 
 + **Douglas R. Stewart**
@@ -958,7 +958,7 @@ on September 2, 2022.
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
-+ **Mike Prados**
++ **Michael Prados**
   <br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-9630-2075](https://orcid.org/0000-0002-9630-2075)<br>
@@ -1486,7 +1486,7 @@ Finally, we would like to thank Yuanchao Zhang and Eric Wafula for adding to the
 |Komal S. Rathi|Formal analysis, Investigation, Methodology, Writing – Original draft|
 |Yuankun Zhu|Data curation, Formal analysis, Investigation, Methodology, Supervision|
 |Laura E. Egolf|Formal analysis, Writing - Original draft|
-|Bailey Farrow|Data curation, Software|
+|Bailey K. Farrow|Data curation, Software|
 |Daniel P. Miller|Formal analysis|
 |Yang Yang|Formal analysis, Software|
 |Tejaswi Koganti|Formal analysis, Investigation|
@@ -1517,7 +1517,7 @@ Finally, we would like to thank Yuanchao Zhang and Eric Wafula for adding to the
 |Laura Scolaro|Data curation|
 |Meen Chul Kim|Data curation|
 |Hongbo M. Xie|Methodology, Supervision|
-|Brian Rood|Conceptualization|
+|Brian R. Rood|Conceptualization|
 |Kristina A. Cole|Writing - Review and editing|
 |Ashley S. Margol|Writing - Review and editing|
 |Zalman Vaksman|Formal analysis, Investigation|
@@ -1532,7 +1532,7 @@ Finally, we would like to thank Yuanchao Zhang and Eric Wafula for adding to the
 |Payal Jain|Data curation, Investigation, Validation|
 |Bo Zhang|Data curation, Formal analysis|
 |Shrivats Kannan|Formal analysis, Methodology, Writing – Original draft|
-|Mike Prados|Conceptualization|
+|Michael Prados|Conceptualization|
 |Jena V. Lilly|Conceptualization, Funding acquisition, Project administration|
 |Sabine Mueller|Conceptualization|
 |Adam C. Resnick|Conceptualization, Funding acquisition, Resources, Supervision|
@@ -2130,7 +2130,7 @@ Note that all software in the OpenPBTA Docker image was utilized within the anal
 
 ## Consortia
 
-The past and present members of the Children's Brain Tumor Network who contributed to the generation of specimens and data are Adam C. Resnick, Alexa Plisiewicz, Allison M. Morgan, Allison P. Heath, Alyssa Paul, Amanda Saratsis, Amy Smith, Ana Aguilar, Ana Guerreiro Stücklin, Anastasia Arynchyna, Andrea Franson, Angela J. Waanders, Angela N. Viaene, Anita Nirenberg, Anna Maria Buccoliero, Anna Yaffe, Anny Shai, Anthony Bet, Antoinette Price, Arlene Luther, Ashley Plant, Augustine Eze, Bailey C. Farrow, Baoli Hu, Beth Frenkel, Bo Zhang, Bobby Moulder, Bonnie Cole, Brian M. Ennis, Brian R. Rood, Brittany Lebert, Carina A. Leonard, Carl Koschmann, Caroline Caudill, Caroline Drinkwater, Cassie N. Kline, Catherine Sullivan, Chanel Keoni, Chiara Caporalini, Christine Bobick-Butcher, Christopher Mason, Chunde Li, Claire Carter, Claudia MaduroCoronado, Clayton Wiley, Cynthia Wong, David E. Kram, David Haussler, David Kram, David Pisapia, David Ziegler, Denise Morinigo, Derek Hanson, Donald W. Parsons, Elizabeth Appert, Emily Drake, Emily Golbeck, Ena Agbodza, Eric H. Raabe, Eric M. Jackson, Erin Alexander, Esteban Uceda, Eugene Hwang, Fausto Rodriquez, Gabrielle S. Stone, Gary Kohanbash, Gavriella Silverman, George Rafidi, Gerald Grant, Gerri Trooskin, Gilad Evrony, Graham Keyes, Hagop Boyajian, Holly B. Lindsay, Holly C. Beale, Ian F. Pollack, James Johnston, James Palmer, Jane Minturn, Jared Pisapia, Jason E. Cain, Jason R. Fangusaro, Javad Nazarian, Jeanette Haugh, Jeff Stevens, Jeffrey P. Greenfield, Jeffrey Rubens, Jena V. Lilly, Jennifer L. Mason, Jessica B. Foster, Jim Olson, Jo Lynne Rokita, Joanna J. Phillips, Jonathan Waller, Josh Rubin, Judy E. Palma, Justin McCroskey, Justine Rizzo, Kaitlin Lehmann, Kamnaa Arya, Karlene Hall, Katherine Pehlivan, Kenneth Seidl, Kimberly Diamond, Kristen Harnett, Kristina A. Cole, Krutika S. Gaonkar, Lamiya Tauhid, Laura Prolo, Leah Holloway, Leslie Brosig, Lina Lopez, Lionel Chow, Madhuri Kambhampati, Mahdi Sarmady, Margaret Nevins, Mari Groves, Mariarita Santi-Vicini, Marilyn M. Li, Marion Mateos, Mateusz Koptyra, Matija Snuderl, Matthew Miller, Matthew Sklar, Matthew Wood, Meghan Connors, Melissa Williams, Meredith Egan, Michael Fisher, Michael Koldobskiy, Michelle Monje, Migdalia Martinez, Miguel A. Brown, Mike Prados, Miriam Bornhorst, Mirko Scagnet, Mohamed AbdelBaki, Monique Carrero-Tagle, Nadia Dahmane, Nalin Gupta, Nathan Young, Nicholas A. Vitanza, Nicholas Tassone, Nicholas Van Kuren, Nicolas Gerber, Nithin D. Adappa, Nitin Wadhwani, Noel Coleman, Obi Obayashi, Olena M. Vaske, Olivier Elemento, Oren Becher, Philbert Oliveros, Phillip B. Storm, Pichai Raman, Prajwal Rajappa, Rintaro Hashizume, Rishi R. Lulla, Robert Keating, Robert M. Lober, Ron Firestein, Sabine Mueller, Sameer Agnihotri, Samuel G. Winebrake, Samuel Rivero-Hinojosa, Sarah Diane Black, Sarah Leary, Schuyler Stoller, Shannon Robins, Sharon Gardner, Shelly Wang, Sherri Mayans, Sherry Tutson, Shida Zhu, Sofie R. Salama, Sonia Partap, Sonika Dahiya, Sriram Venneti, Stacie Stapleton, Stephani Campion, Stephanie Stefankiewicz, Stewart Goldman, Swetha Thambireddy, Tatiana S. Patton, Teresa Hidalgo, Theo Nicolaides, Thinh Q. Nguyen, Thomas W. McLean, Tiffany Walker, Toba Niazi, Tobey MacDonald, Valeria Lopez-Gil, Valerie Baubet, Whitney Rife, Xiao-Nan Li, Ximena Cuellar, Yiran Guo, Yuankun Zhu, and Zeinab Helil.
+The past and present members of the Children's Brain Tumor Network who contributed to the generation of specimens and data are Adam C. Resnick, Alexa Plisiewicz, Allison M. Morgan, Allison P. Heath, Alyssa Paul, Amanda Saratsis, Amy Smith, Ana Aguilar, Ana Guerreiro Stücklin, Anastasia Arynchyna, Andrea Franson, Angela J. Waanders, Angela N. Viaene, Anita Nirenberg, Anna Maria Buccoliero, Anna Yaffe, Anny Shai, Anthony Bet, Antoinette Price, Arlene Luther, Ashley Plant, Augustine Eze, Bailey K. Farrow, Baoli Hu, Beth Frenkel, Bo Zhang, Bobby Moulder, Bonnie Cole, Brian M. Ennis, Brian R. Rood, Brittany Lebert, Carina A. Leonard, Carl Koschmann, Caroline Caudill, Caroline Drinkwater, Cassie N. Kline, Catherine Sullivan, Chanel Keoni, Chiara Caporalini, Christine Bobick-Butcher, Christopher Mason, Chunde Li, Claire Carter, Claudia MaduroCoronado, Clayton Wiley, Cynthia Wong, David E. Kram, David Haussler, David Kram, David Pisapia, David Ziegler, Denise Morinigo, Derek Hanson, Donald W. Parsons, Elizabeth Appert, Emily Drake, Emily Golbeck, Ena Agbodza, Eric H. Raabe, Eric M. Jackson, Erin Alexander, Esteban Uceda, Eugene Hwang, Fausto Rodriquez, Gabrielle S. Stone, Gary Kohanbash, Gavriella Silverman, George Rafidi, Gerald Grant, Gerri Trooskin, Gilad Evrony, Graham Keyes, Hagop Boyajian, Holly B. Lindsay, Holly C. Beale, Ian F. Pollack, James Johnston, James Palmer, Jane Minturn, Jared Pisapia, Jason E. Cain, Jason R. Fangusaro, Javad Nazarian, Jeanette Haugh, Jeff Stevens, Jeffrey P. Greenfield, Jeffrey Rubens, Jena V. Lilly, Jennifer L. Mason, Jessica B. Foster, Jim Olson, Jo Lynne Rokita, Joanna J. Phillips, Jonathan Waller, Josh Rubin, Judy E. Palma, Justin McCroskey, Justine Rizzo, Kaitlin Lehmann, Kamnaa Arya, Karlene Hall, Katherine Pehlivan, Kenneth Seidl, Kimberly Diamond, Kristen Harnett, Kristina A. Cole, Krutika S. Gaonkar, Lamiya Tauhid, Laura Prolo, Leah Holloway, Leslie Brosig, Lina Lopez, Lionel Chow, Madhuri Kambhampati, Mahdi Sarmady, Margaret Nevins, Mari Groves, Mariarita Santi-Vicini, Marilyn M. Li, Marion Mateos, Mateusz Koptyra, Matija Snuderl, Matthew Miller, Matthew Sklar, Matthew Wood, Meghan Connors, Melissa Williams, Meredith Egan, Michael Fisher, Michael Koldobskiy, Michelle Monje, Migdalia Martinez, Miguel A. Brown, Mike Prados, Miriam Bornhorst, Mirko Scagnet, Mohamed AbdelBaki, Monique Carrero-Tagle, Nadia Dahmane, Nalin Gupta, Nathan Young, Nicholas A. Vitanza, Nicholas Tassone, Nicholas Van Kuren, Nicolas Gerber, Nithin D. Adappa, Nitin Wadhwani, Noel Coleman, Obi Obayashi, Olena M. Vaske, Olivier Elemento, Oren Becher, Philbert Oliveros, Phillip B. Storm, Pichai Raman, Prajwal Rajappa, Rintaro Hashizume, Rishi R. Lulla, Robert Keating, Robert M. Lober, Ron Firestein, Sabine Mueller, Sameer Agnihotri, Samuel G. Winebrake, Samuel Rivero-Hinojosa, Sarah Diane Black, Sarah Leary, Schuyler Stoller, Shannon Robins, Sharon Gardner, Shelly Wang, Sherri Mayans, Sherry Tutson, Shida Zhu, Sofie R. Salama, Sonia Partap, Sonika Dahiya, Sriram Venneti, Stacie Stapleton, Stephani Campion, Stephanie Stefankiewicz, Stewart Goldman, Swetha Thambireddy, Tatiana S. Patton, Teresa Hidalgo, Theo Nicolaides, Thinh Q. Nguyen, Thomas W. McLean, Tiffany Walker, Toba Niazi, Tobey MacDonald, Valeria Lopez-Gil, Valerie Baubet, Whitney Rife, Xiao-Nan Li, Ximena Cuellar, Yiran Guo, Yuankun Zhu, and Zeinab Helil.
 
 The past and present members of the Pacific Pediatric Neuro-Oncology Consortium who contributed to the generation of specimens and data are Adam C. Resnick, Alicia Lenzen, Alyssa Reddy, Amar Gajjar, Ana Guerreiro Stucklin, Anat Epstein, Andrea Franson, Angela Waanders, Anne Bendel, Anu Banerjee, Ashley Margol, Ashley Plant, Brian Rood, Carl Koschmann, Carol Bruggers, Caroline Hastings, Cassie N. Kline, Christina Coleman Abadi, Christopher Tinkle, Corey Raffel, Dan Runco, Daniel Landi, Daphne Adele Haas-Kogan, David Ashley, David Ziegler, Derek Hanson, Dong Anh Khuong Quang, Duane Mitchell, Elias Sayour, Eric Jackson, Eric Raabe, Eugene Hwang, Fatema Malbari, Geoffrey McCowage, Girish Dhall, Gregory Friedman, Hideho Okada, Ibrahim Qaddoumi, Iris Fried, Jae Cho, Jane Minturn, Jason Blatt, Javad Nazarian, Jeffrey Rubens, Jena V. Lilly, Jennifer Elster, Jennifer L. Mason, Jessica Schulte, Jonathan Schoenfeld, Josh Rubin, Karen Gauvain, Karen Wright, Katharine Offer, Katie Metrock, Kellie Haworth, Ken Cohen, Kristina A. Cole, Lance Governale, Linda Stork, Lindsay Kilburn, Lissa Baird, Maggie Skrypek, Marcia Leonard, Margaret Shatara, Margot Lazow, Mariella Filbin, Maryam Fouladi, Matthew Miller, Megan Paul, Michael Fisher, Michael Koldobskiy, Michael Prados, Michal Yalon Oren, Mimi Bandopadhayay, Miriam Bornhorst, Mohamed AbdelBaki, Nalin Gupta, Nathan Robison, Nicholas Whipple, Nick Gottardo, Nicholas A. Vitanza, Nicolas Gerber, Patricia Robertson, Payal Jain, Peter Sun, Priya Chan, Richard S Lemons, Robert Wechsler-Reya, Roger Packer, Russ Geyer, Ryan Velasco, Sabine Mueller, Sahaja Acharya, Sam Cheshier, Sarah Leary, Scott Coven, Sharon Gardner, Sri Gururangan, Stewart Goldman, Susan Chi, Tab Cooney, Tatiana S. Patton, Theodore Nicolaides, and Tom Belle Davidson.
 

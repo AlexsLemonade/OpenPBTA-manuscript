@@ -362,9 +362,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/81969e5cefdd5c6b7a4ccecf19baa3d8cfb4ccc1/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/81969e5cefdd5c6b7a4ccecf19baa3d8cfb4ccc1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/81969e5cefdd5c6b7a4ccecf19baa3d8cfb4ccc1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c07d1124e2a3a5c9f5e4fccd91425c2cb1128399/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c07d1124e2a3a5c9f5e4fccd91425c2cb1128399/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c07d1124e2a3a5c9f5e4fccd91425c2cb1128399/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -386,9 +386,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/81969e5cefdd5c6b7a4ccecf19baa3d8cfb4ccc1/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c07d1124e2a3a5c9f5e4fccd91425c2cb1128399/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@81969e5](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/81969e5cefdd5c6b7a4ccecf19baa3d8cfb4ccc1)
+from [AlexsLemonade/OpenPBTA-manuscript@c07d112](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/c07d1124e2a3a5c9f5e4fccd91425c2cb1128399)
 on September 5, 2022.
 </em></small>
 
@@ -1833,6 +1833,15 @@ If the copy number value was 0, we set the status to "deep deletion".
 For autosomes only, we set the status to "amplification" when the copy number value was greater than two times the ploidy value.
 We plotted genome-wide gains and losses in (**Figure {@fig:S3}B**) using the R package `ComplexHeatmap` [@doi:10.1093/bioinformatics/btw313].
 
+#### Breakpoint Density (WGS samples only; `chromosomal-instability` analysis module)
+
+We defined breakpoint density as the number of breaks per genome or exome per sample.
+For Manta SV calls, we filtered to retain "PASS" variants and used breakpoints from the algorithm.
+For consensus CNV calls, if |log<sub>2</sub> ratio| > log<sub>2</sub>(1), we annotated the segment as a break. 
+We then calculated breakpoint density as:
+
+$$\textrm{breakpoint density} = \frac{\textrm{N breaks}}{\textrm{Size in Mb of }\textit{effectively surveyed} \textrm{ genome}}$$
+
 #### Chromothripsis Analysis (WGS samples only; `chromothripsis` analysis module)
 
 Considering only chromosomes 1-22 and X, we identified candidate chromothripsis regions in the set of independent tumor WGS samples with ShatterSeek [@doi:10.1038/s41588-019-0576-7], using Manta SV calls that passed all filters and consensus CNV calls.
@@ -1890,8 +1899,8 @@ We plotted mutational signatures for patients with hypermutant tumors (**Figure 
 We consider tumor mutation burden (TMB) to be the number of consensus SNVs per effectively surveyed base of the genome.
 We considered base pairs to be effectively surveyed if they were in the intersection of the genomic ranges considered by the callers used to generate the consensus and where appropriate, regions of interest, such as coding sequences.
 We calculated TMB as:
-$$\textrm{TMB} = \frac{\textrm{# of coding sequence SNVs}}{\textrm{Size in Mb of }\textit{effectively surveyed} \textrm{ genome} }
-$$
+
+$$\textrm{TMB} = \frac{\textrm{# of coding sequence SNVs}}{\textrm{Size in Mb of }\textit{effectively surveyed} \textrm{ genome} }$$
 
 We used the total number coding sequence consensus SNVs for the numerator and the size of the intersection of the regions considered by `Strelka2` and `Mutect2` with coding regions (CDS from GENCODE v27 annotation, see **Key Resources Table**) as the denominator.
 

@@ -384,9 +384,9 @@
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/81969e5cefdd5c6b7a4ccecf19baa3d8cfb4ccc1/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/81969e5cefdd5c6b7a4ccecf19baa3d8cfb4ccc1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/81969e5cefdd5c6b7a4ccecf19baa3d8cfb4ccc1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c07d1124e2a3a5c9f5e4fccd91425c2cb1128399/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c07d1124e2a3a5c9f5e4fccd91425c2cb1128399/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c07d1124e2a3a5c9f5e4fccd91425c2cb1128399/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -403,9 +403,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/81969e5cefdd5c6b7a4ccecf19baa3d8cfb4ccc1/">permalink</a>)
+(<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c07d1124e2a3a5c9f5e4fccd91425c2cb1128399/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/81969e5cefdd5c6b7a4ccecf19baa3d8cfb4ccc1">AlexsLemonade/OpenPBTA-manuscript@81969e5</a>
+from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/c07d1124e2a3a5c9f5e4fccd91425c2cb1128399">AlexsLemonade/OpenPBTA-manuscript@c07d112</a>
 on September 5, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -2281,6 +2281,12 @@ To obtain the gene-level data, we used the <code>IRanges</code> package in R <sp
 If the copy number value was 0, we set the status to “deep deletion”.
 For autosomes only, we set the status to “amplification” when the copy number value was greater than two times the ploidy value.
 We plotted genome-wide gains and losses in (<strong>Figure <a href="#fig:S3">S3</a>B</strong>) using the R package <code>ComplexHeatmap</code> <span class="citation" data-cites="oESNuFI5">(<a href="#ref-oESNuFI5" role="doc-biblioref">Gu et al., 2016</a>)</span>.</p>
+<h4 id="breakpoint-density-wgs-samples-only-chromosomal-instability-analysis-module">Breakpoint Density (WGS samples only; <code>chromosomal-instability</code> analysis module)</h4>
+<p>We defined breakpoint density as the number of breaks per genome or exome per sample.
+For Manta SV calls, we filtered to retain “PASS” variants and used breakpoints from the algorithm.
+For consensus CNV calls, if |log<sub>2</sub> ratio| &gt; log<sub>2</sub>(1), we annotated the segment as a break.
+We then calculated breakpoint density as:</p>
+<p><span class="math display">\[\textrm{breakpoint density} = \frac{\textrm{N breaks}}{\textrm{Size in Mb of }\textit{effectively surveyed} \textrm{ genome}}\]</span></p>
 <h4 id="chromothripsis-analysis-wgs-samples-only-chromothripsis-analysis-module">Chromothripsis Analysis (WGS samples only; <code>chromothripsis</code> analysis module)</h4>
 <p>Considering only chromosomes 1-22 and X, we identified candidate chromothripsis regions in the set of independent tumor WGS samples with ShatterSeek <span class="citation" data-cites="17wG7AMwM">(<a href="#ref-17wG7AMwM" role="doc-biblioref">Cortés-Ciriano et al., 2020</a>)</span>, using Manta SV calls that passed all filters and consensus CNV calls.
 We modified the consensus CNV data to fit <code>ShatterSeek</code> input requirements as follows: we set CNV-neutral or excluded regions as the respective sample’s ploidy value from <code>Control-FREEC</code>, and we then merged consecutive segments with the same copy number value.
@@ -2319,9 +2325,8 @@ We plotted mutational signatures for patients with hypermutant tumors (<strong>F
 <h3 id="tumor-mutation-burden-snv-callers-analysis-module">Tumor Mutation Burden (<code>snv-callers</code> analysis module)</h3>
 <p>We consider tumor mutation burden (TMB) to be the number of consensus SNVs per effectively surveyed base of the genome.
 We considered base pairs to be effectively surveyed if they were in the intersection of the genomic ranges considered by the callers used to generate the consensus and where appropriate, regions of interest, such as coding sequences.
-We calculated TMB as:
-<span class="math display">\[\textrm{TMB} = \frac{\textrm{# of coding sequence SNVs}}{\textrm{Size in Mb of }\textit{effectively surveyed} \textrm{ genome} }
-\]</span></p>
+We calculated TMB as:</p>
+<p><span class="math display">\[\textrm{TMB} = \frac{\textrm{# of coding sequence SNVs}}{\textrm{Size in Mb of }\textit{effectively surveyed} \textrm{ genome} }\]</span></p>
 <p>We used the total number coding sequence consensus SNVs for the numerator and the size of the intersection of the regions considered by <code>Strelka2</code> and <code>Mutect2</code> with coding regions (CDS from GENCODE v27 annotation, see <strong>Key Resources Table</strong>) as the denominator.</p>
 <h4 id="clinical-data-harmonization">Clinical Data Harmonization</h4>
 <h5 id="who-classification-of-disease-types">WHO Classification of Disease Types</h5>

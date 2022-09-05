@@ -159,8 +159,8 @@ authors:
     University of Pennsylvania
   - Division of Oncology, Children's Hospital of Philadelphia
 - github: baileyckelly
-  name: Bailey Farrow
-  initials: BF
+  name: Bailey K. Farrow
+  initials: BKF
   orcid: 0000-0001-6727-6333
   email: farrowb@chop.edu
   contributions:
@@ -389,7 +389,7 @@ authors:
   email: ckoschma@med.umich.edu
   contributions: Conceptualization
   affiliations:
-  - Department of Pediatrics, University of Michigan Heath, Ann Arbor, MI
+  - Department of Pediatrics, University of Michigan Health, Ann Arbor, MI
   - Pediatric Hematology Oncology, Mott Children's Hospital, Ann Arbor, MI
 - github: sdiskin
   name: Sharon J. Diskin
@@ -412,7 +412,7 @@ authors:
   email: rishi_lulla@brown.edu
   contributions: Conceptualization
   affiliations:
-  - Division of Hematology/Oncology, Hasbro Children’s Hospital
+  - Division of Hematology/Oncology, Hasbro Children's Hospital
   - Department of Pediatrics, The Warren Alpert School of Brown University, Providence,
     Rhode Island
 - github: migbro
@@ -472,7 +472,7 @@ authors:
   - Supervision
   affiliations: Department of Bioinformatics and Health Informatics, Children's Hospital
     of Philadelphia
-- name: Brian Rood
+- name: Brian R. Rood
   initials: BRR
   email: brood@childrensnational.org
   contributions: Conceptualization
@@ -486,7 +486,7 @@ authors:
   email: colek@chop.edu
   contributions: Writing - Review and editing
   affiliations:
-  - Division of Oncology, Children’s Hospital of Philadelphia, Philadelphia, PA
+  - Division of Oncology, Children's Hospital of Philadelphia, Philadelphia, PA
   - Department of Pediatrics, University of Pennsylvania, Philadelphia, PA
   - Abramson Family Cancer Research Institute, Perelman School of Medicine at the
     University of Pennsylvania, Philadelphia, PA
@@ -496,7 +496,7 @@ authors:
   email: amargol@chla.usc.edu
   contributions: Writing - Review and editing
   affiliations:
-  - Division of Hematology and Oncology, Children’s Hospital Los Angeles
+  - Division of Hematology and Oncology, Children's Hospital Los Angeles
   - Department of Pediatrics, Keck School of Medicine of University of Southern California
 - name: Zalman Vaksman
   initials: ZV
@@ -553,7 +553,7 @@ authors:
   - Validation
   - Writing - Review and editing
   affiliations:
-  - Department of Pathology and Laboratory Medicine, Children’s Hospital of Philadelphia
+  - Department of Pathology and Laboratory Medicine, Children's Hospital of Philadelphia
   - Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman
     School of Medicine
 - github: arpoe
@@ -581,7 +581,7 @@ authors:
   - Investigation
   - Validation
   affiliations:
-  - Department of Pathology and Laboratory Medicine, Children’s Hospital of Philadelphia
+  - Department of Pathology and Laboratory Medicine, Children's Hospital of Philadelphia
   - Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman
     School of Medicine
 - name: Douglas R. Stewart
@@ -646,7 +646,7 @@ authors:
   affiliations:
   - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
-- name: Mike Prados
+- name: Michael Prados
   initials: MP
   orcid: 0000-0002-9630-2075
   email: michael.prados@ucsf.edu

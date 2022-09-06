@@ -361,5 +361,108 @@
         ]
       ]
     }
+  },
+  {
+    "id": "pmid:26389418",
+    "type": "chapter",
+    "title": "Childhood Medulloblastoma and Other Central Nervous System Embryonal Tumors Treatment (PDQ®): Health Professional Version",
+    "container-title": "PDQ Cancer Information Summaries",
+    "URL": "https://www.cancer.gov/types/brain/hp/child-cns-embryonal-treatment-pdq",
+    "author":[
+      {
+        "literal": "PDQ® Pediatric Treatment Editorial Board"
+      }
+    ],
+    "publisher": "National Cancer Institute",
+    "publisher-place": "Bethesda, MD",
+    "PMID": "26389418",
+    "updated": {
+      "date-parts": [
+        [
+          "2022",
+          3,
+          30
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          "2022",
+          8,
+          11
+        ]
+      ]
+    }
+  },
+  {
+    "id": "doi:10.7287/peerj.preprints.3210v1",
+    "type": "article-journal",
+    "container-title": "PeerJ Preprints",
+    "abstract": "Traditionally, statistical training has focused primarily on mathematical derivations and proofs of statistical tests. The process of developing the technical artifact—that is, the paper, dashboard, or other deliverable—is much less frequently taught, presumably because of an aversion to cookbookery or prescribing specific software choices. In this paper I argue that it’s critical to teach analysts how to go about developing an analysis in order to maximize the probability that their analysis is reproducible, accurate, and collaborative. A critical component of this is adopting a blameless postmortem culture. By encouraging the use of and fluency in tooling that implements these opinions, as well as a blameless way of correcting course as analysts encounter errors, we as a community can foster the growth of processes that fail the practitioners as infrequently as possible.",
+    "language": "en",
+    "page": "e3210v1",
+    "DOI": "10.7287/peerj.preprints.3210v1",
+    "publisher": "PeerJ Preprints",
+    "source": "peerj.com",
+    "title": "Opinionated analysis development",
+    "URL": "https://peerj.com/preprints/3210",
+    "author": [
+      {
+        "family": "Parker",
+        "given": "Hilary"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2022",
+          8,
+          17
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2017",
+          8,
+          31
+        ]
+      ]
+    }
+  },
+  {
+    "id": "url:https://www.fda.gov/about-fda/oncology-center-excellence/pediatric-oncology-drug-approvals",
+    "type": "website",
+    "abstract": "Pediatric Oncology Drug Approvals",
+    "language": "en",
+    "source": "www.fda.gov",
+    "publisher": "U.S. Food and Drug Administration",
+    "title": "Pediatric Oncology Drug Approvals",
+    "URL": "https://www.fda.gov/about-fda/oncology-center-excellence/pediatric-oncology-drug-approvals",
+    "author": [
+      {
+        "literal": "Oncology Center of Excellence, U.S. Food and Drug Administration"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2022",
+          8,
+          17
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          6,
+          29
+        ]
+      ]
+    }
   }
 ]

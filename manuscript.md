@@ -362,9 +362,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/475afc0ef2fb8853fcb74277b6c23790f33735f3/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/475afc0ef2fb8853fcb74277b6c23790f33735f3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/475afc0ef2fb8853fcb74277b6c23790f33735f3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/93aa068064f5187c1de57d5d53154c1f7702efcf/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/93aa068064f5187c1de57d5d53154c1f7702efcf/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/93aa068064f5187c1de57d5d53154c1f7702efcf/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -386,9 +386,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/475afc0ef2fb8853fcb74277b6c23790f33735f3/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/93aa068064f5187c1de57d5d53154c1f7702efcf/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@475afc0](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/475afc0ef2fb8853fcb74277b6c23790f33735f3)
+from [AlexsLemonade/OpenPBTA-manuscript@93aa068](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/93aa068064f5187c1de57d5d53154c1f7702efcf)
 on September 6, 2022.
 </em></small>
 
@@ -396,8 +396,7 @@ on September 6, 2022.
 
 
 
-+ **Joshua A. Shapiro**
-  <br>
++ **Joshua A. Shapiro**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-6224-0347](https://orcid.org/0000-0002-6224-0347)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -409,8 +408,7 @@ on September 6, 2022.
      · Funded by Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
   </small>
 
-+ **Krutika S. Gaonkar**
-  <br>
++ **Krutika S. Gaonkar**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0003-0838-2405](https://orcid.org/0000-0003-0838-2405)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -421,8 +419,7 @@ on September 6, 2022.
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia; Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
   </small>
 
-+ **Candace L. Savonen**
-  <br>
++ **Candace L. Savonen**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0001-6331-7070](https://orcid.org/0000-0001-6331-7070)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -434,8 +431,7 @@ on September 6, 2022.
      · Funded by Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
   </small>
 
-+ **Stephanie J. Spielman**
-  <br>
++ **Stephanie J. Spielman**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-9090-4788](https://orcid.org/0000-0002-9090-4788)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -445,10 +441,11 @@ on September 6, 2022.
   <small>
      Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, USA<sup>+</sup>; Rowan University, Glassboro, NJ, USA
      · Funded by Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
+      <br>
+      <sup>+</sup>Current affiliation
   </small>
 
-+ **Chante J. Bethell**
-  <br>
++ **Chante J. Bethell**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0001-9653-8128](https://orcid.org/0000-0001-9653-8128)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -460,8 +457,7 @@ on September 6, 2022.
      · Funded by Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
   </small>
 
-+ **Run Jin**
-  <br>
++ **Run Jin**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-8958-9266](https://orcid.org/0000-0002-8958-9266)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -472,8 +468,7 @@ on September 6, 2022.
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
-+ **Komal S. Rathi**
-  <br>
++ **Komal S. Rathi**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0001-5534-6904](https://orcid.org/0000-0001-5534-6904)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -484,8 +479,7 @@ on September 6, 2022.
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
   </small>
 
-+ **Yuankun Zhu**
-  <br>
++ **Yuankun Zhu**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-2455-9525](https://orcid.org/0000-0002-2455-9525)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -496,8 +490,7 @@ on September 6, 2022.
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
-+ **Laura E. Egolf**
-  <br>
++ **Laura E. Egolf**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-7103-4801](https://orcid.org/0000-0002-7103-4801)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -508,8 +501,7 @@ on September 6, 2022.
      Cell and Molecular Biology Graduate Group, Perelman School of Medicine at the University of Pennsylvania; Division of Oncology, Children's Hospital of Philadelphia
   </small>
 
-+ **Bailey K. Farrow**
-  <br>
++ **Bailey K. Farrow**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0001-6727-6333](https://orcid.org/0000-0001-6727-6333)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -518,8 +510,7 @@ on September 6, 2022.
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
-+ **Daniel P. Miller**
-  <br>
++ **Daniel P. Miller**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-2032-4358](https://orcid.org/0000-0002-2032-4358)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -528,16 +519,14 @@ on September 6, 2022.
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
-+ **Yang Yang**
-  <br>
++ **Yang Yang**<br>
     · ![GitHub icon](images/github.png){.inline_icon}
     [yangyangclover](https://github.com/yangyangclover)<br>
   <small>
      Ben May Department for Cancer Research, University of Chicago, Chicago IL, USA
   </small>
 
-+ **Tejaswi Koganti**
-  <br>
++ **Tejaswi Koganti**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-7733-6480](https://orcid.org/0000-0002-7733-6480)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -546,8 +535,7 @@ on September 6, 2022.
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
-+ **Nighat Noureen**
-  <br>
++ **Nighat Noureen**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0001-7495-8201](https://orcid.org/0000-0001-7495-8201)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -556,8 +544,7 @@ on September 6, 2022.
      Greehey Children's Cancer Research Institute, UT Health San Antonio
   </small>
 
-+ **Mateusz P. Koptyra**
-  <br>
++ **Mateusz P. Koptyra**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-3857-6633](https://orcid.org/0000-0002-3857-6633)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -568,8 +555,7 @@ on September 6, 2022.
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
-+ **Nhat Duong**
-  <br>
++ **Nhat Duong**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0003-2852-4263](https://orcid.org/0000-0003-2852-4263)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -580,8 +566,7 @@ on September 6, 2022.
      Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
   </small>
 
-+ **Adam A. Kraya**
-  <br>
++ **Adam A. Kraya**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-8526-5694](https://orcid.org/0000-0002-8526-5694)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -590,8 +575,7 @@ on September 6, 2022.
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
-+ **Cassie N. Kline**
-  <br>
++ **Cassie N. Kline**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0001-7765-7690](https://orcid.org/0000-0001-7765-7690)
     · ![Twitter icon](images/twitter.png){.inline_icon}
@@ -600,8 +584,7 @@ on September 6, 2022.
      Division of Oncology, Children's Hospital of Philadelphia
   </small>
 
-+ **Yiran Guo**
-  <br>
++ **Yiran Guo**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-6549-8589](https://orcid.org/0000-0002-6549-8589)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -612,8 +595,7 @@ on September 6, 2022.
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   </small>
 
-+ **Phillip B. Storm**
-  <br>
++ **Phillip B. Storm**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-7964-2449](https://orcid.org/0000-0002-7964-2449)<br>
   <small>
@@ -621,24 +603,21 @@ on September 6, 2022.
      · Funded by Alex's Lemonade Stand Foundation (Catalyst); Children’s Hospital of Philadelphia Division of Neurosurgery
   </small>
 
-+ **Javad Nazarian**
-  <br>
++ **Javad Nazarian**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-1951-9828](https://orcid.org/0000-0002-1951-9828)<br>
   <small>
      Children's National Research Institute, Washington, D.C.; George Washington University School of Medicine and Health Sciences, Washington, D.C.
   </small>
 
-+ **Stephen C. Mack**
-  <br>
++ **Stephen C. Mack**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0001-9620-4742](https://orcid.org/0000-0001-9620-4742)<br>
   <small>
      Department of Developmental Neurobiology, St. Jude Children’s Research Hospital
   </small>
 
-+ **Pichai Raman**
-  <br>
++ **Pichai Raman**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0001-6948-2157](https://orcid.org/0000-0001-6948-2157)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -649,8 +628,7 @@ on September 6, 2022.
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
   </small>
 
-+ **Siyuan Zheng**
-  <br>
++ **Siyuan Zheng**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-1031-9424](https://orcid.org/0000-0002-1031-9424)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -661,8 +639,7 @@ on September 6, 2022.
      Greehey Children's Cancer Research Institute, UT Health San Antonio
   </small>
 
-+ **Peter J. Madsen**
-  <br>
++ **Peter J. Madsen**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0001-9266-3685](https://orcid.org/0000-0001-9266-3685)
     · ![Twitter icon](images/twitter.png){.inline_icon}
@@ -671,8 +648,7 @@ on September 6, 2022.
      Division of Neurosurgery, Children's Hospital of Philadelphia; Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   </small>
 
-+ **Nicolas Van Kuren**
-  <br>
++ **Nicolas Van Kuren**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-7414-9516](https://orcid.org/0000-0002-7414-9516)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -681,16 +657,14 @@ on September 6, 2022.
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
-+ **Shannon Robins**
-  <br>
++ **Shannon Robins**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0003-0594-1953](https://orcid.org/0000-0003-0594-1953)<br>
   <small>
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
-+ **Xiaoyan Huang**
-  <br>
++ **Xiaoyan Huang**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0001-7267-4512](https://orcid.org/0000-0001-7267-4512)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -699,8 +673,7 @@ on September 6, 2022.
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
-+ **Angela J. Waanders**
-  <br>
++ **Angela J. Waanders**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-0571-2889](https://orcid.org/0000-0002-0571-2889)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -709,32 +682,28 @@ on September 6, 2022.
      Division of Hematology, Oncology, Neuro-Oncology, and Stem Cell Transplant, Ann & Robert H Lurie Children’s Hospital of Chicago; Department of Pediatrics, Northwestern University Feinberg School of Medicine
   </small>
 
-+ **Jung Kim**
-  <br>
++ **Jung Kim**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0001-6274-2841](https://orcid.org/0000-0001-6274-2841)<br>
   <small>
      Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics, National Cancer Institute
   </small>
 
-+ **Derek Hanson**
-  <br>
++ **Derek Hanson**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-0024-5142](https://orcid.org/0000-0002-0024-5142)<br>
   <small>
      Hackensack Meridian School of Medicine; Hackensack University Medical Center
   </small>
 
-+ **Carl J. Koschmann**
-  <br>
++ **Carl J. Koschmann**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-0825-7615](https://orcid.org/0000-0002-0825-7615)<br>
   <small>
      Department of Pediatrics, University of Michigan Health, Ann Arbor, MI; Pediatric Hematology Oncology, Mott Children's Hospital, Ann Arbor, MI
   </small>
 
-+ **Sharon J. Diskin**
-  <br>
++ **Sharon J. Diskin**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-7200-8939](https://orcid.org/0000-0002-7200-8939)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -745,16 +714,14 @@ on September 6, 2022.
      Division of Oncology, Children's Hospital of Philadelphia; Department of Pediatrics, University of Pennsylvania
   </small>
 
-+ **Rishi R. Lulla**
-  <br>
++ **Rishi R. Lulla**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0003-4109-2207](https://orcid.org/0000-0003-4109-2207)<br>
   <small>
      Division of Hematology/Oncology, Hasbro Children's Hospital; Department of Pediatrics, The Warren Alpert School of Brown University, Providence, Rhode Island
   </small>
 
-+ **Miguel A. Brown**
-  <br>
++ **Miguel A. Brown**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0001-6782-1442](https://orcid.org/0000-0001-6782-1442)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -765,8 +732,7 @@ on September 6, 2022.
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
-+ **Jessica Wong**
-  <br>
++ **Jessica Wong**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0003-1508-7631](https://orcid.org/0000-0003-1508-7631)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -777,8 +743,7 @@ on September 6, 2022.
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
-+ **Jennifer L. Mason**
-  <br>
++ **Jennifer L. Mason**<br>
     · ![GitHub icon](images/github.png){.inline_icon}
     [jenn0307](https://github.com/jenn0307)
     · ![Twitter icon](images/twitter.png){.inline_icon}
@@ -787,14 +752,12 @@ on September 6, 2022.
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
-+ **Laura Scolaro**
-  <br><br>
++ **Laura Scolaro**<br><br>
   <small>
      Division of Oncology, Children's Hospital of Philadelphia
   </small>
 
-+ **Meen Chul Kim**
-  <br>
++ **Meen Chul Kim**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-0308-783X](https://orcid.org/0000-0002-0308-783X)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -803,8 +766,7 @@ on September 6, 2022.
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
-+ **Hongbo M. Xie**
-  <br>
++ **Hongbo M. Xie**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0003-2223-0029](https://orcid.org/0000-0003-2223-0029)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -815,36 +777,31 @@ on September 6, 2022.
      Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
   </small>
 
-+ **Brian R. Rood**
-  <br><br>
++ **Brian R. Rood**<br><br>
   <small>
      Children's National Research Institute, Washington, D.C.; George Washington University School of Medicine and Health Sciences, Washington, D.C.
   </small>
 
-+ **Kristina A. Cole**
-  <br>
++ **Kristina A. Cole**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0003-0064-2882](https://orcid.org/0000-0003-0064-2882)<br>
   <small>
      Division of Oncology, Children's Hospital of Philadelphia, Philadelphia, PA; Department of Pediatrics, University of Pennsylvania, Philadelphia, PA; Abramson Family Cancer Research Institute, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, PA
   </small>
 
-+ **Ashley S. Margol**
-  <br>
++ **Ashley S. Margol**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-3038-8005](https://orcid.org/0000-0002-3038-8005)<br>
   <small>
      Division of Hematology and Oncology, Children's Hospital Los Angeles; Department of Pediatrics, Keck School of Medicine of University of Southern California
   </small>
 
-+ **Zalman Vaksman**
-  <br><br>
++ **Zalman Vaksman**<br><br>
   <small>
      Division of Oncology, Children's Hospital of Philadelphia
   </small>
 
-+ **Rebecca S. Kaufman**
-  <br>
++ **Rebecca S. Kaufman**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0001-8535-9730](https://orcid.org/0000-0001-8535-9730)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -853,8 +810,7 @@ on September 6, 2022.
      Division of Oncology, Children's Hospital of Philadelphia; Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
   </small>
 
-+ **Allison P. Heath**
-  <br>
++ **Allison P. Heath**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-2583-9668](https://orcid.org/0000-0002-2583-9668)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -866,8 +822,7 @@ on September 6, 2022.
      · Funded by NIH U2C HL138346-03; NCI/NIH Contract No. 75N91019D00024, Task Order No. 75N91020F00003; Australian Government, Department of Education
   </small>
 
-+ **Brian M. Ennis**
-  <br>
++ **Brian M. Ennis**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-2653-5009](https://orcid.org/0000-0002-2653-5009)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -876,16 +831,14 @@ on September 6, 2022.
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
-+ **Mariarita Santi**
-  <br>
++ **Mariarita Santi**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-6728-3450](https://orcid.org/0000-0002-6728-3450)<br>
   <small>
      Department of Pathology and Laboratory Medicine, Children's Hospital of Philadelphia; Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman School of Medicine
   </small>
 
-+ **Anna R. Poetsch**
-  <br>
++ **Anna R. Poetsch**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0003-3056-4360](https://orcid.org/0000-0003-3056-4360)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -897,24 +850,21 @@ on September 6, 2022.
      · Funded by The St. Anna Kinderkrebsforschung, Austria; The Mildred Scheel Early Career Center  Dresden P2, funded by the German Cancer Aid
   </small>
 
-+ **Angela N. Viaene**
-  <br>
++ **Angela N. Viaene**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0001-6430-8360](https://orcid.org/0000-0001-6430-8360)<br>
   <small>
      Department of Pathology and Laboratory Medicine, Children's Hospital of Philadelphia; Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman School of Medicine
   </small>
 
-+ **Douglas R. Stewart**
-  <br>
++ **Douglas R. Stewart**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0001-8193-1488](https://orcid.org/0000-0001-8193-1488)<br>
   <small>
      Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics, National Cancer Institute
   </small>
 
-+ **Steven M. Foltz**
-  <br>
++ **Steven M. Foltz**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-9526-8194](https://orcid.org/0000-0002-9526-8194)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -924,8 +874,7 @@ on September 6, 2022.
      · Funded by Alex's Lemonade Stand Foundation GR-000002471; National Institutes of Health K12GM081259
   </small>
 
-+ **Payal Jain**
-  <br>
++ **Payal Jain**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-5914-9083](https://orcid.org/0000-0002-5914-9083)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -936,8 +885,7 @@ on September 6, 2022.
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
-+ **Bo Zhang**
-  <br>
++ **Bo Zhang**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-0743-5379](https://orcid.org/0000-0002-0743-5379)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -946,8 +894,7 @@ on September 6, 2022.
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
-+ **Shrivats Kannan**
-  <br>
++ **Shrivats Kannan**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-1460-920X](https://orcid.org/0000-0002-1460-920X)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -958,16 +905,14 @@ on September 6, 2022.
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
-+ **Michael Prados**
-  <br>
++ **Michael Prados**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-9630-2075](https://orcid.org/0000-0002-9630-2075)<br>
   <small>
      University of California, San Francisco, San Francisco, CA, USA
   </small>
 
-+ **Jena V. Lilly**
-  <br>
++ **Jena V. Lilly**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0003-1439-6045](https://orcid.org/0000-0003-1439-6045)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -978,16 +923,14 @@ on September 6, 2022.
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
-+ **Sabine Mueller**
-  <br>
++ **Sabine Mueller**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-3452-5150](https://orcid.org/0000-0002-3452-5150)<br>
   <small>
      University of California, San Francisco, San Francisco, CA
   </small>
 
-+ **Adam C. Resnick**
-  <br>
++ **Adam C. Resnick**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0003-0436-4189](https://orcid.org/0000-0003-0436-4189)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -999,8 +942,7 @@ on September 6, 2022.
      · Funded by Alex's Lemonade Stand Foundation (Catalyst); Children's Brain Tumor Network; NIH 3P30 CA016520-44S5, U2C HL138346-03, U24 CA220457-03; NCI/NIH Contract No. 75N91019D00024, Task Order No. 75N91020F00003; Children’s Hospital of Philadelphia Division of Neurosurgery
   </small>
 
-+ **Casey S. Greene**
-  <br>
++ **Casey S. Greene**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0001-8713-9213](https://orcid.org/0000-0001-8713-9213)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -1013,7 +955,7 @@ on September 6, 2022.
   </small>
 
 + **Jo Lynne Rokita**
-  ^[✉](#correspondence)^<br>
+    ^[✉](#correspondence)^<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0003-2171-3627](https://orcid.org/0000-0003-2171-3627)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -1026,7 +968,7 @@ on September 6, 2022.
   </small>
 
 + **Jaclyn N. Taroni**
-  ^[✉](#correspondence)^<br>
+    ^[✉](#correspondence)^<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0003-4734-4508](https://orcid.org/0000-0003-4734-4508)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -1038,13 +980,11 @@ on September 6, 2022.
      · Funded by Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
   </small>
 
-+ **Children's Brain Tumor Network**
-  <br><br>
++ **Children's Brain Tumor Network**<br><br>
   <small>
   </small>
 
-+ **Pacific Pediatric Neuro-Oncology Consortium**
-  <br><br>
++ **Pacific Pediatric Neuro-Oncology Consortium**<br><br>
   <small>
   </small>
 
@@ -1108,13 +1048,18 @@ The creation of the Pediatric Brain Tumor Atlas (PBTA) in 2018, led by the Child
 Just as cooperation is required to share specimens and data, rigorous cancer genomic analysis requires collaboration among researchers with distinct expertise, such as computational scientists, bench scientists, clinicians, and pathologists.
 
 Although there has been significant progress in recent years to elucidate the landscape of somatic variation responsible for pediatric brain tumor formation and progression, translation of therapeutic agents to phase II or III clinical trials and subsequent FDA approvals have not kept pace.
-Within the last 20 years, the FDA has approved only five drugs for the treatment of pediatric brain tumors: mTOR inhibitor, everolimus, for subependymal giant cell astrocytoma [@doi:10.1097/01.COT.0000421359.88140.a8; @url:https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-everolimus-tuberous-sclerosis-complex-associated-partial-onset-seizures]; anti-PD-1 immunotherapy, pembrolizumab, for microsatellite instability–high or mismatch repair–deficient tumors [@url:https://www.fda.gov/drugs/drug-approvals-and-databases/fda-approves-pembrolizumab-adults-and-children-tmb-h-solid-tumors]; NTRK inhibitors larotrectinib [@url:https://www.fda.gov/drugs/fda-approves-larotrectinib-solid-tumors-ntrk-gene-fusions] and entrectinib [@url:https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-entrectinib-ntrk-solid-tumors-and-ros-1-nsclc] for tumors with an NTRK 1/2/3 gene fusions; MEK1/2 inhibitor, selumetinib, for neurofibromatosis type 1 (NF1) and symptomatic, inoperable plexiform neurofibromas [@url:https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-selumetinib-neurofibromatosis-type-1-symptomatic-inoperable-plexiform-neurofibromas].
-<!--TODO: Now that this introduction is longer, would we consider using the same citations to refer to the five FDA-approved drugs without listing them all out?-->
+Within the last 20 years, the FDA has approved only five drugs for the treatment of pediatric brain tumors:
+mTOR inhibitor everolimus, for subependymal giant cell astrocytoma;
+anti-PD-1 immunotherapy pembrolizumab, for microsatellite instability–high or mismatch repair–deficient tumors;
+NTRK inhibitors larotrectinib and entrectinib, for tumors with an NTRK 1/2/3 gene fusions;
+and MEK1/2 inhibitor selumetinib, for neurofibromatosis type 1 (NF1) and symptomatic, inoperable plexiform neurofibromas [@url:https://www.fda.gov/about-fda/oncology-center-excellence/pediatric-oncology-drug-approvals].
+
 This is, in part, due to pharmaceutical company priorities and concerns regarding toxicity, making it challenging for researchers to obtain to new therapeutic agents for pediatric clinical trials.
 Critically, as of August 18, 2020, an amendment to the Pediatric Research Equity Act called the "Research to Accelerate Cures and Equity (RACE) for Children Act" mandates that all new adult oncology drugs also be tested in children when the molecular targets are relevant to a particular childhood cancer.
 The regulatory change introduced by the RACE Act, coupled with the identification of putative molecular targets in pediatric cancers through genomic characterization, is poised to accelerate identification of novel and effective therapeutic for pediatric diseases that have otherwise been overlooked.
 
-To leverage diverse scientific and analytical expertise to analyze the PBTA data, we created an open science model and incorporated features, such as analytical code review [@doi:10.1093/aje/kwab092; @doi:10.7287/peerj.preprints.3210v1] and continuous integration to test data and code [@doi:10.1038/nbt.3780; @doi:10.7287/peerj.preprints.3210v1], to improve reproducibility throughout the life cycle of our project, termed OpenPBTA.
+To leverage diverse scientific and analytical expertise to analyze the PBTA data, we created an open science model and incorporated features such as analytical code review [@doi:10.1093/aje/kwab092; @doi:10.7287/peerj.preprints.3210v1] and continuous integration to test data and code [@doi:10.1038/nbt.3780; @doi:10.7287/peerj.preprints.3210v1] to improve reproducibility throughout the life cycle of our project, termed OpenPBTA.
+
 We anticipated that a model of open collaboration would enhance the value of our effort to the pediatric brain tumor research community.
 Openly sharing data and code in real time allows others to build upon our work more rapidly, and publications that include data and code sharing may have a greater impact [@doi:10.1371/journal.pone.0000308; @doi:10.1371/journal.pcbi.1008867].
 Here, we present a comprehensive, collaborative, open genomic analysis of 1,043 tumors and 22 cell lines, comprised of 58 distinct brain tumor histologies from 943 patients.
@@ -1146,7 +1091,7 @@ The contributor would formally request to include their analytical code and resu
 All pull requests to the analysis repository underwent peer review by organizers and/or other contributors to ensure scientific accuracy, maintainability, and readability of code and  documentation (**Figure {@fig:Fig1}C-D**).
 
 The collaborative nature of the project required additional steps beyond peer review of analytical code to ensure consistent results for all collaborators and over time (**Figure {@fig:Fig1}D**).
-We leveraged Docker&reg; [@https://dl.acm.org/doi/10.5555/2600239.2600241] and the Rocker project [@arxiv:1710.03675] to maintain a consistent software development environment, creating a monolithic image that contained all dependencies necessary for analyses.
+We leveraged Docker&reg; [@https://dl.acm.org/doi/10.5555/2600239.2600241] and the Rocker project [@https://doi.org/10.48550/arXiv.1710.03675] to maintain a consistent software development environment, creating a monolithic image that contained all dependencies necessary for analyses.
 To ensure that new code would execute in the development environment, we used the continuous integration (CI) service CircleCI&reg; to run analytical code on a small subset of data for testing before formal code review, allowing us to detect code bugs or sensitivity to changes in the underlying data.
 
 We followed a similar process in our Manubot-powered [@doi:10.1371/journal.pcbi.1007128] manuscript repository for additions to the manuscript (**Figure {@fig:Fig1}C**).
@@ -1339,7 +1284,7 @@ These findings support previous reports of a more aggressive phenotype in tumors
 
 We further investigated the mutational signature profiles of the hypermutant (TMB > 10 Mut/Mb; N = 3) and ultra-hypermutant (TMB > 100 Mut/Mb; N = 4) tumors and/or derived cell lines from six patients in the OpenPBTA cohort (**Figure {@fig:Fig4}E**).
 Five of six tumors were diagnosed as HGGs and one was a brain metastasis of a MYCN non-amplified neuroblastoma tumor.
-Signature 11, which is associated with exposure to temozolomide plus _MGMT_ promoter and/or mismatch repair deficiency [@doi:10.1038/s41588-019-0525-5], was indeed present in tumors with previous exposure to the drug (**Table {@TBL:Table2}**).
+Signature 11, which is associated with exposure to temozolomide plus _MGMT_ promoter and/or mismatch repair deficiency [@doi:10.1038/s41588-019-0525-5], was indeed present in tumors with previous exposure to the drug (**Table {@tbl:Table2}**).
 We detected the MMR2 signature in tumors of four patients (PT_0SPKM4S8, PT_3CHB9PK5, PT_JNEV57VK, and PT_VTM2STE3) diagnosed with either constitutional mismatch repair deficiency (CMMRD) or Lynch syndrome (**Table {@tbl:Table2}**), genetic predisposition syndromes caused by a variant in a mismatch repair gene such as _PMS2_, _MLH1_, _MSH2_, _MSH6_, or others [@doi:10.1136/jmedgenet-2020-107627].
 Three of these patients harbored pathogenic germline variants in one of the aforementioned genes.
 While we did not find a _known_ pathogenic variant in the germline of PT_VTM2STE3, this patient had a self-reported _PMS2_ variant noted in their pathology report and we did find 19 intronic variants of unknown significance (VUS) in _PMS2_.
@@ -1424,7 +1369,7 @@ While adamantinomatous craniopharyngiomas and Group 3 and Group 4 medulloblastom
 
 We created OpenPBTA to provide an open, reproducible analysis framework to genomically characterize pediatric brain tumors and bring together researchers and clinicians from across the globe.
 We provide robust code and data resources to the pediatric oncology community, encouraging interdisciplinary scientists to collaborate on new analyses in order to accelerate therapeutic translation for children with cancer, goals we are seeing play out in real-time.
-To our knowledge, this initiative represents the first large-scale, collaborative, open analysis of genomic data coupled with open manuscript writing, in which we comprehensively analyzed the largest cohort of pediatric brain tumors to date, comprising 1,043 tumors across 58 distinct histologies. 
+To our knowledge, this initiative represents the first large-scale, collaborative, open analysis of genomic data coupled with open manuscript writing, in which we comprehensively analyzed the largest cohort of pediatric brain tumors to date, comprising 1,043 tumors across 58 distinct histologies.
 We used available WGS, WXS, and RNA-Seq data to generate high-confidence consensus SNV and CNV calls, prioritize putative oncogenic fusions, and establish over 40 scalable modules to perform common downstream cancer genomics analyses, all of which have undergone rigorous scientific and analytical code review.
 We detected and showed expected patterns of genomic lesions, mutational signatures, and aberrantly regulated signaling pathways across multiple pediatric brain tumor histologies.
 
@@ -1439,7 +1384,7 @@ Among the subtyped tumors, we accurately recapitulated subtypes using MM2S (91%;
 We then applied the consensus of these methods to subtype all medulloblastoma tumors lacking pathology-based subtypes.
 
 We used an expression classifier to determine whether tumors have dysfunctional _TP53_ [@doi:10.1016/j.celrep.2018.03.076] and the EXTEND algorithm to determine their degree of telomerase activity using a 13-gene signature [@doi:10.1038/s41467-020-20474-9].
-Interestingly, in contrast to adult colorectal cancer and gastric adenocarcinoma, in which _TP53_ is less frequent in hypermutated tumors [@doi:10.18632/oncotarget.22783; @doi:10.1038/NATURE13480], we found that hypermutant HGG tumors universally displayed dysregulation of _TP53_.
+Interestingly, in contrast to adult colorectal cancer and gastric adenocarcinoma, in which _TP53_ is less frequent in hypermutated tumors [@doi:10.18632/oncotarget.22783; @https://doi.org/10.1038/NATURE13480], we found that hypermutant HGG tumors universally displayed dysregulation of _TP53_.
 Furthermore, high _TP53_ scores were a significant prognostic marker for poor overall survival for patients with certain tumor types, such as H3 K28-altered DMGs and ependymomas.
 We also show that EXTEND scores are a robust surrogate measure for telomerase activity in pediatric brain tumors.
 By assessing _TP53_ and telomerase activity prospectively from expression data, information usually only attainable with DNA sequencing and/or qPCR, we can quickly incorporate oncogenic biomarker and prognostic knowledge and expand our biological understanding of these tumors.
@@ -1455,7 +1400,7 @@ For example, the RNA fusion filtering module created within OpenPBTA set the sta
 Using medulloblastoma subtyping and immune deconvolution analyses performed herein, Dang and colleagues showed enrichment of monocyte and microglia-derived macrophages within the SHH subgroup which they suggest may accumulate following radiation therapy [@doi:10.1016/j.celrep.2021.108917].
 Expression and copy number analyses were used to demonstrate that _GPC2_ is a highly expressed and copy number gained immunotherapeutic target in ETMRs, medulloblastomas, choroid plexus carcinomas, H3 wildtype high-grade gliomas, as well as DMGs.
 This led Foster and colleagues to subsequently develop a chimeric antigen receptor (CAR) directed against _GPC2_, for which they show preclinical efficacy in mouse models [@biorxiv:10.1101/2021.07.06.451385].
-Moreover, OpenPBTA has enabled a framework to support real-time integration of subjects as each was enrolled on the PNOC008 high-grade glioma clinical trial [@url:https://pnoc.us/clinical-trial/pnoc008/], allowing researchers and clinicians to link tumor biology to translational impact through clinical decision support during tumor board discussions.
+Moreover, OpenPBTA has enabled a framework to support real-time integration of subjects as each was enrolled on the PNOC008 high-grade glioma clinical trial [@clinicaltrials:NCT03739372], allowing researchers and clinicians to link tumor biology to translational impact through clinical decision support during tumor board discussions.
 Finally, as part of the the NCI's Childhood Cancer Data Initiative, the OpenPBTA project was recently expanded into a pan-pediatric cancer effort (https://github.com/PediatricOpenTargets/OpenPedCan-analysis) to build the Molecular Targets Platform (https://moleculartargets.ccdi.cancer.gov/) in support of the RACE Act.
 The OpenPBTA project has paved the way for collaborative, open, reproducible, and scalable analyses and we anticipate this foundational work will have limitless impact within the pediatric oncology community, ultimately leading to improved outcomes for children with cancer.
 
@@ -1664,7 +1609,7 @@ PNOC 2x100 bp WXS and RNA-Seq libraries were sequenced on an Illumina HiSeq 2500
 
 #### DNA WGS Alignment
 
-We used `BWA-MEM` [@arxiv:1303.3997] to align paired-end DNA-seq reads to the version 38 patch release 12 of the _Homo sapiens_ genome reference, obtained as a FASTA file from UCSC (see **Key Resources Table**).
+We used `BWA-MEM` [@https://doi.org/10.48550/arXiv.1303.3997] to align paired-end DNA-seq reads to the version 38 patch release 12 of the _Homo sapiens_ genome reference, obtained as a FASTA file from UCSC (see **Key Resources Table**).
 Next, we used the Broad Institute's Best Practices [@doi:10.1038/ng.806] to process Binary Alignment/Map files (BAMs) in preparation for variant discovery.
 We marked duplicates using `SAMBLASTER` [@doi:10/f6kft3], and we merged and sorted BAMs using `Sambamba` [@doi:10/gfzsfw]
 We used the `BaseRecalibrator` submodule of the Broad's Genome Analysis Tool Kit `GATK` [@doi:10.1101/gr.107524.110] to process BAM files.
@@ -1865,7 +1810,7 @@ We plotted scores by cancer group using the `ComplexHeatmap` R package (**Figure
 
 ##### Transcriptomic Dimension Reduction (`transcriptomic-dimension-reduction` analysis module)
 
-We applied Uniform Manifold Approximation and Projection (UMAP) [@arxiv:1802.03426v2] to log2-transformed FPKM data using the `umap` R package (See **Key Resources Table**).
+We applied Uniform Manifold Approximation and Projection (UMAP) [@https://doi.org/10.48550/arXiv.1802.03426] to log2-transformed FPKM data using the `umap` R package (See **Key Resources Table**).
 We set the number of neighbors to 15.
 
 ##### Fusion prioritization (`fusion_filtering` analysis module)
@@ -1935,7 +1880,7 @@ Embryonal tumors were included in non-MB and non-ATRT embryonal tumor subtyping 
 4. A pathology diagnosis of "Neuroblastoma", where the tumor was not indicated to be peripheral or metastatic and was located in the CNS.
 5. Any sample with "embryonal tumor with multilayer rosettes, ros (who grade iv)", "embryonal tumor, nos, congenital type", "ependymoblastoma" or "medulloepithelioma" in pathology free text.
 
-Non-MB and non-ATRT embryonal tumors identified with the above criteria were further subtyped (`molecular-subtyping-embryonal` analysis module) using the criteria below [@pmid:30249036; @doi:10.1007/s00381-017-3551-6; @url:https://www.cancer.gov/types/brain/hp/child-cns-embryonal-treatment-pdq; @doi:10.3390/ijms21051818].
+Non-MB and non-ATRT embryonal tumors identified with the above criteria were further subtyped (`molecular-subtyping-embryonal` analysis module) using the criteria below [@pmid:30249036; @doi:10.1007/s00381-017-3551-6; @pmid:26389418; @doi:10.3390/ijms21051818].
 
 1. Any RNA-seq biospecimen with _LIN28A_ overexpression, plus a _TYH1_ fusion (5' partner) with a gene adjacent or within the C19MC miRNA cluster and/or copy number amplification of the C19MC region was subtyped as `ETMR, C19MC-altered` (Embryonal tumor with multilayer rosettes, chromosome 19 miRNA cluster altered) [@doi:10.1007/s00401-012-1068-3; 10.1038/ng.2849].
 2. Any RNA-seq biospecimen with _LIN28A_ overexpression, a _TTYH1_ fusion (5' partner) with a gene adjacent or within the C19MC miRNA cluster but no evidence of copy number amplification of the C19MC region was subtyped as `ETMR, NOS` (Embryonal tumor with multilayer rosettes, not otherwise specified) [@doi:10.1007/s00401-012-1068-3; @doi:10.1038/ng.2849].

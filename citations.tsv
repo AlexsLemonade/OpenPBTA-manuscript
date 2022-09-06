@@ -2,12 +2,7 @@ input_id	dealiased_id	standard_id	short_id
 doi:10.1093/neuonc/noz150	doi:10.1093/neuonc/noz150	doi:10.1093/neuonc/noz150	nAMOAA9j
 doi:10.1093/neuonc/now207	doi:10.1093/neuonc/now207	doi:10.1093/neuonc/now207	1H6hugOV3
 doi:10.1002/cam4.410	doi:10.1002/cam4.410	doi:10.1002/cam4.410	7p58e5Wj
-doi:10.1097/01.COT.0000421359.88140.a8	doi:10.1097/01.COT.0000421359.88140.a8	doi:10.1097/01.cot.0000421359.88140.a8	155C5GKbE
-url:https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-everolimus-tuberous-sclerosis-complex-associated-partial-onset-seizures	url:https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-everolimus-tuberous-sclerosis-complex-associated-partial-onset-seizures	url:https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-everolimus-tuberous-sclerosis-complex-associated-partial-onset-seizures	APE1s2Ks
-url:https://www.fda.gov/drugs/drug-approvals-and-databases/fda-approves-pembrolizumab-adults-and-children-tmb-h-solid-tumors	url:https://www.fda.gov/drugs/drug-approvals-and-databases/fda-approves-pembrolizumab-adults-and-children-tmb-h-solid-tumors	url:https://www.fda.gov/drugs/drug-approvals-and-databases/fda-approves-pembrolizumab-adults-and-children-tmb-h-solid-tumors	1GPWXaIej
-url:https://www.fda.gov/drugs/fda-approves-larotrectinib-solid-tumors-ntrk-gene-fusions	url:https://www.fda.gov/drugs/fda-approves-larotrectinib-solid-tumors-ntrk-gene-fusions	url:https://www.fda.gov/drugs/fda-approves-larotrectinib-solid-tumors-ntrk-gene-fusions	DHobOwVz
-url:https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-entrectinib-ntrk-solid-tumors-and-ros-1-nsclc	url:https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-entrectinib-ntrk-solid-tumors-and-ros-1-nsclc	url:https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-entrectinib-ntrk-solid-tumors-and-ros-1-nsclc	13D73mKgq
-url:https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-selumetinib-neurofibromatosis-type-1-symptomatic-inoperable-plexiform-neurofibromas	url:https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-selumetinib-neurofibromatosis-type-1-symptomatic-inoperable-plexiform-neurofibromas	url:https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-selumetinib-neurofibromatosis-type-1-symptomatic-inoperable-plexiform-neurofibromas	kzQZXMln
+url:https://www.fda.gov/about-fda/oncology-center-excellence/pediatric-oncology-drug-approvals	url:https://www.fda.gov/about-fda/oncology-center-excellence/pediatric-oncology-drug-approvals	url:https://www.fda.gov/about-fda/oncology-center-excellence/pediatric-oncology-drug-approvals	12pkJWML4
 doi:10.1093/aje/kwab092	doi:10.1093/aje/kwab092	doi:10.1093/aje/kwab092	1ApRLzuh0
 doi:10.7287/peerj.preprints.3210v1	doi:10.7287/peerj.preprints.3210v1	doi:10.7287/peerj.preprints.3210v1	rAFELHQ7
 doi:10.1038/nbt.3780	doi:10.1038/nbt.3780	doi:10.1038/nbt.3780	Qh7xTLwz
@@ -20,7 +15,7 @@ doi:10.1093/neuonc/noz192	doi:10.1093/neuonc/noz192	doi:10.1093/neuonc/noz192	Dw
 doi:10.1002/ijc.32258	doi:10.1002/ijc.32258	doi:10.1002/ijc.32258	BLNV1DbL
 doi:10.1371/journal.pcbi.1007128	doi:10.1371/journal.pcbi.1007128	doi:10.1371/journal.pcbi.1007128	YuJbg3zO
 https://dl.acm.org/doi/10.5555/2600239.2600241	https://dl.acm.org/doi/10.5555/2600239.2600241	url:https://dl.acm.org/doi/10.5555/2600239.2600241	1CJTmbOqr
-arxiv:1710.03675	arxiv:1710.03675	arxiv:1710.03675	1A6F96goL
+https://doi.org/10.48550/arXiv.1710.03675	https://doi.org/10.48550/arXiv.1710.03675	url:https://doi.org/10.48550/arXiv.1710.03675	NazMcQpM
 pmid:11895036	pmid:11895036	pubmed:11895036	6yqy8Zzn
 doi:10.1007/s00401-007-0243-4	doi:10.1007/s00401-007-0243-4	doi:10.1007/s00401-007-0243-4	14TDMX5t7
 doi:10.1007/s00401-016-1545-1	doi:10.1007/s00401-016-1545-1	doi:10.1007/s00401-016-1545-1	7sgrMadR
@@ -50,7 +45,6 @@ doi:10.1038/labinvest.3700710	doi:10.1038/labinvest.3700710	doi:10.1038/labinves
 doi:10.1007/s12032-016-0736-x	doi:10.1007/s12032-016-0736-x	doi:10.1007/s12032-016-0736-x	dhzTU0Xu
 doi:10.1111/j.1750-3639.2010.00372.x	doi:10.1111/j.1750-3639.2010.00372.x	doi:10.1111/j.1750-3639.2010.00372.x	5I97mcf1
 doi:10.1038/s41588-019-0525-5	doi:10.1038/s41588-019-0525-5	doi:10.1038/s41588-019-0525-5	td36JJNb
-TBL:Table2	TBL:Table2	TBL:Table2	ObnAOMUF
 doi:10.1136/jmedgenet-2020-107627	doi:10.1136/jmedgenet-2020-107627	doi:10.1136/jmedgenet-2020-107627	1DeOIIYxr
 doi:10.1126/science.1232245	doi:10.1126/science.1232245	doi:10.1126/science.1232245	MeiYPRi0
 doi:10.3390/genes8040107	doi:10.3390/genes8040107	doi:10.3390/genes8040107	mzBdyDm0
@@ -66,7 +60,7 @@ doi:10.4236/jct.2013.48164	doi:10.4236/jct.2013.48164	doi:10.4236/jct.2013.48164
 doi:10.1186/s13029-016-0053-y	doi:10.1186/s13029-016-0053-y	doi:10.1186/s13029-016-0053-y	RmzXK4Cw
 doi:10.1371/journal.pcbi.1008263	doi:10.1371/journal.pcbi.1008263	doi:10.1371/journal.pcbi.1008263	12DKhuCiy
 doi:10.18632/oncotarget.22783	doi:10.18632/oncotarget.22783	doi:10.18632/oncotarget.22783	sOb4Wh4q
-doi:10.1038/NATURE13480	doi:10.1038/NATURE13480	doi:10.1038/nature13480	V9Yzaa0M
+https://doi.org/10.1038/NATURE13480	https://doi.org/10.1038/NATURE13480	url:https://doi.org/10.1038/NATURE13480	11x4p1w23
 doi:10.3171/2015.2.PEDS14656	doi:10.3171/2015.2.PEDS14656	doi:10.3171/2015.2.peds14656	nCoKt2Vg
 doi:10.5348/ijcri-2013-12-419-CR-13	doi:10.5348/ijcri-2013-12-419-CR-13	doi:10.5348/ijcri-2013-12-419-cr-13	rfGUdNhB
 doi:10.1093/neuonc/noy035	doi:10.1093/neuonc/noy035	doi:10.1093/neuonc/noy035	i9VLAGYQ
@@ -75,9 +69,9 @@ pmid:32075140	pmid:32075140	pubmed:32075140	t0e7Pt0B
 doi:10.1007/s00401-018-1830-2	doi:10.1007/s00401-018-1830-2	doi:10.1007/s00401-018-1830-2	15tuSDJZh
 doi:10.3389/fonc.2019.00791	doi:10.3389/fonc.2019.00791	doi:10.3389/fonc.2019.00791	oyGGylFL
 doi:10.1186/s12859-020-03922-7	doi:10.1186/s12859-020-03922-7	doi:10.1186/s12859-020-03922-7	10LfPTs0c
-url:https://pnoc.us/clinical-trial/pnoc008	url:https://pnoc.us/clinical-trial/pnoc008	url:https://pnoc.us/clinical-trial/pnoc008	1CfFjxg8Y
+clinicaltrials:NCT03739372	clinicaltrials:NCT03739372	clinicaltrials:NCT03739372	eQQpBw1T
 doi:10.24370/OPENPBTA	doi:10.24370/OPENPBTA	doi:10.24370/openpbta	THjIzNXb
-arxiv:1303.3997	arxiv:1303.3997	arxiv:1303.3997	gmH6YDca
+https://doi.org/10.48550/arXiv.1303.3997	https://doi.org/10.48550/arXiv.1303.3997	url:https://doi.org/10.48550/arXiv.1303.3997	Wql2Djro
 doi:10.1038/ng.806	doi:10.1038/ng.806	doi:10.1038/ng.806	NCr4QkOg
 doi:10/f6kft3	doi:10/f6kft3	doi:10.1093/bioinformatics/btu314	IzUbOv92
 doi:10/gfzsfw	doi:10/gfzsfw	doi:10.1093/bioinformatics/btv098	PcJwlZj3
@@ -118,7 +112,7 @@ pmid:31510660	pmid:31510660	pubmed:31510660	HnrrHXPm
 doi:10.1186/s13073-019-0638-6	doi:10.1186/s13073-019-0638-6	doi:10.1186/s13073-019-0638-6	RLEOBWiR
 doi:10.1186/1471-2105-14-7	doi:10.1186/1471-2105-14-7	doi:10.1186/1471-2105-14-7	1F5zJEMaD
 doi:10.1016/j.cels.2015.12.004	doi:10.1016/j.cels.2015.12.004	doi:10.1016/j.cels.2015.12.004	1CbVoEpNJ
-arxiv:1802.03426v2	arxiv:1802.03426v2	arxiv:1802.03426v2	14XP70sGJ
+https://doi.org/10.48550/arXiv.1802.03426	https://doi.org/10.48550/arXiv.1802.03426	url:https://doi.org/10.48550/arXiv.1802.03426	jErrUFsf
 doi:10.1016/j.cell.2018.01.029	doi:10.1016/j.cell.2018.01.029	doi:10.1016/j.cell.2018.01.029	9vS8HBL6
 doi:10.1073/pnas.1300252110	doi:10.1073/pnas.1300252110	doi:10.1073/pnas.1300252110	jLWV5IWB
 doi:10.1038/nature11327	doi:10.1038/nature11327	doi:10.1038/nature11327	4wYR62jK
@@ -145,7 +139,7 @@ doi:10.1186/s13059-016-0893-4	doi:10.1186/s13059-016-0893-4	doi:10.1186/s13059-0
 doi:10.1111/nan.12626	doi:10.1111/nan.12626	doi:10.1111/nan.12626	6bmmWiU5
 pmid:30249036	pmid:30249036	pubmed:30249036	ynt8AIJ4
 doi:10.1007/s00381-017-3551-6	doi:10.1007/s00381-017-3551-6	doi:10.1007/s00381-017-3551-6	t40FioEk
-url:https://www.cancer.gov/types/brain/hp/child-cns-embryonal-treatment-pdq	url:https://www.cancer.gov/types/brain/hp/child-cns-embryonal-treatment-pdq	url:https://www.cancer.gov/types/brain/hp/child-cns-embryonal-treatment-pdq	1AM78Fkrd
+pmid:26389418	pmid:26389418	pubmed:26389418	WBoOEAK1
 doi:10.3390/ijms21051818	doi:10.3390/ijms21051818	doi:10.3390/ijms21051818	Cibjccyk
 doi:10.1007/s00401-012-1068-3	doi:10.1007/s00401-012-1068-3	doi:10.1007/s00401-012-1068-3	7UxjGOxW
 doi:10.1186/s12859-016-1031-8	doi:10.1186/s12859-016-1031-8	doi:10.1186/s12859-016-1031-8	DEDtXX7K

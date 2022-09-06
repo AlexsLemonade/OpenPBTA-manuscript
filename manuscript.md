@@ -9,7 +9,7 @@ keywords:
 - classification
 - somatic variation
 lang: en-US
-date-meta: '2022-09-05'
+date-meta: '2022-09-06'
 author-meta:
 - Joshua A. Shapiro
 - Krutika S. Gaonkar
@@ -85,8 +85,8 @@ header-includes: |-
   <meta name="citation_title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="og:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="twitter:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
-  <meta name="dc.date" content="2022-09-05" />
-  <meta name="citation_publication_date" content="2022-09-05" />
+  <meta name="dc.date" content="2022-09-06" />
+  <meta name="citation_publication_date" content="2022-09-06" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -362,9 +362,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c07d1124e2a3a5c9f5e4fccd91425c2cb1128399/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c07d1124e2a3a5c9f5e4fccd91425c2cb1128399/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c07d1124e2a3a5c9f5e4fccd91425c2cb1128399/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/475afc0ef2fb8853fcb74277b6c23790f33735f3/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/475afc0ef2fb8853fcb74277b6c23790f33735f3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/475afc0ef2fb8853fcb74277b6c23790f33735f3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -386,10 +386,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c07d1124e2a3a5c9f5e4fccd91425c2cb1128399/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/475afc0ef2fb8853fcb74277b6c23790f33735f3/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@c07d112](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/c07d1124e2a3a5c9f5e4fccd91425c2cb1128399)
-on September 5, 2022.
+from [AlexsLemonade/OpenPBTA-manuscript@475afc0](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/475afc0ef2fb8853fcb74277b6c23790f33735f3)
+on September 6, 2022.
 </em></small>
 
 ## Authors
@@ -1550,6 +1550,7 @@ Code for determining authorship order can be found in the `count-contributions` 
 
 CSG's spouse was an employee of Alex's Lemonade Stand Foundation, which was a sponsor of this research.
 JAS, CLS, CJB, SJS, and JNT are or were employees of Alex's Lemonade Stand Foundation, a sponsor of this research.
+AJW is a member of the Scientific Advisory boards for Alexion and DayOne Biopharmaceuticals.
 
 ## Figure Titles and Legends
 

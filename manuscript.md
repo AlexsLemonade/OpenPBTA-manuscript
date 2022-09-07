@@ -9,7 +9,7 @@ keywords:
 - classification
 - somatic variation
 lang: en-US
-date-meta: '2022-09-06'
+date-meta: '2022-09-07'
 author-meta:
 - Joshua A. Shapiro
 - Krutika S. Gaonkar
@@ -85,8 +85,8 @@ header-includes: |-
   <meta name="citation_title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="og:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="twitter:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
-  <meta name="dc.date" content="2022-09-06" />
-  <meta name="citation_publication_date" content="2022-09-06" />
+  <meta name="dc.date" content="2022-09-07" />
+  <meta name="citation_publication_date" content="2022-09-07" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -362,9 +362,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/93aa068064f5187c1de57d5d53154c1f7702efcf/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/93aa068064f5187c1de57d5d53154c1f7702efcf/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/93aa068064f5187c1de57d5d53154c1f7702efcf/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/727d33b6bedee18de57436de3d9b9f064e31edb5/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/727d33b6bedee18de57436de3d9b9f064e31edb5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/727d33b6bedee18de57436de3d9b9f064e31edb5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -386,10 +386,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/93aa068064f5187c1de57d5d53154c1f7702efcf/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/727d33b6bedee18de57436de3d9b9f064e31edb5/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@93aa068](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/93aa068064f5187c1de57d5d53154c1f7702efcf)
-on September 6, 2022.
+from [AlexsLemonade/OpenPBTA-manuscript@727d33b](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/727d33b6bedee18de57436de3d9b9f064e31edb5)
+on September 7, 2022.
 </em></small>
 
 ## Authors
@@ -1043,8 +1043,9 @@ Historically, some of the most fatal, inoperable brain tumors, such as diffuse i
 Limited access to tissue to develop patient-derived cell lines and mouse models has been a barrier to research.
 Furthermore, the incidence of any single brain tumor molecular subtype is relatively low due to the rarity of pediatric tumors in general.
 
-To address these long-standing barriers, multiple national and international consortia have come together to collaboratively share specimens and data to accelerate breakthroughs and clinical translation.
-The creation of the Pediatric Brain Tumor Atlas (PBTA) in 2018, led by the Children's Brain Tumor Network (CBTN) and the Pacific Pediatric Neuro-Oncology Consortium (PNOC), was one such effort.
+To address these long-standing barriers, multiple national and international consortia have come together to uniformly collect clinically-annotated surgical biosamples and associated germline materials as part of both observational and interventional clinical trials.  
+Such accessible, centralized resources enable collaborative sharing of specimens and data across rare cancer subtypes to accelerate breakthroughs and clinical translation. 
+The creation of the Pediatric Brain Tumor Atlas (PBTA) in 2018, led by the Children's Brain Tumor Network (CBTN, [cbtn.org](cbtn.org)) and the Pacific Pediatric Neuro-Oncology Consortium (PNOC, [PNOC.us](pnoc.us)) is one such effort that builds on nearly 10 years of multi-institutional enrollment, sample collection, and clinical followup across more than 30 institutions.
 Just as cooperation is required to share specimens and data, rigorous cancer genomic analysis requires collaboration among researchers with distinct expertise, such as computational scientists, bench scientists, clinicians, and pathologists.
 
 Although there has been significant progress in recent years to elucidate the landscape of somatic variation responsible for pediatric brain tumor formation and progression, translation of therapeutic agents to phase II or III clinical trials and subsequent FDA approvals have not kept pace.
@@ -1060,10 +1061,10 @@ The regulatory change introduced by the RACE Act, coupled with the identificatio
 
 To leverage diverse scientific and analytical expertise to analyze the PBTA data, we created an open science model and incorporated features such as analytical code review [@doi:10.1093/aje/kwab092; @doi:10.7287/peerj.preprints.3210v1] and continuous integration to test data and code [@doi:10.1038/nbt.3780; @doi:10.7287/peerj.preprints.3210v1] to improve reproducibility throughout the life cycle of our project, termed OpenPBTA.
 
-We anticipated that a model of open collaboration would enhance the value of our effort to the pediatric brain tumor research community.
-Openly sharing data and code in real time allows others to build upon our work more rapidly, and publications that include data and code sharing may have a greater impact [@doi:10.1371/journal.pone.0000308; @doi:10.1371/journal.pcbi.1008867].
+We anticipated that a model of open collaboration would enhance the value of our effort to the pediatric brain tumor research community and provide a framework for continuous, accelerated translation of pediatric brain tumor datasets.
+Openly sharing data and code in real time allows others to build upon the work more rapidly, and publications that include data and code sharing are poised for greater impact [@doi:10.1371/journal.pone.0000308; @doi:10.1371/journal.pcbi.1008867].
 Here, we present a comprehensive, collaborative, open genomic analysis of 1,043 tumors and 22 cell lines, comprised of 58 distinct brain tumor histologies from 943 patients.
-The data and containerized infrastructure of OpenPBTA have been instrumental for discovery and translational research studies [@doi:10.1016/j.celrep.2021.108917; @biorxiv:10.1101/2021.07.06.451385; @doi:10.1158/1078-0432.CCR-22-0803], are actively integrated into PNOC molecular tumor board decision-making, and are a foundational layer for the NCI's pediatric Molecular Targets Platform recently built in support of the RACE Act.
+The data and containerized infrastructure of OpenPBTA have been instrumental for discovery and translational research studies [@doi:10.1016/j.celrep.2021.108917; @biorxiv:10.1101/2021.07.06.451385; @doi:10.1158/1078-0432.CCR-22-0803], are actively integrated into PNOC molecular tumor board decision-making, and are a foundational layer for the NCI's Childhood Cancer Data Initiative's (CCDI) pediatric Molecular Targets Platform ([https://moleculartargets.ccdi.cancer.gov/](https://moleculartargets.ccdi.cancer.gov/)) recently built in support of the RACE Act [@doi:10.1158/2159-8290.CD-NB2020-081].
 We anticipate OpenPBTA will be an invaluable resource to the pediatric oncology community.
 
 
@@ -1105,11 +1106,11 @@ Similarly, pull requests underwent a peer review process for clarity and correct
 Over the past two decades, experts in neuro-oncology have worked with the World Health Organization (WHO) to iteratively redefine the classifications of central nervous system (CNS) tumors [@pmid:11895036; @doi:10.1007/s00401-007-0243-4].
 More recently, in 2016 and 2021 [@doi:10.1007/s00401-016-1545-1; @doi:10.1093/neuonc/noab106], molecular subtypes have been integrated into these classifications.
 In 2011, the Children’s Brain Tumor Tissue Consortium, now known as the Children’s Brain Tumor Network (CBTN), opened its protocol for brain tumor and matched normal sample collection.
-Since the CBTN opened its protocol before molecular data were integrated into classifications, the majority of the samples within the OpenPBTA lacked molecular subtype annotations.
-Moreover, the OpenPBTA data does not feature methylation arrays which are now commonly used to perform molecular subtyping.
+Since the CBTN opened its collection protocol in 2011, before molecular data were integrated into classifications, the majority of the samples within the OpenPBTA lacked molecular subtype annotations at the time of tissue collection.
+Moreover, the OpenPBTA data does not yet feature methylation arrays which are increasingly used to inform molecular subtyping.
 Therefore, we jointly considered key genomic features of tumor entities described by the WHO in 2016, low-grade glioma (LGG) subtypes described by Ryall and colleagues [@doi:10.1016/j.ccell.2020.03.011], as well as clinician and pathologist review to generate research-grade integrated diagnoses for 59% (630/1074) of tumor samples with high confidence (**Table S1**). <!--SAMPLECOUNT-->
 
-Importantly, this collaborative molecular subtyping process allowed us to identify data entry errors (e.g., an ETMR incorrectly entered as a medulloblastoma) and mis-identified specimens (e.g., Ewing sarcoma sample labeled as a craniopharyngioma), update diagnoses using current WHO terms (e.g., tumors formerly ascribed primitive neuro-ectodermal tumor [PNET] diagnoses), and discover rarer tumor entities within the OpenPBTA (e.g., H3-mutant ependymoma, meningioma with _YAP1::FAM118B_ fusion).
+Importantly, this collaborative molecular subtyping process allowed us to identify potential data entry errors (e.g., an ETMR incorrectly entered as a medulloblastoma) and histologically mis-identified specimens (e.g., Ewing sarcoma sample labeled as a craniopharyngioma), update diagnoses using current WHO terms (e.g., tumors formerly ascribed primitive neuro-ectodermal tumor [PNET] diagnoses), and discover rarer tumor entities within the OpenPBTA (e.g., H3-mutant ependymoma, meningioma with _YAP1::FAM118B_ fusion).
 **Table {@tbl:Table1}** lists the subtypes we defined within OpenPBTA, comprising low-grade gliomas (N = 290), high-grade gliomas (N = 141), embryonal tumors (N = 126), ependymomas (N = 30), tumors of sellar region (N = 27), mesenchymal non-meningothelial tumors (N = 11), glialneuronal tumors (N = 10), and chordomas (N = 6). <!--SAMPLECOUNT-->
 For detailed methods, see **STAR Methods** and **Figure {@fig:S1}**.
 
@@ -1258,7 +1259,7 @@ This trend may have resulted from therapy-induced mutations that produced additi
 
 To understand the _TP53_ phenotype in each tumor, we ran a classifier previously trained on TCGA [@doi:10.1016/j.celrep.2018.03.076] to calculate a _TP53_ score and infer _TP53_ inactivation status.
 We compared results of this classifier to "true positive" alterations derived using high-confidence SNVs, CNVs, SVs, and fusions in _TP53_.
-Specifically, we annotated _TP53_ alterations as "activated" if samples harbored one of p.R273C or p.R248W mutations [@doi:10.1038/ng0593-42], or "lost" if the given patient either had a Li Fraumeni Syndrome (LFS) predisposition diagnosis, the tumor harbored a known hotspot mutation, or the tumor contained two hits (e.g. both SNV and CNV), which would suggest both alleles had been affected.
+Specifically, we annotated _TP53_ alterations as "activated" if samples harbored one of p.R273C or p.R248W gain-of-function mutations [@doi:10.1038/ng0593-42], or "lost" if the given patient either had a Li Fraumeni Syndrome (LFS) predisposition diagnosis, the tumor harbored a known hotspot mutation, or the tumor contained two hits (e.g. both SNV and CNV), which would suggest both alleles had been affected.
 If the _TP53_ mutation did not reside within the DNA-binding domain or we did not detect any alteration in _TP53_, we annotate the tumor as "other," reflecting its unknown _TP53_ alteration status.
 The classifier achieved a high accuracy (AUROC = 0.85) for rRNA-depleted, stranded samples compared to randomly shuffled _TP53_ scores (**Figure {@fig:Fig4}A**).
 By contrast, while this classifier has previously shown strong performance on poly-A data from both adult [@doi:10.1016/j.celrep.2018.03.076] tumors and pediatric patient-derived xenografts [@doi:10.1016/j.celrep.2019.09.071], it did not perform as well on the poly-A samples in this cohort (AUROC = 0.62; **Figure {@fig:S5}A**).
@@ -1275,12 +1276,10 @@ In addition, the tumor purity of these two LFS samples was low (16% and 37%, res
 
 We next used gene expression data to predict telomerase activity using EXpression-based Telomerase ENzymatic activity Detection (`EXTEND`) [@doi:10.1038/s41467-020-20474-9] as a surrogate measure of malignant potential [@doi:10.1038/s41467-020-20474-9; @doi:10.1093/carcin/bgp268], such that higher `EXTEND` scores suggest increased malignant potential.
 As expected, `EXTEND` scores significantly correlated with _TERC_ (R = 0.619, p < 0.01) and _TERT_ (R = 0.491, p < 0.01) expression (**Figure {@fig:S5}B-C**).
-We found aggressive tumors such as HGGs (DMGs and other high-grade gliomas) and MB had high `EXTEND` scores (**Figure {@fig:Fig4}D**), while benign lesions such as schwannomas, GNGs, DNETs, and other low-grade gliomas had among the lowest scores (**Table S3**).
+We found aggressive tumors such as HGGs (DMGs and other high-grade gliomas) and MB had high `EXTEND` scores (**Figure {@fig:Fig4}D**), while low-grade lesions such as schwannomas, GNGs, DNETs, and other low-grade gliomas had among the lowest scores (**Table S3**).
 These findings support previous reports of a more aggressive phenotype in tumors with higher telomerase activity	[@doi:10.1007/s13277-016-5045-7; @doi:10.1038/labinvest.3700710; @doi:10.1007/s12032-016-0736-x; @doi:10.1111/j.1750-3639.2010.00372.x].
 
-
 #### Hypermutant tumors share mutational signatures and have dysregulated **_TP53_**
-
 
 We further investigated the mutational signature profiles of the hypermutant (TMB > 10 Mut/Mb; N = 3) and ultra-hypermutant (TMB > 100 Mut/Mb; N = 4) tumors and/or derived cell lines from six patients in the OpenPBTA cohort (**Figure {@fig:Fig4}E**).
 Five of six tumors were diagnosed as HGGs and one was a brain metastasis of a MYCN non-amplified neuroblastoma tumor.
@@ -1354,7 +1353,7 @@ Although CD8+ T-cell infiltration across all cancer groups was quite low (**Figu
 Surprisingly, the classically immunologically-cold HGG and DMG tumors [@doi:10.1186/s40478-018-0553-x; @doi:10.1093/brain/awab155] contained higher overall fractions of immune cells, where monocytes, dendritic cells, and NK cells were the most prevalent (**Figure {@fig:Fig5}C**).
 Thus, we suspect that quanTIseq might actually have captured microglia within these immune cell fractions.
 
-While we did not detect notable prognostic effects of immune cell infiltration in HGG or DMG tumors, we did find that high levels of macrophage M1 and monocytes were associated with poorer overall survival (monocyte HR = 2.1e18, 95% CI = 3.80e5 - 1.2e31, p = 0.005) in medulloblastoma tumors (**Figure {@fig:Fig5}D**).
+While we did not detect notable prognostic effects of immune cell infiltration on overall survival in HGG or DMG tumors, we did find that high levels of macrophage M1 and monocytes were associated with poorer overall survival (monocyte HR = 2.1e18, 95% CI = 3.80e5 - 1.2e31, p = 0.005) in medulloblastoma tumors (**Figure {@fig:Fig5}D**).
 We further reproduced previous findings (**Figure {@fig:Fig5}E**) that medulloblastomas typically have low expression of _CD274_ (PD-L1) [@doi:10.18632/oncotarget.24951].
 However, we also found that higher expression of _CD274_ was significantly associated with improved overall prognosis for medulloblastoma samples, although with a marginal effect size (HR = 0.0012, 95% CI = 7.5e−06 - 0.18, p = 0.008) (**Figure {@fig:Fig5}D**).
 This result may be explained by the higher expression of _CD274_ found in WNT subtype tumors by us and others [@doi:10.1080/2162402X.2018.1462430], as this diagnosis carries the best prognosis of all medulloblastoma subgroups (**Figure {@fig:Fig5}E**).
@@ -1367,14 +1366,15 @@ While adamantinomatous craniopharyngiomas and Group 3 and Group 4 medulloblastom
 
 ## Discussion
 
-We created OpenPBTA to provide an open, reproducible analysis framework to genomically characterize pediatric brain tumors and bring together researchers and clinicians from across the globe.
-We provide robust code and data resources to the pediatric oncology community, encouraging interdisciplinary scientists to collaborate on new analyses in order to accelerate therapeutic translation for children with cancer, goals we are seeing play out in real-time.
+We created OpenPBTA to define an open, real-time, reproducible analysis framework to genomically characterize pediatric brain tumors that brings together basic and translational researchers, clinicians, and data scientists on behalf of accelerated discovery and clinical impact.
+We provide robust reusable code and data resources, paired with cloud-based availability of source and derived data resources, to the pediatric oncology community, encouraging interdisciplinary scientists to collaborate on new analyses in order to accelerate therapeutic translation for children with cancer, goals we are seeing play out in real-time.
 To our knowledge, this initiative represents the first large-scale, collaborative, open analysis of genomic data coupled with open manuscript writing, in which we comprehensively analyzed the largest cohort of pediatric brain tumors to date, comprising 1,043 tumors across 58 distinct histologies.
 We used available WGS, WXS, and RNA-Seq data to generate high-confidence consensus SNV and CNV calls, prioritize putative oncogenic fusions, and establish over 40 scalable modules to perform common downstream cancer genomics analyses, all of which have undergone rigorous scientific and analytical code review.
 We detected and showed expected patterns of genomic lesions, mutational signatures, and aberrantly regulated signaling pathways across multiple pediatric brain tumor histologies.
 
-Molecular subtyping information from pathology reports was largely not collected nor available for this cohort, and if available (e.g.: sparse medulloblastoma subtypes), it required manual curation from pathology reports and/or free text clinical data fields.
-Furthermore, rapid classification to derive molecular subtypes could not be immediately performed since we did not have DNA methylation data for these samples.
+Assembling large, pan-histology cohorts of fresh frozen samples and associated clinical phenotypes and outcomes requires a multi-year, multi-institutional framework, like those provided by CBTN and PNOC.  
+As such, uniform clinical molecular subtyping was largely not performed for most of this cohort at the time of diagnosis and/or at surgery, and when available (e.g., sparse medulloblastoma subtypes), it required manual curation from pathology reports and/or free text clinical data fields.
+Furthermore, rapid classification to derive molecular subtypes could not be immediately performed since research-based DNA methylation data for these samples are not yet available.
 Thus, to enable biological interrogation of specific tumor subtypes, we created RNA- and DNA-based subtyping modules aligned with WHO molecularly-defined diagnoses.
 We worked closely with pathologists and clinicians to build modules from which we determined a research-grade integrated diagnosis for 59% of samples while discovering incorrectly diagnosed or mis-identified samples in the OpenPBTA cohort. <!--SAMPLECOUNT-->
 
@@ -1383,6 +1383,7 @@ For example, we performed subtyping of medulloblastoma tumors, for which only 35
 Among the subtyped tumors, we accurately recapitulated subtypes using MM2S (91%; 39/43) or medulloPackage (95%; 41/43) [@doi:10.1186/s13029-016-0053-y; @doi:10.1371/journal.pcbi.1008263]. <!--SAMPLECOUNT-->
 We then applied the consensus of these methods to subtype all medulloblastoma tumors lacking pathology-based subtypes.
 
+We advanced the integrative analyses and cross-cohort comparison via a number of validated modules.
 We used an expression classifier to determine whether tumors have dysfunctional _TP53_ [@doi:10.1016/j.celrep.2018.03.076] and the EXTEND algorithm to determine their degree of telomerase activity using a 13-gene signature [@doi:10.1038/s41467-020-20474-9].
 Interestingly, in contrast to adult colorectal cancer and gastric adenocarcinoma, in which _TP53_ is less frequent in hypermutated tumors [@doi:10.18632/oncotarget.22783; @https://doi.org/10.1038/NATURE13480], we found that hypermutant HGG tumors universally displayed dysregulation of _TP53_.
 Furthermore, high _TP53_ scores were a significant prognostic marker for poor overall survival for patients with certain tumor types, such as H3 K28-altered DMGs and ependymomas.
@@ -1395,14 +1396,16 @@ Neurotoxic side effects have been reported when interferon alpha immunotherapy i
 Thus, additional immune vulnerabilities, such as IL-6 inhibition and immune checkpoint blockade, have recently been proposed as therapies for cystic adamantinomatous craniopharyngiomas [@doi:10.1093/neuonc/noy035; @pmid:34966342; @pmid:32075140; @doi:10.1007/s00401-018-1830-2; @doi:10.3389/fonc.2019.00791] and our results noted above support this approach.
 Finally, our study reproduced the overall known poor infiltration of CD8+ T cells and general low expression of _CD274_ (PD-L1) in pediatric brain tumors, further highlighting the urgent need to identify novel therapeutic strategies for these immunologically cold tumors.
 
-OpenPBTA has rapidly become a foundational layer for a number of discovery research and translational projects which will continue to add other genomic modalities and analyses, such as germline, methylation, single cell, epigenomic, mRNA splicing, imaging, and model drug response data.
+OpenPBTA has rapidly become a foundational data analysis and processing layer for a number of discovery research and translational projects which will continue to add other genomic modalities and analyses, such as germline, methylation, single cell, epigenomic, mRNA splicing, imaging, and model drug response data.
 For example, the RNA fusion filtering module created within OpenPBTA set the stage for development of the R package _annoFuse_ [@doi:10.1186/s12859-020-03922-7] and an R Shiny application [_shinyFuse_](http://shiny.imbei.uni-mainz.de:3838/shinyFuse/).
 Using medulloblastoma subtyping and immune deconvolution analyses performed herein, Dang and colleagues showed enrichment of monocyte and microglia-derived macrophages within the SHH subgroup which they suggest may accumulate following radiation therapy [@doi:10.1016/j.celrep.2021.108917].
 Expression and copy number analyses were used to demonstrate that _GPC2_ is a highly expressed and copy number gained immunotherapeutic target in ETMRs, medulloblastomas, choroid plexus carcinomas, H3 wildtype high-grade gliomas, as well as DMGs.
 This led Foster and colleagues to subsequently develop a chimeric antigen receptor (CAR) directed against _GPC2_, for which they show preclinical efficacy in mouse models [@biorxiv:10.1101/2021.07.06.451385].
-Moreover, OpenPBTA has enabled a framework to support real-time integration of subjects as each was enrolled on the PNOC008 high-grade glioma clinical trial [@clinicaltrials:NCT03739372], allowing researchers and clinicians to link tumor biology to translational impact through clinical decision support during tumor board discussions.
-Finally, as part of the the NCI's Childhood Cancer Data Initiative, the OpenPBTA project was recently expanded into a pan-pediatric cancer effort (https://github.com/PediatricOpenTargets/OpenPedCan-analysis) to build the Molecular Targets Platform (https://moleculartargets.ccdi.cancer.gov/) in support of the RACE Act.
-The OpenPBTA project has paved the way for collaborative, open, reproducible, and scalable analyses and we anticipate this foundational work will have limitless impact within the pediatric oncology community, ultimately leading to improved outcomes for children with cancer.
+Moreover, OpenPBTA has enabled a framework to support real-time integration of clinical trial subjects as each was enrolled on the PNOC008 high-grade glioma clinical trial [@clinicaltrials:NCT03739372], allowing researchers and clinicians to link tumor biology to translational impact through clinical decision support during tumor board discussions.
+Finally, as part of the the NCI's Childhood Cancer Data Initiative (CCDI), the OpenPBTA project was recently expanded into a pan-pediatric cancer effort (https://github.com/PediatricOpenTargets/OpenPedCan-analysis) to build the Molecular Targets Platform (https://moleculartargets.ccdi.cancer.gov/) in support of the RACE Act.
+An additional, large-scale cohort of >2,500 tumor samples and associated germline DNA is in the process of undergoing sequence data generation as part of CBTN CCDI-Kids First NCI and Common Fund project ([https://commonfund.nih.gov/kidsfirst/2021X01projects#FY21_Resnick](https://commonfund.nih.gov/kidsfirst/2021X01projects#FY21_Resnick)).  
+Like the original OpenPBTA cohort, data will be processed and released in near real-time via the Kids First Data Resource and integrated with OpenPBTA.
+The OpenPBTA project has paved the way for new modes of collaborative data-driven discovery, open, reproducible, and scalable analyses that will extend beyond the current research described herein, and we anticipate this foundational work will continue to have a long-term impact within the pediatric brain tumor translational research community and beyond, ultimately leading to accelerated impact and improved outcomes for children with cancer.
 
 All code and processed data are openly available through GitHub, CAVATICA, and PedcBioPortal (see **STAR METHODS**).
 

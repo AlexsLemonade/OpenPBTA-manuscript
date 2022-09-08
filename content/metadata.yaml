@@ -246,14 +246,15 @@ authors:
   affiliations:
   - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   - Division of Neurosurgery, Children's Hospital of Philadelphia
-- name: Cassie N. Kline
-  initials: CNK
+- name: Cassie Kline
+  initials: CK
   orcid: 0000-0001-7765-7690
   email: klinec@chop.edu
-  twitter: cnkline13
+  twitter: cassiekmd
   contributions:
   - Supervision
   - Investigation
+  - Writing - Review and editing
   affiliations:
   - Division of Oncology, Children's Hospital of Philadelphia
 - github: Yiran-Guo

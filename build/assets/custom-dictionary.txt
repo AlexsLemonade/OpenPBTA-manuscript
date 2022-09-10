@@ -1,4 +1,4 @@
-personal_ws-1.1 en 813 utf-8
+personal_ws-1.1 en 821 utf-8
 Abadi
 AbdelBaki
 aberrantly
@@ -101,6 +101,7 @@ Carrero
 Caudill
 CAVATICA
 CBTN
+CBTN's
 CBTTC
 CCDI
 CCDL
@@ -181,6 +182,7 @@ dysplasia
 dysplasias
 dysregulated
 dysregulation
+Easie
 ectodermal
 Egan
 Elemento
@@ -378,6 +380,7 @@ Kogan
 Kohanbash
 Koldobskiy
 Koptyra
+Kortney
 Koschmann
 Kram
 KRAS
@@ -398,6 +401,7 @@ LGAT
 LGATs
 LGG
 LGGs
+Lilabean
 Lissa
 Lober
 Lonza
@@ -449,6 +453,7 @@ microsatellite
 midbrain
 midline
 Migdalia
+Minnick
 Minturn
 Mirko
 miRNA
@@ -552,6 +557,7 @@ pembrolizumab
 PeproTech
 PerkinElmer
 permalink
+Perricelli
 PFAM
 PFS
 phenotypes
@@ -586,6 +592,7 @@ Priya
 Prolo
 proteogenomic
 pseudoalignment
+Pslam
 pubmed
 PXA
 PXAs
@@ -711,6 +718,7 @@ svg
 svgs
 SVs
 Swetha
+Swifty
 Tagle
 TAMs
 TapeStation

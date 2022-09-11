@@ -592,7 +592,6 @@ Priya
 Prolo
 proteogenomic
 pseudoalignment
-Pslam
 pubmed
 PXA
 PXAs

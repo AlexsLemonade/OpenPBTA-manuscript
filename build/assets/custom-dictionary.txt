@@ -1,4 +1,4 @@
-personal_ws-1.1 en 821 utf-8
+personal_ws-1.1 en 822 utf-8
 Abadi
 AbdelBaki
 aberrantly
@@ -793,6 +793,7 @@ VUS
 Waanders
 Wadhwani
 Wafula
+Waszak
 WDL
 Wechsler
 WGS

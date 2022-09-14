@@ -9,7 +9,7 @@ keywords:
 - classification
 - somatic variation
 lang: en-US
-date-meta: '2022-09-13'
+date-meta: '2022-09-14'
 author-meta:
 - Joshua A. Shapiro
 - Krutika S. Gaonkar
@@ -36,7 +36,7 @@ author-meta:
 - Pichai Raman
 - Siyuan Zheng
 - Peter J. Madsen
-- Nicolas Van Kuren
+- Nicholas Van Kuren
 - Shannon Robins
 - Xiaoyan Huang
 - Angela J. Waanders
@@ -85,8 +85,8 @@ header-includes: |-
   <meta name="citation_title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="og:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="twitter:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
-  <meta name="dc.date" content="2022-09-13" />
-  <meta name="citation_publication_date" content="2022-09-13" />
+  <meta name="dc.date" content="2022-09-14" />
+  <meta name="citation_publication_date" content="2022-09-14" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -200,7 +200,7 @@ header-includes: |-
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0001-9266-3685" />
   <meta name="twitter:creator" content="@petermadsenmd" />
-  <meta name="citation_author" content="Nicolas Van Kuren" />
+  <meta name="citation_author" content="Nicholas Van Kuren" />
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
   <meta name="citation_author_orcid" content="0000-0002-7414-9516" />
@@ -362,9 +362,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/aaf885c1408acba16ee6b8dbd1bab38ee4aa3195/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/aaf885c1408acba16ee6b8dbd1bab38ee4aa3195/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/aaf885c1408acba16ee6b8dbd1bab38ee4aa3195/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/5c7ea6d57f8ac6833e1619543f8379b3a8dac276/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/5c7ea6d57f8ac6833e1619543f8379b3a8dac276/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/5c7ea6d57f8ac6833e1619543f8379b3a8dac276/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -386,10 +386,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/aaf885c1408acba16ee6b8dbd1bab38ee4aa3195/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/5c7ea6d57f8ac6833e1619543f8379b3a8dac276/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@aaf885c](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/aaf885c1408acba16ee6b8dbd1bab38ee4aa3195)
-on September 13, 2022.
+from [AlexsLemonade/OpenPBTA-manuscript@5c7ea6d](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/5c7ea6d57f8ac6833e1619543f8379b3a8dac276)
+on September 14, 2022.
 </em></small>
 
 ## Authors
@@ -648,7 +648,7 @@ on September 13, 2022.
      Division of Neurosurgery, Children's Hospital of Philadelphia; Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
   </small>
 
-+ **Nicolas Van Kuren**<br>
++ **Nicholas Van Kuren**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-7414-9516](https://orcid.org/0000-0002-7414-9516)
     · ![GitHub icon](images/github.png){.inline_icon}
@@ -1454,7 +1454,7 @@ Finally, we would like to thank Yuanchao Zhang and Eric Wafula for adding to the
 |Pichai Raman|Conceptualization, Formal analysis, Methodology|
 |Siyuan Zheng|Formal analysis, Visualization, Writing - Original draft, Supervision, Writing - Review and editing|
 |Peter J. Madsen|Writing – Review & editing|
-|Nicolas Van Kuren|Data curation, Software|
+|Nicholas Van Kuren|Data curation, Software|
 |Shannon Robins|Data curation|
 |Xiaoyan Huang|Formal analysis|
 |Angela J. Waanders|Supervision, Conceptualization|

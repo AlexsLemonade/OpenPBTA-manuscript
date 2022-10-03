@@ -9,7 +9,7 @@ keywords:
 - classification
 - somatic variation
 lang: en-US
-date-meta: '2022-09-14'
+date-meta: '2022-10-03'
 author-meta:
 - Joshua A. Shapiro
 - Krutika S. Gaonkar
@@ -85,8 +85,8 @@ header-includes: |-
   <meta name="citation_title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="og:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="twitter:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
-  <meta name="dc.date" content="2022-09-14" />
-  <meta name="citation_publication_date" content="2022-09-14" />
+  <meta name="dc.date" content="2022-10-03" />
+  <meta name="citation_publication_date" content="2022-10-03" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -362,9 +362,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/5c7ea6d57f8ac6833e1619543f8379b3a8dac276/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/5c7ea6d57f8ac6833e1619543f8379b3a8dac276/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/5c7ea6d57f8ac6833e1619543f8379b3a8dac276/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/90d76a7468b53f540fc846b64e1a246ad2f79173/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/90d76a7468b53f540fc846b64e1a246ad2f79173/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/90d76a7468b53f540fc846b64e1a246ad2f79173/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -386,10 +386,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/5c7ea6d57f8ac6833e1619543f8379b3a8dac276/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/90d76a7468b53f540fc846b64e1a246ad2f79173/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@5c7ea6d](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/5c7ea6d57f8ac6833e1619543f8379b3a8dac276)
-on September 14, 2022.
+from [AlexsLemonade/OpenPBTA-manuscript@90d76a7](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/90d76a7468b53f540fc846b64e1a246ad2f79173)
+on October 3, 2022.
 </em></small>
 
 ## Authors
@@ -1415,7 +1415,7 @@ All code and processed data are openly available through GitHub, CAVATICA, and P
 We graciously thank the patients and families who have donated their tumors to the Children's Brain Tumor Network (CBTN) and/or the Pacific Pediatric Neuro-oncology Consortium, without which this research would not be possible.
 
 Philanthropic support has ensured the CBTN's ability to collect, store, manage, and distribute specimen and data since it was founded in 2013. 
-In addition to the support from the CBTN Executive Council members and Brain Tumor Board of Visitors, the following donors have provided leadership level support for CBTN: Children's Brain Tumor Foundation, Easie Family Foundation, Kortney Rose Foundation, Lilabean Foundation, Minnick Family Charitable Fund, Perricelli Family, Psalm 103 Foundation, and Swifty Foundation.
+In addition to the support from the CBTN Executive Council members and Brain Tumor Board of Visitors, the following donors have provided leadership level support for CBTN: Children's Brain Tumor Foundation, Eaise Family Foundation, Kortney Rose Foundation, Lilabean Foundation, Minnick Family Charitable Fund, Perricelli Family, Psalm 103 Foundation, and Swifty Foundation.
 
 This work was funded through the Alex’s Lemonade Stand Foundation (ALSF) Childhood Cancer Data Lab (CSG), ALSF Young Investigator Award (JLR), ALSF Catalyst Award (JLR, ACR, PBS), ALSF Catalyst Award (SJS), ALSF CCDL Postdoctoral Training Grant (SMF), Children’s Hospital of Philadelphia Division of Neurosurgery (PBS and ACR), the Australian Government, Department of Education (APH), the St. Anna Kinderkrebsforschung, Austria (ARP), the Mildred Scheel Early Career Center  Dresden P2, funded by the German Cancer Aid (ARP), and NIH Grants 3P30 CA016520-44S5 (ACR), U2C HL138346-03 (ACR, APH), U24 CA220457-03 (ACR), K12GM081259 (SMF), R03-CA23036 (SJD), and NIH Contract No. HHSN261200800001E (SJD).
 This project has been funded in part with Federal funds from the National Cancer Institute, National Institutes of Health, under Contract No. 75N91019D00024, Task Order No. 75N91020F00003 (JLR, ACR, APH).

@@ -388,8 +388,8 @@
       "date-parts": [
         [
           "2022",
-          9,
-          12
+          10,
+          2
         ]
       ]
     },
@@ -1358,6 +1358,7 @@
   {
     "publisher": "Springer Science and Business Media LLC",
     "issue": "3",
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Embryonal tumor with Multilayered Rosettes (ETMR) is a relatively rare but typically deadly type of brain tumor that occurs mostly in infants. Since the discovery of the characteristic chromosome 19 miRNA cluster (<jats:italic>C19MC</jats:italic>) amplification a decade ago, the methods for diagnosing this entity have improved and many new insights in the molecular landscape of ETMRs have been acquired. All ETMRs, despite their highly heterogeneous histology, are characterized by specific high expression of the RNA-binding protein LIN28A, which is, therefore, often used as a diagnostic marker for these tumors. ETMRs have few recurrent genetic aberrations, mainly affecting the miRNA pathway and including amplification of <jats:italic>C19MC</jats:italic> (embryonal tumor with multilayered rosettes, <jats:italic>C19MC</jats:italic>-altered) and mutually exclusive biallelic <jats:italic>DICER1</jats:italic> mutations of which the first hit is typically inherited through the germline (embryonal tumor with multilayered rosettes, <jats:italic>DICER1-</jats:italic>altered). Identification of downstream pathways affected by the deregulated miRNA machinery has led to several proposed potential therapeutical vulnerabilities including targeting the WNT, SHH, or mTOR pathways, MYCN or chromosomal instability. However, despite those findings, treatment outcomes have only marginally improved, since the initial description of this tumor entity. Many patients do not survive longer than a year after diagnosis and the 5-year overall survival rate is still lower than 30%. Thus, there is an urgent need to translate the new insights in ETMR biology into more effective treatments. Here, we present an overview of clinical and molecular characteristics of ETMRs and the current progress on potential targeted therapies.</jats:p>",
     "DOI": "10.1007/s00401-020-02182-2",
     "type": "article-journal",
     "page": "249-266",
@@ -14026,12 +14027,14 @@
   },
   {
     "publisher": "American Association for Cancer Research (AACR)",
-    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:sec>\n                  <jats:title>Purpose:</jats:title>\n                  <jats:p>PNOC003 is a multicenter precision medicine trial for children and young adults with newly diagnosed diffuse intrinsic pontine glioma (DIPG).</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Experimental Design:</jats:title>\n                  <jats:p>Patients (3–25 years) were enrolled on the basis of imaging consistent with DIPG. Biopsy tissue was collected for whole-exome and mRNA sequencing. After radiotherapy (RT), patients were assigned up to four FDA-approved drugs based on molecular tumor board recommendations. H3K27M-mutant circulating tumor DNA (ctDNA) was longitudinally measured. Tumor tissue and matched primary cell lines were characterized using whole-genome sequencing and DNA methylation profiling. When applicable, results were verified in an independent cohort from the Children's Brain Tumor Network (CBTN).</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Results:</jats:title>\n                  <jats:p>Of 38 patients enrolled, 28 patients (median 6 years, 10 females) were reviewed by the molecular tumor board. Of those, 19 followed treatment recommendations. Median overall survival (OS) was 13.1 months [95% confidence interval (CI), 11.2–18.4] with no difference between patients who followed recommendations and those who did not. H3K27M-mutant ctDNA was detected at baseline in 60% of cases tested and associated with response to RT and survival. Eleven cell lines were established, showing 100% fidelity of key somatic driver gene alterations in the primary tumor. In H3K27-altered DIPGs, TP53 mutations were associated with worse OS (TP53mut 11.1 mo; 95% CI, 8.7–14; TP53wt 13.3 mo; 95% CI, 11.8–NA; P = 3.4e−2), genome instability (P = 3.1e−3), and RT resistance (P = 6.4e−4). The CBTN cohort confirmed an association between TP53 mutation status, genome instability, and clinical outcome.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Conclusions:</jats:title>\n                  <jats:p>Upfront treatment-naïve biopsy provides insight into clinically relevant molecular alterations and prognostic biomarkers for H3K27-altered DIPGs.</jats:p>\n               </jats:sec>",
+    "issue": "18",
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:sec>\n                  <jats:title>Purpose:</jats:title>\n                  <jats:p>PNOC003 is a multicenter precision medicine trial for children and young adults with newly diagnosed diffuse intrinsic pontine glioma (DIPG).</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Patients and Methods:</jats:title>\n                  <jats:p>Patients (3–25 years) were enrolled on the basis of imaging consistent with DIPG. Biopsy tissue was collected for whole-exome and mRNA sequencing. After radiotherapy (RT), patients were assigned up to four FDA-approved drugs based on molecular tumor board recommendations. H3K27M-mutant circulating tumor DNA (ctDNA) was longitudinally measured. Tumor tissue and matched primary cell lines were characterized using whole-genome sequencing and DNA methylation profiling. When applicable, results were verified in an independent cohort from the Children's Brain Tumor Network (CBTN).</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Results:</jats:title>\n                  <jats:p>Of 38 patients enrolled, 28 patients (median 6 years, 10 females) were reviewed by the molecular tumor board. Of those, 19 followed treatment recommendations. Median overall survival (OS) was 13.1 months [95% confidence interval (CI), 11.2–18.4] with no difference between patients who followed recommendations and those who did not. H3K27M-mutant ctDNA was detected at baseline in 60% of cases tested and associated with response to RT and survival. Eleven cell lines were established, showing 100% fidelity of key somatic driver gene alterations in the primary tumor. In H3K27-altered DIPGs, TP53 mutations were associated with worse OS (TP53mut 11.1 mo; 95% CI, 8.7–14; TP53wt 13.3 mo; 95% CI, 11.8–NA; P = 3.4e−2), genome instability (P = 3.1e−3), and RT resistance (P = 6.4e−4). The CBTN cohort confirmed an association between TP53 mutation status, genome instability, and clinical outcome.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Conclusions:</jats:title>\n                  <jats:p>Upfront treatment-naïve biopsy provides insight into clinically relevant molecular alterations and prognostic biomarkers for H3K27-altered DIPGs.</jats:p>\n               </jats:sec>",
     "DOI": "10.1158/1078-0432.ccr-22-0803",
     "type": "article-journal",
-    "page": "OF1-OF14",
+    "page": "3965-3978",
     "source": "Crossref",
     "title": "Upfront Biology-Guided Therapy in Diffuse Intrinsic Pontine Glioma: Therapeutic, Molecular, and Biomarker Outcomes from PNOC003",
+    "volume": "28",
     "author": [
       {
         "given": "Cassie",
@@ -14152,8 +14155,8 @@
       "date-parts": [
         [
           2022,
-          8,
-          10
+          7,
+          19
         ]
       ]
     },
@@ -19162,8 +19165,8 @@
       "date-parts": [
         [
           "2022",
-          9,
-          14
+          10,
+          3
         ]
       ]
     },
@@ -19390,8 +19393,8 @@
       "date-parts": [
         [
           "2022",
-          9,
-          14
+          10,
+          3
         ]
       ]
     },
@@ -19424,8 +19427,8 @@
       "date-parts": [
         [
           "2022",
-          9,
-          14
+          10,
+          3
         ]
       ]
     },
@@ -19463,8 +19466,8 @@
       "date-parts": [
         [
           "2022",
-          9,
-          14
+          10,
+          3
         ]
       ]
     },
@@ -19506,8 +19509,8 @@
       "date-parts": [
         [
           "2022",
-          9,
-          14
+          10,
+          3
         ]
       ]
     },

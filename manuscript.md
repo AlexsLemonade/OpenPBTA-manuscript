@@ -9,7 +9,7 @@ keywords:
 - classification
 - somatic variation
 lang: en-US
-date-meta: '2022-10-03'
+date-meta: '2022-10-31'
 author-meta:
 - Joshua A. Shapiro
 - Krutika S. Gaonkar
@@ -85,8 +85,8 @@ header-includes: |-
   <meta name="citation_title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="og:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="twitter:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
-  <meta name="dc.date" content="2022-10-03" />
-  <meta name="citation_publication_date" content="2022-10-03" />
+  <meta name="dc.date" content="2022-10-31" />
+  <meta name="citation_publication_date" content="2022-10-31" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -362,9 +362,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/90d76a7468b53f540fc846b64e1a246ad2f79173/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/90d76a7468b53f540fc846b64e1a246ad2f79173/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/90d76a7468b53f540fc846b64e1a246ad2f79173/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/b0fdf6f24fe9c021f22e8b7da348708f68877ee5/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/b0fdf6f24fe9c021f22e8b7da348708f68877ee5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/b0fdf6f24fe9c021f22e8b7da348708f68877ee5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -386,10 +386,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/90d76a7468b53f540fc846b64e1a246ad2f79173/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/b0fdf6f24fe9c021f22e8b7da348708f68877ee5/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@90d76a7](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/90d76a7468b53f540fc846b64e1a246ad2f79173)
-on October 3, 2022.
+from [AlexsLemonade/OpenPBTA-manuscript@b0fdf6f](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/b0fdf6f24fe9c021f22e8b7da348708f68877ee5)
+on October 31, 2022.
 </em></small>
 
 ## Authors
@@ -1022,13 +1022,13 @@ OpenPBTA will accelerate therapeutic translation of genomic insights
 <!-- The summary is a single paragraph no longer than 150 words. An effective summary includes the following elements: (1) a brief background of the question that avoids statements about how a process is not well understood; (2) a description of the results and approaches/model systems framed in the context of their conceptual interest; and (3) an indication of the broader significance of the work. We discourage novelty claims (e.g., use of the word “novel”) because they are overused, tend not to add meaning, and are difficult to verify. Please do not include references in the summary. CURRENT WORD COUNT 148 -->
 Pediatric brain and spinal cancer are the leading disease-related cause of death in children, thus we urgently need curative therapeutic strategies for these tumors.
 To accelerate such discoveries, the Children's Brain Tumor Network and Pacific Pediatric Neuro-Oncology Consortium created a systematic process for tumor biobanking, model generation, and sequencing with immediate access to harmonized data.
-We leverage these data to create OpenPBTA, an open collaborative project which establishes over 40 scalable analysis modules to genomically characterize 1,043 pediatric brain tumors.
-Transcriptomic classification reveals that _TP53_ loss is a significant marker for poor overall survival in ependymomas and H3 K28-altered diffuse midline gliomas and further identifies universal _TP53_ dysregulation in mismatch repair-deficient hypermutant high-grade gliomas. 
+We leverage these data to create OpenPBTA, an open collaborative project which establishes over 40 scalable analysis modules to genomically characterize 1,074 pediatric brain tumors.
+Transcriptomic classification reveals that _TP53_ loss is a significant marker for poor overall survival in ependymomas and H3 K28-altered diffuse midline gliomas and further identifies universal _TP53_ dysregulation in mismatch repair-deficient hypermutant high-grade gliomas.
 OpenPBTA is a foundational analysis platform actively being applied to other pediatric cancers and inform molecular tumor board decision-making, making it an invaluable resource to the pediatric oncology community.
 
 ## Keywords
 <!-- We encourage you to include up to ten keywords with your paper. These keywords will be associated with your paper on Cell Press platforms and on PubMed. These keywords should be listed in the manuscript after the summary, separated by commas. -->
-pediatric cancer, brain tumors, somatic variation, open science, reproducibility, classification, tumor atlas  
+pediatric cancer, brain tumors, somatic variation, open science, reproducibility, classification, tumor atlas
 
 
 ## Introduction
@@ -1372,7 +1372,7 @@ To our knowledge, this initiative represents the first large-scale, collaborativ
 We used available WGS, WXS, and RNA-Seq data to generate high-confidence consensus SNV and CNV calls, prioritize putative oncogenic fusions, and establish over 40 scalable modules to perform common downstream cancer genomics analyses, all of which have undergone rigorous scientific and analytical code review.
 We detected and showed expected patterns of genomic lesions, mutational signatures, and aberrantly regulated signaling pathways across multiple pediatric brain tumor histologies.
 
-Assembling large, pan-histology cohorts of fresh frozen samples and associated clinical phenotypes and outcomes requires a multi-year, multi-institutional framework, like those provided by CBTN and PNOC.  
+Assembling large, pan-histology cohorts of fresh frozen samples and associated clinical phenotypes and outcomes requires a multi-year, multi-institutional framework, like those provided by CBTN and PNOC.
 As such, uniform clinical molecular subtyping was largely not performed for most of this cohort at the time of diagnosis and/or at surgery, and when available (e.g., sparse medulloblastoma subtypes), it required manual curation from pathology reports and/or free text clinical data fields.
 Furthermore, rapid classification to derive molecular subtypes could not be immediately performed since research-based DNA methylation data for these samples are not yet available.
 Thus, to enable biological interrogation of specific tumor subtypes, we created RNA- and DNA-based subtyping modules aligned with WHO molecularly-defined diagnoses.
@@ -1403,7 +1403,7 @@ Expression and copy number analyses were used to demonstrate that _GPC2_ is a hi
 This led Foster and colleagues to subsequently develop a chimeric antigen receptor (CAR) directed against _GPC2_, for which they show preclinical efficacy in mouse models [@biorxiv:10.1101/2021.07.06.451385].
 Moreover, OpenPBTA has enabled a framework to support real-time integration of clinical trial subjects as each was enrolled on the PNOC008 high-grade glioma clinical trial [@clinicaltrials:NCT03739372], allowing researchers and clinicians to link tumor biology to translational impact through clinical decision support during tumor board discussions.
 Finally, as part of the the NCI's Childhood Cancer Data Initiative (CCDI), the OpenPBTA project was recently expanded into a pan-pediatric cancer effort ([https://github.com/PediatricOpenTargets/OpenPedCan-analysis](https://github.com/PediatricOpenTargets/OpenPedCan-analysis)) to build the Molecular Targets Platform ([https://moleculartargets.ccdi.cancer.gov/](https://moleculartargets.ccdi.cancer.gov/)) in support of the RACE Act.
-An additional, large-scale cohort of >2,500 tumor samples and associated germline DNA is in the process of undergoing sequence data generation as part of CBTN CCDI-Kids First NCI and Common Fund project ([https://commonfund.nih.gov/kidsfirst/2021X01projects#FY21_Resnick](https://commonfund.nih.gov/kidsfirst/2021X01projects#FY21_Resnick)).  
+An additional, large-scale cohort of >2,500 tumor samples and associated germline DNA is in the process of undergoing sequence data generation as part of CBTN CCDI-Kids First NCI and Common Fund project ([https://commonfund.nih.gov/kidsfirst/2021X01projects#FY21_Resnick](https://commonfund.nih.gov/kidsfirst/2021X01projects#FY21_Resnick)).
 Like the original OpenPBTA cohort, data will be processed and released in near real-time via the Kids First Data Resource and integrated with OpenPBTA.
 The OpenPBTA project has paved the way for new modes of collaborative data-driven discovery, open, reproducible, and scalable analyses that will extend beyond the current research described herein, and we anticipate this foundational work will continue to have a long-term impact within the pediatric brain tumor translational research community and beyond, ultimately leading to accelerated impact and improved outcomes for children with cancer.
 
@@ -1414,8 +1414,8 @@ All code and processed data are openly available through GitHub, CAVATICA, and P
 
 We graciously thank the patients and families who have donated their tumors to the Children's Brain Tumor Network (CBTN) and/or the Pacific Pediatric Neuro-oncology Consortium, without which this research would not be possible.
 
-Philanthropic support has ensured the CBTN's ability to collect, store, manage, and distribute specimen and data since it was founded in 2013. 
-In addition to the support from the CBTN Executive Council members and Brain Tumor Board of Visitors, the following donors have provided leadership level support for CBTN: Children's Brain Tumor Foundation, Eaise Family Foundation, Kortney Rose Foundation, Lilabean Foundation, Minnick Family Charitable Fund, Perricelli Family, Psalm 103 Foundation, and Swifty Foundation.
+Philanthropic support has ensured the CBTN's ability to collect, store, manage, and distribute specimen and data since it was founded in 2013.
+In addition to the support from the CBTN Executive Council members and Brain Tumor Board of Visitors, the following donors have provided leadership level support for CBTN: Children's Brain Tumor Foundation, Easie Family Foundation, Kortney Rose Foundation, Lilabean Foundation, Minnick Family Charitable Fund, Perricelli Family, Psalm 103 Foundation, and Swifty Foundation.
 
 This work was funded through the Alex’s Lemonade Stand Foundation (ALSF) Childhood Cancer Data Lab (CSG), ALSF Young Investigator Award (JLR), ALSF Catalyst Award (JLR, ACR, PBS), ALSF Catalyst Award (SJS), ALSF CCDL Postdoctoral Training Grant (SMF), Children’s Hospital of Philadelphia Division of Neurosurgery (PBS and ACR), the Australian Government, Department of Education (APH), the St. Anna Kinderkrebsforschung, Austria (ARP), the Mildred Scheel Early Career Center  Dresden P2, funded by the German Cancer Aid (ARP), and NIH Grants 3P30 CA016520-44S5 (ACR), U2C HL138346-03 (ACR, APH), U24 CA220457-03 (ACR), K12GM081259 (SMF), R03-CA23036 (SJD), and NIH Contract No. HHSN261200800001E (SJD).
 This project has been funded in part with Federal funds from the National Cancer Institute, National Institutes of Health, under Contract No. 75N91019D00024, Task Order No. 75N91020F00003 (JLR, ACR, APH).

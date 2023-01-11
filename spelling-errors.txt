@@ -29,7 +29,7 @@ cgreene
 Chante
 CHB
 CHCl
-Chr
+chr
 Chul
 cjbethell
 CLDN
@@ -61,6 +61,7 @@ GPBP
 GPC
 Greehey
 greenescientist
+gwaybio
 Hackensack
 HHSN
 HL
@@ -114,7 +115,7 @@ orf
 PDGFRA
 petermadsenmd
 PHG
-pichairaman
+PichaiRaman
 PIK
 Poetsch
 QAH

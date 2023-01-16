@@ -386,6 +386,18 @@ authors:
   affiliations:
   - Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics,
     National Cancer Institute
+- github: gwaybio
+  name: Gregory P. Way
+  initials: GPW
+  orcid: 0000-0002-0503-9348
+  twitter: gwaybio
+  email: gregory.way@cuanschutz.edu
+  contributions:
+  - Investigation
+  - Writing - Review and editing
+  affiliations:
+  - Department of Biomedical Informatics, University of Colorado School of Medicine,
+    Aurora, CO, USA
 - name: Derek Hanson
   initials: DH
   orcid: 0000-0002-0024-5142

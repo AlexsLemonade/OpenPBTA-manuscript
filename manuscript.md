@@ -9,7 +9,7 @@ keywords:
 - classification
 - somatic variation
 lang: en-US
-date-meta: '2023-01-11'
+date-meta: '2023-01-18'
 author-meta:
 - Joshua A. Shapiro
 - Krutika S. Gaonkar
@@ -42,6 +42,9 @@ author-meta:
 - Angela J. Waanders
 - Jung Kim
 - Gregory P. Way
+- Christopher Blackden
+- Eric Wafula
+- Noel Coleman
 - Derek Hanson
 - Carl J. Koschmann
 - Sharon J. Diskin
@@ -86,8 +89,8 @@ header-includes: |-
   <meta name="citation_title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="og:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="twitter:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
-  <meta name="dc.date" content="2023-01-11" />
-  <meta name="citation_publication_date" content="2023-01-11" />
+  <meta name="dc.date" content="2023-01-18" />
+  <meta name="citation_publication_date" content="2023-01-18" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -224,6 +227,16 @@ header-includes: |-
   <meta name="citation_author_institution" content="Department of Biomedical Informatics, University of Colorado School of Medicine, Aurora, CO, USA" />
   <meta name="citation_author_orcid" content="0000-0002-0503-9348" />
   <meta name="twitter:creator" content="@gwaybio" />
+  <meta name="citation_author" content="Christopher Blackden" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author" content="Eric Wafula" />
+  <meta name="citation_author_institution" content="Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_orcid" content="0000-0001-8073-3797" />
+  <meta name="citation_author" content="Noel Coleman" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia" />
+  <meta name="citation_author_orcid" content="0000-0001-6454-1285" />
   <meta name="citation_author" content="Derek Hanson" />
   <meta name="citation_author_institution" content="Hackensack Meridian School of Medicine" />
   <meta name="citation_author_institution" content="Hackensack University Medical Center" />
@@ -367,9 +380,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/720d7ef12f72b5a693a6cf4dce55afbd9807c14f/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/720d7ef12f72b5a693a6cf4dce55afbd9807c14f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/720d7ef12f72b5a693a6cf4dce55afbd9807c14f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/2fa13e6ffaa6537f5a1b37a6ffa5e9b7489e817d/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/2fa13e6ffaa6537f5a1b37a6ffa5e9b7489e817d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/2fa13e6ffaa6537f5a1b37a6ffa5e9b7489e817d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -391,10 +404,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/720d7ef12f72b5a693a6cf4dce55afbd9807c14f/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/2fa13e6ffaa6537f5a1b37a6ffa5e9b7489e817d/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@720d7ef](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/720d7ef12f72b5a693a6cf4dce55afbd9807c14f)
-on January 11, 2023.
+from [AlexsLemonade/OpenPBTA-manuscript@2fa13e6](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/2fa13e6ffaa6537f5a1b37a6ffa5e9b7489e817d)
+on January 18, 2023.
 </em></small>
 
 ## Authors
@@ -703,6 +716,29 @@ on January 11, 2023.
     [gwaybio](https://twitter.com/gwaybio)<br>
   <small>
      Department of Biomedical Informatics, University of Colorado School of Medicine, Aurora, CO, USA
+  </small>
+
++ **Christopher Blackden**<br>
+    · ![GitHub icon](images/github.png){.inline_icon}
+    [devbyaccident](https://github.com/devbyaccident)<br>
+  <small>
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
+  </small>
+
++ **Eric Wafula**<br>
+    ![ORCID icon](images/orcid.png){.inline_icon}
+    [0000-0001-8073-3797](https://orcid.org/0000-0001-8073-3797)
+    · ![GitHub icon](images/github.png){.inline_icon}
+    [ewafula](https://github.com/ewafula)<br>
+  <small>
+     Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
+  </small>
+
++ **Noel Coleman**<br>
+    ![ORCID icon](images/orcid.png){.inline_icon}
+    [0000-0001-6454-1285](https://orcid.org/0000-0001-6454-1285)<br>
+  <small>
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia; Division of Neurosurgery, Children's Hospital of Philadelphia
   </small>
 
 + **Derek Hanson**<br>
@@ -1476,6 +1512,9 @@ Finally, we would like to thank Yuanchao Zhang and Eric Wafula for adding to the
 |Angela J. Waanders|Supervision, Conceptualization|
 |Jung Kim|Investigation, Writing - Review and editing|
 |Gregory P. Way|Investigation, Writing - Review and editing|
+|Christopher Blackden|Resources|
+|Eric Wafula|Formal analysis, Software|
+|Noel Coleman|Data curation|
 |Derek Hanson|Validation|
 |Carl J. Koschmann|Conceptualization|
 |Sharon J. Diskin|Investigation, Supervision, Validation, Funding acquisition, Writing - Review and editing|

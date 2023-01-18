@@ -18,6 +18,7 @@ Bala
 bcps
 Bethell
 Biomedicine
+Blackden
 bmennis
 BPDY
 BXG
@@ -29,7 +30,7 @@ cgreene
 Chante
 CHB
 CHCl
-chr
+Chr
 Chul
 cjbethell
 CLDN
@@ -39,6 +40,7 @@ CXXC
 Cynwyd
 DDX
 DEHJF
+devbyaccident
 Diskin
 dmiller
 Duong
@@ -48,6 +50,7 @@ Egolf
 envest
 ERBB
 ERFMPQN
+ewafula
 EWSR
 FAM
 Feinberg
@@ -115,7 +118,7 @@ orf
 PDGFRA
 petermadsenmd
 PHG
-PichaiRaman
+pichairaman
 PIK
 Poetsch
 QAH

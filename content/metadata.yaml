@@ -398,6 +398,34 @@ authors:
   affiliations:
   - Department of Biomedical Informatics, University of Colorado School of Medicine,
     Aurora, CO, USA
+- github: devbyaccident
+  name: Christopher Blackden
+  initials: CB
+  email: blackdenc@chop.edu
+  contributions:
+  - Resources
+  affiliations:
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
+  - Division of Neurosurgery, Children's Hospital of Philadelphia
+- github: ewafula
+  name: Eric Wafula
+  initials: EW
+  orcid: 0000-0001-8073-3797
+  email: wafulae@chop.edu
+  contributions:
+  - Formal analysis
+  - Software
+  affiliations:
+  - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
+- name: Noel Coleman
+  initials: NC
+  orcid: 0000-0001-6454-1285
+  email: colemann2@chop.edu
+  contributions:
+  - Data curation
+  affiliations:
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
+  - Division of Neurosurgery, Children's Hospital of Philadelphia
 - name: Derek Hanson
   initials: DH
   orcid: 0000-0002-0024-5142

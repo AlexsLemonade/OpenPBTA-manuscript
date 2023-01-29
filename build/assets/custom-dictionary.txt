@@ -1,4 +1,4 @@
-personal_ws-1.1 en 829 utf-8
+personal_ws-1.1 en 830 utf-8
 Abadi
 AbdelBaki
 aberrantly
@@ -606,6 +606,7 @@ QIAsymphony
 QKI
 qPCR
 Quang
+quantiles
 quanTIseq
 quartile
 Raabe

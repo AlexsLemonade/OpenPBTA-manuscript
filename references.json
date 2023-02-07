@@ -204,112 +204,6 @@
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references.json\nstandard_id: biorxiv:10.1101/201178"
   },
   {
-    "id": "Sxl3tShn",
-    "type": "article-journal",
-    "container-title": "bioRxiv",
-    "page": "2021.07.06.451385",
-    "DOI": "10.1101/2021.07.06.451385",
-    "abstract": "Pediatric brain tumors are the leading cause of cancer death in children with an urgent need for innovative therapies. Here we show that the cell surface oncoprotein glypican 2 (GPC2) is highly expressed on multiple lethal pediatric brain tumors, including medulloblastomas, embryonal tumors with multi-layered rosettes, other CNS embryonal tumors, as well as definable subsets of highly malignant gliomas. To target GPC2 on these pediatric brain tumors with adoptive cellular therapies and mitigate potential inflammatory neurotoxicity, we developed four mRNA chimeric antigen receptor (CAR) T cell constructs using the highly GPC2-specific fully human D3 single chain variable fragment. First, we validated and prioritized these CARs using in vitro cytotoxicity and T cell degranulation assays with GPC2-expressing neuroblastoma cells. Next, we expanded the testing of the two most potent GPC2-directed CAR constructs prioritized from these studies to GPC2-expressing medulloblastoma and high-grade glioma cell lines, showing significant GPC2-specific cell death in multiple models. Finally, locoregional delivery bi-weekly of two to four million GPC2-directed mRNA CAR T cells induced significant and sustained tumor regression in two orthotopic medulloblastoma models, and significantly prolonged survival in an aggressive orthotopic thalamic diffuse midline glioma model. No GPC2-directed CAR T cell related neurologic or systemic toxicity was observed. Taken together, these data show that GPC2 is a highly differentially expressed cell surface protein on multiple malignant pediatric brain tumors that can be targeted safely with local delivery of mRNA CAR T cells.One Sentence Summary Glypican 2 is expressed on the surface of multiple pediatric brain tumors and can be successfully targeted with mRNA chimeric antigen receptor T cells.Competing Interest StatementT.S. is currently employed by Spark Therapeutics. K.K. is currently employed by BioNTech and is an inventor on a patent related to use of nucleoside-modified mRNA. D.M.B. is currently employed by Tmunity Therapeutics. J.B.F., D.M.B, J.M.M., and K.R.B. hold patents for the discovery and development of immunotherapies for cancer, including patents related to GPC2-directed immunotherapies. K.R.B. and J.M.M. receive research funding from Tmunity for research on GPC2-directed immunotherapies and J.B.F., D.M.B, J.M.M., and K.R.B. receive royalties from Tmunity for licensing of GPC2-related intellectual property. J.M.M. is a founder of both Tantigen Bio and Hula Therapeutics, focused on cellular therapies for childhood cancers, but neither are working on GPC2-directed therapeutics. All other authors have nothing to disclose.",
-    "genre": "preprint",
-    "language": "en",
-    "source": "DOI.org (Crossref)",
-    "title": "Development of GPC2-directed chimeric antigen receptors using mRNA for pediatric brain tumors",
-    "URL": "https://www.biorxiv.org/content/10.1101/2021.07.06.451385v2",
-    "author": [
-      {
-        "family": "Foster",
-        "given": "Jessica B."
-      },
-      {
-        "family": "Griffin",
-        "given": "Crystal"
-      },
-      {
-        "family": "Rokita",
-        "given": "Jo Lynne"
-      },
-      {
-        "family": "Stern",
-        "given": "Allison"
-      },
-      {
-        "family": "Brimley",
-        "given": "Cameron"
-      },
-      {
-        "family": "Rathi",
-        "given": "Komal"
-      },
-      {
-        "family": "Lane",
-        "given": "Maria V."
-      },
-      {
-        "family": "Buongervino",
-        "given": "Samantha N."
-      },
-      {
-        "family": "Smith",
-        "given": "Tiffany"
-      },
-      {
-        "family": "Madsen",
-        "given": "Peter J."
-      },
-      {
-        "family": "Martinez",
-        "given": "Daniel"
-      },
-      {
-        "family": "Wechsler-Reya",
-        "given": "Robert J."
-      },
-      {
-        "family": "Karikó",
-        "given": "Katalin"
-      },
-      {
-        "family": "Storm",
-        "given": "Phillip B."
-      },
-      {
-        "family": "Barrett",
-        "given": "David M."
-      },
-      {
-        "family": "Resnick",
-        "given": "Adam C."
-      },
-      {
-        "family": "Maris",
-        "given": "John M."
-      },
-      {
-        "family": "Bosse",
-        "given": "Kristopher R."
-      }
-    ],
-    "accessed": {
-      "date-parts": [
-        [
-          "2022",
-          8,
-          11
-        ]
-      ]
-    },
-    "issued": {
-      "date-parts": [
-        [
-          "2021",
-          7,
-          7
-        ]
-      ]
-    },
-    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references.json\nstandard_id: biorxiv:10.1101/2021.07.06.451385"
-  },
-  {
     "id": "9ZgwE4bQ",
     "type": "article-journal",
     "container-title": "bioRxiv",
@@ -388,8 +282,8 @@
       "date-parts": [
         [
           "2023",
-          1,
-          16
+          2,
+          5
         ]
       ]
     },
@@ -1404,6 +1298,62 @@
     "PMID": "32601913",
     "id": "1Geb70JK9",
     "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1007/s00401-020-02182-2"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "3",
+    "DOI": "10.1007/s11060-021-03890-9",
+    "type": "article-journal",
+    "page": "225-234",
+    "source": "Crossref",
+    "title": "H3K27M-mutant diffuse midline gliomas should be further molecularly stratified: an integrated analysis of 669 patients",
+    "volume": "155",
+    "author": [
+      {
+        "given": "Huy Gia",
+        "family": "Vuong"
+      },
+      {
+        "given": "Hieu Trong",
+        "family": "Le"
+      },
+      {
+        "given": "Tam N. M.",
+        "family": "Ngo"
+      },
+      {
+        "given": "Kar-Ming",
+        "family": "Fung"
+      },
+      {
+        "given": "James D.",
+        "family": "Battiste"
+      },
+      {
+        "given": "Rene",
+        "family": "McNall-Knapp"
+      },
+      {
+        "given": "Ian F.",
+        "family": "Dunn"
+      }
+    ],
+    "container-title": "Journal of Neuro-Oncology",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          18
+        ]
+      ]
+    },
+    "URL": "https://doi.org/grndk3",
+    "container-title-short": "J Neurooncol",
+    "PMID": "34796414",
+    "id": "1CbmKZRjS",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1007/s11060-021-03890-9"
   },
   {
     "publisher": "Springer Science and Business Media LLC",
@@ -7349,6 +7299,433 @@
   },
   {
     "publisher": "Elsevier BV",
+    "DOI": "10.1016/j.neo.2022.100846",
+    "type": "article-journal",
+    "page": "100846",
+    "source": "Crossref",
+    "title": "The children's brain tumor network (CBTN) - Accelerating research in pediatric central nervous system tumors through collaboration and open science",
+    "volume": "35",
+    "author": [
+      {
+        "given": "Jena V.",
+        "family": "Lilly"
+      },
+      {
+        "given": "Jo Lynne",
+        "family": "Rokita"
+      },
+      {
+        "given": "Jennifer L.",
+        "family": "Mason"
+      },
+      {
+        "given": "Tatiana",
+        "family": "Patton"
+      },
+      {
+        "given": "Stephanie",
+        "family": "Stefankiewiz"
+      },
+      {
+        "given": "David",
+        "family": "Higgins"
+      },
+      {
+        "given": "Gerri",
+        "family": "Trooskin"
+      },
+      {
+        "given": "Carina A.",
+        "family": "Larouci"
+      },
+      {
+        "given": "Kamnaa",
+        "family": "Arya"
+      },
+      {
+        "given": "Elizabeth",
+        "family": "Appert"
+      },
+      {
+        "given": "Allison P.",
+        "family": "Heath"
+      },
+      {
+        "given": "Yuankun",
+        "family": "Zhu"
+      },
+      {
+        "given": "Miguel A.",
+        "family": "Brown"
+      },
+      {
+        "given": "Bo",
+        "family": "Zhang"
+      },
+      {
+        "given": "Bailey K.",
+        "family": "Farrow"
+      },
+      {
+        "given": "Shannon",
+        "family": "Robins"
+      },
+      {
+        "given": "Allison M.",
+        "family": "Morgan"
+      },
+      {
+        "given": "Thinh Q.",
+        "family": "Nguyen"
+      },
+      {
+        "given": "Elizabeth",
+        "family": "Frenkel"
+      },
+      {
+        "given": "Kaitlin",
+        "family": "Lehmann"
+      },
+      {
+        "given": "Emily",
+        "family": "Drake"
+      },
+      {
+        "given": "Catherine",
+        "family": "Sullivan"
+      },
+      {
+        "given": "Alexa",
+        "family": "Plisiewicz"
+      },
+      {
+        "given": "Noel",
+        "family": "Coleman"
+      },
+      {
+        "given": "Luke",
+        "family": "Patterson"
+      },
+      {
+        "given": "Mateusz",
+        "family": "Koptyra"
+      },
+      {
+        "given": "Zeinab",
+        "family": "Helili"
+      },
+      {
+        "given": "Nicholas",
+        "family": "Van Kuren"
+      },
+      {
+        "given": "Nathan",
+        "family": "Young"
+      },
+      {
+        "given": "Meen Chul",
+        "family": "Kim"
+      },
+      {
+        "given": "Christopher",
+        "family": "Friedman"
+      },
+      {
+        "given": "Alex",
+        "family": "Lubneuski"
+      },
+      {
+        "given": "Christopher",
+        "family": "Blackden"
+      },
+      {
+        "given": "Marti",
+        "family": "Williams"
+      },
+      {
+        "given": "Valerie",
+        "family": "Baubet"
+      },
+      {
+        "given": "Lamiya",
+        "family": "Tauhid"
+      },
+      {
+        "given": "Jamie",
+        "family": "Galanaugh"
+      },
+      {
+        "given": "Katie",
+        "family": "Boucher"
+      },
+      {
+        "given": "Heba",
+        "family": "Ijaz"
+      },
+      {
+        "given": "Kristina A.",
+        "family": "Cole"
+      },
+      {
+        "given": "Namrata",
+        "family": "Choudhari"
+      },
+      {
+        "given": "Mariarita",
+        "family": "Santi"
+      },
+      {
+        "given": "Robert W.",
+        "family": "Moulder"
+      },
+      {
+        "given": "Jonathan",
+        "family": "Waller"
+      },
+      {
+        "given": "Whitney",
+        "family": "Rife"
+      },
+      {
+        "given": "Sharon J.",
+        "family": "Diskin"
+      },
+      {
+        "given": "Marion",
+        "family": "Mateos"
+      },
+      {
+        "given": "Donald W.",
+        "family": "Parsons"
+      },
+      {
+        "given": "Ian F.",
+        "family": "Pollack"
+      },
+      {
+        "given": "Stewart",
+        "family": "Goldman"
+      },
+      {
+        "given": "Sarah",
+        "family": "Leary"
+      },
+      {
+        "given": "Chiara",
+        "family": "Caporalini"
+      },
+      {
+        "given": "Anna Maria",
+        "family": "Buccoliero"
+      },
+      {
+        "given": "Mirko",
+        "family": "Scagnet"
+      },
+      {
+        "given": "David",
+        "family": "Haussler"
+      },
+      {
+        "given": "Derek",
+        "family": "Hanson"
+      },
+      {
+        "given": "Ron",
+        "family": "Firestein"
+      },
+      {
+        "given": "Jason",
+        "family": "Cain"
+      },
+      {
+        "given": "Joanna J.",
+        "family": "Phillips"
+      },
+      {
+        "given": "Nalin",
+        "family": "Gupta"
+      },
+      {
+        "given": "Sabine",
+        "family": "Mueller"
+      },
+      {
+        "given": "Gerald",
+        "family": "Grant"
+      },
+      {
+        "given": "Michelle",
+        "family": "Monje-Deisseroth"
+      },
+      {
+        "given": "Sonia",
+        "family": "Partap"
+      },
+      {
+        "given": "Jeffrey P.",
+        "family": "Greenfield"
+      },
+      {
+        "given": "Rintaro",
+        "family": "Hashizume"
+      },
+      {
+        "given": "Amy",
+        "family": "Smith"
+      },
+      {
+        "given": "Shida",
+        "family": "Zhu"
+      },
+      {
+        "given": "James M.",
+        "family": "Johnston"
+      },
+      {
+        "given": "Jason R.",
+        "family": "Fangusaro"
+      },
+      {
+        "given": "Matthew",
+        "family": "Miller"
+      },
+      {
+        "given": "Matthew D.",
+        "family": "Wood"
+      },
+      {
+        "given": "Sharon",
+        "family": "Gardner"
+      },
+      {
+        "given": "Claire L.",
+        "family": "Carter"
+      },
+      {
+        "given": "Laura M.",
+        "family": "Prolo"
+      },
+      {
+        "given": "Jared",
+        "family": "Pisapia"
+      },
+      {
+        "given": "Katherine",
+        "family": "Pehlivan"
+      },
+      {
+        "given": "Andrea",
+        "family": "Franson"
+      },
+      {
+        "given": "Toba",
+        "family": "Niazi"
+      },
+      {
+        "given": "Josh",
+        "family": "Rubin"
+      },
+      {
+        "given": "Mohamed",
+        "family": "Abdelbaki"
+      },
+      {
+        "given": "David S.",
+        "family": "Ziegler"
+      },
+      {
+        "given": "Holly B.",
+        "family": "Lindsay"
+      },
+      {
+        "given": "Ana Guerreiro",
+        "family": "Stucklin"
+      },
+      {
+        "given": "Nicolas",
+        "family": "Gerber"
+      },
+      {
+        "given": "Olena M.",
+        "family": "Vaske"
+      },
+      {
+        "given": "Carolyn",
+        "family": "Quinsey"
+      },
+      {
+        "given": "Brian R.",
+        "family": "Rood"
+      },
+      {
+        "given": "Javad",
+        "family": "Nazarian"
+      },
+      {
+        "given": "Eric",
+        "family": "Raabe"
+      },
+      {
+        "given": "Eric M.",
+        "family": "Jackson"
+      },
+      {
+        "given": "Stacie",
+        "family": "Stapleton"
+      },
+      {
+        "given": "Robert M.",
+        "family": "Lober"
+      },
+      {
+        "given": "David E.",
+        "family": "Kram"
+      },
+      {
+        "given": "Carl",
+        "family": "Koschmann"
+      },
+      {
+        "given": "Phillip B.",
+        "family": "Storm"
+      },
+      {
+        "given": "Rishi R.",
+        "family": "Lulla"
+      },
+      {
+        "given": "Michael",
+        "family": "Prados"
+      },
+      {
+        "given": "Adam C.",
+        "family": "Resnick"
+      },
+      {
+        "given": "Angela J.",
+        "family": "Waanders"
+      }
+    ],
+    "container-title": "Neoplasia",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          1
+        ]
+      ]
+    },
+    "URL": "https://doi.org/grkvcf",
+    "container-title-short": "Neoplasia",
+    "PMCID": "PMC9641002",
+    "PMID": "36335802",
+    "id": "U5WisTG5",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1016/j.neo.2022.100846"
+  },
+  {
+    "publisher": "Elsevier BV",
     "issue": "2",
     "DOI": "10.1038/labinvest.3700710",
     "type": "article-journal",
@@ -8885,6 +9262,36 @@
     "PMID": "24316981",
     "id": "5ueZBnsJ",
     "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1038/ng.2849"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "5",
+    "DOI": "10.1038/ng.2938",
+    "type": "article-journal",
+    "page": "444-450",
+    "source": "Crossref",
+    "title": "The genomic landscape of diffuse intrinsic pontine glioma and pediatric non-brainstem high-grade glioma",
+    "volume": "46",
+    "author": [
+      {}
+    ],
+    "container-title": "Nature Genetics",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          4,
+          6
+        ]
+      ]
+    },
+    "URL": "https://doi.org/f526f8",
+    "container-title-short": "Nat Genet",
+    "PMCID": "PMC4056452",
+    "PMID": "24705251",
+    "id": "zrYR4Swt",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1038/ng.2938"
   },
   {
     "publisher": "Springer Science and Business Media LLC",
@@ -11502,6 +11909,7 @@
   {
     "publisher": "Oxford University Press (OUP)",
     "issue": "6",
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Motivation: Testing for correlations between different sets of genomic features is a fundamental task in genomics research. However, searching for overlaps between features with existing web-based methods is complicated by the massive datasets that are routinely produced with current sequencing technologies. Fast and flexible tools are therefore required to ask complex questions of these data in an efficient manner.</jats:p>\n               <jats:p>Results: This article introduces a new software suite for the comparison, manipulation and annotation of genomic features in Browser Extensible Data (BED) and General Feature Format (GFF) format. BEDTools also supports the comparison of sequence alignments in BAM format to both BED and GFF features. The tools are extremely efficient and allow the user to compare large datasets (e.g. next-generation sequencing data) with both public and custom genome annotation tracks. BEDTools can be combined with one another as well as with standard UNIX commands, thus facilitating routine genomics tasks as well as pipelines that can quickly answer intricate questions of large genomic datasets.</jats:p>\n               <jats:p>Availability and implementation: BEDTools was written in C++. Source code and a comprehensive user manual are freely available at http://code.google.com/p/bedtools</jats:p>\n               <jats:p>Contact:  aaronquinlan@gmail.com; imh4y@virginia.edu</jats:p>\n               <jats:p>Supplementary information:  Supplementary data are available at Bioinformatics online.</jats:p>",
     "DOI": "10.1093/bioinformatics/btq033",
     "type": "article-journal",
     "page": "841-842",
@@ -11538,6 +11946,7 @@
   {
     "publisher": "Oxford University Press (OUP)",
     "issue": "2",
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Summary: We present a tool for control-free copy number alteration (CNA) detection using deep-sequencing data, particularly useful for cancer studies. The tool deals with two frequent problems in the analysis of cancer deep-sequencing data: absence of control sample and possible polyploidy of cancer cells. FREEC (control-FREE Copy number caller) automatically normalizes and segments copy number profiles (CNPs) and calls CNAs. If ploidy is known, FREEC assigns absolute copy number to each predicted CNA. To normalize raw CNPs, the user can provide a control dataset if available; otherwise GC content is used. We demonstrate that for Illumina single-end, mate-pair or paired-end sequencing, GC-contentr normalization provides smooth profiles that can be further segmented and analyzed in order to predict CNAs.</jats:p>\n               <jats:p>Availability: Source code and sample data are available at http://bioinfo-out.curie.fr/projects/freec/.</jats:p>\n               <jats:p>Contact:  freec@curie.fr</jats:p>\n               <jats:p>Supplementary information:  Supplementary data are available at Bioinformatics online.</jats:p>",
     "DOI": "10.1093/bioinformatics/btq635",
     "type": "article-journal",
     "page": "268-269",
@@ -11594,6 +12003,7 @@
   {
     "publisher": "Oxford University Press (OUP)",
     "issue": "3",
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Summary: More and more cancer studies use next-generation sequencing (NGS) data to detect various types of genomic variation. However, even when researchers have such data at hand, single-nucleotide polymorphism arrays have been considered necessary to assess copy number alterations and especially loss of heterozygosity (LOH). Here, we present the tool Control-FREEC that enables automatic calculation of copy number and allelic content profiles from NGS data, and consequently predicts regions of genomic alteration such as gains, losses and LOH. Taking as input aligned reads, Control-FREEC constructs copy number and B-allele frequency profiles. The profiles are then normalized, segmented and analyzed in order to assign genotype status (copy number and allelic content) to each genomic region. When a matched normal sample is provided, Control-FREEC discriminates somatic from germline events. Control-FREEC is able to analyze overdiploid tumor samples and samples contaminated by normal cells. Low mappability regions can be excluded from the analysis using provided mappability tracks.</jats:p>\n               <jats:p>Availability: C++ source code is available at: http://bioinfo.curie.fr/projects/freec/</jats:p>\n               <jats:p>Contact:  freec@curie.fr</jats:p>\n               <jats:p>Supplementary information:  Supplementary data are available at Bioinformatics online.</jats:p>",
     "DOI": "10.1093/bioinformatics/btr670",
     "type": "article-journal",
     "page": "423-425",
@@ -11658,6 +12068,7 @@
   {
     "publisher": "Oxford University Press (OUP)",
     "issue": "11",
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Summary: RNA-seq, the application of next-generation sequencing to RNA, provides transcriptome-wide characterization of cellular activity. Assessment of sequencing performance and library quality is critical to the interpretation of RNA-seq data, yet few tools exist to address this issue. We introduce RNA-SeQC, a program which provides key measures of data quality. These metrics include yield, alignment and duplication rates; GC bias, rRNA content, regions of alignment (exon, intron and intragenic), continuity of coverage, 3′/5′ bias and count of detectable transcripts, among others. The software provides multi-sample evaluation of library construction protocols, input materials and other experimental parameters. The modularity of the software enables pipeline integration and the routine monitoring of key measures of data quality such as the number of alignable reads, duplication rates and rRNA contamination. RNA-SeQC allows investigators to make informed decisions about sample inclusion in downstream analysis. In summary, RNA-SeQC provides quality control measures critical to experiment design, process optimization and downstream computational analysis.</jats:p>\n               <jats:p>Availability and implementation: See www.genepattern.org to run online, or www.broadinstitute.org/rna-seqc/ for a command line tool.</jats:p>\n               <jats:p>Contact:  ddeluca@broadinstitute.org</jats:p>\n               <jats:p>Supplementary information:  Supplementary data are available at Bioinformatics online.</jats:p>",
     "DOI": "10.1093/bioinformatics/bts196",
     "type": "article-journal",
     "page": "1530-1532",
@@ -11722,6 +12133,7 @@
   {
     "publisher": "Oxford University Press (OUP)",
     "issue": "1",
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Motivation: Accurate alignment of high-throughput RNA-seq data is a challenging and yet unsolved problem because of the non-contiguous transcript structure, relatively short read lengths and constantly increasing throughput of the sequencing technologies. Currently available RNA-seq aligners suffer from high mapping error rates, low mapping speed, read length limitation and mapping biases.</jats:p>\n               <jats:p>Results: To align our large (&amp;gt;80 billon reads) ENCODE Transcriptome RNA-seq dataset, we developed the Spliced Transcripts Alignment to a Reference (STAR) software based on a previously undescribed RNA-seq alignment algorithm that uses sequential maximum mappable seed search in uncompressed suffix arrays followed by seed clustering and stitching procedure. STAR outperforms other aligners by a factor of &amp;gt;50 in mapping speed, aligning to the human genome 550 million 2 × 76 bp paired-end reads per hour on a modest 12-core server, while at the same time improving alignment sensitivity and precision. In addition to unbiased de novo detection of canonical junctions, STAR can discover non-canonical splices and chimeric (fusion) transcripts, and is also capable of mapping full-length RNA sequences. Using Roche 454 sequencing of reverse transcription polymerase chain reaction amplicons, we experimentally validated 1960 novel intergenic splice junctions with an 80–90% success rate, corroborating the high precision of the STAR mapping strategy.</jats:p>\n               <jats:p>Availability and implementation: STAR is implemented as a standalone C++ code. STAR is free open source software distributed under GPLv3 license and can be downloaded from http://code.google.com/p/rna-star/.</jats:p>\n               <jats:p>Contact:  dobin@cshl.edu.</jats:p>",
     "DOI": "10.1093/bioinformatics/bts635",
     "type": "article-journal",
     "page": "15-21",
@@ -11786,19 +12198,20 @@
   {
     "publisher": "Oxford University Press (OUP)",
     "issue": "17",
+    "abstract": "<jats:p>Motivation: Illumina DNA sequencing is now the predominant source of raw genomic data, and data volumes are growing rapidly. Bioinformatic analysis pipelines are having trouble keeping pace. A common bottleneck in such pipelines is the requirement to read, write, sort and compress large BAM files multiple times.</jats:p>\n               <jats:p>Results: We present SAMBLASTER, a tool that reduces the number of times such costly operations are performed. SAMBLASTER is designed to mark duplicates in read-sorted SAM files as a piped post-pass on DNA aligner output before it is compressed to BAM. In addition, it can simultaneously output into separate files the discordant read-pairs and/or split-read mappings used for structural variant calling. As an alignment post-pass, its own runtime overhead is negligible, while dramatically reducing overall pipeline complexity and runtime. As a stand-alone duplicate marking tool, it performs significantly better than PICARD or SAMBAMBA in terms of both speed and memory usage, while achieving nearly identical results.</jats:p>\n               <jats:p>Availability and implementation: SAMBLASTER is open-source C++ code and freely available for download from https://github.com/GregoryFaust/samblaster.</jats:p>\n               <jats:p>Contact:  imh4y@virginia.edu</jats:p>",
     "DOI": "10.1093/bioinformatics/btu314",
     "type": "article-journal",
     "page": "2503-2505",
     "source": "Crossref",
-    "title": "SAMBLASTER: fast duplicate marking and structural variant read extraction",
+    "title": "<i>SAMBLASTER</i>: fast duplicate marking and structural variant read extraction",
     "volume": "30",
     "author": [
       {
-        "given": "G. G.",
+        "given": "Gregory G.",
         "family": "Faust"
       },
       {
-        "given": "I. M.",
+        "given": "Ira M.",
         "family": "Hall"
       }
     ],
@@ -11814,7 +12227,6 @@
       ]
     },
     "URL": "https://doi.org/f6kft3",
-    "container-title-short": "Bioinformatics",
     "PMCID": "PMC4147885",
     "PMID": "24812344",
     "id": "IzUbOv92",
@@ -11823,6 +12235,7 @@
   {
     "publisher": "Oxford University Press (OUP)",
     "issue": "24",
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Motivation: Most tumor samples are a heterogeneous mixture of cells, including admixture by normal (non-cancerous) cells and subpopulations of cancerous cells with different complements of somatic aberrations. This intra-tumor heterogeneity complicates the analysis of somatic aberrations in DNA sequencing data from tumor samples.</jats:p>\n               <jats:p>Results: We describe an algorithm called THetA2 that infers the composition of a tumor sample—including not only tumor purity but also the number and content of tumor subpopulations—directly from both whole-genome (WGS) and whole-exome (WXS) high-throughput DNA sequencing data. This algorithm builds on our earlier Tumor Heterogeneity Analysis (THetA) algorithm in several important directions. These include improved ability to analyze highly rearranged genomes using a variety of data types: both WGS sequencing (including low ∼7× coverage) and WXS sequencing. We apply our improved THetA2 algorithm to WGS (including low-pass) and WXS sequence data from 18 samples from The Cancer Genome Atlas (TCGA). We find that the improved algorithm is substantially faster and identifies numerous tumor samples containing subclonal populations in the TCGA data, including in one highly rearranged sample for which other tumor purity estimation algorithms were unable to estimate tumor purity.</jats:p>\n               <jats:p>Availability and implementation: An implementation of THetA2 is available at http://compbio.cs.brown.edu/software</jats:p>\n               <jats:p>Contact:  layla@cs.brown.edu or braphael@brown.edu</jats:p>\n               <jats:p>Supplementary information:  Supplementary data are available at Bioinformatics online.</jats:p>",
     "DOI": "10.1093/bioinformatics/btu651",
     "type": "article-journal",
     "page": "3532-3540",
@@ -11863,6 +12276,7 @@
   {
     "publisher": "Oxford University Press (OUP)",
     "issue": "12",
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Summary: Sambamba is a high-performance robust tool and library for working with SAM, BAM and CRAM sequence alignment files; the most common file formats for aligned next generation sequencing data. Sambamba is a faster alternative to samtools that exploits multi-core processing and dramatically reduces processing time. Sambamba is being adopted at sequencing centers, not only because of its speed, but also because of additional functionality, including coverage analysis and powerful filtering capability.</jats:p>\n               <jats:p>Availability and implementation: Sambamba is free and open source software, available under a GPLv2 license. Sambamba can be downloaded and installed from http://www.open-bio.org/wiki/Sambamba.</jats:p>\n               <jats:p>Sambamba v0.5.0 was released with doi:10.5281/zenodo.13200.</jats:p>\n               <jats:p>Contact: j.c.p.prins@umcutrecht.nl</jats:p>",
     "DOI": "10.1093/bioinformatics/btv098",
     "type": "article-journal",
     "page": "2032-2034",
@@ -11903,7 +12317,6 @@
       ]
     },
     "URL": "https://doi.org/gfzsfw",
-    "container-title-short": "Bioinformatics",
     "PMCID": "PMC4765878",
     "PMID": "25697820",
     "id": "PcJwlZj3",
@@ -11912,6 +12325,7 @@
   {
     "publisher": "Oxford University Press (OUP)",
     "issue": "8",
+    "abstract": "<jats:p>Summary: We describe Manta, a method to discover structural variants and indels from next generation sequencing data. Manta is optimized for rapid germline and somatic analysis, calling structural variants, medium-sized indels and large insertions on standard compute hardware in less than a tenth of the time that comparable methods require to identify only subsets of these variant types: for example NA12878 at 50× genomic coverage is analyzed in less than 20 min. Manta can discover and score variants based on supporting paired and split-read evidence, with scoring models optimized for germline analysis of diploid individuals and somatic analysis of tumor-normal sample pairs. Call quality is similar to or better than comparable methods, as determined by pedigree consistency of germline calls and comparison of somatic calls to COSMIC database variants. Manta consistently assembles a higher fraction of its calls to base-pair resolution, allowing for improved downstream annotation and analysis of clinical significance. We provide Manta as a community resource to facilitate practical and routine structural variant analysis in clinical and research sequencing scenarios.</jats:p>\n               <jats:p>Availability and implementation: Manta is released under the open-source GPLv3 license. Source code, documentation and Linux binaries are available from https://github.com/Illumina/manta.</jats:p>\n               <jats:p>Contact: csaunders@illumina.com</jats:p>\n               <jats:p>Supplementary information:  Supplementary data are available at Bioinformatics online.</jats:p>",
     "DOI": "10.1093/bioinformatics/btv710",
     "type": "article-journal",
     "page": "1220-1222",
@@ -11968,7 +12382,6 @@
       ]
     },
     "URL": "https://doi.org/gf3ggb",
-    "container-title-short": "Bioinformatics",
     "PMID": "26647377",
     "id": "kTn1PIj5",
     "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1093/bioinformatics/btv710"
@@ -11976,6 +12389,7 @@
   {
     "publisher": "Oxford University Press (OUP)",
     "issue": "18",
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Summary: Parallel heatmaps with carefully designed annotation graphics are powerful for efficient visualization of patterns and relationships among high dimensional genomic data. Here we present the ComplexHeatmap package that provides rich functionalities for customizing heatmaps, arranging multiple parallel heatmaps and including user-defined annotation graphics. We demonstrate the power of ComplexHeatmap to easily reveal patterns and correlations among multiple sources of information with four real-world datasets.</jats:p>\n               <jats:p>Availability and Implementation: The ComplexHeatmap package and documentation are freely available from the Bioconductor project: http://www.bioconductor.org/packages/devel/bioc/html/ComplexHeatmap.html.</jats:p>\n               <jats:p>Contact:  m.schlesner@dkfz.de</jats:p>\n               <jats:p>Supplementary information:  Supplementary data are available at Bioinformatics online.</jats:p>",
     "DOI": "10.1093/bioinformatics/btw313",
     "type": "article-journal",
     "page": "2847-2849",
@@ -12008,7 +12422,6 @@
       ]
     },
     "URL": "https://doi.org/gf2566",
-    "container-title-short": "Bioinformatics",
     "PMID": "27207943",
     "id": "oESNuFI5",
     "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1093/bioinformatics/btw313"
@@ -12016,6 +12429,7 @@
   {
     "publisher": "Oxford University Press (OUP)",
     "issue": "20",
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:sec>\n                  <jats:title>Summary</jats:title>\n                  <jats:p>Structural Variations (SV) are a major source of variability in the human genome that shaped its actual structure during evolution. Moreover, many human diseases are caused by SV, highlighting the need to accurately detect those genomic events but also to annotate them and assist their biological interpretation. Therefore, we developed AnnotSV that compiles functionally, regulatory and clinically relevant information and aims at providing annotations useful to (i) interpret SV potential pathogenicity and (ii) filter out SV potential false positive. In particular, AnnotSV reports heterozygous and homozygous counts of single nucleotide variations (SNVs) and small insertions/deletions called within each SV for the analyzed patients, this genomic information being extremely useful to support or question the existence of an SV. We also report the computed allelic frequency relative to overlapping variants from DGV (MacDonald et al., 2014), that is especially powerful to filter out common SV. To delineate the strength of AnnotSV, we annotated the 4751 SV from one sample of the 1000 Genomes Project, integrating the sample information of four million of SNV/indel, in less than 60 s.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Availability and implementation</jats:title>\n                  <jats:p>AnnotSV is implemented in Tcl and runs in command line on all platforms. The source code is available under the GNU GPL license. Source code, README and Supplementary data are available at http://lbgi.fr/AnnotSV/.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Supplementary information</jats:title>\n                  <jats:p>Supplementary data are available at Bioinformatics online.</jats:p>\n               </jats:sec>",
     "DOI": "10.1093/bioinformatics/bty304",
     "type": "article-journal",
     "page": "3572-3574",
@@ -12621,6 +13035,163 @@
   },
   {
     "publisher": "Oxford University Press (OUP)",
+    "issue": "1",
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Malignant astrocytic gliomas in children show a remarkable biological and clinical diversity. Small in-frame insertions or missense mutations in the epidermal growth factor receptor gene (EGFR) have recently been identified in a distinct subset of pediatric-type bithalamic gliomas with a unique DNA methylation pattern.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>Here, we investigated an epigenetically homogeneous cohort of malignant gliomas (n = 58) distinct from other subtypes and enriched for pediatric cases and thalamic location, in comparison with this recently identified subtype of pediatric bithalamic gliomas.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>EGFR gene amplification was detected in 16/58 (27%) tumors, and missense mutations or small in-frame insertions in EGFR were found in 20/30 tumors with available sequencing data (67%; 5 of them co-occurring with EGFR amplification). Additionally, 8 of the 30 tumors (27%) harbored an H3.1 or H3.3 K27M mutation (6 of them with a concomitant EGFR alteration). All tumors tested showed loss of H3K27me3 staining, with evidence of overexpression of the EZH inhibitory protein (EZHIP) in the H3 wildtype cases. Although some tumors indeed showed a bithalamic growth pattern, a significant proportion of tumors occurred in the unilateral thalamus or in other (predominantly midline) locations.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>Our findings present a distinct molecular class of pediatric-type malignant gliomas largely overlapping with the recently reported bithalamic gliomas characterized by EGFR alteration, but additionally showing a broader spectrum of EGFR alterations and tumor localization. Global H3K27me3 loss in this group appears to be mediated by either H3 K27 mutation or EZHIP overexpression. EGFR inhibition may represent a potential therapeutic strategy in these highly aggressive gliomas.</jats:p>\n               </jats:sec>",
+    "DOI": "10.1093/neuonc/noaa251",
+    "type": "article-journal",
+    "page": "34-43",
+    "source": "Crossref",
+    "title": "A subset of pediatric-type thalamic gliomas share a distinct DNA methylation profile, H3K27me3 loss and frequent alteration of <i>EGFR</i>",
+    "volume": "23",
+    "author": [
+      {
+        "given": "Philipp",
+        "family": "Sievers"
+      },
+      {
+        "given": "Martin",
+        "family": "Sill"
+      },
+      {
+        "given": "Daniel",
+        "family": "Schrimpf"
+      },
+      {
+        "given": "Damian",
+        "family": "Stichel"
+      },
+      {
+        "given": "David E",
+        "family": "Reuss"
+      },
+      {
+        "given": "Dominik",
+        "family": "Sturm"
+      },
+      {
+        "given": "Jürgen",
+        "family": "Hench"
+      },
+      {
+        "given": "Stephan",
+        "family": "Frank"
+      },
+      {
+        "given": "Lenka",
+        "family": "Krskova"
+      },
+      {
+        "given": "Ales",
+        "family": "Vicha"
+      },
+      {
+        "given": "Michal",
+        "family": "Zapotocky"
+      },
+      {
+        "given": "Brigitte",
+        "family": "Bison"
+      },
+      {
+        "given": "David",
+        "family": "Castel"
+      },
+      {
+        "given": "Jacques",
+        "family": "Grill"
+      },
+      {
+        "given": "Marie-Anne",
+        "family": "Debily"
+      },
+      {
+        "given": "Patrick N",
+        "family": "Harter"
+      },
+      {
+        "given": "Matija",
+        "family": "Snuderl"
+      },
+      {
+        "given": "Christof M",
+        "family": "Kramm"
+      },
+      {
+        "given": "Guido",
+        "family": "Reifenberger"
+      },
+      {
+        "given": "Andrey",
+        "family": "Korshunov"
+      },
+      {
+        "given": "Nada",
+        "family": "Jabado"
+      },
+      {
+        "given": "Pieter",
+        "family": "Wesseling"
+      },
+      {
+        "given": "Wolfgang",
+        "family": "Wick"
+      },
+      {
+        "given": "David A",
+        "family": "Solomon"
+      },
+      {
+        "given": "Arie",
+        "family": "Perry"
+      },
+      {
+        "given": "Thomas S",
+        "family": "Jacques"
+      },
+      {
+        "given": "Chris",
+        "family": "Jones"
+      },
+      {
+        "given": "Olaf",
+        "family": "Witt"
+      },
+      {
+        "given": "Stefan M",
+        "family": "Pfister"
+      },
+      {
+        "given": "Andreas",
+        "family": "von Deimling"
+      },
+      {
+        "given": "David T W",
+        "family": "Jones"
+      },
+      {
+        "given": "Felix",
+        "family": "Sahm"
+      }
+    ],
+    "container-title": "Neuro-Oncology",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          1
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gnxj54",
+    "PMCID": "PMC7850075",
+    "PMID": "33130881",
+    "id": "MsKFoF50",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1093/neuonc/noaa251"
+  },
+  {
+    "publisher": "Oxford University Press (OUP)",
     "issue": "4",
     "abstract": "<jats:title>Abstract</jats:title>\n               <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Choroid plexus tumors (CPTs) are intraventricular brain tumors predominantly arising in children but also affecting adults. In most cases, driver mutations have not been identified, although there are reports of frequent chromosome-wide copy-number alterations and TP53 mutations, especially in choroid plexus carcinomas (CPCs).</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>DNA methylation profiling and RNA-sequencing was performed in a series of 47 CPTs. Samples comprised 35 choroid plexus papillomas (CPPs), 6 atypical choroid plexus papillomas (aCPPs) and 6 CPCs plus three recurrences thereof. Targeted TP53 and TERT promotor sequencing was performed in all samples. Whole exome sequencing (WES) and linked-read whole genome sequencing (WGS) was performed in 25 and 4 samples, respectively.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>Tumors comprised the molecular subgroups “pediatric A” (N=11), “pediatric B” (N=12) and “adult” (N=27). Copy-number alterations mainly represented whole-chromosomal alterations with subgroup-specific enrichments (gains of Chr1, 2 and 21q in “pediatric B” and gains of Chr5 and 9 and loss of Chr21q in “adult”). RNA sequencing yielded a novel CCDC47-PRKCA fusion transcript in one adult choroid plexus papilloma patient with aggressive clinical course; an underlying Chr17 inversion was demonstrated by linked-read WGS. WES and targeted sequencing showed TP53 mutations in 7/47 CPTs (15%), five of which were children. On the contrary, TERT promoter mutations were encountered in 7/28 adult patients (25%) and associated with shorter progression-free survival (log-rank test, p=0.015).</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>Pediatric CPTs lack recurrent driver alterations except for TP53, whereas CPTs in adults show TERT promoter mutations or a novel CCDC47-PRKCA gene fusion, being associated with a more unfavorable clinical course.</jats:p>\n               </jats:sec>",
     "DOI": "10.1093/neuonc/noaa267",
@@ -12997,6 +13568,123 @@
     "PMID": "34272868",
     "id": "1EzqPr2Ef",
     "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1093/neuonc/noab178"
+  },
+  {
+    "publisher": "Oxford University Press (OUP)",
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>To achieve replicative immortality, most cancers develop a telomere maintenance mechanism, such as reactivation of telomerase or alternative lengthening of telomeres (ALT). There are limited data on the prevalence and clinical significance of ALT in pediatric brain tumors, and ALT-directed therapy is not available.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>We performed C-circle analysis (CCA) on 579 pediatric brain tumors that had corresponding tumor/normal whole genome sequencing through the Open Pediatric Brain Tumor Atlas (OpenPBTA). We detected ALT in 6.9% (n = 40/579) of these tumors and completed additional validation by ultrabright telomeric foci in situ on a subset of these tumors. We used CCA to validate TelomereHunter for computational prediction of ALT status and focus subsequent analyses on pediatric high-grade gliomas (pHGGs) Finally, we examined whether ALT is associated with recurrent somatic or germline alterations.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>ALT is common in pHGGs (n = 24/63, 38.1%), but occurs infrequently in other pediatric brain tumors (&amp;lt;3%). Somatic ATRX mutations occur in 50% of ALT+ pHGGs and in 30% of ALT− pHGGs. Rare pathogenic germline variants in mismatch repair (MMR) genes are significantly associated with an increased occurrence of ALT.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>We demonstrate that ATRX is mutated in only a subset of ALT+ pHGGs, suggesting other mechanisms of ATRX loss of function or alterations in other genes may be associated with the development of ALT in these patients. We show that germline variants in MMR are associated with the development of ALT in patients with pHGG.</jats:p>\n               </jats:sec>",
+    "DOI": "10.1093/neuonc/noac278",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Alternative lengthening of telomeres (ALT) in pediatric high-grade gliomas can occur without ATRX mutation and is enriched in patients with pathogenic germline mismatch repair (MMR) variants",
+    "author": [
+      {
+        "given": "Jennifer L",
+        "family": "Stundon"
+      },
+      {
+        "given": "Heba",
+        "family": "Ijaz"
+      },
+      {
+        "given": "Krutika S",
+        "family": "Gaonkar"
+      },
+      {
+        "given": "Rebecca S",
+        "family": "Kaufman"
+      },
+      {
+        "given": "Run",
+        "family": "Jin"
+      },
+      {
+        "given": "Anastasios",
+        "family": "Karras"
+      },
+      {
+        "given": "Zalman",
+        "family": "Vaksman"
+      },
+      {
+        "given": "Jung",
+        "family": "Kim"
+      },
+      {
+        "given": "Ryan J",
+        "family": "Corbett"
+      },
+      {
+        "given": "Matthew R",
+        "family": "Lueder"
+      },
+      {
+        "given": "Daniel P",
+        "family": "Miller"
+      },
+      {
+        "given": "Yiran",
+        "family": "Guo"
+      },
+      {
+        "given": "Mariarita",
+        "family": "Santi"
+      },
+      {
+        "given": "Marilyn",
+        "family": "Li"
+      },
+      {
+        "given": "Gonzalo",
+        "family": "Lopez"
+      },
+      {
+        "given": "Phillip B",
+        "family": "Storm"
+      },
+      {
+        "given": "Adam C",
+        "family": "Resnick"
+      },
+      {
+        "given": "Angela J",
+        "family": "Waanders"
+      },
+      {
+        "given": "Suzanne P",
+        "family": "MacFarland"
+      },
+      {
+        "given": "Douglas R",
+        "family": "Stewart"
+      },
+      {
+        "given": "Sharon J",
+        "family": "Diskin"
+      },
+      {
+        "given": "Jo Lynne",
+        "family": "Rokita"
+      },
+      {
+        "given": "Kristina A",
+        "family": "Cole"
+      }
+    ],
+    "container-title": "Neuro-Oncology",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          20
+        ]
+      ]
+    },
+    "URL": "https://doi.org/grnc33",
+    "PMID": "36541551",
+    "id": "lNLcNX6n",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1093/neuonc/noac278"
   },
   {
     "publisher": "Oxford University Press (OUP)",
@@ -13941,6 +14629,115 @@
     "PMID": "35131864",
     "id": "ic0BrsYM",
     "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1136/jitc-2021-004012"
+  },
+  {
+    "publisher": "BMJ",
+    "issue": "9",
+    "abstract": "<jats:sec><jats:title>Background</jats:title><jats:p>Pediatric brain tumors are the leading cause of cancer death in children with an urgent need for innovative therapies. Glypican 2 (GPC2) is a cell surface oncoprotein expressed in neuroblastoma for which targeted immunotherapies have been developed. This work aimed to characterize GPC2 expression in pediatric brain tumors and develop an mRNA CAR T cell approach against this target.</jats:p></jats:sec><jats:sec><jats:title>Methods</jats:title><jats:p>We investigated GPC2 expression across a cohort of primary pediatric brain tumor samples and cell lines using RNA sequencing, immunohistochemistry, and flow cytometry. To target GPC2 in the brain with adoptive cellular therapies and mitigate potential inflammatory neurotoxicity, we used optimized mRNA to create transient chimeric antigen receptor (CAR) T cells. We developed four mRNA CAR T cell constructs using the highly GPC2-specific fully human D3 single chain variable fragment for preclinical testing.</jats:p></jats:sec><jats:sec><jats:title>Results</jats:title><jats:p>We identified high GPC2 expression across multiple pediatric brain tumor types including medulloblastomas, embryonal tumors with multilayered rosettes, other central nervous system embryonal tumors, as well as definable subsets of highly malignant gliomas. We next validated and prioritized CAR configurations using in vitro cytotoxicity assays with GPC2-expressing neuroblastoma cells, where the light-to-heavy single chain variable fragment configurations proved to be superior. We expanded the testing of the two most potent GPC2-directed CAR constructs to GPC2-expressing medulloblastoma and high-grade glioma cell lines, showing significant GPC2-specific cell death in multiple models. Finally, biweekly locoregional delivery of 2–4 million GPC2-directed mRNA CAR T cells induced significant tumor regression in an orthotopic medulloblastoma model and significantly prolonged survival in an aggressive orthotopic thalamic diffuse midline glioma xenograft model. No GPC2-directed CAR T cell related neurologic or systemic toxicity was observed.</jats:p></jats:sec><jats:sec><jats:title>Conclusion</jats:title><jats:p>Taken together, these data show that GPC2 is a highly differentially expressed cell surface protein on multiple malignant pediatric brain tumors that can be targeted safely with local delivery of mRNA CAR T cells, laying the framework for the clinical translation of GPC2-directed immunotherapies for pediatric brain tumors.</jats:p></jats:sec>",
+    "DOI": "10.1136/jitc-2021-004450",
+    "type": "article-journal",
+    "page": "e004450",
+    "source": "Crossref",
+    "title": "Development of GPC2-directed chimeric antigen receptors using mRNA for pediatric brain tumors",
+    "volume": "10",
+    "author": [
+      {
+        "given": "Jessica B",
+        "family": "Foster"
+      },
+      {
+        "given": "Crystal",
+        "family": "Griffin"
+      },
+      {
+        "given": "Jo Lynne",
+        "family": "Rokita"
+      },
+      {
+        "given": "Allison",
+        "family": "Stern"
+      },
+      {
+        "given": "Cameron",
+        "family": "Brimley"
+      },
+      {
+        "given": "Komal",
+        "family": "Rathi"
+      },
+      {
+        "given": "Maria V",
+        "family": "Lane"
+      },
+      {
+        "given": "Samantha N",
+        "family": "Buongervino"
+      },
+      {
+        "given": "Tiffany",
+        "family": "Smith"
+      },
+      {
+        "given": "Peter J",
+        "family": "Madsen"
+      },
+      {
+        "given": "Daniel",
+        "family": "Martinez"
+      },
+      {
+        "given": "Alberto",
+        "family": "Delaidelli"
+      },
+      {
+        "given": "Poul H",
+        "family": "Sorensen"
+      },
+      {
+        "given": "Robert J",
+        "family": "Wechsler-Reya"
+      },
+      {
+        "given": "Katalin",
+        "family": "Karikó"
+      },
+      {
+        "given": "Phillip B",
+        "family": "Storm"
+      },
+      {
+        "given": "David M",
+        "family": "Barrett"
+      },
+      {
+        "given": "Adam C",
+        "family": "Resnick"
+      },
+      {
+        "given": "John M",
+        "family": "Maris"
+      },
+      {
+        "given": "Kristopher R",
+        "family": "Bosse"
+      }
+    ],
+    "container-title": "Journal for ImmunoTherapy of Cancer",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          9
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gq53zb",
+    "container-title-short": "J Immunother Cancer",
+    "PMCID": "PMC9516314",
+    "PMID": "36167467",
+    "id": "kIFuKyuK",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1136/jitc-2021-004450"
   },
   {
     "publisher": "BMJ",
@@ -18312,8 +19109,8 @@
       "date-parts": [
         [
           "2023",
-          1,
-          18
+          2,
+          7
         ]
       ]
     },
@@ -18540,8 +19337,8 @@
       "date-parts": [
         [
           "2023",
-          1,
-          18
+          2,
+          7
         ]
       ]
     },
@@ -18575,8 +19372,8 @@
       "date-parts": [
         [
           "2023",
-          1,
-          18
+          2,
+          7
         ]
       ]
     },
@@ -18615,8 +19412,8 @@
       "date-parts": [
         [
           "2023",
-          1,
-          18
+          2,
+          7
         ]
       ]
     },
@@ -18659,8 +19456,8 @@
       "date-parts": [
         [
           "2023",
-          1,
-          18
+          2,
+          7
         ]
       ]
     },

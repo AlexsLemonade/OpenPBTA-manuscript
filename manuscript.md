@@ -9,7 +9,7 @@ keywords:
 - classification
 - somatic variation
 lang: en-US
-date-meta: '2023-02-07'
+date-meta: '2023-02-16'
 author-meta:
 - Joshua A. Shapiro
 - Krutika S. Gaonkar
@@ -89,8 +89,8 @@ header-includes: |-
   <meta name="citation_title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="og:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="twitter:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
-  <meta name="dc.date" content="2023-02-07" />
-  <meta name="citation_publication_date" content="2023-02-07" />
+  <meta name="dc.date" content="2023-02-16" />
+  <meta name="citation_publication_date" content="2023-02-16" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -380,9 +380,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/33c98980d39dfc8b6c63691c819f8140f349c149/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/33c98980d39dfc8b6c63691c819f8140f349c149/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/33c98980d39dfc8b6c63691c819f8140f349c149/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c5a47aa3e85227fc3810823020f816c3a403b7f2/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c5a47aa3e85227fc3810823020f816c3a403b7f2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c5a47aa3e85227fc3810823020f816c3a403b7f2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -404,10 +404,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/33c98980d39dfc8b6c63691c819f8140f349c149/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c5a47aa3e85227fc3810823020f816c3a403b7f2/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@33c9898](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/33c98980d39dfc8b6c63691c819f8140f349c149)
-on February 7, 2023.
+from [AlexsLemonade/OpenPBTA-manuscript@c5a47aa](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/c5a47aa3e85227fc3810823020f816c3a403b7f2)
+on February 16, 2023.
 </em></small>
 
 ## Authors
@@ -1491,7 +1491,7 @@ Finally, we would like to thank Yuanchao Zhang and Eric Wafula for adding to the
 |Joshua A. Shapiro|Methodology, Software, Validation, Formal analysis, Investigation, Writing - Original draft, Writing - Review and editing, Visualization, Supervision|
 |Krutika S. Gaonkar|Data curation, Formal analysis, Investigation, Methodology, Software, Writing – Original draft, Writing - Review and editing|
 |Candace L. Savonen|Methodology, Software, Validation, Formal analysis, Investigation, Writing - Original draft, Writing - Review and editing, Visualization|
-|Stephanie J. Spielman|Validation, Formal analysis, Writing - Review and editing, Visualization, Supervision, Funding acquisition|
+|Stephanie J. Spielman|Validation, Formal analysis, Writing - Original draft, Writing - Review and editing, Investigation, Software, Visualization, Supervision, Funding acquisition|
 |Chante J. Bethell|Methodology, Validation, Formal analysis, Investigation, Writing - Original draft, Visualization|
 |Run Jin|Data curation, Formal analysis, Visualization, Writing – Original draft, Writing - Review and editing|
 |Komal S. Rathi|Formal analysis, Investigation, Methodology, Writing – Original draft|

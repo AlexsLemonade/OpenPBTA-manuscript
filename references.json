@@ -274,8 +274,7 @@
     "URL": "https://clinicaltrials.gov/ct2/show/NCT03739372",
     "author": [
       {
-        "family": "University of California, San Francisco",
-        "given": ""
+        "literal": "University of California, San Francisco"
       }
     ],
     "accessed": {
@@ -283,7 +282,7 @@
         [
           "2023",
           2,
-          5
+          16
         ]
       ]
     },
@@ -18933,176 +18932,134 @@
         "given": "Konstanty"
       },
       {
-        "family": "The Cancer Genome Atlas Research Network",
-        "given": ""
+        "literal": "The Cancer Genome Atlas Research Network"
       },
       {
-        "family": "Analysis Working Group: Dana-Farber Cancer Institute",
-        "given": ""
+        "literal": "Analysis Working Group: Dana-Farber Cancer Institute"
       },
       {
-        "family": "Institute for Systems Biology",
-        "given": ""
+        "literal": "Institute for Systems Biology"
       },
       {
-        "family": "University of Southern California",
-        "given": ""
+        "literal": "University of Southern California"
       },
       {
-        "family": "Memorial Sloan Kettering Cancer Center",
-        "given": ""
+        "literal": "Memorial Sloan Kettering Cancer Center"
       },
       {
-        "family": "BC Cancer Agency",
-        "given": ""
+        "literal": "BC Cancer Agency"
       },
       {
-        "family": "The Eli & Edythe L. Broad Institute",
-        "given": ""
+        "literal": "The Eli & Edythe L. Broad Institute"
       },
       {
-        "family": "MD Anderson Cancer Center",
-        "given": ""
+        "literal": "MD Anderson Cancer Center"
       },
       {
-        "family": "Harvard Medical School",
-        "given": ""
+        "literal": "Harvard Medical School"
       },
       {
-        "family": "University of North Carolina",
-        "given": ""
+        "literal": "University of North Carolina"
       },
       {
-        "family": "Vanderbilt University",
-        "given": ""
+        "literal": "Vanderbilt University"
       },
       {
-        "family": "Asan Medical Center",
-        "given": ""
+        "literal": "Asan Medical Center"
       },
       {
-        "family": "University of Melbourne",
-        "given": ""
+        "literal": "University of Melbourne"
       },
       {
-        "family": "National Cancer Institute",
-        "given": ""
+        "literal": "National Cancer Institute"
       },
       {
-        "family": "Case Western Reserve University",
-        "given": ""
+        "literal": "Case Western Reserve University"
       },
       {
-        "family": "University of California at Santa Cruz",
-        "given": ""
+        "literal": "University of California at Santa Cruz"
       },
       {
-        "family": "Duke University",
-        "given": ""
+        "literal": "Duke University"
       },
       {
-        "family": "University of Michigan",
-        "given": ""
+        "literal": "University of Michigan"
       },
       {
-        "family": "University of Pittsburgh",
-        "given": ""
+        "literal": "University of Pittsburgh"
       },
       {
-        "family": "Brown University",
-        "given": ""
+        "literal": "Brown University"
       },
       {
-        "family": "Brigham and Women’s Hospital",
-        "given": ""
+        "literal": "Brigham and Women’s Hospital"
       },
       {
-        "family": "National Cancer Center",
-        "given": ""
+        "literal": "National Cancer Center"
       },
       {
-        "family": "Nationwide Children’s Hospital",
-        "given": ""
+        "literal": "Nationwide Children’s Hospital"
       },
       {
-        "family": "Washington University",
-        "given": ""
+        "literal": "Washington University"
       },
       {
-        "family": "Greater Poland Cancer Centre",
-        "given": ""
+        "literal": "Greater Poland Cancer Centre"
       },
       {
-        "family": "KU Leuven",
-        "given": ""
+        "literal": "KU Leuven"
       },
       {
-        "family": "Genome Sequencing Center: The Eli & Edythe L. Broad Institute",
-        "given": ""
+        "literal": "Genome Sequencing Center: The Eli & Edythe L. Broad Institute"
       },
       {
-        "family": "Washington University in St. Louis",
-        "given": ""
+        "literal": "Washington University in St. Louis"
       },
       {
-        "family": "Genome Characterization Centers: BC Cancer Agency",
-        "given": ""
+        "literal": "Genome Characterization Centers: BC Cancer Agency"
       },
       {
-        "family": "Harvard Medical School/Brigham & Women’s Hospital/MD Anderson Cancer Center",
-        "given": ""
+        "literal": "Harvard Medical School/Brigham & Women’s Hospital/MD Anderson Cancer Center"
       },
       {
-        "family": "University of Southern California Epigenome Center",
-        "given": ""
+        "literal": "University of Southern California Epigenome Center"
       },
       {
-        "family": "The Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins University",
-        "given": ""
+        "literal": "The Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins University"
       },
       {
-        "family": "Genome Data Analysis Centers: The Eli & Edythe L. Broad Institute",
-        "given": ""
+        "literal": "Genome Data Analysis Centers: The Eli & Edythe L. Broad Institute"
       },
       {
-        "family": "Memorial Sloan-Kettering Cancer Cente",
-        "given": ""
+        "literal": "Memorial Sloan-Kettering Cancer Cente"
       },
       {
         "family": "University of California",
         "given": "Santa Cruz"
       },
       {
-        "family": "University of California San Francisco",
-        "given": ""
+        "literal": "University of California San Francisco"
       },
       {
-        "family": "Biospecimen Core Resource: The Research Institute at Nationwide Children’s Hospital",
-        "given": ""
+        "literal": "Biospecimen Core Resource: The Research Institute at Nationwide Children’s Hospital"
       },
       {
-        "family": "International Genomics Consortium",
-        "given": ""
+        "literal": "International Genomics Consortium"
       },
       {
-        "family": "Tissue Source Sites: Buck Institute for Research on Aging",
-        "given": ""
+        "literal": "Tissue Source Sites: Buck Institute for Research on Aging"
       },
       {
-        "family": "Chonnam National University Medical School",
-        "given": ""
+        "literal": "Chonnam National University Medical School"
       },
       {
-        "family": "City Clinical Oncology Dispensary",
-        "given": ""
+        "literal": "City Clinical Oncology Dispensary"
       },
       {
-        "family": "Cureline",
-        "given": ""
+        "literal": "Cureline"
       },
       {
-        "family": "UNC Lineberger Comprehensive Cancer Center",
-        "given": ""
+        "literal": "UNC Lineberger Comprehensive Cancer Center"
       }
     ],
     "accessed": {
@@ -19110,7 +19067,7 @@
         [
           "2023",
           2,
-          7
+          16
         ]
       ]
     },
@@ -19329,8 +19286,7 @@
         "given": "Suzanne J"
       },
       {
-        "family": "the St. Jude Children's Research Hospital–Washington University Pediatric Cancer Genome Project",
-        "given": ""
+        "literal": "the St. Jude Children's Research Hospital–Washington University Pediatric Cancer Genome Project"
       }
     ],
     "accessed": {
@@ -19338,7 +19294,7 @@
         [
           "2023",
           2,
-          7
+          16
         ]
       ]
     },
@@ -19354,10 +19310,10 @@
   },
   {
     "id": "Wql2Djro",
-    "type": "report",
+    "type": "article",
     "abstract": "Summary: BWA-MEM is a new alignment algorithm for aligning sequence reads or long query sequences against a large reference genome such as human. It automatically chooses between local and end-to-end alignments, supports paired-end reads and performs chimeric alignment. The algorithm is robust to sequencing errors and applicable to a wide range of sequence lengths from 70bp to a few megabases. For mapping 100bp sequences, BWA-MEM shows better performance than several state-of-art read aligners to date. Availability and implementation: BWA-MEM is implemented as a component of BWA, which is available at http://github.com/lh3/bwa. Contact: hengli@broadinstitute.org",
-    "note": "arXiv:1303.3997 [q-bio]\ntype: article\nThis CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: url:https://doi.org/10.48550/arXiv.1303.3997",
-    "number": "arXiv:1303.3997",
+    "DOI": "10.48550/arXiv.1303.3997",
+    "note": "arXiv:1303.3997 [q-bio]\nThis CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: url:https://doi.org/10.48550/arXiv.1303.3997",
     "publisher": "arXiv",
     "source": "arXiv.org",
     "title": "Aligning sequence reads, clone sequences and assembly contigs with BWA-MEM",
@@ -19373,7 +19329,7 @@
         [
           "2023",
           2,
-          7
+          16
         ]
       ]
     },
@@ -19389,10 +19345,10 @@
   },
   {
     "id": "NazMcQpM",
-    "type": "report",
+    "type": "article",
     "abstract": "We describe the Rocker project, which provides a widely-used suite of Docker images with customized R environments for particular tasks. We discuss how this suite is organized, and how these tools can increase portability, scaling, reproducibility, and convenience of R users and developers.",
-    "note": "arXiv:1710.03675 [cs]\ntype: article\nThis CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: url:https://doi.org/10.48550/arXiv.1710.03675",
-    "number": "arXiv:1710.03675",
+    "DOI": "10.48550/arXiv.1710.03675",
+    "note": "arXiv:1710.03675 [cs]\nThis CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: url:https://doi.org/10.48550/arXiv.1710.03675",
     "publisher": "arXiv",
     "source": "arXiv.org",
     "title": "An Introduction to Rocker: Docker Containers for R",
@@ -19413,7 +19369,7 @@
         [
           "2023",
           2,
-          7
+          16
         ]
       ]
     },
@@ -19429,10 +19385,10 @@
   },
   {
     "id": "jErrUFsf",
-    "type": "report",
+    "type": "article",
     "abstract": "UMAP (Uniform Manifold Approximation and Projection) is a novel manifold learning technique for dimension reduction. UMAP is constructed from a theoretical framework based in Riemannian geometry and algebraic topology. The result is a practical scalable algorithm that applies to real world data. The UMAP algorithm is competitive with t-SNE for visualization quality, and arguably preserves more of the global structure with superior run time performance. Furthermore, UMAP has no computational restrictions on embedding dimension, making it viable as a general purpose dimension reduction technique for machine learning.",
-    "note": "arXiv:1802.03426 [cs, stat]\ntype: article\nThis CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: url:https://doi.org/10.48550/arXiv.1802.03426",
-    "number": "arXiv:1802.03426",
+    "DOI": "10.48550/arXiv.1802.03426",
+    "note": "arXiv:1802.03426 [cs, stat]\nThis CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: url:https://doi.org/10.48550/arXiv.1802.03426",
     "publisher": "arXiv",
     "source": "arXiv.org",
     "title": "UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction",
@@ -19457,7 +19413,7 @@
         [
           "2023",
           2,
-          7
+          16
         ]
       ]
     },

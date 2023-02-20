@@ -9,7 +9,7 @@ keywords:
 - classification
 - somatic variation
 lang: en-US
-date-meta: '2023-02-16'
+date-meta: '2023-02-20'
 author-meta:
 - Joshua A. Shapiro
 - Krutika S. Gaonkar
@@ -89,8 +89,8 @@ header-includes: |-
   <meta name="citation_title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="og:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="twitter:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
-  <meta name="dc.date" content="2023-02-16" />
-  <meta name="citation_publication_date" content="2023-02-16" />
+  <meta name="dc.date" content="2023-02-20" />
+  <meta name="citation_publication_date" content="2023-02-20" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -380,9 +380,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c5a47aa3e85227fc3810823020f816c3a403b7f2/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c5a47aa3e85227fc3810823020f816c3a403b7f2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c5a47aa3e85227fc3810823020f816c3a403b7f2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/59bd10e225eff961b3b9a92c01e21629e0cbdbaf/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/59bd10e225eff961b3b9a92c01e21629e0cbdbaf/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/59bd10e225eff961b3b9a92c01e21629e0cbdbaf/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -404,10 +404,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c5a47aa3e85227fc3810823020f816c3a403b7f2/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/59bd10e225eff961b3b9a92c01e21629e0cbdbaf/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@c5a47aa](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/c5a47aa3e85227fc3810823020f816c3a403b7f2)
-on February 16, 2023.
+from [AlexsLemonade/OpenPBTA-manuscript@59bd10e](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/59bd10e225eff961b3b9a92c01e21629e0cbdbaf)
+on February 20, 2023.
 </em></small>
 
 ## Authors
@@ -1855,7 +1855,7 @@ We plotted genome-wide gains and losses in (**Figure {@fig:S3}B**) using the R p
 
 We defined breakpoint density as the number of breaks per genome or exome per sample.
 For Manta SV calls, we filtered to retain "PASS" variants and used breakpoints from the algorithm.
-For consensus CNV calls, if |log<sub>2</sub> ratio| > log<sub>2</sub>(1), we annotated the segment as a break. 
+For consensus CNV calls, if |log<sub>2</sub> ratio| > log<sub>2</sub>(1), we annotated the segment as a break.
 We then calculated breakpoint density as:
 
 $$\textrm{breakpoint density} = \frac{\textrm{N breaks}}{\textrm{Size in Mb of }\textit{effectively surveyed} \textrm{ genome}}$$
@@ -1883,7 +1883,8 @@ We plotted scores by cancer group using the `ComplexHeatmap` R package (**Figure
 ##### Transcriptomic Dimension Reduction (`transcriptomic-dimension-reduction` analysis module)
 
 We applied Uniform Manifold Approximation and Projection (UMAP) [@https://doi.org/10.48550/arXiv.1802.03426] to log2-transformed FPKM data for stranded RNA-Seq samples using the `umap` R package (See **Key Resources Table**).
-We set the number of neighbors to 15.
+We considered all stranded RNA-Seq samples for this analysis, but we removed genes whose FPKM sum across samples was less than 100.
+We set the UMAP number of neighbors parameter to 15.
 
 ##### Fusion prioritization (`fusion_filtering` analysis module)
 

@@ -72,7 +72,7 @@
   <meta name="author" content="Jaclyn N. Taroni" />
   <meta name="author" content="Children’s Brain Tumor Network" />
   <meta name="author" content="Pacific Pediatric Neuro-Oncology Consortium" />
-  <meta name="dcterms.date" content="2023-02-16" />
+  <meta name="dcterms.date" content="2023-02-20" />
   <meta name="keywords" content="pediatric cancer, brain tumor, tumor atlas, reproducibility, open science, classification, somatic variation" />
   <title>OpenPBTA: An Open Pediatric Brain Tumor Atlas</title>
   <style>
@@ -111,8 +111,8 @@
   <meta name="citation_title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="og:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="twitter:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
-  <meta name="dc.date" content="2023-02-16" />
-  <meta name="citation_publication_date" content="2023-02-16" />
+  <meta name="dc.date" content="2023-02-20" />
+  <meta name="citation_publication_date" content="2023-02-20" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -402,9 +402,9 @@
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c5a47aa3e85227fc3810823020f816c3a403b7f2/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c5a47aa3e85227fc3810823020f816c3a403b7f2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c5a47aa3e85227fc3810823020f816c3a403b7f2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/59bd10e225eff961b3b9a92c01e21629e0cbdbaf/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/59bd10e225eff961b3b9a92c01e21629e0cbdbaf/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/59bd10e225eff961b3b9a92c01e21629e0cbdbaf/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -421,10 +421,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c5a47aa3e85227fc3810823020f816c3a403b7f2/">permalink</a>)
+(<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/59bd10e225eff961b3b9a92c01e21629e0cbdbaf/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/c5a47aa3e85227fc3810823020f816c3a403b7f2">AlexsLemonade/OpenPBTA-manuscript@c5a47aa</a>
-on February 16, 2023.
+from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/59bd10e225eff961b3b9a92c01e21629e0cbdbaf">AlexsLemonade/OpenPBTA-manuscript@59bd10e</a>
+on February 20, 2023.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -2395,7 +2395,8 @@ We compared GSVA scores among histology groups using ANOVA and subsequent Tukey 
 We plotted scores by cancer group using the <code>ComplexHeatmap</code> R package (<strong>Figure <a href="#fig:Fig5">5</a>B</strong>)<span class="citation" data-cites="oESNuFI5"><sup><a href="#ref-oESNuFI5" role="doc-biblioref">107</a></sup></span>.</p>
 <h5 id="transcriptomic-dimension-reduction-transcriptomic-dimension-reduction-analysis-module">Transcriptomic Dimension Reduction (<code>transcriptomic-dimension-reduction</code> analysis module)</h5>
 <p>We applied Uniform Manifold Approximation and Projection (UMAP)<span class="citation" data-cites="jErrUFsf"><sup><a href="#ref-jErrUFsf" role="doc-biblioref">112</a></sup></span> to log2-transformed FPKM data for stranded RNA-Seq samples using the <code>umap</code> R package (See <strong>Key Resources Table</strong>).
-We set the number of neighbors to 15.</p>
+We considered all stranded RNA-Seq samples for this analysis, but we removed genes whose FPKM sum across samples was less than 100.
+We set the UMAP number of neighbors parameter to 15.</p>
 <h5 id="fusion-prioritization-fusion_filtering-analysis-module">Fusion prioritization (<code>fusion_filtering</code> analysis module)</h5>
 <p>We performed artifact filtering and additional annotation on fusion calls to prioritize putative oncogenic fusions.
 Briefly, we considered all in-frame and frameshift fusion calls with at least one junction read and at least one gene partner expressed (TPM &gt; 1) to be true calls.

@@ -9,7 +9,7 @@ keywords:
 - classification
 - somatic variation
 lang: en-US
-date-meta: '2023-02-20'
+date-meta: '2023-02-23'
 author-meta:
 - Joshua A. Shapiro
 - Krutika S. Gaonkar
@@ -89,8 +89,8 @@ header-includes: |-
   <meta name="citation_title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="og:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="twitter:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
-  <meta name="dc.date" content="2023-02-20" />
-  <meta name="citation_publication_date" content="2023-02-20" />
+  <meta name="dc.date" content="2023-02-23" />
+  <meta name="citation_publication_date" content="2023-02-23" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -380,9 +380,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/59bd10e225eff961b3b9a92c01e21629e0cbdbaf/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/59bd10e225eff961b3b9a92c01e21629e0cbdbaf/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/59bd10e225eff961b3b9a92c01e21629e0cbdbaf/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/789f65de824dcc28688d2751c0978bc6f86cb805/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/789f65de824dcc28688d2751c0978bc6f86cb805/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/789f65de824dcc28688d2751c0978bc6f86cb805/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -404,10 +404,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/59bd10e225eff961b3b9a92c01e21629e0cbdbaf/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/789f65de824dcc28688d2751c0978bc6f86cb805/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@59bd10e](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/59bd10e225eff961b3b9a92c01e21629e0cbdbaf)
-on February 20, 2023.
+from [AlexsLemonade/OpenPBTA-manuscript@789f65d](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/789f65de824dcc28688d2751c0978bc6f86cb805)
+on February 23, 2023.
 </em></small>
 
 ## Authors
@@ -1245,7 +1245,7 @@ We performed a comprehensive genomic analysis of somatic SNVs, CNVs, SVs, and fu
 Unless otherwise noted, each analysis was performed for primary tumors using one tumor per patient.
 
 <!--SAMPLECOUNT-->
-Following SNV consensus calling (**Figure {@fig:S1}** and **Figure {@fig:S2}A-G**), we observed as expected lower tumor mutation burden (TMB) **Figure {@fig:S2}H** in pediatric tumors compared to adult brain tumors from The Cancer Genome Atlas (TCGA), **Figure {@fig:S2}I**, with hypermutant (> 10 Mut/Mb) and ultra-hypermutant (> 100 Mut/Mb) tumors [@pmid:29056344] only found within HGGs. 
+Following SNV consensus calling (**Figure {@fig:S1}** and **Figure {@fig:S2}A-G**), we observed as expected lower tumor mutation burden (TMB) **Figure {@fig:S2}H** in pediatric tumors compared to adult brain tumors from The Cancer Genome Atlas (TCGA), **Figure {@fig:S2}I**, with hypermutant (> 10 Mut/Mb) and ultra-hypermutant (> 100 Mut/Mb) tumors [@pmid:29056344] only found within HGGs.
 **Figure {@fig:Fig2}** and **Figure {@fig:S3}A** depict oncoprints recapitulating known histology-specific driver genes in primary tumors across PBTA histologies.
 
 <!-- TODO: Update group-specific count numbers below with figure update -->
@@ -1269,9 +1269,9 @@ The two tumors with ultra-high TMB (> 100 Mutations/Mb) were from patients with 
 #### Other CNS tumors
 <!--SAMPLECOUNT-->
 We observed that 25% (15/60) of ependymoma tumors were _C11orf95::RELA_ (now, _ZFTA::RELA_) fusion-positive ependymomas and that 68% (21/31) of craniopharyngiomas were driven by mutations in _CTNNB1_ (**Figure {@fig:Fig2}D**).
-Multiple histologies contained somatic mutations or fusions in _NF2_: 41% (7/17) of meningiomas, 5% (3/60) of ependymomas,  and 27% (3/11) schwannomas.
-Rare fusions in _ERBB4_, _YAP1_, _KRAS_, and _MAML2_ were observed in 10% (6/60) of ependymoma tumors.
-DNETs harbored alterations in MAPK/PI3K pathway genes as previously reported [@doi:10.1093/jnen/nlz101], including _FGFR1_ (21%, 4/19), _PDGFRA_ (10%, 2/19), and _BRAF_ (5%, 1/19).
+Multiple histologies contained somatic mutations or fusions in _NF2_, including 41% (7/17) of meningiomas, 5% (3/60) of ependymomas, and 27% (3/11) schwannomas.
+We observed rare fusions in _ERBB4_, _YAP1_, _KRAS_, and _MAML2_ in 10% (6/60) of ependymoma tumors.
+DNETs harbored alterations in MAPK/PI3K pathway genes, as has been previously reported [@doi:10.1093/jnen/nlz101], including _FGFR1_ (21%, 4/19), _PDGFRA_ (10%, 2/19), and _BRAF_ (5%, 1/19).
 Frequent mutations in additional rare brain tumor histologies are depicted in **Figure {@fig:S3}A**.
 
 ![**Mutational landscape of PBTA tumors.** Shown are frequencies of canonical somatic gene mutations, CNVs, fusions, and TMB (top bar plot) for the top 20 genes mutated across primary tumors within the OpenPBTA dataset. A, Low-grade astrocytic tumors (N = 227): pilocytic astrocytoma (N = 104), other low-grade glioma (N = 69), ganglioglioma (N = 35), pleomorphic xanthoastrocytoma (N = 9), subependymal giant cell astrocytoma (N = 10); B, Embryonal tumors (N = 128): medulloblastomas (N = 95), atypical teratoid rhabdoid tumors (N = 24), other embryonal tumors (N = 9); C, Diffuse astrocytic and oligodendroglial tumors (N = 61): diffuse midline gliomas (N = 34) and other high-grade gliomas (N = 27); D, Other CNS tumors (N = 194): ependymomas (N = 60), craniopharyngiomas (N = 31),  meningiomas (N = 17), dysembryoplastic neuroepithelial tumors (N = 19), Ewing sarcomas (N = 7), schwannomas (N = 11), and neurofibroma plexiforms (N = 7). Additional, rare CNS tumors are displayed in **Figure {@fig:S3}A**. Tumor histology (`Cancer Group`) and patient sex (`Germline sex estimate`) are displayed as annotations at the bottom of each plot. Only tumors with mutations in the listed genes are shown. Multiple CNVs are denoted as a complex event. N denotes the number of patients and tumors.](https://raw.githubusercontent.com/AlexsLemonade/OpenPBTA-analysis/a43ced889d8027dce4bc7f2750056f1566161d35/figures/pngs/figure2.png?sanitize=true){#fig:Fig2 width="9in"}
@@ -1284,7 +1284,7 @@ We analyzed mutational co-occurrence across the OpenPBTA, using a single tumor f
 The top 50 mutated genes (see **STAR Methods** for details) in primary tumors are shown in **Figure {@fig:Fig3}** by tumor type (**A**, bar plots), with co-occurrence scores illustrated in the heatmap (**B**).
 As expected, _TP53_ was the most frequently mutated gene across the OpenPBTA (8.4%, 56/666), significantly co-occurring with _H3F3A_ (OR = 32, 95% CI: 15.3 - 66.7, q = 8.46e-17), _ATRX_ (OR = 20, 95% CI: 8.4 - 47.7, q = 4.43e-8), _NF1_ (OR = 8.62, 95% CI: 3.7 - 20.2, q = 5.45e-5), and _EGFR_ (OR = 18.2, 95% CI: 5 - 66.5, q = 1.6e-4), with all of these driven by HGGs and consistent with previous reports [@doi:10.1016/j.ccell.2017.08.017; @doi:10.1093/neuonc/noaa251; @doi:10.1038/ng.2938].
 
-At the broad histology level, mutations in _CTNNB1_ significantly co-occurred with mutations in _TP53_ (OR = 42.9, 95% CI: 7 - 261.4, q = 1.63e-3) and _DDX3X_ (OR = 21.1, 95% CI: 4.6 - 96.3, q = 4.46e-3) in medulloblastoma. 
+At the broad histology level, mutations in _CTNNB1_ significantly co-occurred with mutations in _TP53_ (OR = 42.9, 95% CI: 7 - 261.4, q = 1.63e-3) and _DDX3X_ (OR = 21.1, 95% CI: 4.6 - 96.3, q = 4.46e-3) in medulloblastoma.
 Mutations in _FGFR1_ and _PIK3CA_ significantly co-occurred in LGGs (OR = 76.1, 95% CI: 9.85 - 588.1, q = 3.26e-3), consistent with previous findings [@doi:10.1200/JCO.2010.31.1670; @doi:10.1186/s40478-020-01027-z].
 Of HGG tumors with mutations in _TP53_ or _PPM1D_, 52/54 (96.3%) had mutations in only one of these genes (OR = 0.188, 95% CI: 0.04 - 0.94, p = 0.0413, q = 0.0587).
 This trend recapitulates previous observations that _TP53_ and _PPM1D_ mutations tend to be mutually exclusive in HGGs [@https://doi.org/10.1038/ng.2938].
@@ -1454,7 +1454,9 @@ Neurotoxic side effects have been reported when interferon alpha immunotherapy i
 Thus, additional immune vulnerabilities, such as IL-6 inhibition and immune checkpoint blockade, have recently been proposed as therapies for cystic adamantinomatous craniopharyngiomas [@doi:10.1093/neuonc/noy035; @pmid:34966342; @pmid:32075140; @doi:10.1007/s00401-018-1830-2; @doi:10.3389/fonc.2019.00791] and our results noted above support this approach.
 Finally, our study reproduced the overall known poor infiltration of CD8+ T cells and general low expression of _CD274_ (PD-L1) in pediatric brain tumors, further highlighting the urgent need to identify novel therapeutic strategies for these immunologically cold tumors.
 
-OpenPBTA has rapidly become a foundational data analysis and processing layer for a number of discovery research and translational projects which will continue to add other genomic modalities and analyses, such as germline, methylation, single cell, epigenomic, mRNA splicing, imaging, and model drug response data.
+We note that while large-scale collaborative efforts tend to take a longer time to complete, our adoption of an open science framework for OpenPBTA substantially mitigated this concern.
+By maintaining all data, analytical code, and results in public repositories, we ensured that such logistics did not hinder progress in the pediatric cancer research space.
+Indeed, OpenPBTA has rapidly become a foundational data analysis and processing layer for a number of discovery research and translational projects which will continue to add other genomic modalities and analyses, such as germline, methylation, single cell, epigenomic, mRNA splicing, imaging, and model drug response data.
 For example, the RNA fusion filtering module created within OpenPBTA set the stage for development of the R package _annoFuse_ [@doi:10.1186/s12859-020-03922-7] and an R Shiny application [_shinyFuse_](http://shiny.imbei.uni-mainz.de:3838/shinyFuse/).
 Using medulloblastoma subtyping and immune deconvolution analyses performed herein, Dang and colleagues showed enrichment of monocyte and microglia-derived macrophages within the SHH subgroup which they suggest may accumulate following radiation therapy [@doi:10.1016/j.celrep.2021.108917].
 Expression and copy number analyses were used to demonstrate that _GPC2_ is a highly expressed and copy number gained immunotherapeutic target in ETMRs, medulloblastomas, choroid plexus carcinomas, H3 wildtype high-grade gliomas, as well as DMGs.

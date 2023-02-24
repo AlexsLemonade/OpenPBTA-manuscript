@@ -29,7 +29,7 @@ CDKN
 cgreene
 Chante
 CHB
-Chr
+chr
 Chul
 cjbethell
 CLDN
@@ -96,7 +96,6 @@ LauraEgolf
 liberaliscomputing
 Lurie
 Madsen
-MAML
 Meen
 MEK
 MGMT
@@ -117,7 +116,7 @@ orf
 PDGFRA
 petermadsenmd
 PHG
-PichaiRaman
+pichairaman
 PIK
 Poetsch
 QAH

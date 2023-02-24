@@ -380,9 +380,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/76a33507b0f2f096c98fc88fc6aa6526b2469096/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/76a33507b0f2f096c98fc88fc6aa6526b2469096/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/76a33507b0f2f096c98fc88fc6aa6526b2469096/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1a64757484bac87c8f5ebf667e2c85030720273a/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1a64757484bac87c8f5ebf667e2c85030720273a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1a64757484bac87c8f5ebf667e2c85030720273a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -404,9 +404,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/76a33507b0f2f096c98fc88fc6aa6526b2469096/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/1a64757484bac87c8f5ebf667e2c85030720273a/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@76a3350](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/76a33507b0f2f096c98fc88fc6aa6526b2469096)
+from [AlexsLemonade/OpenPBTA-manuscript@1a64757](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/1a64757484bac87c8f5ebf667e2c85030720273a)
 on February 24, 2023.
 </em></small>
 
@@ -1405,7 +1405,7 @@ Indeed, we detected significant (Bonferroni-corrected p < 0.05) upregulation of 
 In contrast, LGGs showed significant downregulation (Bonferroni-corrected p < 0.05) of these pathways.
 Schwannomas and neurofibromas, which have a documented inflammatory immune microenvironment of T and B lymphocytes as well as tumor-associated macrophages (TAMs), are driven by upregulation of cytokines such as IFN$\gamma$, IL-1, and IL-6, and TNF$\alpha$ [@doi:10.1093/noajnl/vdaa023].
 Indeed, we observed significant upregulation of these cytokines in GSVA hallmark pathways (Bonferroni-corrected p < 0.05) (**Figure {@fig:Fig5}B**) and found immune cell types dominated by monocytes in these tumors (**Figure {@fig:Fig5}C**).
-We also observed significant upregulation of pro-inflammatory cytokines IFN$\alpha$ and IFN$\gamma$ in LGGs and craniopharyngiomas compared to medulloblastoma and ependymoma tumors (Bonferroni-corrected p < 0.05), both of which showed significant down-regulation of these cytokines (**Figure {@fig:Fig5}B**).
+We also observed significant upregulation of pro-inflammatory cytokines IFN$\alpha$ and IFN$\gamma$ in both LGGs and craniopharyngiomas when compared to either medulloblastoma or ependymoma tumors (Bonferroni-corrected p < 0.05) (**Figure {@fig:Fig5}B**).
 Together, these results supported previous proteogenomic findings of lower immune infiltration in aggressive medulloblastomas and ependymomas versus higher immune infiltration in _BRAF_-driven LGG and craniopharyngiomas [@doi:10.1016/j.cell.2020.10.044].
 
 Although CD8+ T-cell infiltration across all cancer groups was quite low (**Figure {@fig:Fig5}C**), we observed some signal in specific cancer molecular subtypes (Groups 3 and 4 medulloblastoma) as well as outlier tumors (BRAF-driven LGG, BRAF-driven and wildtype ganglioglioma, and CNS embryonal NOS; **Figure {@fig:S6}E**)
@@ -1417,8 +1417,8 @@ We further reproduced previous findings (**Figure {@fig:Fig5}E**) that medullobl
 However, we also found that higher expression of _CD274_ was significantly associated with improved overall prognosis for medulloblastoma tumors, although with a marginal effect size (HR = 0.0012, 95% CI = 7.5e−06 - 0.18, p = 0.008, multivariate Cox) (**Figure {@fig:Fig5}D**).
 This result may be explained by the higher expression of _CD274_ found in WNT subtype tumors by us and others [@doi:10.1080/2162402X.2018.1462430], as this diagnosis carries the best prognosis of all medulloblastoma subgroups (**Figure {@fig:Fig5}E**).
 
-Finally, we asked whether any molecular subtypes might show an immunologically-hot phenotype, as roughly defined by a greater proportion of CD8+ to CD4+ T cells [@doi:10.1136/jitc-2021-004012; @doi:10.4236/jct.2013.48164].
-While adamantinomatous craniopharyngiomas and Group 3 and Group 4 medulloblastomas had the highest CD8+ to CD4+ T cell ratios (**Figure {@fig:S6}F**), very few tumors had ratios greater than 1, highlighting an urgent need to identify novel therapeutics for these immunologically-cold pediatric brain tumors with poor prognosis.
+Finally, we asked whether any molecular subtypes might have a high ratio CD8+ to CD4+ T cells, a metric which has been associated with better immunotherapy response and prognosis following PD-L1 inhibition in non-small cell lung cancer or adoptive T cell therapy in multiple stage III or IV cancers [@doi:10.1136/jitc-2021-004012; @doi:10.4236/jct.2013.48164].
+While adamantinomatous craniopharyngiomas and Group 3 and Group 4 medulloblastomas had the highest CD8+ to CD4+ T cell ratios (**Figure {@fig:S6}F**), very few tumors had ratios greater than 1, highlighting an urgent need to identify novel therapeutics for pediatric brain tumors with poor prognosis.
 
 ![**Transcriptomic and immune landscape of pediatric brain tumors** A, First two dimensions from UMAP of transcriptome data for samples with stranded library preparation. Points are colored by the broad histology of the tumors they represent. B, Heatmap of GSVA scores for Hallmark gene sets with significant differences, with tumors ordered by cancer group (only scores for samples with stranded library preparation are shown). C, Box plots of quanTIseq estimates of immune cell proportions in select cancer groups with N > 15 tumors. Note: Other HGGs and other LGGs have immune cell proportions similar to DMG and pilocytic astrocytoma, respectively, and are not shown. D, Forest plot depicting the additive effects of _CD274_ expression, immune cell proportion, and extent of tumor resection on overall survival of medulloblastoma patients. Hazard ratios (HR) with 95% confidence intervals and p-values (multivariate Cox) are listed. Significant p-values are denoted with black diamonds. Reference groups are denoted by grey diamonds. Of note, the Macrophage M1 HR was 0 (coefficient = -9.90e+4) with infinite upper and lower CIs, and thus it was not included in the figure. E, Box plot of _CD274_ expression (log<sub>2</sub> FPKM) for medulloblastoma tumors grouped by molecular subtype. Bonferroni-corrected p-values from Wilcoxon tests are shown. Box plot represents 5% (lower whisker), 25% (lower box), 50% (median), 75% (upper box), and 95% (upper whisker) quantiles.](https://raw.githubusercontent.com/AlexsLemonade/OpenPBTA-analysis/361fef09c574942d3d5ef0668461b37e3ee6cba6/figures/pngs/figure5.png?sanitize=true){#fig:Fig5 width="7in"}
 
@@ -1455,7 +1455,7 @@ We identified enrichment of hallmark cancer pathways and characterized the immun
 Of note, we observed upregulation of IFN$\gamma$, IL-1, and IL-6, and TNF$\alpha$ in craniopharyngiomas, tumors difficult to resect due to their anatomical location and critical surrounding structures.
 Neurotoxic side effects have been reported when interferon alpha immunotherapy is administered to reduce cystic craniopharyngioma tumor size and/or delay progression [@doi:10.3171/2015.2.PEDS14656; @doi:10.5348/ijcri-2013-12-419-CR-13].
 Thus, additional immune vulnerabilities, such as IL-6 inhibition and immune checkpoint blockade, have recently been proposed as therapies for cystic adamantinomatous craniopharyngiomas [@doi:10.1093/neuonc/noy035; @pmid:34966342; @pmid:32075140; @doi:10.1007/s00401-018-1830-2; @doi:10.3389/fonc.2019.00791] and our results noted above support this approach.
-Finally, our study reproduced the overall known poor infiltration of CD8+ T cells and general low expression of _CD274_ (PD-L1) in pediatric brain tumors, further highlighting the urgent need to identify novel therapeutic strategies for these immunologically cold tumors.
+Finally, our study reproduced the overall known poor infiltration of CD8+ T cells and general low expression of _CD274_ (PD-L1) in pediatric brain tumors, further highlighting the urgent need to identify novel therapeutic strategies for tumors unlikely to respond to immune checkpoint blockade therapy.
 
 We note that while large-scale collaborative efforts tend to take a longer time to complete, our adoption of an open science framework for OpenPBTA substantially mitigated this concern.
 By maintaining all data, analytical code, and results in public repositories, we ensured that such logistics did not hinder progress in the pediatric cancer research space.

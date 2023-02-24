@@ -1,4 +1,4 @@
-personal_ws-1.1 en 830 utf-8
+personal_ws-1.1 en 831 utf-8
 Abadi
 AbdelBaki
 aberrantly
@@ -99,6 +99,7 @@ BWA
 Campion
 Caporalini
 Carrero
+catalytically
 Caudill
 CAVATICA
 CBTN
@@ -742,6 +743,7 @@ teratoid
 teratoma
 teratomas
 TERT
+TERTp
 TGEN
 Thambireddy
 Thecal

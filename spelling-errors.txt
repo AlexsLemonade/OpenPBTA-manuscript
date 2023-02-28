@@ -29,7 +29,7 @@ CDKN
 cgreene
 Chante
 CHB
-chr
+Chr
 Chul
 cjbethell
 CLDN
@@ -116,7 +116,7 @@ orf
 PDGFRA
 petermadsenmd
 PHG
-pichairaman
+PichaiRaman
 PIK
 Poetsch
 QAH

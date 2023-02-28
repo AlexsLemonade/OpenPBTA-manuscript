@@ -465,4 +465,52 @@
       ]
     }
   }
+  {
+    "id": "pubmed:9751630",
+    "type": "article-journal",
+    "container-title": "Cancer Research",
+    "abstract": "The correlation between telomerase activity, telomere lengths, and cellular replicative capacity has led to the theory that maintenance of telomere lengths by telomerase acts as a molecular clock to control replicative capacity and senescence. Regulation of this molecular clock may have applications in the treatment of cell aging and tumorigenesis, although little is presently known about the regulation of telomerase activity. To investigate possible mechanisms of regulation, we examined telomerase activity and the expression of the human telomerase RNA subunit and the human telomerase reverse transcriptase protein (hTERT) during human fetal heart, liver, and kidney development. The human telomerase RNA subunit is expressed in all three tissues at all gestational ages examined. hTERT expression correlates with telomerase activity in the liver, where both are expressed at all ages surveyed, and in the heart, where both are present until the 11th gestational week but not thereafter. However, although telomerase activity in the kidney is suppressed after the 15th gestational week, the hTERT transcript can be detected until at least the 21st week. Reverse transcription-PCR using primers within the reverse transcriptase domain of hTERT show the presence of multiple alternately spliced transcripts in these tissues, corresponding to full-length message as well as spliced messages with critical reverse transcriptase motifs deleted. Of note, telomerase activity in the kidney is only present at those gestational ages when full-length hTERT message is expressed (until approximately week 15), with spliced transcripts continuing to be expressed at later stages of development. The tissue-specific and gestational-age dependent expression of hTERT mRNA seen in human development suggests the presence of at least two regulatory mechanisms controlling the activity of telomerase: transcriptional control of the hTERT gene and alternate splicing of hTERT transcripts.",
+    "language": "en",
+    "page": "4168-72",
+    "publisher": "Cancer Research",
+    "source": "Cancer Research",
+    "title": "Telomerase activity in human development is regulated by human telomerase reverse transcriptase (hTERT) transcription and by alternate splicing of hTERT transcripts",
+    "URL": "https://pubmed.ncbi.nlm.nih.gov/9751630/",
+    "author": [
+      {
+        "family": "Ulaner",
+        "given": "GA"
+      },
+      {
+        "family": "Hu",
+        "given": "JF"
+      },
+      {
+        "family": "Giudice",
+        "given": "LC"
+      },
+      {
+        "family": "Hoffmann",
+        "given": "AR"
+      },
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2023",
+          2,
+          27
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "1998",
+          9,
+          15
+        ]
+      ]
+    }
+  }
 ]

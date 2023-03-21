@@ -380,9 +380,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/0087a121f7fa03db0bf37ccdd0dd7c2dfc71cbff/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/0087a121f7fa03db0bf37ccdd0dd7c2dfc71cbff/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/0087a121f7fa03db0bf37ccdd0dd7c2dfc71cbff/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/cfb3a75485adde51d3e18a243424f7558d9041ae/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/cfb3a75485adde51d3e18a243424f7558d9041ae/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/cfb3a75485adde51d3e18a243424f7558d9041ae/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -404,9 +404,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/0087a121f7fa03db0bf37ccdd0dd7c2dfc71cbff/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/cfb3a75485adde51d3e18a243424f7558d9041ae/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@0087a12](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/0087a121f7fa03db0bf37ccdd0dd7c2dfc71cbff)
+from [AlexsLemonade/OpenPBTA-manuscript@cfb3a75](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/cfb3a75485adde51d3e18a243424f7558d9041ae)
 on March 21, 2023.
 </em></small>
 
@@ -1699,6 +1699,9 @@ Per `NGSCheckMate` author recommendations, we used <= 0.61 as a correlation coef
 We determined RNA-Seq read strandedness by running the `infer_experiment.py` script from `RNA-SeQC` [@doi:10.1093/bioinformatics/bts196] on the first 200k mapped reads.
 We removed any samples whose calculated strandedness did not match strandedness information provided by the sequencing center.
 We required that at least 60% of RNA-Seq reads mapped to the human reference for samples to be included in analysis.
+During OpenPBTA analysis, we identified some samples which were mis-identified or potentially swapped.
+Through collaborative analyses and pathology review, these samples were removed from our data releases and from the Kids First portal.
+Sample removal and associated justifications were documented in the OpenPBTA data [release notes](https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/doc/release-notes.md).
 
 #### Germline Variant Calling
 

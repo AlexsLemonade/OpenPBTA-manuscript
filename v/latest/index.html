@@ -72,7 +72,7 @@
   <meta name="author" content="Jaclyn N. Taroni" />
   <meta name="author" content="Children’s Brain Tumor Network" />
   <meta name="author" content="Pacific Pediatric Neuro-Oncology Consortium" />
-  <meta name="dcterms.date" content="2023-02-28" />
+  <meta name="dcterms.date" content="2023-03-21" />
   <meta name="keywords" content="pediatric cancer, brain tumor, tumor atlas, reproducibility, open science, classification, somatic variation" />
   <title>OpenPBTA: An Open Pediatric Brain Tumor Atlas</title>
   <style>
@@ -111,8 +111,8 @@
   <meta name="citation_title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="og:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="twitter:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
-  <meta name="dc.date" content="2023-02-28" />
-  <meta name="citation_publication_date" content="2023-02-28" />
+  <meta name="dc.date" content="2023-03-21" />
+  <meta name="citation_publication_date" content="2023-03-21" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -402,9 +402,9 @@
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/770034a7feed1ccee9fe200c3013db6419ee671e/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/770034a7feed1ccee9fe200c3013db6419ee671e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/770034a7feed1ccee9fe200c3013db6419ee671e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/11ac53030b9a91aba87b4e3487a713522324069b/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/11ac53030b9a91aba87b4e3487a713522324069b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/11ac53030b9a91aba87b4e3487a713522324069b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -421,10 +421,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/770034a7feed1ccee9fe200c3013db6419ee671e/">permalink</a>)
+(<a href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/11ac53030b9a91aba87b4e3487a713522324069b/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/770034a7feed1ccee9fe200c3013db6419ee671e">AlexsLemonade/OpenPBTA-manuscript@770034a</a>
-on February 28, 2023.
+from <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/11ac53030b9a91aba87b4e3487a713522324069b">AlexsLemonade/OpenPBTA-manuscript@11ac530</a>
+on March 21, 2023.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -1042,27 +1042,23 @@ We anticipate OpenPBTA will be an invaluable resource to the pediatric oncology 
 <h2 id="results">Results</h2>
 <h3 id="crowd-sourced-somatic-analyses-to-create-an-open-pediatric-brain-tumor-atlas">Crowd-sourced Somatic Analyses to Create an Open Pediatric Brain Tumor Atlas</h3>
 <p>We previously performed whole genome sequencing (WGS), whole exome sequencing (WXS), and RNA sequencing (RNA-Seq) on matched tumor and normal tissues as well as selected cell lines<span class="citation" data-cites="DwCzMoBJ"><sup><a href="#ref-DwCzMoBJ" role="doc-biblioref">16</a></sup></span> from 943 patients from the Pediatric Brain Tumor Atlas (PBTA), consisting of 911 patients from the <a href="https://CBTN.org">Children’s Brain Tumor Network (CBTN)</a><span class="citation" data-cites="U5WisTG5"><sup><a href="#ref-U5WisTG5" role="doc-biblioref">4</a></sup></span> and 32 patients from the <a href="https://pnoc.us/">Pacific Pediatric Neuro-Oncology Consortium (PNOC)</a><span class="citation" data-cites="BLNV1DbL 9mO4Op62"><sup><a href="#ref-9mO4Op62" role="doc-biblioref">12</a>,<a href="#ref-BLNV1DbL" role="doc-biblioref">17</a></sup></span> (<strong>Figure <a href="#fig:Fig1">1</a>A</strong>).
-We then harnessed, and built upon, the benchmarking efforts of the <a href="https://kidsfirstdrc.org/">Gabriella Miller Kids First Data Resource Center</a> to develop robust and reproducible data analysis workflows within the CAVATICA platform to perform primary somatic analyses including calling of single nucleotide variants (SNVs), copy number variants (CNVs), structural variants (SVs), and gene fusions, often implementing multiple complementary methods (<strong>Figure <a href="#fig:S1">S1</a></strong>) and <strong>STAR Methods</strong>).</p>
-<p>To facilitate analysis and visualization of this large, diverse cohort, we further categorized 2016 World Health Organization (WHO) broad tumor histologies<span class="citation" data-cites="7sgrMadR"><sup><a href="#ref-7sgrMadR" role="doc-biblioref">18</a></sup></span> into smaller groupings we denote “cancer groups.”
-A summarized view of the number of biospecimens per phase of therapy across different broad histologies and cancer groups is shown in (<strong>Figure <a href="#fig:Fig1">1</a>B</strong>).
-We maintained a data release folder on Amazon S3, downloadable directly from S3 or through the open-access <a href="https://www.cavatica.org/">CAVATICA project</a>, with merged files for each analysis (See <strong>Data and code availability</strong> section).
-As we produced new results (e.g., tumor mutation burden calculations) that we expected to be used across multiple analyses, or identified data issues, we created new data releases in a versioned manner.
-We reran all manuscript-specific analysis modules with the latest data release (v23) prior to submission and subsequently created a GitHub repository-tagged release to ensure reproducibility.</p>
+<strong>Figure <a href="#fig:Fig1">1</a>B</strong> summarizes the number of biospecimens per phase of therapy across broad histologies and cancer groups.
+We harnessed, and built upon, the benchmarking efforts of the <a href="https://kidsfirstdrc.org/">Gabriella Miller Kids First Data Resource Center</a> to develop robust and reproducible data analysis workflows within the <a href="https://www.cavatica.org/">CAVATICA platform</a> to perform primary somatic analyses including calling single nucleotide variants (SNVs), copy number variants (CNVs), structural variants (SVs), and gene fusions (<strong>Figure <a href="#fig:S1">S1</a></strong>) and <strong>STAR Methods</strong>).</p>
 <p>A key innovative feature of this project has been its open contribution model used for both analyses (i.e., analytical code) and scientific manuscript writing, a model which can be utilized by code contributors within individual scientific groups and/or through collaboration.
-We created a public Github analysis repository (<a href="https://github.com/AlexsLemonade/OpenPBTA-analysis">https://github.com/AlexsLemonade/OpenPBTA-analysis</a>) to hold all code associated with analyses downstream of the Kids First Data Resource Center workflows and a GitHub manuscript repository (<a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript">https://github.com/AlexsLemonade/OpenPBTA-manuscript</a>) with Manubot<span class="citation" data-cites="YuJbg3zO"><sup><a href="#ref-YuJbg3zO" role="doc-biblioref">19</a></sup></span> integration to enable real-time manuscript creation using Markdown within GitHub.
-With very few exceptions noted in their respective analysis module READMEs, most modules can be run locally, and since they are run in the project Docker®<span class="citation" data-cites="1CJTmbOqr"><sup><a href="#ref-1CJTmbOqr" role="doc-biblioref">20</a></sup></span> container, they can easily be scaled and/or used on an Amazon EC2 instance.
+We created a public Github analysis repository (<a href="https://github.com/AlexsLemonade/OpenPBTA-analysis">https://github.com/AlexsLemonade/OpenPBTA-analysis</a>) to hold all code associated with analyses downstream of the Kids First workflows and a GitHub manuscript repository (<a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript">https://github.com/AlexsLemonade/OpenPBTA-manuscript</a>) with Manubot<span class="citation" data-cites="YuJbg3zO"><sup><a href="#ref-YuJbg3zO" role="doc-biblioref">18</a></sup></span> integration to enable real-time manuscript creation.
+With very few exceptions noted in their respective analysis module READMEs, most modules can be run locally, and since they are run in the project Docker®<span class="citation" data-cites="1CJTmbOqr"><sup><a href="#ref-1CJTmbOqr" role="doc-biblioref">19</a></sup></span> container, they can easily be scaled and/or used on an Amazon EC2 instance.
 Importantly, all analyses and manuscript writing were conducted openly throughout the research project, allowing any researcher in the world the opportunity to contribute.</p>
 <p>The process for analysis and manuscript contributions is outlined in <strong>Figure <a href="#fig:Fig1">1</a>C</strong>.
 First, a potential contributor would propose an analysis by filing an issue in the GitHub analysis repository.
-Next, organizers for the project, or other contributors with expertise, had the opportunity to provide feedback about the proposed analysis (<strong>Figure <a href="#fig:Fig1">1</a>C</strong>).
-The contributor then made a copy (fork) of the analysis repository and added their proposed analysis code and results to their fork.
+Next, organizers for the project, or other contributors with expertise, provided feedback about the proposed analysis (<strong>Figure <a href="#fig:Fig1">1</a>C</strong>).
+The contributor then made a copy (fork) of the analysis repository, to which they added their proposed code and results.
 The contributor would formally request to include their analytical code and results to the main OpenPBTA analysis repository by filing a pull request on GitHub.
 All pull requests to the analysis repository underwent peer review by organizers and/or other contributors to ensure scientific accuracy, maintainability, and readability of code and documentation (<strong>Figure <a href="#fig:Fig1">1</a>C-D</strong>).
-Importantly, this peer review process entailed two or more analysts running the same code within the same Docker®<span class="citation" data-cites="1CJTmbOqr"><sup><a href="#ref-1CJTmbOqr" role="doc-biblioref">20</a></sup></span> container to ensure reproducibility of results that were derived from a specific data release.</p>
+Importantly, this peer review process entailed two or more analysts running the same code within the same Docker®<span class="citation" data-cites="1CJTmbOqr"><sup><a href="#ref-1CJTmbOqr" role="doc-biblioref">19</a></sup></span> container to ensure reproducibility of results that were derived from a specific data release.</p>
 <p>The collaborative nature of the project required additional steps beyond peer review of analytical code to ensure consistent results for all collaborators and over time (<strong>Figure <a href="#fig:Fig1">1</a>D</strong>).
-We leveraged Docker®<span class="citation" data-cites="1CJTmbOqr"><sup><a href="#ref-1CJTmbOqr" role="doc-biblioref">20</a></sup></span> and the Rocker project<span class="citation" data-cites="NazMcQpM"><sup><a href="#ref-NazMcQpM" role="doc-biblioref">21</a></sup></span> to maintain a consistent software development environment, creating a monolithic image that contained all dependencies necessary for analyses.
+We leveraged Docker®<span class="citation" data-cites="1CJTmbOqr"><sup><a href="#ref-1CJTmbOqr" role="doc-biblioref">19</a></sup></span> and the Rocker project<span class="citation" data-cites="NazMcQpM"><sup><a href="#ref-NazMcQpM" role="doc-biblioref">20</a></sup></span> to maintain a consistent software development environment, creating a monolithic image that contained all dependencies necessary for analyses.
 To ensure that new code would execute in the development environment, we used the continuous integration (CI) service CircleCI® to run analytical code on a small subset of data for testing before formal code review, allowing us to detect code bugs or sensitivity to changes in the underlying data.</p>
-<p>We followed a similar process in our Manubot-powered<span class="citation" data-cites="YuJbg3zO"><sup><a href="#ref-YuJbg3zO" role="doc-biblioref">19</a></sup></span> manuscript repository for additions to the manuscript (<strong>Figure <a href="#fig:Fig1">1</a>C</strong>).
+<p>We followed a similar process in our Manubot-powered<span class="citation" data-cites="YuJbg3zO"><sup><a href="#ref-YuJbg3zO" role="doc-biblioref">18</a></sup></span> manuscript repository for additions to the manuscript (<strong>Figure <a href="#fig:Fig1">1</a>C</strong>).
 Contributors forked the manuscript repository, added proposed content to their branch, and filed pull requests to the main manuscript repository with their changes.
 Similarly, pull requests underwent a peer review process for clarity and correctness, agreement with interpretation, and spell checking via Manubot.</p>
 <div id="fig:Fig1" class="fignos">
@@ -1072,8 +1068,8 @@ Similarly, pull requests underwent a peer review process for clarity and correct
 </figure>
 </div>
 <h3 id="molecular-subtyping-of-openpbta-cns-tumors">Molecular Subtyping of OpenPBTA CNS Tumors</h3>
-<p>Over the past two decades, experts in neuro-oncology have worked with the WHO to iteratively redefine the classifications of central nervous system (CNS) tumors<span class="citation" data-cites="pubmed:11895036 14TDMX5t7"><sup><a href="#ref-14TDMX5t7" role="doc-biblioref">22</a>,<a href="#ref-pubmed:11895036" role="doc-biblioref"><strong>pubmed:11895036?</strong></a></sup></span>.
-More recently, in 2016<span class="citation" data-cites="7sgrMadR"><sup><a href="#ref-7sgrMadR" role="doc-biblioref">18</a></sup></span>, molecular subtypes driven by genetic alterations have been integrated into these classifications.
+<p>Over the past two decades, experts in neuro-oncology have worked with the WHO to iteratively redefine the classifications of central nervous system (CNS) tumors<span class="citation" data-cites="pubmed:11895036 14TDMX5t7"><sup><a href="#ref-14TDMX5t7" role="doc-biblioref">21</a>,<a href="#ref-pubmed:11895036" role="doc-biblioref"><strong>pubmed:11895036?</strong></a></sup></span>.
+More recently, in 2016<span class="citation" data-cites="7sgrMadR"><sup><a href="#ref-7sgrMadR" role="doc-biblioref">22</a></sup></span>, molecular subtypes driven by genetic alterations have been integrated into these classifications.
 In 2011, the Children’s Brain Tumor Tissue Consortium, now known as the Children’s Brain Tumor Network (CBTN), opened its protocol for brain tumor and matched normal sample collection.
 Since the CBTN opened its collection protocol in 2011, before molecular data were integrated into classifications, the majority of the tumors within the OpenPBTA lacked molecular subtype annotations at the time of tissue collection.
 Moreover, the OpenPBTA data does not yet feature methylation arrays which are increasingly used to inform molecular subtyping and cancer diagnosis.
@@ -1514,7 +1510,6 @@ Unless otherwise noted, each analysis was performed for primary tumors using one
 <!--SAMPLECOUNT-->
 <p>Following SNV consensus calling (<strong>Figure <a href="#fig:S1">S1</a></strong> and <strong>Figure <a href="#fig:S2">S2</a>A-G</strong>), we observed as expected lower tumor mutation burden (TMB) <strong>Figure <a href="#fig:S2">S2</a>H</strong> in pediatric tumors compared to adult brain tumors from The Cancer Genome Atlas (TCGA), <strong>Figure <a href="#fig:S2">S2</a>I</strong>, with hypermutant (&gt; 10 Mut/Mb) and ultra-hypermutant (&gt; 100 Mut/Mb) tumors<span class="citation" data-cites="OgCAsGmn"><sup><a href="#ref-OgCAsGmn" role="doc-biblioref">26</a></sup></span> only found within HGGs.
 <strong>Figure <a href="#fig:Fig2">2</a></strong> and <strong>Figure <a href="#fig:S3">S3</a>A</strong> depict oncoprints recapitulating known histology-specific driver genes in primary tumors across PBTA histologies, and <strong>Table S2</strong> summarizes all detected alterations across cancer groups.</p>
-<!-- TODO: Update group-specific count numbers below with figure update -->
 <h4 id="low-grade-gliomas">Low-grade gliomas</h4>
 <p>As expected, the majority (62%, 140/226) of LGGs harbored a somatic alteration in <em>BRAF</em>, with canonical <em>BRAF::KIAA1549</em> fusions as the major oncogenic driver<span class="citation" data-cites="IamVuiNU"><sup><a href="#ref-IamVuiNU" role="doc-biblioref">27</a></sup></span> (<strong>Figure <a href="#fig:Fig2">2</a>A</strong>). <!--SAMPLECOUNT-->
 We observed additional mutations in <em>FGFR1</em> (2%), <em>PIK3CA</em> (2%), <em>KRAS</em> (2%), <em>TP53</em> (1%), and <em>ATRX</em> (1%) and fusions in <em>NTRK2</em> (2%), <em>RAF1</em> (2%), <em>MYB</em> (1%), <em>QKI</em> (1%), <em>ROS1</em> (1%), and <em>FGFR2</em> (1%), concordant with previous studies reporting the near universal upregulation of the RAS/MAPK pathway in these tumors resulting from activating mutations and/or oncogenic fusions<span class="citation" data-cites="IamVuiNU ULPByXgG"><sup><a href="#ref-ULPByXgG" role="doc-biblioref">23</a>,<a href="#ref-IamVuiNU" role="doc-biblioref">27</a></sup></span>.
@@ -1578,7 +1573,7 @@ This trend may have resulted from therapy-induced mutations that produced additi
 We compared results of this classifier to “true positive” alterations derived using high-confidence SNVs, CNVs, SVs, and fusions in <em>TP53</em>.
 Specifically, we annotated <em>TP53</em> alterations as “activated” if tumors harbored one of p.R273C or p.R248W gain-of-function mutations<span class="citation" data-cites="14asizOhY"><sup><a href="#ref-14asizOhY" role="doc-biblioref">46</a></sup></span>, or “lost” if the given patient either had a Li Fraumeni Syndrome (LFS) predisposition diagnosis, the tumor harbored a known hotspot mutation, or the tumor contained two hits (e.g. both SNV and CNV), which would suggest both alleles had been affected.
 If the <em>TP53</em> mutation did not reside within the DNA-binding domain or we did not detect any alteration in <em>TP53</em>, we annotate the tumor as “other,” reflecting its unknown <em>TP53</em> alteration status.
-The classifier achieved a high accuracy (AUROC = 0.85) for rRNA-depleted, stranded tumors compared to randomly shuffled <em>TP53</em> scores (<strong>Figure <a href="#fig:Fig4">4</a>A</strong>).
+The classifier achieved a high accuracy (AUROC = 0.86) for rRNA-depleted, stranded tumors compared to randomly shuffled <em>TP53</em> scores (<strong>Figure <a href="#fig:Fig4">4</a>A</strong>).
 By contrast, while this classifier has previously shown strong performance on poly-A data from both adult<span class="citation" data-cites="X6oQhIf8"><sup><a href="#ref-X6oQhIf8" role="doc-biblioref">45</a></sup></span> tumors and pediatric patient-derived xenografts<span class="citation" data-cites="SDwYl8uA"><sup><a href="#ref-SDwYl8uA" role="doc-biblioref">47</a></sup></span>, it did not perform as well on the poly-A tumors in this cohort (AUROC = 0.62; <strong>Figure <a href="#fig:S5">S5</a>A</strong>).</p>
 <p>While we expected that tumors annotated as “lost” would have higher <em>TP53</em> scores than would tumors annotated as “other,” we observed that tumors annotated as “activated” had similar <em>TP53</em> scores to those annotated as “lost” (<strong>Figure <a href="#fig:Fig4">4</a>B</strong>, Wilcoxon p = 0.92).
 This result suggests that the classifier actually detects an oncogenic, or altered, <em>TP53</em> phenotype (scores &gt; 0.5) rather than solely <em>TP53</em> inactivation, as interpreted previously<span class="citation" data-cites="X6oQhIf8"><sup><a href="#ref-X6oQhIf8" role="doc-biblioref">45</a></sup></span>.
@@ -1776,8 +1771,7 @@ The mutual exclusivity of signatures 3 and MMR2 corroborates a previous report s
 </table>
 </div>
 <p>Next, we asked whether transcriptomic classification of <em>TP53</em> dysregulation and/or telomerase activity recapitulate the known prognostic influence of these oncogenic biomarkers.
-To this end, we conducted a multivariate Cox regression on overall survival (<strong>Figure <a href="#fig:Fig4">4</a>F</strong>; <strong>STAR Methods</strong>), controlling for extent of tumor resection and whether a tumor was low-grade (LGG group) or high-grade glioma (HGG group).
-We identified several expected trends, including a significant overall survival benefit if the tumor had been fully resected (HR = 0.35, 95% CI = 0.2 - 0.62, p &lt; 0.001) or if the tumor belonged to the LGG group (HR = 0.046, 95% CI = 0.0062 - 0.34, p = 0.003) as well as a significant risk if the tumor belonged to the HGG group (HR = 6.2, 95% CI = 4.0 - 9.5, p &lt; 0.001).
+We identified several expected trends, including a significant overall survival benefit if the tumor had been fully resected (HR = 0.35, 95% CI = 0.2 - 0.62, p &lt; 0.001) or if the tumor belonged to the LGG group (HR = 0.046, 95% CI = 0.0062 - 0.34, p = 0.003) as well as a significant risk if the tumor belonged to the HGG group (HR = 6.2, 95% CI = 4.0 - 9.5, p &lt; 0.001) (<strong>Figure <a href="#fig:Fig4">4</a>F</strong>; <strong>STAR Methods</strong>).
 High telomerase scores were associated with poor prognosis across brain tumor histologies (HR = 20, 95% CI = 6.4 - 62, p &lt; 0.001), demonstrating that <code>EXTEND</code> scores calculated from RNA-Seq are an effective rapid surrogate measure for telomerase activity.
 Although higher <em>TP53</em> scores, which predict <em>TP53</em> gene or pathway dysregulation, were not a significant predictor of risk across the entire OpenPBTA cohort (<strong>Table S4</strong>), we did find a significant survival risk associated with higher <em>TP53</em> scores within DMGs (HR = 6436, 95% CI = 2.67 - 1.55e7, p = 0.03) and ependymomas (HR = 2003, 95% CI = 9.9 - 4.05e5, p = 0.005).
 Since we observed the negative prognostic effect of <em>TP53</em> scores for HGGs, we assessed the effect of molecular subtypes within HGGs on survival risk.
@@ -1790,25 +1784,23 @@ This finding was also recently reported in two recent restrospective analyses of
 </figure>
 </div>
 <h4 id="histologic-and-oncogenic-pathway-clustering">Histologic and oncogenic pathway clustering</h4>
-<p>UMAP visualization of gene expression variation across brain tumors (<strong>Figure <a href="#fig:Fig5">5</a>A</strong>) showed the expected clustering of brain tumors by histology.
-We additionally explored UMAP projections of gene expression within molecular subtypes for certain cancer groups.
-We observed that, except for three outliers, <em>C11orf95::RELA</em> (<em>ZFTA::RELA</em>) fusion-positive ependymomas fell within distinct clusters (<strong>Figure <a href="#fig:S6">S6</a>A</strong>).
+<p>UMAP visualization of gene expression variation across brain tumors (<strong>Figure <a href="#fig:Fig5">5</a>A</strong>) showed expected histological clustering of brain tumors.
+We further observed that, except for three outliers, <em>C11orf95::RELA</em> (<em>ZFTA::RELA</em>) fusion-positive ependymomas fell within distinct clusters (<strong>Figure <a href="#fig:S6">S6</a>A</strong>).
 Medulloblastoma (MB) tumors cluster by molecular subtype, with WNT and SHH in distinct clusters and Groups 3 and 4 showing some overlap (<strong>Figure <a href="#fig:S6">S6</a>B</strong>), as expected.
 Of note, two MB tumors annotated as the SHH subtype did not cluster with the other MB tumors, and one clustered with Group 3 and 4 tumors, suggesting potential subtype misclassification or different underlying biology of these two tumors.
 <em>BRAF</em>-driven low-grade gliomas (<strong>Figure <a href="#fig:S6">S6</a>C</strong>) were present in three separate clusters, suggesting that there might be additional shared biology within each cluster.
 Histone H3 G35-mutant high-grade gliomas generally clustered together and away from K28-mutant tumors (<strong>Figure <a href="#fig:S6">S6</a>D</strong>).
 Interestingly, although H3 K28-mutant tumors have different biological drivers than do H3 wildtype tumors<span class="citation" data-cites="MeiYPRi0"><sup><a href="#ref-MeiYPRi0" role="doc-biblioref">58</a></sup></span>, they did not form distinct clusters.
 This pattern suggests these subtypes may be driven by common transcriptional programs, have other much stronger biological drivers than their known distinct epigenetic drivers, or our sample size is too small to detect transcriptional differences.</p>
-<p>We next performed gene set variant analysis (GSVA) for Hallmark cancer gene sets to demonstrate activation of underlying oncogenic pathways (<strong>Figure <a href="#fig:Fig5">5</a>B</strong> and quantified immune cell fractions across OpenPBTA tumors using quanTIseq (<strong>Figure <a href="#fig:Fig5">5</a>C</strong> and <strong>Figure <a href="#fig:S6">S6</a>E</strong>).
-Through these analyses, we were able to recapitulate previously-described tumor biology.
+<p>We performed gene set variant analysis (GSVA) for Hallmark cancer gene sets (<strong>Figure <a href="#fig:Fig5">5</a>B</strong>) and quantified immune cell fractions using quanTIseq (<strong>Figure <a href="#fig:Fig5">5</a>C</strong> and <strong>Figure <a href="#fig:S6">S6</a>E</strong>), results from which recapitulated previously-described tumor biology.
 For example, HGG, DMG, MB, and ATRT tumors are known to upregulate <em>MYC</em><span class="citation" data-cites="mzBdyDm0"><sup><a href="#ref-mzBdyDm0" role="doc-biblioref">59</a></sup></span> which in turn activates <em>E2F</em> and S phase<span class="citation" data-cites="pubmed:11511364"><sup><a href="#ref-pubmed:11511364" role="doc-biblioref"><strong>pubmed:11511364?</strong></a></sup></span>.
 Indeed, we detected significant (Bonferroni-corrected p &lt; 0.05) upregulation of <em>MYC</em> and <em>E2F</em> targets, as well as G2M (cell cycle phase following S phase) in MBs, ATRTs, and HGGs compared to several other cancer groups.
 In contrast, LGGs showed significant downregulation (Bonferroni-corrected p &lt; 0.05, multiple cancer group comparisons) of these pathways.
 Schwannomas and neurofibromas, which have a documented inflammatory immune microenvironment of T and B lymphocytes as well as tumor-associated macrophages (TAMs), are driven by upregulation of cytokines such as IFN<span class="math inline">\(\gamma\)</span>, IL-1, and IL-6, and TNF<span class="math inline">\(\alpha\)</span><span class="citation" data-cites="887hkpnS"><sup><a href="#ref-887hkpnS" role="doc-biblioref">60</a></sup></span>.
 Indeed, we observed significant upregulation of these cytokines in GSVA hallmark pathways (Bonferroni-corrected p &lt; 0.05, multiple cancer group comparisons) (<strong>Figure <a href="#fig:Fig5">5</a>B</strong>) and found immune cell types dominated by monocytes in these tumors (<strong>Figure <a href="#fig:Fig5">5</a>C</strong>).
 We also observed significant upregulation of pro-inflammatory cytokines IFN<span class="math inline">\(\alpha\)</span> and IFN<span class="math inline">\(\gamma\)</span> in both LGGs and craniopharyngiomas when compared to either medulloblastoma or ependymoma tumors (Bonferroni-corrected p &lt; 0.05) (<strong>Figure <a href="#fig:Fig5">5</a>B</strong>).
-Together, these results supported previous proteogenomic findings of lower immune infiltration in aggressive medulloblastomas and ependymomas versus higher immune infiltration in <em>BRAF</em>-driven LGG and craniopharyngiomas<span class="citation" data-cites="meH98mKZ"><sup><a href="#ref-meH98mKZ" role="doc-biblioref">61</a></sup></span>.</p>
-<p>Although CD8+ T-cell infiltration across all cancer groups was quite low (<strong>Figure <a href="#fig:Fig5">5</a>C</strong>), we observed some signal in specific cancer molecular subtypes (Groups 3 and 4 medulloblastoma) as well as outlier tumors (BRAF-driven LGG, BRAF-driven and wildtype ganglioglioma, and CNS embryonal NOS; <strong>Figure <a href="#fig:S6">S6</a>E</strong>)
+Together, these results support previous proteogenomic findings that aggressive medulloblastomas and ependymomas have lower immune infiltration compared to <em>BRAF</em>-driven LGGs and craniopharyngiomas<span class="citation" data-cites="meH98mKZ"><sup><a href="#ref-meH98mKZ" role="doc-biblioref">61</a></sup></span>.</p>
+<p>Although CD8+ T-cell infiltration across all cancer groups was quite low (<strong>Figure <a href="#fig:Fig5">5</a>C</strong>), we observed signal in specific cancer molecular subtypes (Groups 3 and 4 medulloblastoma) as well as outlier tumors (BRAF-driven LGG, BRAF-driven and wildtype ganglioglioma, and CNS embryonal NOS; <strong>Figure <a href="#fig:S6">S6</a>E</strong>)
 Surprisingly, the classically immunologically-cold HGG and DMG tumors<span class="citation" data-cites="1B1SO39W1 RzxfvDRe"><sup><a href="#ref-1B1SO39W1" role="doc-biblioref">62</a>,<a href="#ref-RzxfvDRe" role="doc-biblioref">63</a></sup></span> contained higher overall fractions of immune cells, where monocytes, dendritic cells, and NK cells were the most prevalent (<strong>Figure <a href="#fig:Fig5">5</a>C</strong>).
 Thus, we suspect that quanTIseq might actually have captured microglia within these immune cell fractions.</p>
 <p>While we did not detect notable prognostic effects of immune cell infiltration on overall survival in HGG or DMG tumors, we did find that high levels of macrophage M1 and monocytes were associated with poorer overall survival (monocyte HR = 2.1e18, 95% CI = 3.80e5 - 1.2e31, p = 0.005, multivariate Cox) in medulloblastoma tumors (<strong>Figure <a href="#fig:Fig5">5</a>D</strong>).
@@ -2202,8 +2194,11 @@ Downstream data analyses can be found at <a href="https://github.com/AlexsLemona
 Manuscript code can be found at <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript">https://github.com/AlexsLemonade/OpenPBTA-manuscript</a>.
 Associated DOIs are listed in the <strong>Key Resources Table</strong>.
 Software versions are documented in <strong>Table S5</strong> as an appendix to the <strong>Key Resources Table</strong>.</p>
-<p>Any additional information required to reanalyze the data reported in this paper is available
-from the lead contact upon request.</p>
+<p>Any additional information required to reanalyze the data reported in this paper is available from the lead contact upon request.</p>
+<h4 id="data-releases">Data releases</h4>
+<p>We maintained a data release folder on Amazon S3, downloadable directly from S3 or our open-access CAVATICA project, with merged files for each analysis (See <strong>Data and code availability</strong> section).
+As we produced new results (e.g., tumor mutation burden calculations) that we expected to be used across multiple analyses, or identified data issues, we created new data releases in a versioned manner.
+We reran all manuscript-specific analysis modules with the latest data release (v23) prior to submission and subsequently created a GitHub repository-tagged release to ensure reproducibility.</p>
 <h3 id="method-details">METHOD DETAILS</h3>
 <h4 id="biospecimen-collection">Biospecimen Collection</h4>
 <p>The Pediatric Brain Tumor Atlas specimens are comprised of samples from Children’s Brain Tumor Network (CBTN) and the Pediatric Pacific Neuro-Oncology Consortium (PNOC).
@@ -2435,7 +2430,8 @@ We calculated TMB as:</p>
 <p><strong>Table S1</strong> contains a README, along with sample technical, clinical, and additional metadata used for this study.</p>
 <h5 id="molecular-subtyping">Molecular Subtyping</h5>
 <p>We performed molecular subtyping on tumors in the OpenPBTA to the extent possible.
-The <code>molecular_subtype</code> field in <code>pbta-histologies.tsv</code> contains molecular subtypes for tumor types selected from <code>pathology_diagnosis</code> and <code>pathology_free_text_diagnosis</code> fields as described below, following World Health Organization 2016 classification criteria<span class="citation" data-cites="7sgrMadR"><sup><a href="#ref-7sgrMadR" role="doc-biblioref">18</a></sup></span>.</p>
+The <code>molecular_subtype</code> field in <code>pbta-histologies.tsv</code> contains molecular subtypes for tumor types selected from <code>pathology_diagnosis</code> and <code>pathology_free_text_diagnosis</code> fields as described below, following World Health Organization 2016 classification criteria<span class="citation" data-cites="7sgrMadR"><sup><a href="#ref-7sgrMadR" role="doc-biblioref">22</a></sup></span>.
+We further categorized broad tumor histologies into smaller groupings we denote “cancer groups.”</p>
 <p>Medulloblastoma (MB) subtypes SHH, WNT, Group 3, and Group 4 were predicted using the consensus of two RNA expression classifiers: <code>MedulloClassifier</code><span class="citation" data-cites="12DKhuCiy"><sup><a href="#ref-12DKhuCiy" role="doc-biblioref">24</a></sup></span> and <code>MM2S</code><span class="citation" data-cites="RmzXK4Cw"><sup><a href="#ref-RmzXK4Cw" role="doc-biblioref">25</a></sup></span> on the RSEM FPKM data (<code>molecular-subtyping-MB</code> analysis module).</p>
 <p>High-grade glioma (HGG) subtypes were derived (<code>molecular-subtyping-HGG</code> analysis module) using the following criteria:</p>
 <ol type="1">
@@ -2931,20 +2927,20 @@ Note that all software in the OpenPBTA Docker image was utilized within the anal
 <div id="ref-BLNV1DbL" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">17. </div><div class="csl-right-inline">Mueller, S., Jain, P., Liang, W.S., Kilburn, L., Kline, C., Gupta, N., Panditharatna, E., Magge, S.N., Zhang, B., Zhu, Y., et al. (2019). A pilot precision medicine trial for children with diffuse intrinsic pontine glioma—PNOC003: A report from the Pacific Pediatric Neuro‐Oncology Consortium. Int. J. Cancer. <a href="https://doi.org/10.1002/ijc.32258">10.1002/ijc.32258</a>.</div>
 </div>
-<div id="ref-7sgrMadR" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">18. </div><div class="csl-right-inline">Louis, D.N., Perry, A., Reifenberger, G., von Deimling, A., Figarella-Branger, D., Cavenee, W.K., Ohgaki, H., Wiestler, O.D., Kleihues, P., and Ellison, D.W. (2016). The 2016 World Health Organization Classification of Tumors of the Central Nervous System: a summary. Acta Neuropathol <em>131</em>, 803–820. <a href="https://doi.org/10.1007/s00401-016-1545-1">10.1007/s00401-016-1545-1</a>.</div>
-</div>
 <div id="ref-YuJbg3zO" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">19. </div><div class="csl-right-inline">Himmelstein, D.S., Rubinetti, V., Slochower, D.R., Hu, D., Malladi, V.S., Greene, C.S., and Gitter, A. (2019). Open collaborative writing with Manubot. PLoS Comput Biol <em>15</em>, e1007128. <a href="https://doi.org/10.1371/journal.pcbi.1007128">10.1371/journal.pcbi.1007128</a>.</div>
+<div class="csl-left-margin">18. </div><div class="csl-right-inline">Himmelstein, D.S., Rubinetti, V., Slochower, D.R., Hu, D., Malladi, V.S., Greene, C.S., and Gitter, A. (2019). Open collaborative writing with Manubot. PLoS Comput Biol <em>15</em>, e1007128. <a href="https://doi.org/10.1371/journal.pcbi.1007128">10.1371/journal.pcbi.1007128</a>.</div>
 </div>
 <div id="ref-1CJTmbOqr" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">20. </div><div class="csl-right-inline">Merkel, D. (2014). <a href="https://dl.acm.org/doi/10.5555/2600239.2600241">Docker: lightweight Linux containers for consistent development and deployment</a>. Linux Journal <em>2014</em>, 2:2.</div>
+<div class="csl-left-margin">19. </div><div class="csl-right-inline">Merkel, D. (2014). <a href="https://dl.acm.org/doi/10.5555/2600239.2600241">Docker: lightweight Linux containers for consistent development and deployment</a>. Linux Journal <em>2014</em>, 2:2.</div>
 </div>
 <div id="ref-NazMcQpM" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">21. </div><div class="csl-right-inline">Boettiger, C., and Eddelbuettel, D. (2017). An Introduction to Rocker: Docker Containers for R. <a href="https://doi.org/10.48550/arXiv.1710.03675">10.48550/arXiv.1710.03675</a>.</div>
+<div class="csl-left-margin">20. </div><div class="csl-right-inline">Boettiger, C., and Eddelbuettel, D. (2017). An Introduction to Rocker: Docker Containers for R. <a href="https://doi.org/10.48550/arXiv.1710.03675">10.48550/arXiv.1710.03675</a>.</div>
 </div>
 <div id="ref-14TDMX5t7" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">22. </div><div class="csl-right-inline">Louis, D.N., Ohgaki, H., Wiestler, O.D., Cavenee, W.K., Burger, P.C., Jouvet, A., Scheithauer, B.W., and Kleihues, P. (2007). The 2007 WHO Classification of Tumours of the Central Nervous System. Acta Neuropathol <em>114</em>, 97–109. <a href="https://doi.org/10.1007/s00401-007-0243-4">10.1007/s00401-007-0243-4</a>.</div>
+<div class="csl-left-margin">21. </div><div class="csl-right-inline">Louis, D.N., Ohgaki, H., Wiestler, O.D., Cavenee, W.K., Burger, P.C., Jouvet, A., Scheithauer, B.W., and Kleihues, P. (2007). The 2007 WHO Classification of Tumours of the Central Nervous System. Acta Neuropathol <em>114</em>, 97–109. <a href="https://doi.org/10.1007/s00401-007-0243-4">10.1007/s00401-007-0243-4</a>.</div>
+</div>
+<div id="ref-7sgrMadR" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">22. </div><div class="csl-right-inline">Louis, D.N., Perry, A., Reifenberger, G., von Deimling, A., Figarella-Branger, D., Cavenee, W.K., Ohgaki, H., Wiestler, O.D., Kleihues, P., and Ellison, D.W. (2016). The 2016 World Health Organization Classification of Tumors of the Central Nervous System: a summary. Acta Neuropathol <em>131</em>, 803–820. <a href="https://doi.org/10.1007/s00401-016-1545-1">10.1007/s00401-016-1545-1</a>.</div>
 </div>
 <div id="ref-ULPByXgG" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">23. </div><div class="csl-right-inline">Ryall, S., Zapotocky, M., Fukuoka, K., Nobre, L., Guerreiro Stucklin, A., Bennett, J., Siddaway, R., Li, C., Pajovic, S., Arnoldo, A., et al. (2020). Integrated Molecular and Clinical Analysis of 1,000 Pediatric Low-Grade Gliomas. Cancer Cell <em>37</em>, 569–583.e5. <a href="https://doi.org/10.1016/j.ccell.2020.03.011">10.1016/j.ccell.2020.03.011</a>.</div>

@@ -380,9 +380,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/11ac53030b9a91aba87b4e3487a713522324069b/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/11ac53030b9a91aba87b4e3487a713522324069b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/11ac53030b9a91aba87b4e3487a713522324069b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c68072b616177818385d6a08ec6469e7a2522a57/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c68072b616177818385d6a08ec6469e7a2522a57/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c68072b616177818385d6a08ec6469e7a2522a57/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -404,9 +404,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/11ac53030b9a91aba87b4e3487a713522324069b/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/c68072b616177818385d6a08ec6469e7a2522a57/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@11ac530](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/11ac53030b9a91aba87b4e3487a713522324069b)
+from [AlexsLemonade/OpenPBTA-manuscript@c68072b](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/c68072b616177818385d6a08ec6469e7a2522a57)
 on March 21, 2023.
 </em></small>
 
@@ -1307,6 +1307,9 @@ This trend may have resulted from therapy-induced mutations that produced additi
 
 ### Transcriptomic Landscape of Pediatric Brain Tumors
 
+The majority of RNA-Seq samples in the PBTA cohort were prepared with ribosomal RNA depletion followed by stranded sequencing (N = 977), while the remaining samples were prepared with poly-A selection (N = 58).
+Since batch correction was not feasible (see **Limitations of the Study** Section and **Figure {@fig:S7}A**), the following analyses were performed using stranded samples only.
+
 #### Prediction of _TP53_ oncogenicity and telomerase activity
 
 To understand the _TP53_ phenotype in each tumor, we ran a classifier previously trained on TCGA [@doi:10.1016/j.celrep.2018.03.076] to calculate a _TP53_ score and infer _TP53_ inactivation status.
@@ -1648,7 +1651,7 @@ For serum-free media conditions, we plated cells at minimum density of 1×10<sup
 The Translational Genomic Research Institute (TGEN; Phoenix, AZ) performed DNA and RNA extractions on tumor biopsies using a DNA/RNA AllPrep Kit (Qiagen, #80204).
 All RNA used for library prep had a minimum RIN of seven, but no QC thresholds were implemented for the DNA.
 For library preparation, 500 ng of nucleic acids were used as input for RNA-Seq, WXS, and targeted DNA panel (panel) sequencing.
-RNA library preparation was performed using the TruSeq RNA Sample Prep Kit (Illumina, #FC-122-1001) and the exome prep was performed using KAPA Library Preparation Kit (Roche, #KK8201) using Agilent's SureSelect Human All Exon V5 backbone with custom probes.
+RNA library preparation was performed using the TruSeq RNA Sample Prep Kit (Illumina, #FC-122-1001) with poly-A selection, and the exome prep was performed using KAPA Library Preparation Kit (Roche, #KK8201) using Agilent's SureSelect Human All Exon V5 backbone with custom probes.
 The targeted DNA panel developed by Ashion Analytics (formerly known as the GEM Cancer panel) consisted of exonic probes against 541 cancer genes.
 Both panel and WXS assays contained 44,000 probes across evenly spaced genomic loci used for genome-wide copy number analysis.
 For the panel, additional probes tiled across intronic regions of 22 known tumor suppressor genes and 22 genes involved in common cancer translocations for structural analysis.
@@ -1659,7 +1662,7 @@ All extractions and library preparations were performed according to manufacture
 Blood, tissue, and cell line DNA/RNA extractions were performed at the Biorepository Core at CHOP.
 Briefly, 10-20 mg frozen tissue, 0.4-1ml of blood, or 2e6 cells pellet was used for extractions.
 Tissues were lysed using a Qiagen TissueLyser II (Qiagen) with 2×30 sec at 18Hz settings using 5 mm steel beads (cat# 69989, Qiagen).
-Both tissue and cell pellets processes included a CHCl<sub>3<sub> extraction and were run on the QIACube automated platform (Qiagen) using the AllPrep DNA/RNA/miRNA Universal kit (cat# 80224, Qiagen).
+Both tissue and cell pellets processes included a CHCl<sub>3</sub> extraction and were run on the QIACube automated platform (Qiagen) using the AllPrep DNA/RNA/miRNA Universal kit (cat# 80224, Qiagen).
 Blood was thawed and treated with RNase A (cat#, 19101, Qiagen); 0.4-1ml was processed using the Qiagen QIAsymphony automated platform (Qiagen) using the QIAsymphony DSP DNA Midi Kit (cat# 937255, Qiagen).
 DNA and RNA quantity and quality was assessed by PerkinElmer DropletQuant UV-VIS spectrophotometer (PerkinElmer) and an Agilent 4200 TapeStation (Agilent, USA) for RIN and DIN (RNA Integrity Number and DNA Integrity Number, respectively).
 The NantHealth Sequencing Center, BGI at CHOP, or the Genomic Clinical Core at Sidra Medical and Research Center performed library preparation and sequencing.

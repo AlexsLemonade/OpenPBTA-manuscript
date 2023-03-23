@@ -380,9 +380,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/ae64c4376feb9d37ef0f7cede673d0f2581ba592/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/ae64c4376feb9d37ef0f7cede673d0f2581ba592/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/ae64c4376feb9d37ef0f7cede673d0f2581ba592/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/3bd87d3bed9715a5a9e634b9dde938d63e891ae2/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/3bd87d3bed9715a5a9e634b9dde938d63e891ae2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/3bd87d3bed9715a5a9e634b9dde938d63e891ae2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -404,9 +404,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/ae64c4376feb9d37ef0f7cede673d0f2581ba592/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/3bd87d3bed9715a5a9e634b9dde938d63e891ae2/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@ae64c43](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/ae64c4376feb9d37ef0f7cede673d0f2581ba592)
+from [AlexsLemonade/OpenPBTA-manuscript@3bd87d3](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/3bd87d3bed9715a5a9e634b9dde938d63e891ae2)
 on March 23, 2023.
 </em></small>
 
@@ -1238,7 +1238,8 @@ Table: **Molecular subtypes generated through the OpenPBTA project.** Listed are
 ### Somatic Mutational Landscape of Pediatric Brain Tumors
 
 We performed a comprehensive genomic analysis of somatic SNVs, CNVs, SVs, and fusions across 1,074 tumors (N = 1,019 RNA-Seq, N = 918 WGS, N = 32 WXS/Panel) and 22 cell lines (N = 16 RNA-Seq, N = 22 WGS), from 943 patients, 833 with paired normal specimens (N = 801 WGS, N = 32 WXS/Panel).
-Tumor purity across the PBTA was high (median of 76%) and is plotted by cancer group in **Figure {@fig:S3}A**.
+Tumor purity across PBTA samples was high (median of 76%), though we observe cancer groups with lower purity: SEGA, PXA, and teratoma (**Figure {@fig:S3}A**).
+
 Unless otherwise noted, each analysis was performed for primary tumors using one tumor per patient.
 
 <!--SAMPLECOUNT-->
@@ -1414,6 +1415,8 @@ This result may be explained by the higher expression of _CD274_ found in WNT su
 
 Finally, we asked whether any molecular subtypes might have a high ratio CD8+ to CD4+ T cells, a metric which has been associated with better immunotherapy response and prognosis following PD-L1 inhibition in non-small cell lung cancer or adoptive T cell therapy in multiple stage III or IV cancers [@doi:10.1136/jitc-2021-004012; @doi:10.4236/jct.2013.48164].
 While adamantinomatous craniopharyngiomas and Group 3 and Group 4 medulloblastomas had the highest CD8+ to CD4+ T cell ratios (**Figure {@fig:S6}F**), very few tumors had ratios greater than 1, highlighting an urgent need to identify novel therapeutics for pediatric brain tumors with poor prognosis.
+To explore the potential influence of tumor purity, selected transcriptomic analyses were repeated using samples with tumor purities at or above the median tumor purity of their cancer group (see **STAR Methods**).
+The analyses using all stranded samples were broadly consistent (**Figure {@fig:S7}D-I**) with those using samples with high tumor purity. 
 
 ![**Transcriptomic and immune landscape of pediatric brain tumors** A, First two dimensions from UMAP of transcriptome data for samples with stranded library preparation. Points are colored by the broad histology of the tumors they represent. B, Heatmap of GSVA scores for Hallmark gene sets with significant differences, with tumors ordered by cancer group (only scores for samples with stranded library preparation are shown). C, Box plots of quanTIseq estimates of immune cell proportions in select cancer groups with N > 15 tumors. Note: Other HGGs and other LGGs have immune cell proportions similar to DMG and pilocytic astrocytoma, respectively, and are not shown. D, Forest plot depicting the additive effects of _CD274_ expression, immune cell proportion, and extent of tumor resection on overall survival of medulloblastoma patients. Hazard ratios (HR) with 95% confidence intervals and p-values (multivariate Cox) are listed. Significant p-values are denoted with black diamonds. Reference groups are denoted by grey diamonds. Of note, the Macrophage M1 HR was 0 (coefficient = -9.90e+4) with infinite upper and lower CIs, and thus it was not included in the figure. E, Box plot of _CD274_ expression (log<sub>2</sub> FPKM) for medulloblastoma tumors grouped by molecular subtype. Bonferroni-corrected p-values from Wilcoxon tests are shown. Box plot represents 5% (lower whisker), 25% (lower box), 50% (median), 75% (upper box), and 95% (upper whisker) quantiles.](https://raw.githubusercontent.com/AlexsLemonade/OpenPBTA-analysis/2eb889d2d495a7327fb51e377df2f9d780c47117/figures/pngs/figure5.png?sanitize=true){#fig:Fig5 width="7in"}
 
@@ -1467,6 +1470,26 @@ Like the original OpenPBTA cohort, data will be processed and released in near r
 The OpenPBTA project has paved the way for new modes of collaborative data-driven discovery, open, reproducible, and scalable analyses that will extend beyond the current research described herein, and we anticipate this foundational work will continue to have a long-term impact within the pediatric brain tumor translational research community and beyond, ultimately leading to accelerated impact and improved outcomes for children with cancer.
 
 All code and processed data are openly available through GitHub, CAVATICA, and PedcBioPortal (see **STAR METHODS**).
+
+
+## Limitations of Study
+
+<!-- We suggest that you divide your limitations section into three steps: (1) identify the study limitations; (2) explain how they impact your study in detail; and (3) propose a direction for future studies and present alternatives.-->
+
+
+This study has some potential limitations.
+The brain tumor samples were collected over decades, RNA samples were prepared using more than one type of library method (stranded or poly-A, **Figure {@fig:S7}A**), and were sequenced at multiple centers.
+While we noted a strong library preparation batch effect (**Figure {@fig:S7}B**) and possible sequencing center batch effect (**Figure {@fig:S7}C**), we also found a very unbalanced distribution of cancer groups with stranded or poly-A RNA-Seq (**Figure {@fig:S7}A**).
+We did not perform batch correction because removal of batch effects across unbalanced groups may induce false differences between groups in some cases [@doi:10.1093/biostatistics/kxv027; @doi:10.1016/j.tibtech.2017.02.012]. 
+Instead, we used only stranded RNA-Seq expression data, which comprised the vast majority of the PBTA cohort, for transcriptomic analyses presented in **Figure {@fig:4}** and **Figure {@fig:5}** to circumvent the batch differences.
+As batch correction strategy is highly dependent on an analyst’s goals [@doi:10.1016/j.tibtech.2017.02.012], we made expression matrices available by library type in the OpenPBTA data release for other researchers to employ based on their given analysis needs. 
+A second potential limitation is that performing analyses with all samples, rather than samples with high tumor purity, might result in loss of information, such as subclonal variants or low-level oncogenic pathway expression.
+To confirm our analyses support true tumor biology, we performed the same transcriptomic analyses using only samples at or above median tumor purity within their cancer group (**Figure {@fig:S7}D-I**).
+Overall, the thresholded tumor purity results were broadly consistent with the results utilizing the full cohort of samples.
+To enable more robust statistical analysis and presentation of results, we randomly selected one independent specimen from patients with duplicate sequenced samples per tumor event rather than combining the data. 
+We did not observe notable differences if the given specimen changed over time (e.g., with a new data release).
+Finally, this initial PBTA cohort is skewed towards samples collected at diagnosis from one tumor section/punch.
+We were unable to reliably perform systematic intratumoral and/or longitudinal analyses in this cohort, though we expect nearly 100 paired longitudinal tumors from the ([NIH X01 CA267587-01 pediatric brain tumor cohort](https://commonfund.nih.gov/kidsfirst/2021X01projects#FY21_Resnick)) to be released through the [Open Pediatric Cancer (OpenPedCan) project](https://github.com/PediatricOpenTargets/OpenPedCan-analysis)).
 
 
 ## Acknowledgments
@@ -2144,6 +2167,8 @@ Next, we used multivariate Cox (proportional hazards) regression analysis [@doi:
 ![**Quality control metrics for _TP53_ and EXTEND scores, Related to Figure 4**. (A) Receiver Operating Characteristic for _TP53_ classifier run on FPKM of poly-A RNA-Seq samples. Correlation plots for telomerase scores (EXTEND) with RNA expression of _TERT_ (B) and _TERC_ (C). Red dots in B and C denote samples with known _TERT_ promoter (TERTp) mutations.](https://raw.githubusercontent.com/AlexsLemonade/OpenPBTA-analysis/2eb889d2d495a7327fb51e377df2f9d780c47117/figures/pngs/figureS5.png?sanitize=true){#fig:S5 tag="S5" width="7in"}
 
 ![**Subtype-specific clustering and immune cell fractions, Related to Figure 5**. First two dimensions from UMAP of sample transcriptome data with points colored by `molecular_subtype` for medulloblastoma (A), ependymoma (B), low-grade glioma (C), and high-grade glioma (D). (E) Box plots of quanTIseq estimates of immune cell fractions in histologies with more than one molecular subtype with N >=3. (F) Box plots of the ratio of immune cell fractions of CD8+ to CD4+ T cells in histologies with more than one molecular subtype with N >=3. Box plot represents 5% (lower whisker), 25% (lower box), 50% (median), 75% (upper box), and 95% (upper whisker) quantiles.](https://raw.githubusercontent.com/AlexsLemonade/OpenPBTA-analysis/2eb889d2d495a7327fb51e377df2f9d780c47117/figures/pngs/figureS6.png?sanitize=true){#fig:S6 tag="S6" width="7in"}
+
+![**RNA batch and tumor purity assessment, Related to Figures 4 and 5**. Bar plot (A) and UMAP (B) of RNA-Seq samples by cancer group and library preparation method. (C) UMAP of RNA-Seq samples by cancer group and sequencing center. For (D-I), RNA-Seq samples were thresholded by median cancer group tumor purity and transcriptomic analyses in **Figure {@fig:4}A-D** (D-G) and **Figure {@fig:5}A,C** (H-I) were repeated.](https://raw.githubusercontent.com/AlexsLemonade/OpenPBTA-analysis/2eb889d2d495a7327fb51e377df2f9d780c47117/figures/pngs/figureS7.png?sanitize=true){#fig:S6 tag="S7" width="7in"}
 
 [**Table S1. Related to Figure 1.**](https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/2eb889d2d495a7327fb51e377df2f9d780c47117/tables/results/TableS1-histologies.xlsx)
 Table of specimens and associated metadata, clinical data, and histological data utilized in the OpenPBTA project.

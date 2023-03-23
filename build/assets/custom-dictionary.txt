@@ -1,4 +1,4 @@
-personal_ws-1.1 en 835 utf-8
+personal_ws-1.1 en 837 utf-8
 Abadi
 AbdelBaki
 aberrantly
@@ -589,6 +589,7 @@ PNOC
 polymorphisms
 pons
 pontine
+PR
 Prados
 Prajwal
 pre
@@ -598,6 +599,7 @@ preprocessed
 Priya
 Prolo
 proteogenomic
+PRs
 pseudoalignment
 pubmed
 purities

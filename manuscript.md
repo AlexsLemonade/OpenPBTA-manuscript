@@ -380,9 +380,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/383ec7956af5345d931db3144ad88390830533a4/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/383ec7956af5345d931db3144ad88390830533a4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/383ec7956af5345d931db3144ad88390830533a4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/ae64c4376feb9d37ef0f7cede673d0f2581ba592/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/ae64c4376feb9d37ef0f7cede673d0f2581ba592/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/ae64c4376feb9d37ef0f7cede673d0f2581ba592/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -404,9 +404,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/383ec7956af5345d931db3144ad88390830533a4/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/ae64c4376feb9d37ef0f7cede673d0f2581ba592/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@383ec79](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/383ec7956af5345d931db3144ad88390830533a4)
+from [AlexsLemonade/OpenPBTA-manuscript@ae64c43](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/ae64c4376feb9d37ef0f7cede673d0f2581ba592)
 on March 23, 2023.
 </em></small>
 
@@ -1827,8 +1827,10 @@ All p-values are two-sided unless otherwise stated.
 Z-scores were calculated using the formula $z=(x –\mu)/\sigma$ where $x$ is the value of interest, $\mu$ is the mean, and $\sigma$ is the standard deviation.
 
 #### Tumor purity (`tumor-purity-exploration` module)
-We used Theta2 (as described in the "Somatic Copy Number Variant Calling section" Methods section) to infer tumor purity of WGS samples and explored purity values across histologies. 
-We assumed that co-extracted RNA and DNA samples had the same tumor purity.
+Estimating tumor fraction from RNA directly is challenging because most assume tumor cells comprise all non-immune cells[@doi:10.1038/ncomms3612], which is not a valid assumption for many diagnoses in the PBTA cohort.
+We therefore used Theta2 (as described in the "Somatic Copy Number Variant Calling section" Methods section) to infer tumor purity from WGS samples, further assuming that co-extracted RNA and DNA samples had the same tumor purity.
+We then created a set of stranded RNA-Seq data thresholded by median tumor purity of the cancer group to rerun selected transcriptomic analyses: `telomerase-activity-prediction`, `tp53_nf1_score`, `transcriptomic-dimension-reduction`, `immune-deconv`, and `gene-set-enrichment-analysis`. 
+Note that these thresholded analyses, which only considered stranded RNA samples that also had co-extracted DNA, were performed in their respective OpenPBTA analyses modules (not within `tumor-purity-exploration`).
 
 ##### Recurrently mutated genes and co-occurrence of gene mutations (`interaction-plots` analysis module)
 

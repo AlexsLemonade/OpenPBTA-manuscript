@@ -9,7 +9,7 @@ keywords:
 - classification
 - somatic variation
 lang: en-US
-date-meta: '2023-04-03'
+date-meta: '2023-04-04'
 author-meta:
 - Joshua A. Shapiro
 - Krutika S. Gaonkar
@@ -89,8 +89,8 @@ header-includes: |-
   <meta name="citation_title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="og:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="twitter:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
-  <meta name="dc.date" content="2023-04-03" />
-  <meta name="citation_publication_date" content="2023-04-03" />
+  <meta name="dc.date" content="2023-04-04" />
+  <meta name="citation_publication_date" content="2023-04-04" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -380,9 +380,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/65be5c4b51a4d1476fdb9d0f4cc99c6ec4628f13/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/65be5c4b51a4d1476fdb9d0f4cc99c6ec4628f13/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/65be5c4b51a4d1476fdb9d0f4cc99c6ec4628f13/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/d3fc90c9c2c77bf76fa3a4dafee96fb4b1bb1024/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/d3fc90c9c2c77bf76fa3a4dafee96fb4b1bb1024/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/d3fc90c9c2c77bf76fa3a4dafee96fb4b1bb1024/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -404,10 +404,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/65be5c4b51a4d1476fdb9d0f4cc99c6ec4628f13/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/d3fc90c9c2c77bf76fa3a4dafee96fb4b1bb1024/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@65be5c4](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/65be5c4b51a4d1476fdb9d0f4cc99c6ec4628f13)
-on April 3, 2023.
+from [AlexsLemonade/OpenPBTA-manuscript@d3fc90c](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/d3fc90c9c2c77bf76fa3a4dafee96fb4b1bb1024)
+on April 4, 2023.
 </em></small>
 
 ## Authors
@@ -1100,14 +1100,13 @@ The Pediatric Brain Tumor Atlas (PBTA) initiative established in 2018 by the Chi
 Just as cooperation accelerates specimens and data sharing, collaboration among researchers including computational and bench scientists, clinicians, and pathologists is critical for rigorous genomic analysis.
 
 Although there has been significant progress elucidating genomic bases of pediatric brain tumor formation and progression, translating therapeutic agents to phase II or III clinical trials and subsequent FDA approvals have not kept pace.
-Within the last 20 years, the FDA has approved only seven targeted agents for treating pediatric brain tumors: mTOR inhibitor everolimus, for subependymal giant cell astrocytoma; anti-PD-1 immunotherapy pembrolizumab, for microsatellite instability–high or mismatch repair–deficient tumors; NTRK inhibitors larotrectinib and entrectinib, for tumors with an NTRK 1/2/3 gene fusions; MEK1/2 inhibitor selumetinib, for neurofibromatosis type 1 (NF1) and symptomatic, inoperable plexiform neurofibromas; and combination therapy MEK1/2 inhibitor trametinib and BRAF/CRAF inhibitor dabrafenib for unresectable or metastatic progressive tumors with BRAF V600E mutations [@url:https://www.fda.gov/about-fda/oncology-center-excellence/pediatric-oncology-drug-approvals].
-
-This is, in part, due to pharmaceutical company priorities and toxicity concerns, posing challenges for researchers to obtain new therapeutic agents for pediatric clinical trials.
+Within the last 20 years, the FDA has approved only seven targeted agents for treating pediatric brain tumors [@url:https://www.fda.gov/about-fda/oncology-center-excellence/pediatric-oncology-drug-approvals].
+This is partly due to pharmaceutical company priorities, posing challenges for researchers to obtain therapeutic agents for pediatric clinical trials.
 Critically, since August 2020, an amendment to the Pediatric Research Equity Act called the "Research to Accelerate Cures and Equity (RACE) for Children Act" mandates that all new adult oncology drugs also be tested in children when the molecular target exists in a childhood cancer.
 The RACE Act, coupled with genomics advances to identify putative molecular targets in pediatric cancers, will accelerate identification of previously-overlooked but effective therapeutic options for pediatric diseases.
-We anticipated that a model of open collaboration would enhance the value of this resource for the pediatric brain tumor research community and provide a framework for continuous, accelerated translation of pediatric brain tumor datasets.
+
+We anticipated that a model of open collaboration would enhance the value of this resource for the research community and provide a framework for ongoing analysis of pediatric brain tumor datasets.
 To leverage diverse scientific and analytical expertise to analyze the PBTA data, we established the OpenPBTA, which employs an open science model with features such as analytical code review [@doi:10.1093/aje/kwab092; @doi:10.7287/peerj.preprints.3210v1] and continuous integration to test data and code [@doi:10.1038/nbt.3780; @doi:10.7287/peerj.preprints.3210v1] to ensure reproducibility throughout the project's life cycle.
-Indeed, openly sharing data and code in real time allows other researchers to quickly build upon the work and leads to higher-impact publications [@doi:10.1371/journal.pone.0000308; @doi:10.1371/journal.pcbi.1008867].
 Through OpenPBTA, we present a comprehensive, collaborative, open genomic analysis of 1,074 tumors and 22 cell lines, comprised of 58 distinct brain tumor histologies from 943 patients.
 The data and containerized infrastructure of OpenPBTA have already supported discovery and translational research studies [@doi:10.1016/j.celrep.2021.108917; @doi:10.1158/1078-0432.CCR-22-0803; @doi:10.1136/jitc-2021-004450; @doi:10.1093/neuonc/noac278], are actively integrated into PNOC molecular tumor board decision-making, and provided a foundational layer for the NCI's Childhood Cancer Data Initiative's (CCDI) pediatric Molecular Targets Platform ([https://moleculartargets.ccdi.cancer.gov/](https://moleculartargets.ccdi.cancer.gov/)) recently built in support of the RACE Act [@doi:10.1158/2159-8290.CD-NB2020-081].
 We anticipate OpenPBTA will be an invaluable resource to the pediatric oncology community.
@@ -1121,20 +1120,15 @@ We previously performed whole genome sequencing (WGS), whole exome sequencing (W
 **Figure {@fig:Fig1}B** summarizes biospecimen numbers by phase of therapy and histology. 
 We harnessed, and built upon, the benchmarking efforts of the [Gabriella Miller Kids First Data Resource Center](https://kidsfirstdrc.org/) to develop robust and reproducible data analysis workflows within the [CAVATICA platform](https://www.cavatica.org/) to perform comprehensive somatic analyses (**Figure {@fig:S1}**) and **STAR Methods**) of the PBTA. 
 
-A key innovative feature of OpenPBTA is its open contribution framework used for both analyses (e.g., analytical code) and manuscript writing.
+A key innovative feature of OpenPBTA is the contribution framework used for analyses (e.g., analytical code) and manuscript writing.
 We created a public Github analysis repository ([https://github.com/AlexsLemonade/OpenPBTA-analysis](https://github.com/AlexsLemonade/OpenPBTA-analysis)) to hold all analysis code downstream of Kids First workflows and a GitHub manuscript repository ([https://github.com/AlexsLemonade/OpenPBTA-manuscript](https://github.com/AlexsLemonade/OpenPBTA-manuscript)) with Manubot [@doi:10.1371/journal.pcbi.1007128] integration to enable real-time manuscript creation.
-Most analysis modules, as indicated in their documentation, can be run locally or scaled to run on an Amazon EC2 instance, as facilitated by the project's Docker&reg; [@https://dl.acm.org/doi/10.5555/2600239.2600241] container.
-As all analyses and manuscript writing were conducted in public repositories, any researcher in the world could contribute to OpenPBTA.
-
-The process for analysis and manuscript contributions is outlined in **Figure {@fig:Fig1}C**.
+As all analyses and manuscript writing were conducted in public repositories, any researcher in the world could contribute to OpenPBTA following the process outlined in **Figure {@fig:Fig1}C**.
 First, a potential contributor proposed an analysis by filing an issue in the GitHub analysis repository.
 Next, project organizers or other contributors with expertise provided feedback about the proposed analysis (**Figure {@fig:Fig1}C**).
-The contributor then added their proposed code and results to their copy (fork) of the analysis repository.
-The contributor formally requested to include their analytical code and results in the OpenPBTA analysis repository by filing a GitHub pull request (PR) .
-All PRs underwent peer review by organizers and/or other contributors to ensure scientific accuracy, maintainability, and readability of code and documentation (**Figure {@fig:Fig1}C-D**).
-During review, two or more analysts ran the same code within the OpenPBTA Docker&reg; [@https://dl.acm.org/doi/10.5555/2600239.2600241] container to ensure reproducibility of results.
+The contributor formally requested to include their analytical code and results – written in their own copy (fork) of repository – in the OpenPBTA analysis repository by filing a GitHub pull request (PR).
+All PRs underwent peer review to ensure scientific accuracy, maintainability, and readability of code and documentation (**Figure {@fig:Fig1}C-D**).
 
-Beyond peer review, we established additional checks to ensure consistent results for all collaborators over time (**Figure {@fig:Fig1}D**).
+Beyond peer review to ensure reproducibility, we established additional checks to ensure consistent results for all collaborators over time (**Figure {@fig:Fig1}D**).
 We leveraged Docker&reg; [@https://dl.acm.org/doi/10.5555/2600239.2600241] and the Rocker project [@https://doi.org/10.48550/arXiv.1710.03675] to maintain a consistent software development environment, creating a monolithic image with all OpenPBTA dependencies.
 To ensure that new code executed in the development environment, we used the continuous integration (CI) service CircleCI&reg; to run analytical code in PRs on a test dataset before formal code review, allowing us to detect code bugs or sensitivity to data release changes.
 

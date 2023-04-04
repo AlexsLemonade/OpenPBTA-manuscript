@@ -95,7 +95,6 @@ liberaliscomputing
 Lurie
 Madsen
 Meen
-MEK
 MGMT
 migbro
 mkoptyra
@@ -114,7 +113,7 @@ orf
 PDGFRA
 petermadsenmd
 PHG
-PichaiRaman
+pichairaman
 PIK
 Poetsch
 QAH

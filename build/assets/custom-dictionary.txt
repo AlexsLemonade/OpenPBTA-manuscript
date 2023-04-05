@@ -86,8 +86,8 @@ Bo
 Bobick
 Bonferroni
 Bornhorst
-Boxplot
-Boxplots
+boxplot
+boxplots
 Boyajian
 bp
 BRAF

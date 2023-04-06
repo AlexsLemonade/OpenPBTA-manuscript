@@ -380,9 +380,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/80369515a9485145e0dfe832a26df96580da0291/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/80369515a9485145e0dfe832a26df96580da0291/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/80369515a9485145e0dfe832a26df96580da0291/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/cfc4c7db9a806ec8141bc94ba14d75becadfcf55/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/cfc4c7db9a806ec8141bc94ba14d75becadfcf55/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/cfc4c7db9a806ec8141bc94ba14d75becadfcf55/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -404,9 +404,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/80369515a9485145e0dfe832a26df96580da0291/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/cfc4c7db9a806ec8141bc94ba14d75becadfcf55/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@8036951](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/80369515a9485145e0dfe832a26df96580da0291)
+from [AlexsLemonade/OpenPBTA-manuscript@cfc4c7d](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/cfc4c7db9a806ec8141bc94ba14d75becadfcf55)
 on April 6, 2023.
 </em></small>
 
@@ -2108,7 +2108,7 @@ Next, we used multivariate Cox (proportional hazards) regression analysis [@doi:
 | Software and algorithms                       |                                                              |                                                                                                               |
 | Data processing and analysis software         | Multiple                                                     | See **Table S5** for identifiers                                                                              |
 | OpenPBTA workflows repository                 | this project                                                 | [@doi:10.5281/zenodo.6968175]                                                                                 |
-| OpenPBTA analysis repository                  | this project                                                 | [@doi:10.5281/zenodo.7682559]                                                                                                           |
+| OpenPBTA analysis repository                  | this project                                                 | [@doi:10.5281/zenodo.7803335]                                                                                                           |
 | OpenPBTA manuscript repository                | this project                                                 |                                                                                                               |
 |                                               |                                                              |                                                                                                               |
 | Other                                         |                                                              |                                                                                                               |

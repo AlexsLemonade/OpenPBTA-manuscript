@@ -380,9 +380,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/cfc4c7db9a806ec8141bc94ba14d75becadfcf55/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/cfc4c7db9a806ec8141bc94ba14d75becadfcf55/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/cfc4c7db9a806ec8141bc94ba14d75becadfcf55/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/b2753bbe23afcfdc11fa56fa42e164f855caf763/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/b2753bbe23afcfdc11fa56fa42e164f855caf763/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/b2753bbe23afcfdc11fa56fa42e164f855caf763/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -404,9 +404,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/cfc4c7db9a806ec8141bc94ba14d75becadfcf55/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/b2753bbe23afcfdc11fa56fa42e164f855caf763/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@cfc4c7d](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/cfc4c7db9a806ec8141bc94ba14d75becadfcf55)
+from [AlexsLemonade/OpenPBTA-manuscript@b2753bb](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/b2753bbe23afcfdc11fa56fa42e164f855caf763)
 on April 6, 2023.
 </em></small>
 
@@ -1604,6 +1604,7 @@ Raw and harmonized WGS, WXS, and RNA-Seq data derived from human samples are ava
 In addition, merged summary files are openly accessible at [https://cavatica.sbgenomics.com/u/cavatica/openpbta](https://cavatica.sbgenomics.com/u/cavatica/openpbta) or via download script in the  [https://github.com/AlexsLemonade/OpenPBTA-analysis](https://github.com/AlexsLemonade/OpenPBTA-analysis) repository.
 Summary data are visible within PedcBioPortal at [https://pedcbioportal.kidsfirstdrc.org/study/summary?id=openpbta](https://pedcbioportal.kidsfirstdrc.org/study/summary?id=openpbta).
 Associated DOIs are listed in the **Key Resources Table**.
+Data underlying manuscript figures are available on Zenodo [@doi:10.5281/zenodo.7805408].
 <!-- TODO: create data dois -->
 
 All original code was developed within the following repositories and is publicly available as follows.

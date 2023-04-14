@@ -1,4 +1,4 @@
-personal_ws-1.1 en 839 utf-8
+personal_ws-1.1 en 843 utf-8
 Abadi
 AbdelBaki
 aberrantly
@@ -257,6 +257,7 @@ Gavriella
 GBM
 GENCODE
 gencode
+GenePrint
 genomic
 genomically
 genotyping
@@ -494,6 +495,7 @@ MYB
 MYBL
 MYC
 MYCN
+mycoplasma
 myeloid
 Nalin
 NantHealth
@@ -541,8 +543,8 @@ oncogenicity
 oncoprint
 oncoprints
 OpenPBTA
-OpenPBTA's
 openpbta
+OpenPBTA's
 OpenPedCan
 orcid
 Oren
@@ -559,8 +561,8 @@ Partap
 pathogenicity
 Payal
 PBTA
-PBTA's
 pbta
+PBTA's
 PCPG
 Pearson
 PedcBioPortal
@@ -603,6 +605,7 @@ preclinical
 preprocessed
 Priya
 Prolo
+Promega
 proteogenomic
 PRs
 pseudoalignment
@@ -713,6 +716,7 @@ Stapleton
 Stefankiewicz
 Stephani
 Stoller
+STR
 strandedness
 strikethrough
 StronglySomatic

@@ -25,8 +25,7 @@ authors:
   - Writing - Review and editing
   - Visualization
   - Supervision
-  affiliations: Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala
-    Cynwyd, PA, USA
+  affiliations: Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, 19004, USA
   funders: Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
 - github: kgaonkar6
   name: Krutika S. Gaonkar
@@ -43,9 +42,9 @@ authors:
   - Writing – Original draft
   - Writing - Review and editing
   affiliations:
-  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
-  - Division of Neurosurgery, Children's Hospital of Philadelphia
-  - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - github: sjspielman
   name: Stephanie J. Spielman
   initials: SJS
@@ -65,7 +64,7 @@ authors:
   affiliations:
   - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA,
     USA<sup>+</sup>
-  - Rowan University, Glassboro, NJ, USA
+  - Rowan University, Glassboro, NJ, 08028, USA
   symbol_str: +
   funders: Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
 - github: cansavvy
@@ -84,9 +83,8 @@ authors:
   - Writing - Review and editing
   - Visualization
   affiliations:
-  - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA,
-    USA
-  - Fred Hutchinson Cancer Center, Seattle, WA, USA
+  - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, 19004, USA
+  - Fred Hutchinson Cancer Center, Seattle, WA, 98109, USA
   funders: Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
 - github: cbethell
   name: Chante J. Bethell
@@ -101,8 +99,7 @@ authors:
   - Investigation
   - Writing - Original draft
   - Visualization
-  affiliations: Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala
-    Cynwyd, PA, USA
+  affiliations: Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, 19004, USA
   funders: Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
 - github: runjin326
   name: Run Jin
@@ -117,8 +114,8 @@ authors:
   - Writing – Original draft
   - Writing - Review and editing
   affiliations:
-  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
-  - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - github: komalsrathi
   name: Komal S. Rathi
   initials: KSR
@@ -131,8 +128,8 @@ authors:
   - Methodology
   - Writing – Original draft
   affiliations:
-  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
-  - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - github: yuankunzhu
   name: Yuankun Zhu
   initials: YZ
@@ -146,8 +143,8 @@ authors:
   - Methodology
   - Supervision
   affiliations:
-  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
-  - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - github: LauraEgolf
   name: Laura E. Egolf
   initials: LEE
@@ -158,9 +155,8 @@ authors:
   - Formal analysis
   - Writing - Original draft
   affiliations:
-  - Cell and Molecular Biology Graduate Group, Perelman School of Medicine at the
-    University of Pennsylvania
-  - Division of Oncology, Children's Hospital of Philadelphia
+  - Cell and Molecular Biology Graduate Group, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, PA, 19104, USA
+  - Division of Oncology, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - github: baileyckelly
   name: Bailey K. Farrow
   initials: BKF
@@ -170,8 +166,8 @@ authors:
   - Data curation
   - Software
   affiliations:
-  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
-  - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - github: dmiller15
   name: Daniel P. Miller
   initials: DPM
@@ -179,8 +175,8 @@ authors:
   email: millerd15@chop.edu
   contributions: Formal analysis
   affiliations:
-  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
-  - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - github: yangyangclover
   name: Yang Yang
   initials: YY
@@ -188,8 +184,7 @@ authors:
   contributions:
   - Formal analysis
   - Software
-  affiliations: Ben May Department for Cancer Research, University of Chicago, Chicago
-    IL, USA
+  affiliations: Ben May Department for Cancer Research, University of Chicago, Chicago, IL, 60637, USA
 - github: tkoganti
   name: Tejaswi Koganti
   initials: TK
@@ -199,8 +194,8 @@ authors:
   - Formal analysis
   - Investigation
   affiliations:
-  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
-  - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - github: NNoureen
   name: Nighat Noureen
   initials: NN
@@ -210,7 +205,7 @@ authors:
   - Formal analysis
   - Visualization
   - Writing - Original draft
-  affiliations: Greehey Children's Cancer Research Institute, UT Health San Antonio
+  affiliations: Greehey Children's Cancer Research Institute, UT Health San Antonio, San Antonio, TX, 78229, USA
 - github: mkoptyra
   name: Mateusz P. Koptyra
   initials: MPK
@@ -221,8 +216,8 @@ authors:
   - Formal analysis
   - Writing – Original draft
   affiliations:
-  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
-  - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - github: fingerfen
   name: Nhat Duong
   initials: ND
@@ -233,7 +228,7 @@ authors:
   - Formal analysis
   - Investigation
   - Methodology
-  affiliations: Department of Bioinformatics and Health Informatics, Children's Hospital
+  affiliations: Department of Bioinformatics and Health Informatics, Children's Hospital, Philadelphia, PA, 19104, USA
     of Philadelphia
 - name: Mariarita Santi
   initials: MS
@@ -244,9 +239,8 @@ authors:
   - Validation
   - Writing - Review and editing
   affiliations:
-  - Department of Pathology and Laboratory Medicine, Children's Hospital of Philadelphia
-  - Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman
-    School of Medicine
+  - Department of Pathology and Laboratory Medicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman School of Medicine, Philadelphia, PA, 19104, USA
 - name: Jung Kim
   initials: JK
   orcid: 0000-0001-6274-2841
@@ -254,16 +248,15 @@ authors:
   contributions:
   - Investigation
   - Writing - Review and editing
-  affiliations: Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics,
-    National Cancer Institute
+  affiliations: Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics, National Cancer Institute, Rockville, MD 20850, USA
 - name: Shannon Robins
   initials: SR
   email: Shannonmrobins@gmail.com
   orcid: 0000-0003-0594-1953
   contributions: Data curation
   affiliations:
-  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
-  - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - name: Phillip B. Storm
   initials: PBS
   orcid: 0000-0002-7964-2449
@@ -273,8 +266,8 @@ authors:
   - Funding acquisition
   - Resources
   affiliations:
-  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
-  - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
   funders:
   - Alex's Lemonade Stand Foundation (Catalyst)
   - Children’s Hospital of Philadelphia Division of Neurosurgery
@@ -283,8 +276,7 @@ authors:
   orcid: 0000-0001-9620-4742
   email: stephen.mack@stjude.org
   contributions: Writing - Review and editing
-  affiliations: Department of Developmental Neurobiology, St. Jude Children’s Research
-    Hospital
+  affiliations: Department of Developmental Neurobiology, St. Jude Children’s Research Hospital, Memphis, TN, 38105, USA
 - github: jvlilly
   name: Jena V. Lilly
   initials: JVL
@@ -296,8 +288,8 @@ authors:
   - Funding acquisition
   - Project administration
   affiliations:
-  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
-  - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - github: xiehongbo
   name: Hongbo M. Xie
   initials: HMX
@@ -307,8 +299,7 @@ authors:
   contributions:
   - Methodology
   - Supervision
-  affiliations: Department of Bioinformatics and Health Informatics, Children's Hospital
-    of Philadelphia
+  affiliations: Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - github: jainpayal022
   name: Payal Jain
   initials: PJ
@@ -320,8 +311,8 @@ authors:
   - Investigation
   - Validation
   affiliations:
-  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
-  - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - github: pichairaman
   name: Pichai Raman
   initials: PR
@@ -333,34 +324,31 @@ authors:
   - Formal analysis
   - Methodology
   affiliations:
-  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
-  - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - name: Brian R. Rood
   initials: BRR
   email: brood@childrensnational.org
   contributions: Conceptualization
   affiliations:
   - Children's National Research Institute, Washington, D.C.
-  - George Washington University School of Medicine and Health Sciences, Washington,
-    D.C.
+  - George Washington University School of Medicine and Health Sciences, Washington, D.C., 20052, USA
 - name: Rishi R. Lulla
   initials: RRL
   orcid: 0000-0003-4109-2207
   email: rishi_lulla@brown.edu
   contributions: Conceptualization
   affiliations:
-  - Division of Hematology/Oncology, Hasbro Children's Hospital
-  - Department of Pediatrics, The Warren Alpert School of Brown University, Providence,
-    Rhode Island
+  - Division of Hematology/Oncology, Hasbro Children's Hospital, Providence, Rhode Island, 02903, USA
+  - Department of Pediatrics, The Warren Alpert School of Brown University, Providence, Rhode Island, 02912, USA
 - name: Javad Nazarian
   initials: JN
   orcid: 0000-0002-1951-9828
   email: jnazarian@childrensnational.org
   contributions: Conceptualization
   affiliations:
-  - Children's National Research Institute, Washington, D.C.
-  - George Washington University School of Medicine and Health Sciences, Washington,
-    D.C.
+  - Children's National Research Institute, Washington, D.C., 20012, USA
+  - George Washington University School of Medicine and Health Sciences, Washington, D.C., 20052, USA
 - github: aadamk
   name: Adam A. Kraya
   initials: AAK
@@ -368,15 +356,15 @@ authors:
   email: krayaa@chop.edu
   contributions: Methodology
   affiliations:
-  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
-  - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - name: Zalman Vaksman
   initials: ZV
   email: zvaksman@gmail.com
   contributions:
   - Formal analysis
   - Investigation
-  affiliations: Division of Oncology, Children's Hospital of Philadelphia
+  affiliations: Division of Oncology, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - github: allisonheath
   name: Allison P. Heath
   initials: APH
@@ -387,8 +375,8 @@ authors:
   - Project administration
   - Funding acquisition
   affiliations:
-  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
-  - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
   funders:
   - NIH U2C HL138346-03
   - NCI/NIH Contract No. 75N91019D00024, Task Order No. 75N91020F00003
@@ -402,12 +390,12 @@ authors:
   - Supervision
   - Investigation
   - Writing - Review and editing
-  affiliations: Division of Oncology, Children's Hospital of Philadelphia
+  affiliations: Division of Oncology, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - name: Laura Scolaro
   initials: LS
   email: scolarol@chop.edu
   contributions: Data curation
-  affiliations: Division of Oncology, Children's Hospital of Philadelphia
+  affiliations: Division of Oncology, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - name: Angela N. Viaene
   initials: ANV
   orcid: 0000-0001-6430-8360
@@ -416,9 +404,8 @@ authors:
   - Investigation
   - Validation
   affiliations:
-  - Department of Pathology and Laboratory Medicine, Children's Hospital of Philadelphia
-  - Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman
-    School of Medicine
+  - Department of Pathology and Laboratory Medicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman School of Medicine, Philadelphia, PA, 19104, USA
 - github: HuangXiaoyan0106
   name: Xiaoyan Huang
   initials: XH
@@ -426,8 +413,8 @@ authors:
   email: huangx@chop.edu
   contributions: Formal analysis
   affiliations:
-  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
-  - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - github: gwaybio
   name: Gregory P. Way
   initials: GPW
@@ -437,8 +424,7 @@ authors:
   contributions:
   - Investigation
   - Writing - Review and editing
-  affiliations: Department of Biomedical Informatics, University of Colorado School
-    of Medicine, Aurora, CO, USA
+  affiliations: Department of Biomedical Informatics, University of Colorado School of Medicine, Aurora, CO, 80045, USA
 - github: envest
   name: Steven M. Foltz
   initials: SMF
@@ -448,10 +434,8 @@ authors:
   - Validation
   - Funding acquisition
   affiliations:
-  - Department of Systems Pharmacology and Translational Therapeutics, University
-    of Pennsylvania
-  - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA,
-    USA
+  - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, PA, 19104, USA
+  - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, 19004, USA
   funders:
   - Alex's Lemonade Stand Foundation GR-000002471
   - National Institutes of Health K12GM081259
@@ -464,8 +448,8 @@ authors:
   - Data curation
   - Formal analysis
   affiliations:
-  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
-  - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - github: arpoe
   name: Anna R. Poetsch
   initials: ARP
@@ -488,7 +472,7 @@ authors:
   orcid: 0000-0002-3452-5150
   email: sabine.mueller@ucsf.edu
   contributions: Conceptualization
-  affiliations: University of California, San Francisco, San Francisco, CA
+  affiliations: University of California, San Francisco, San Francisco, CA, 94115, USA
 - github: bmennis
   name: Brian M. Ennis
   initials: BME
@@ -498,14 +482,14 @@ authors:
   - Data curation
   - Formal analysis
   affiliations:
-  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
-  - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - name: Michael Prados
   initials: MP
   orcid: 0000-0002-9630-2075
   email: michael.prados@ucsf.edu
   contributions: Conceptualization
-  affiliations: University of California, San Francisco, San Francisco, CA, USA
+  affiliations: University of California, San Francisco, San Francisco, CA, USA, 94115, USA
 - github: sdiskin
   name: Sharon J. Diskin
   initials: SJD
@@ -519,8 +503,8 @@ authors:
   - Funding acquisition
   - Writing - Review and editing
   affiliations:
-  - Division of Oncology, Children's Hospital of Philadelphia
-  - Department of Pediatrics, University of Pennsylvania
+  - Division of Oncology, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Department of Pediatrics, University of Pennsylvania, Philadelphia, PA, 19104, USA
 - github: syzheng
   name: Siyuan Zheng
   initials: SZ
@@ -533,7 +517,7 @@ authors:
   - Writing - Original draft
   - Supervision
   - Writing - Review and editing
-  affiliations: Greehey Children's Cancer Research Institute, UT Health San Antonio
+  affiliations: Greehey Children's Cancer Research Institute, UT Health San Antonio, San Antonio, TX, 78229, USA
 - github: Yiran-Guo
   name: Yiran Guo
   initials: YG
@@ -543,8 +527,7 @@ authors:
   contributions:
   - Formal analysis
   - Writing - Review and editing
-  affiliations: Center for Data-Driven Discovery in Biomedicine, Children's Hospital
-    of Philadelphia
+  affiliations: Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - github: shrivatsk
   name: Shrivats Kannan
   initials: SK
@@ -556,8 +539,8 @@ authors:
   - Methodology
   - Writing – Original draft
   affiliations:
-  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
-  - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - github: awaanders
   name: Angela J. Waanders
   initials: AJW
@@ -567,17 +550,16 @@ authors:
   - Supervision
   - Conceptualization
   affiliations:
-  - Division of Hematology, Oncology, Neuro-Oncology, and Stem Cell Transplant, Ann
-    & Robert H Lurie Children’s Hospital of Chicago
-  - Department of Pediatrics, Northwestern University Feinberg School of Medicine
+  - Division of Hematology, Oncology, Neuro-Oncology, and Stem Cell Transplant, Ann & Robert H Lurie Children’s Hospital of Chicago, Chicago, IL, 60611, USA
+  - Department of Pediatrics, Northwestern University Feinberg School of Medicine, Chicago, IL, 60611, USA
 - name: Ashley S. Margol
   initials: ASM
   orcid: 0000-0002-3038-8005
   email: amargol@chla.usc.edu
   contributions: Writing - Review and editing
   affiliations:
-  - Division of Hematology and Oncology, Children's Hospital Los Angeles
-  - Department of Pediatrics, Keck School of Medicine of University of Southern California
+  - Division of Hematology and Oncology, Children's Hospital of Los Angeles, Los Angeles, CA, 90027, USA
+  - Department of Pediatrics, Keck School of Medicine of University of Southern California, Los Angeles, CA, 90033, USA
 - github: liberaliscomputing
   name: Meen Chul Kim
   initials: MCK
@@ -585,16 +567,16 @@ authors:
   email: KIMM11@chop.edu
   contributions: Data curation
   affiliations:
-  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
-  - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - name: Derek Hanson
   initials: DH
   orcid: 0000-0002-0024-5142
   email: derek.hanson@hackensackmeridian.org
   contributions: Validation
   affiliations:
-  - Hackensack Meridian School of Medicine
-  - Hackensack University Medical Center
+  - Hackensack Meridian School of Medicine, Nutley, NJ, 07110, USA
+  - Hackensack University Medical Center, Hackensack, NJ, 07601, USA
 - github: nicholasvk
   name: Nicholas Van Kuren
   initials: NK
@@ -604,8 +586,8 @@ authors:
   - Data curation
   - Software
   affiliations:
-  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
-  - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - github: wongjessica93
   name: Jessica Wong
   initials: JW
@@ -614,8 +596,8 @@ authors:
   email: jessicawong.bfx@gmail.com
   contributions: Writing – Original draft
   affiliations:
-  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
-  - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - github: rebkau
   name: Rebecca S. Kaufman
   initials: RSK
@@ -626,34 +608,33 @@ authors:
   - Investigation
   - Validation
   affiliations:
-  - Division of Oncology, Children's Hospital of Philadelphia
-  - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
+  - Division of Oncology, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - name: Noel Coleman
   initials: NC
   orcid: 0000-0001-6454-1285
   email: colemann2@chop.edu
   contributions: Data curation
   affiliations:
-  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
-  - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - github: devbyaccident
   name: Christopher Blackden
   initials: CB
   email: blackdenc@chop.edu
   contributions: Resources
   affiliations:
-  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
-  - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - name: Kristina A. Cole
   initials: KAC
   orcid: 0000-0003-0064-2882
   email: colek@chop.edu
   contributions: Writing - Review and editing
   affiliations:
-  - Division of Oncology, Children's Hospital of Philadelphia, Philadelphia, PA
-  - Department of Pediatrics, University of Pennsylvania, Philadelphia, PA
-  - Abramson Family Cancer Research Institute, Perelman School of Medicine at the
-    University of Pennsylvania, Philadelphia, PA
+  - Division of Oncology, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Department of Pediatrics, University of Pennsylvania, Philadelphia, PA, 19104, USA
+  - Abramson Family Cancer Research Institute, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, PA, Philadelphia, PA, 19104, USA
 - github: jenn0307
   name: Jennifer L. Mason
   initials: JLM
@@ -661,8 +642,8 @@ authors:
   email: masonjl@chop.edu
   contributions: Supervision
   affiliations:
-  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
-  - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - name: Peter J. Madsen
   initials: PJM
   orcid: 0000-0001-9266-3685
@@ -670,16 +651,16 @@ authors:
   twitter: petermadsenmd
   contributions: Writing – Review & editing
   affiliations:
-  - Division of Neurosurgery, Children's Hospital of Philadelphia
-  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
+  - Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - name: Carl J. Koschmann
   initials: CJK
   orcid: 0000-0002-0825-7615
   email: ckoschma@med.umich.edu
   contributions: Conceptualization
   affiliations:
-  - Department of Pediatrics, University of Michigan Health, Ann Arbor, MI
-  - Pediatric Hematology Oncology, Mott Children's Hospital, Ann Arbor, MI
+  - Department of Pediatrics, University of Michigan Health, Ann Arbor, MI, 48105, USA
+  - Pediatric Hematology Oncology, Mott Children's Hospital, Ann Arbor, MI, 48109, USA
 - name: Douglas R. Stewart
   initials: DRS
   orcid: 0000-0001-8193-1488
@@ -687,8 +668,7 @@ authors:
   contributions:
   - Supervision
   - Writing - Review and editing
-  affiliations: Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics,
-    National Cancer Institute
+  affiliations: Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics, National Cancer Institute, Rockville, MD 20850
 - github: ewafula
   name: Eric Wafula
   initials: EW
@@ -697,8 +677,7 @@ authors:
   contributions:
   - Formal analysis
   - Software
-  affiliations: Department of Bioinformatics and Health Informatics, Children's Hospital
-    of Philadelphia
+  affiliations: Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - github: migbro
   name: Miguel A. Brown
   initials: MAB
@@ -710,8 +689,8 @@ authors:
   - Methodology
   - Formal analysis
   affiliations:
-  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
-  - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - github: adamcresnick
   name: Adam C. Resnick
   initials: ACR
@@ -724,8 +703,8 @@ authors:
   - Resources
   - Supervision
   affiliations:
-  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
-  - Division of Neurosurgery, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
   funders:
   - Alex's Lemonade Stand Foundation (Catalyst)
   - Children's Brain Tumor Network
@@ -739,13 +718,10 @@ authors:
   twitter: greenescientist
   email: greenescientist@gmail.com
   affiliations:
-  - Department of Systems Pharmacology and Translational Therapeutics, Perelman School
-    of Medicine, University of Pennsylvania, Philadelphia, PA, USA
-  - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA,
-    USA
-  - Center for Health AI, University of Colorado School of Medicine, Aurora, CO, USA
-  - Department of Biomedical Informatics, University of Colorado School of Medicine,
-    Aurora, CO, USA
+  - Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, 19104, USA
+  - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, 19004, USA
+  - Center for Health AI, University of Colorado School of Medicine, Aurora, CO, 80045, USA
+  - Department of Biomedical Informatics, University of Colorado School of Medicine, Aurora, CO, 80045, USA
   funders: Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
   contributions:
   - Conceptualization
@@ -774,9 +750,9 @@ authors:
   - Writing – Original draft
   - Writing - Review and editing
   affiliations:
-  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia
-  - Division of Neurosurgery, Children's Hospital of Philadelphia
-  - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
   funders:
   - Alex's Lemonade Stand Foundation (Young Investigator, Catalyst)
   - NCI/NIH Contract No. 75N91019D00024, Task Order No. 75N91020F00003
@@ -787,8 +763,7 @@ authors:
   twitter: jaclyn_taroni
   email: jaclyn.taroni@ccdatalab.org
   corresponding: yes
-  affiliations: Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala
-    Cynwyd, PA, USA
+  affiliations: Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, 19004, USA
   funders: Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
   contributions:
   - Methodology

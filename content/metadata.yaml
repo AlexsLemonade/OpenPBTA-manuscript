@@ -150,7 +150,7 @@ authors:
   initials: LEE
   orcid: 0000-0002-7103-4801
   twitter: LauraEgolf
-  email: laura.egolf@nih.gov
+  email: laura.e.egolf@gmail.com
   contributions:
   - Formal analysis
   - Writing - Original draft
@@ -180,6 +180,7 @@ authors:
 - github: yangyangclover
   name: Yang Yang
   initials: YY
+  orcid: 0000-0002-5560-2936
   email: yangyangclover@gmail.com
   contributions:
   - Formal analysis
@@ -349,6 +350,7 @@ authors:
   affiliations:
   - Children's National Research Institute, Washington, D.C., 20012, USA
   - George Washington University School of Medicine and Health Sciences, Washington, D.C., 20052, USA
+  - University of Zurich, Department of Pediatrics, Zurich, Switzerland
 - github: aadamk
   name: Adam A. Kraya
   initials: AAK
@@ -472,7 +474,7 @@ authors:
   orcid: 0000-0002-3452-5150
   email: sabine.mueller@ucsf.edu
   contributions: Conceptualization
-  affiliations: University of California, San Francisco, San Francisco, CA, 94115, USA
+  affiliations: Department of Neurology, Neurosurgery and Pediatrics, University of California, San Francisco, San Francisco, CA, 94115, USA
 - github: bmennis
   name: Brian M. Ennis
   initials: BME
@@ -533,7 +535,7 @@ authors:
   initials: SK
   orcid: 0000-0002-1460-920X
   twitter: kshrivats
-  email: shrivats@seas.upenn.edu
+  email: shrivatskannan@gmail.com
   contributions:
   - Formal analysis
   - Methodology
@@ -564,7 +566,7 @@ authors:
   name: Meen Chul Kim
   initials: MCK
   orcid: 0000-0002-0308-783X
-  email: KIMM11@chop.edu
+  email: kimm11@chop.edu
   contributions: Data curation
   affiliations:
   - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA

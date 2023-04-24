@@ -719,11 +719,12 @@ authors:
   orcid: 0000-0001-8713-9213
   twitter: greenescientist
   email: greenescientist@gmail.com
+  symbol_str: +
   affiliations:
   - Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, 19104, USA
   - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, 19004, USA
-  - Center for Health AI, University of Colorado School of Medicine, Aurora, CO, 80045, USA
-  - Department of Biomedical Informatics, University of Colorado School of Medicine, Aurora, CO, 80045, USA
+  - Center for Health AI, University of Colorado School of Medicine, Aurora, CO, 80045, USA<sup>+</sup>
+  - Department of Biomedical Informatics, University of Colorado School of Medicine, Aurora, CO, 80045, USA<sup>+</sup>
   funders: Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
   contributions:
   - Conceptualization
@@ -734,7 +735,8 @@ authors:
   - Supervision
   - Writing – Review & editing
 - github: jharenza
-  name: Jo Lynne Rokita
+  symbol_str: *
+  name: Jo Lynne Rokita<sup>*</sup>
   initials: JR
   orcid: 0000-0003-2171-3627
   twitter: jolynnerokita

@@ -9,7 +9,7 @@ keywords:
 - classification
 - somatic variation
 lang: en-US
-date-meta: '2023-04-06'
+date-meta: '2023-04-24'
 author-meta:
 - Joshua A. Shapiro
 - Krutika S. Gaonkar
@@ -89,8 +89,8 @@ header-includes: |-
   <meta name="citation_title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="og:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="twitter:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
-  <meta name="dc.date" content="2023-04-06" />
-  <meta name="citation_publication_date" content="2023-04-06" />
+  <meta name="dc.date" content="2023-04-24" />
+  <meta name="citation_publication_date" content="2023-04-24" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -380,9 +380,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/b2753bbe23afcfdc11fa56fa42e164f855caf763/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/b2753bbe23afcfdc11fa56fa42e164f855caf763/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/b2753bbe23afcfdc11fa56fa42e164f855caf763/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/9418610a181fb8ab86649f120be5babf392e46a2/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/9418610a181fb8ab86649f120be5babf392e46a2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/9418610a181fb8ab86649f120be5babf392e46a2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -404,10 +404,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/b2753bbe23afcfdc11fa56fa42e164f855caf763/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/9418610a181fb8ab86649f120be5babf392e46a2/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@b2753bb](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/b2753bbe23afcfdc11fa56fa42e164f855caf763)
-on April 6, 2023.
+from [AlexsLemonade/OpenPBTA-manuscript@9418610](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/9418610a181fb8ab86649f120be5babf392e46a2)
+on April 24, 2023.
 </em></small>
 
 ## Authors
@@ -1621,22 +1621,26 @@ We maintained a data release folder on Amazon S3, downloadable directly from S3 
 As we produced new results (e.g., tumor mutation burden calculations) that we expected to be used across multiple analyses, or identified data issues, we created new data releases in a versioned manner.
 We reran all manuscript-specific analysis modules with the latest data release (v23) prior to submission and subsequently created a GitHub repository-tagged release to ensure reproducibility.
 
-### METHOD DETAILS
-
-#### Biospecimen Collection
-
-The Pediatric Brain Tumor Atlas specimens are comprised of samples from Children's Brain Tumor Network (CBTN) and the Pediatric Pacific Neuro-Oncology Consortium (PNOC).
+### EXPERIMENTAL MODEL AND STUDY PARTICIPANT DETAILS
+The Pediatric Brain Tumor Atlas specimens are comprised of samples from Children's Brain Tumor Network (CBTN) [@doi:10.1016/j.neo.2022.100846] and the Pediatric Pacific Neuro-Oncology Consortium (PNOC).
 The [CBTN](https://CBTN.org) is a collaborative, multi-institutional (32 institutions worldwide) research program dedicated to the study of childhood brain tumors.
 [PNOC](https://www.pnoc.us/) is an international consortium dedicated to bringing new therapies to children and young adults with brain tumors.
 We also include blood and tumor biospecimens from newly-diagnosed diffuse intrinsic pontine glioma (DIPG) patients as part of the PNOC003 clinical trial [PNOC003/NCT02274987](https://clinicaltrials.gov/ct2/show/NCT02274987) [@doi:10.1002/ijc.32258].
 
-The CBTN-generated cell lines were derived from either fresh tumor tissue directly obtained from surgery performed at Children’s Hospital of Philadelphia (CHOP) or from prospectively collected tumor specimens stored in Recover Cell Culture Freezing medium (cat# 12648010, Gibco).
-We dissociated tumor tissue using enzymatic method with papain as described [@doi:10.1093/neuonc/noz192].
-Briefly, we washed tissue with HBSS (cat# 14175095, Gibco), and we minced and incubated the tissue with activated papain solution (cat# LS003124, SciQuest) for up to 45 minutes.
-We used ovomucoid solution (cat# 542000, SciQuest) to inactivate the papain, briefly treated tissue with DNase (cat#  10104159001, Roche), passed it through the 100μm cell strainer (cat# 542000, Greiner Bio-One).
-We initiated two cell culture conditions based on the number of cells available.
-For cultures utilizing the fetal bovine serum (FBS), we plated a minimum density of 3×10<sup>5</sup> cells/mL in DMEM/F-12 medium (cat# D8062, Sigma) supplemented with 20% FBS (cat# SH30910.03, Hyclone), 1% GlutaMAX (cat# 35050061, Gibco), Penicillin/Streptomycin-Amphotericin B Mixture (cat# 17-745E, Lonza), and 0.2% Normocin (cat# ant-nr-2, Invivogen).
-For serum-free media conditions, we plated cells at minimum density of 1×10<sup>6</sup> cells/mL in DMEM/F12 medium supplemented with 1% GlutaMAX, 1X B-27 supplement minus vitamin A (cat# 12587-010, Gibco), 1x N-2 supplement (cat# 17502001, Gibco), 20 ng/ml epidermal growth factor (cat# PHG0311L, Gibco), 20 ng/mL basic fibroblast growth factor (cat# 100-18B, PeproTech), 2.5μg/mL heparin (cat# H3149, Sigma), Penicillin/Streptomycin-Amphotericin B Mixture, and 0.2% Normocin.
+#### Model generation
+
+Previously, CBTN-generated cell lines were derived from either fresh tumor tissue directly obtained from surgery performed at Children’s Hospital of Philadelphia (CHOP) or from prospectively collected tumor specimens stored in Recover Cell Culture Freezing medium (cat# 12648010, Gibco).
+Tumor tissue was dissociated using enzymatic method with papain as described [@doi:10.1093/neuonc/noz192].
+Briefly, we washed tissue with HBSS (cat# 14175095, Gibco), and tissue was minced and incubated with activated papain solution (cat# LS003124, SciQuest) for up to 45 minutes.
+Ovomucoid solution (cat# 542000, SciQuest) was used to inactivate the papain, tissue was briefly treated tissue with DNase (cat#  10104159001, Roche) and passed through a 100μm cell strainer (cat# 542000, Greiner Bio-One).
+Two cell culture conditions were initiated based on the number of cells available.
+For cultures utilizing the fetal bovine serum (FBS), cells were plated a minimum density of 3×10<sup>5</sup> cells/mL in DMEM/F-12 medium (cat# D8062, Sigma) supplemented with 20% FBS (cat# SH30910.03, Hyclone), 1% GlutaMAX (cat# 35050061, Gibco), Penicillin/Streptomycin-Amphotericin B Mixture (cat# 17-745E, Lonza), and 0.2% Normocin (cat# ant-nr-2, Invivogen).
+For serum-free media conditions, cells were plated at minimum density of 1×10<sup>6</sup> cells/mL in DMEM/F12 medium supplemented with 1% GlutaMAX, 1X B-27 supplement minus vitamin A (cat# 12587-010, Gibco), 1x N-2 supplement (cat# 17502001, Gibco), 20 ng/ml epidermal growth factor (cat# PHG0311L, Gibco), 20 ng/mL basic fibroblast growth factor (cat# 100-18B, PeproTech), 2.5μg/mL heparin (cat# H3149, Sigma), Penicillin/Streptomycin-Amphotericin B Mixture, and 0.2% Normocin.
+All cell lines used for nucleic acid extraction were confirmed to be mycoplasma-free.
+Guardian Forensic Sciences performed GenePrint 24 (cat# B1870, Promega), short tandem repeat (STR) analysis on cell line extracted DNA to both confirm identity and that they were free of cross-contamination.
+Additionally, we performed `NGSCheckMate` [@doi:10.1093/nar/gkx193] on matched DNA and RNA cell line (tumor) and peripheral blood (normal) CRAM files to further confirm identity.
+
+### METHOD DETAILS
 
 #### Nucleic acids extraction and library preparation
 
@@ -2092,6 +2096,7 @@ Next, we used multivariate Cox (proportional hazards) regression analysis [@doi:
 | Epidermal growth factor                       | Gibco                                                        | PHG0311L                                                                                                      |
 | Basic fibroblast growth factor                | PeproTech                                                    | 100-18B                                                                                                       |
 | Heparin                                       | Sigma                                                        | H3149                                                                                                         |
+| GenePrint 24 STR profiling kit                                       | Promega                                                        |B1870                                                                                                         |
 | DNA/RNA AllPrep Kit                           | Qiagen                                                       | 80204                                                                                                         |
 | TruSeq RNA Sample Prep Kit                    | Illumina                                                     | FC-122-1001                                                                                                   |
 | KAPA Library Preparation Kit                  | Roche                                                        | KK8201                                                                                                        |

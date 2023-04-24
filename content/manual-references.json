@@ -466,51 +466,1110 @@
     }
   },
   {
-    "id": "url:https://pubmed.ncbi.nlm.nih.gov/9751630/",
+    "id": "doi:10.1101/cshperspect.a026187",
+    "publisher": "Cold Spring Harbor Laboratory",
+    "issue": "4",
+    "DOI": "10.1101/cshperspect.a026187",
     "type": "article-journal",
-    "container-title": "Cancer Research",
-    "abstract": "The correlation between telomerase activity, telomere lengths, and cellular replicative capacity has led to the theory that maintenance of telomere lengths by telomerase acts as a molecular clock to control replicative capacity and senescence. Regulation of this molecular clock may have applications in the treatment of cell aging and tumorigenesis, although little is presently known about the regulation of telomerase activity. To investigate possible mechanisms of regulation, we examined telomerase activity and the expression of the human telomerase RNA subunit and the human telomerase reverse transcriptase protein (hTERT) during human fetal heart, liver, and kidney development. The human telomerase RNA subunit is expressed in all three tissues at all gestational ages examined. hTERT expression correlates with telomerase activity in the liver, where both are expressed at all ages surveyed, and in the heart, where both are present until the 11th gestational week but not thereafter. However, although telomerase activity in the kidney is suppressed after the 15th gestational week, the hTERT transcript can be detected until at least the 21st week. Reverse transcription-PCR using primers within the reverse transcriptase domain of hTERT show the presence of multiple alternately spliced transcripts in these tissues, corresponding to full-length message as well as spliced messages with critical reverse transcriptase motifs deleted. Of note, telomerase activity in the kidney is only present at those gestational ages when full-length hTERT message is expressed (until approximately week 15), with spliced transcripts continuing to be expressed at later stages of development. The tissue-specific and gestational-age dependent expression of hTERT mRNA seen in human development suggests the presence of at least two regulatory mechanisms controlling the activity of telomerase: transcriptional control of the hTERT gene and alternate splicing of hTERT transcripts.",
-    "language": "en",
-    "page": "4168-72",
-    "publisher": "Cancer Research",
-    "source": "Cancer Research",
-    "title": "Telomerase activity in human development is regulated by human telomerase reverse transcriptase (hTERT) transcription and by alternate splicing of hTERT transcripts",
-    "URL": "https://pubmed.ncbi.nlm.nih.gov/9751630/",
+    "page": "a026187",
+    "source": "Crossref",
+    "title": "Inherited TP53 Mutations and the Li–Fraumeni Syndrome",
+    "volume": "7",
     "author": [
       {
-        "family": "Ulaner",
-        "given": "GA"
+        "given": "Tanya",
+        "family": "Guha"
       },
       {
-        "family": "Hu",
-        "given": "JF"
+        "given": "David",
+        "family": "Malkin"
+      }
+    ],
+    "container-title": "Cold Spring Harbor Perspectives in Medicine",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          3,
+          7
+        ]
+      ]
+    },
+    "URL": "https://doi.org/f9s4h3",
+    "container-title-short": "Cold Spring Harb Perspect Med",
+    "PMCID": "PMC5378014",
+    "PMID": "28270529"
+  },
+  {
+    "id": "doi:10.1111/nan.12626",
+    "publisher": "Wiley",
+    "issue": "5",
+    "DOI": "10.1111/nan.12626",
+    "type": "article-journal",
+    "page": "506-509",
+    "source": "Crossref",
+    "title": "A polyphenotypic malignant paediatric brain tumour presenting a MN1‐PATZ1 fusion, no epigenetic similarities with CNS High‐Grade Neuroepithelial Tumour with MN1 Alteration (CNS HGNET‐MN1) and related to PATZ1‐fused sarcomas",
+    "volume": "46",
+    "author": [
+      {
+        "given": "F.",
+        "family": "Burel‐Vandenbos"
       },
       {
-        "family": "Giudice",
-        "given": "LC"
+        "given": "G.",
+        "family": "Pierron"
       },
       {
-        "family": "Hoffmann",
-        "given": "AR"
+        "given": "C.",
+        "family": "Thomas"
+      },
+      {
+        "given": "S.",
+        "family": "Reynaud"
+      },
+      {
+        "given": "V.",
+        "family": "Gregoire"
+      },
+      {
+        "given": "G.",
+        "family": "Duhil de Benaze"
+      },
+      {
+        "given": "S.",
+        "family": "Croze"
+      },
+      {
+        "given": "N.",
+        "family": "Chivoret"
+      },
+      {
+        "given": "M.",
+        "family": "Honavar"
+      },
+      {
+        "given": "D.",
+        "family": "Figarella‐Branger"
+      },
+      {
+        "given": "C.‐A.",
+        "family": "Maurage"
+      },
+      {
+        "given": "F.",
+        "family": "Pedeutour"
+      },
+      {
+        "given": "M.",
+        "family": "Hasselblatt"
+      },
+      {
+        "given": "C.",
+        "family": "Godfraind"
+      }
+    ],
+    "container-title": "Neuropathology and Applied Neurobiology",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          3
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gmndph",
+    "container-title-short": "Neuropathol Appl Neurobiol",
+    "PMID": "32397004"
+  },
+  {
+    "id": "doi:10.1200/jco.2010.31.1670",
+    "publisher": "American Society of Clinical Oncology (ASCO)",
+    "issue": "35",
+    "abstract": "<jats:sec><jats:title>Purpose</jats:title><jats:p> The role of TP53 mutations in the tumorigenesis of sporadic medulloblastoma (MB) and the value of TP53 mutation status as a prognostic marker are not yet definitely elucidated. A recent report identified TP53 mutations in MB as an adverse prognostic marker. Hence, the current study was conducted to validate the prognostic role of TP53 mutation in MB and to understand its contribution to tumorigenesis. </jats:p></jats:sec><jats:sec><jats:title>Methods</jats:title><jats:p> A comprehensive genetic analysis of 310 MB samples was performed by screening for TP53 mutations and further relating the TP53 mutation status to p53 immunostaining, cytogenetic aberrations, and clinical variables. </jats:p></jats:sec><jats:sec><jats:title>Results</jats:title><jats:p> Mutation analysis of TP53 revealed mutations in 21 (6.8%) of 310 samples. Germline TP53 mutations were found in two patients with a history suggestive of a hereditary cancer syndrome. TP53 mutation status was not associated with unfavorable prognosis (P = .63) and was not linked to 17p allelic loss but was over-represented in the prognostically favorable WNT subgroup of MB as defined by CTNNB1 mutation (seven of 35 TP53-mutated tumors v 14 of 271 TP53 wild-type tumors; P = .005) and in tumors carrying high-level MYCN amplification (seven of 21 TP53-mutated tumors v 14 of 282 TP53 wild-type tumors; P = .001). </jats:p></jats:sec><jats:sec><jats:title>Conclusion</jats:title><jats:p> The contradictory results in the recent literature concerning the prognostic value of TP53 mutation might be explained by different frequencies of WNT MBs, different frequencies of patients with Li-Fraumeni syndrome, and different cumulative doses of alkylating drugs applied in these studies. </jats:p></jats:sec>",
+    "DOI": "10.1200/jco.2010.31.1670",
+    "type": "article-journal",
+    "page": "5188-5196",
+    "source": "Crossref",
+    "title": "TP53 Mutation Is Frequently Associated With CTNNB1 Mutation or MYCN Amplification and Is Compatible With Long-Term Survival in Medulloblastoma",
+    "volume": "28",
+    "author": [
+      {
+        "given": "Elke",
+        "family": "Pfaff"
+      },
+      {
+        "given": "Marc",
+        "family": "Remke"
+      },
+      {
+        "given": "Dominik",
+        "family": "Sturm"
+      },
+      {
+        "given": "Axel",
+        "family": "Benner"
+      },
+      {
+        "given": "Hendrik",
+        "family": "Witt"
+      },
+      {
+        "given": "Till",
+        "family": "Milde"
+      },
+      {
+        "given": "André O.",
+        "family": "von Bueren"
+      },
+      {
+        "given": "Andrea",
+        "family": "Wittmann"
+      },
+      {
+        "given": "Anna",
+        "family": "Schöttler"
+      },
+      {
+        "given": "Norbert",
+        "family": "Jorch"
+      },
+      {
+        "given": "Norbert",
+        "family": "Graf"
+      },
+      {
+        "given": "Andreas E.",
+        "family": "Kulozik"
+      },
+      {
+        "given": "Olaf",
+        "family": "Witt"
+      },
+      {
+        "given": "Wolfram",
+        "family": "Scheurlen"
+      },
+      {
+        "given": "Andreas",
+        "family": "von Deimling"
+      },
+      {
+        "given": "Stefan",
+        "family": "Rutkowski"
+      },
+      {
+        "given": "Michael D.",
+        "family": "Taylor"
+      },
+      {
+        "given": "Uri",
+        "family": "Tabori"
+      },
+      {
+        "given": "Peter",
+        "family": "Lichter"
+      },
+      {
+        "given": "Andrey",
+        "family": "Korshunov"
+      },
+      {
+        "given": "Stefan M.",
+        "family": "Pfister"
+      }
+    ],
+    "container-title": "Journal of Clinical Oncology",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2010,
+          12,
+          10
+        ]
+      ]
+    },
+    "URL": "https://doi.org/dpd6hh",
+    "container-title-short": "JCO",
+    "PMID": "21060032"
+  },
+  {
+    "id": "doi:10.1002/gcc.22110",
+    "publisher": "Wiley",
+    "issue": "12",
+    "DOI": "10.1002/gcc.22110",
+    "type": "article-journal",
+    "page": "1150-1166",
+    "source": "Crossref",
+    "title": "Recurrent pre-existing and acquired DNA copy number alterations, including focal TERT gains, in neuroblastoma central nervous system metastases",
+    "volume": "52",
+    "author": [
+      {
+        "given": "David",
+        "family": "Cobrinik"
+      },
+      {
+        "given": "Irina",
+        "family": "Ostrovnaya"
+      },
+      {
+        "given": "Maryam",
+        "family": "Hassimi"
+      },
+      {
+        "given": "Satish K.",
+        "family": "Tickoo"
+      },
+      {
+        "given": "Irene Y.",
+        "family": "Cheung"
+      },
+      {
+        "given": "Nai-Kong V.",
+        "family": "Cheung"
+      }
+    ],
+    "container-title": "Genes, Chromosomes and Cancer",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          10,
+          10
+        ]
+      ]
+    },
+    "URL": "https://doi.org/f5gd94",
+    "container-title-short": "Genes Chromosomes Cancer",
+    "PMID": "24123354"
+  },
+  {
+    "id": "doi:10.1073/pnas.1300252110",
+    "publisher": "Proceedings of the National Academy of Sciences",
+    "issue": "20",
+    "abstract": "<jats:p>\n            Pediatric low-grade gliomas (PLGGs) are among the most common solid tumors in children but, apart from\n            <jats:italic>BRAF</jats:italic>\n            kinase mutations or duplications in specific subclasses, few genetic driver events are known. Diffuse PLGGs comprise a set of uncommon subtypes that exhibit invasive growth and are therefore especially challenging clinically. We performed high-resolution copy-number analysis on 44 formalin-fixed, paraffin-embedded diffuse PLGGs to identify recurrent alterations. Diffuse PLGGs exhibited fewer such alterations than adult low-grade gliomas, but we identified several significantly recurrent events. The most significant event, 8q13.1 gain, was observed in 28% of diffuse astrocytoma grade IIs and resulted in partial duplication of the transcription factor\n            <jats:italic>MYBL1</jats:italic>\n            with truncation of its C-terminal negative-regulatory domain. A similar recurrent deletion-truncation breakpoint was identified in two angiocentric gliomas in the related gene\n            <jats:italic>v-myb avian myeloblastosis viral oncogene homolog</jats:italic>\n            (\n            <jats:italic>MYB</jats:italic>\n            ) on 6q23.3. Whole-genome sequencing of a\n            <jats:italic>MYBL1</jats:italic>\n            -rearranged diffuse astrocytoma grade II demonstrated\n            <jats:italic>MYBL1</jats:italic>\n            tandem duplication and few other events. Truncated\n            <jats:italic>MYBL1</jats:italic>\n            transcripts identified in this tumor induced anchorage-independent growth in 3T3 cells and tumor formation in nude mice. Truncated transcripts were also expressed in two additional tumors with\n            <jats:italic>MYBL1</jats:italic>\n            partial duplication. Our results define clinically relevant molecular subclasses of diffuse PLGGs and highlight a potential role for the MYB family in the biology of low-grade gliomas.\n          </jats:p>",
+    "DOI": "10.1073/pnas.1300252110",
+    "type": "article-journal",
+    "page": "8188-8193",
+    "source": "Crossref",
+    "title": "Genomic analysis of diffuse pediatric low-grade gliomas identifies recurrent oncogenic truncating rearrangements in the transcription factor\n            <i>MYBL1</i>",
+    "volume": "110",
+    "author": [
+      {
+        "given": "Lori A.",
+        "family": "Ramkissoon"
+      },
+      {
+        "given": "Peleg M.",
+        "family": "Horowitz"
+      },
+      {
+        "given": "Justin M.",
+        "family": "Craig"
+      },
+      {
+        "given": "Shakti H.",
+        "family": "Ramkissoon"
+      },
+      {
+        "given": "Benjamin E.",
+        "family": "Rich"
+      },
+      {
+        "given": "Steven E.",
+        "family": "Schumacher"
+      },
+      {
+        "given": "Aaron",
+        "family": "McKenna"
+      },
+      {
+        "given": "Michael S.",
+        "family": "Lawrence"
+      },
+      {
+        "given": "Guillaume",
+        "family": "Bergthold"
+      },
+      {
+        "given": "Priscilla K.",
+        "family": "Brastianos"
+      },
+      {
+        "given": "Barbara",
+        "family": "Tabak"
+      },
+      {
+        "given": "Matthew D.",
+        "family": "Ducar"
+      },
+      {
+        "given": "Paul",
+        "family": "Van Hummelen"
+      },
+      {
+        "given": "Laura E.",
+        "family": "MacConaill"
+      },
+      {
+        "given": "Tina",
+        "family": "Pouissant-Young"
+      },
+      {
+        "given": "Yoon-Jae",
+        "family": "Cho"
+      },
+      {
+        "given": "Hala",
+        "family": "Taha"
+      },
+      {
+        "given": "Madeha",
+        "family": "Mahmoud"
+      },
+      {
+        "given": "Daniel C.",
+        "family": "Bowers"
+      },
+      {
+        "given": "Linda",
+        "family": "Margraf"
+      },
+      {
+        "given": "Uri",
+        "family": "Tabori"
+      },
+      {
+        "given": "Cynthia",
+        "family": "Hawkins"
+      },
+      {
+        "given": "Roger J.",
+        "family": "Packer"
+      },
+      {
+        "given": "D. Ashley",
+        "family": "Hill"
+      },
+      {
+        "given": "Scott L.",
+        "family": "Pomeroy"
+      },
+      {
+        "given": "Charles G.",
+        "family": "Eberhart"
+      },
+      {
+        "given": "Ian F.",
+        "family": "Dunn"
+      },
+      {
+        "given": "Liliana",
+        "family": "Goumnerova"
+      },
+      {
+        "given": "Gad",
+        "family": "Getz"
+      },
+      {
+        "given": "Jennifer A.",
+        "family": "Chan"
+      },
+      {
+        "given": "Sandro",
+        "family": "Santagata"
+      },
+      {
+        "given": "William C.",
+        "family": "Hahn"
+      },
+      {
+        "given": "Charles D.",
+        "family": "Stiles"
+      },
+      {
+        "given": "Azra H.",
+        "family": "Ligon"
+      },
+      {
+        "given": "Mark W.",
+        "family": "Kieran"
+      },
+      {
+        "given": "Rameen",
+        "family": "Beroukhim"
+      },
+      {
+        "given": "Keith L.",
+        "family": "Ligon"
+      }
+    ],
+    "container-title": "Proceedings of the National Academy of Sciences",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          4,
+          30
+        ]
+      ]
+    },
+    "URL": "https://doi.org/f42gg4",
+    "container-title-short": "Proc. Natl. Acad. Sci. U.S.A.",
+    "PMCID": "PMC3657784",
+    "PMID": "23633565"
+  },
+  {
+    "id": "doi:10.1093/bioinformatics/btu314",
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "17",
+    "abstract": "<jats:p>Motivation: Illumina DNA sequencing is now the predominant source of raw genomic data, and data volumes are growing rapidly. Bioinformatic analysis pipelines are having trouble keeping pace. A common bottleneck in such pipelines is the requirement to read, write, sort and compress large BAM files multiple times.</jats:p>\n               <jats:p>Results: We present SAMBLASTER, a tool that reduces the number of times such costly operations are performed. SAMBLASTER is designed to mark duplicates in read-sorted SAM files as a piped post-pass on DNA aligner output before it is compressed to BAM. In addition, it can simultaneously output into separate files the discordant read-pairs and/or split-read mappings used for structural variant calling. As an alignment post-pass, its own runtime overhead is negligible, while dramatically reducing overall pipeline complexity and runtime. As a stand-alone duplicate marking tool, it performs significantly better than PICARD or SAMBAMBA in terms of both speed and memory usage, while achieving nearly identical results.</jats:p>\n               <jats:p>Availability and implementation: SAMBLASTER is open-source C++ code and freely available for download from https://github.com/GregoryFaust/samblaster.</jats:p>\n               <jats:p>Contact:  imh4y@virginia.edu</jats:p>",
+    "DOI": "10.1093/bioinformatics/btu314",
+    "type": "article-journal",
+    "page": "2503-2505",
+    "source": "Crossref",
+    "title": "SAMBLASTER: fast duplicate marking and structural variant read extraction",
+    "volume": "30",
+    "author": [
+      {
+        "given": "Gregory G.",
+        "family": "Faust"
+      },
+      {
+        "given": "Ira M.",
+        "family": "Hall"
+      }
+    ],
+    "container-title": "Bioinformatics",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          5,
+          7
+        ]
+      ]
+    },
+    "URL": "https://doi.org/f6kft3",
+    "PMCID": "PMC4147885",
+    "PMID": "24812344"
+  },
+  {
+    "id": "doi:10.1093/neuonc/noaa251",
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "1",
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Malignant astrocytic gliomas in children show a remarkable biological and clinical diversity. Small in-frame insertions or missense mutations in the epidermal growth factor receptor gene (EGFR) have recently been identified in a distinct subset of pediatric-type bithalamic gliomas with a unique DNA methylation pattern.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>Here, we investigated an epigenetically homogeneous cohort of malignant gliomas (n = 58) distinct from other subtypes and enriched for pediatric cases and thalamic location, in comparison with this recently identified subtype of pediatric bithalamic gliomas.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>EGFR gene amplification was detected in 16/58 (27%) tumors, and missense mutations or small in-frame insertions in EGFR were found in 20/30 tumors with available sequencing data (67%; 5 of them co-occurring with EGFR amplification). Additionally, 8 of the 30 tumors (27%) harbored an H3.1 or H3.3 K27M mutation (6 of them with a concomitant EGFR alteration). All tumors tested showed loss of H3K27me3 staining, with evidence of overexpression of the EZH inhibitory protein (EZHIP) in the H3 wildtype cases. Although some tumors indeed showed a bithalamic growth pattern, a significant proportion of tumors occurred in the unilateral thalamus or in other (predominantly midline) locations.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>Our findings present a distinct molecular class of pediatric-type malignant gliomas largely overlapping with the recently reported bithalamic gliomas characterized by EGFR alteration, but additionally showing a broader spectrum of EGFR alterations and tumor localization. Global H3K27me3 loss in this group appears to be mediated by either H3 K27 mutation or EZHIP overexpression. EGFR inhibition may represent a potential therapeutic strategy in these highly aggressive gliomas.</jats:p>\n               </jats:sec>",
+    "DOI": "10.1093/neuonc/noaa251",
+    "type": "article-journal",
+    "page": "34-43",
+    "source": "Crossref",
+    "title": "A subset of pediatric-type thalamic gliomas share a distinct DNA methylation profile, H3K27me3 loss and frequent alteration of <i>EGFR</i>",
+    "volume": "23",
+    "author": [
+      {
+        "given": "Philipp",
+        "family": "Sievers"
+      },
+      {
+        "given": "Martin",
+        "family": "Sill"
+      },
+      {
+        "given": "Daniel",
+        "family": "Schrimpf"
+      },
+      {
+        "given": "Damian",
+        "family": "Stichel"
+      },
+      {
+        "given": "David E",
+        "family": "Reuss"
+      },
+      {
+        "given": "Dominik",
+        "family": "Sturm"
+      },
+      {
+        "given": "Jürgen",
+        "family": "Hench"
+      },
+      {
+        "given": "Stephan",
+        "family": "Frank"
+      },
+      {
+        "given": "Lenka",
+        "family": "Krskova"
+      },
+      {
+        "given": "Ales",
+        "family": "Vicha"
+      },
+      {
+        "given": "Michal",
+        "family": "Zapotocky"
+      },
+      {
+        "given": "Brigitte",
+        "family": "Bison"
+      },
+      {
+        "given": "David",
+        "family": "Castel"
+      },
+      {
+        "given": "Jacques",
+        "family": "Grill"
+      },
+      {
+        "given": "Marie-Anne",
+        "family": "Debily"
+      },
+      {
+        "given": "Patrick N",
+        "family": "Harter"
+      },
+      {
+        "given": "Matija",
+        "family": "Snuderl"
+      },
+      {
+        "given": "Christof M",
+        "family": "Kramm"
+      },
+      {
+        "given": "Guido",
+        "family": "Reifenberger"
+      },
+      {
+        "given": "Andrey",
+        "family": "Korshunov"
+      },
+      {
+        "given": "Nada",
+        "family": "Jabado"
+      },
+      {
+        "given": "Pieter",
+        "family": "Wesseling"
+      },
+      {
+        "given": "Wolfgang",
+        "family": "Wick"
+      },
+      {
+        "given": "David A",
+        "family": "Solomon"
+      },
+      {
+        "given": "Arie",
+        "family": "Perry"
+      },
+      {
+        "given": "Thomas S",
+        "family": "Jacques"
+      },
+      {
+        "given": "Chris",
+        "family": "Jones"
+      },
+      {
+        "given": "Olaf",
+        "family": "Witt"
+      },
+      {
+        "given": "Stefan M",
+        "family": "Pfister"
+      },
+      {
+        "given": "Andreas",
+        "family": "von Deimling"
+      },
+      {
+        "given": "David T W",
+        "family": "Jones"
+      },
+      {
+        "given": "Felix",
+        "family": "Sahm"
+      }
+    ],
+    "container-title": "Neuro-Oncology",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          1
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gnxj54",
+    "PMCID": "PMC7850075",
+    "PMID": "33130881"
+  },
+  {
+    "id": "doi:10.1073/pnas.1300252110",
+    "publisher": "Proceedings of the National Academy of Sciences",
+    "issue": "20",
+    "abstract": "<jats:p>\n            Pediatric low-grade gliomas (PLGGs) are among the most common solid tumors in children but, apart from\n            <jats:italic>BRAF</jats:italic>\n            kinase mutations or duplications in specific subclasses, few genetic driver events are known. Diffuse PLGGs comprise a set of uncommon subtypes that exhibit invasive growth and are therefore especially challenging clinically. We performed high-resolution copy-number analysis on 44 formalin-fixed, paraffin-embedded diffuse PLGGs to identify recurrent alterations. Diffuse PLGGs exhibited fewer such alterations than adult low-grade gliomas, but we identified several significantly recurrent events. The most significant event, 8q13.1 gain, was observed in 28% of diffuse astrocytoma grade IIs and resulted in partial duplication of the transcription factor\n            <jats:italic>MYBL1</jats:italic>\n            with truncation of its C-terminal negative-regulatory domain. A similar recurrent deletion-truncation breakpoint was identified in two angiocentric gliomas in the related gene\n            <jats:italic>v-myb avian myeloblastosis viral oncogene homolog</jats:italic>\n            (\n            <jats:italic>MYB</jats:italic>\n            ) on 6q23.3. Whole-genome sequencing of a\n            <jats:italic>MYBL1</jats:italic>\n            -rearranged diffuse astrocytoma grade II demonstrated\n            <jats:italic>MYBL1</jats:italic>\n            tandem duplication and few other events. Truncated\n            <jats:italic>MYBL1</jats:italic>\n            transcripts identified in this tumor induced anchorage-independent growth in 3T3 cells and tumor formation in nude mice. Truncated transcripts were also expressed in two additional tumors with\n            <jats:italic>MYBL1</jats:italic>\n            partial duplication. Our results define clinically relevant molecular subclasses of diffuse PLGGs and highlight a potential role for the MYB family in the biology of low-grade gliomas.\n          </jats:p>",
+    "DOI": "10.1073/pnas.1300252110",
+    "type": "article-journal",
+    "page": "8188-8193",
+    "source": "Crossref",
+    "title": "Genomic analysis of diffuse pediatric low-grade gliomas identifies recurrent oncogenic truncating rearrangements in the transcription factor MYBL1",
+    "volume": "110",
+    "author": [
+      {
+        "given": "Lori A.",
+        "family": "Ramkissoon"
+      },
+      {
+        "given": "Peleg M.",
+        "family": "Horowitz"
+      },
+      {
+        "given": "Justin M.",
+        "family": "Craig"
+      },
+      {
+        "given": "Shakti H.",
+        "family": "Ramkissoon"
+      },
+      {
+        "given": "Benjamin E.",
+        "family": "Rich"
+      },
+      {
+        "given": "Steven E.",
+        "family": "Schumacher"
+      },
+      {
+        "given": "Aaron",
+        "family": "McKenna"
+      },
+      {
+        "given": "Michael S.",
+        "family": "Lawrence"
+      },
+      {
+        "given": "Guillaume",
+        "family": "Bergthold"
+      },
+      {
+        "given": "Priscilla K.",
+        "family": "Brastianos"
+      },
+      {
+        "given": "Barbara",
+        "family": "Tabak"
+      },
+      {
+        "given": "Matthew D.",
+        "family": "Ducar"
+      },
+      {
+        "given": "Paul",
+        "family": "Van Hummelen"
+      },
+      {
+        "given": "Laura E.",
+        "family": "MacConaill"
+      },
+      {
+        "given": "Tina",
+        "family": "Pouissant-Young"
+      },
+      {
+        "given": "Yoon-Jae",
+        "family": "Cho"
+      },
+      {
+        "given": "Hala",
+        "family": "Taha"
+      },
+      {
+        "given": "Madeha",
+        "family": "Mahmoud"
+      },
+      {
+        "given": "Daniel C.",
+        "family": "Bowers"
+      },
+      {
+        "given": "Linda",
+        "family": "Margraf"
+      },
+      {
+        "given": "Uri",
+        "family": "Tabori"
+      },
+      {
+        "given": "Cynthia",
+        "family": "Hawkins"
+      },
+      {
+        "given": "Roger J.",
+        "family": "Packer"
+      },
+      {
+        "given": "D. Ashley",
+        "family": "Hill"
+      },
+      {
+        "given": "Scott L.",
+        "family": "Pomeroy"
+      },
+      {
+        "given": "Charles G.",
+        "family": "Eberhart"
+      },
+      {
+        "given": "Ian F.",
+        "family": "Dunn"
+      },
+      {
+        "given": "Liliana",
+        "family": "Goumnerova"
+      },
+      {
+        "given": "Gad",
+        "family": "Getz"
+      },
+      {
+        "given": "Jennifer A.",
+        "family": "Chan"
+      },
+      {
+        "given": "Sandro",
+        "family": "Santagata"
+      },
+      {
+        "given": "William C.",
+        "family": "Hahn"
+      },
+      {
+        "given": "Charles D.",
+        "family": "Stiles"
+      },
+      {
+        "given": "Azra H.",
+        "family": "Ligon"
+      },
+      {
+        "given": "Mark W.",
+        "family": "Kieran"
+      },
+      {
+        "given": "Rameen",
+        "family": "Beroukhim"
+      },
+      {
+        "given": "Keith L.",
+        "family": "Ligon"
+      }
+    ],
+    "container-title": "Proceedings of the National Academy of Sciences",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          4,
+          30
+        ]
+      ]
+    },
+    "URL": "https://doi.org/f42gg4",
+    "container-title-short": "Proc. Natl. Acad. Sci. U.S.A.",
+    "PMCID": "PMC3657784",
+    "PMID": "23633565"
+  },
+  {
+    "id": "doi:10.1093/neuonc/noaa251",
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "1",
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Malignant astrocytic gliomas in children show a remarkable biological and clinical diversity. Small in-frame insertions or missense mutations in the epidermal growth factor receptor gene (EGFR) have recently been identified in a distinct subset of pediatric-type bithalamic gliomas with a unique DNA methylation pattern.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>Here, we investigated an epigenetically homogeneous cohort of malignant gliomas (n = 58) distinct from other subtypes and enriched for pediatric cases and thalamic location, in comparison with this recently identified subtype of pediatric bithalamic gliomas.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>EGFR gene amplification was detected in 16/58 (27%) tumors, and missense mutations or small in-frame insertions in EGFR were found in 20/30 tumors with available sequencing data (67%; 5 of them co-occurring with EGFR amplification). Additionally, 8 of the 30 tumors (27%) harbored an H3.1 or H3.3 K27M mutation (6 of them with a concomitant EGFR alteration). All tumors tested showed loss of H3K27me3 staining, with evidence of overexpression of the EZH inhibitory protein (EZHIP) in the H3 wildtype cases. Although some tumors indeed showed a bithalamic growth pattern, a significant proportion of tumors occurred in the unilateral thalamus or in other (predominantly midline) locations.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>Our findings present a distinct molecular class of pediatric-type malignant gliomas largely overlapping with the recently reported bithalamic gliomas characterized by EGFR alteration, but additionally showing a broader spectrum of EGFR alterations and tumor localization. Global H3K27me3 loss in this group appears to be mediated by either H3 K27 mutation or EZHIP overexpression. EGFR inhibition may represent a potential therapeutic strategy in these highly aggressive gliomas.</jats:p>\n               </jats:sec>",
+    "DOI": "10.1093/neuonc/noaa251",
+    "type": "article-journal",
+    "page": "34-43",
+    "source": "Crossref",
+    "title": "A subset of pediatric-type thalamic gliomas share a distinct DNA methylation profile, H3K27me3 loss and frequent alteration of EGFR",
+    "volume": "23",
+    "author": [
+      {
+        "given": "Philipp",
+        "family": "Sievers"
+      },
+      {
+        "given": "Martin",
+        "family": "Sill"
+      },
+      {
+        "given": "Daniel",
+        "family": "Schrimpf"
+      },
+      {
+        "given": "Damian",
+        "family": "Stichel"
+      },
+      {
+        "given": "David E",
+        "family": "Reuss"
+      },
+      {
+        "given": "Dominik",
+        "family": "Sturm"
+      },
+      {
+        "given": "Jürgen",
+        "family": "Hench"
+      },
+      {
+        "given": "Stephan",
+        "family": "Frank"
+      },
+      {
+        "given": "Lenka",
+        "family": "Krskova"
+      },
+      {
+        "given": "Ales",
+        "family": "Vicha"
+      },
+      {
+        "given": "Michal",
+        "family": "Zapotocky"
+      },
+      {
+        "given": "Brigitte",
+        "family": "Bison"
+      },
+      {
+        "given": "David",
+        "family": "Castel"
+      },
+      {
+        "given": "Jacques",
+        "family": "Grill"
+      },
+      {
+        "given": "Marie-Anne",
+        "family": "Debily"
+      },
+      {
+        "given": "Patrick N",
+        "family": "Harter"
+      },
+      {
+        "given": "Matija",
+        "family": "Snuderl"
+      },
+      {
+        "given": "Christof M",
+        "family": "Kramm"
+      },
+      {
+        "given": "Guido",
+        "family": "Reifenberger"
+      },
+      {
+        "given": "Andrey",
+        "family": "Korshunov"
+      },
+      {
+        "given": "Nada",
+        "family": "Jabado"
+      },
+      {
+        "given": "Pieter",
+        "family": "Wesseling"
+      },
+      {
+        "given": "Wolfgang",
+        "family": "Wick"
+      },
+      {
+        "given": "David A",
+        "family": "Solomon"
+      },
+      {
+        "given": "Arie",
+        "family": "Perry"
+      },
+      {
+        "given": "Thomas S",
+        "family": "Jacques"
+      },
+      {
+        "given": "Chris",
+        "family": "Jones"
+      },
+      {
+        "given": "Olaf",
+        "family": "Witt"
+      },
+      {
+        "given": "Stefan M",
+        "family": "Pfister"
+      },
+      {
+        "given": "Andreas",
+        "family": "von Deimling"
+      },
+      {
+        "given": "David T W",
+        "family": "Jones"
+      },
+      {
+        "given": "Felix",
+        "family": "Sahm"
+      }
+    ],
+    "container-title": "Neuro-Oncology",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          1
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gnxj54",
+    "PMCID": "PMC7850075",
+    "PMID": "33130881"
+  },
+  {
+    "id": "arxiv:1303.3997",
+    "type": "article",
+    "abstract": "Summary: BWA-MEM is a new alignment algorithm for aligning sequence reads or long query sequences against a large reference genome such as human. It automatically chooses between local and end-to-end alignments, supports paired-end reads and performs chimeric alignment. The algorithm is robust to sequencing errors and applicable to a wide range of sequence lengths from 70bp to a few megabases. For mapping 100bp sequences, BWA-MEM shows better performance than several state-of-art read aligners to date. Availability and implementation: BWA-MEM is implemented as a component of BWA, which is available at http://github.com/lh3/bwa. Contact: hengli@broadinstitute.org",
+    "DOI": "10.48550/arXiv.1303.3997",
+    "publisher": "arXiv",
+    "source": "arXiv.org",
+    "container-title": "arXiv",
+    "title": "Aligning sequence reads, clone sequences and assembly contigs with BWA-MEM",
+    "URL": "http://arxiv.org/abs/1303.3997",
+    "author": [
+      {
+        "family": "Li",
+        "given": "Heng"
       }
     ],
     "accessed": {
       "date-parts": [
         [
           "2023",
-          2,
-          27
+          4,
+          24
         ]
       ]
     },
     "issued": {
       "date-parts": [
         [
-          "1998",
-          9,
-          15
+          "2013",
+          5,
+          26
         ]
       ]
     }
+  },
+  {
+    "id": "doi:10.1136/jitc-2021-004012",
+    "publisher": "BMJ",
+    "issue": "2",
+    "abstract": "<jats:sec><jats:title>Background</jats:title><jats:p>Programmed cell death protein-1 (PD-1) expression has been associated with activation and exhaustion of both the CD4 and CD8 populations in advanced non-small cell lung cancer (aNSCLC). Nevertheless, the impact of the balance between circulating CD8<jats:sup>+</jats:sup>PD-1<jats:sup>+</jats:sup> and CD4<jats:sup>+</jats:sup>PD-1<jats:sup>+</jats:sup> in patients treated with immune checkpoint blockers (ICB) is unknown.</jats:p></jats:sec><jats:sec><jats:title>Methods</jats:title><jats:p>The CD8<jats:sup>+</jats:sup>PD-1<jats:sup>+</jats:sup> to CD4<jats:sup>+</jats:sup>PD-1<jats:sup>+</jats:sup> ratio (PD-1-Expressing Ratio on Lymphocytes in a Systemic blood sample, or ‘PERLS’) was determined by cytometry in fresh whole blood from patients with aNSCLC before treatment with single-agent ICB targeting PD-1 or programmed cell death-ligand 1 (PD-L1 (discovery cohort). A PERLS cut-off was identified by log-rank maximization. Patients treated with ICB (validation cohort) or polychemotherapy (control cohort) were classified as PERLS+/− (above/below cut-off). Circulating immune cell phenotype and function were correlated with PERLS. A composite score (good, intermediate and poor) was determined using the combination of PERLS and senescent immune phenotype as previously described in aNSCLC.</jats:p></jats:sec><jats:sec><jats:title>Results</jats:title><jats:p>In the discovery cohort (N=75), the PERLS cut-off was 1.91, and 11% of patients were PERLS+. PERLS + correlated significantly with median progression-free survival (PFS) of 9.63 months (95% CI 7.82 to not reached (NR)) versus 2.69 months (95% CI 1.81 to 5.52; p=0.03). In an independent validation cohort (N=36), median PFS was NR (95% CI 7.9 to NR) versus 2.00 months (95% CI 1.3 to 4.5; p=0.04) for PERLS + and PERLS−, respectively; overall survival (OS) followed a similar but non-significant trend. In the pooled cohort (N=111), PERLS + correlated significantly with PFS and OS. PERLS did not correlate with outcome in the polychemotherapy cohort. PERLS did not correlate with clinical characteristics but was significantly associated with baseline circulating naïve CD4<jats:sup>+</jats:sup> T cells and the increase of memory T cells post-ICB treatment. Accumulation of memory T cells during treatment was linked to CD4<jats:sup>+</jats:sup> T cell polyfunctionality. The composite score was evaluated in the pooled cohort (N=68). The median OS for good, intermediate and poor composite scores was NR (95% CI NR to NR), 8.54 months (95% CI 4.96 to NR) and 2.42 months (95% CI 1.97 to 15.5; p=0.001), respectively. The median PFS was 12.60 months (95% CI 9.63 to NR), 2.58 months (95% CI 1.74 to 7.29) and 1.76 months (95% CI 1.31 to 4.57; p&lt;0.0001), respectively.</jats:p></jats:sec><jats:sec><jats:title>Conclusions</jats:title><jats:p>Elevated PERLS, determined from a blood sample before immunotherapy, was correlated with benefit from PD-(L)1 blockers in aNSCLC.</jats:p></jats:sec>",
+    "DOI": "10.1136/jitc-2021-004012",
+    "type": "article-journal",
+    "page": "e004012",
+    "source": "Crossref",
+    "title": "CD8⁺PD-1⁺ to CD4⁺PD-1⁺ ratio (PERLS) is associated with prognosis of patients with advanced NSCLC treated with PD-(L)1 blockers",
+    "volume": "10",
+    "author": [
+      {
+        "given": "Boris",
+        "family": "Duchemann"
+      },
+      {
+        "given": "Marie",
+        "family": "Naigeon"
+      },
+      {
+        "given": "Edouard",
+        "family": "Auclin"
+      },
+      {
+        "given": "Roberto",
+        "family": "Ferrara"
+      },
+      {
+        "given": "Lydie",
+        "family": "Cassard"
+      },
+      {
+        "given": "Jean-Mehdi",
+        "family": "Jouniaux"
+      },
+      {
+        "given": "Lisa",
+        "family": "Boselli"
+      },
+      {
+        "given": "Jonathan",
+        "family": "Grivel"
+      },
+      {
+        "given": "Aude",
+        "family": "Desnoyer"
+      },
+      {
+        "given": "François-Xavier",
+        "family": "Danlos"
+      },
+      {
+        "given": "Laura",
+        "family": "Mezquita"
+      },
+      {
+        "given": "Caroline",
+        "family": "Caramella"
+      },
+      {
+        "given": "Aurelien",
+        "family": "Marabelle"
+      },
+      {
+        "given": "Benjamin",
+        "family": "Besse"
+      },
+      {
+        "given": "Nathalie",
+        "family": "Chaput"
+      }
+    ],
+    "container-title": "Journal for ImmunoTherapy of Cancer",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          2
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gqc4j2",
+    "container-title-short": "J Immunother Cancer",
+    "PMCID": "PMC8823243",
+    "PMID": "35131864"
   }
 ]

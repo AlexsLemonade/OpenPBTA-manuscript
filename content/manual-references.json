@@ -1457,6 +1457,7 @@
     "publisher": "arXiv",
     "source": "arXiv.org",
     "container-title": "arXiv",
+    "page": "1303.3997",
     "title": "Aligning sequence reads, clone sequences and assembly contigs with BWA-MEM",
     "URL": "http://arxiv.org/abs/1303.3997",
     "author": [

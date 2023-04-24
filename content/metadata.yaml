@@ -735,7 +735,7 @@ authors:
   - Supervision
   - Writing – Review & editing
 - github: jharenza
-  symbol_str: *
+  symbol_str: ^
   name: Jo Lynne Rokita<sup>*</sup>
   initials: JR
   orcid: 0000-0003-2171-3627

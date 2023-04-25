@@ -1572,5 +1572,2114 @@
     "container-title-short": "J Immunother Cancer",
     "PMCID": "PMC8823243",
     "PMID": "35131864"
+  },
+  {
+    "publisher": "Oxford University Press (OUP)",
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>To achieve replicative immortality, most cancers develop a telomere maintenance mechanism, such as reactivation of telomerase or alternative lengthening of telomeres (ALT). There are limited data on the prevalence and clinical significance of ALT in pediatric brain tumors, and ALT-directed therapy is not available.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>We performed C-circle analysis (CCA) on 579 pediatric brain tumors that had corresponding tumor/normal whole genome sequencing through the Open Pediatric Brain Tumor Atlas (OpenPBTA). We detected ALT in 6.9% (n = 40/579) of these tumors and completed additional validation by ultrabright telomeric foci in situ on a subset of these tumors. We used CCA to validate TelomereHunter for computational prediction of ALT status and focus subsequent analyses on pediatric high-grade gliomas (pHGGs) Finally, we examined whether ALT is associated with recurrent somatic or germline alterations.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>ALT is common in pHGGs (n = 24/63, 38.1%), but occurs infrequently in other pediatric brain tumors (&amp;lt;3%). Somatic ATRX mutations occur in 50% of ALT+ pHGGs and in 30% of ALT− pHGGs. Rare pathogenic germline variants in mismatch repair (MMR) genes are significantly associated with an increased occurrence of ALT.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>We demonstrate that ATRX is mutated in only a subset of ALT+ pHGGs, suggesting other mechanisms of ATRX loss of function or alterations in other genes may be associated with the development of ALT in these patients. We show that germline variants in MMR are associated with the development of ALT in patients with pHGG.</jats:p>\n               </jats:sec>",
+    "DOI": "10.1093/neuonc/noac278",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Alternative lengthening of telomeres (ALT) in pediatric high-grade gliomas can occur without ATRX mutation and is enriched in patients with pathogenic germline mismatch repair (MMR) variants",
+    "author": [
+      {
+        "given": "Jennifer L",
+        "family": "Stundon"
+      },
+      {
+        "given": "Heba",
+        "family": "Ijaz"
+      },
+      {
+        "given": "Krutika S",
+        "family": "Gaonkar"
+      },
+      {
+        "given": "Rebecca S",
+        "family": "Kaufman"
+      },
+      {
+        "given": "Run",
+        "family": "Jin"
+      },
+      {
+        "given": "Anastasios",
+        "family": "Karras"
+      },
+      {
+        "given": "Zalman",
+        "family": "Vaksman"
+      },
+      {
+        "given": "Jung",
+        "family": "Kim"
+      },
+      {
+        "given": "Ryan J",
+        "family": "Corbett"
+      },
+      {
+        "given": "Matthew R",
+        "family": "Lueder"
+      },
+      {
+        "given": "Daniel P",
+        "family": "Miller"
+      },
+      {
+        "given": "Yiran",
+        "family": "Guo"
+      },
+      {
+        "given": "Mariarita",
+        "family": "Santi"
+      },
+      {
+        "given": "Marilyn",
+        "family": "Li"
+      },
+      {
+        "given": "Gonzalo",
+        "family": "Lopez"
+      },
+      {
+        "given": "Phillip B",
+        "family": "Storm"
+      },
+      {
+        "given": "Adam C",
+        "family": "Resnick"
+      },
+      {
+        "given": "Angela J",
+        "family": "Waanders"
+      },
+      {
+        "given": "Suzanne P",
+        "family": "MacFarland"
+      },
+      {
+        "given": "Douglas R",
+        "family": "Stewart"
+      },
+      {
+        "given": "Sharon J",
+        "family": "Diskin"
+      },
+      {
+        "given": "Jo Lynne",
+        "family": "Rokita"
+      },
+      {
+        "given": "Kristina A",
+        "family": "Cole"
+      }
+    ],
+    "container-title": "Neuro-Oncology",
+    "page": "noac278",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          20
+        ]
+      ]
+    },
+    "URL": "https://doi.org/grnc33",
+    "PMID": "36541551",
+    "id": "doi:10.1093/neuonc/noac278"
+  },
+  {
+    "id": "arxiv:1710.03675",
+    "type": "article",
+    "abstract": "We describe the Rocker project, which provides a widely-used suite of Docker images with customized R environments for particular tasks. We discuss how this suite is organized, and how these tools can increase portability, scaling, reproducibility, and convenience of R users and developers.",
+    "DOI": "10.48550/arXiv.1710.03675",
+    "publisher": "arXiv",
+    "source": "arXiv.org",
+    "container-title": "arXiv",
+    "page": "1710.03675",
+    "title": "An Introduction to Rocker: Docker Containers for R",
+    "title-short": "An Introduction to Rocker",
+    "URL": "http://arxiv.org/abs/1710.03675",
+    "author": [
+      {
+        "family": "Boettiger",
+        "given": "Carl"
+      },
+      {
+        "family": "Eddelbuettel",
+        "given": "Dirk"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2023",
+          4,
+          24
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2017",
+          10,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "DOI": "10.1186/s13029-016-0053-y",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "MM2S: personalized diagnosis of medulloblastoma patients and model systems",
+    "volume": "11",
+    "page": "6",
+    "author": [
+      {
+        "given": "Deena M.A.",
+        "family": "Gendoo"
+      },
+      {
+        "given": "Benjamin",
+        "family": "Haibe-Kains"
+      }
+    ],
+    "container-title": "Source Code for Biology and Medicine",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          4,
+          11
+        ]
+      ]
+    },
+    "URL": "https://doi.org/ghcqf2",
+    "container-title-short": "Source Code Biol Med",
+    "PMCID": "PMC4827218",
+    "PMID": "27069505",
+    "id": "doi:10.1186/s13029-016-0053-y"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "page": "30",
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Low grade gliomas are the most frequent brain tumors in children and encompass a spectrum of histologic entities which are currently assigned World Health Organisation grades I and II. They differ substantially from their adult counterparts in both their underlying genetic alterations and in the infrequency with which they transform to higher grade tumors. Nonetheless, children with low grade glioma are a therapeutic challenge due to the heterogeneity in their clinical behavior – in particular, those with incomplete surgical resection often suffer repeat progressions with resultant morbidity and, in some cases, mortality. The identification of up-regulation of the RAS–mitogen-activated protein kinase (RAS/MAPK) pathway as a near universal feature of these tumors has led to the development of targeted therapeutics aimed at improving responses while mitigating patient morbidity. Here, we review how molecular information can help to further define the entities which fall under the umbrella of pediatric-type low-grade glioma. In doing so we discuss the specific molecular drivers of pediatric low grade glioma and how to effectively test for them, review the newest therapeutic agents and their utility in treating this disease, and propose a risk-based stratification system that considers both clinical and molecular parameters to aid clinicians in making treatment decisions.</jats:p>",
+    "DOI": "10.1186/s40478-020-00902-z",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Pediatric low-grade glioma in the era of molecular diagnostics",
+    "volume": "8",
+    "author": [
+      {
+        "given": "Scott",
+        "family": "Ryall"
+      },
+      {
+        "given": "Uri",
+        "family": "Tabori"
+      },
+      {
+        "given": "Cynthia",
+        "family": "Hawkins"
+      }
+    ],
+    "container-title": "Acta Neuropathologica Communications",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          12
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gm3kst",
+    "container-title-short": "acta neuropathol commun",
+    "PMCID": "PMC7066826",
+    "PMID": "32164789",
+    "id": "doi:10.1186/s40478-020-00902-z"
+  },{
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Four molecular types of rare central nervous system (CNS) tumors have been recently identified by gene methylation profiling: CNS Neuroblastoma with <jats:italic>FOXR2</jats:italic> activation (CNS NB-FOXR2), CNS Ewing Sarcoma Family Tumor with <jats:italic>CIC</jats:italic> alteration (CNS EFT-CIC), CNS high grade neuroepithelial tumor with <jats:italic>MN1</jats:italic> alteration (CNS HGNET-MN1) and CNS high grade neuroepithelial tumor with <jats:italic>BCOR</jats:italic> alteration (CNS HGNET-BCOR). Although they are not represented in 2016 updated WHO classification of CNS tumors, their diagnostic recognition is important because of clinical consequences. We have introduced a diagnostic method based on transcription profiling of tumor specific signature genes from formalin-fixed, paraffin-embedded tumor blocks using NanoString nCounter Technology. Altogether, 14 out of 187 (7.4%) high grade pediatric brain tumors were diagnosed with either of four new CNS categories. Histopathological examination of the tumors confirmed, that they demonstrate a spectrum of morphology mimicking other CNS high grade tumors. However, they also exhibit some suggestive histopathological and immunohistochemical features that allow for a presumptive diagnosis prior to molecular assessment. Clinical characteristics of patients corroborated with the previous findings for CNS EFT-CIC, CNS NB-FOXR2 and CNS HGNET-MN1 patients, with a favorable survival rate for the latter two groups. Among six CNS HGNET-BCOR patients, three patients are long term survivors, suggesting possible heterogeneity within this molecular category of tumors. In summary, we confirmed the effectiveness of NanoString method using a single, multi-gene tumor specific signature and recommend this novel approach for identification of either one of the four newly described CNS tumor entities.</jats:p>",
+    "DOI": "10.1186/s40478-020-00984-9",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Molecular identification of CNS NB-FOXR2, CNS EFT-CIC, CNS HGNET-MN1 and CNS HGNET-BCOR pediatric brain tumors using tumor-specific signature genes",
+    "volume": "8",
+    "page": "105",
+    "author": [
+      {
+        "given": "Maria",
+        "family": "Łastowska"
+      },
+      {
+        "given": "Joanna",
+        "family": "Trubicka"
+      },
+      {
+        "given": "Anna",
+        "family": "Sobocińska"
+      },
+      {
+        "given": "Bartosz",
+        "family": "Wojtas"
+      },
+      {
+        "given": "Magdalena",
+        "family": "Niemira"
+      },
+      {
+        "given": "Anna",
+        "family": "Szałkowska"
+      },
+      {
+        "given": "Adam",
+        "family": "Krętowski"
+      },
+      {
+        "given": "Agnieszka",
+        "family": "Karkucińska-Więckowska"
+      },
+      {
+        "given": "Magdalena",
+        "family": "Kaleta"
+      },
+      {
+        "given": "Maria",
+        "family": "Ejmont"
+      },
+      {
+        "given": "Marta",
+        "family": "Perek-Polnik"
+      },
+      {
+        "given": "Bożenna",
+        "family": "Dembowska-Bagińska"
+      },
+      {
+        "given": "Wiesława",
+        "family": "Grajkowska"
+      },
+      {
+        "given": "Ewa",
+        "family": "Matyja"
+      }
+    ],
+    "container-title": "Acta Neuropathologica Communications",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          10
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gm3q3p",
+    "container-title-short": "acta neuropathol commun",
+    "PMCID": "PMC7350623",
+    "PMID": "32650833",
+    "id": "doi:10.1186/s40478-020-00984-9"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "DOI": "10.1186/s40478-020-00905-w",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Diffuse intrinsic pontine glioma-like tumor with EZHIP expression and molecular features of PFA ependymoma",
+    "volume": "8",
+    "page": "37",
+    "author": [
+      {
+        "given": "Drew",
+        "family": "Pratt"
+      },
+      {
+        "given": "Martha",
+        "family": "Quezado"
+      },
+      {
+        "given": "Zied",
+        "family": "Abdullaev"
+      },
+      {
+        "given": "Debra",
+        "family": "Hawes"
+      },
+      {
+        "given": "Fusheng",
+        "family": "Yang"
+      },
+      {
+        "given": "Hugh J. L.",
+        "family": "Garton"
+      },
+      {
+        "given": "Alexander R.",
+        "family": "Judkins"
+      },
+      {
+        "given": "Rajen",
+        "family": "Mody"
+      },
+      {
+        "given": "Arul",
+        "family": "Chinnaiyan"
+      },
+      {
+        "given": "Kenneth",
+        "family": "Aldape"
+      },
+      {
+        "given": "Carl",
+        "family": "Koschmann"
+      },
+      {
+        "given": "Sriram",
+        "family": "Venneti"
+      }
+    ],
+    "container-title": "Acta Neuropathologica Communications",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          20
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gm3ksv",
+    "container-title-short": "acta neuropathol commun",
+    "PMCID": "PMC7083001",
+    "PMID": "32197665",
+    "id": "doi:10.1186/s40478-020-00905-w"
+  },
+  {
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "12",
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Dysembryoplastic neuroepithelial tumors (DNT) lacking key diagnostic criteria are challenging to diagnose and sometimes fall into the broader category of mixed neuronal-glial tumors (MNGT) or the recently described polymorphous low-grade neuroepithelial tumor of the young (PLNTY). We examined 41 patients with DNT, MNGT, or PLNTY for histologic features, genomic findings, and progression-free survival (PFS). Genomic analysis included sequence and copy number variants and RNA-sequencing. Classic DNT (n = 26) was compared with those with diffuse growth without cortical nodules (n = 15), 6 of which exhibited impressive CD34 staining classifying them as PLNTY. Genomic analysis was complete in 33, with sequence alterations recurrently identified in BRAF, FGFR1, NF1, and PDGFRA, as well as 7 fusion genes involving FGFR2, FGFR1, NTRK2, and BRAF. Genetic alterations did not distinguish between MNGTs, DNTs, or PLNTYs; however, FGFR1 alterations were confined to DNT, and PLNTYs contained BRAF V600E or FGFR2 fusion genes. Analysis of PFS showed no significant difference by histology or genetic alteration; however, numbers were small and follow-up time short. Further molecular characterization of a PLNTY-related gene fusion, FGFR2-CTNNA3, demonstrated oncogenic potential via MAPK/PI3K/mTOR pathway activation. Overall, DNT-MNGT spectrum tumors exhibit diverse genomic alterations, with more than half (19/33) leading to MAPK/PI3K pathway alterations.</jats:p>",
+    "DOI": "10.1093/jnen/nlz101",
+    "type": "article-journal",
+    "page": "1100-1111",
+    "source": "Crossref",
+    "title": "Genomic Analysis of Dysembryoplastic Neuroepithelial Tumor Spectrum Reveals a Diversity of Molecular Alterations Dysregulating the MAPK and PI3K/mTOR Pathways",
+    "volume": "78",
+    "author": [
+      {
+        "given": "Lea F",
+        "family": "Surrey"
+      },
+      {
+        "given": "Payal",
+        "family": "Jain"
+      },
+      {
+        "given": "Bo",
+        "family": "Zhang"
+      },
+      {
+        "given": "Joshua",
+        "family": "Straka"
+      },
+      {
+        "given": "Xiaonan",
+        "family": "Zhao"
+      },
+      {
+        "given": "Brian N",
+        "family": "Harding"
+      },
+      {
+        "given": "Adam C",
+        "family": "Resnick"
+      },
+      {
+        "given": "Phillip B",
+        "family": "Storm"
+      },
+      {
+        "given": "Anna Maria",
+        "family": "Buccoliero"
+      },
+      {
+        "given": "Lorenzo",
+        "family": "Genitori"
+      },
+      {
+        "given": "Marilyn M",
+        "family": "Li"
+      },
+      {
+        "given": "Angela J",
+        "family": "Waanders"
+      },
+      {
+        "given": "Mariarita",
+        "family": "Santi"
+      }
+    ],
+    "container-title": "Journal of Neuropathology & Experimental Neurology",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          26
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gpnm3p",
+    "PMID": "31617914",
+    "id": "doi:10.1093/jnen/nlz101"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>The<jats:italic>FGFR1</jats:italic>gene encoding fibroblast growth factor receptor 1 has emerged as a frequently altered oncogene in the pathogenesis of multiple low-grade neuroepithelial tumor (LGNET) subtypes including pilocytic astrocytoma, dysembryoplastic neuroepithelial tumor (DNT), rosette-forming glioneuronal tumor (RGNT), and extraventricular neurocytoma (EVN). These activating<jats:italic>FGFR1</jats:italic>alterations in LGNET can include tandem duplication of the exons encoding the intracellular tyrosine kinase domain, in-frame gene fusions most often with<jats:italic>TACC1</jats:italic>as the partner, or hotspot missense mutations within the tyrosine kinase domain (either at p.N546 or p.K656). However, the specificity of these different<jats:italic>FGFR1</jats:italic>events for the various LGNET subtypes and accompanying genetic alterations are not well defined. Here we performed comprehensive genomic and epigenomic characterization on a diverse cohort of 30 LGNET with<jats:italic>FGFR1</jats:italic>alterations. We identified that RGNT harbors a distinct epigenetic signature compared to other LGNET with<jats:italic>FGFR1</jats:italic>alterations, and is uniquely characterized by<jats:italic>FGFR1</jats:italic>kinase domain hotspot missense mutations in combination with either<jats:italic>PIK3CA</jats:italic>or<jats:italic>PIK3R1</jats:italic>mutation, often with accompanying<jats:italic>NF1</jats:italic>or<jats:italic>PTPN11</jats:italic>mutation. In contrast, EVN harbors its own distinct epigenetic signature and is characterized by<jats:italic>FGFR1</jats:italic>-<jats:italic>TACC1</jats:italic>fusion as the solitary pathogenic alteration. Additionally, DNT and pilocytic astrocytoma are characterized by either kinase domain tandem duplication or hotspot missense mutations, occasionally with accompanying<jats:italic>NF1</jats:italic>or<jats:italic>PTPN11</jats:italic>mutation, but lacking the accompanying<jats:italic>PIK3CA</jats:italic>or<jats:italic>PIK3R1</jats:italic>mutation that characterizes RGNT. The glial component of LGNET with<jats:italic>FGFR1</jats:italic>alterations typically has a predominantly oligodendroglial morphology, and many of the pilocytic astrocytomas with<jats:italic>FGFR1</jats:italic>alterations lack the biphasic pattern, piloid processes, and Rosenthal fibers that characterize pilocytic astrocytomas with<jats:italic>BRAF</jats:italic>mutation or fusion. Together, this analysis improves the classification and histopathologic stratification of LGNET with<jats:italic>FGFR1</jats:italic>alterations.</jats:p>",
+    "DOI": "10.1186/s40478-020-01027-z",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Comprehensive analysis of diverse low-grade neuroepithelial tumors with FGFR1 alterations reveals a distinct molecular signature of rosette-forming glioneuronal tumor",
+    "volume": "8",
+    "page": "151",
+    "author": [
+      {
+        "given": "Calixto-Hope G.",
+        "family": "Lucas"
+      },
+      {
+        "given": "Rohit",
+        "family": "Gupta"
+      },
+      {
+        "given": "Pamela",
+        "family": "Doo"
+      },
+      {
+        "given": "Julieann C.",
+        "family": "Lee"
+      },
+      {
+        "given": "Cathryn R.",
+        "family": "Cadwell"
+      },
+      {
+        "given": "Biswarathan",
+        "family": "Ramani"
+      },
+      {
+        "given": "Jeffrey W.",
+        "family": "Hofmann"
+      },
+      {
+        "given": "Emily A.",
+        "family": "Sloan"
+      },
+      {
+        "given": "Bette K.",
+        "family": "Kleinschmidt-DeMasters"
+      },
+      {
+        "given": "Han S.",
+        "family": "Lee"
+      },
+      {
+        "given": "Matthew D.",
+        "family": "Wood"
+      },
+      {
+        "given": "Marjorie",
+        "family": "Grafe"
+      },
+      {
+        "given": "Donald",
+        "family": "Born"
+      },
+      {
+        "given": "Hannes",
+        "family": "Vogel"
+      },
+      {
+        "given": "Shahriar",
+        "family": "Salamat"
+      },
+      {
+        "given": "Diane",
+        "family": "Puccetti"
+      },
+      {
+        "given": "David",
+        "family": "Scharnhorst"
+      },
+      {
+        "given": "David",
+        "family": "Samuel"
+      },
+      {
+        "given": "Tabitha",
+        "family": "Cooney"
+      },
+      {
+        "given": "Elaine",
+        "family": "Cham"
+      },
+      {
+        "given": "Lee-way",
+        "family": "Jin"
+      },
+      {
+        "given": "Ziad",
+        "family": "Khatib"
+      },
+      {
+        "given": "Ossama",
+        "family": "Maher"
+      },
+      {
+        "given": "Gabriel",
+        "family": "Chamyan"
+      },
+      {
+        "given": "Carole",
+        "family": "Brathwaite"
+      },
+      {
+        "given": "Serguei",
+        "family": "Bannykh"
+      },
+      {
+        "given": "Sabine",
+        "family": "Mueller"
+      },
+      {
+        "given": "Cassie N.",
+        "family": "Kline"
+      },
+      {
+        "given": "Anu",
+        "family": "Banerjee"
+      },
+      {
+        "given": "Alyssa",
+        "family": "Reddy"
+      },
+      {
+        "given": "Jennie W.",
+        "family": "Taylor"
+      },
+      {
+        "given": "Jennifer L.",
+        "family": "Clarke"
+      },
+      {
+        "given": "Nancy Ann",
+        "family": "Oberheim Bush"
+      },
+      {
+        "given": "Nicholas",
+        "family": "Butowski"
+      },
+      {
+        "given": "Nalin",
+        "family": "Gupta"
+      },
+      {
+        "given": "Kurtis I.",
+        "family": "Auguste"
+      },
+      {
+        "given": "Peter P.",
+        "family": "Sun"
+      },
+      {
+        "given": "Jarod L.",
+        "family": "Roland"
+      },
+      {
+        "given": "Corey",
+        "family": "Raffel"
+      },
+      {
+        "given": "Manish K.",
+        "family": "Aghi"
+      },
+      {
+        "given": "Philip",
+        "family": "Theodosopoulos"
+      },
+      {
+        "given": "Edward",
+        "family": "Chang"
+      },
+      {
+        "given": "Shawn",
+        "family": "Hervey-Jumper"
+      },
+      {
+        "given": "Joanna J.",
+        "family": "Phillips"
+      },
+      {
+        "given": "Melike",
+        "family": "Pekmezci"
+      },
+      {
+        "given": "Andrew W.",
+        "family": "Bollen"
+      },
+      {
+        "given": "Tarik",
+        "family": "Tihan"
+      },
+      {
+        "given": "Susan",
+        "family": "Chang"
+      },
+      {
+        "given": "Mitchel S.",
+        "family": "Berger"
+      },
+      {
+        "given": "Arie",
+        "family": "Perry"
+      },
+      {
+        "given": "David A.",
+        "family": "Solomon"
+      }
+    ],
+    "container-title": "Acta Neuropathologica Communications",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          28
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gpnmx5",
+    "container-title-short": "acta neuropathol commun",
+    "PMCID": "PMC7456392",
+    "PMID": "32859279",
+    "id": "doi:10.1186/s40478-020-01027-z"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Active telomerase is essential for stem cells and most cancers to maintain telomeres. The enzymatic activity of telomerase is related but not equivalent to the expression of TERT, the catalytic subunit of the complex. Here we show that telomerase enzymatic activity can be robustly estimated from the expression of a 13-gene signature. We demonstrate the validity of the expression-based approach, named EXTEND, using cell lines, cancer samples, and non-neoplastic samples. When applied to over 9,000 tumors and single cells, we find a strong correlation between telomerase activity and cancer stemness. This correlation is largely driven by a small population of proliferating cancer cells that exhibits both high telomerase activity and cancer stemness. This study establishes a computational framework for quantifying telomerase enzymatic activity and provides new insights into the relationships among telomerase, cancer proliferation, and stemness.</jats:p>",
+    "DOI": "10.1038/s41467-020-20474-9",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Integrated analysis of telomerase enzymatic activity unravels an association with cancer stemness and proliferation",
+    "volume": "12",
+    "page": "139",
+    "author": [
+      {
+        "given": "Nighat",
+        "family": "Noureen"
+      },
+      {
+        "given": "Shaofang",
+        "family": "Wu"
+      },
+      {
+        "given": "Yingli",
+        "family": "Lv"
+      },
+      {
+        "given": "Juechen",
+        "family": "Yang"
+      },
+      {
+        "given": "W. K.",
+        "family": "Alfred Yung"
+      },
+      {
+        "given": "Jonathan",
+        "family": "Gelfond"
+      },
+      {
+        "given": "Xiaojing",
+        "family": "Wang"
+      },
+      {
+        "given": "Dimpy",
+        "family": "Koul"
+      },
+      {
+        "given": "Andrew",
+        "family": "Ludlow"
+      },
+      {
+        "given": "Siyuan",
+        "family": "Zheng"
+      }
+    ],
+    "container-title": "Nature Communications",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          8
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gmfxxd",
+    "container-title-short": "Nat Commun",
+    "PMCID": "PMC7794223",
+    "PMID": "33420056",
+    "id": "doi:10.1038/s41467-020-20474-9"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "3",
+    "DOI": "10.1007/s12032-016-0736-x",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Telomerase activity in breast cancer patients: association with poor prognosis and more aggressive phenotype",
+    "volume": "33",
+    "page": "23",
+    "author": [
+      {
+        "given": "Ana",
+        "family": "Kulić"
+      },
+      {
+        "given": "Natalija Dedić",
+        "family": "Plavetić"
+      },
+      {
+        "given": "Stjepan",
+        "family": "Gamulin"
+      },
+      {
+        "given": "Jasminka",
+        "family": "Jakić-Razumović"
+      },
+      {
+        "given": "Damir",
+        "family": "Vrbanec"
+      },
+      {
+        "given": "Maja",
+        "family": "Sirotković-Skerlev"
+      }
+    ],
+    "container-title": "Medical Oncology",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          1,
+          30
+        ]
+      ]
+    },
+    "URL": "https://doi.org/f8ck55",
+    "container-title-short": "Med Oncol",
+    "PMID": "26833480",
+    "id": "doi:10.1007/s12032-016-0736-x"
+  },
+  {
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "1",
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Vestibular schwannomas are tumors arising from the vestibulocochlear nerve at the cerebellopontine angle. Their proximity to eloquent brainstem structures means that the pathology itself and the treatment thereof can be associated with significant morbidity. The vast majority of these tumors are sporadic, with the remainder arising as a result of the genetic syndrome Neurofibromatosis Type 2 or, more rarely, LZTR1-related schwannomatosis. The natural history of these tumors is extremely variable, with some tumors not displaying any evidence of growth, others demonstrating early, persistent growth and a small number growing following an extended period of indolence. Emerging evidence now suggests that far from representing Schwann cell proliferation only, the tumor microenvironment is complex, with inflammation proposed to play a key role in their growth. In this review, we provide an overview of this new evidence, including the role played by immune cell infiltration, the underlying molecular pathways involved, and biomarkers for detecting this inflammation in vivo. Given the limitations of current treatments, there is a pressing need for novel therapies to aid in the management of this condition, and we conclude by proposing areas for future research that could lead to the development of therapies targeted toward inflammation in vestibular schwannoma.</jats:p>",
+    "DOI": "10.1093/noajnl/vdaa023",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "The inflammatory microenvironment in vestibular schwannoma",
+    "volume": "2",
+    "page": "vdaa023",
+    "author": [
+      {
+        "given": "Cathal John",
+        "family": "Hannan"
+      },
+      {
+        "given": "Daniel",
+        "family": "Lewis"
+      },
+      {
+        "given": "Claire",
+        "family": "O’Leary"
+      },
+      {
+        "given": "Carmine A",
+        "family": "Donofrio"
+      },
+      {
+        "given": "Dafydd Gareth",
+        "family": "Evans"
+      },
+      {
+        "given": "Federico",
+        "family": "Roncaroli"
+      },
+      {
+        "given": "David",
+        "family": "Brough"
+      },
+      {
+        "given": "Andrew Thomas",
+        "family": "King"
+      },
+      {
+        "given": "David",
+        "family": "Coope"
+      },
+      {
+        "given": "Omar Nathan",
+        "family": "Pathmanaban"
+      }
+    ],
+    "container-title": "Neuro-Oncology Advances",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          2,
+          27
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gpwh65",
+    "PMCID": "PMC7212860",
+    "PMID": "32642684",
+    "id": "doi:10.1093/noajnl/vdaa023"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "DOI": "10.1186/s40478-018-0553-x",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Non-inflammatory tumor microenvironment of diffuse intrinsic pontine glioma",
+    "volume": "6",
+    "page": "51",
+    "author": [
+      {
+        "given": "Grant L.",
+        "family": "Lin"
+      },
+      {
+        "given": "Surya",
+        "family": "Nagaraja"
+      },
+      {
+        "given": "Mariella G.",
+        "family": "Filbin"
+      },
+      {
+        "given": "Mario L.",
+        "family": "Suvà"
+      },
+      {
+        "given": "Hannes",
+        "family": "Vogel"
+      },
+      {
+        "given": "Michelle",
+        "family": "Monje"
+      }
+    ],
+    "container-title": "Acta Neuropathologica Communications",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          6,
+          28
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gp2nq6",
+    "container-title-short": "acta neuropathol commun",
+    "PMCID": "PMC6022714",
+    "PMID": "29954445",
+    "id": "doi:10.1186/s40478-018-0553-x"
+  },
+  {
+    "title": "The Inflammatory Milieu of Adamantinomatous Craniopharyngioma and Its Implications for Treatment.",
+    "volume": "9",
+    "issue": "2",
+    "page": "519",
+    "container-title": "Journal of clinical medicine",
+    "container-title-short": "J Clin Med",
+    "ISSN": "2077-0383",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          2,
+          14
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "Ros",
+        "family": "Whelan"
+      },
+      {
+        "given": "Eric",
+        "family": "Prince"
+      },
+      {
+        "given": "Ahmed",
+        "family": "Gilani"
+      },
+      {
+        "given": "Todd",
+        "family": "Hankinson"
+      }
+    ],
+    "PMID": "32075140",
+    "PMCID": "PMC7074265",
+    "DOI": "10.3390/jcm9020519",
+    "abstract": "Pediatric Adamantinomatous Craniopharyngiomas (ACPs) are histologically benign brain tumors that often follow an aggressive clinical course. Their suprasellar location leaves them in close proximity to critical neurological and vascular structures and often results in significant neuroendocrine morbidity. Current treatment paradigms, involving surgical resection and radiotherapy, confer significant morbidity to patients and there is an obvious need to discover effective and safe alternative treatments. Recent years have witnessed significant efforts to fully detail the genomic, transcriptomic and proteomic make-up of these tumors, in an attempt to identify potential therapeutic targets. These studies have resulted in ever mounting evidence that inflammatory processes and the immune response play a critical role in the pathogenesis of both the solid and cystic portion of ACPs. Several inflammatory and immune markers have been identified in both the cyst fluid and solid tumor tissue of ACP. Due to the existence of effective agents that target them, IL-6 and immune checkpoint inhibitors seem to present the most likely immediate candidates for clinical trials of targeted immune-related therapy in ACP. If effective, such agents may result in a paradigm shift in treatment that ultimately reduces morbidity and results in better outcomes for our patients.",
+    "URL": "https://www.ncbi.nlm.nih.gov/pubmed/32075140",
+    "type": "article-journal",
+    "id": "pubmed:32075140"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "abstract": "<jats:title>Abstract</jats:title><jats:sec>\n                <jats:title>Background</jats:title>\n                <jats:p>Gene fusion events are significant sources of somatic variation across adult and pediatric cancers and are some of the most clinically-effective therapeutic targets, yet low consensus of RNA-Seq fusion prediction algorithms makes therapeutic prioritization difficult. In addition, events such as polymerase read-throughs, mis-mapping due to gene homology, and fusions occurring in healthy normal tissue require informed filtering, making it difficult for researchers and clinicians to rapidly discern gene fusions that might be true underlying oncogenic drivers of a tumor and in some cases, appropriate targets for therapy.</jats:p>\n              </jats:sec><jats:sec>\n                <jats:title>Results</jats:title>\n                <jats:p>We developed <jats:italic>annoFuse</jats:italic>, an R package, and <jats:italic>shinyFuse</jats:italic>, a companion web application, to annotate, prioritize, and explore biologically-relevant expressed gene fusions, downstream of fusion calling. We validated <jats:italic>annoFuse</jats:italic> using a random cohort of TCGA RNA-Seq samples (N = 160) and achieved a 96% sensitivity for retention of high-confidence fusions (N = 603). <jats:italic>annoFuse</jats:italic> uses FusionAnnotator annotations to filter non-oncogenic and/or artifactual fusions. Then, fusions are prioritized if previously reported in TCGA and/or fusions containing gene partners that are known oncogenes, tumor suppressor genes, COSMIC genes, and/or transcription factors. We applied <jats:italic>annoFuse</jats:italic> to fusion calls from pediatric brain tumor RNA-Seq samples (N = 1028) provided as part of the Open Pediatric Brain Tumor Atlas (OpenPBTA) Project to determine recurrent fusions and recurrently-fused genes within different brain tumor histologies. <jats:italic>annoFuse</jats:italic> annotates protein domains using the PFAM database, assesses reciprocality, and annotates gene partners for kinase domain retention. As a standard function, <jats:italic>reportFuse</jats:italic> enables generation of a reproducible R Markdown report to summarize filtered fusions, visualize breakpoints and protein domains by transcript, and plot recurrent fusions within cohorts. Finally, we created <jats:italic>shinyFuse</jats:italic> for algorithm-agnostic interactive exploration and plotting of gene fusions.</jats:p>\n              </jats:sec><jats:sec>\n                <jats:title>Conclusions</jats:title>\n                <jats:p><jats:italic>annoFuse</jats:italic> provides standardized filtering and annotation for gene fusion calls from STAR-Fusion and Arriba by merging, filtering, and prioritizing putative oncogenic fusions across large cancer datasets, as demonstrated here with data from the OpenPBTA project. We are expanding the package to be widely-applicable to other fusion algorithms and expect <jats:italic>annoFuse</jats:italic> to provide researchers a method for rapidly evaluating, prioritizing, and translating fusion findings in patient tumors.</jats:p>\n              </jats:sec>",
+    "DOI": "10.1186/s12859-020-03922-7",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "annoFuse: an R Package to annotate, prioritize, and interactively explore putative oncogenic RNA fusions",
+    "volume": "21",
+    "page": "577",
+    "author": [
+      {
+        "given": "Krutika S.",
+        "family": "Gaonkar"
+      },
+      {
+        "given": "Federico",
+        "family": "Marini"
+      },
+      {
+        "given": "Komal S.",
+        "family": "Rathi"
+      },
+      {
+        "given": "Payal",
+        "family": "Jain"
+      },
+      {
+        "given": "Yuankun",
+        "family": "Zhu"
+      },
+      {
+        "given": "Nicholas A.",
+        "family": "Chimicles"
+      },
+      {
+        "given": "Miguel A.",
+        "family": "Brown"
+      },
+      {
+        "given": "Ammar S.",
+        "family": "Naqvi"
+      },
+      {
+        "given": "Bo",
+        "family": "Zhang"
+      },
+      {
+        "given": "Phillip B.",
+        "family": "Storm"
+      },
+      {
+        "given": "John M.",
+        "family": "Maris"
+      },
+      {
+        "given": "Pichai",
+        "family": "Raman"
+      },
+      {
+        "given": "Adam C.",
+        "family": "Resnick"
+      },
+      {
+        "given": "Konstantin",
+        "family": "Strauch"
+      },
+      {
+        "given": "Jaclyn N.",
+        "family": "Taroni"
+      },
+      {
+        "given": "Jo Lynne",
+        "family": "Rokita"
+      }
+    ],
+    "container-title": "BMC Bioinformatics",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          14
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gm84mh",
+    "container-title-short": "BMC Bioinformatics",
+    "PMCID": "PMC7737294",
+    "PMID": "33317447",
+    "id": "doi:10.1186/s12859-020-03922-7"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Reliable detection of somatic variations is of critical importance in cancer research. Here we present Lancet, an accurate and sensitive somatic variant caller, which detects SNVs and indels by jointly analyzing reads from tumor and matched normal samples using colored de Bruijn graphs. We demonstrate, through extensive experimental comparison on synthetic and real whole-genome sequencing datasets, that Lancet has better accuracy, especially for indel detection, than widely used somatic callers, such as MuTect, MuTect2, LoFreq, Strelka, and Strelka2. Lancet features a reliable variant scoring system, which is essential for variant prioritization, and detects low-frequency mutations without sacrificing the sensitivity to call longer insertions and deletions empowered by the local-assembly engine. In addition to genome-wide analysis, Lancet allows inspection of somatic variants in graph space, which augments the traditional read alignment visualization to help confirm a variant of interest. Lancet is available as an open-source program at <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/nygenome/lancet\">https://github.com/nygenome/lancet</jats:ext-link>.</jats:p>",
+    "DOI": "10.1038/s42003-018-0023-9",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Genome-wide somatic variant calling using localized colored de Bruijn graphs",
+    "volume": "1",
+    "page": "20",
+    "author": [
+      {
+        "given": "Giuseppe",
+        "family": "Narzisi"
+      },
+      {
+        "given": "André",
+        "family": "Corvelo"
+      },
+      {
+        "given": "Kanika",
+        "family": "Arora"
+      },
+      {
+        "given": "Ewa A.",
+        "family": "Bergmann"
+      },
+      {
+        "given": "Minita",
+        "family": "Shah"
+      },
+      {
+        "given": "Rajeeva",
+        "family": "Musunuri"
+      },
+      {
+        "given": "Anne-Katrin",
+        "family": "Emde"
+      },
+      {
+        "given": "Nicolas",
+        "family": "Robine"
+      },
+      {
+        "given": "Vladimir",
+        "family": "Vacic"
+      },
+      {
+        "given": "Michael C.",
+        "family": "Zody"
+      }
+    ],
+    "container-title": "Communications Biology",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          3,
+          22
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gfcfr8",
+    "container-title-short": "Commun Biol",
+    "PMCID": "PMC6123722",
+    "PMID": "30271907",
+    "id": "doi:10.1038/s42003-018-0023-9"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>To test the performance of a new sequencing platform, develop an updated somatic calling pipeline and establish a reference for future benchmarking experiments, we performed whole-genome sequencing of 3 common cancer cell lines (COLO-829, HCC-1143 and HCC-1187) along with their matched normal cell lines to great sequencing depths (up to 278x coverage) on both Illumina HiSeqX and NovaSeq sequencing instruments. Somatic calling was generally consistent between the two platforms despite minor differences at the read level. We designed and implemented a novel pipeline for the analysis of tumor-normal samples, using multiple variant callers. We show that coupled with a high-confidence filtering strategy, the use of combination of tools improves the accuracy of somatic variant calling. We also demonstrate the utility of the dataset by creating an artificial purity ladder to evaluate the somatic pipeline and benchmark methods for estimating purity and ploidy from tumor-normal pairs. The data and results of the pipeline are made accessible to the cancer genomics community.</jats:p>",
+    "DOI": "10.1038/s41598-019-55636-3",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Deep whole-genome sequencing of 3 cancer cell lines on 2 sequencing platforms",
+    "volume": "9",
+    "page": "19123",
+    "author": [
+      {
+        "given": "Kanika",
+        "family": "Arora"
+      },
+      {
+        "given": "Minita",
+        "family": "Shah"
+      },
+      {
+        "given": "Molly",
+        "family": "Johnson"
+      },
+      {
+        "given": "Rashesh",
+        "family": "Sanghvi"
+      },
+      {
+        "given": "Jennifer",
+        "family": "Shelton"
+      },
+      {
+        "given": "Kshithija",
+        "family": "Nagulapalli"
+      },
+      {
+        "given": "Dayna M.",
+        "family": "Oschwald"
+      },
+      {
+        "given": "Michael C.",
+        "family": "Zody"
+      },
+      {
+        "given": "Soren",
+        "family": "Germer"
+      },
+      {
+        "given": "Vaidehi",
+        "family": "Jobanputra"
+      },
+      {
+        "given": "Jade",
+        "family": "Carter"
+      },
+      {
+        "given": "Nicolas",
+        "family": "Robine"
+      }
+    ],
+    "container-title": "Scientific Reports",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          12,
+          13
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gqm73w",
+    "container-title-short": "Sci Rep",
+    "PMCID": "PMC6911065",
+    "PMID": "31836783",
+    "id": "doi:10.1038/s41598-019-55636-3"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "DOI": "10.1186/s13059-016-0974-4",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "The Ensembl Variant Effect Predictor",
+    "volume": "17",
+    "page": "122",
+    "author": [
+      {
+        "given": "William",
+        "family": "McLaren"
+      },
+      {
+        "given": "Laurent",
+        "family": "Gil"
+      },
+      {
+        "given": "Sarah E.",
+        "family": "Hunt"
+      },
+      {
+        "given": "Harpreet Singh",
+        "family": "Riat"
+      },
+      {
+        "given": "Graham R. S.",
+        "family": "Ritchie"
+      },
+      {
+        "given": "Anja",
+        "family": "Thormann"
+      },
+      {
+        "given": "Paul",
+        "family": "Flicek"
+      },
+      {
+        "given": "Fiona",
+        "family": "Cunningham"
+      }
+    ],
+    "container-title": "Genome Biology",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          6,
+          6
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gdz75c",
+    "container-title-short": "Genome Biol",
+    "PMCID": "PMC4893825",
+    "PMID": "27268795",
+    "id": "doi:10.1186/s13059-016-0974-4"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "4",
+    "DOI": "10.1186/gb-2011-12-4-r41",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "GISTIC2.0 facilitates sensitive and confident localization of the targets of focal somatic copy-number alteration in human cancers",
+    "volume": "12",
+    "page": "R41",
+    "author": [
+      {
+        "given": "Craig H",
+        "family": "Mermel"
+      },
+      {
+        "given": "Steven E",
+        "family": "Schumacher"
+      },
+      {
+        "given": "Barbara",
+        "family": "Hill"
+      },
+      {
+        "given": "Matthew L",
+        "family": "Meyerson"
+      },
+      {
+        "given": "Rameen",
+        "family": "Beroukhim"
+      },
+      {
+        "given": "Gad",
+        "family": "Getz"
+      }
+    ],
+    "container-title": "Genome Biology",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2011,
+          4
+        ]
+      ]
+    },
+    "URL": "https://doi.org/dzhjqh",
+    "container-title-short": "Genome Biol",
+    "PMCID": "PMC3218867",
+    "PMID": "21527027",
+    "id": "doi:10.1186/gb-2011-12-4-r41"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "DOI": "10.1038/ncomms3612",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Inferring tumour purity and stromal and immune cell admixture from expression data",
+    "volume": "4",
+    "page": "2612",
+    "author": [
+      {
+        "given": "Kosuke",
+        "family": "Yoshihara"
+      },
+      {
+        "given": "Maria",
+        "family": "Shahmoradgoli"
+      },
+      {
+        "given": "Emmanuel",
+        "family": "Martínez"
+      },
+      {
+        "given": "Rahulsimham",
+        "family": "Vegesna"
+      },
+      {
+        "given": "Hoon",
+        "family": "Kim"
+      },
+      {
+        "given": "Wandaliz",
+        "family": "Torres-Garcia"
+      },
+      {
+        "given": "Victor",
+        "family": "Treviño"
+      },
+      {
+        "given": "Hui",
+        "family": "Shen"
+      },
+      {
+        "given": "Peter W.",
+        "family": "Laird"
+      },
+      {
+        "given": "Douglas A.",
+        "family": "Levine"
+      },
+      {
+        "given": "Scott L.",
+        "family": "Carter"
+      },
+      {
+        "given": "Gad",
+        "family": "Getz"
+      },
+      {
+        "given": "Katherine",
+        "family": "Stemke-Hale"
+      },
+      {
+        "given": "Gordon B.",
+        "family": "Mills"
+      },
+      {
+        "given": "Roel G.W.",
+        "family": "Verhaak"
+      }
+    ],
+    "container-title": "Nature Communications",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          10,
+          11
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gbd4jn",
+    "container-title-short": "Nat Commun",
+    "PMCID": "PMC3826632",
+    "PMID": "24113773",
+    "id": "doi:10.1038/ncomms3612"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "DOI": "10.1186/s13073-019-0638-6",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Molecular and pharmacological modulators of the tumor immune contexture revealed by deconvolution of RNA-seq data",
+    "volume": "11",
+    "page": "34",
+    "author": [
+      {
+        "given": "Francesca",
+        "family": "Finotello"
+      },
+      {
+        "given": "Clemens",
+        "family": "Mayer"
+      },
+      {
+        "given": "Christina",
+        "family": "Plattner"
+      },
+      {
+        "given": "Gerhard",
+        "family": "Laschober"
+      },
+      {
+        "given": "Dietmar",
+        "family": "Rieder"
+      },
+      {
+        "given": "Hubert",
+        "family": "Hackl"
+      },
+      {
+        "given": "Anne",
+        "family": "Krogsdam"
+      },
+      {
+        "given": "Zuzana",
+        "family": "Loncova"
+      },
+      {
+        "given": "Wilfried",
+        "family": "Posch"
+      },
+      {
+        "given": "Doris",
+        "family": "Wilflingseder"
+      },
+      {
+        "given": "Sieghart",
+        "family": "Sopper"
+      },
+      {
+        "given": "Marieke",
+        "family": "Ijsselsteijn"
+      },
+      {
+        "given": "Thomas P.",
+        "family": "Brouwer"
+      },
+      {
+        "given": "Douglas",
+        "family": "Johnson"
+      },
+      {
+        "given": "Yaomin",
+        "family": "Xu"
+      },
+      {
+        "given": "Yu",
+        "family": "Wang"
+      },
+      {
+        "given": "Melinda E.",
+        "family": "Sanders"
+      },
+      {
+        "given": "Monica V.",
+        "family": "Estrada"
+      },
+      {
+        "given": "Paula",
+        "family": "Ericsson-Gonzalez"
+      },
+      {
+        "given": "Pornpimol",
+        "family": "Charoentong"
+      },
+      {
+        "given": "Justin",
+        "family": "Balko"
+      },
+      {
+        "given": "Noel Filipe da Cunha Carvalho",
+        "family": "de Miranda"
+      },
+      {
+        "given": "Zlatko",
+        "family": "Trajanoski"
+      }
+    ],
+    "container-title": "Genome Medicine",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          24
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gf5jwc",
+    "container-title-short": "Genome Med",
+    "PMCID": "PMC6534875",
+    "PMID": "31126321",
+    "id": "doi:10.1186/s13073-019-0638-6"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "abstract": "<jats:title>Abstract</jats:title>\n          <jats:sec>\n            <jats:title>Background</jats:title>\n            <jats:p>Gene set enrichment (GSE) analysis is a popular framework for condensing information from gene expression profiles into a pathway or signature summary. The strengths of this approach over single gene analysis include noise and dimension reduction, as well as greater biological interpretability. As molecular profiling experiments move beyond simple case-control studies, robust and flexible GSE methodologies are needed that can model pathway activity within highly heterogeneous data sets.</jats:p>\n          </jats:sec>\n          <jats:sec>\n            <jats:title>Results</jats:title>\n            <jats:p>To address this challenge, we introduce Gene Set Variation Analysis (GSVA), a GSE method that estimates variation of pathway activity over a sample population in an unsupervised manner. We demonstrate the robustness of GSVA in a comparison with current state of the art sample-wise enrichment methods. Further, we provide examples of its utility in differential pathway activity and survival analysis. Lastly, we show how GSVA works analogously with data from both microarray and RNA-seq experiments.</jats:p>\n          </jats:sec>\n          <jats:sec>\n            <jats:title>Conclusions</jats:title>\n            <jats:p>GSVA provides increased power to detect subtle pathway activity changes over a sample population in comparison to corresponding methods. While GSE methods are generally regarded as end points of a bioinformatic analysis, GSVA constitutes a starting point to build pathway-centric models of biology. Moreover, GSVA contributes to the current need of GSE methods for RNA-seq data. GSVA is an open source software package for R which forms part of the Bioconductor project and can be downloaded at <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"http://www.bioconductor.org\" ext-link-type=\"uri\">http://www.bioconductor.org</jats:ext-link>.</jats:p>\n          </jats:sec>",
+    "DOI": "10.1186/1471-2105-14-7",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "GSVA: gene set variation analysis for microarray and RNA-Seq data",
+    "volume": "14",
+    "page": "7",
+    "author": [
+      {
+        "given": "Sonja",
+        "family": "Hänzelmann"
+      },
+      {
+        "given": "Robert",
+        "family": "Castelo"
+      },
+      {
+        "given": "Justin",
+        "family": "Guinney"
+      }
+    ],
+    "container-title": "BMC Bioinformatics",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          1,
+          16
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gb8vx5",
+    "container-title-short": "BMC Bioinformatics",
+    "PMCID": "PMC3618321",
+    "PMID": "23323831",
+    "id": "doi:10.1186/1471-2105-14-7"
+  },
+  {
+    "id": "url:https://doi.org/10.48550/arXiv.1802.03426",
+    "type": "article",
+    "abstract": "UMAP (Uniform Manifold Approximation and Projection) is a novel manifold learning technique for dimension reduction. UMAP is constructed from a theoretical framework based in Riemannian geometry and algebraic topology. The result is a practical scalable algorithm that applies to real world data. The UMAP algorithm is competitive with t-SNE for visualization quality, and arguably preserves more of the global structure with superior run time performance. Furthermore, UMAP has no computational restrictions on embedding dimension, making it viable as a general purpose dimension reduction technique for machine learning.",
+    "DOI": "10.48550/arXiv.1802.03426",
+    "publisher": "arXiv",
+    "container-title": "arXiv",
+    "page": "1802.03426",
+    "source": "arXiv.org",
+    "title": "UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction",
+    "title-short": "UMAP",
+    "URL": "http://arxiv.org/abs/1802.03426",
+    "author": [
+      {
+        "family": "McInnes",
+        "given": "Leland"
+      },
+      {
+        "family": "Healy",
+        "given": "John"
+      },
+      {
+        "family": "Melville",
+        "given": "James"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2023",
+          4,
+          24
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          9,
+          17
+        ]
+      ]
+    }
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "2",
+    "DOI": "10.1007/s11910-017-0722-5",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "New Molecular Considerations for Glioma: IDH, ATRX, BRAF, TERT, H3 K27M",
+    "volume": "17",
+    "page": "19",
+    "author": [
+      {
+        "given": "Michael",
+        "family": "Karsy"
+      },
+      {
+        "given": "Jian",
+        "family": "Guan"
+      },
+      {
+        "given": "Adam L.",
+        "family": "Cohen"
+      },
+      {
+        "given": "Randy L.",
+        "family": "Jensen"
+      },
+      {
+        "given": "Howard",
+        "family": "Colman"
+      }
+    ],
+    "container-title": "Current Neurology and Neuroscience Reports",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          2
+        ]
+      ]
+    },
+    "URL": "https://doi.org/ggdhk2",
+    "container-title-short": "Curr Neurol Neurosci Rep",
+    "PMID": "28271343",
+    "id": "doi:10.1007/s11910-017-0722-5"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>During implantation, cytotrophoblasts undergo epithelial-to-mesenchymal transition (EMT) as they differentiate into invasive extravillous trophoblasts (EVTs). The primate-specific microRNA cluster on chromosome 19 (C19MC) is exclusively expressed in the placenta, embryonic stem cells and certain cancers however, its role in EMT gene regulation is unknown. <jats:italic>In situ</jats:italic> hybridization for miR-517a/c, a C19MC cistron microRNA, in first trimester human placentas displayed strong expression in villous trophoblasts and a gradual decrease from proximal to distal cell columns as cytotrophoblasts differentiate into invasive EVTs. To investigate the role of C19MC in the regulation of EMT genes, we employed the CRISPR/dCas9 Synergistic Activation Mediator (SAM) system, which induced robust transcriptional activation of the entire C19MC cistron and resulted in suppression of EMT associated genes. Exposure of human iPSCs to hypoxia or differentiation of iPSCs into either cytotrophoblast-stem-like cells or EVT-like cells under hypoxia reduced C19MC expression and increased EMT genes. Furthermore, transcriptional activation of the C19MC cistron induced the expression of OCT4 and FGF4 and accelerated cellular reprogramming. This study establishes the CRISPR/dCas9 SAM as a powerful tool that enables activation of the entire C19MC cistron and uncovers its novel role in suppressing EMT genes critical for maintaining the epithelial cytotrophoblasts stem cell phenotype.</jats:p>",
+    "DOI": "10.1038/s41598-020-59812-8",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Chromosome 19 microRNA cluster enhances cell reprogramming by inhibiting epithelial-to-mesenchymal transition",
+    "volume": "10",
+    "page": "3029",
+    "author": [
+      {
+        "given": "Ezinne F.",
+        "family": "Mong"
+      },
+      {
+        "given": "Ying",
+        "family": "Yang"
+      },
+      {
+        "given": "Kemal M.",
+        "family": "Akat"
+      },
+      {
+        "given": "John",
+        "family": "Canfield"
+      },
+      {
+        "given": "Jeffrey",
+        "family": "VanWye"
+      },
+      {
+        "given": "John",
+        "family": "Lockhart"
+      },
+      {
+        "given": "John C. M.",
+        "family": "Tsibris"
+      },
+      {
+        "given": "Frederick",
+        "family": "Schatz"
+      },
+      {
+        "given": "Charles J.",
+        "family": "Lockwood"
+      },
+      {
+        "given": "Thomas",
+        "family": "Tuschl"
+      },
+      {
+        "given": "Umit A.",
+        "family": "Kayisli"
+      },
+      {
+        "given": "Hana",
+        "family": "Totary-Jain"
+      }
+    ],
+    "container-title": "Scientific Reports",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          2,
+          20
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gg329d",
+    "container-title-short": "Sci Rep",
+    "PMCID": "PMC7033247",
+    "PMID": "32080251",
+    "id": "doi:10.1038/s41598-020-59812-8"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>High-grade meningiomas frequently recur and are associated with high rates of morbidity and mortality. To determine the factors that promote the development and evolution of these tumors, we analyzed the genomes of 134 high-grade meningiomas and compared this information with data from 595 previously published meningiomas. High-grade meningiomas had a higher mutation burden than low-grade meningiomas but did not harbor any significantly mutated genes aside from <jats:italic>NF2</jats:italic>. High-grade meningiomas also possessed significantly elevated rates of chromosomal gains and losses, especially among tumors with monosomy 22. Meningiomas previously treated with adjuvant radiation had significantly more copy number alterations than radiation-induced or radiation-naïve meningiomas. Across serial recurrences, genomic disruption preceded the emergence of nearly all mutations, remained largely uniform across time, and when present in low-grade meningiomas correlated with subsequent progression to a higher grade. In contrast to the largely stable copy number alterations, mutations were strikingly heterogeneous across tumor recurrences, likely due to extensive geographic heterogeneity in the primary tumor. While high-grade meningiomas harbored significantly fewer overtly targetable alterations than low-grade meningiomas, they contained numerous mutations that are predicted to be neoantigens, suggesting that immunologic targeting may be of therapeutic value.</jats:p>",
+    "DOI": "10.1038/s41525-017-0014-7",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Genomic landscape of high-grade meningiomas",
+    "volume": "2",
+    "page": "15",
+    "author": [
+      {
+        "given": "Wenya Linda",
+        "family": "Bi"
+      },
+      {
+        "given": "Noah F.",
+        "family": "Greenwald"
+      },
+      {
+        "given": "Malak",
+        "family": "Abedalthagafi"
+      },
+      {
+        "given": "Jeremiah",
+        "family": "Wala"
+      },
+      {
+        "given": "Will J.",
+        "family": "Gibson"
+      },
+      {
+        "given": "Pankaj K.",
+        "family": "Agarwalla"
+      },
+      {
+        "given": "Peleg",
+        "family": "Horowitz"
+      },
+      {
+        "given": "Steven E.",
+        "family": "Schumacher"
+      },
+      {
+        "given": "Ekaterina",
+        "family": "Esaulova"
+      },
+      {
+        "given": "Yu",
+        "family": "Mei"
+      },
+      {
+        "given": "Aaron",
+        "family": "Chevalier"
+      },
+      {
+        "given": "Matthew",
+        "family": "A. Ducar"
+      },
+      {
+        "given": "Aaron R.",
+        "family": "Thorner"
+      },
+      {
+        "given": "Paul",
+        "family": "van Hummelen"
+      },
+      {
+        "given": "Anat",
+        "family": "O. Stemmer-Rachamimov"
+      },
+      {
+        "given": "Maksym",
+        "family": "Artyomov"
+      },
+      {
+        "given": "Ossama",
+        "family": "Al-Mefty"
+      },
+      {
+        "given": "Gavin P.",
+        "family": "Dunn"
+      },
+      {
+        "given": "Sandro",
+        "family": "Santagata"
+      },
+      {
+        "given": "Ian F.",
+        "family": "Dunn"
+      },
+      {
+        "given": "Rameen",
+        "family": "Beroukhim"
+      }
+    ],
+    "container-title": "npj Genomic Medicine",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          4,
+          26
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gbnhbw",
+    "container-title-short": "npj Genomic Med",
+    "PMCID": "PMC5506858",
+    "PMID": "28713588",
+    "id": "doi:10.1038/s41525-017-0014-7"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "DOI": "10.1186/s40478-020-01056-8",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "EZHIP is a specific diagnostic biomarker for posterior fossa ependymomas, group PFA and diffuse midline gliomas H3-WT with EZHIP overexpression",
+    "volume": "8",
+    "page": "183",
+    "author": [
+      {
+        "given": "C.",
+        "family": "Antin"
+      },
+      {
+        "given": "A.",
+        "family": "Tauziède-Espariat"
+      },
+      {
+        "given": "M.-A.",
+        "family": "Debily"
+      },
+      {
+        "given": "D.",
+        "family": "Castel"
+      },
+      {
+        "given": "J.",
+        "family": "Grill"
+      },
+      {
+        "given": "M.",
+        "family": "Pagès"
+      },
+      {
+        "given": "O.",
+        "family": "Ayrault"
+      },
+      {
+        "given": "F.",
+        "family": "Chrétien"
+      },
+      {
+        "given": "A.",
+        "family": "Gareton"
+      },
+      {
+        "given": "F.",
+        "family": "Andreiuolo"
+      },
+      {
+        "given": "E.",
+        "family": "Lechapt"
+      },
+      {
+        "given": "P.",
+        "family": "Varlet"
+      }
+    ],
+    "container-title": "Acta Neuropathologica Communications",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          5
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gm3q3q",
+    "container-title-short": "acta neuropathol commun",
+    "PMCID": "PMC7643397",
+    "PMID": "33153494",
+    "id": "doi:10.1186/s40478-020-01056-8"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "DOI": "10.1186/s13059-016-0893-4",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "deconstructSigs: delineating mutational processes in single tumors distinguishes DNA repair deficiencies and patterns of carcinoma evolution",
+    "volume": "17",
+    "page": "31",
+    "author": [
+      {
+        "given": "Rachel",
+        "family": "Rosenthal"
+      },
+      {
+        "given": "Nicholas",
+        "family": "McGranahan"
+      },
+      {
+        "given": "Javier",
+        "family": "Herrero"
+      },
+      {
+        "given": "Barry S.",
+        "family": "Taylor"
+      },
+      {
+        "given": "Charles",
+        "family": "Swanton"
+      }
+    ],
+    "container-title": "Genome Biology",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          2,
+          22
+        ]
+      ]
+    },
+    "URL": "https://doi.org/f8bdsq",
+    "container-title-short": "Genome Biol",
+    "PMCID": "PMC4762164",
+    "PMID": "26899170",
+    "id": "doi:10.1186/s13059-016-0893-4"
+  },
+  {
+    "title": "Embryonal Tumors of the Central Nervous System in Children: The Era of Targeted Therapeutics.",
+    "volume": "5",
+    "issue": "4",
+    "page": "78",
+    "container-title": "Bioengineering (Basel, Switzerland)",
+    "container-title-short": "Bioengineering (Basel)",
+    "ISSN": "2306-5354",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          9,
+          23
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "David E",
+        "family": "Kram"
+      },
+      {
+        "given": "Jacob J",
+        "family": "Henderson"
+      },
+      {
+        "given": "Muhammad",
+        "family": "Baig"
+      },
+      {
+        "given": "Diya",
+        "family": "Chakraborty"
+      },
+      {
+        "given": "Morgan A",
+        "family": "Gardner"
+      },
+      {
+        "given": "Subhasree",
+        "family": "Biswas"
+      },
+      {
+        "given": "Soumen",
+        "family": "Khatua"
+      }
+    ],
+    "PMID": "30249036",
+    "PMCID": "PMC6315657",
+    "DOI": "10.3390/bioengineering5040078",
+    "abstract": "Embryonal tumors (ET) of the central nervous system (CNS) in children encompass a wide clinical spectrum of aggressive malignancies. Until recently, the overlapping morphological features of these lesions posed a diagnostic challenge and undermined discovery of optimal treatment strategies. However, with the advances in genomic technology and the outpouring of biological data over the last decade, clear insights into the molecular heterogeneity of these tumors are now well delineated. The major subtypes of ETs of the CNS in children include medulloblastoma, atypical teratoid rhabdoid tumor (ATRT), and embryonal tumors with multilayered rosettes (ETMR), which are now biologically and clinically characterized as different entities. These important developments have paved the way for treatments guided by risk stratification as well as novel targeted therapies in efforts to improve survival and reduce treatment burden.",
+    "URL": "https://www.ncbi.nlm.nih.gov/pubmed/30249036",
+    "type": "article-journal",
+    "id": "pubmed:30249036"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "DOI": "10.1186/s12859-016-1031-8",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "ITD assembler: an algorithm for internal tandem duplication discovery from short-read sequencing data",
+    "volume": "17",
+    "page": "188",
+    "author": [
+      {
+        "given": "Navin",
+        "family": "Rustagi"
+      },
+      {
+        "given": "Oliver A",
+        "family": "Hampton"
+      },
+      {
+        "given": "Jie",
+        "family": "Li"
+      },
+      {
+        "given": "Liu",
+        "family": "Xi"
+      },
+      {
+        "given": "Richard A.",
+        "family": "Gibbs"
+      },
+      {
+        "given": "Sharon E.",
+        "family": "Plon"
+      },
+      {
+        "given": "Marek",
+        "family": "Kimmel"
+      },
+      {
+        "given": "David A.",
+        "family": "Wheeler"
+      }
+    ],
+    "container-title": "BMC Bioinformatics",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          4,
+          27
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gmndpj",
+    "container-title-short": "BMC Bioinformatics",
+    "PMCID": "PMC4847212",
+    "PMID": "27121965",
+    "id": "doi:10.1186/s12859-016-1031-8"
   }
 ]

@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_author_orcid" content="0000-0003-0838-2405" />
   <meta name="twitter:creator" content="@aggokittu" />
   <meta name="citation_author" content="Stephanie J. Spielman" />
-  <meta name="citation_author_institution" content="Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Bala Cynwyd, PA, USA&lt;sup&gt;+&lt;/sup&gt;" />
+  <meta name="citation_author_institution" content="Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Bala Cynwyd, PA, 19004, USA&lt;sup&gt;+&lt;/sup&gt;" />
   <meta name="citation_author_institution" content="Rowan University, Glassboro, NJ, 08028, USA" />
   <meta name="citation_author_orcid" content="0000-0002-9090-4788" />
   <meta name="twitter:creator" content="@stephspiel" />
   <meta name="citation_author" content="Candace L. Savonen" />
   <meta name="citation_author_institution" content="Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Bala Cynwyd, PA, 19004, USA" />
-  <meta name="citation_author_institution" content="Fred Hutchinson Cancer Center, Seattle, WA, 98109, USA" />
+  <meta name="citation_author_institution" content="Fred Hutchinson Cancer Center, Seattle, WA, 98109, USA&lt;sup&gt;+&lt;/sup&gt;" />
   <meta name="citation_author_orcid" content="0000-0001-6331-7070" />
   <meta name="twitter:creator" content="@cansavvy" />
   <meta name="citation_author" content="Chante J. Bethell" />
@@ -165,7 +165,7 @@ header-includes: |-
   <meta name="citation_author_orcid" content="0000-0002-3857-6633" />
   <meta name="twitter:creator" content="@koptyram" />
   <meta name="citation_author" content="Nhat Duong" />
-  <meta name="citation_author_institution" content="Department of Bioinformatics and Health Informatics, Children&#39;s Hospital, Philadelphia, PA, 19104, USA of Philadelphia" />
+  <meta name="citation_author_institution" content="Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0003-2852-4263" />
   <meta name="twitter:creator" content="@asiannhat" />
   <meta name="citation_author" content="Mariarita Santi" />
@@ -382,9 +382,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/6ec4d7f223b3ecc9a381a467ed675c04c9292471/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/6ec4d7f223b3ecc9a381a467ed675c04c9292471/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/6ec4d7f223b3ecc9a381a467ed675c04c9292471/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/cebad0d5db69e037e083a8167a329f80f7ff80e3/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/cebad0d5db69e037e083a8167a329f80f7ff80e3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/cebad0d5db69e037e083a8167a329f80f7ff80e3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -406,9 +406,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/6ec4d7f223b3ecc9a381a467ed675c04c9292471/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/cebad0d5db69e037e083a8167a329f80f7ff80e3/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@6ec4d7f](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/6ec4d7f223b3ecc9a381a467ed675c04c9292471)
+from [AlexsLemonade/OpenPBTA-manuscript@cebad0d](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/cebad0d5db69e037e083a8167a329f80f7ff80e3)
 on April 26, 2023.
 </em></small>
 
@@ -447,7 +447,7 @@ on April 26, 2023.
     · ![Twitter icon](images/twitter.png){.inline_icon}
     [stephspiel](https://twitter.com/stephspiel)<br>
   <small>
-     Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, USA<sup>+</sup>; Rowan University, Glassboro, NJ, 08028, USA
+     Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, 19004, USA<sup>+</sup>; Rowan University, Glassboro, NJ, 08028, USA
      · Funded by Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
       <br>
       <sup>+</sup>Current affiliation
@@ -461,8 +461,10 @@ on April 26, 2023.
     · ![Twitter icon](images/twitter.png){.inline_icon}
     [cansavvy](https://twitter.com/cansavvy)<br>
   <small>
-     Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, 19004, USA; Fred Hutchinson Cancer Center, Seattle, WA, 98109, USA
+     Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, 19004, USA; Fred Hutchinson Cancer Center, Seattle, WA, 98109, USA<sup>+</sup>
      · Funded by Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
+      <br>
+      <sup>+</sup>Current affiliation
   </small>
 
 + **Chante J. Bethell**<br>
@@ -585,7 +587,7 @@ on April 26, 2023.
     · ![Twitter icon](images/twitter.png){.inline_icon}
     [asiannhat](https://twitter.com/asiannhat)<br>
   <small>
-     Department of Bioinformatics and Health Informatics, Children's Hospital, Philadelphia, PA, 19104, USA of Philadelphia
+     Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
   </small>
 
 + **Mariarita Santi**<br>
@@ -1131,7 +1133,7 @@ The contributor formally requested to include their analytical code and results 
 All PRs underwent peer review to ensure scientific accuracy, maintainability, and readability of code and documentation (**Figure {@fig:Fig1}C-D**).
 
 Beyond peer review, we implemented additional checks to ensure consistent results for all collaborators over time (**Figure {@fig:Fig1}D**).
-To provide a consistent software development environment, we created a monolithic image with all OpenPBTA dependencies using Docker&reg; [@https://dl.acm.org/doi/10.5555/2600239.2600241] and the Rocker project [@https://doi.org/10.48550/arXiv.1710.03675].
+To provide a consistent software development environment, we created a monolithic image with all OpenPBTA dependencies using Docker&reg; [@https://dl.acm.org/doi/10.5555/2600239.2600241] and the Rocker project [@arxiv:1710.03675].
 We used the continuous integration (CI) service CircleCI&reg; to run analytical code in PRs on a test dataset before formal code review, allowing us to detect code bugs or sensitivity to data release changes.
 
 We followed a similar process in our Manubot-powered [@doi:10.1371/journal.pcbi.1007128] repository for proposed manuscript additions (**Figure {@fig:Fig1}C**); peer reviewers ensured clarity and scientific accuracy, and Manubot performed spell-checking.
@@ -1320,7 +1322,7 @@ We suggest this classifier could be generally applied to infer _TP53_ function i
 We used gene expression data to predict telomerase activity using EXpression-based Telomerase ENzymatic activity Detection (`EXTEND`) [@doi:10.1038/s41467-020-20474-9] as a surrogate measure of malignant potential [@doi:10.1038/s41467-020-20474-9; @doi:10.1093/carcin/bgp268], where higher `EXTEND` scores indicate higher telomerase activity.
 Aggressive tumors such as DMGs, other HGGs, and MB had high `EXTEND` scores (**Figure {@fig:Fig4}D**), and low-grade lesions such as schwannomas, GNGs, DNETs, and other LGGs had among the lowest scores (**Table S3**), supporting previous reports that aggressive tumor phenotypes have higher telomerase activity [@doi:10.1007/s13277-016-5045-7; @doi:10.1038/labinvest.3700710; @doi:10.1007/s12032-016-0736-x; @doi:10.1111/j.1750-3639.2010.00372.x].
 While `EXTEND` scores were not significantly higher in tumors with _TERT_ promoter (TERTp) mutations (N = 6; Wilcoxon p-value = 0.1196), scores were significantly correlated with _TERC_ (R = 0.619, p < 0.01) and _TERT_ (R = 0.491, p < 0.01) log2 FPKM expression values (**Figure {@fig:S5}B-C**).
-Since catalytically-active telomerase requires full-length _TERT_, _TERC_, and certain accessory proteins [@url:https://pubmed.ncbi.nlm.nih.gov/9751630], we expect that `EXTEND` scores may not be exclusively correlated with _TERT_ alterations and expression.
+Since catalytically-active telomerase requires full-length _TERT_, _TERC_, and certain accessory proteins [@pubmed:9751630], we expect that `EXTEND` scores may not be exclusively correlated with _TERT_ alterations and expression.
 
 #### Hypermutant tumors share mutational signatures and have dysregulated **_TP53_**
 
@@ -1459,7 +1461,7 @@ All code and processed data are openly available through GitHub, CAVATICA, Zenod
 Notably, PBTA brain tumor samples were collected over decades, and RNA samples were prepared using two distinct library preparations (stranded or poly-A, **Figure {@fig:S7}A**) by multiple sequencing centers.
 While we noted a strong library preparation batch effect (**Figure {@fig:S7}B**) and a possible sequencing center batch effect (**Figure {@fig:S7}C**), cancer groups are highly unbalanced across library preparations (**Figure {@fig:S7}A**).
 We did not perform batch correction because removing batch effects across unbalanced groups may induce false differences among groups [@doi:10.1093/biostatistics/kxv027; @doi:10.1016/j.tibtech.2017.02.012].
-Instead, we circumvent batch effects by grouping only stranded RNA-Seq expression data, which comprises the vast majority of the PBTA cohort, for transcriptomic analyses presented in **Figure {@fig:4}** and **Figure {@fig:5}** .
+Instead, we circumvent batch effects by grouping only stranded RNA-Seq expression data, which comprises the vast majority of the PBTA cohort, for transcriptomic analyses presented in **Figure {@fig:Fig4}** and **Figure {@fig:Fig5}** .
 As batch correction strategy depends highly on research goals [@doi:10.1016/j.tibtech.2017.02.012], we provide library preparation-specific expression matrices in the OpenPBTA data release for others to adapt to their needs.
 A second potential limitation is that performing analyses with all samples, rather than samples with high tumor purity, might result in loss of information, such as subclonal variants or low-level oncogenic pathway expression.
 To this end, we re-performed transcriptomic analyses using only samples with high tumor purity (see **Methods** for details), and indeed, results were broadly consistent with those derived from the full cohort (**Figure {@fig:S7}D-I**).
@@ -1683,7 +1685,7 @@ PNOC 2x100 bp WXS and RNA-Seq libraries were sequenced on an Illumina HiSeq 2500
 
 #### DNA WGS Alignment
 
-We used `BWA-MEM` [@https://doi.org/10.48550/arXiv.1303.3997] to align paired-end DNA-seq reads to the version 38 patch release 12 of the _Homo sapiens_ genome reference, obtained as a FASTA file from UCSC (see **Key Resources Table**).
+We used `BWA-MEM` [@arxiv:1303.3997] to align paired-end DNA-seq reads to the version 38 patch release 12 of the _Homo sapiens_ genome reference, obtained as a FASTA file from UCSC (see **Key Resources Table**).
 Next, we used the Broad Institute's Best Practices [@doi:10.1038/ng.806] to process Binary Alignment/Map files (BAMs) in preparation for variant discovery.
 We marked duplicates using `SAMBLASTER` [@doi:10/f6kft3], and we merged and sorted BAMs using `Sambamba` [@doi:10/gfzsfw]
 We used the `BaseRecalibrator` submodule of the Broad's Genome Analysis Tool Kit `GATK` [@doi:10.1101/gr.107524.110] to process BAM files.
@@ -2081,58 +2083,64 @@ Next, we used multivariate Cox (proportional hazards) regression analysis [@doi:
 
 ### KEY RESOURCES TABLE
 
-| REAGENT or RESOURCE                           | SOURCE                                                       | IDENTIFIER                                                                                                    |
-|-----------------------------------------------|--------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Critical commercial assays                    |                                                              |                                                                                                               |
-| Recover Cell Culture Freezing media           | Gibco                                                        | 12648010                                                                                                      |
-| Hank's Balanced Salt Solution (HBSS)          | Gibco                                                        | 14175095                                                                                                      |
-| Papain                                        | SciQuest                                                     | LS003124                                                                                                      |
-| Ovomucoid                                     | SciQuest                                                     | 542000                                                                                                        |
-| DNase                                         | Roche                                                        | 10104159001                                                                                                   |
-| 100μm cell strainer                           | Greiner Bio-One                                              | 542000                                                                                                        |
-| DMEM/F-12 medium                              | Sigma                                                        | D8062                                                                                                         |
-| Fetal Bovine Serum (FBS)                      | Hyclone                                                      | SH30910.03                                                                                                    |
-| GlutaMAX                                      | Gibco                                                        | 35050061                                                                                                      |
-| Penicillin/Streptomycin-Amphotericin B        | Lonza                                                        | 17-745E                                                                                                       |
-| Normocin                                      | Invivogen                                                    | ant-nr-2                                                                                                      |
-| B-27 supplement minus vitamin A               | Gibco                                                        | 12587-010                                                                                                     |
-| N-2 supplement                                | Gibco                                                        | 17502001                                                                                                      |
-| Epidermal growth factor                       | Gibco                                                        | PHG0311L                                                                                                      |
-| Basic fibroblast growth factor                | PeproTech                                                    | 100-18B                                                                                                       |
-| Heparin                                       | Sigma                                                        | H3149                                                                                                         |
-| GenePrint 24 STR profiling kit                                       | Promega                                                        |B1870                                                                                                         |
-| DNA/RNA AllPrep Kit                           | Qiagen                                                       | 80204                                                                                                         |
-| TruSeq RNA Sample Prep Kit                    | Illumina                                                     | FC-122-1001                                                                                                   |
-| KAPA Library Preparation Kit                  | Roche                                                        | KK8201                                                                                                        |
-| AllPrep DNA/RNA/miRNA Universal kit           | Qiagen                                                       | 80224                                                                                                         |
-| RNase A                                       | Qiagen                                                       | 19101                                                                                                         |
-| QIAsymphony DSP DNA Midi Kit                  | Qiagen                                                       | 937255                                                                                                        |
-| KAPA HyperPrep kit                            | Roche                                                        | 08098107702                                                                                                   |
-| RiboErase kit                                 | Roche                                                        | 07962304001                                                                                                   |
-| Raw and harmonized WGS, WXS, Panel, RNA-Seq   | KidsFirst Data Resource Center, this project                 | [@doi:10.24370/OPENPBTA]                                                                                      |
-| Merged summary files                          | this project                                                 | https://cavatica.sbgenomics.com/u/cavatica/openpbta                                                           |
-| Merged summary files and downstream analyses  | this project                                                 | https://github.com/AlexsLemonade/OpenPBTA-analysis/                                                           |
-| Processed data                                | this project                                                 | https://pedcbioportal.kidsfirstdrc.org/study/summary?id=openpbta                                              |
-| Experimental models: Cell lines               |                                                              |                                                                                                               |
-| CBTN pediatric brain tumor-derived cell lines | [@doi:10.1093/neuonc/noz192]                                 | See **Table S1** for identifiers                                                                              |
-| Software and algorithms                       |                                                              |                                                                                                               |
-| Data processing and analysis software         | Multiple                                                     | See **Table S5** for identifiers                                                                              |
-| OpenPBTA workflows repository                 | this project                                                 | [@doi:10.5281/zenodo.6968175]                                                                                 |
-| OpenPBTA analysis repository                  | this project                                                 | [@doi:10.5281/zenodo.7803335]                                                                                                           |
-| OpenPBTA manuscript repository                | this project                                                 |                                                                                                               |
-|                                               |                                                              |                                                                                                               |
-| Other                                         |                                                              |                                                                                                               |
-| TCGA WXS dataset                              | National Institutes of Health The Cancer Genome Atlas (TCGA) | dbGAP phs000178.v11.p8                                                                                                              |
-| Cancer hotspots                               | MSKCC                                                        | https://www.cancerhotspots.org/#/download (v2)                                                                |
-| Reference genomes                             | Broad                                                        | https://s3.console.aws.amazon.com/s3/buckets/broad-references/hg38/v0/                                        |
-| Reference genome hg38, patch release 12       | UCSC                                                         | http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/                                                       |
-| Human Cytoband file                           | UCSC                                                         | http://hgdownload.cse.ucsc.edu/goldenpath/hg38/database/cytoBand.txt.gz                                       |
-| CDS from GENCODE v27 annotation               | GENCODE                                                      | https://www.gencodegenes.org/human/release_27.html                                                            |
-| PFAM domains and locations                    | UCSC                                                         | http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/pfamDesc.txt.gz; https://pfam.xfam.org/family/PF07714 |
-| BSgenome.Hsapiens.UCSC.hg38 annotations       | Bioconductor                                                 | https://bioconductor.org/packages/release/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.html               |
-| gnomAD v2.1.1 (exome and genome)                                 | Genome Aggregation Database                                  | https://gnomad.broadinstitute.org/downloads#v2-liftover-variants                                              |
-| KEGG MMR gene set v7.5.1                      | BROAD Institute                                              | https://www.gsea-msigdb.org/gsea/msigdb/download_geneset.jsp?geneSetName=KEGG_MISMATCH_REPAIR                 |
-| ClinVar Database (2022-05-07)                 | NCBI                                                         | https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/archive_2.0/2022/clinvar_20220507.vcf.gz                  |
+| REAGENT or RESOURCE                           | SOURCE                                        | IDENTIFIER                                                                                                    |
+|-----------------------------------------------|-----------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+|**Chemicals, peptides, and recombinant proteins** |                                            |                                                                                                               |
+| Recover Cell Culture Freezing media           | Gibco                                         | Cat# 12648010                                                                                                 |
+| Hank's Balanced Salt Solution (HBSS)          | Gibco                                         | Cat# 14175095                                                                                                 |
+| Papain                                        | SciQuest                                      | Cat# LS003124                                                                                                 |
+| Ovomucoid                                     | SciQuest                                      | Cat# 542000                                                                                                   |
+| DNase                                         | Roche                                         | Cat# 10104159001                                                                                              |
+| RNase A                                       | Qiagen                                        | Cat# 19101                                                                                                    |
+| 100μm cell strainer                           | Greiner Bio-One                               | Cat# 542000                                                                                                   |
+| DMEM/F-12 medium                              | Sigma                                         | Cat# D8062                                                                                                    |
+| Fetal Bovine Serum (FBS)                      | Hyclone                                       | Cat# SH30910.03                                                                                               |
+| GlutaMAX                                      | Gibco                                         | Cat# 35050061                                                                                                 |
+| Penicillin/Streptomycin-Amphotericin B        | Lonza                                         | Cat# 17-745E                                                                                                  |
+| Normocin                                      | Invivogen                                     | Cat# ant-nr-2                                                                                                 |
+| B-27 supplement minus vitamin A               | Gibco                                         | Cat# 12587-010                                                                                                |
+| N-2 supplement                                | Gibco                                         | Cat# 17502001                                                                                                 |
+| Epidermal growth factor                       | Gibco                                         | Cat# PHG0311L                                                                                                 |
+| Basic fibroblast growth factor                | PeproTech                                     | Cat# 100-18B                                                                                                  |
+| Heparin                                       | Sigma                                         | Cat# H3149                                                                                                    |
+|                                               |                                               |                                                                                                               |
+| **Critical commercial assays**                |                                               |                                                                                                               |
+| GenePrint 24 STR profiling kit                | Promega                                       | Cat# B1870                                                                                                    |
+| DNA/RNA AllPrep Kit                           | Qiagen                                        | Cat# 80204                                                                                                    |
+| TruSeq RNA Sample Prep Kit                    | Illumina                                      | Cat# FC-122-1001                                                                                              |
+| KAPA Library Preparation Kit                  | Roche                                         | Cat# KK8201                                                                                                   |
+| AllPrep DNA/RNA/miRNA Universal kit           | Qiagen                                        | Cat# 80224                                                                                                    |
+| QIAsymphony DSP DNA Midi Kit                  | Qiagen                                        | Cat# 937255                                                                                                   |
+| KAPA HyperPrep kit                            | Roche                                         | Cat# 08098107702                                                                                              |
+| RiboErase kit                                 | Roche                                         | Cat# 07962304001                                                                                              |
+|                                               |                                               |                                                                                                               |
+| **Deposited data**                            |                                               |                                                                                                               |
+| Raw and harmonized WGS, WXS, Panel, RNA-Seq   | KidsFirst Data Resource Center, This project  | [@doi:10.24370/OPENPBTA]                                                                                      |
+| Merged summary files                          | This project                                  | https://cavatica.sbgenomics.com/u/cavatica/openpbta                                                           |
+| Merged summary files and downstream analyses  | This project                                  | https://github.com/AlexsLemonade/OpenPBTA-analysis [@doi:10.5281/zenodo.7803335]                              |
+| Processed data                                | This project                                  | https://pedcbioportal.kidsfirstdrc.org/study/summary?id=openpbta                                              |
+|                                               |                                               |                                                                                                               |
+| **Experimental models: Cell lines**           |                                               |                                                                                                               |
+| CBTN pediatric brain tumor-derived cell lines | [@doi:10.1093/neuonc/noz192]                  | See **Table S1** for identifiers                                                                              |
+|                                               |                                               |                                                                                                               |
+| **Software and algorithms**                   |                                               |                                                                                                               |
+| Data processing and analysis software         | Multiple                                      | See **Table S5** for identifiers                                                                              |
+| OpenPBTA workflows repository                 | This project                                  | https://github.com/d3b-center/OpenPBTA-workflows [@doi:10.5281/zenodo.6968175]                                |
+| OpenPBTA analysis repository                  | This project                                  | https://github.com/AlexsLemonade/OpenPBTA-analysis [@doi:10.5281/zenodo.7803335]                              |
+| OpenPBTA manuscript repository                | This project                                  | https://github.com/AlexsLemonade/OpenPBTA-manuscript                                                          |
+|                                               |                                               |                                                                                                               |
+| **Other**                                     |                                               |                                                                                                               |
+| TCGA WXS dataset                              | NIH The Cancer Genome Atlas (TCGA)            | dbGAP phs000178.v11.p8                                                                                        |
+| Cancer hotspots                               | MSKCC                                         | https://www.cancerhotspots.org/#/download (v2)                                                                |
+| Reference genomes                             | Broad Institute                               | https://s3.console.aws.amazon.com/s3/buckets/broad-references/hg38/v0/                                        |
+| Reference genome hg38, patch release 12       | UCSC                                          | http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/                                                       |
+| Human Cytoband file                           | UCSC                                          | http://hgdownload.cse.ucsc.edu/goldenpath/hg38/database/cytoBand.txt.gz                                       |
+| CDS from GENCODE v27 annotation               | GENCODE                                       | https://www.gencodegenes.org/human/release_27.html                                                            |
+| PFAM domains and locations                    | UCSC                                          | http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/pfamDesc.txt.gz; https://pfam.xfam.org/family/PF07714 |
+| BSgenome.Hsapiens.UCSC.hg38 annotations       | Bioconductor                                  | https://bioconductor.org/packages/release/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.html               |
+| gnomAD v2.1.1 (exome and genome)              | Genome Aggregation Database                   | https://gnomad.broadinstitute.org/downloads#v2-liftover-variants                                              |
+| KEGG MMR gene set v7.5.1                      | Broad Institute                               | https://www.gsea-msigdb.org/gsea/msigdb/download_geneset.jsp?geneSetName=KEGG_MISMATCH_REPAIR                 |
+| ClinVar Database (2022-05-07)                 | NCBI                                          | https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/archive_2.0/2022/clinvar_20220507.vcf.gz                  |
 
 
 ## Supplemental Information Titles and Legends
@@ -2149,7 +2157,7 @@ Next, we used multivariate Cox (proportional hazards) regression analysis [@doi:
 
 ![**Subtype-specific clustering and immune cell fractions, Related to Figure 5**. First two dimensions from UMAP of sample transcriptome data with points colored by `molecular_subtype` for medulloblastoma (A), ependymoma (B), low-grade glioma (C), and high-grade glioma (D). (E) Box plots of quanTIseq estimates of immune cell fractions in histologies with more than one molecular subtype with N >=3. (F) Box plots of the ratio of immune cell fractions of CD8+ to CD4+ T cells in histologies with more than one molecular subtype with N >=3. Box plot represents 5% (lower whisker), 25% (lower box), 50% (median), 75% (upper box), and 95% (upper whisker) quantiles.](https://raw.githubusercontent.com/AlexsLemonade/OpenPBTA-analysis/37ec62fdc2fd9ff157f2f2c10b69e9bb36673363/figures/pngs/figureS6.png?sanitize=true){#fig:S6 tag="S6" width="7in"}
 
-![**RNA batch and tumor purity assessment, Related to Figures 4 and 5**. Bar plot (A) and UMAP (B) of RNA-Seq samples by cancer group and library preparation method. (C) UMAP of RNA-Seq samples by cancer group and sequencing center. For (D-I), RNA-Seq samples were thresholded by median cancer group tumor purity and transcriptomic analyses in **Figure {@fig:4}A-D** (D-G) and **Figure {@fig:5}A,C** (H-I) were repeated.](https://raw.githubusercontent.com/AlexsLemonade/OpenPBTA-analysis/37ec62fdc2fd9ff157f2f2c10b69e9bb36673363/figures/pngs/figureS7.png?sanitize=true){#fig:S7 tag="S7" width="7in"}
+![**RNA batch and tumor purity assessment, Related to Figures 4 and 5**. Bar plot (A) and UMAP (B) of RNA-Seq samples by cancer group and library preparation method. (C) UMAP of RNA-Seq samples by cancer group and sequencing center. For (D-I), RNA-Seq samples were thresholded by median cancer group tumor purity and transcriptomic analyses in **Figure {@fig:Fig4}A-D** (D-G) and **Figure {@fig:Fig5}A,C** (H-I) were repeated.](https://raw.githubusercontent.com/AlexsLemonade/OpenPBTA-analysis/37ec62fdc2fd9ff157f2f2c10b69e9bb36673363/figures/pngs/figureS7.png?sanitize=true){#fig:S7 tag="S7" width="7in"}
 
 [**Table S1. Related to Figure 1.**](https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/37ec62fdc2fd9ff157f2f2c10b69e9bb36673363/tables/results/TableS1-histologies.xlsx)
 Table of specimens and associated metadata, clinical data, and histological data utilized in the OpenPBTA project.

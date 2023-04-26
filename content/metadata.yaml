@@ -25,7 +25,8 @@ authors:
   - Writing - Review and editing
   - Visualization
   - Supervision
-  affiliations: Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, 19004, USA
+  affiliations:
+  - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, 19004, USA
   funders: Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
 - github: kgaonkar6
   name: Krutika S. Gaonkar
@@ -62,8 +63,7 @@ authors:
   - Supervision
   - Funding acquisition
   affiliations:
-  - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA,
-    USA<sup>+</sup>
+  - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, 19004, USA<sup>+</sup>
   - Rowan University, Glassboro, NJ, 08028, USA
   symbol_str: +
   funders: Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
@@ -84,7 +84,8 @@ authors:
   - Visualization
   affiliations:
   - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, 19004, USA
-  - Fred Hutchinson Cancer Center, Seattle, WA, 98109, USA
+  - Fred Hutchinson Cancer Center, Seattle, WA, 98109, USA<sup>+</sup>
+  symbol_str: +
   funders: Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
 - github: cbethell
   name: Chante J. Bethell
@@ -99,7 +100,8 @@ authors:
   - Investigation
   - Writing - Original draft
   - Visualization
-  affiliations: Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, 19004, USA
+  affiliations:
+  - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, 19004, USA
   funders: Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
 - github: runjin326
   name: Run Jin
@@ -185,7 +187,8 @@ authors:
   contributions:
   - Formal analysis
   - Software
-  affiliations: Ben May Department for Cancer Research, University of Chicago, Chicago, IL, 60637, USA
+  affiliations:
+  - Ben May Department for Cancer Research, University of Chicago, Chicago, IL, 60637, USA
 - github: tkoganti
   name: Tejaswi Koganti
   initials: TK
@@ -206,7 +209,8 @@ authors:
   - Formal analysis
   - Visualization
   - Writing - Original draft
-  affiliations: Greehey Children's Cancer Research Institute, UT Health San Antonio, San Antonio, TX, 78229, USA
+  affiliations:
+  - Greehey Children's Cancer Research Institute, UT Health San Antonio, San Antonio, TX, 78229, USA
 - github: mkoptyra
   name: Mateusz P. Koptyra
   initials: MPK
@@ -229,8 +233,8 @@ authors:
   - Formal analysis
   - Investigation
   - Methodology
-  affiliations: Department of Bioinformatics and Health Informatics, Children's Hospital, Philadelphia, PA, 19104, USA
-    of Philadelphia
+  affiliations:
+  - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - name: Mariarita Santi
   initials: MS
   orcid: 0000-0002-6728-3450
@@ -249,7 +253,8 @@ authors:
   contributions:
   - Investigation
   - Writing - Review and editing
-  affiliations: Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics, National Cancer Institute, Rockville, MD 20850, USA
+  affiliations:
+  - Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics, National Cancer Institute, Rockville, MD 20850, USA
 - name: Shannon Robins
   initials: SR
   email: Shannonmrobins@gmail.com
@@ -277,7 +282,8 @@ authors:
   orcid: 0000-0001-9620-4742
   email: stephen.mack@stjude.org
   contributions: Writing - Review and editing
-  affiliations: Department of Developmental Neurobiology, St. Jude Children’s Research Hospital, Memphis, TN, 38105, USA
+  affiliations:
+  - Department of Developmental Neurobiology, St. Jude Children’s Research Hospital, Memphis, TN, 38105, USA
 - github: jvlilly
   name: Jena V. Lilly
   initials: JVL
@@ -300,7 +306,8 @@ authors:
   contributions:
   - Methodology
   - Supervision
-  affiliations: Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  affiliations:
+  - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - github: jainpayal022
   name: Payal Jain
   initials: PJ
@@ -366,7 +373,8 @@ authors:
   contributions:
   - Formal analysis
   - Investigation
-  affiliations: Division of Oncology, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  affiliations:
+  - Division of Oncology, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - github: allisonheath
   name: Allison P. Heath
   initials: APH
@@ -392,12 +400,14 @@ authors:
   - Supervision
   - Investigation
   - Writing - Review and editing
-  affiliations: Division of Oncology, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  affiliations:
+  - Division of Oncology, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - name: Laura Scolaro
   initials: LS
   email: scolarol@chop.edu
   contributions: Data curation
-  affiliations: Division of Oncology, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  affiliations:
+  - Division of Oncology, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - name: Angela N. Viaene
   initials: ANV
   orcid: 0000-0001-6430-8360
@@ -426,7 +436,8 @@ authors:
   contributions:
   - Investigation
   - Writing - Review and editing
-  affiliations: Department of Biomedical Informatics, University of Colorado School of Medicine, Aurora, CO, 80045, USA
+  affiliations:
+  - Department of Biomedical Informatics, University of Colorado School of Medicine, Aurora, CO, 80045, USA
 - github: envest
   name: Steven M. Foltz
   initials: SMF
@@ -467,14 +478,14 @@ authors:
   - National Center for Tumor Diseases, Dresden, Germany
   funders:
   - The St. Anna Kinderkrebsforschung, Austria
-  - The Mildred Scheel Early Career Center  Dresden P2, funded by the German Cancer
-    Aid
+  - The Mildred Scheel Early Career Center  Dresden P2, funded by the German Cancer Aid
 - name: Sabine Mueller
   initials: SM
   orcid: 0000-0002-3452-5150
   email: sabine.mueller@ucsf.edu
   contributions: Conceptualization
-  affiliations: Department of Neurology, Neurosurgery and Pediatrics, University of California, San Francisco, San Francisco, CA, 94115, USA
+  affiliations:
+  - Department of Neurology, Neurosurgery and Pediatrics, University of California, San Francisco, San Francisco, CA, 94115, USA
 - github: bmennis
   name: Brian M. Ennis
   initials: BME
@@ -491,7 +502,8 @@ authors:
   orcid: 0000-0002-9630-2075
   email: michael.prados@ucsf.edu
   contributions: Conceptualization
-  affiliations: University of California, San Francisco, San Francisco, CA, USA, 94115, USA
+  affiliations:
+  - University of California, San Francisco, San Francisco, CA, USA, 94115, USA
 - github: sdiskin
   name: Sharon J. Diskin
   initials: SJD
@@ -519,7 +531,8 @@ authors:
   - Writing - Original draft
   - Supervision
   - Writing - Review and editing
-  affiliations: Greehey Children's Cancer Research Institute, UT Health San Antonio, San Antonio, TX, 78229, USA
+  affiliations:
+  - Greehey Children's Cancer Research Institute, UT Health San Antonio, San Antonio, TX, 78229, USA
 - github: Yiran-Guo
   name: Yiran Guo
   initials: YG
@@ -529,7 +542,8 @@ authors:
   contributions:
   - Formal analysis
   - Writing - Review and editing
-  affiliations: Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  affiliations:
+  - Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - github: shrivatsk
   name: Shrivats Kannan
   initials: SK
@@ -670,7 +684,8 @@ authors:
   contributions:
   - Supervision
   - Writing - Review and editing
-  affiliations: Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics, National Cancer Institute, Rockville, MD 20850
+  affiliations:
+  - Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics, National Cancer Institute, Rockville, MD 20850
 - github: ewafula
   name: Eric Wafula
   initials: EW
@@ -679,7 +694,8 @@ authors:
   contributions:
   - Formal analysis
   - Software
-  affiliations: Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  affiliations:
+  - Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
 - github: migbro
   name: Miguel A. Brown
   initials: MAB
@@ -766,7 +782,8 @@ authors:
   twitter: jaclyn_taroni
   email: jaclyn.taroni@ccdatalab.org
   corresponding: yes
-  affiliations: Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, 19004, USA
+  affiliations:
+  - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Bala Cynwyd, PA, 19004, USA
   funders: Alex's Lemonade Stand Foundation Childhood Cancer Data Lab (CCDL)
   contributions:
   - Methodology

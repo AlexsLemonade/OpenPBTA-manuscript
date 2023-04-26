@@ -9,5 +9,5 @@ filters:
 - citeproc
 wrap: preserve
 metadata:
-  csl: https://www.zotero.org/styles/cell-numeric-superscript
+  csl:  https://www.zotero.org/styles/cell-genomics
   link-citations: true

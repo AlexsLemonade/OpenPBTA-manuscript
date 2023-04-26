@@ -9,7 +9,7 @@ keywords:
 - classification
 - somatic variation
 lang: en-US
-date-meta: '2023-04-24'
+date-meta: '2023-04-26'
 author-meta:
 - Joshua A. Shapiro
 - Krutika S. Gaonkar
@@ -89,8 +89,8 @@ header-includes: |-
   <meta name="citation_title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="og:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="twitter:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
-  <meta name="dc.date" content="2023-04-24" />
-  <meta name="citation_publication_date" content="2023-04-24" />
+  <meta name="dc.date" content="2023-04-26" />
+  <meta name="citation_publication_date" content="2023-04-26" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -382,9 +382,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/19df8fc2ad93ac482108cf073e4a7393170ef488/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/19df8fc2ad93ac482108cf073e4a7393170ef488/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/19df8fc2ad93ac482108cf073e4a7393170ef488/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/6ec4d7f223b3ecc9a381a467ed675c04c9292471/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/6ec4d7f223b3ecc9a381a467ed675c04c9292471/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/6ec4d7f223b3ecc9a381a467ed675c04c9292471/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -406,10 +406,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/19df8fc2ad93ac482108cf073e4a7393170ef488/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/6ec4d7f223b3ecc9a381a467ed675c04c9292471/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@19df8fc](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/19df8fc2ad93ac482108cf073e4a7393170ef488)
-on April 24, 2023.
+from [AlexsLemonade/OpenPBTA-manuscript@6ec4d7f](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/6ec4d7f223b3ecc9a381a467ed675c04c9292471)
+on April 26, 2023.
 </em></small>
 
 ## Authors
@@ -1262,7 +1262,7 @@ We observed that 25% (15/60) of ependymomas were _C11orf95::RELA_ (now, _ZFTA::R
 We observed somatic mutations or fusions in _NF2_ in 41% (7/17) of meningiomas, 5% (3/60) of ependymomas, and 25% (3/12) of schwannomas, as well as rare fusions in _ERBB4_, _YAP1_, and/or _QKI_ in 10% (6/60) of ependymomas.
 DNETs harbored alterations in MAPK/PI3K pathway genes, as was previously reported [@doi:10.1093/jnen/nlz101], including _FGFR1_ (21%, 4/19), _PDGFRA_ (10%, 2/19), and _BRAF_ (5%, 1/19).
 
-![**Mutational landscape of PBTA tumors.** Frequencies of canonical somatic gene mutations, CNVs, fusions, and TMB (top bar plot) for the top mutated genes across primary tumors within the OpenPBTA dataset. A, LGGs (N = 226): pilocytic astrocytoma (N = 104), other LGG (N = 68), ganglioglioma (N = 35), pleomorphic xanthoastrocytoma (N = 9), subependymal giant cell astrocytoma (N = 10). B, Embryonal tumors (N = 129): medulloblastoma (N = 95), atypical teratoid rhabdoid tumor (N = 24), other embryonal tumor (N = 10). C, HGGs (N = 63): diffuse midline glioma (N = 36) and other HGG (N = 27). D, Other CNS tumors (N = 153): ependymoma (N = 60), craniopharyngioma (N = 31), meningioma (N = 17), dysembryoplastic neuroepithelial tumor (N = 19), Ewing sarcoma (N = 7), schwannoma (N = 12), and neurofibroma plexiform (N = 7). Rare CNS tumors are displayed in **Figure {@fig:S3}B**. Histology (`Cancer Group`) and sex (`Germline sex estimate`) annotations are displayed under each plot. Only tumors with mutations in the listed genes are shown. Multiple CNVs are denoted as a complex event. N denotes the number of unique tumors (one tumor per patient).](https://raw.githubusercontent.com/AlexsLemonade/OpenPBTA-analysis/37ec62fdc2fd9ff157f2f2c10b69e9bb36673363/figures/pngs/figure2.png?sanitize=true){#fig:Fig2 width="9in"}
+![**Mutational landscape of PBTA tumors.** Frequencies of canonical somatic gene mutations, CNVs, fusions, and TMB (top bar plot) for the top mutated genes across primary tumors within the OpenPBTA dataset. A, LGGs (N = 226): pilocytic astrocytoma (N = 104), other LGG (N = 68), ganglioglioma (N = 35), pleomorphic xanthoastrocytoma (N = 9), subependymal giant cell astrocytoma (N = 10). B, Embryonal tumors (N = 129): medulloblastoma (N = 95), atypical teratoid rhabdoid tumor (N = 24), other embryonal tumor (N = 10). C, HGGs (N = 63): diffuse midline glioma (N = 36) and other HGG (N = 27). D, Other CNS tumors (N = 153): ependymoma (N = 60), craniopharyngioma (N = 31), meningioma (N = 17), dysembryoplastic neuroepithelial tumor (N = 19), Ewing sarcoma (N = 7), schwannoma (N = 12), and neurofibroma plexiform (N = 7). Rare CNS tumors are displayed in **Figure {@fig:S3}B**. Histology (`Cancer Group`) and sex annotations are displayed under each plot. Only tumors with mutations in the listed genes are shown. Multiple CNVs are denoted as a complex event. N denotes the number of unique tumors (one tumor per patient).](https://raw.githubusercontent.com/AlexsLemonade/OpenPBTA-analysis/37ec62fdc2fd9ff157f2f2c10b69e9bb36673363/figures/pngs/figure2.png?sanitize=true){#fig:Fig2 width="9in"}
 
 <!--SAMPLECOUNT-->
 
@@ -1570,7 +1570,7 @@ AJW is a member of the Scientific Advisory boards for Alexion and DayOne Biophar
 A, CBTN and PNOC collected tumors from 943 patients. 22 tumor cell lines were created, and over 2000 specimens were sequenced (N = 1035 RNA-Seq, N = 940 WGS, and N = 32 WXS or targeted panel).  The Kids First Data Resource Center Data harmonized the data using Amazon S3 through CAVATICA. Panel created with [BioRender.com](biorender.com). B, Number of biospecimens across phases of therapy, with one broad histology per panel. Each bar denotes a cancer group. (Abbreviations: GNG = ganglioglioma, Other LGG = other low-grade glioma, PA = pilocytic astrocytoma, PXA = pleomorphic xanthoastrocytoma, SEGA = subependymal giant cell astrocytoma, DIPG = diffuse intrinsic pontine glioma, DMG = diffuse midline glioma, Other HGG = other high-grade glioma, ATRT = atypical teratoid rhabdoid tumor, MB = medulloblastoma, Other ET = other embryonal tumor, EPN = ependymoma, PNF = plexiform neurofibroma, DNET = dysembryoplastic neuroepithelial tumor, CRANIO = craniopharyngioma, EWS = Ewing sarcoma, CPP = choroid plexus papilloma). C, Overview of the open analysis and manuscript contribution models. Contributors proposed analyses, implemented it in their fork, and filed a pull request (PR) with proposed changes. PRs underwent review for scientific rigor and accuracy. Container and continuous integration technologies ensured that all software dependencies were included and code was not sensitive to underlying data changes. Finally, a contributor filed a PR documenting their methods and results to the Manubot-powered manuscript repository for review. D, A potential path for an analytical PR. Arrows indicate revisions.
 
 **Figure 2. Mutational landscape of PBTA tumors.**
-Frequencies of canonical somatic gene mutations, CNVs, fusions, and TMB (top bar plot) for the top mutated genes across primary tumors within the OpenPBTA dataset. A, LGGs (N = 226): pilocytic astrocytoma (N = 104), other LGG (N = 68), ganglioglioma (N = 35), pleomorphic xanthoastrocytoma (N = 9), subependymal giant cell astrocytoma (N = 10). B, Embryonal tumors (N = 129): medulloblastoma (N = 95), atypical teratoid rhabdoid tumor (N = 24), other embryonal tumor (N = 10). C, HGGs (N = 63): diffuse midline glioma (N = 36) and other HGG (N = 27). D, Other CNS tumors (N = 153): ependymoma (N = 60), craniopharyngioma (N = 31), meningioma (N = 17), dysembryoplastic neuroepithelial tumor (N = 19), Ewing sarcoma (N = 7), schwannoma (N = 12), and neurofibroma plexiform (N = 7). Rare CNS tumors are displayed in **Figure {@fig:S3}B**. Histology (`Cancer Group`) and sex (`Germline sex estimate`) annotations are displayed under each plot. Only tumors with mutations in the listed genes are shown. Multiple CNVs are denoted as a complex event. N denotes the number of unique tumors (one tumor per patient).
+Frequencies of canonical somatic gene mutations, CNVs, fusions, and TMB (top bar plot) for the top mutated genes across primary tumors within the OpenPBTA dataset. A, LGGs (N = 226): pilocytic astrocytoma (N = 104), other LGG (N = 68), ganglioglioma (N = 35), pleomorphic xanthoastrocytoma (N = 9), subependymal giant cell astrocytoma (N = 10). B, Embryonal tumors (N = 129): medulloblastoma (N = 95), atypical teratoid rhabdoid tumor (N = 24), other embryonal tumor (N = 10). C, HGGs (N = 63): diffuse midline glioma (N = 36) and other HGG (N = 27). D, Other CNS tumors (N = 153): ependymoma (N = 60), craniopharyngioma (N = 31), meningioma (N = 17), dysembryoplastic neuroepithelial tumor (N = 19), Ewing sarcoma (N = 7), schwannoma (N = 12), and neurofibroma plexiform (N = 7). Rare CNS tumors are displayed in **Figure {@fig:S3}B**. Histology (`Cancer Group`) and sex annotations are displayed under each plot. Only tumors with mutations in the listed genes are shown. Multiple CNVs are denoted as a complex event. N denotes the number of unique tumors (one tumor per patient).
 
 **Figure 3. Mutational co-occurrence and signatures highlight key oncogenic drivers.**
 A, Nonsynonymous mutations for 50 most commonly-mutated genes across all histologies. "Other" denotes a histology with <10 tumors. B, Co-occurrence and mutual exclusivity of mutated genes. The co-occurrence score is defined as $I(-\log_{10}(P))$ where $P$ is Fisher's exact test and $I$ is 1 when mutations co-occur more often than expected or -1 when exclusivity is more common. C, Number of SV and CNV breaks are significantly correlated (Adjusted R = 0.443, p = 1.05e-38). D, Chromothripsis frequency across cancer groups with N >= 3 tumors. E, Sina plots of RefSig signature weights for signatures 1, 11, 18, 19, 3, 8, N6, MMR2, and Other across cancer groups. Boxplot represents 5% (lower whisker), 25% (lower box), 50% (median), 75% (upper box), and 95% (upper whisker) quantiles.

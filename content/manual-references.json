@@ -3718,5 +3718,146 @@
     "PMCID": "PMC3163565",
     "PMID": "21816040",
     "id": "doi:10.1186/1471-2105-12-323"
+  },
+  {
+    "publisher": "American Association for Cancer Research (AACR)",
+    "issue": "18",
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:sec>\n                  <jats:title>Purpose:</jats:title>\n                  <jats:p>PNOC003 is a multicenter precision medicine trial for children and young adults with newly diagnosed diffuse intrinsic pontine glioma (DIPG).</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Patients and Methods:</jats:title>\n                  <jats:p>Patients (3–25 years) were enrolled on the basis of imaging consistent with DIPG. Biopsy tissue was collected for whole-exome and mRNA sequencing. After radiotherapy (RT), patients were assigned up to four FDA-approved drugs based on molecular tumor board recommendations. H3K27M-mutant circulating tumor DNA (ctDNA) was longitudinally measured. Tumor tissue and matched primary cell lines were characterized using whole-genome sequencing and DNA methylation profiling. When applicable, results were verified in an independent cohort from the Children's Brain Tumor Network (CBTN).</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Results:</jats:title>\n                  <jats:p>Of 38 patients enrolled, 28 patients (median 6 years, 10 females) were reviewed by the molecular tumor board. Of those, 19 followed treatment recommendations. Median overall survival (OS) was 13.1 months [95% confidence interval (CI), 11.2–18.4] with no difference between patients who followed recommendations and those who did not. H3K27M-mutant ctDNA was detected at baseline in 60% of cases tested and associated with response to RT and survival. Eleven cell lines were established, showing 100% fidelity of key somatic driver gene alterations in the primary tumor. In H3K27-altered DIPGs, TP53 mutations were associated with worse OS (TP53mut 11.1 mo; 95% CI, 8.7–14; TP53wt 13.3 mo; 95% CI, 11.8–NA; P = 3.4e−2), genome instability (P = 3.1e−3), and RT resistance (P = 6.4e−4). The CBTN cohort confirmed an association between TP53 mutation status, genome instability, and clinical outcome.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Conclusions:</jats:title>\n                  <jats:p>Upfront treatment-naïve biopsy provides insight into clinically relevant molecular alterations and prognostic biomarkers for H3K27-altered DIPGs.</jats:p>\n               </jats:sec>",
+    "DOI": "10.1158/1078-0432.ccr-22-0803",
+    "type": "article-journal",
+    "page": "3965-3978",
+    "source": "Crossref",
+    "title": "Upfront Biology-Guided Therapy in Diffuse Intrinsic Pontine Glioma: Therapeutic, Molecular, and Biomarker Outcomes from PNOC003",
+    "volume": "28",
+    "author": [
+      {
+        "given": "Cassie",
+        "family": "Kline"
+      },
+      {
+        "given": "Payal",
+        "family": "Jain"
+      },
+      {
+        "given": "Lindsay",
+        "family": "Kilburn"
+      },
+      {
+        "given": "Erin R.",
+        "family": "Bonner"
+      },
+      {
+        "given": "Nalin",
+        "family": "Gupta"
+      },
+      {
+        "given": "John R.",
+        "family": "Crawford"
+      },
+      {
+        "given": "Anu",
+        "family": "Banerjee"
+      },
+      {
+        "given": "Roger J.",
+        "family": "Packer"
+      },
+      {
+        "given": "Javier",
+        "family": "Villanueva-Meyer"
+      },
+      {
+        "given": "Tracy",
+        "family": "Luks"
+      },
+      {
+        "given": "Yalan",
+        "family": "Zhang"
+      },
+      {
+        "given": "Madhuri",
+        "family": "Kambhampati"
+      },
+      {
+        "given": "Jie",
+        "family": "Zhang"
+      },
+      {
+        "given": "Sridevi",
+        "family": "Yadavilli"
+      },
+      {
+        "given": "Bo",
+        "family": "Zhang"
+      },
+      {
+        "given": "Krutika S.",
+        "family": "Gaonkar"
+      },
+      {
+        "given": "Jo Lynne",
+        "family": "Rokita"
+      },
+      {
+        "given": "Adam",
+        "family": "Kraya"
+      },
+      {
+        "given": "John",
+        "family": "Kuhn"
+      },
+      {
+        "given": "Winnie",
+        "family": "Liang"
+      },
+      {
+        "given": "Sara",
+        "family": "Byron"
+      },
+      {
+        "given": "Michael",
+        "family": "Berens"
+      },
+      {
+        "given": "Annette",
+        "family": "Molinaro"
+      },
+      {
+        "given": "Michael",
+        "family": "Prados"
+      },
+      {
+        "given": "Adam",
+        "family": "Resnick"
+      },
+      {
+        "given": "Sebastian M.",
+        "family": "Waszak"
+      },
+      {
+        "given": "Javad",
+        "family": "Nazarian"
+      },
+      {
+        "given": "Sabine",
+        "family": "Mueller"
+      }
+    ],
+    "container-title": "Clinical Cancer Research",
+    "container-title-short": "Clin Cancer Res",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          19
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gqh9gb",
+    "PMCID": "PMC9475246",
+    "PMID": "35852795",
+    "id": "doi:10.1158/1078-0432.ccr-22-0803"
   }
 ]

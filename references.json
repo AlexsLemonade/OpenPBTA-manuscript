@@ -361,7 +361,7 @@
         [
           "2023",
           4,
-          25
+          27
         ]
       ]
     },
@@ -397,7 +397,7 @@
         [
           "2023",
           4,
-          25
+          27
         ]
       ]
     },
@@ -23773,7 +23773,7 @@
         ]
       ]
     },
-    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references.json\nstandard_id: pubmed:26389418"
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references.json\noriginal_id: pmid:26389418\noriginal_standard_id: pmid:26389418\nstandard_id: pubmed:26389418"
   },
   {
     "title": "Embryonal Tumors of the Central Nervous System in Children: The Era of Targeted Therapeutics.",
@@ -23829,7 +23829,7 @@
     "URL": "https://www.ncbi.nlm.nih.gov/pubmed/30249036",
     "type": "article-journal",
     "id": "ynt8AIJ4",
-    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references.json\nstandard_id: pubmed:30249036"
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references.json\noriginal_id: pmid:30249036\noriginal_standard_id: pmid:30249036\nstandard_id: pubmed:30249036"
   },
   {
     "title": "The Inflammatory Milieu of Adamantinomatous Craniopharyngioma and Its Implications for Treatment.",
@@ -23873,7 +23873,7 @@
     "URL": "https://www.ncbi.nlm.nih.gov/pubmed/32075140",
     "type": "article-journal",
     "id": "t0e7Pt0B",
-    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references.json\nstandard_id: pubmed:32075140"
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references.json\noriginal_id: pmid:32075140\noriginal_standard_id: pmid:32075140\nstandard_id: pubmed:32075140"
   },
   {
     "title": "Telomerase activity in human development is regulated by human telomerase reverse transcriptase (hTERT) transcription and by alternate splicing of hTERT transcripts.",
@@ -23919,7 +23919,7 @@
     "URL": "https://www.ncbi.nlm.nih.gov/pubmed/9751630",
     "type": "article-journal",
     "id": "5FaCe0eC",
-    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references.json\nstandard_id: pubmed:9751630"
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references.json\noriginal_id: pmid:9751630\noriginal_standard_id: pmid:9751630\nstandard_id: pubmed:9751630"
   },
   {
     "id": "1CJTmbOqr",
@@ -25107,7 +25107,7 @@
         [
           "2023",
           4,
-          26
+          28
         ]
       ]
     },
@@ -25334,7 +25334,7 @@
         [
           "2023",
           4,
-          26
+          28
         ]
       ]
     },

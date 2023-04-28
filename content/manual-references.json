@@ -363,7 +363,7 @@
     }
   },
   {
-    "id": "pubmed:26389418",
+    "id": "pmid:26389418",
     "type": "chapter",
     "title": "Childhood Medulloblastoma and Other Central Nervous System Embryonal Tumors Treatment (PDQ®): Health Professional Version",
     "container-title": "PDQ Cancer Information Summaries",
@@ -2561,7 +2561,7 @@
     "abstract": "Pediatric Adamantinomatous Craniopharyngiomas (ACPs) are histologically benign brain tumors that often follow an aggressive clinical course. Their suprasellar location leaves them in close proximity to critical neurological and vascular structures and often results in significant neuroendocrine morbidity. Current treatment paradigms, involving surgical resection and radiotherapy, confer significant morbidity to patients and there is an obvious need to discover effective and safe alternative treatments. Recent years have witnessed significant efforts to fully detail the genomic, transcriptomic and proteomic make-up of these tumors, in an attempt to identify potential therapeutic targets. These studies have resulted in ever mounting evidence that inflammatory processes and the immune response play a critical role in the pathogenesis of both the solid and cystic portion of ACPs. Several inflammatory and immune markers have been identified in both the cyst fluid and solid tumor tissue of ACP. Due to the existence of effective agents that target them, IL-6 and immune checkpoint inhibitors seem to present the most likely immediate candidates for clinical trials of targeted immune-related therapy in ACP. If effective, such agents may result in a paradigm shift in treatment that ultimately reduces morbidity and results in better outcomes for our patients.",
     "URL": "https://www.ncbi.nlm.nih.gov/pubmed/32075140",
     "type": "article-journal",
-    "id": "pubmed:32075140"
+    "id": "pmid:32075140"
   },
   {
     "publisher": "Springer Science and Business Media LLC",
@@ -3620,7 +3620,7 @@
     "abstract": "Embryonal tumors (ET) of the central nervous system (CNS) in children encompass a wide clinical spectrum of aggressive malignancies. Until recently, the overlapping morphological features of these lesions posed a diagnostic challenge and undermined discovery of optimal treatment strategies. However, with the advances in genomic technology and the outpouring of biological data over the last decade, clear insights into the molecular heterogeneity of these tumors are now well delineated. The major subtypes of ETs of the CNS in children include medulloblastoma, atypical teratoid rhabdoid tumor (ATRT), and embryonal tumors with multilayered rosettes (ETMR), which are now biologically and clinically characterized as different entities. These important developments have paved the way for treatments guided by risk stratification as well as novel targeted therapies in efforts to improve survival and reduce treatment burden.",
     "URL": "https://www.ncbi.nlm.nih.gov/pubmed/30249036",
     "type": "article-journal",
-    "id": "pubmed:30249036"
+    "id": "pmid:30249036"
   },
   {
     "publisher": "Springer Science and Business Media LLC",
@@ -3903,6 +3903,6 @@
     "abstract": "The correlation between telomerase activity, telomere lengths, and cellular replicative capacity has led to the theory that maintenance of telomere lengths by telomerase acts as a molecular clock to control replicative capacity and senescence. Regulation of this molecular clock may have applications in the treatment of cell aging and tumorigenesis, although little is presently known about the regulation of telomerase activity. To investigate possible mechanisms of regulation, we examined telomerase activity and the expression of the human telomerase RNA subunit and the human telomerase reverse transcriptase protein (hTERT) during human fetal heart, liver, and kidney development. The human telomerase RNA subunit is expressed in all three tissues at all gestational ages examined. hTERT expression correlates with telomerase activity in the liver, where both are expressed at all ages surveyed, and in the heart, where both are present until the 11th gestational week but not thereafter. However, although telomerase activity in the kidney is suppressed after the 15th gestational week, the hTERT transcript can be detected until at least the 21st week. Reverse transcription-PCR using primers within the reverse transcriptase domain of hTERT show the presence of multiple alternately spliced transcripts in these tissues, corresponding to full-length message as well as spliced messages with critical reverse transcriptase motifs deleted. Of note, telomerase activity in the kidney is only present at those gestational ages when full-length hTERT message is expressed (until approximately week 15), with spliced transcripts continuing to be expressed at later stages of development. The tissue-specific and gestational-age dependent expression of hTERT mRNA seen in human development suggests the presence of at least two regulatory mechanisms controlling the activity of telomerase: transcriptional control of the hTERT gene and alternate splicing of hTERT transcripts.",
     "URL": "https://www.ncbi.nlm.nih.gov/pubmed/9751630",
     "type": "article-journal",
-    "id": "pubmed:9751630"
+    "id": "pmid:9751630"
   }
 ]

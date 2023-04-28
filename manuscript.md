@@ -382,9 +382,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/3a6a346f0f9e8172300e5acc176eaf1ceae82925/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/3a6a346f0f9e8172300e5acc176eaf1ceae82925/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/3a6a346f0f9e8172300e5acc176eaf1ceae82925/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/584d77f0a43efff0acc155dc0cd54e75bd761eea/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/584d77f0a43efff0acc155dc0cd54e75bd761eea/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/584d77f0a43efff0acc155dc0cd54e75bd761eea/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -406,9 +406,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/3a6a346f0f9e8172300e5acc176eaf1ceae82925/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/584d77f0a43efff0acc155dc0cd54e75bd761eea/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@3a6a346](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/3a6a346f0f9e8172300e5acc176eaf1ceae82925)
+from [AlexsLemonade/OpenPBTA-manuscript@584d77f](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/584d77f0a43efff0acc155dc0cd54e75bd761eea)
 on April 28, 2023.
 </em></small>
 
@@ -1565,6 +1565,14 @@ Code for determining authorship order can be found in the `count-contributions` 
 CSG's spouse was an employee of Alex's Lemonade Stand Foundation, which was a sponsor of this research.
 JAS, CLS, CJB, SJS, and JNT are or were employees of Alex's Lemonade Stand Foundation, a sponsor of this research.
 AJW is a member of the Scientific Advisory boards for Alexion and DayOne Biopharmaceuticals.
+
+## Inclusion and Diversity
+The CBTN worked to ensure gender and ethnic balance in the recruitment of human subjects and ensure sex balance in the selection of non-human subjects.
+The CBTN worked to ensure diversity in experimental samples through the selection of both cell lines and genomic datasets.
+One or more of the authors of this paper self-identifies as an under-represented ethnic minority in their field of research or within their geographical location.
+One or more authors of this paper self-identifies as a gender minority in their field of research. 
+One or more of the authors of this paper self-identifies as a member of the LGBTQIA+ community. 
+One or more of the authors of this paper received support from a program designed to increase minority representation in science. 
 
 ## Figure Titles and Legends
 

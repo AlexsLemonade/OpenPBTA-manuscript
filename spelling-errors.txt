@@ -91,6 +91,7 @@ koptyram
 Kraya
 kshrivats
 LauraEgolf
+LGBTQIA
 liberaliscomputing
 Lurie
 Madsen
@@ -114,7 +115,7 @@ orf
 PDGFRA
 petermadsenmd
 PHG
-pichairaman
+PichaiRaman
 PIK
 Poetsch
 QAH

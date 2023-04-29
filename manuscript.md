@@ -9,7 +9,7 @@ keywords:
 - classification
 - somatic variation
 lang: en-US
-date-meta: '2023-04-28'
+date-meta: '2023-04-29'
 author-meta:
 - Joshua A. Shapiro
 - Krutika S. Gaonkar
@@ -89,8 +89,8 @@ header-includes: |-
   <meta name="citation_title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="og:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
   <meta property="twitter:title" content="OpenPBTA: An Open Pediatric Brain Tumor Atlas" />
-  <meta name="dc.date" content="2023-04-28" />
-  <meta name="citation_publication_date" content="2023-04-28" />
+  <meta name="dc.date" content="2023-04-29" />
+  <meta name="citation_publication_date" content="2023-04-29" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -382,9 +382,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/" />
   <meta name="citation_pdf_url" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/584d77f0a43efff0acc155dc0cd54e75bd761eea/" />
-  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/584d77f0a43efff0acc155dc0cd54e75bd761eea/" />
-  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/584d77f0a43efff0acc155dc0cd54e75bd761eea/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/4c0a9f5ede5956abb5ac3c001f90184ecc777c75/" />
+  <meta name="manubot_html_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/4c0a9f5ede5956abb5ac3c001f90184ecc777c75/" />
+  <meta name="manubot_pdf_url_versioned" content="https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/4c0a9f5ede5956abb5ac3c001f90184ecc777c75/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -406,10 +406,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/584d77f0a43efff0acc155dc0cd54e75bd761eea/))
+([permalink](https://AlexsLemonade.github.io/OpenPBTA-manuscript/v/4c0a9f5ede5956abb5ac3c001f90184ecc777c75/))
 was automatically generated
-from [AlexsLemonade/OpenPBTA-manuscript@584d77f](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/584d77f0a43efff0acc155dc0cd54e75bd761eea)
-on April 28, 2023.
+from [AlexsLemonade/OpenPBTA-manuscript@4c0a9f5](https://github.com/AlexsLemonade/OpenPBTA-manuscript/tree/4c0a9f5ede5956abb5ac3c001f90184ecc777c75)
+on April 29, 2023.
 </em></small>
 
 ## Authors
@@ -1142,7 +1142,7 @@ We followed a similar process in our Manubot-powered [@doi:10.1371/journal.pcbi.
 
 ### Molecular Subtyping of OpenPBTA CNS Tumors
 
-Since 2000, neuro-oncology experts and the WHO have collaborated to iteratively redefine central nervous system (CNS) tumor classifications [@pmid:11895036; @doi:10.1007/s00401-007-0243-4].
+Since 2000, neuro-oncology experts and the WHO have collaborated to iteratively redefine central nervous system (CNS) tumor classifications [@pubmed:11895036; @doi:10.1007/s00401-007-0243-4].
 In 2016 [@doi:10.1007/s00401-016-1545-1], molecular subtypes driven by genetic alterations were integrated into these classifications.
 Since CBTN specimen collection began in 2011, most tumors lacked molecular subtype information when tissue was collected.
 Moreover, PBTA does not yet feature methylation arrays which are increasingly used to inform molecular subtyping and cancer diagnosis.
@@ -1322,7 +1322,7 @@ We suggest this classifier could be generally applied to infer _TP53_ function i
 We used gene expression data to predict telomerase activity using EXpression-based Telomerase ENzymatic activity Detection (`EXTEND`) [@doi:10.1038/s41467-020-20474-9] as a surrogate measure of malignant potential [@doi:10.1038/s41467-020-20474-9; @doi:10.1093/carcin/bgp268], where higher `EXTEND` scores indicate higher telomerase activity.
 Aggressive tumors such as DMGs, other HGGs, and MB had high `EXTEND` scores (**Figure {@fig:Fig4}D**), and low-grade lesions such as schwannomas, GNGs, DNETs, and other LGGs had among the lowest scores (**Table S3**), supporting previous reports that aggressive tumor phenotypes have higher telomerase activity [@doi:10.1007/s13277-016-5045-7; @doi:10.1038/labinvest.3700710; @doi:10.1007/s12032-016-0736-x; @doi:10.1111/j.1750-3639.2010.00372.x].
 While `EXTEND` scores were not significantly higher in tumors with _TERT_ promoter (TERTp) mutations (N = 6; Wilcoxon p-value = 0.1196), scores were significantly correlated with _TERC_ (R = 0.619, p < 0.01) and _TERT_ (R = 0.491, p < 0.01) log2 FPKM expression values (**Figure {@fig:S5}B-C**).
-Since catalytically-active telomerase requires full-length _TERT_, _TERC_, and certain accessory proteins [@pmid:9751630], we expect that `EXTEND` scores may not be exclusively correlated with _TERT_ alterations and expression.
+Since catalytically-active telomerase requires full-length _TERT_, _TERC_, and certain accessory proteins [@pubmed:9751630], we expect that `EXTEND` scores may not be exclusively correlated with _TERT_ alterations and expression.
 
 #### Hypermutant tumors share mutational signatures and have dysregulated **_TP53_**
 
@@ -1383,7 +1383,7 @@ Interestingly, although H3 K28-mutant and H3 wildtype tumors have different biol
 This pattern suggests these subtypes may be driven by common transcriptional programs, have other much stronger biological drivers than their known distinct epigenetic drivers, or we lack power to detect transcriptional differences.
 
 We performed GSVA for Hallmark cancer gene sets (**Figure {@fig:Fig5}B**) and quantified immune cell fractions using quanTIseq (**Figure {@fig:Fig5}C** and **Figure {@fig:S6}E**), results from which recapitulated previously-described tumor biology.
-For example, HGG, DMG, MB, and ATRT tumors are known to upregulate _MYC_ [@doi:10.3390/genes8040107] which in turn activates _E2F_ and S phase [@pmid:11511364].
+For example, HGG, DMG, MB, and ATRT tumors are known to upregulate _MYC_ [@doi:10.3390/genes8040107] which in turn activates _E2F_ and S phase [@pubmed:11511364].
 Indeed, we detected significant (Bonferroni-corrected p < 0.05) upregulation of _MYC_ and _E2F_ targets, as well as G2M (cell cycle phase following S phase) in MBs, ATRTs, and HGGs compared to several other cancer groups.
 In contrast, LGGs showed significant downregulation (Bonferroni-corrected p < 0.05, multiple cancer group comparisons) of these pathways.
 Schwannomas and neurofibromas, which have an inflammatory immune microenvironment of T and B lymphocytes and tumor-associated macrophages (TAMs), are driven by upregulation of cytokines such as IFN$\gamma$, IL-1, and IL-6, and TNF$\alpha$ [@doi:10.1093/noajnl/vdaa023].
@@ -1435,7 +1435,7 @@ By assessing _TP53_ and telomerase activity prospectively from expression data, 
 
 We identified enrichment of hallmark cancer pathways and characterized the immune cell landscape across pediatric brain tumors, demonstrating tumors in some histologies, such as schwannomas, craniopharyngiomas, and low-grade gliomas, may have a inflammatory tumor microenvironment.
 Notably, we observed upregulation of IFN$\gamma$, IL-1, and IL-6, and TNF$\alpha$ in craniopharyngiomas, tumors difficult to resect due to their anatomical location and critical surrounding structures.
-Neurotoxic side effects have been reported in response to IFN$\alpha$ immunotherapy [@doi:10.3171/2015.2.PEDS14656; @doi:10.5348/ijcri-2013-12-419-CR-13], leading researchers to propose additional immune vulnerabilities, such as IL-6 inhibition and immune checkpoint blockade, as cystic adamantinomatous craniopharyngiomas therapies [@doi:10.1093/neuonc/noy035; @pmid:34966342; @pmid:32075140; @doi:10.1007/s00401-018-1830-2; @doi:10.3389/fonc.2019.00791].
+Neurotoxic side effects have been reported in response to IFN$\alpha$ immunotherapy [@doi:10.3171/2015.2.PEDS14656; @doi:10.5348/ijcri-2013-12-419-CR-13], leading researchers to propose additional immune vulnerabilities, such as IL-6 inhibition and immune checkpoint blockade, as cystic adamantinomatous craniopharyngiomas therapies [@doi:10.1093/neuonc/noy035; @pubmed:34966342; @pubmed:32075140; @doi:10.1007/s00401-018-1830-2; @doi:10.3389/fonc.2019.00791].
 Our results support this endeavor.
 Finally, we reproduced the overall known poor infiltration of CD8+ T cells and general low expression of _CD274_ (PD-L1) in pediatric brain tumors, highlighting that we urgently need novel therapeutic strategies for tumors unlikely to respond to immune checkpoint blockade therapy.
 
@@ -1890,7 +1890,7 @@ We classified candidate chromothripsis regions as high- or low-confidence using 
 
 ##### Immune Profiling and Deconvolution (`immune-deconv` analysis module)
 
-We used the R package `immunedeconv` [@pmid:31510660] with the method `quanTIseq` [@doi:10.1186/s13073-019-0638-6] to deconvolute various immune cell types in tumors using collapsed FPKM RNA-seq, with samples batched by library type and then combined.
+We used the R package `immunedeconv` [@pubmed:31510660] with the method `quanTIseq` [@doi:10.1186/s13073-019-0638-6] to deconvolute various immune cell types in tumors using collapsed FPKM RNA-seq, with samples batched by library type and then combined.
 The `quanTIseq` deconvolution method directly estimates absolute fractions of 10 immune cell types that represent inferred proportions of the cell types in the mixture.
 Therefore, we utilized `quanTIseq` for inter-sample, intra-sample, and inter-histology score comparisons.
 
@@ -1920,7 +1920,7 @@ Based on pediatric cancer literature review, we added _MYBL1_ [@doi:10.1073/pnas
 #### Oncoprint figure generation (`oncoprint-landscape` analysis module)
 
 We used `Maftools` [@doi:10.1101/gr.239244.118] to generate oncoprints depicting the frequencies of canonical somatic gene mutations, CNVs, and fusions for the top 20 genes mutated across primary tumors within broad histologies of the OpenPBTA dataset.
-We collated canonical genes from the literature for low-grade gliomas (LGGs) [@doi:10.1186/s40478-020-00902-z], embryonal tumors [@doi:10.1038/nature22973; @doi:10.1007/s00401-020-02182-2; @doi:10.1186/s40478-020-00984-9; @doi:10.1016/j.ccell.2016.02.001; @doi:10.1038/s41598-020-59812-8], high-grade gliomas (HGGs) [@doi:10.1016/j.ccell.2017.08.017; @doi:10.1002/ijc.32258; @doi:10.1093/neuonc/noab106; @doi:10.1186/s40478-020-00905-w], and other tumors: ependymomas, craniopharyngiomas, neuronal-glial mixed tumors, histiocytic tumors, chordoma, meningioma, and choroid plexus tumors [@pmid:28623522; @doi:10.1016/j.ccell.2015.04.002; @doi:10.1038/nature13109; @doi:10.1038/s41525-017-0014-7; @doi:10.3171/2019.8.JNS191266; @doi:10.1007/s00401-016-1539-z; @doi:10.1093/neuonc/noaa267; @pmid:12466115; @doi:10.1016/j.jaad.2017.05.059; @doi:10.1186/s40478-020-01056-8].
+We collated canonical genes from the literature for low-grade gliomas (LGGs) [@doi:10.1186/s40478-020-00902-z], embryonal tumors [@doi:10.1038/nature22973; @doi:10.1007/s00401-020-02182-2; @doi:10.1186/s40478-020-00984-9; @doi:10.1016/j.ccell.2016.02.001; @doi:10.1038/s41598-020-59812-8], high-grade gliomas (HGGs) [@doi:10.1016/j.ccell.2017.08.017; @doi:10.1002/ijc.32258; @doi:10.1093/neuonc/noab106; @doi:10.1186/s40478-020-00905-w], and other tumors: ependymomas, craniopharyngiomas, neuronal-glial mixed tumors, histiocytic tumors, chordoma, meningioma, and choroid plexus tumors [@pubmed:28623522; @doi:10.1016/j.ccell.2015.04.002; @doi:10.1038/nature13109; @doi:10.1038/s41525-017-0014-7; @doi:10.3171/2019.8.JNS191266; @doi:10.1007/s00401-016-1539-z; @doi:10.1093/neuonc/noaa267; @pubmed:12466115; @doi:10.1016/j.jaad.2017.05.059; @doi:10.1186/s40478-020-01056-8].
 
 #### Mutational Signatures (`mutational-signatures` analysis module)
 
@@ -1974,7 +1974,7 @@ Embryonal tumors were included in non-MB and non-ATRT embryonal tumor subtyping 
 4. A pathology diagnosis of "Neuroblastoma", where the tumor was not indicated to be peripheral or metastatic and was located in the CNS.
 5. Any sample with "embryonal tumor with multilayer rosettes, ros (who grade iv)", "embryonal tumor, nos, congenital type", "ependymoblastoma" or "medulloepithelioma" in pathology free text.
 
-Non-MB and non-ATRT embryonal tumors identified with the above criteria were further subtyped (`molecular-subtyping-embryonal` analysis module) using the criteria below [@pmid:30249036; @doi:10.1007/s00381-017-3551-6; @pmid:26389418; @doi:10.3390/ijms21051818].
+Non-MB and non-ATRT embryonal tumors identified with the above criteria were further subtyped (`molecular-subtyping-embryonal` analysis module) using the criteria below [@pubmed:30249036; @doi:10.1007/s00381-017-3551-6; @pubmed:26389418; @doi:10.3390/ijms21051818].
 
 1. Any RNA-seq biospecimen with _LIN28A_ overexpression, plus a _TYH1_ fusion (5' partner) with a gene adjacent or within the C19MC miRNA cluster and/or copy number amplification of the C19MC region was subtyped as `ETMR, C19MC-altered` (Embryonal tumor with multilayer rosettes, chromosome 19 miRNA cluster altered) [@doi:10.1007/s00401-012-1068-3; @doi:10.1038/ng.2849].
 2. Any RNA-seq biospecimen with _LIN28A_ overexpression, a _TTYH1_ fusion (5' partner) with a gene adjacent or within the C19MC miRNA cluster but no evidence of copy number amplification of the C19MC region was subtyped as `ETMR, NOS` (Embryonal tumor with multilayer rosettes, not otherwise specified) [@doi:10.1007/s00401-012-1068-3; @doi:10.1038/ng.2849].
@@ -2063,7 +2063,7 @@ We adopted the following rules for calling either `TP53 lost` or `TP53 activated
 Participant metadata included a reported gender.
 We used WGS germline data, in concert with the reported gender, to predict participant genetic sex so that we could identify sexually dimorphic outcomes.
 This analysis may also indicate samples that may have been contaminated.
-We used the `idxstats` utility from `SAMtools` [@pmid:19505943] to calculate read lengths, the number of mapped reads, and the corresponding chromosomal location for reads to the X and Y chromosomes.
+We used the `idxstats` utility from `SAMtools` [@pubmed:19505943] to calculate read lengths, the number of mapped reads, and the corresponding chromosomal location for reads to the X and Y chromosomes.
 We used the fraction of total normalized X and Y chromosome reads that were attributed to the Y chromosome as a summary statistic.
 We manually reviewed this statistic in the context of reported gender and determined that a threshold of less than 0.2 clearly delineated female samples.
 We marked fractions greater than 0.4 as predicted males, and we marked samples with values in the inclusive range 0.2-0.4 as unknown.
@@ -2085,7 +2085,7 @@ We derived this signature by comparing telomerase-positive tumors and tumors wit
 #### Survival models (`survival-analysis` analysis module)
 
 We calculated overall survival (OS) as days since initial diagnosis and performed several survival analyses on the OpenPBTA cohort using the [`survival` R package](https://cran.r-project.org/package=survival).
-We performed survival analysis for patients by HGG subtype using the Kaplan-Meier estimator [@doi:10.2307/2281868] and a log-rank test (Mantel-Cox test) [@pmid:5910392] on the different HGG subtypes.
+We performed survival analysis for patients by HGG subtype using the Kaplan-Meier estimator [@doi:10.2307/2281868] and a log-rank test (Mantel-Cox test) [@pubmed:5910392] on the different HGG subtypes.
 Next, we used multivariate Cox (proportional hazards) regression analysis [@doi:10.1111/j.2517-6161.1972.tb00899.x] to model the following: a) `tp53 scores + telomerase scores + extent of tumor resection + LGG group + HGG group`, in which `tp53 scores` and `telomerase scores` are numeric, `extent of tumor resection` is categorical, and `LGG group` and `HGG group` are binary variables indicating whether the sample is in either broad histology grouping, b) `tp53 scores + telomerase scores + extent of tumor resection` for each `cancer_group` with an N>=3 deceased patients (DIPG, DMG, HGG, MB, and EPN), and c) `quantiseq cell type fractions + CD274 expression + extent of tumor resection` for each `cancer_group` with an N>=3 deceased patients (DIPG, DMG, HGG, MB, and EPN), in which `quantiseq cell type fractions` and `CD274 expression` are numeric.
 
 
@@ -2127,6 +2127,7 @@ Next, we used multivariate Cox (proportional hazards) regression analysis [@doi:
 | Merged summary files                          | This project                                  | https://cavatica.sbgenomics.com/u/cavatica/openpbta                                                           |
 | Merged summary files and downstream analyses  | This project                                  | https://github.com/AlexsLemonade/OpenPBTA-analysis [@doi:10.5281/zenodo.7803335]                              |
 | Processed data                                | This project                                  | https://pedcbioportal.kidsfirstdrc.org/study/summary?id=openpbta                                              |
+| Data underlying figures and molecular alterations | This project                              | [@doi:10.5281/zenodo.7877739]
 |                                               |                                               |                                                                                                               |
 | **Experimental models: Cell lines**           |                                               |                                                                                                               |
 | CBTN pediatric brain tumor-derived cell lines | [@doi:10.1093/neuonc/noz192]                  | See **Table S1** for identifiers                                                                              |
@@ -2134,9 +2135,9 @@ Next, we used multivariate Cox (proportional hazards) regression analysis [@doi:
 | **Software and algorithms**                   |                                               |                                                                                                               |
 | Data processing and analysis software         | Multiple                                      | See **Table S5** for identifiers                                                                              |
 | OpenPBTA workflows repository                 | This project                                  | https://github.com/d3b-center/OpenPBTA-workflows [@doi:10.5281/zenodo.6968175]                                |
-| OpenPBTA analysis repository                  | This project                                  | https://github.com/AlexsLemonade/OpenPBTA-analysis [@doi:10.5281/zenodo.7803335]                              |
+| OpenPBTA analysis repository                  | This project                                  | https://github.com/AlexsLemonade/OpenPBTA-analysis [@doi:10.5281/zenodo.7877755]                              |
 | OpenPBTA manuscript repository                | This project                                  | https://github.com/AlexsLemonade/OpenPBTA-manuscript                                                          |
-|                                               |                                               |                                                                                                               |
+|                                               |                                               |
 | **Other**                                     |                                               |                                                                                                               |
 | TCGA WXS dataset                              | NIH The Cancer Genome Atlas (TCGA)            | dbGAP phs000178.v11.p8                                                                                        |
 | Cancer hotspots                               | MSKCC                                         | https://www.cancerhotspots.org/#/download (v2)                                                                |

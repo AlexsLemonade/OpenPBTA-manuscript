@@ -1,3 +1,5 @@
+# Open Pediatric Brain Tumor Atlas
+
 ---
 
 **OpenPBTA is now published**:
@@ -9,8 +11,6 @@ Shapiro, J.A., Gaonkar, K.S., Spielman, S.J., Savonen, C.L., Bethell, C.J., Jin,
 Please check out [`d3b-center/OpenPedCan-analysis`](https://github.com/d3b-center/OpenPedCan-analysis) for updates to PBTA data as well as other data sources.
 
 ---
-
-# Automated scholarly manuscripts on GitHub
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 

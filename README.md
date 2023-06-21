@@ -1,4 +1,16 @@
-# Automated scholarly manuscripts on GitHub
+# Open Pediatric Brain Tumor Atlas
+
+---
+
+**OpenPBTA is now published**:
+
+Shapiro, J.A., Gaonkar, K.S., Spielman, S.J., Savonen, C.L., Bethell, C.J., Jin, R., Rathi, K.S., Zhu, Y., Egolf, L.E., Farrow, B.K., et al. (2023). OpenPBTA: The Open Pediatric Brain Tumor Atlas. Cell Genom., 100340. [10.1016/j.xgen.2023.100340](https://doi.org/10.1016/j.xgen.2023.100340).
+
+**We will no longer be accepting contributions to this repository.**
+
+Please check out [`d3b-center/OpenPedCan-analysis`](https://github.com/d3b-center/OpenPedCan-analysis) for updates to PBTA data as well as other data sources.
+
+---
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
